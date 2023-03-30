@@ -1,0 +1,117 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [For permission to occupy a brick building near City Bridge]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1876/76-08-00b-proofed.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>J76/8598, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria .</msName>
+                  <altIdentifier>
+                     <idno>76.08.00b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [For permission to occupy a brick building near City Bridge]...</title>
+               <date when="1876-08">1876-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1876/76-08-00b-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>John MacPherson</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [For permission to occupy a brick building near City Bridge]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">76.08.00b</p>
+            <p rend="correspondent" xml:lang="en">To John MacPherson</p>
+            <p rend="location" xml:lang="en">J76/8598, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria .</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; font-size: 12pt; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>Letter not found; item is a register entry only, for an item registered on 14 August 1876.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[For permission to occupy a brick building near City Bridge]<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">The response to M's request is recorded. <seg style="background-color: #ffff00; ">Is this true?</seg>
+                  </p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

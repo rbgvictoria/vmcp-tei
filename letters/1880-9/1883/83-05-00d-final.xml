@@ -1,0 +1,131 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The learned Government botanist has written to say that he will always take a vivid interest in this institution, and he has very generously presented a portfolio containing examples of geneva ¶ type...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1883/83-05-00d-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>83.05.00d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[The learned Government botanist has written to say that he will always take a vivid interest in this institution, and he has very generously presented a portfolio containing examples of geneva ¶ type...</title>
+               <date when="1883-05">1883-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1883/83-05-00d-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the Bendigo School of Mines</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[The learned Government botanist has written to say that he will always take a vivid interest in this institution, and he has very generously presented a portfolio containing examples of geneva ¶ type...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">
+               <seg style="">83.05.00d</seg>
+            </p>
+            <p rend="correspondent" xml:lang="en">
+               <seg style="">To the Bendigo School of Mines</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found. For the text given here, see the report of the monthly meeting of the School of Mines held on 4 May 1883 in <seg style="font-style: italic; ">Bendigo advertiser</seg>, 5 May 1883, p. 3. The text is introduced by: 'The president has been in communication with Baron Von Mueller, K.C.M.G., respecting poisonous plants, which it is alleged are found in some portions of this district.'</p>
+               </note>
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[The learned Government botanist has written to say that he will always take a vivid interest in this institution, and he has very generously presented a portfolio containing examples of geneva</seg>
+               <seg style="">
+                  <note xml:id="ftn2" type="footnote" n="2">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                        xml:lang="en">
+                        <seg style="font-style: italic; ">typesetter's error for</seg> genera.</p>
+                  </note>
+               </seg>
+               <seg style=""> and species of plant injurious to stock, which are indigenous to the colony of Victoria, so that those interested may readily determine the character of any growing in their neighbourhood which they have reason to believe are hurtful.]</seg>
+               <seg style="">
+                  <note xml:id="ftn3" type="footnote" n="3">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                        xml:lang="en">The report concludes: 'The co-operation of gentlemen so eminent in science as those mentioned must necessarily be highly beneficial to the School of Mines.' (Prior to the paagraph about M, the report noted that 'Professor M'Coy, Mr. Cosmo Newbury, and Mr. Ellery' had also agreed to provide the School with specimens and instruments.) <space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

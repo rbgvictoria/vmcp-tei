@@ -1,0 +1,131 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Australasian Office. ¶ Melbourne  ¶ April 25  ¶ 189 ¶ 4 ¶  ¶ The Editor gives his best thanks to Mr Macdonald. ¶  ¶ With the Baron's memo as a guide, the event has been found recorded in the Austr...</title>
+            <author>[the Editor of the Australasian]</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/Mentions/1890-9/M94-04-25-draft.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>A38, The Royal Geographical Society of Australasia (Victorian Branch), Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <altIdentifier>
+                     <idno>M94.04.25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>[the Editor of the Australasian]</author>
+               <title>The Australasian Office. ¶ Melbourne  ¶ April 25  ¶ 189 ¶ 4 ¶  ¶ The Editor gives his best thanks to Mr Macdonald. ¶  ¶ With the Baron's memo as a guide, the event has been found recorded in the Austr...</title>
+               <date when="1894-04-25">1894-04-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/Mentions/1890-9/M94-04-25-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Alexander Macdonald</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">The Australasian Office. ¶ Melbourne  ¶ April 25  ¶ 189 ¶ 4 ¶  ¶ The Editor gives his best thanks to Mr Macdonald. ¶  ¶ With the Baron's memo as a guide, the event has been found recorded in the Austr...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">M94.04.25</p>
+            <p rend="correspondent" xml:lang="en">From [the Editor of the Australasian] to Alexander Macdonald</p>
+            <p rend="location" xml:lang="en">A38, The Royal Geographical Society of Australasia (Victorian Branch), Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">MS annotation presumably by Macdonald: 'See Australasian <seg style="">
+                        <hi rend="underline">28/4/94</hi>
+                     </seg>'.</p>
+               </note>The Australasian Office.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">
+               <seg>Melbourne </seg>April 25 <seg>189</seg>4</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The Editor gives his best thanks to Mr Macdonald.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>With the Baron's memo as a guide, the event has been found recorded in the Australasian of Dec 4. 1880. It happened in October.<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">Look up paper on these dates.</seg>
+                  </p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

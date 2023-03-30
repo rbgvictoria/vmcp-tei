@@ -1,0 +1,1388 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[August 1857] ¶ Pinus desirable for the Melbourne  ¶ bot. garden...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1850-9/1857/57-08-00a-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RBG Kew, Directors' letters, vol. LXXIV, Australia letters 1851-8, letter no. 140.</msName>
+                  <altIdentifier>
+                     <idno>57.08.00a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[August 1857] ¶ Pinus desirable for the Melbourne  ¶ bot. garden...</title>
+               <date when="1857-08">1857-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1850-9/1857/57-08-00a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Glyptostrobus heterophyllus</term>
+               <term>Chamaecyparis sphaeroidea</term>
+               <term>Sciadopithys verticillata</term>
+               <term>Cephalotaxis pedenculata</term>
+               <term>Saxona Gothaea conspicua</term>
+               <term>Libocedrus tetragona </term>
+               <term>Wellingtonia gigantea</term>
+               <term>Juniperus Bermudiana</term>
+               <term>Podocarpus Purdieana</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/7eef6dbe-3e4e-46ba-b657-f61abb58d842">Sequoia sempervirens</term>
+               <term>Dacrydium Franklini</term>
+               <term>Juniperus phoenicia</term>
+               <term>Podocarpus coriacea</term>
+               <term>Cupressus funebris</term>
+               <term>Dammara Orientalis</term>
+               <term>Juniperus drupacea</term>
+               <term>Juniperus excelsa </term>
+               <term>Libocedrus Doniana</term>
+               <term>Pinus Nordmanniana</term>
+               <term>Pinus occidentalis</term>
+               <term>Biotia orientalis</term>
+               <term>Pinus Canadiensis</term>
+               <term>Pinus Canariensis</term>
+               <term>Pinus Lambertiana</term>
+               <term>Pinus tuberculata</term>
+               <term>Juniperus Sabina</term>
+               <term>Pinus Brunoniana</term>
+               <term>Pinus Gerardiana</term>
+               <term>Pinus leiophylla</term>
+               <term>Pinus Massoniana</term>
+               <term>Pinus microcarpa</term>
+               <term>Pinus Montezumae</term>
+               <term>Pinus orientalis</term>
+               <term>Pinus variabilis</term>
+               <term>Thuja orientalis</term>
+               <term>Biotia pendula </term>
+               <term>Pinus bractiata</term>
+               <term>Pinus Douglasii</term>
+               <term>Pinus Menziesii</term>
+               <term>Pinus monticola</term>
+               <term>Pinus religiosa</term>
+               <term>Pinus amabilis</term>
+               <term>Pinus balsamea</term>
+               <term>Pinus Coulteri</term>
+               <term>Pinus Dahurica</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/53999060-2e07-4a7b-888d-780dada7c88d">Pinus muricata</term>
+               <term>Pinus resinosa</term>
+               <term>Pinus serotina</term>
+               <term>Pinus Sinensis</term>
+               <term>Pinus Webbiana</term>
+               <term>Pinus Fraseri</term>
+               <term>Pinus grandis</term>
+               <term>Pinus nobilis</term>
+               <term>Pinus obovata</term>
+               <term>Pinus pendula</term>
+               <term>Pinus Pindrow</term>
+               <term>Pinus Pinsapo</term>
+               <term>Pinus pungens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e8152c79-5ab0-4e24-8f65-c210a70532bb">Pinus radiata</term>
+               <term>Pinus Sabiana</term>
+               <term>Pinus Strobus</term>
+               <term>Thuja Doniana</term>
+               <term>Thuja pendula</term>
+               <term>Thuja plicata</term>
+               <term>Pinus Cedrus</term>
+               <term>Pinus Pichta</term>
+               <term>Pinus Abies</term>
+               <term>Pinus inops</term>
+               <term>Pinus Larix</term>
+               <term>Pinus mitis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/92f429ae-9882-461f-b2f1-420a2291ff2a">Pinus nigra</term>
+               <term>Pinus Taeda</term>
+               <term>Pinus alba</term>
+               <term>Fitzroya </term>
+               <term>Doniana </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/676a7579-990b-40df-bc3a-2b500a2a750c">Ephedra</term>
+               <term>Gnetum</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>table</term>
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William Hooker</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[August 1857] ¶ Pinus desirable for the Melbourne  ¶ bot. garden...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">57.08.00a</p>
+            <p rend="correspondent" xml:lang="en">To William Hooker</p>
+            <p rend="location" xml:lang="en">RBG Kew, Directors' letters, vol. LXXIV, Australia letters 1851-8, letter no. 140.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">[August 1857]<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Although separated in the archive, the list almost certainly accompanied M to W. Hooker, 10 August 1857. See also M to W. Hooker, 15 July 1857.</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">Pinus desirable for the Melbourne </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">bot. garden</p>
+            <table n="Table1">
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Juniperus%20drupacea">Juniperus drupacea</name>. Labill</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Orient.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="8"/>Sabina L. S.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Eur.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="8"/>excelsa Bieb.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Himal</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="8"/>phoenicia L.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="8"/>Bermudiana L</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Libocedrus (Thuja) <name key="Doniana%20">Doniana </name>Endl.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">N.Z.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="8"/>tetragona Endl.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Biotia (Thuja) orientalis Don.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">China</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="5"/>" <space unit="chars" quantity="3"/>pendula Endl.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">China</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Thuja%20plicata">Thuja plicata</name> Don.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">N. Amer.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Cupressus%20funebris">Cupressus funebris</name> Endl.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">China</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Chamaecyparis%20sphaeroidea">Chamaecyparis sphaeroidea</name> Spach</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">N Amer.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Glyptostrobus%20heterophyllus">Glyptostrobus heterophyllus</name> Endl.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">China</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Pinus%20Brunoniana">Pinus Brunoniana</name> Wall</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Nepal</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Canadiensis L.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Douglasii Sabine</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Mexico.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>bractiata Don.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">N. Amer</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>nobilis Dougl.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Fraseri Pursh.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>religiosa <space unit="chars" quantity="1"/>H.B.&amp;K pl</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Mexico</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Nordmanniana</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Abies</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>balsamea</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>amabilis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>grandis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Pindrow</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Webbiana</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Pichta</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Pinsapo</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Menziesii</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>alba</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>nigra</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>orientalis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>obovata</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Dahurica</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>pendula</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>microcarpa</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Larix</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Cedrus</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Strobus</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Pinus%20monticola">Pinus monticola</name>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Lambertiana</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Montezumae</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>occidentalis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>leiophylla</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Sinensis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Gerardiana</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Sabiana<note xml:id="ftn2" type="footnote" n="2">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                              xml:lang="en">
+                              <seg style="font-style: italic; ">sabiniana</seg>?</p>
+                        </note>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Coulteri</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>muricata</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>radiata</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>tuberculata</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>serotina</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Taeda</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Canariensis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>pungens</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>inops</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>mitis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>variabilis</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>Massoniana</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="1"/>resinosa</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Dammara%20Orientalis">Dammara Orientalis</name>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Sequoia%20sempervirens">Sequoia sempervirens</name>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Sciadopithys<note xml:id="ftn3" type="footnote" n="3">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                              xml:lang="en">
+                              <seg style="font-style: italic; ">Sciadopitys</seg>?</p>
+                        </note> verticillata</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Podocarpus%20coriacea">Podocarpus coriacea</name>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>" <space unit="chars" quantity="6"/>Purdieana</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Dacrydium%20Franklini">Dacrydium Franklini</name>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Cephalotaxis%20pedenculata">Cephalotaxis pedenculata</name>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Ephedra">Ephedra</name> any</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Gnetum">Gnetum</name> any</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Wellingtonia%20gigantea">Wellingtonia gigantea</name>.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Saxona Gothaea<note xml:id="ftn4" type="footnote" n="4">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                              xml:lang="en">
+                              <seg style="font-style: italic; ">Saxegothaea</seg>?</p>
+                        </note> conspicua</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Fitzroya%20">Fitzroya </name>sp. </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+            </table>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Biotia%20orientalis">Biotia orientalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Biotia%20pendula%20">Biotia pendula </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cephalotaxis%20pedenculata">Cephalotaxis pedenculata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chamaecyparis%20sphaeroidea">Chamaecyparis sphaeroidea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cupressus%20funebris">Cupressus funebris</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dacrydium%20Franklini">Dacrydium Franklini</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dammara%20Orientalis">Dammara Orientalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Doniana%20">Doniana </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ephedra">Ephedra</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Fitzroya%20">Fitzroya </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Glyptostrobus%20heterophyllus">Glyptostrobus heterophyllus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gnetum">Gnetum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juniperus%20Bermudiana">Juniperus Bermudiana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juniperus%20drupacea">Juniperus drupacea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juniperus%20excelsa%20">Juniperus excelsa </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juniperus%20phoenicia">Juniperus phoenicia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juniperus%20Sabina">Juniperus Sabina</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Libocedrus%20Doniana">Libocedrus Doniana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Libocedrus%20tetragona%20">Libocedrus tetragona </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Abies">Pinus Abies</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20alba">Pinus alba</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20amabilis">Pinus amabilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20balsamea">Pinus balsamea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20bractiata">Pinus bractiata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Brunoniana">Pinus Brunoniana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Canadiensis">Pinus Canadiensis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Canariensis">Pinus Canariensis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Cedrus">Pinus Cedrus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Coulteri">Pinus Coulteri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Dahurica">Pinus Dahurica</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Douglasii">Pinus Douglasii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Fraseri">Pinus Fraseri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Gerardiana">Pinus Gerardiana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20grandis">Pinus grandis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20inops">Pinus inops</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Lambertiana">Pinus Lambertiana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Larix">Pinus Larix</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20leiophylla">Pinus leiophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Massoniana">Pinus Massoniana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Menziesii">Pinus Menziesii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20microcarpa">Pinus microcarpa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20mitis">Pinus mitis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Montezumae">Pinus Montezumae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20monticola">Pinus monticola</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20muricata">Pinus muricata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20nigra">Pinus nigra</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20nobilis">Pinus nobilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Nordmanniana">Pinus Nordmanniana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20obovata">Pinus obovata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20occidentalis">Pinus occidentalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20orientalis">Pinus orientalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20pendula">Pinus pendula</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Pichta">Pinus Pichta</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Pindrow">Pinus Pindrow</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Pinsapo">Pinus Pinsapo</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20pungens">Pinus pungens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20radiata">Pinus radiata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20religiosa">Pinus religiosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20resinosa">Pinus resinosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Sabiana">Pinus Sabiana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20serotina">Pinus serotina</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Sinensis">Pinus Sinensis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Strobus">Pinus Strobus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Taeda">Pinus Taeda</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20tuberculata">Pinus tuberculata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20variabilis">Pinus variabilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pinus%20Webbiana">Pinus Webbiana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Podocarpus%20coriacea">Podocarpus coriacea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Podocarpus%20Purdieana">Podocarpus Purdieana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Saxona%20Gothaea%20conspicua">Saxona Gothaea conspicua</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sciadopithys%20verticillata">Sciadopithys verticillata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sequoia%20sempervirens">Sequoia sempervirens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thuja%20Doniana">Thuja Doniana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thuja%20orientalis">Thuja orientalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thuja%20pendula">Thuja pendula</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thuja%20plicata">Thuja plicata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Wellingtonia%20gigantea">Wellingtonia gigantea</name>.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

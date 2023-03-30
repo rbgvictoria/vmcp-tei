@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Mr. P. Ramel writes to the President on 18 July informing him that Dr. Mueller, by a letter of 24 May, informing him that the large collection of Luxembourg vines sent by our Society to the Melbourne...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1862/62-05-24c-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>62.05.24c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[Mr. P. Ramel writes to the President on 18 July informing him that Dr. Mueller, by a letter of 24 May, informing him that the large collection of Luxembourg vines sent by our Society to the Melbourne...</title>
+               <date when="1862-05-24">1862-05-24</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1862/62-05-24c-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="51">English</language>
+            <language ident="de" usage="49">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Prospero Ramel</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[Mr. P. Ramel writes to the President on 18 July informing him that Dr. Mueller, by a letter of 24 May, informing him that the large collection of Luxembourg vines sent by our Society to the Melbourne...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">62.05.24c</p>
+            <p rend="correspondent" xml:lang="de">To Prospero Ramel</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Bulletin de la Société Impériale Zoologique d'Acclimatation</seg>
+                     <seg style="">, vol. 9 (1862), p. 709.</seg>
+                  </p>
+                  <space dim="vertical" unit="lines" quantity="1"/>
+               </note>
+               <space dim="horizontal" extent="tab"/>[<seg style="">M. P. Ramel écrit à M. le Président, en date du 18 juillet, pour l'informer que M. le docteur Mueller, par une lettre du 24 mai, lui annonce que la grande collection des Vignes du Luxembourg adressée par notre Société à la Société d'acclimatation de Melbourne par le </seg>
+               <seg style="font-style: italic; ">LincoInshire</seg>
+               <seg style="">, est arrivée dans d'assez bonnes conditions pour que la plus grande partie ait déjà repris. Cette lettre renferme une liste imprimée de la collection considérable des animaux réunis actuellement au Jardin botanique et zoologique de Melbourne.]</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[Mr. P. Ramel writes to the President on 18 July informing him that Dr. Mueller, by a letter of 24 May, informing him that the large collection of Luxembourg vines sent by our Society to the Melbourne Acclimatisation Society per </seg>
+               <seg style="font-style: italic; ">LincoInshire</seg>
+               <seg style="">, has arrived in fairly good condition so that the greater part has already recovered. This letter contains a printed list of the considerable collection of animals currently gathered at the Botanical and Zoological Garden of Melbourne.]</seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
