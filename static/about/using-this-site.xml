@@ -1,0 +1,296 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Using this site ¶ General usage notes for this site are provided below. User testing of the website has revealed a small number of issues that affect certain operations or outputs–these are indicated ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/static/about/using-this-site.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Using this site ¶ General usage notes for this site are provided below. User testing of the website has revealed a small number of issues that affect certain operations or outputs–these are indicated ...</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/static/about/using-this-site.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>hyperlink</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>Heading 1</term>
+               <term>First paragraph</term>
+               <term>Definition</term>
+               <term>Text body</term>
+               <term>Heading 2</term>
+               <term>Quotations</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Using this site ¶ General usage notes for this site are provided below. User testing of the website has revealed a small number of issues that affect certain operations or outputs–these are indicated ...</supplied>
+            </head>
+            <ab rend="Heading%201"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 115%; font-weight: bold; "
+                type="heading">Using this site</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">General usage notes for this site are provided below. User testing of the website has revealed a small number of issues that affect certain operations or outputs–these are indicated where appropriate. Accordingly, users should be aware of certain aspects of the site that might not perform as expected. Any additional issues should be reported to <ref target="mailto:muellercorrespondence@rbg.vic.gov.au">
+                  <seg rend="Definition" style="">muellercorrespondence@rbg.vic.gov.au</seg>
+               </ref>.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Not all of the letters held by Royal Botanic Gardens Victoria are published here. In addition to those that have yet to be processed, any letters deemed by the editors not to be in a publishable state are excluded.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">General searches:</seg> On all pages except the Search page there is a search box at the top right labelled ‘Search letters’. Search parameters may include single words linked by the operators AND, NOT or OR, wildcards (represented by an asterisk *), and phrases contained within quotation marks, such as “native plants”.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">For example: <seg style="font-style: italic; ">Ladies NOT Leichhardt</seg> will return correspondence where ‘Ladies’ are mentioned, excluding entries that feature the name ‘Leichhardt’; <seg style="font-style: italic; ">Ladies AND Leic*ardt</seg> will include entries that feature ‘Ladies’ and also the name ‘Leichhardt’, along with its most common misspellings.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Two words entered without an operator will function as an OR search. Wildcards are not supported in phrase searches. Single word searches can be linked with phrase searches using the operators AND, NOT, or OR, e.g., Albany AND “King Georges”; Albany OR “King Georges”. Searches are sensitive to accented and unaccented characters but are not case sensitive. This can be important when searching for names that are inconsistently Anglicised by authors. For example, the New South Wales collector appears as both Wilhelm Bäuerlen or Baeuerlen, while Ferdinand Mueller is variously addressed as Müeller, Mueller, Müller or Muller. The simplest way to find all variants is to search using a wild card: e.g. ‘B*erlen AND M*ller’.</p>
+            <ab rend="Heading%202"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 14pt; font-style: italic; font-weight: bold; "
+                type="heading">Search page</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">The Search page allows users to search the corpus of letters and browse the output via a list of returned results. The list of letters generated on the Search page is formatted to a fixed standard. Each letter is represented by an automatically generated summary comprising, in order:</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">the correspondents involved;</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">the date of the letter;</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">and the first lines of text.</p>
+            <p rend="First%20paragraph" style="" xml:lang="en">For items not written in English the title is taken from the translation. This format allows for a quick assessment of each letter’s contents. Where a particular term is searched for, the phrase in which it appears in the letter is also shown below the aforementioned summary, with the term in question highlighted.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">There are six filter options listed on the left-hand side of the page that may help users to identify correspondence of interest. Letters can currently be filtered by date; original language; correspondents; author, recipient; and taxon name.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Filters</seg>: There are six filters that help identify files of interest. Where a filter has many parameters, the parameters are presented as scrolling fields. Multiple filters can be applied at the same time.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Date</seg>: The list of decades when selected opens to years within that decade and can be further opened to months within years, and days within months. The number of letters is shown in parentheses.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Original Language</seg>: the language of the original manuscript; non-English files are mostly in German, but other languages occur.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Correspondents</seg>: The names of correspondents, organisations or a surrogate, sorted by given name, with pseudonyms enclosed in quotation marks coming first. The number of items for each correspondent is given in parentheses. The Correspondents, Author and Recipient filters are linked, and selecting one or more names in one will constrain the list of names displayed in the other filter fields only to those involved in correspondence with the selected individual(s).</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Author</seg>: the author of documents, including organisations, also sorted by given name.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Recipient</seg>: the person or organisation to which the item was addressed. In some cases, no specific person or organisation was addressed, and the nature of the document is described, e.g., ‘Testimonial’, or ‘Circular’.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Taxon name:</seg> The names of taxa, or apparent taxa, generated as a metadata list for each letter. See <ref target="file:///C:\Users\nklazenga\Downloads\Preliminary%20updated\Editorial%20practice.doc">
+                  <seg rend="Definition" style="">Editorial practice</seg>
+               </ref> for an explanation of the derivation of this list. Note that taxon names may be capitalised in some source documents, thus <seg style="font-style: italic; ">Eucalyptus viminalis</seg> was sometimes written <seg style="font-style: italic; ">Eucalyptus Viminalis</seg> and, being case sensitive, both variants need to be included in a browser search to capture all records.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Not that filter selections will not automatically clear between searches; they must be manually deselected or the page refreshed before initiating a new search of the full corpus.</p>
+            <ab rend="Heading%202"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 14pt; font-style: italic; font-weight: bold; "
+                type="heading">Advanced Search</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">An advanced search can be made using the five search boxes on the Search and Browse page. These allow users to search by:</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">Text</seg> searches the content of the transcription in the same manner as the general search box described above.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">Title</seg> searches the automatically generated summary title text and is an alternative to using the text search box to find mentions of people or roles who are not authors or recipients of the letter. This search is restricted to the first few lines of each letter.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">Manuscript</seg>. ISSUE: this function is not yet available and may produce unexpected results.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-weight: bold; ">Location</seg> can be used to find all letters from a given repository. For example, <seg style="font-style: italic; ">London, CO</seg> finds items transcribed from the holdings of the National Archives, London, in the Colonial Office series. <seg style="font-style: italic; ">RB, MSS</seg> finds items held in that series at the Library, Royal Botanic Gardens Melbourne; <seg style="font-style: italic; ">RB, MSS M4</seg> finds the location of letters from George Bentham. Some letters are derived from published sources. These details are provided in a note where applicable.ISSUE: After the Physical Location details a code appears which is <seg style="font-style: italic; ">not</seg> part of the archival catalogue. The numbers are the editors’ letter number, which maps directly to the file name. See <ref target="https://vmcp.rbg.vic.gov.au/text/Preliminary/Editorial%20practice/">
+                  <seg rend="Definition" style="">Editorial Practice</seg>
+               </ref> for an explanation. For sources that are not MSS the field will return only the letter number.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">Document ID</seg> searches for elements of the designated document number, for example ‘85-01*’ finds all letters written in January 1885. ‘85-01-00e’ finds one of the letters that has been dated to January 1885, but no more precisely. Truncation is not supported, thus ‘85-01-00’ finds only the letter with that precise number, but ‘85-01-00*’ finds all records that cannot be more precisely dated.</p>
+            <ab rend="Heading%202"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 14pt; font-style: italic; font-weight: bold; "
+                type="heading">Letter page features</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">Document information</seg>. The elements here are meta-data about the file.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Clicking the triangle symbol at the top left of the pane hides that section, leaving only the letter in view<seg style="font-style: italic; ">.</seg> Letters that contain plant names have a ‘Plant names’ list which can be opened to display the names in that letter. Some lists are very long, for example letter 56-06-18.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">Physical location</seg> displays the archive in which the source document is held.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Many letters are known only in published versions. They have no source entry in the Location field. However, a search in the <seg style="font-weight: bold; ">text</seg> box using <seg style="font-style: italic; ">Letter not found</seg> AND <seg style="font-style: italic; ">text given here</seg> will locate most of them. Extending the search further will find examples in specific sources, e.g., <seg style="font-style: italic; ">Letter not found</seg> AND <seg style="font-style: italic; ">text given here</seg> AND <seg style="font-style: italic; ">Warrnambool standard</seg>, but may return some false positives as the name of the newspaper may have been used in other notes to the same letter.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">Preferred citation</seg>. This field contains the elements required to prepare citations according to the requirements of different publishers. Publishers vary in their preferred styles.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Thus, in a Journal using footnotes or endnotes, without a requiring a specific hypertext link, a citation to letter number 68.05.22 which appears here as</p>
+            <p rend="Quotations"
+               style="margin-top: 0.1in; margin-bottom: 0.1in; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <seg style="font-style: italic; ">Ferdinand von Mueller to Carl von Martius, 1868-05-22. R.W. Home, Thomas A. Darragh, A.M. Lucas, Sara Maroske, D.M. Sinkora, J.H. Voigt and Monika Wells (eds), Correspondence of Ferdinand von Mueller, &lt;https://vmcp.rbg.vic.gov.au/text/Mueller%20letters/1860-9/1868/68-05-22-final/&gt;,</seg>
+               <seg style="font-style: italic; ">accessed February 28, 2023</seg>
+            </p>
+            <p rend="First%20paragraph" style="" xml:lang="en">would be something like</p>
+            <p rend="Quotations"
+               style="margin-top: 0.1in; margin-bottom: 0.1in; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Ferdinand von Mueller to Carl von Martius 22 May 1868 (R.W. Home, Thomas A. Darragh, A.M. Lucas, Sara Maroske, D.M. Sinkora, J.H. Voigt and Monika Wells (eds), Correspondence of Ferdinand von Mueller, &lt;https://vmcp.rbg.vic.gov.au, letter number 68.05.22, accessed February 28 2023)</p>
+            <p rend="First%20paragraph" style="" xml:lang="en">Those that require it would need the full web address, <ref target="https://vmcp.rbg.vic.gov.au/text/Mueller%20letters/1860-9/1868/68-05-22-final/">
+                  <seg rend="Definition" style="">https://vmcp.rbg.vic.gov.au/text/Mueller%20letters/1860-9/1868/68-05-22-final/</seg>
+               </ref>.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">For publishers using ‘Author (date)’ format, such as <seg style="font-style: italic; ">Muelleria</seg> the example used here, an in-text citation would normally be (Home <seg style="font-style: italic; ">et al. 2023+,</seg> letter 68.05.23, accessed 28 Feb 2023) with the reference list entry</p>
+            <p rend="Quotations"
+               style="margin-top: 0.1in; margin-bottom: 0.1in; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Home R.W., Darragh T.A., Lucas A.M., Maroske S., Sinkora D.M., Voigt J.H. and Wells M. [eds] (2022+). <seg style="font-style: italic; ">Correspondence of Ferdinand von Mueller</seg>, Royal Botanic Gardens Victoria &lt;<ref target="https://vmcp.rbg.vic.gov.au">
+                  <seg rend="Definition" style="">https://vmcp.rbg.vic.gov.au</seg>
+               </ref>&gt;.</p>
+            <p rend="First%20paragraph" style="" xml:lang="en">Note the use of <seg style="font-style: italic; ">2023+</seg> as the year of publication to indicate that the site is continually updated.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">
+               <seg style="font-style: italic; font-weight: bold; ">The letter pane</seg> displays the transcription. English translations appear with original text written in another language. Note that the letter display does not attempt to retain all spatial relationships. Some elements of typography have been preserved, e.g. the use of italics, bold type and small caps.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Letters may have <seg style="font-style: italic; font-weight: bold; ">notes</seg> attached<seg style="font-style: italic; font-weight: bold; ">.</seg> Reference numbers are in red. Click on the number to open a pop-up window with the text of the note; the window will stay open until the number is clicked again or the check box at the top left of the pop-up window is deselected. Long notes will appear in windows with scroll bars. Internal cross references in notes have the date in red, e.g. note 1 to letter number <ref target="https://vmcp.rbg.vic.gov.au/text/Mueller%20letters/1880-9/1882/82-01-06a-final/">
+                  <seg rend="Definition" style="">82-01-06a</seg>
+               </ref> has a cross reference ‘see M to J. Hooker, <ref target="https://vmcp.rbg.vic.gov.au/id/67-01-25">
+                  <seg rend="Definition" style="">25 January 1867</seg>
+               </ref>.’ Clicking on the link opens that letter. It is easier to compare the letters if the cross reference is opened in a new tab or new window. Browser preferences may need to be adjusted. <seg style="font-style: italic; font-weight: bold; ">Citations</seg> to Mueller’s own publications are to item number in the list of his publications, for example B65.02.06. Details can be found by opening the <ref target="https://vmcp.rbg.vic.gov.au/text/Apparatus%20files/Mueller's%20publications/M%20Publications/">
+                  <seg rend="Definition" style="">Mueller’s publications</seg>
+               </ref> file and then use the browser search to look for 65.02.06: note that the prefix B must be omitted in the search. Similarly, full details of citations to other works, in ‘Author (date)’ format, can be found in ‘<ref target="https://vmcp.rbg.vic.gov.au/text/Apparatus%20files/Editors'%20citations/Editors%20citations/">
+                  <seg rend="Definition" style="">Editor’s citations</seg>
+               </ref>’ by opening it and using the browser to search for the surname and any initials that have been used to disambiguate multiple authors with the same surname, for example, to find works cited as A. Candolle (1867) search the file for ‘Candolle, A’.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">The letter text may also contain <seg style="font-style: italic; font-weight: bold; ">taxon names</seg> in red. Clicking on the name opens a pop-up window with links to allow searching in <ref target="https://biodiversity.org.au/">
+                  <seg rend="Definition" style="">APNI</seg>
+               </ref>, <ref target="https://vicflora.rbg.vic.gov.au/">
+                  <seg rend="Definition" style="">VicFlora</seg>
+               </ref> and also to find where else it is used in the edition. Names not found in these sources include extra-Australian species, (check <ref target="http://ipni.org/">
+                  <seg rend="Definition" style="">IPNI</seg>
+               </ref>), and non-vascular species. Choosing to search <seg style="font-weight: bold; ">this website</seg> brings up a Search and Browse page showing the titles of the files with hits. Some fully constructed names and abbreviated names may not be highlighted, especially if the name includes a probable misspelling of an element of it, indicated by a note, but the link can be found by opening <seg style="font-weight: bold; ">Plant names</seg> in the <seg style="font-weight: bold; ">Document information.</seg> For example, in <ref target="https://vmcp.rbg.vic.gov.au/text/Mueller%20letters/1880-9/1881/81-10-12a-final/">
+                  <seg rend="Definition" style="">81-10-12a</seg>
+               </ref> the abbreviated text ‘Euc. Stuartiana’, the misspelled ‘Zaleia decandra’ and the standard form ‘P. spinescens’ are not highlighted but are in the list.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">To close the window, click again on the red name in the letter text.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">ISSUE:</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">There is no close box within the pop-up as there is in other popups.</p>
+            <ab rend="Heading%202"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 14pt; font-style: italic; font-weight: bold; "
+                type="heading">Illustrations</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">Scans of illustrations in letters are stored separately and are brought up via the related note. The pop-up contains the text of the note, with the image replacing the URL address of the link. Complex images may take some time to load. Scroll the pop-up window to check for text associated with the image.</p>
+            <ab rend="Heading%202"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 14pt; font-style: italic; font-weight: bold; "
+                type="heading">Apparatus pages</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">The links <ref target="https://vmcp.rbg.vic.gov.au/text/Apparatus%20files/Editors'%20citations/Editors%20citations/">
+                  <seg rend="Definition" style="">Editors’ Citations</seg>
+               </ref> and <ref target="https://vmcp.rbg.vic.gov.au/text/Apparatus%20files/Mueller's%20publications/M%20Publications/">
+                  <seg rend="Definition" style="">Mueller’s Publications</seg>
+               </ref> open files needed to use the notes. <ref target="https://vmcp.rbg.vic.gov.au/text/Apparatus%20files/Honours%20&amp;c/Honours%20Awards%20Memberships/">
+                  <seg rend="Definition" style="">Honours, Awards and Memberships</seg>
+               </ref> lists the distinctions held by Mueller, ranging from Knighthoods to patronage of a cricket club, as well as his society and committee memberships. The <ref target="https://vmcp.rbg.vic.gov.au/text/Apparatus%20files/Biographical%20Register/Biographical%20Register-%20Work%20in%20Progress/">
+                  <seg rend="Definition" style="">Biographical Register</seg>
+               </ref> is a work in progress, aiming to eventually identify as many persons mentioned in the correspondence as possible.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">The introductions to each file describe its features.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">Hyperlinks are provided in good faith. Neither the editors nor the Royal Botanic Gardens Victoria is responsible for the stability or persistence of the links provided. In a small number of cases, links have been provided to publicly available versions of publications placed by authors in depositories; such links are provided on the understanding that authors have deposited items within the copyright or contractual arrangements they have with their publishers. If evidence of inappropriate deposit is found, these links will be removed.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">In some cases hyperlinks cited as the source of information used to construct a note are only available to members of subscribing institutions, e.g. to JSTOR Global Plants in letter <ref target="https://vmcp.rbg.vic.gov.au/text/Mueller%20letters/1850-9/1859/59-08-17-final/">
+                  <seg rend="Definition" style="">59-08-17</seg>
+               </ref>; others will receive an error message.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">These Apparatus files are not searchable using the search functions provided for the letters.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">They can be readily searched using the search function of the browser used to open them; remember to drop the prefix <seg style="font-weight: bold; ">B</seg> when searching Mueller’s publications.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">The files are long and may take some time to open. Users will find it easier to keep open the two citation files in other tabs or windows in their browser to facilitate easy consultation.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

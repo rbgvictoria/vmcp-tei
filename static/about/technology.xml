@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Technology ¶ There are two parts to the system driving this database: ¶ a  ¶ batch conversion process ¶  which converts the corpus of more than 10,000 items of Mueller's correspondence from Microsoft ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/static/about/technology.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Technology ¶ There are two parts to the system driving this database: ¶ a  ¶ batch conversion process ¶  which converts the corpus of more than 10,000 items of Mueller's correspondence from Microsoft ...</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/static/about/technology.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>hyperlink</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>Heading 1</term>
+               <term>First paragraph</term>
+               <term>Text body</term>
+               <term>Definition</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Technology ¶ There are two parts to the system driving this database: ¶ a  ¶ batch conversion process ¶  which converts the corpus of more than 10,000 items of Mueller's correspondence from Microsoft ...</supplied>
+            </head>
+            <ab rend="Heading%201"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 115%; font-weight: bold; "
+                type="heading">Technology</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">There are two parts to the system driving this database:</p>
+            <p rend="Text%20body"
+               style="margin-top: 0in; margin-bottom: 0in; "
+               xml:lang="en">a <ref target="https://github.com/Conal-Tuohy/VMCP-upconversion">
+                  <seg rend="Definition" style="">batch conversion process</seg>
+               </ref> which converts the corpus of more than 10,000 items of Mueller's correspondence from Microsoft Word format into <ref target="https://tei-c.org/guidelines/">
+                  <seg rend="Definition" style="">TEI XML documents</seg>
+               </ref>, and</p>
+            <p rend="Text%20body"
+               style="margin-top: 0in; margin-bottom: 0in; "
+               xml:lang="en">a <ref target="https://github.com/Conal-Tuohy/vmcp">
+                  <seg rend="Definition" style="">web application</seg>
+               </ref> which organises and presents the resulting TEI XML files in the form of this website.</p>
+            <p rend="First%20paragraph" style="" xml:lang="en">The batch conversion process uses <ref target="https://help.libreoffice.org/7.4/en-US/text/shared/guide/start_parameters.html">
+                  <seg rend="Definition" style="">LibreOffice</seg>
+               </ref> to convert the Microsoft Word documents into OpenDocument format, and then further processes those OpenDocument files into TEI XML using a sequence of <ref target="https://www.w3.org/TR/xslt-30/">
+                  <seg rend="Definition" style="">XSLT 3.0</seg>
+               </ref> stylesheets, organised in an <ref target="https://www.w3.org/TR/xproc/">
+                  <seg rend="Definition" style="">XProc 1.0</seg>
+               </ref> pipeline.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">This website is also a pipeline written in the <ref target="https://www.w3.org/TR/xproc/">
+                  <seg rend="Definition" style="">XProc 1.0</seg>
+               </ref> language, consisting mostly of <ref target="https://www.w3.org/TR/xslt-30/">
+                  <seg rend="Definition" style="">XSLT 3.0</seg>
+               </ref> stylesheets. The pipeline handles requests from web browsers, reading TEI XML files, submitting queries to the search engine, and formatting pages into HTML.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">The XProc pipeline is hosted by a Java web Servlet called <ref target="https://github.com/Conal-Tuohy/XProc-Z/">
+                  <seg rend="Definition" style="">XProc-Z</seg>
+               </ref>, which in turn is hosted in the Java web server <ref target="https://tomcat.apache.org/">
+                  <seg rend="Definition" style="">Apache Tomcat</seg>
+               </ref>. The web application uses <ref target="https://solr.apache.org/">
+                  <seg rend="Definition" style="">Apache Solr</seg>
+               </ref> as a search engine to drive the search and browse functionality, and to perform hit-highlighting.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">The software for this website was developed for the Gardens by <ref target="https://github.com/Conal-Tuohy">
+                  <seg rend="Definition" style="">Conal Tuohy</seg>
+               </ref>, a freelance software developer based in Brisbane.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

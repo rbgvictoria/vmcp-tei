@@ -1,0 +1,107 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copyright ¶ Text ¶ This website and its contents are the copyright of the Royal Botanic Gardens Board (trading as Royal Botanic Gardens Victoria). The text published here is distributed under a Creati...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/static/notice/copyright.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Copyright ¶ Text ¶ This website and its contents are the copyright of the Royal Botanic Gardens Board (trading as Royal Botanic Gardens Victoria). The text published here is distributed under a Creati...</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/static/notice/copyright.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>hyperlink</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>Heading 1</term>
+               <term>Heading 2</term>
+               <term>First paragraph</term>
+               <term>Definition</term>
+               <term>Text body</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Copyright ¶ Text ¶ This website and its contents are the copyright of the Royal Botanic Gardens Board (trading as Royal Botanic Gardens Victoria). The text published here is distributed under a Creati...</supplied>
+            </head>
+            <ab rend="Heading%201"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 115%; font-weight: bold; "
+                type="heading">Copyright</ab>
+            <ab rend="Heading%202"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 14pt; font-style: italic; font-weight: bold; "
+                type="heading">Text</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">This website and its contents are the copyright of the Royal Botanic Gardens Board (trading as Royal Botanic Gardens Victoria). The text published here is distributed under a Creative Commons Attribution 4.0 international licence (<ref target="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <seg rend="Definition" style="">CC BY 4.0</seg>
+               </ref>). Usage under this licence is <ref target="https://creativecommons.org/licenses/by/4.0/">
+                  <seg rend="Definition" style="">summarised here</seg>
+               </ref>.</p>
+            <ab rend="Heading%202"
+                style="margin-top: 0.1665in; margin-bottom: 0.0835in; keep-with-next: always; font-size: 14pt; font-style: italic; font-weight: bold; "
+                type="heading">Images</ab>
+            <p rend="First%20paragraph" style="" xml:lang="en">Unless otherwise indicated in a note, the physical location of the originals of all images is the same as that of the text transcribed. That location is given in the document information for each letter. The originals of most images provided here are stored in the Royal Botanic Gardens Victoria library and are the copyright of the Royal Botanic Gardens Board. These images, as are those provided by other rights holders, are published under a Creative Commons Attribution Non-commercial ShareAlike 4.0 international licence (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+                  <seg rend="Definition" style="">CC BY-NC-SA 4.0</seg>
+               </ref>). Usage under this licence is <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <seg rend="Definition" style="">summarised here</seg>
+               </ref>.</p>
+            <p rend="Text%20body"
+               style="margin-top: 0.0598in; margin-bottom: 0.0598in; "
+               xml:lang="en">In some cases, third parties who hold copyright for images have chosen to retain their reproduction rights. These cases are indicated in the notes accompanying the image. In such cases, written permission from the copyright holder is required prior to copying, reproducing or using this material.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
