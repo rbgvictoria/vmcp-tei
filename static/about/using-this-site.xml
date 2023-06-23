@@ -59,7 +59,10 @@
                <term>Textbody</term>
                <term>DefaultParagraphFont</term>
                <term>Heading2</term>
-               <term>Quotations</term>
+               <term>NormalWeb</term>
+               <term>Emphasis</term>
+               <term>HTMLCite</term>
+               <term>Hyperlink</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -164,7 +167,7 @@
                xml:lang="en">Not that filter selections will not automatically clear between searches; they must be manually deselected or the page refreshed before initiating a new search of the full corpus.</p>
             <ab rend="Heading2"
                 style="font-weight: bold; font-style: italic; hyphenate: false; keep-with-next: always; margin-top: 0.1666in; margin-bottom: 0.0833in; font-size: 14pt; "
-                type="heading">Advanced<space unit="chars" quantity="1"/>search</ab>
+                type="heading">Advanced search</ab>
             <p rend="Firstparagraph" style="hyphenate: false; " xml:lang="en">An advanced search can be made using the five search boxes on the Search page. These allow users to search by:</p>
             <p rend="Textbody"
                style="margin-top: 0.0597in; margin-bottom: 0.0597in; hyphenate: false; "
@@ -240,47 +243,50 @@
                   <seg rend="Definition" style="">Editorial Practice</seg>
                </ref>
                <space unit="chars" quantity="1"/>for an explanation. For sources that are not MSS the field will return only the letter number.</p>
-            <p rend="Textbody"
-               style="margin-top: 0.0597in; margin-bottom: 0.0597in; hyphenate: false; "
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
                xml:lang="en">
-               <seg rend="DefaultParagraphFont"
-                    style="font-weight: bold; font-style: italic; ">Preferred citation</seg>. This field contains the elements required to prepare citations according to the requirements of different publishers. Publishers vary in their preferred styles.</p>
-            <p rend="Textbody"
-               style="margin-top: 0.0597in; margin-bottom: 0.0597in; hyphenate: false; "
+               <seg rend="Emphasis" style="font-style: italic; font-weight: bold; ">Preferred citation</seg>. This field contains the elements required to prepare citations according to the requirements of different publishers. Publishers vary in terms of their preferred styles.</p>
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
                xml:lang="en">Thus, in a Journal using footnotes or endnotes, without a requiring a specific hypertext link, a citation to letter 68-05-22 which appears here as</p>
-            <p rend="Quotations"
-               style="margin-top: 0.1in; margin-bottom: 0.1in; hyphenate: false; margin-left: 0.5in; margin-right: 0in; "
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
                xml:lang="en">
-               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ferdinand von Mueller to Carl von Martius, 1868-05-22. R.W. Home, Thomas A. Darragh, A.M. Lucas, Sara Maroske,<space unit="chars" quantity="1"/>
-               </seg>
-               <seg rend="DefaultParagraphFont" style="font-style: italic; ">D.M. Sinkora, J.H. Voigt and Monika Wells (eds), Correspondence of Ferdinand von Mueller, &lt;https://vmcp.rbg.vic.gov.au/text/ letters/1860-9/1868/68-05-22-final/&gt;,</seg>
-               <space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="font-style: italic; ">accessed February 28, 2023</seg>
+               <seg rend="HTMLCite" style="font-style: italic; ">Ferdinand von Mueller to Carl von Martius, 1868-05-22. R.W. Home, Thomas A. Darragh, A.M. Lucas, Sara Maroske, D.M. Sinkora, J.H. Voigt and Monika Wells (eds), Correspondence of Ferdinand von Mueller, &lt;https://vmcp.rbg.vic.gov.au/id/68-05-22&gt;, accessed June 22, 2023</seg>
             </p>
-            <p rend="Firstparagraph" style="hyphenate: false; " xml:lang="en">would be something like</p>
-            <p rend="Quotations"
-               style="margin-top: 0.1in; margin-bottom: 0.1in; hyphenate: false; margin-left: 0.5in; margin-right: 0in; "
-               xml:lang="en">Ferdinand von Mueller to Carl von Martius<space unit="chars" quantity="1"/>22 May 1868 (R.W. Home, Thomas A. Darragh, A.M. Lucas, Sara Maroske, D.M. Sinkora, J.H. Voigt and Monika Wells (eds), Correspondence of Ferdinand von Mueller, &lt;https://vmcp.rbg.vic.gov.au, letter 68-05-22, accessed February 28 2023)</p>
-            <p rend="Firstparagraph" style="hyphenate: false; " xml:lang="en">Those that require it would need the full web address,<space unit="chars" quantity="1"/>
-               <ref target="https://vmcp.rbg.vic.gov.au/text/Mueller%20letters/1860-9/1868/68-05-22-final/">
-                  <seg rend="Definition" style="">https://vmcp.rbg.vic.gov.au/text/letters/1860-9/1868/68-05-22-final/</seg>
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
+               xml:lang="en">might be rendered like this:</p>
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
+               xml:lang="en">Ferdinand von Mueller to Carl von Martius 22 May 1868 (R.W. Home, Thomas A. Darragh, A.M. Lucas, Sara Maroske, D.M. Sinkora, J.H. Voigt and Monika Wells (eds), Correspondence of Ferdinand von Mueller, &lt;https://vmcp.rbg.vic.gov.au, letter 68-05-22, accessed 22 June, 2023)</p>
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
+               xml:lang="en">Those that require it would need to be supplied with the full web address,<space unit="chars" quantity="1"/>
+               <ref target="https://vmcp.rbg.vic.gov.au/id/68-05-22">
+                  <seg rend="Hyperlink" style="color: #0563C1; ">https://vm</seg>
+                  <seg rend="Hyperlink" style="color: #0563C1; ">c</seg>
+                  <seg rend="Hyperlink" style="color: #0563C1; ">p.rbg.vic.gov.au/id/68-05-22</seg>
                </ref>
             </p>
-            <p rend="Textbody"
-               style="margin-top: 0.0597in; margin-bottom: 0.0597in; hyphenate: false; "
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
                xml:lang="en">For publishers using ‘Author (date)’ format, such as<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Muelleria</seg>
+               <seg rend="Emphasis" style="font-style: italic; ">Muelleria</seg>
                <space unit="chars" quantity="1"/>the example used here, an in-text citation would normally be (Home<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="font-style: italic; ">et al. 2023+,</seg>
-               <space unit="chars" quantity="1"/>letter 68.05.23, accessed 28 Feb 2023) with the reference list entry</p>
-            <p rend="Quotations"
-               style="margin-top: 0.1in; margin-bottom: 0.1in; hyphenate: false; margin-left: 0.5in; margin-right: 0in; "
-               xml:lang="en">Home R.W., Darragh T.A., Lucas A.M., Maroske S., Sinkora D.M.,<space unit="chars" quantity="1"/>Voigt J.H. and Wells M. [eds] (2022+). <seg rend="DefaultParagraphFont" style="font-style: italic; ">Correspondence of Ferdinand von Mueller</seg>, Royal Botanic Gardens Victoria &lt;<ref target="https://vmcp.rbg.vic.gov.au">
-                  <seg rend="Definition" style="">https://vmcp.rbg.vic.gov.au</seg>
+               <seg rend="Emphasis" style="font-style: italic; ">et al. 2023+,</seg>
+               <space unit="chars" quantity="1"/>letter 68-05-22, accessed 28 Feb 2023) with the reference list entry.</p>
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
+               xml:lang="en">Home R.W., Darragh T.A., Lucas A.M., Maroske S., Sinkora D.M., Voigt J.H. and Wells M. [eds] (2022+). <seg rend="Emphasis" style="font-style: italic; ">Correspondence of Ferdinand von Mueller</seg>, Royal Botanic Gardens Victoria &lt;<ref target="https://vmcp.rbg.vic.gov.au">
+                  <seg rend="Hyperlink" style="color: #0563C1; ">https://vmcp.rbg.vic.gov.au</seg>
                </ref>&gt;.</p>
-            <p rend="Firstparagraph" style="hyphenate: false; " xml:lang="en">Note the use of<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="font-style: italic; ">2023+</seg>
-               <space unit="chars" quantity="1"/>as the year<space unit="chars" quantity="1"/>of publication to indicate that the site is continually updated.</p>
+            <p rend="NormalWeb"
+               style="margin-top: 0.0694in; margin-bottom: 0.0694in; hyphenate: false; "
+               xml:lang="en">Note the use of<space unit="chars" quantity="1"/>
+               <seg rend="Emphasis" style="font-style: italic; ">2023+</seg>
+               <space unit="chars" quantity="1"/>as the year of publication to indicate that the site is continually updated.</p>
             <p rend="Textbody"
                style="margin-top: 0.0597in; margin-bottom: 0.0597in; hyphenate: false; "
                xml:lang="en">
