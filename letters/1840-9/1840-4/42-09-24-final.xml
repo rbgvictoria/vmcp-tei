@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nubel ¶  24th. Sept. 1842. ¶ My good dear Ferdinand! ¶  ¶ I want to give you my opinion about staying here. If I do not go to ... ¶  I shall stay here. ¶  ¶ I like the people; and with another place i...</title>
+            <title>Nubel ¶ Nübel. ¶  ¶ 24th. Sept. 1842. ¶ My good dear Ferdinand! ¶  ¶ I want to give you my opinion about staying here. If I do not go to ... ¶ translator's excision. ¶  ¶ I shall stay here. ¶  ¶ I lik...</title>
             <author>Iwanne Müller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Iwanne Müller</author>
-               <title>Nubel ¶  24th. Sept. 1842. ¶ My good dear Ferdinand! ¶  ¶ I want to give you my opinion about staying here. If I do not go to ... ¶  I shall stay here. ¶  ¶ I like the people; and with another place i...</title>
+               <title>Nubel ¶ Nübel. ¶  ¶ 24th. Sept. 1842. ¶ My good dear Ferdinand! ¶  ¶ I want to give you my opinion about staying here. If I do not go to ... ¶ translator's excision. ¶  ¶ I shall stay here. ¶  ¶ I lik...</title>
                <date when="1842-09-24">1842-09-24</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,79 +86,98 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Nubel ¶  24th. Sept. 1842. ¶ My good dear Ferdinand! ¶  ¶ I want to give you my opinion about staying here. If I do not go to ... ¶  I shall stay here. ¶  ¶ I like the people; and with another place i...</supplied>
+               <supplied reason="XTF-compatibility">Nubel ¶ Nübel. ¶  ¶ 24th. Sept. 1842. ¶ My good dear Ferdinand! ¶  ¶ I want to give you my opinion about staying here. If I do not go to ... ¶ translator's excision. ¶  ¶ I shall stay here. ¶  ¶ I lik...</supplied>
             </head>
             <p rend="number" xml:lang="en">42.09.24</p>
             <p rend="correspondent" xml:lang="en">From Iwanne Müller</p>
-            <p rend="location" xml:lang="en">Private hands.</p>
+            <p rend="location" xml:lang="en">Private hands.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here was 'Translated in Sydney from the German', and placed in Louise Wehl's scrap-book.</p>
-               </note>Nubel<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Nübel.</p>
-               </note> 24th. Sept. 1842.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here was 'Translated in Sydney from the German', and placed in Louise Wehl's scrap-book.</p>
+               </note>Nubel<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Nübel.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>24th. Sept. 1842.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My good dear Ferdinand!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I want to give you my opinion about staying here. If I do not go to ...<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">translator's excision.</seg>
-                  </p>
-               </note> I shall stay here.</p>
+               <space dim="horizontal" extent="tab"/>I want to give you my opinion about staying here. If I do not go to ...<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">translator's excision.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I shall stay here.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I like the people; and with another place it is just a lottery.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>My wish now is to see you all after Easter — Once when I had the opportunity I said to the Pastor, "My money is nearly all gone" He said "No business of mine, what have you done with it?" I don't know it seems to run away.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>My toothache comes from hollow teeth and as I cannot protect myself from draught and wind have it fairly often — it is a dreadful pain, one gets weak with it.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>It is foolish of Bertha not to take Medicine. Is she getting on with her music?</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am sending Bertel's letter;<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> — so familiar. So I shall not write to him any more.</p>
+               <space dim="horizontal" extent="tab"/>I am sending Bertel's letter;<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>— so familiar. So I shall not write to him any more.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Tell him lack of time stops me from writing — I am keen to know what sort of fiancee Therese Clausen has — </p>
+               <space dim="horizontal" extent="tab"/>Tell him lack of time stops me from writing — I am keen to know what sort of fiancee Therese Clausen has —<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I must hurry now as I have to send a letter to Albertine<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Albertine Warder?</p>
-               </note> —</p>
+               <space dim="horizontal" extent="tab"/>I must hurry now as I have to send a letter to Albertine<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Albertine Warder?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>—</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>It remains like this — I am staying here if I have to renounce a happy and gay life, for hope of happy future gives me courage again. I try to suppress sad thoughts that come to me.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Your Iwanne.</p>
          </div>
       </body>
