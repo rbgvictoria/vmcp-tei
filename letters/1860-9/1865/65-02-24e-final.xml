@@ -38,9 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -57,17 +54,16 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -90,17 +86,19 @@
                <supplied reason="XTF-compatibility"> ¶ It was a bold step on my part to call forth a Ladies' Committee, as we have no precedent for such an organization; but it has proved successful, and I believe that in future we may rely upon the la...</supplied>
             </head>
             <p rend="number" xml:lang="en">65.02.24e</p>
-            <p rend="correspondent" xml:lang="en">To Roderick Murchison</p>
+            <p rend="correspondent" xml:lang="en">To Roderick Murchison<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here is from <space unit="chars" quantity="1"/>
-                     <seg style="font-style: italic; ">Proceedings of the Royal Geographical Society</seg>, vol. 9 (1865), pp. 304 (B65.13.01). It is one of a group of letters introduced by 'An account of the agitation, set on foot in Melbourne, for a new expedition in search of Leichhardt, or further traces of him, is given in the following extracts of letters from Dr. Mueller to Sir Roderick Murchison. This extract is introduced by 'On the 24th of February Dr Mueller again writes:—'.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text<space unit="chars" quantity="1"/>given<space unit="chars" quantity="1"/>here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Proceedings of the Royal Geographical Society</seg>,<space unit="chars" quantity="1"/>vol. 9<space unit="chars" quantity="1"/>(1865), pp. 304 (B65.08.21). It is one of a group of letters introduced by 'An account of the agitation, set on foot in Melbourne, for a new expedition in search of Leichhardt, or further traces of him, is given in the following extracts of letters from Dr. Mueller to Sir Roderick Murchison. This extract is introduced by 'On the 24th of February Dr Mueller again writes:—'.</p>
                </note>
                <space dim="horizontal" extent="tab"/>It was a bold step on my part to call forth a Ladies' Committee, as we have no precedent for such an organization; but it has proved successful, and I believe that in future we may rely upon the ladies for assisting in many other philanthropic objects in a similar manner. Should a spirited leader be found for the expedition, and a sufficient fund, I have no doubt that the enterprise will be afterwards carried on by successive private contributions and occasional Government subsidies, until Leichhardt's fate is fully known, and therewith the greater part of the yet unknown western interior explored.</p>
          </div>

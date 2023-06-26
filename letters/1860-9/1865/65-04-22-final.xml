@@ -38,9 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,33 +90,53 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here is from <seg style="font-style: italic; ">Proceedings of the Royal Geographical Society</seg>, vol. 9 (1865), pp. 304-5 (B65.13.01). It is one of a group of letters introduced by 'An account of the agitation, set on foot in Melbourne, for a new expedition in search of Leichhardt, or further traces of him, is given in the following extracts of letters from Dr. Mueller to Sir Roderick Murchison. This extract is introduced by 'The last communication from Dr. Mueller, dated the 22nd of April last, announces the successful progress of his scheme. He says,'.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>The Leichhardt movement is fully secure; it is merely a question whether the Ladies' Search Expedition takes the field six months earlier or later. The 'Brisbane Courier' says, 'Never can we allow the Victorian ladies to do this work of charity and humanity alone; Leichhardt dead or Leichhardt alive, we have no business to remain for seventeen years in uncertainty about it!<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Closing quotation mark omitted? See <seg style="font-style: italic; ">Brisbane courier</seg>, 9 March 1865, p. 2.</p>
-               </note> The ladies have written to her Majesty, the Princess of Wales, and the Empress of France, and I have advised them to address also the Princess Royal of Prussia. Although the 3000<seg style="font-style: italic; ">l </seg>
-               <note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="">£3000.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Proceedings of the Royal Geographical Society</seg>, vol. 9 (1865), pp. 304-5 (B65.08.21). It is one of a group of letters introduced by 'An account of the agitation, set on foot in Melbourne, for a new expedition in search of Leichhardt, or further traces of him, is given in the following extracts of letters from Dr. Mueller to Sir Roderick Murchison. This extract is introduced by 'The last communication from Dr. Mueller, dated the 22nd of April last, announces the successful progress of his scheme. He says,'.</p>
                </note>
-               <space unit="chars" quantity="1"/>for the first two years' search will be unquestionably gathered — if not here alone, at least by the aid of the generous and wealthy of the globe — it may be found necessary to have the search continued for several years more. Under any circumstances the Ladies' Expedition is likely to accomplish what Leichhardt intended, namely, to open up the great western half of the continent, an object, next to the exploration of Central Africa, the most important in the whole domain of Geography. If once the Ladies' Expedition is fairly started, and despatches of interest and hope are received, it will then need only about 300<seg style="font-style: italic; ">l.</seg>
-               <note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">£300.</seg>
-                  </p>
-               </note> annually from each of the Governments of South-Eastern Australia to maintain it in the field.</p>
+               <space dim="horizontal" extent="tab"/>The Leichhardt movement is fully secure; it is merely a question whether the Ladies' Search Expedition takes the field six months earlier or later. The 'Brisbane Courier' says, 'Never can we allow the Victorian ladies to do this work of charity and humanity alone; Leichhardt dead or Leichhardt alive, we have no business to remain for seventeen years in uncertainty about it!<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Closing quotation mark omitted?<space unit="chars" quantity="1"/>See<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Brisbane courier</seg>,<space unit="chars" quantity="1"/>9 March 1865, p. 2.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The ladies have written to her Majesty, the Princess of Wales, and the Empress of France, and I have advised them to address also the Princess Royal of Prussia. Although the 3000<seg rend="DefaultParagraphFont" style="font-style: italic; ">l</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>£3000.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>for the first two years' search will be unquestionably gathered — if not here alone, at least by the aid of the generous and wealthy of the globe — it may be found necessary to have the search continued for several years more. Under any circumstances the Ladies' Expedition is likely to accomplish what Leichhardt intended, namely, to open up the great western half of the continent, an object, next to the exploration of Central Africa, the most important in the whole domain of Geography. If once the Ladies' Expedition is fairly started, and despatches of interest and hope are received, it will then need only about 300<seg rend="DefaultParagraphFont" style="font-style: italic; ">l</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>£300.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>annually from each of the Governments of South-Eastern Australia to maintain it in the field.</p>
          </div>
       </body>
    </text>

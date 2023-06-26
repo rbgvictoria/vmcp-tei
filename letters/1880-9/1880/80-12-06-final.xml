@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Benalla ¶ Dec. 6th 1880 ¶ Dear Sir, ¶  ¶ Would you kindly inform me what the name of the enclosed plant is. A Mr Grattan, squatter in this neighbourhood is of opinion that it has poisoned 160 of his s...</title>
-            <author>J. W. Nicholson</author>
+            <title>Benalla ¶ Vic. ¶ Dec. 6th 1880 ¶ Dear Sir, ¶  ¶ Would you kindly inform me what the name of the enclosed plant is. A Mr Grattan, squatter in this neighbourhood is of opinion that it has poisoned 160 o...</title>
+            <author>John Nicholson</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -27,8 +27,8 @@
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>J. W. Nicholson</author>
-               <title>Benalla ¶ Dec. 6th 1880 ¶ Dear Sir, ¶  ¶ Would you kindly inform me what the name of the enclosed plant is. A Mr Grattan, squatter in this neighbourhood is of opinion that it has poisoned 160 of his s...</title>
+               <author>John Nicholson</author>
+               <title>Benalla ¶ Vic. ¶ Dec. 6th 1880 ¶ Dear Sir, ¶  ¶ Would you kindly inform me what the name of the enclosed plant is. A Mr Grattan, squatter in this neighbourhood is of opinion that it has poisoned 160 o...</title>
                <date when="1880-12-06">1880-12-06</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,49 +86,56 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Benalla ¶ Dec. 6th 1880 ¶ Dear Sir, ¶  ¶ Would you kindly inform me what the name of the enclosed plant is. A Mr Grattan, squatter in this neighbourhood is of opinion that it has poisoned 160 of his s...</supplied>
+               <supplied reason="XTF-compatibility">Benalla ¶ Vic. ¶ Dec. 6th 1880 ¶ Dear Sir, ¶  ¶ Would you kindly inform me what the name of the enclosed plant is. A Mr Grattan, squatter in this neighbourhood is of opinion that it has poisoned 160 o...</supplied>
             </head>
             <p rend="number" xml:lang="en">80.12.06</p>
-            <p rend="correspondent" xml:lang="en">From J. W. Nicholson</p>
-            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="correspondent" xml:lang="en">From John<space unit="chars" quantity="1"/>Nicholson</p>
+            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS found with a specimen of <seg style="font-style: italic; ">Lobelia pratioides</seg> (MEL 2261639). MS annotation by M: 'Answ 7/12/80'. Letter not found.</p>
-               </note>Benalla<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Vic.</p>
-               </note>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS found with a specimen of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lobelia pratioides</seg>
+                     <space unit="chars" quantity="1"/>(MEL 2261639).<space unit="chars" quantity="1"/>MS annotation by M: 'Answ 7/12/80'. Letter not found.</p>
+               </note>Benalla<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Vic.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Dec. 6th 1880</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Would you kindly inform me what the name of the enclosed plant is. A Mr Grattan, squatter in this neighbourhood is of opinion that it has poisoned 160 of his sheep. I send it to you in the same condition as he gave it to me, but if you require a more perfect specimen, I will obtain one for you.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I am &amp;c</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>J W. Nicholson</p>
+               <space dim="horizontal" extent="tab"/>Jno<space unit="chars" quantity="1"/>Nicholson</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
