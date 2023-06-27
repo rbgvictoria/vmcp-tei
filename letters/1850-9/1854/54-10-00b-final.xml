@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Tonning ¶  28th. June 1841. ¶  ¶ In this she tells Ferdinand she has been to a ball and had a lovely time and danced to 2 o'clock. She wants to go again and will be happy if Uncle will let her go. Sh...</title>
-            <author>Iwanne Müller</author>
+            <title>[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ ]...</title>
+            <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -15,26 +15,25 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1840-9/1840-4/41-06-28-final.doc</idno>
+            <idno type="filename">data/letters/1850-9/1854/54-10-00b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Private hands.</msName>
                   <altIdentifier>
-                     <idno>41.06.28</idno>
+                     <idno>54.10.00b</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>Iwanne Müller</author>
-               <title>[Tonning ¶  28th. June 1841. ¶  ¶ In this she tells Ferdinand she has been to a ball and had a lovely time and danced to 2 o'clock. She wants to go again and will be happy if Uncle will let her go. Sh...</title>
-               <date when="1841-06-28">1841-06-28</date>
+               <author>Ferdinand von Mueller</author>
+               <title>[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ ]...</title>
+               <date when="1854-10">1854-10</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1840-9/1840-4/41-06-28-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1850-9/1854/54-10-00b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -67,7 +66,6 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>location</term>
                <term>letter</term>
                <term>Footnote</term>
             </keywords>
@@ -76,11 +74,12 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="100">English</language>
+            <language ident="en" usage="55">English</language>
+            <language ident="de" usage="45">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Ferdinand von Mueller</name>
+               <name>Wilhelm Sonder</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -89,36 +88,34 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Tonning ¶  28th. June 1841. ¶  ¶ In this she tells Ferdinand she has been to a ball and had a lovely time and danced to 2 o'clock. She wants to go again and will be happy if Uncle will let her go. Sh...</supplied>
+               <supplied reason="XTF-compatibility">[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ ]...</supplied>
             </head>
-            <p rend="number" xml:lang="en">41.06.28</p>
-            <p rend="correspondent" xml:lang="en">From Iwanne Müller</p>
-            <p rend="location" xml:lang="en">Private hands.</p>
+            <p rend="number" xml:lang="de">54.10.00b</p>
+            <p rend="correspondent" xml:lang="de">To Wilhelm Sonder</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here was 'Translated in Sydney from the German', and placed in Louise Wehl's scrap-book.</p>
-               </note>[Tonning<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Tönning.</p>
-               </note> 28th. June 1841.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In this she tells Ferdinand she has been to a ball and had a lovely time and danced to 2 o'clock. She wants to go again and will be happy if Uncle will let her go. She says — "I hear Clara is going to Husum.]<note xml:id="ftn3" type="footnote" n="3">
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found. The text given here is extracted from the image of Brief 25 in Tkach, Neubauer &amp; Roser (2022), pp.145-6, W. Sonder to D. von Schlechtendal, 1 January 1855. Among other things, Sonder's letter discusses the progress of Plantae Muellerianae, especially a new consignment of mosses that he hopes Hampe and Carl Müller will again deal with; done in Hampe (1856).</p>
                   <p rend="Footnote"
                      style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
                      xml:lang="en">
-                     <seg style="font-style: italic; ">translator's summary.</seg>
-                  </p>
-               </note>
-            </p>
+                     <seg style="font-size: 13pt; ">
+                        <space dim="horizontal" extent="tab"/>
+                     </seg>Sonder also requested a catalogue from an antiquarian bookseller as 'ich soll für Dr. Müller verschiedene auf die Flora Australiens bezügliche Werke besorgen" <space unit="chars" quantity="1"/>[I am supposed to procure for Dr Mueller various works relating to the flora of Australia].</p>
+               </note>[Dr. Müller schrieb mir Ende Oktober, dass er im Begriffe sei, eine neue Reise in die Gebirge anzutreten.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains.<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">M departed on his new expedition on 1 November 1854; see M to J. Foster, 31 October 1854.</p>
+               </note>]</p>
          </div>
       </body>
    </text>
