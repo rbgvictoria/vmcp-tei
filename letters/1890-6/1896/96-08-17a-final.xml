@@ -1,0 +1,121 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>17/8/96. ¶  ¶ It gives me much pleasure, dear Mr Holtze, to introduce to you young Dr F. Rudall, ¶  a son of my particular friend Dr James Rudall, a leading operative Surgeon of Melbourne, and an acco...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1896/96-08-17a-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>GRG 35/594, State Records of South Australia, Adelaide.</msName>
+                  <altIdentifier>
+                     <idno>96.08.17a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>17/8/96. ¶  ¶ It gives me much pleasure, dear Mr Holtze, to introduce to you young Dr F. Rudall, ¶  a son of my particular friend Dr James Rudall, a leading operative Surgeon of Melbourne, and an acco...</title>
+               <date when="1896-08-17">1896-08-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1896/96-08-17a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Maurice Holtze</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">17/8/96. ¶  ¶ It gives me much pleasure, dear Mr Holtze, to introduce to you young Dr F. Rudall, ¶  a son of my particular friend Dr James Rudall, a leading operative Surgeon of Melbourne, and an acco...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">96.08.17a</p>
+            <p rend="correspondent" xml:lang="en">To Maurice Holtze</p>
+            <p rend="location" xml:lang="en">GRG 35/594, State Records of South Australia, Adelaide.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">17/8/96.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>It gives me much pleasure, dear Mr Holtze, to introduce to you young Dr F. Rudall,<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">James Ferdinand Rudall.</p>
+               </note> a son of my particular friend Dr James Rudall, a leading operative Surgeon of Melbourne, and an accomplished ophthalmic specialist. His Son, at whose Baptism I stood sponsor, followed his distinguished fathers lines of studies, and after completing his University career here, was engaged at St Thomas' Hospital and other great medical Institutions in London for further researches during several years. Like his father he is also an accomplished Amateur musician and he is a young gentleman of the nicest of disposition, so he will, should he stay in Adelaide be a great acquisition as well to social as medical circles.</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Very regardfully</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>your Ferd von Mueller</p>
+         </div>
+      </body>
+   </text>
+</TEI>

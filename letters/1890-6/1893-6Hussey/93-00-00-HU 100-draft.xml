@@ -1,0 +1,856 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>100. ¶  ¶ Hibbertia stricta R.Brown ¶ 110. ¶  ¶ Acaena sanguisorbae, Vahl ¶ 108. ¶  ¶ Fruit also required ¶ 80 ¶  ¶ Juncus pallidus, R.Brown ¶ 87. ¶  ¶ Silene Gallica, Linné...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1893-6Hussey/93-00-00-HU 100-draft.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>State Library of South Australia, Adelaide, South Australia.</msName>
+                  <altIdentifier>
+                     <idno>93.00.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>100. ¶  ¶ Hibbertia stricta R.Brown ¶ 110. ¶  ¶ Acaena sanguisorbae, Vahl ¶ 108. ¶  ¶ Fruit also required ¶ 80 ¶  ¶ Juncus pallidus, R.Brown ¶ 87. ¶  ¶ Silene Gallica, Linné...</title>
+               <date when="1893">1893</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1893-6Hussey/93-00-00-HU 100-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Haloragis aspera var glauca</term>
+               <term>Helichrysum leucopsidium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e6abd27b-0755-46f9-bd00-f80d830e123a">Helichrysum scorpioides</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4d47d540-6814-4592-93ac-fe6664508b56">Lepidosperma filiforme</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e52dc5f3-8015-4bdd-8467-6ce6f304fd3e">Lepidosperma gladiatum</term>
+               <term>Muehlenbeckia appressa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/1c20c070-4ac6-4e25-a236-b9563c4bb9ea">Poranthera microphylla</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/84cc5b9e-eb2e-4a58-8ec0-9266d3322584">Adriana quadripartita</term>
+               <term>Calycothrix tetragona</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/011d8cde-be05-421a-99a7-183f0f302543">Scabiosa atropurpurea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/06c2fb72-1be6-4804-a9d8-56a5fa1ae4be">Wilsonia rotundifolia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f7eeacf5-91db-464d-b871-7e6ca0682b65">Cotula coronopifolia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/caa25649-6aac-4f6a-9685-1eafe5b4e021">Hypochaeris radicata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e2c50ae5-b995-4d00-945a-ac715ce2077f">Nicotiana suaveolens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/2a89a3f9-d669-4638-82d3-2a575e7ca722">Pelargonium australe</term>
+               <term>Pimela serpillifolia</term>
+               <term>Scaevola crassifolia</term>
+               <term>Acaena sanguisorbae</term>
+               <term>Erythraea australis</term>
+               <term>Genista Canariensis</term>
+               <term>Logania crassifolia</term>
+               <term>Lythrum hyssipolium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/80cd348a-4bd8-47a9-81cb-9fac4fe16fb3">Melaleuca decussata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/2f50a4ea-7bb6-44e5-b7da-e59f3523aec0">Minuria leptophylla</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/99cf228a-b007-4cc8-9751-16a9b81b7902">Plantago lanceolata</term>
+               <term>Prasophyllum patens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/353693ee-4c81-43e6-a552-b06ec80e1956">Ptilotus erubescens</term>
+               <term>Ptilotus spatulatus</term>
+               <term>Anagallis arvensis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/5248e332-b8d8-4632-b25f-f3bb1a119357">Billardiera cymosa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/afd1eb17-a9e6-484e-b199-8bc949799c05">Caladenia dilatata</term>
+               <term>Lavendula Stoechas</term>
+               <term>Leucophyta Brownii</term>
+               <term>Roeleria phleoides</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/084d02c0-413f-4a00-9506-5e49fa8e26e3">Xanthosia dissecta</term>
+               <term>Aira coryophyllea</term>
+               <term>Atriplex cinereum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/2c50f8b2-db48-4a27-831a-7e471fdaa39b">Dianella revoluta</term>
+               <term>Hibbertia stricta</term>
+               <term>Ixiolaena viscosa</term>
+               <term>Kunzea pomulifera</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/d00a01e6-8d9f-492f-9da5-2199636e8a20">Myoporum insulare</term>
+               <term>Sonchus olecaceus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9ea33d4e-7896-4e7d-90b8-9465b3c8dc7f">Stipa semibarbata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9c3b49b8-ff03-4dd9-bc2b-1466a5657903">Tricoryne elatior</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/78f7fde3-f704-447c-b269-c0c802555919">Xanthosia pusilla</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/1b7fb9dc-3acf-4909-af9a-c1f9da7d5636">Apium prostratum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/536205ee-a735-4b04-b31f-4745f57e9588">Bursaria spinosa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/cb304d8b-3b9f-45c5-baf6-5d1034805ba5">Epacris impressa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/d991819d-fcd9-467a-823f-53371d4ca865">Senecio odoratus</term>
+               <term>Veronica distans</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/cfb7fe8d-5c23-47e8-80eb-a389e6bb6cfd">Acacia salicina</term>
+               <term>Correa speciosa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c0bb7f5d-46cb-4647-b303-81c92540254c">Halgania cyanea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/7f5aacda-d46b-4f5e-b187-b6af0c43408d">Juncus pallidus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/bb5db6d4-75e4-4e68-83c6-8691011092ac">Scirpus nodosus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8e0d50be-df56-417b-80fb-602c2f205dad">Scirpus pungens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/31d45980-725c-4866-89e9-6b47c731262e">Suaeda maritima</term>
+               <term>Aster Huegelii</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/86ea12c0-127b-11e6-8d1d-005056b0018f">Caesia vittata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/0836e5d4-ac61-4277-8f89-e6b044e9e4da">Lolium perenne</term>
+               <term>Poa caespitosa</term>
+               <term>Silene Gallica</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/23d135d4-214c-46d5-bae4-8f4a8b05341e">Briza minor</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/d1b7c74d-3383-4f59-b16b-18c69789c892">Cryptandra</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/68ccc189-2a01-4a9a-9fd4-aa39fe41ff97">Frankenia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/736dc05d-dca7-4f2d-a908-7274022af254">Rumex</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+               <term>tab alignment</term>
+               <term>even tabulation</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>Progress note</term>
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>valediction</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Jessie Hussey</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">100. ¶  ¶ Hibbertia stricta R.Brown ¶ 110. ¶  ¶ Acaena sanguisorbae, Vahl ¶ 108. ¶  ¶ Fruit also required ¶ 80 ¶  ¶ Juncus pallidus, R.Brown ¶ 87. ¶  ¶ Silene Gallica, Linné...</supplied>
+            </head>
+            <p rend="Progress%20note"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
+               xml:lang="en">Layout of list has been taken out of a messy table and now appears as tabbed text</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="Progress%20note"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
+               xml:lang="en">
+               <seg style="background-color: #ffff00; ">
+                  <name key="Scaevola%20crassifolia">Scaevola crassifolia</name>, Labillard</seg>. I think this has been a line jump. The specimen with this number in AVH is <seg style="background-color: #ffff00; ">Scaevola angustata</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="Progress%20note"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
+               xml:lang="en">
+               <seg style="background-color: #ffff00; ">96.<space dim="horizontal" extent="tab"/>Leaves also needed</seg>
+               <space unit="chars" quantity="1"/>&amp; also <seg style="background-color: #ffff00; ">96.<space dim="horizontal" extent="tab"/>
+                  <name key="Sonchus%20olecaceus">Sonchus olecaceus</name>
+               </seg>, <space unit="chars" quantity="1"/>Are both numbers transcribed correctly?</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="Progress%20note"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
+               xml:lang="en">Other apparent typos highlighted.</p>
+            <p rend="number" xml:lang="en">
+               <seg style="">93.00.00</seg>
+               <seg style=""/>
+            </p>
+            <p rend="correspondent" xml:lang="en">To Jessie Hussey</p>
+            <p rend="location" xml:lang="en">
+               <seg style="">State Library of South Australia, Adelaide, South Australia.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">To proof.</seg>
+                  </p>
+               </note>100.<space dim="horizontal" extent="tab"/>
+               <name key="Hibbertia%20stricta">Hibbertia stricta</name> R.Brown</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">110.<space dim="horizontal" extent="tab"/>
+               <name key="Acaena%20sanguisorbae">Acaena sanguisorbae</name>, Vahl</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">108.<space dim="horizontal" extent="tab"/>Fruit also required</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">80<space dim="horizontal" extent="tab"/>
+               <name key="Juncus%20pallidus">Juncus pallidus</name>, R.Brown</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">87.<space dim="horizontal" extent="tab"/>
+               <name key="Silene%20Gallica">Silene Gallica</name>, Linné</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">81.<space dim="horizontal" extent="tab"/>no flowers<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">named later with 359.</seg>
+                  </p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">112.<space dim="horizontal" extent="tab"/>
+               <name key="Prasophyllum%20patens">Prasophyllum patens</name> R.Br. </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">103.<space dim="horizontal" extent="tab"/>
+               <name key="Helichrysum%20scorpioides">Helichrysum scorpioides</name> Labillard</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">104.<space dim="horizontal" extent="tab"/>
+               <name key="Helichrysum%20leucopsidium">Helichrysum leucopsidium</name>, De Candolle</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">89.<space dim="horizontal" extent="tab"/>
+               <seg style="background-color: #ffff00; ">Pimela</seg>
+               <seg style="background-color: #ffff00; ">
+                  <note xml:id="ftn3" type="footnote" n="3">
+                     <p rend="Footnote"
+                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <seg style="background-color: #ffff00; ">Pimelea</seg>?</p>
+                  </note>
+               </seg> serpillifolia, R.Br. </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">94.<space dim="horizontal" extent="tab"/>Ripe fruit required</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">88.<space dim="horizontal" extent="tab"/>
+               <name key="Ptilotus%20spatulatus">Ptilotus spatulatus</name> Poiret</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">90.<space dim="horizontal" extent="tab"/>
+               <seg style="background-color: #ffff00; ">Roeleria</seg>
+               <seg style="background-color: #ffff00; ">
+                  <note xml:id="ftn4" type="footnote" n="4">
+                     <p rend="Footnote"
+                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <seg style="background-color: #ffff00; ">Roeleria</seg>?</p>
+                  </note>
+               </seg> phleoides, Persoon</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">91.<space dim="horizontal" extent="tab"/>
+               <name key="Poa%20caespitosa">Poa caespitosa</name>, Forster</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">86.<space dim="horizontal" extent="tab"/>
+               <name key="Epacris%20impressa">Epacris impressa</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">85.<space dim="horizontal" extent="tab"/>
+               <name key="Calycothrix%20tetragona">Calycothrix tetragona</name>
+               <note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">note. from original transcription: '[86. &amp; 85. added in by Jessie Hussey from previous letter]'</seg>.</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                     xml:lang="en">
+                     <seg style="color: #0000ff; font-weight: bold; ">I am not sure whether the note is on the MS or was a note added by the transcriber. And how does it relate to the last two entries on the list?</seg>
+                  </p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">84.<space dim="horizontal" extent="tab"/>
+               <name key="Atriplex%20cinereum">Atriplex cinereum</name> Poiret </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>pistillate plant</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">83.<space dim="horizontal" extent="tab"/>
+               <name key="Atriplex%20cinereum">Atriplex cinereum</name> Poiret </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>staminate plant</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">101.<space dim="horizontal" extent="tab"/>
+               <name key="Bursaria%20spinosa">Bursaria spinosa</name>, Cavanilles</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">98.<space dim="horizontal" extent="tab"/>
+               <name key="Poranthera%20microphylla">Poranthera microphylla</name>, Brogniart<note xml:id="ftn6" type="footnote" n="6">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">i.e. Brongniart.</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">93.<space dim="horizontal" extent="tab"/>
+               <name key="Scirpus%20pungens">Scirpus pungens</name>, Vahl</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">99.<space dim="horizontal" extent="tab"/>
+               <name key="Caesia%20vittata">Caesia vittata</name>, R.Brown</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">105.<space dim="horizontal" extent="tab"/>
+               <name key="Muehlenbeckia%20appressa">Muehlenbeckia appressa</name>, Meissner</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">107.<space dim="horizontal" extent="tab"/>
+               <name key="Erythraea%20australis">Erythraea australis</name>, R.Brown</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">97.<space dim="horizontal" extent="tab"/>
+               <name key="Cotula%20coronopifolia">Cotula coronopifolia</name>, Linné</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">106.<space dim="horizontal" extent="tab"/>
+               <name key="Wilsonia%20rotundifolia">Wilsonia rotundifolia</name>, Hooker</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <seg style="background-color: #ffff00; ">102.<space dim="horizontal" extent="tab"/>
+               </seg>
+               <name key="Xanthosia%20dissecta">Xanthosia dissecta</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <seg style="background-color: #ffff00; ">102.<space dim="horizontal" extent="tab"/>
+               </seg>
+               <name key="Xanthosia%20pusilla">Xanthosia pusilla</name> Bunge</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">109.<space dim="horizontal" extent="tab"/>
+               <name key="Stipa%20semibarbata">Stipa semibarbata</name>, R.Brown</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">111.<space dim="horizontal" extent="tab"/>
+               <name key="Lepidosperma%20filiforme">Lepidosperma filiforme</name>, Labill.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">82.<space dim="horizontal" extent="tab"/>
+               <seg style="background-color: #ffff00; ">
+                  <name key="Lythrum%20hyssipolium">Lythrum hyssipolium</name>
+               </seg>
+               <seg style="background-color: #ffff00; ">
+                  <note xml:id="ftn7" type="footnote" n="7">
+                     <p rend="Footnote"
+                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <seg style="background-color: #ffff00; ">Lythrum hyssopifolium</seg>? </p>
+                  </note>
+               </seg> Linné</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; background-color: #ffff00; "
+               xml:lang="en">96.<space dim="horizontal" extent="tab"/>Leaves also needed</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">137.<space dim="horizontal" extent="tab"/>
+               <name key="Scirpus%20nodosus">Scirpus nodosus</name>, Rottboell</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">138.<space dim="horizontal" extent="tab"/>
+               <name key="Hypochaeris%20radicata">Hypochaeris radicata</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">117.<space dim="horizontal" extent="tab"/>
+               <name key="Myoporum%20insulare">Myoporum insulare</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">139.<space dim="horizontal" extent="tab"/>
+               <name key="Caladenia%20dilatata">Caladenia dilatata</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">114.<space dim="horizontal" extent="tab"/>
+               <seg style="background-color: #ffff00; ">
+                  <name key="Kunzea%20pomulifera">Kunzea pomulifera</name>
+               </seg>,<note xml:id="ftn8" type="footnote" n="8">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="background-color: #ffff00; ">Kunzea pomifera</seg>? M used the spelling <seg style="font-style: italic; ">Kunzea pomifera </seg>
+                     <space unit="chars" quantity="1"/>in his note about its value as a fruit (B89.02.01) and when he first introduced it into his <seg style="font-style: italic; ">Select Plants</seg> (B88.12.01), and but <seg style="font-style: italic; ">K. pomulifera</seg> in subsequent editions B91.09.01 and B95.08.04.</p>
+               </note> F.v.M.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">113.<space dim="horizontal" extent="tab"/>
+               <name key="Ixiolaena%20viscosa">Ixiolaena viscosa</name>, F.v.M.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">116.<space dim="horizontal" extent="tab"/>
+               <name key="Frankenia">Frankenia</name>
+               <space unit="chars" quantity="1"/>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I should be thankful for specimens with ripe seeds </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">118.<space dim="horizontal" extent="tab"/>
+               <name key="Veronica%20distans">Veronica distans</name>, R. Brown</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Has this any scent ? What is its greatest hight ? Are the flowers always white?</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">115.<space dim="horizontal" extent="tab"/>
+               <name key="Nicotiana%20suaveolens">Nicotiana suaveolens</name>, Lehm.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">119.<space dim="horizontal" extent="tab"/>
+               <name key="Senecio%20odoratus">Senecio odoratus</name>, Hornemann</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">120.<space dim="horizontal" extent="tab"/>
+               <name key="Scaevola%20crassifolia">Scaevola crassifolia</name>, Labillard.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">121<space dim="horizontal" extent="tab"/>
+               <name key="Logania%20crassifolia">Logania crassifolia</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Are the flowers scented ?</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">122.<space dim="horizontal" extent="tab"/>
+               <name key="Correa%20speciosa">Correa speciosa</name>, Andrews</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">126.<space dim="horizontal" extent="tab"/>
+               <name key="Halgania%20cyanea">Halgania cyanea</name>, <seg style="background-color: #ffff00; ">Lindly</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">129.<space dim="horizontal" extent="tab"/>
+               <name key="Aster%20Huegelii">Aster Huegelii</name>, F.v.M.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">128.<space dim="horizontal" extent="tab"/>
+               <name key="Minuria%20leptophylla">Minuria leptophylla</name>, DC.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">123.<space dim="horizontal" extent="tab"/>
+               <name key="Acacia%20salicina">Acacia salicina</name>, Lindley</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">135.<space dim="horizontal" extent="tab"/>
+               <name key="Billardiera%20cymosa">Billardiera cymosa</name>, F.v.M.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">134.<space dim="horizontal" extent="tab"/>
+               <name key="Pelargonium%20australe">Pelargonium australe</name>, Willd</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">&amp;125. <space dim="horizontal" extent="tab"/>(varies much)</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">124.<space dim="horizontal" extent="tab"/>
+               <name key="Anagallis%20arvensis">Anagallis arvensis</name>, Linné</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">131.<space dim="horizontal" extent="tab"/>
+               <name key="Genista%20Canariensis">Genista Canariensis</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">132.<space dim="horizontal" extent="tab"/>
+               <seg style="background-color: #ffff00; ">Lavendula</seg>
+               <seg style="background-color: #ffff00; ">
+                  <note xml:id="ftn9" type="footnote" n="9">
+                     <p rend="Footnote"
+                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <seg style="background-color: #ffff00; ">Lavandula</seg>?</p>
+                  </note>
+               </seg>
+               <seg style="background-color: #ffff00; "> </seg>Stoechas L.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Did this get naturalized.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">130.<space dim="horizontal" extent="tab"/>
+               <name key="Cryptandra">Cryptandra</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Could fruiting specimens be also procured</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">136.<space dim="horizontal" extent="tab"/>
+               <name key="Tricoryne%20elatior">Tricoryne elatior</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">150.<space dim="horizontal" extent="tab"/>
+               <name key="Dianella%20revoluta">Dianella revoluta</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">145.<space dim="horizontal" extent="tab"/>
+               <name key="Plantago%20lanceolata">Plantago lanceolata</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">151.<space dim="horizontal" extent="tab"/>Haloragis aspera, Lindley</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>var. glauca</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">140.<space dim="horizontal" extent="tab"/>Aira <seg style="background-color: #ffff00; ">coryophyllea</seg>
+               <note xml:id="ftn10" type="footnote" n="10">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="background-color: #ffff00; ">A. caryophyllea</seg>
+                  </p>
+               </note>, Linné</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">149.<space dim="horizontal" extent="tab"/>
+               <name key="Adriana%20quadripartita">Adriana quadripartita</name>, Gaudichaud</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">148.<space dim="horizontal" extent="tab"/>
+               <name key="Lolium%20perenne">Lolium perenne</name>, Linné</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">152.<space dim="horizontal" extent="tab"/>
+               <name key="Lepidosperma%20gladiatum">Lepidosperma gladiatum</name> Labillardière</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">147.<space dim="horizontal" extent="tab"/>
+               <name key="Suaeda%20maritima">Suaeda maritima</name>, Mortier</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">146.<space dim="horizontal" extent="tab"/>
+               <name key="Melaleuca%20decussata">Melaleuca decussata</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>(narrow-leaved form)</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">57.<space dim="horizontal" extent="tab"/>
+               <name key="Apium%20prostratum">Apium prostratum</name>, Labillard.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">143.<space dim="horizontal" extent="tab"/>
+               <name key="Briza%20minor">Briza minor</name>, Linné</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <seg style="background-color: #ffff00; ">96.<space dim="horizontal" extent="tab"/>
+                  <name key="Sonchus%20olecaceus">Sonchus olecaceus</name>,</seg>
+               <seg style="background-color: #ffff00; ">
+                  <note xml:id="ftn11" type="footnote" n="11">
+                     <p rend="Footnote"
+                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <seg style="background-color: #ffff00; ">Sonchus oleraceus?</seg>
+                     </p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </note>
+               </seg>
+               <seg style="background-color: #ffff00; "> Linné</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">142.<space dim="horizontal" extent="tab"/>
+               <name key="Rumex">Rumex</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>(not in fruit)</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">108.<space dim="horizontal" extent="tab"/>
+               <name key="Scabiosa%20atropurpurea">Scabiosa atropurpurea</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">163.<space dim="horizontal" extent="tab"/>
+               <name key="Ptilotus%20erubescens">Ptilotus erubescens</name>, Schlechtendal</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">160.<space dim="horizontal" extent="tab"/>
+               <name key="Leucophyta%20Brownii">Leucophyta Brownii</name>, Cassini</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">85.<space dim="horizontal" extent="tab"/>
+               <name key="Calycothrix%20tetragona">Calycothrix tetragona</name> Labillard.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">86.<space dim="horizontal" extent="tab"/>
+               <name key="Epacris%20impressa">Epacris impressa</name> Labillardière</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="valediction"
+               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">With regardful remembrance your</p>
+            <p rend="valediction"
+               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20salicina">Acacia salicina</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acaena%20sanguisorbae">Acaena sanguisorbae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Adriana%20quadripartita">Adriana quadripartita</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aira%20coryophyllea">Aira coryophyllea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Anagallis%20arvensis">Anagallis arvensis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Apium%20prostratum">Apium prostratum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aster%20Huegelii">Aster Huegelii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Atriplex%20cinereum">Atriplex cinereum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Billardiera%20cymosa">Billardiera cymosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Briza%20minor">Briza minor</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bursaria%20spinosa">Bursaria spinosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Caesia%20vittata">Caesia vittata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Caladenia%20dilatata">Caladenia dilatata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calycothrix%20tetragona">Calycothrix tetragona</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calycothrix%20tetragona">Calycothrix tetragona</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Correa%20speciosa">Correa speciosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cotula%20coronopifolia">Cotula coronopifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cryptandra">Cryptandra</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dianella%20revoluta">Dianella revoluta</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Epacris%20impressa">Epacris impressa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Epacris%20impressa">Epacris impressa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Erythraea%20australis">Erythraea australis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Frankenia">Frankenia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Genista%20Canariensis">Genista Canariensis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Halgania%20cyanea">Halgania cyanea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Haloragis aspera var. glauca</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20leucopsidium">Helichrysum leucopsidium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20scorpioides">Helichrysum scorpioides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hibbertia%20stricta">Hibbertia stricta</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypochaeris%20radicata">Hypochaeris radicata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ixiolaena%20viscosa">Ixiolaena viscosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juncus%20pallidus">Juncus pallidus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Kunzea <seg style="background-color: #ffff00; ">pomulifera</seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="background-color: #ffff00; ">Lavendula</seg> Stoechas</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lepidosperma%20filiforme">Lepidosperma filiforme</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lepidosperma%20gladiatum">Lepidosperma gladiatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leucophyta%20Brownii">Leucophyta Brownii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Logania%20crassifolia">Logania crassifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lolium%20perenne">Lolium perenne</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lythrum%20hyssipolium">Lythrum hyssipolium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melaleuca%20decussata">Melaleuca decussata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Minuria%20leptophylla">Minuria leptophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Muehlenbeckia%20appressa">Muehlenbeckia appressa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Myoporum%20insulare">Myoporum insulare</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Nicotiana%20suaveolens">Nicotiana suaveolens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelargonium%20australe">Pelargonium australe</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="background-color: #ffff00; ">Pimela</seg> serpillifolia</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Plantago%20lanceolata">Plantago lanceolata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Poa%20caespitosa">Poa caespitosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Poranthera%20microphylla">Poranthera microphylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Prasophyllum%20patens">Prasophyllum patens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20erubescens">Ptilotus erubescens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20spatulatus">Ptilotus spatulatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Roeleria%20phleoides">Roeleria phleoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rumex">Rumex</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scabiosa%20atropurpurea">Scabiosa atropurpurea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scaevola%20crassifolia">Scaevola crassifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scirpus%20nodosus">Scirpus nodosus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scirpus%20pungens">Scirpus pungens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Senecio%20odoratus">Senecio odoratus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Silene%20Gallica">Silene Gallica</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sonchus%20olecaceus">Sonchus olecaceus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Stipa%20semibarbata">Stipa semibarbata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Suaeda%20maritima">Suaeda maritima</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tricoryne%20elatior">Tricoryne elatior</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Veronica%20distans">Veronica distans</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Wilsonia%20rotundifolia">Wilsonia rotundifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Xanthosia%20dissecta">Xanthosia dissecta</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Xanthosia%20pusilla">Xanthosia pusilla</name>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

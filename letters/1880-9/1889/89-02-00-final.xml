@@ -1,0 +1,121 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [Royal Soc. Medal. For copy of Agt Genls despatch fwding.]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1889/89-02-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>No. 1543, vol. 1889 N, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>89.02.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [Royal Soc. Medal. For copy of Agt Genls despatch fwding.]...</title>
+               <date when="1889-02">1889-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1889/89-02-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Alfred Deakin</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [Royal Soc. Medal. For copy of Agt Genls despatch fwding.]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">89.02.00</p>
+            <p rend="correspondent" xml:lang="en">To Alfred Deakin</p>
+            <p rend="location" xml:lang="en">No. 1543, vol. 1889 N, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found; item is a register entry only, dated 5 February 1889.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[Royal Soc. Medal. For copy of Agt Genls despatch fwding.]<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">The Royal Society of London had awarded M one of its two Royal Medals for 1888 'for his long services in Australian exploration, and for his Investigations of the flora of the Australian Continent'. The Agent General was invited to receive the Medal on M's behalf and 'transmit it at your convenience to Baron von Mueller'(M. Foster to G. Berry, 9 November 1888 (Royal Society of London Archives, NLB/2/806)), and did so at the Society's Anniversary Meeting held on 30 November.</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>M's letter was returned to him on 6 February 1889 minuted: 'See attached file'. A request from the Premier's Department that the Agent-General's despatch be returned was referred from the Chief Secretary's Office to M on 13 February, minuted 'Return file'. M did so on 16 February with his thanks, and the file was sent to the Premier's Department on 22 February.</p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

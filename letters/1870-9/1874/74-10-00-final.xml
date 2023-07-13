@@ -1,0 +1,866 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ I am sending you a list of the plants that Mr Giles collected on his last geographical journey. As these notes hitherto are nowhere printed, they may be welcome to you for the  ¶ Gartenflora ¶ . Am...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1874/74-10-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>74.10.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ I am sending you a list of the plants that Mr Giles collected on his last geographical journey. As these notes hitherto are nowhere printed, they may be welcome to you for the  ¶ Gartenflora ¶ . Am...</title>
+               <date when="1874-10">1874-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1874/74-10-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Crotalaria Cunninghami var flavida</term>
+               <term>Samolus repens var rhombifolia</term>
+               <term>Tecoma australis var Oxleyi</term>
+               <term>Stemodia viscosa var magna</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/5a27c1c7-9931-4b1f-8519-c3fcf4709e65">Codonocarpus cotinifolius</term>
+               <term>Petalostylis labicheoides</term>
+               <term>Prostanthera striatiflora</term>
+               <term>Keraudrenia nephrosperma</term>
+               <term>Pittosporum phillyroides</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/500b2d56-0b8f-48da-9b8f-b1c827ccbe47">Plectranthus parviflorus</term>
+               <term>Thryptomene Maisonneuvei</term>
+               <term>Cyclotheca australasica</term>
+               <term>Dicrastylis ochrotricha</term>
+               <term>Eremophila alternifolia</term>
+               <term>Eriachne scleranthoides</term>
+               <term>Helichrysum Cassinianum</term>
+               <term>Helichrysum rutidolepis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4ef219a6-7a8f-4198-ad87-15301b7ef711">Heliotropium asperrimum</term>
+               <term>Newcastlia spodiotricha</term>
+               <term>Pterocaulon sphacelatus</term>
+               <term>Calycothrix longifolia</term>
+               <term>Cheilanthes tenuifolia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f74f4b20-137b-4516-8736-47c47b1e1398">Helichrysum apiculatum</term>
+               <term>Helichrysum Davenporti</term>
+               <term>Helipterum floribundum</term>
+               <term>Isotropis atropurpurea</term>
+               <term>Macgregoria racemigera</term>
+               <term>Myriocephalus Stuartii</term>
+               <term>Newcastlia cladotricha</term>
+               <term>Ptilotus alopecuroides</term>
+               <term>Ptilotus helipteroides</term>
+               <term>Swainsona unifoliolata</term>
+               <term>Trichodesma Zeilanicum</term>
+               <term>Acacia spondylophylla</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8e18b320-ff33-4af0-a384-7e1648b62727">Angianthus tomentosus</term>
+               <term>Brachysema Chambersii</term>
+               <term>Casuarina Decaisneana</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e7d44d5b-a826-49c8-9a5f-b895ab6049bf">Chenopodium carinatum</term>
+               <term>Cynoglossum Drummondi</term>
+               <term>Didiscus glaucifolius</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c82ce994-3a29-4ecc-af0e-8ea2a84172ac">Gnaphalium luteoalbum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e19841ca-f9b2-45ec-82d7-ee4295f4fb85">Grevillea pterosperma</term>
+               <term>Helipterum Tietkensi </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/ec4b4fea-d2e1-4f27-9265-9beefbdd3f68">Pimelea trichostachya</term>
+               <term>Stemodia pedicellaris</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/d4b462a2-4032-480b-8e3d-eff4df062036">Wahlenbergia gracilis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/a7c5789f-5685-4228-984c-0150d004ca0b">Cassia artemisioides</term>
+               <term>Chloanthes Lewellini</term>
+               <term>Dicrastylis Gilesii </term>
+               <term>Eremophila latifolia</term>
+               <term>Gnaphalium Japonicum</term>
+               <term>Goodenia heterochila</term>
+               <term>Goodenia Vilmoriniae</term>
+               <term>Grevillea juncifolia</term>
+               <term>Hibbertia glaberrima</term>
+               <term>Indigofera brevidens</term>
+               <term>Lobelia heterophylla</term>
+               <term>Microcorys Macrediei</term>
+               <term>Newcastlia bracteosa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e2c50ae5-b995-4d00-945a-ac715ce2077f">Nicotiana suaveolens</term>
+               <term>Prostanthera Wilkiei</term>
+               <term>Ptilotus hemisteirus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/3e8ef0a8-298f-4447-8f75-c2115bbe237d">Santalum lanceolatum</term>
+               <term>Sarcostemma australe</term>
+               <term>Sisymbrium trisectum</term>
+               <term>Anthotroche Blackii</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/93c88fde-ab15-4a9a-a61d-3830a57a0160">Callitris verrucosa</term>
+               <term>Catosperma Muelleri</term>
+               <term>Caulinia procurrens</term>
+               <term>Clianthus Dampierii</term>
+               <term>Dicrastylis Dorani </term>
+               <term>Eleusine aegyptiaca</term>
+               <term>Eremophila Hughesii</term>
+               <term>Eremophila Latrobei</term>
+               <term>Erythraea australis</term>
+               <term>Helichrysum lucidum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/db4fb50e-9357-4269-8d20-6b9e9bda2067">Lepidium papillosum</term>
+               <term>Menkea sphaerocarpa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/2f50a4ea-7bb6-44e5-b7da-e59f3523aec0">Minuria leptophylla</term>
+               <term>Thysanotus sparteus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/a46ce560-d5ce-4e44-9cab-3c495d65979d">Tribulus terrestris</term>
+               <term>Acacia minutifolia</term>
+               <term>Adriana acerifolia</term>
+               <term>Andropogon laniger</term>
+               <term>Aristida stipoides</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b7f950e3-a7b6-4674-8d60-2839398eb343">Brunonia australis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8eaf3841-de79-494b-bba1-6daf33ab9e71">Calotis lappulacea</term>
+               <term>Cassia pleurocarpa</term>
+               <term>Cheilanthes vellea</term>
+               <term>Daviesia artropoda</term>
+               <term>Eremophila Gibsoni</term>
+               <term>Eremophila Willsii</term>
+               <term>Goodenia Mueckeana</term>
+               <term>Gossypium Stuartii</term>
+               <term>Grevillea Wickhami</term>
+               <term>Hakea multilineata</term>
+               <term>Helipterum incanum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/03e89a07-eece-441a-b2c5-ccdb949c862a">Oxalis corniculata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/3abb3bc7-a0e7-4b25-98d4-692a63ab3ecd">Parietaria debilis</term>
+               <term>Pimelea ammocharis</term>
+               <term>Senecio magnificus</term>
+               <term>Solanum ellipticum</term>
+               <term>Aster subspicatus</term>
+               <term>Eremophila Elderi</term>
+               <term>Ficus orbicularis</term>
+               <term>Mirbelia oxyclada</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/38fb2d65-e078-44a5-9398-c50691d8259d">Ptilotus obovatus</term>
+               <term>Sida cardiophylla</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8ad12ce0-9560-4f86-8073-2f2037807ec7">Bromus arenarius</term>
+               <term>Cassia notabilis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/26a2dd86-3afa-43cf-8f95-83d8cf125ec2">Dodonaea viscosa</term>
+               <term>Festuca irritans</term>
+               <term>Goodenia Ramelii</term>
+               <term>Hibiscus Sturtii</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/00c89321-9a55-4bbc-a4e9-5483c31965b4">Mimulus gracilis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/0e453da2-7401-4154-9d21-7d294b22f5bf">Ptilotus nobilis</term>
+               <term>Senecio Gregorii</term>
+               <term>Stackhousiaceae </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/cfb7fe8d-5c23-47e8-80eb-a389e6bb6cfd">Acacia salicina</term>
+               <term>Cassia desolata</term>
+               <term>Ficus platypoda</term>
+               <term>Isotoma petraea</term>
+               <term>Justicia juncea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b3ad8b60-b1d8-48f0-90d0-eb6f4d388f7e">Psoralea patens</term>
+               <term>Ptilotus Hoodii</term>
+               <term>Senecio lanatus</term>
+               <term>Breweria rosea</term>
+               <term>Cleome viscosa</term>
+               <term>Drosera Indica</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/0aa60b84-9bf9-46ae-b8a7-600dc0718977">Sida corrugata</term>
+               <term>Acacia aneura</term>
+               <term>Acacia patens</term>
+               <term>Acacia Sentis</term>
+               <term>Pluchea Eyria</term>
+               <term>Sida inclusa</term>
+               <term>Sida virgata</term>
+               <term>Hakea lorea</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="49">English</language>
+            <language ident="de" usage="51">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Eduard Regel</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ I am sending you a list of the plants that Mr Giles collected on his last geographical journey. As these notes hitherto are nowhere printed, they may be welcome to you for the  ¶ Gartenflora ¶ . Am...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">74.10.00</p>
+            <p rend="correspondent" xml:lang="de">To Eduard Regel</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Bericht des Herrn Baron F. v. Müller über die Pflanzen der Expedition des Herrn Giles' [Report of Baron F. v. Mueller on the plants of the expedition of Mr Giles], <seg style="font-style: italic; ">Gartenflora</seg>, vol. 24 (1875), pp. 28-9 (B75.01.09). <seg style="font-style: italic; ">Gartenflora</seg> was issued in undated parts, with a standard structure; the pages cited here are in the first of the 12 parts, so assumed to be January 1875. The letter is dated to October 1874 on the basis of M's comment in M to A. Petermann, 6 October 1874, that he had sent a list of the plants found by Giles to Regel. It is introduced (pp. 27-8) by: </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>Aus Australien. Die Karte der Erforschungsreise des Herrn Giles zwischen dem 126—134. Längegrad und 23—27° s. Br. im Innern Australiens, welche wir der Güte des Herrn Baron F. v. Müller verdanken, liegt vor uns. Herr F. v. Müller hat auch bereits schon die von Giles gesammelten Pflanzen bearbeitet. In Bezug auf die Verbreitung von Pflanzen ist es besonders auffallend, wie unter den aus jenen der Wissenschaft neu erschlossenen Gebieten sich so manche finden, welche auch als Bewohner der alten Welt bekannt sind, so Trichodesma zeylanicum, die in Südeuropa und Egypten heimische <name key="Eleusine%20aegyptiaca">Eleusine aegyptiaca</name>, Drosera indica aus Ostindien, der in Südeuropa und Afrika heimische <name key="Tribulus%20terrestris">Tribulus terrestris</name>. </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>Herr Baron Müller hatte die Güte, uns in Bezug auf die Ergebnisse der botanischen Ausbeute des Herrn Giles die unten folgenden Mittheilungen zu machen, aus denen hervorgeht, welche reichen Pflanzenschätze unsere Gärten aus jenen Gegenden noch zu erwarten haben</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>[From Australia. The map of the expedition of Mr Giles between 126-134 degrees of longitude and 23-27° south latitude in the interior of Australia, which we owe to the kindness of Baron F von Mueller, lies before us. Herr F. von Mueller has also already worked on the plants collected by Giles. In reference to the distribution of plants it is particularly striking how among them so many are found from those regions newly opened to science that are also known as inhabitants of the Old World, thus <seg style="font-style: italic; ">Trichodesma zeylanicum</seg>, <seg style="font-style: italic; ">
+                        <name key="Eleusine%20aegyptiaca">Eleusine aegyptiaca</name>
+                     </seg> native to southern Europe and Egypt, <seg style="font-style: italic; ">Drosera indica</seg> from East Indies, and <seg style="font-style: italic; ">
+                        <name key="Tribulus%20terrestris">Tribulus terrestris</name>
+                     </seg> native to southern Europe and Africa.</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>Baron Mueller had the goodness to give us the following communication in reference to the results of the botanical yields of Mr Giles, from which follows what rich plant treasures our gardens have yet to expect from those regions.]</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>Ich sende Ihnen eine Liste der Pflanzen, welche M. Giles auf seiner letzten geographischen Reise sammelte. Da diese Notizen nirgends bisher gedruckt sind, so mögen sie Ihnen für die Gartenflora willkommen sein. Unter den von M. Giles gesammelten Pflanzen befinden sich auch mehrere Acacien und Eukalypten, die aber im Blüthen- oder fruchtlosen Zustand nicht sicher benannt werden können. Die neuentdeckten Arten sind mit einem Stern bezeichnet. Neue Genera haben sich unter den gesammelten Pflanzen nicht erwiesen, wohl aber in voriger Reise die merkwürdige Macgregoria, welche eine eigne tribus unter den Stackhousiaceen bildet. Die Wüstenregion, welche dem kühnen Entdecker noch vorlag, schneidet die eigenthümlichen zahlreichen Pflanzenformen Süd-West-Australiens wenigstens bis zum Alfred- und Marie-Gebirge ab, denn ausser <name key="Lobelia%20heterophylla">Lobelia heterophylla</name>, die wir bisher nicht von ausserhalb S.-W.-Australiens kannten, treten nur Anthotroche und Microcorys mit neuen Formen in Central-Australien auf. </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>M. Giles Reise, von mir angeregt und dem Plan nach entworfen, auch im ersten Theil grossentheils durch mich unterstützt, hat das doppelte Verdienst, vier oder fünf andere Forschungsreisende (Warburton, Gosse, Ross, Cadell und Forrest) ins Feld gebracht zu haben, und uns den einzigen Ueberlandsweg vom Innern Queenslands, N.-S.-Wales und Süd-Australiens zur Westküste zu geben, auf welchem Schaf- und Rinderheerden fortgebracht werden können. Die Routen von Ross, Gosse und Forrest sind kaum für Pferde und eigentlich nur für Dromedare passirbar. </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Von dem Alberga-Flusse bis zum Berg Olga: <name key="Lepidium%20papillosum">Lepidium papillosum</name>, <name key="Pittosporum%20phillyroides">Pittosporum phillyroides</name>, <name key="Oxalis%20corniculata">Oxalis corniculata</name>, <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>, <name key="Sida%20virgata">Sida virgata</name>, <name key="Gossypium%20Stuartii">Gossypium Stuartii</name>,<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">G. sturtii</seg>? See 77.10.01, p. 271, and APNI entry.</p>
+               </note>
+               <name key="Codonocarpus%20cotinifolius">Codonocarpus cotinifolius</name>, <name key="Ptilotus%20alopecuroides">Ptilotus alopecuroides</name>, P. helipteroides, P. obovatus, P. hemisteirus, <name key="Chenopodium%20carinatum">Chenopodium carinatum</name>, <name key="Adriana%20acerifolia">Adriana acerifolia</name>, <name key="Ficus%20platypoda">Ficus platypoda</name>, *Acacia strongylophylla, A. salicina, <name key="Petalostylis%20labicheoides">Petalostylis labicheoides</name>, <name key="Cassia%20artemisioides">Cassia artemisioides</name>, C. pleurocarpa, <name key="Caulinia%20procurrens">Caulinia procurrens</name>, *<name key="Swainsona%20unifoliolata">Swainsona unifoliolata</name>, <name key="Thryptomene%20Maisonneuvei">Thryptomene Maisonneuvei</name>, <name key="Calycothrix%20longifolia">Calycothrix longifolia</name>, <name key="Didiscus%20glaucifolius">Didiscus glaucifolius</name>, <name key="Calotis%20lappulacea">Calotis lappulacea</name>, <name key="Aster%20subspicatus">Aster subspicatus</name>, <name key="Minuria%20leptophylla">Minuria leptophylla</name>, <name key="Pterocaulon%20sphacelatus">Pterocaulon sphacelatus</name>, <name key="Myriocephalus%20Stuartii">Myriocephalus Stuartii</name>, <name key="Helichrysum%20Cassinianum">Helichrysum Cassinianum</name>, H. rutidolepis, H. Davenporti,<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">H. davenportii</seg>?</p>
+               </note> H. lucidum, *Helipterum Tietkensi, H. floribundum, H. incanum, <name key="Senecio%20lanatus">Senecio lanatus</name>, S. magnificus, S. Gregorii, <name key="Isotoma%20petraea">Isotoma petraea</name>, <name key="Catosperma%20Muelleri">Catosperma Muelleri</name>, <name key="Goodenia%20Ramelii">Goodenia Ramelii</name>, <name key="Brunonia%20australis">Brunonia australis</name>, <name key="Prostanthera%20striatiflora">Prostanthera striatiflora</name>, <name key="Heliotropium%20asperrimum">Heliotropium asperrimum</name>, <name key="Cynoglossum%20Drummondi">Cynoglossum Drummondi</name>, <name key="Trichodesma%20Zeilanicum">Trichodesma Zeilanicum</name>,<note xml:id="ftn4" type="footnote" n="4">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">T. zeylanicum</seg>? APNI does not list <seg style="font-style: italic; ">T. zeilanicum</seg> as an orthographic variant.</p>
+               </note> *<name key="Eremophila%20Gibsoni">Eremophila Gibsoni</name>, E. Willsii, E. latifolia, *Dicrastylis Gilesii, <name key="Newcastlia%20cladotricha">Newcastlia cladotricha</name>, <name key="Breweria%20rosea">Breweria rosea</name>, <name key="Nicotiana%20suaveolens">Nicotiana suaveolens</name>, <name key="Solanum%20ellipticum">Solanum ellipticum</name>, <name key="Pimelea%20trichostachya">Pimelea trichostachya</name>, <name key="Hakea%20lorea">Hakea lorea</name>, H. multilineata, Grevillea juneifolia, <name key="Casuarina%20Decaisneana">Casuarina Decaisneana</name>, <name key="Callitris%20verrucosa">Callitris verrucosa</name>, <name key="Eleusine%20aegyptiaca">Eleusine aegyptiaca</name>, <name key="Aristida%20stipoides">Aristida stipoides</name>, <name key="Festuca%20irritans">Festuca irritans</name>, <name key="Bromus%20arenarius">Bromus arenarius</name>, <name key="Andropogon%20laniger">Andropogon laniger</name>, <name key="Cheilanthes%20tenuifolia">Cheilanthes tenuifolia</name>, C. vellea. </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Am und auf dem Berg Olga: <name key="Hibbertia%20glaberrima">Hibbertia glaberrima</name>, <name key="Sisymbrium%20trisectum">Sisymbrium trisectum</name>, *<name key="Menkea%20sphaerocarpa">Menkea sphaerocarpa</name>, <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>, Gossypium Sturtii, <name key="Sida%20virgata">Sida virgata</name>, S. corrugata, <name key="Keraudrenia%20nephrosperma">Keraudrenia nephrosperma</name>, <name key="Adriana%20acerifolia">Adriana acerifolia</name>, <name key="Parietaria%20debilis">Parietaria debilis</name>, <name key="Ptilotus%20nobilis">Ptilotus nobilis</name>, P. obovatus, *P. Hoodii, <name key="Cyclotheca%20australasica">Cyclotheca australasica</name>, <name key="Isotropis%20atropurpurea">Isotropis atropurpurea</name>, *<name key="Daviesia%20artropoda">Daviesia artropoda</name>,<note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">Typesetting error for</seg> D. arthropoda?</p>
+               </note>
+               <name key="Psoralea%20patens">Psoralea patens</name>, <name key="Brachysema%20Chambersii">Brachysema Chambersii</name>, <name key="Cassia%20artemisioides">Cassia artemisioides</name>, C. desolata, C. notabilis, <name key="Acacia%20patens">Acacia patens</name>, *A. minutifolia, Thryptomene 0Maisonneuvii, <name key="Pluchea%20Eyria">Pluchea Eyria</name>,<note xml:id="ftn6" type="footnote" n="6">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">Typesetting error for </seg>P. eyrea?</p>
+               </note>
+               <name key="Gnaphalium%20luteoalbum">Gnaphalium luteoalbum</name>, G. Japonicum, <name key="Wahlenbergia%20gracilis">Wahlenbergia gracilis</name>, <name key="Goodenia%20Vilmoriniae">Goodenia Vilmoriniae</name>, G. Mueckeana, <name key="Prostanthera%20striatiflora">Prostanthera striatiflora</name>, <name key="Cynoglossum%20Drummondi">Cynoglossum Drummondi</name>,<note xml:id="ftn7" type="footnote" n="7">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">C. drummondii</seg>?</p>
+               </note>
+               <name key="Trichodesma%20Zeilanicum">Trichodesma Zeilanicum</name>, <name key="Chloanthes%20Lewellini">Chloanthes Lewellini</name>, <name key="Eremophila%20alternifolia">Eremophila alternifolia</name>, E. Latrobei, Tecoma australis var. Oxleyi,<note xml:id="ftn8" type="footnote" n="8">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>This variety name has not been found except in this letter: <seg style="font-style: italic; ">T. oxleyi</seg> was described in A. P. de Candolle (1845), p. 225.</p>
+               </note>
+               <name key="Justicia%20juncea">Justicia juncea</name>, <name key="Santalum%20lanceolatum">Santalum lanceolatum</name>, <name key="Grevillea%20pterosperma">Grevillea pterosperma</name>, Gr. juncifolia, <name key="Ficus%20orbicularis">Ficus orbicularis</name>, *<name key="Eriachne%20scleranthoides">Eriachne scleranthoides</name>. </p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Vom Berg Olga bis zum Warburton-Gebirge: <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>, <name key="Adriana%20acerifolia">Adriana acerifolia</name>, <name key="Indigofera%20brevidens">Indigofera brevidens</name>, <name key="Petalostylis%20labicheoides">Petalostylis labicheoides</name>, <name key="Cassia%20artemisioides">Cassia artemisioides</name>, <name key="Acacia%20aneura">Acacia aneura</name>, *A. spondylophylla, A. Sentis, A. salicina, <name key="Macgregoria%20racemigera">Macgregoria racemigera</name>, <name key="Ptilotus%20helipteroides">Ptilotus helipteroides</name>, <name key="Cyclotheca%20australasica">Cyclotheca australasica</name>, <name key="Angianthus%20tomentosus">Angianthus tomentosus</name>, <name key="Lobelia%20heterophylla">Lobelia heterophylla</name>, <name key="Goodenia%20heterochila">Goodenia heterochila</name>, G. Ramelii, <name key="Dicrastylis%20ochrotricha">Dicrastylis ochrotricha</name>, <name key="Newcastlia%20bracteosa">Newcastlia bracteosa</name>, *<name key="Prostanthera%20Wilkiei">Prostanthera Wilkiei</name>,<note xml:id="ftn9" type="footnote" n="9">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Described as <seg style="font-style: italic; ">Prostanthera wilkieana</seg> in B74.09.02, p. 230.</p>
+               </note>
+               <name key="Plectranthus%20parviflorus">Plectranthus parviflorus</name>, <name key="Erythraea%20australis">Erythraea australis</name>, *<name key="Anthotroche%20Blackii">Anthotroche Blackii</name>, Samolus repens, var, rhombifolia<note xml:id="ftn10" type="footnote" n="10">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>This variety name has not been found except in this letter.</p>
+               </note> (die Blätter fast bis zu einem Zoll breit), <name key="Pimelea%20ammocharis">Pimelea ammocharis</name>, <name key="Grevillea%20juncifolia">Grevillea juncifolia</name>, <name key="Casuarina%20Decaisneana">Casuarina Decaisneana</name>, <name key="Thysanotus%20sparteus">Thysanotus sparteus</name>.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Vom Warburton-Gebirge zum Rawlinson-Gebirge und Petermann- Gebirge: <name key="Cleome%20viscosa">Cleome viscosa</name>, <name key="Drosera%20Indica">Drosera Indica</name>, <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>, <name key="Tribulus%20terrestris">Tribulus terrestris</name>, <name key="Hibiscus%20Sturtii">Hibiscus Sturtii</name>, <name key="Sida%20inclusa">Sida inclusa</name>, *S. cardiophylla, <name key="Ptilotus%20obovatus">Ptilotus obovatus</name>, <name key="Cyclotheca%20australasica">Cyclotheca australasica</name>, *<name key="Swainsona%20unifoliolata">Swainsona unifoliolata</name>, <name key="Clianthus%20Dampierii">Clianthus Dampierii</name>, Crotalaria Cunninghami, var flavida,<note xml:id="ftn11" type="footnote" n="11">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>This variety name has not been found except in this letter.</p>
+               </note>
+               <name key="Indigofera%20brevidens">Indigofera brevidens</name>, <name key="Mirbelia%20oxyclada">Mirbelia oxyclada</name>, <name key="Cassia%20desolata">Cassia desolata</name>, C. notabilis, <name key="Helichrysum%20lucidum">Helichrysum lucidum</name>, H. apiculatum, <name key="Goodenia%20Ramelii">Goodenia Ramelii</name>, <name key="Newcastlia%20spodiotricha">Newcastlia spodiotricha</name>, <name key="Eremophila%20Latrobei">Eremophila Latrobei</name>, E. Willsii, *E. Elderi, *E. Hughesii, *Dicrastylis Dorani,<note xml:id="ftn12" type="footnote" n="12">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Described as <seg style="font-style: italic; ">Dicrastylis Doranii</seg> in B74.09.02, p. 230; M used <seg style="font-style: italic; ">D. dorani</seg> in B84.08.02, p. 16 and elsewhere.</p>
+               </note> *<name key="Microcorys%20Macrediei">Microcorys Macrediei</name>,<note xml:id="ftn13" type="footnote" n="13">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Described as <seg style="font-style: italic; ">Microcorys macredieana </seg>in B74.09.02, p. 231.</p>
+               </note> *<name key="Stemodia%20pedicellaris">Stemodia pedicellaris</name>, S. viscosa, var. magna,<note xml:id="ftn14" type="footnote" n="14">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>This variety name has not been found except in this letter.</p>
+               </note>
+               <name key="Mimulus%20gracilis">Mimulus gracilis</name>, <name key="Sarcostemma%20australe">Sarcostemma australe</name>, Tecoma australis var. Oxleyi,<note xml:id="ftn15" type="footnote" n="15">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>See n. 8 above.</p>
+               </note>
+               <name key="Santalum%20lanceolatum">Santalum lanceolatum</name>, <name key="Hakea%20lorea">Hakea lorea</name>, <name key="Grevillea%20Wickhami">Grevillea Wickhami</name>, Casuarina,<note xml:id="ftn16" type="footnote" n="16">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Comma inserted in error?</p>
+               </note> Decaisneana, <name key="Callitris%20verrucosa">Callitris verrucosa</name>, <name key="Cheilanthes%20tenuifolia">Cheilanthes tenuifolia</name>.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am sending you a list of the plants that Mr Giles collected on his last geographical journey. As these notes hitherto are nowhere printed, they may be welcome to you for the <seg style="font-style: italic; ">Gartenflora</seg>. Among the plants collected by Mr Giles are also several acacias and eucalypts, but which in their flowerless or fruitless condition cannot be safely named. The newly discovered species are indicated with a star.<note xml:id="ftn17" type="footnote" n="17">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>The species so marked were described in B74.09.02, except for <seg style="font-style: italic; ">
+                        <name key="Acacia%20minutifolia">Acacia minutifolia</name>
+                     </seg>and <seg style="font-style: italic; ">
+                        <name key="Sida%20cardiophylla">Sida cardiophylla</name>
+                     </seg>which were described in B74.10.01.</p>
+               </note> New genera have not been demonstrated among the collected plants, but probably in the previous journey the remarkable <seg style="font-style: italic; ">Macgregoria</seg>, which forms its own tribe among the Stackhousiacae. The desert region that still lay before the bold discoverer cuts off the remarkably abundant plant forms of south-west Australia at least up to the Alfred and Marie Ranges, because except <seg style="font-style: italic; ">
+                  <name key="Lobelia%20heterophylla">Lobelia heterophylla</name>
+               </seg>, which hitherto we did not know from outside south-west Australia, only <seg style="font-style: italic; ">Anthotroche</seg> and <seg style="font-style: italic; ">Microcorys</seg> appear with new forms in Central Australia.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Mr Giles journey, instigated and outlined after the plan by me, also in the first part mostly supported by me, had the double reward of having brought four or five other explorers (Warburton, Gosse, Ross, Cadell and Forrest) into the field and giving us the sole overland track from the interior of Queensland, New South Wales and South Australia to the west coast, on which flocks of sheep and herds of cattle can be moved. The routes of Ross, Gosse and Forrest are hardly passable for horses and really only passable for dromedaries.</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>From the Alberga River up to Mount Olga: [list as above]</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>At and on Mount Olga: [list as above]</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>From Mount Olga up to the Warburton Ranges: [list as above]</p>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>From the Warburton Ranges to the Rawlinson and Petermann Ranges: [list as above]<note xml:id="ftn18" type="footnote" n="18">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>M's list is followed by a report on John Forrest's 1874 expedition eastwards from the Murchison River in WA to the Overland Telegraph line. The report on his journey that Forrest sent to Adelaide on 30 September 1874 from the Peake telegraph station, following his arrival there, was published in Adelaide the next day and subsequently in newspapers throughout Australia; see, for example, <seg style="font-style: italic; ">South Australian register</seg>, 1 October 1874, p. 5. The report published by Regel, while probably based on a newspaper clipping sent to him by M, was somewhat briefer; its source has not been identified.</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20aneura">Acacia aneura</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20minutifolia">Acacia minutifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20patens">Acacia patens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20salicina">Acacia salicina</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20Sentis">Acacia Sentis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20spondylophylla">Acacia spondylophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Adriana%20acerifolia">Adriana acerifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Andropogon%20laniger">Andropogon laniger</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Angianthus%20tomentosus">Angianthus tomentosus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Anthotroche%20Blackii">Anthotroche Blackii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aristida%20stipoides">Aristida stipoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aster%20subspicatus">Aster subspicatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Brachysema%20Chambersii">Brachysema Chambersii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Breweria%20rosea">Breweria rosea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bromus%20arenarius">Bromus arenarius</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Brunonia%20australis">Brunonia australis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Callitris%20verrucosa">Callitris verrucosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calotis%20lappulacea">Calotis lappulacea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calycothrix%20longifolia">Calycothrix longifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cassia%20artemisioides">Cassia artemisioides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cassia%20desolata">Cassia desolata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cassia%20notabilis">Cassia notabilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cassia%20pleurocarpa">Cassia pleurocarpa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Casuarina%20Decaisneana">Casuarina Decaisneana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Catosperma%20Muelleri">Catosperma Muelleri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Caulinia%20procurrens">Caulinia procurrens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cheilanthes%20tenuifolia">Cheilanthes tenuifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cheilanthes%20vellea">Cheilanthes vellea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chenopodium%20carinatum">Chenopodium carinatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chloanthes%20Lewellini">Chloanthes Lewellini</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cleome%20viscosa">Cleome viscosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Clianthus%20Dampierii">Clianthus Dampierii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Codonocarpus%20cotinifolius">Codonocarpus cotinifolius</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Crotalaria%20Cunninghami%20var%20flavida">Crotalaria Cunninghami var flavida</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cyclotheca%20australasica">Cyclotheca australasica</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cynoglossum%20Drummondi">Cynoglossum Drummondi</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Daviesia%20artropoda">Daviesia artropoda</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dicrastylis%20Dorani%20">Dicrastylis Dorani </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dicrastylis%20Gilesii%20">Dicrastylis Gilesii </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dicrastylis%20ochrotricha">Dicrastylis ochrotricha</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Didiscus%20glaucifolius">Didiscus glaucifolius</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Drosera%20Indica">Drosera Indica</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eleusine%20aegyptiaca">Eleusine aegyptiaca</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila%20alternifolia">Eremophila alternifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <name key="Eremophila%20Elderi">Eremophila Elderi</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila%20Gibsoni">Eremophila Gibsoni</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <name key="Eremophila%20Hughesii">Eremophila Hughesii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila%20latifolia">Eremophila latifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila%20Latrobei">Eremophila Latrobei</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila%20Latrobei">Eremophila Latrobei</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila%20Willsii">Eremophila Willsii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eriachne%20scleranthoides">Eriachne scleranthoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Erythraea%20australis">Erythraea australis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Festuca%20irritans">Festuca irritans</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ficus%20orbicularis">Ficus orbicularis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ficus%20platypoda">Ficus platypoda</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gnaphalium%20Japonicum">Gnaphalium Japonicum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gnaphalium%20luteoalbum">Gnaphalium luteoalbum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodenia%20heterochila">Goodenia heterochila</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodenia%20Mueckeana">Goodenia Mueckeana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodenia%20Ramelii">Goodenia Ramelii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodenia%20Vilmoriniae">Goodenia Vilmoriniae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gossypium%20Stuartii">Gossypium Stuartii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Grevillea%20juncifolia">Grevillea juncifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Grevillea%20pterosperma">Grevillea pterosperma</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Grevillea%20Wickhami">Grevillea Wickhami</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hakea%20lorea">Hakea lorea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hakea%20multilineata">Hakea multilineata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20apiculatum">Helichrysum apiculatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20Cassinianum">Helichrysum Cassinianum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20Davenporti">Helichrysum Davenporti</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20lucidum">Helichrysum lucidum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20rutidolepis">Helichrysum rutidolepis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Heliotropium%20asperrimum">Heliotropium asperrimum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helipterum%20floribundum">Helipterum floribundum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helipterum%20incanum">Helipterum incanum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helipterum%20Tietkensi%20">Helipterum Tietkensi </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hibbertia%20glaberrima">Hibbertia glaberrima</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hibiscus%20Sturtii">Hibiscus Sturtii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Indigofera%20brevidens">Indigofera brevidens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Isotoma%20petraea">Isotoma petraea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Isotropis%20atropurpurea">Isotropis atropurpurea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Justicia%20juncea">Justicia juncea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Keraudrenia%20nephrosperma">Keraudrenia nephrosperma</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lepidium%20papillosum">Lepidium papillosum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lobelia%20heterophylla">Lobelia heterophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Macgregoria%20racemigera">Macgregoria racemigera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Menkea%20sphaerocarpa">Menkea sphaerocarpa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Microcorys%20Macrediei">Microcorys Macrediei</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mimulus%20gracilis">Mimulus gracilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Minuria%20leptophylla">Minuria leptophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mirbelia%20oxyclada">Mirbelia oxyclada</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Myriocephalus%20Stuartii">Myriocephalus Stuartii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Newcastlia%20bracteosa">Newcastlia bracteosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Newcastlia%20cladotricha">Newcastlia cladotricha</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Newcastlia%20spodiotricha">Newcastlia spodiotricha</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Nicotiana%20suaveolens">Nicotiana suaveolens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Oxalis%20corniculata">Oxalis corniculata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Parietaria%20debilis">Parietaria debilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Petalostylis%20labicheoides">Petalostylis labicheoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pimelea%20ammocharis">Pimelea ammocharis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pimelea%20trichostachya">Pimelea trichostachya</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pittosporum%20phillyroides">Pittosporum phillyroides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Plectranthus%20parviflorus">Plectranthus parviflorus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pluchea%20Eyria">Pluchea Eyria</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Prostanthera%20striatiflora">Prostanthera striatiflora</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Prostanthera%20Wilkiei">Prostanthera Wilkiei</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20patens">Psoralea patens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pterocaulon%20sphacelatus">Pterocaulon sphacelatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20alopecuroides">Ptilotus alopecuroides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20helipteroides">Ptilotus helipteroides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20hemisteirus">Ptilotus hemisteirus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20Hoodii">Ptilotus Hoodii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20nobilis">Ptilotus nobilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20obovatus">Ptilotus obovatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Samolus%20repens%20var%20rhombifolia">Samolus repens var rhombifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Santalum%20lanceolatum">Santalum lanceolatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sarcostemma%20australe">Sarcostemma australe</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Senecio%20Gregorii">Senecio Gregorii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Senecio%20lanatus">Senecio lanatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Senecio%20magnificus">Senecio magnificus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sida%20cardiophylla">Sida cardiophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sida%20corrugata">Sida corrugata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sida%20inclusa">Sida inclusa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sida%20virgata">Sida virgata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sisymbrium%20trisectum">Sisymbrium trisectum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Solanum%20ellipticum">Solanum ellipticum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">Stackhousiaceae</seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Stemodia%20pedicellaris">Stemodia pedicellaris</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Stemodia viscosa var. magna</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Swainsona%20unifoliolata">Swainsona unifoliolata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Tecoma australis var. Oxleyi</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thryptomene%20Maisonneuvei">Thryptomene Maisonneuvei</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thysanotus%20sparteus">Thysanotus sparteus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tribulus%20terrestris">Tribulus terrestris</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Trichodesma%20Zeilanicum">Trichodesma Zeilanicum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Wahlenbergia%20gracilis">Wahlenbergia gracilis</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

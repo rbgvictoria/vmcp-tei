@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ we can greatly extend the duration of flowering by pruning at different times. Forcing is not resorted to here; indeed, some roses, like  ¶ Souvenir de la Malmaison ¶ , are rarely without a flower ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1889/89-05-00a-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>89.05.00a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ we can greatly extend the duration of flowering by pruning at different times. Forcing is not resorted to here; indeed, some roses, like  ¶ Souvenir de la Malmaison ¶ , are rarely without a flower ...</title>
+               <date when="1889-05">1889-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1889/89-05-00a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the Royal Horticultural Society</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ we can greatly extend the duration of flowering by pruning at different times. Forcing is not resorted to here; indeed, some roses, like  ¶ Souvenir de la Malmaison ¶ , are rarely without a flower ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">89.05.00a</p>
+            <p rend="correspondent" xml:lang="en">To the Royal Horticultural Society</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Note on Australian roses', in <seg style="font-style: italic; ">Journal of the Royal Horticultural Society</seg>, 1889, vol. 11, p. 229 (B89.13.03). It is dated to May 1889 as the latest it could have been written to have been read at the Rose Conference held in Chiswick, London, on 2-3 July 1889. The letter was read to the meeting on 3 July, 'National rose conference', <seg style="font-style: italic; ">Gardeners' chronicle</seg>, 6 July 1889, p. 24. The quoted text is introduced by</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Baron Sir Ferdinand von Mueller also states in a letter to the Secretary that near Melbourne this variety [Cloth of Gold rose] flowers for four months out of the twelve. Tea-roses are generally preferred in Victoria, as they remain longest in flower and are less subject to the attacks of Aphis and other parasites than are other roses. Roses do not vary much in character, but in this winterless zone, writes the Baron, </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>we can greatly extend the duration of flowering by pruning at different times. Forcing is not resorted to here; indeed, some roses, like <seg style="font-style: italic; ">Souvenir de la Malmaison</seg>, are rarely without a flower the whole year round. Mr. French has just mentioned to me that he had on a standard (four years old) two hundred and thirty-six flowers of <seg style="font-style: italic; ">Marshal Niel</seg>, most of them open at the same time.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Several members reported that a weed was spreading in various parts of the district and although not poisonous when eaten by horses it rendered them unfit for work and sometimes caused them to become...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1893/93-10-00e-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>93.10.00e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[Several members reported that a weed was spreading in various parts of the district and although not poisonous when eaten by horses it rendered them unfit for work and sometimes caused them to become...</title>
+               <date when="1893-10">1893-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1893/93-10-00e-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/da22bd95-334b-46a8-9e9b-0ab802059472">Stachys arvensis</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the Port Elliot Agricultural Bureau</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[Several members reported that a weed was spreading in various parts of the district and although not poisonous when eaten by horses it rendered them unfit for work and sometimes caused them to become...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">93.10.00e</p>
+            <p rend="correspondent" xml:lang="en">To the Port Elliot Agricultural Bureau</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from a report of the meeting of the Port Elliot (SA) Agricultural Bureau held on 7 October 1893, <seg style="font-style: italic; ">South Australian chronicle</seg>, 21 October 1893, p. 14. The letter is dated to October as the latest that it could have been sent to have been read on 7 October. </p>
+               </note>
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[Several members reported that a weed was spreading in various parts of the district and although not poisonous when eaten by horses it rendered them unfit for work and sometimes caused them to become very weak, which, however, soon passed off. The Chairman stated that he had forwarded a specimen of the weed to Baron F. von Mueller, K.C.M.G., of Melbourne, who identified it as <name key="Stachys%20arvensis">Stachys arvensis</name>, a non-poisonous plant.</seg>
+               <seg style="">
+                  <note xml:id="ftn2" type="footnote" n="2">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>In a report of the meeting of the Port Elliot Bureau on 16 December 1893 (<seg style="font-style: italic; ">South Australian chronicle</seg>, 6 January 1894, p. 13), the following statement occurs: </p>
+                     <p rend="Footnote"
+                        style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg style="">Baron F. von Mueller wrote that although by no means wholesome <name key="Stachys%20arvensis">Stachys arvensis</name> was not poisonous, and suggested that some other weed was injuriously affecting the animals in the district. As <name key="Stachys%20arvensis">Stachys arvensis</name> has no large or permanent roots it could be destroyed by thoroughly breaking up the soil and sowing strong pasture grasses.</seg>
+                     </p>
+                     <p rend="Footnote"
+                        style="font-family: Geneva; font-size: 9pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+                        xml:lang="en">It is not clear whether M wrote a second letter or whether there was more extended discussion of the letter reported at the meeting of 7 October. </p>
+                  </note>
+               </seg>
+               <seg style="">]</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg style="">
+                  <name key="Stachys%20arvensis">Stachys arvensis</name>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

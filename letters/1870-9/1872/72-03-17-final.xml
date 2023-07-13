@@ -1,0 +1,125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Melbourne bot. Garden ¶ 17/3/72 ¶  ¶ It is really very kind of you, dear Mr Montefiore to think of me so generously and so attentively. I wished I had many sterling friends like you. The photograms I ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1872/72-03-17-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>MS MS SEQUENCE, Australian Box 4/1, State Library of Victoria, Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>72.03.17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Melbourne bot. Garden ¶ 17/3/72 ¶  ¶ It is really very kind of you, dear Mr Montefiore to think of me so generously and so attentively. I wished I had many sterling friends like you. The photograms I ...</title>
+               <date when="1872-03-17">1872-03-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1872/72-03-17-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Eliezer Montefiore</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 17/3/72 ¶  ¶ It is really very kind of you, dear Mr Montefiore to think of me so generously and so attentively. I wished I had many sterling friends like you. The photograms I ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">72.03.17</p>
+            <p rend="correspondent" xml:lang="en">To Eliezer Montefiore</p>
+            <p rend="location" xml:lang="en">MS MS SEQUENCE, Australian Box 4/1, State Library of Victoria, Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">MS bears M's proposed baronial letterhead (see Home (2017)).</p>
+               </note>Melbourne bot. Garden</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">17/3/72</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>It is really very kind of you, dear Mr Montefiore to think of me so generously and so attentively. I wished I had many sterling friends like you. The photograms I treasure much not only for their artistic value but also on account of the liberality of the donor.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am still harrassed in my Department so pray, do pardon the briefness of the present note. With best remembrances of you &amp; your kind family.</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Ferd. von Mueller</p>
+         </div>
+      </body>
+   </text>
+</TEI>

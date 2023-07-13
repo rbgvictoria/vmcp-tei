@@ -1,0 +1,122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ Everything that I have of this. I ask you to send some back, also to send some to Mr Arthur Bennett in Croydon....</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1885/85-00-00l-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Handskr. avd., Universitetsbibliotek, Lund.</msName>
+                  <altIdentifier>
+                     <idno>85.00.00l</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ Everything that I have of this. I ask you to send some back, also to send some to Mr Arthur Bennett in Croydon....</title>
+               <date when="1885">1885</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1885/85-00-00l-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, ﷽﷽﷽﷽﷽﷽</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="53">English</language>
+            <language ident="de" usage="47">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Otto Nordstedt</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ Everything that I have of this. I ask you to send some back, also to send some to Mr Arthur Bennett in Croydon....</supplied>
+            </head>
+            <p rend="number" xml:lang="de">85.00.00l</p>
+            <p rend="correspondent" xml:lang="de">To Otto Nordstedt</p>
+            <p rend="location" xml:lang="de">Handskr. avd., Universitetsbibliotek, Lund.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Text written on a scrap of paper that presumably accompanied specimens sent to Nordstedt. Item is dated to 1885 as the earliest likely date it would have been written, it being likely that M began corresponding with Arthur Bennett in that year after Otto Tepper sent him specimens that Bennett had collected (see M to O. Tepper, 25 July 1885 (in this edition as 85-07-25b)).</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>Alles was ich hiervon habe. Bitte um etwas zurück, auch etwas an Mr Arthur Bennett in Croydon zu senden.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Everything that I have of this. I ask you to send some back, also to send some to Mr Arthur Bennett in Croydon.<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">England.</p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
