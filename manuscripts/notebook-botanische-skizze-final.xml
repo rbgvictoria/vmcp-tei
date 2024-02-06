@@ -1,0 +1,354 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Botanical sketch ¶ of the south-western areas of Schleswig, ¶ prepared by ¶ Ferd. Müller, pharmaceutical candidate from Rostock. ¶ 1847....</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/manuscripts/notebook-botanische-skizze-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RB MSS M42 (pt 1), Library, Royal Botanic Gardens Melbourne.</msName>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Botanical sketch ¶ of the south-western areas of Schleswig, ¶ prepared by ¶ Ferd. Müller, pharmaceutical candidate from Rostock. ¶ 1847....</title>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/manuscripts/notebook-botanische-skizze-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>plantnames</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="50">English</language>
+            <language ident="de" usage="50">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Notebook (part 1)</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Botanical sketch ¶ of the south-western areas of Schleswig, ¶ prepared by ¶ Ferd. Müller, pharmaceutical candidate from Rostock. ¶ 1847....</supplied>
+            </head>
+            <p rend="correspondent" xml:lang="de">Notebook (part 1)</p>
+            <p rend="location" xml:lang="de">RB MSS M42 (pt 1), Library, Royal Botanic Gardens Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="de">Botanische Skizze</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="de">der südwestlichen Gegenden Schleswigs,</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="de">entworfen von</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="de">Ferd. Müller, pharm. cand. aus Rostock.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="de">1847.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The MS is possibly a draft in German of text M translated into Latin for the introduction to his PhD thesis (published as B53.08.01). The MS was probably written early in 1847, before M sat for the Pharmaceutical State Examination because he still refers to himself as 'pharm. cand.'</p>
+                  </note>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Obgleich in der botanischen Literatur zahlreiche Localfloren einen nicht unbeträchtlichen Raum einnehmen, so werden doch weniger umfangreiche Arbeiten, wenn sie den Stempel der Gründlichkeit und Wahrheit an sich tragen, nicht ohne Interesse begrüsst. Aus ihnen schöpfen grössere Landesfloren ihr Material, und diese wieder müssen die Grundlage einer allgemeinen Pflanzengeographie bilden. Vorurtheilsfreie Beobachtungen in der Natur, zu denen sich jedenfalls doch eine grössere oder geringere Menge der Gegenstände darbieten müssen, fördern die Wissenschaft, sie wirken anregend auf den Beobachter selbst zurück und durch Mittheilung auf jedes für Naturschönheit empfängliche Gemüth, durch sie können auch die schlichtesten Arbeiten im weitern Kreise fruchtbar werden. Im Allgemeinen von diesen Prinzipien geleitet, bestimmten mich im Besonderen noch andere Gründe, die wissenschaftlichen Resultate mehrjähriger botanischer Excursionen anspruchslos mitzutheilen. Ob auch der Zwang der Umstände mir nicht gestattete, die entlegeneren Gegenden mit der Genauigkeit zu durchforschen, welche ich den näher gelegenen widmen konnte, so reichten die gesammelten Notizen doch hin, ein nicht ganz unvollständiges, jedenfalls aber doch treues Vegetationsbild unserer Umgebung zu entwerfen; und deshalb sollte auch bei meinem Scheiden aus Europa das Gesammelte nicht verloren gehen, sondern, so war es mein Wunsch, Andere zur Fortsetzung der begonnenen Arbeit ermuntern. Lassen ausserdem die festen politischen Verknüpfungen Schleswigs mit Holstein und die vorherrschende deutsche Sprache keine Trennung unserer Flora von der deutschen zu, und diesem Grundsatz scheint man doch in den grösseren Pflanzenwerken Deutschlands freilich nicht immer mit Consequenz zu huldigen, dann möchten doch die folgenden Mittheilungen stellenweise auch für jene Werke einigen Werth haben.<space unit="chars" quantity="1"/>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Besonders über zwei zusammenhängende Landstriche erstreckten sich meine botanischen Untersuchungen, über das Festland des Amtes Husum und über die Landschaft Eiderstedt. Beide zusammengenommen bilden in einer Grösse von 12 Quadratmeilen von 54<seg rend="DefaultParagraphFont">°</seg>15' bis 54<seg rend="DefaultParagraphFont">°</seg>34'<space unit="chars" quantity="1"/>nördlicher Breite und von 25<seg rend="DefaultParagraphFont">°</seg>16' bis 26<seg rend="DefaultParagraphFont">°</seg>55' östlicher Länge von Ferro den südwestlichen Theil des Herzogsthums Schleswig. Im Norden von der Arlau, nach Osten hin grösstentheils von der Treene begrenzt, welche diesen Landstrich auch bis zu ihrem Ausfluss in die Eider im Süden umgiebt, bildet letztere weiter die Südgrenze, während das Deutsche Meer die Westküste bespült.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Bei einem Hinblick auf die geographischen Verhältnisse unseres Landes beweisen eine Menge aus grosser Tiefe zu Tage gefördeten Meeresconchilien, der sich gleichfalls dort zeigende Bernstein, die Abrundung der Steingeschiebe, welche nur unter dem früheren Einfluss des Meeres stattfinden konnte, u. manche andere Gegenstände, dass das älteste Land aufgeschwemmt sei. Theils mögen es Kalkschichten, entstanden aus den Muschelblöcken des Meeres, theils felsige Gründe gewesen sein, auf welche die Aufschwemmungen stattfanden. Für jene sprechen die noch heutigen Tags vorkommenden Muschelbänke unserer Küste, für diese ein noch in der Eider zwischen Friedrichstadt und Tönning sich befindendes Steinriff. Der Thonfelsen verwitterte, durchmischte sich mit Sand und und<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Word repeated at turn of page.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>aus zerstörten Kalkfelsen losgebröckelten Geschieben und auf diese Grundlage senkte sich die Anschwemmung. Diese Ansichten erstrecken sich auf das zuerst gebildete Land, auf the flachen Geeststrecken; die Geesthöhen hingegen tragen unverkennbare Spuren vulkanischer Erhebung an sich; wir finden dort in unbeträchtlicher Tiefe grosse Steinhaufen auch Eisenerze, wie sie wohl neptunische Kräfte zusammenführen, nie aber so weit über die Meeresfläche erheben konnten.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Die Marsch hingegen, d. h. jene fruchtbaren Ländereien welche sich längs dem Meere hinziehen, gehören einer neuen Bildungszeit an. Hier scheint nur der Neptunismus gewaltet zu haben, denn wir finden dort Thonfels, Kalk, Sand und wieder Thon übereinander geschichtet.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>In abgerundeten steinharten Massen der oft von phosphorsaurem Eisenoxyd bläulich schimmernden obern Schicht fand Herr Apotheker Pauls, welcher die geognostischen Verhältnisse der benachbarten Gegenden später ausführlich besprechen wird, zum Theil verwitterte Krystalle des seltenen Natro-calcits. Ihre Fruchtbarkeit verdankt die Marsch der mit Salzen geschwängerten Schicht feinen Thons, deren Ablagerung wir noch täglich am Strand beobachten können; dort lässt an geschützten Stellen jede neue Ebbe einen Theil der von der Fluth herbei geführten geschlemmten Thonerde zurück, bis sich im Lauf der Jahre oft weit ins Meer hinabreichende Strecken zum gewöhnlichen Fluth-Niveau erhoben haben, dann bemächtigen sich Ulven, Conferven, Salicornia herbacea, Zostera marina &amp; minor des neu erworbenen Schlammbodens bis sich durch diese erste Vegetationsdecke und durch die fortdauernden Aufschlemmungen bei grösseren Fluthen erhöht auf dem<space unit="chars" quantity="1"/>jetzt seltener den Überflutungen ausgesetzten Boden erst Schoberia maritima, Triglochin maritimum, Aster Tripolium, Atriplex, Halimus, Glaux maritima, Plantago maritima u. andere Seepflanzen ansiedeln, um später einem dünnen Grasrasen Platz zu machen.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Durch Deiche von dem Andrang der Wogen geschützt wurden stets neue Strecken Landes dem Meere abgewonnen, oft aber nur um mit den sorglosen Bewohnern wieder eine Beute der Fluthen zu werden. Auch diejenigen Theile des jetzige Eiderstedt welche mit dem früheren Nordstrand zusammenhingen waren solchen Schrecknissen Preis gegeben. Durch eine Sturmfluth im Jahre 1634 zerriss diese damals ausgedehnte Insel; die höheren Strecken wurden als abgesonderte Inseln getrennt, während die seichteren auf immer überfluthet blieben, der aber dem Festland nahe Theil wurde mit zwei andern Inselchen, die jetztige Halbinsel Eiderstedt bildend in späterer Zeit durch Anschlemmungen continental. Solche Umgestaltungen dauern noch immer fort; überall wo der Lage nach die Macht des Fluthstroms nicht einwirken kann, gewinnt das Land an Ausdehnung, an allen übrigen Orten vermag kein Schutzmittel ihr dauernd Einhalt zu thun, und alljährig sehen die Bewohner ihren Grundbesitz geringer werden. Nicht blos Tradition, sondern auch historische Nachweise geben die frühere Ausdehnung unsres Gebiets staunenerregende Aufschlüsse. Wenn Adam von Bremen im 11. Jahrhundert berichtet: latitudo Jutlandiae secus Egderam (Eideram) diffusum est, inde vero paulatim contrahitur in formam linguae (conf. Kuss Versuch einer Naturbeschr. v. Schl. u. Host.) so bekommt allerdings die Ansicht einige Wahrscheinlichkeit, dass in noch früherer Zeit Eiderstedt mit Helgoland u. Wangeroog zusammen gehangen habe! Fast ebenso vollständig wie die Metamorphose der Küstenstrecken, wo das Meer schaffte und vernichtete, waren die Umwandlungen der übrigen Landstriche, nur wirkten dort menschliche Kräfte. Unterbricht ein frisches Grün den melancholichen Anblick der öden Heide, so gewahren wir dichtes Eichengestrüpp, die Überreste früherer mächtiger Waldungen; in diesen haben sich die grösseren Seltenheiten unserer Flora vor Vernichtung geborgen, und erscheinen dem wandernden Botaniker als Denkmäler der Vegetation unter den Trümmern früherer Grösse.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Doch aber sind bei ihrer Bodenverschiedenheit die Geestdistricte bei Weitem am pflanzenreichsten; es wechseln in ihnen Seen, Sümpfe, Moore, Waldungen, Acker- und Weidenplätze miteinander ab; im Gegentheil aber sind Marschboden und Marschvegetation gleich einförmig, und letztere erscheint um so dürftiger, da von den vorherrschenden westlichen Seewinden fast allenthalben der Baumwuchs unterdrückt wird. Mässigten auch einerseits der Westwind und die Nähe des Meeres bedeutend Wärme und Kälte so bringen sie uns andererseits doch die Nachtheile eines nebligen, feuchten und veränderlichen Klimas.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>In den folgenden Blättern sind mit Berücksichtigung ihrer Verbreitung und hin und wieder von Anmerkungen begleitet die hier<space unit="chars" quantity="1"/>vorkommenden Phanerogamen zusammengestellt. Sollte das Vegetationsbild einigermassen vollständig sein, so durften weder die verwilderten noch solche Pflanzen fehlen welche in den nächsten Gegenden ausserhalb den mir angewiesen Grenzen angetroffen werden. Weiss man doch oft nicht ob eine Pflanze einheimisch oder angesiedelt ist und wird doch ein aufmerksamer Beobachter von der grösseren Zahl der den Grenzen nahen Pflanzen auch innerhalb derselben Standorte nachweisen können. Durch kleinere Schrift sind aber diese von den übrigen geschieden worden.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Seit einer Reihe von Jahren dies bleibt mir noch übrig anzuerkennen, hat sich periodisch unsere Flora der Nachforschungen verdienter Männer zu erfreuen gehabt. Die Professoren Oeder und Nolte besuchten auf ihren Reisen durch durch Schleswig auch das Territorium Eiderstedts und Husums. Oeder liess das Seltendste des Gefundenen für Flora Danica zeichnen, Nolte hingegen theilte nicht blos das Wichtgste des Selbstbemerkten sondern auch die ihm von Dr Forchhammer u. Dr Ecklon zugekommenen Notate in der Novit. flor. holsas. mit.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Als später das Erscheinen eines Landesherbariums unter Leitung meines fleissigen Freundes Hansen zu Huesbyë an vielen Orten zum Weiterforschen in der vaterländischen Flora anregte, wurden auch von ihm und dem Hr Paulsen zu Ausacker die umliegenden Gegenden von Neuem und nicht erfolglos durchstreift; mir aber ward, wofür ich diesen Herren dankbar verpflichtet bleibe, die Gelegenheit, das zerstreute Material zu sammeln, in zweifelhaften Fällen zu prüfen und meinen eigenen Beobachtungen angereiht, in kurzer Zusammenstellung mitzutheilen.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: center; "
+               xml:lang="en">Botanical sketch</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: center; "
+               xml:lang="en">of the south-western areas of Schleswig,</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: center; "
+               xml:lang="en">prepared by</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: center; "
+               xml:lang="en">Ferd. Müller, pharmaceutical candidate from Rostock.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: center; "
+               xml:lang="en">1847.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Although numerous local floras take up a not inconsiderable space in botanical literature, less extensive papers are nonetheless greeted with some interest, provided they bear the mark of thoroughness and truth. It is from them, that larger regional floras draw their material, and these in turn must form the foundation of phytogeography. Unbiased observations in nature, for which certainly a greater or lesser number of objects need to be represented, advance science, stimulate the observer himself and, through communication, every mind receptive to the beauty of nature, and empower even the most modest works to become fruitful in a larger circle. Generally guided by these principles, other reasons in particular induced me to communicate without reservation the scientific results of several years' botanical excursions. Although circumstances not under my control did not permit me to explore the more distant areas with the same thoroughness that I was able to employ in those closer by, the collected notes nonetheless sufficed to prepare a not totally incomplete,<space unit="chars" quantity="1"/>but true picture of the vegetation of our area. Therefore the collected material should not be lost now, at the time of my departure from Europe, but — this was my wish, — encourage others to continue what I had begun. Besides, the close political ties of Schleswig with Holstein and the predominant German language do not permit a separation of our flora from that of Germany. Although this principle does not always seem to have been adhered to faithfully in the larger German floras, the following notes still may prove of some partial value even for these works.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>My botanical researches extended in particular over two connected areas: the mainland of the district of Husum and the country of Eiderstedt. Combined they cover an area of 12 square miles from 54°15' to 54°34' N lat. and from 25°16' to 26°55' E long. of Ferro,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ferro in the Canary Islands was taken as the prime meridian, i.e. 0°,<space unit="chars" quantity="1"/>in German maps until<space unit="chars" quantity="1"/>the 1920s, when it was superseded by Greenwich. Ferro is 17°39'46" West of Greenwich.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="2"/>forming the south-western part of the Duchy of Schleswig. Bordered in the North by the Arlau, towards the East for the larger part by the Treene which also surrounds this stretch of land in the South to its confluence with the Eider, which then continues to form the southern border, while the North Sea washes the western coast.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Regarding the geography of our land, large numbers of shells brought up from great depth, also amber found there, the rounded forms of the boulder detritus which could have occurred only under the influence of the sea, and many other objects prove that the oldest land has been deposited by the sea. In part it may have been layers of limestone formed by the shell banks of the ocean, and in part base rock, on to which the sediment was deposited. The mussel banks still occurring today on our coasts speak for the first, a reef still to be seen in the Eider between Friedrichstadt and Tönning for the latter. The clay disintegrated, mixed with sand and pebbles of crumbled limestone, and the deposits settled on this foundation. These theories refer to the land formed first, and the flat stretches of the Geest.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The gently undulating central region of the Duchy of Schleswig.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The elevations of the Geest, however, bear clear traces of volcanic eruptions. Here we find at shallow depths large mounds of boulders, also ironstone, where the forces of the ocean might have brought them together, but could never have raised them this high above sea level.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The fens, however, i.e. those fertile lands stretching along the sea, were formed in more recent times. Here Neptunism alone seem to have ruled, for here we find clay, limestone, sand, and again clay layered on top of each other.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In hard rounded masses of the upper layer, often shimmering bluish with phosphoric iron oxide,<seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>Pharmacist Pauls, who will discuss the geognostic considerations of the neighbouring areas in detail at a later date, found partly disintegrated crystals of the rare natrocalcite.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Possibly Caylussite, a hydrous calcium and sodium carbonate.</p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-size: 12pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>The fen owes its fertility to the layer of fine clay permeated by minerals, the depositing of which we can still observe daily at the beach. In sheltered areas each ebb leaves behind a part of the washed clay brought in by the tide, until over the years areas often stretching far into the sea have been raised to the average high tide level.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ulva</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Conferva</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Salicornia herbacea</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Zostera marina</seg>
+               <space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Z. minor</seg>
+               <space unit="chars" quantity="1"/>take hold on the newly formed mud flats until, through this first cover of vegetation and further continued deposits during higher tides raised higher, first<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Schoberia maritima</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Triglochin maritimum</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Aster tripolium</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Atriplex, Halimus</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Glaux maritima</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Plantago maritima</seg>
+               <space unit="chars" quantity="1"/>and other seaside plants become established on the ground now less frequently exposed to flooding, to be replaced at a later stage by a thin cover of grass.<space unit="chars" quantity="1"/>
+            </p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Protected by dikes against the force of the waves, ever new stretches of land were won from the sea, but often only to become once more the victim of the floods together with its carefree inhabitants. Those parts of the present day Eiderstedt also that were connected with the former Nordstrand were at the mercy of such horrors. Through a tidal wave in the year 1634 the then extensive island was torn apart. The higher areas became separate islands, while the shallower parts remained forever flooded. The part close to the mainland, however, together with two other small islands, formed the present-day peninsula of Eiderstedt and eventually through washed up deposits became continental. Such transformations continue today. Whereever, depending on the aspect, the force of the tide cannot exercise its influence, the land increases; in all other places no amount of protection can hold it back permanently, and the inhabitants see their properties shrink year by year. Not only tradition but also historical sources provide astonishing insights into the former extent of our area. When Adam of Bremen reported in the 11th century: 'latitudo Jutlandiae secus Egderam (Eideram) diffusum est, inde vero paulatim contrahitur in formam linguae'<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>'The width of Jutland along the Eider is broad but then little by little it contracts into the shape of a tongue' (reading<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">diffuso</seg>
+                        <space unit="chars" quantity="1"/>for<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">diffusum</seg>).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>(cf. Kuss, 'Versuch einer Naturbeschreibung von Schleswig und Holstein'),<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Kuss (1817).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>the opinion, that in even earlier times Eiderstedt was joined to Helgoland and Wangeroog gains some credibility! Nearly as complete as the metamorphosis of the coastal stretches, where the sea created and destroyed, was the transformation of the other areas, only here wrought through human intervention. Where fresh green interrupts the melancholy aspect of the bleak heathland we notice dense shrubby oaks, the remnants of once mighty forests. Here the greater rarities of our flora have hidden from destruction and appear to the wandering botanist like memorials of vegetation among the ruins of former greatness.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Yet the stretches of fen with their varied topography are by far the richest in plant life. Here lakes, bogs, and moors alternate with woodlands, fields, and pastures. By contrast the fenlands and their vegetation are equally uniform, and the latter appears even more sparse, as the growth of trees is suppressed nearly everywhere by the dominating westerly sea winds. While on the one hand the westerly winds and the proximity of the ocean moderate heat and cold, they bring us the disadvantages of a foggy, damp and changeable climate.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In the following pages the phanerogams occurring here are arranged with references to their distribution and occasionally accompanied by notes. To give a reasonably complete picture of the vegetation, neither acclimatized plants nor those found in areas adjoining that treated here must be omitted. It is often not known, whether a plant is native or introduced, and a careful observer usually will be able to find locality records for most of the plants growing across the borders of his area also within it. These, however, are differentiated from the others by smaller script.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>It remains for me to acknowledge that, for a number of years, our flora has had the benefit of researches by deserving men. The Professors Oeder and Nolte, during their journeys through Schleswig, also visited the territory of Eiderstedt and Husum. Oeder had the rarest of his finds drawn for the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Flora Danica</seg>, while Nolte on the other hand in his<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Novitiae florae Holsaticae.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Nolte (1826).<space unit="chars" quantity="1"/>The copy at MEL is inscribed by M:<space unit="chars" quantity="1"/>'<seg rend="DefaultParagraphFont" style="">Donum domin. Schütt. | Anno</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>1843 die 17. Januar. | Müller'</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>[Gift of Mr Schütt, 17 January 1843]</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>communicated not only the most important<space unit="chars" quantity="1"/>material noted by him personally, but also that sent to him by Dr Forchhammer and Dr Ecklon.</p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>When later the issue of a regional herbarium under the direction of my assiduous friend Hansen of Husby<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The herbarium appeared in 26 issues of 50 specimens each between 1833 and 1862. The plants were arranged according to the system of Linnaeus. See Fischer-Benzon (1890).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>prompted further researches into the flora of our fatherland in many places, the surrounding areas were searched once again by him and Mr Paulsen of Ausacker, and not without success. To me, however, was offered the opportunity, for which I remain under a grateful obligation to these gentlemen, to bring together the dispersed materials, check it in doubtful cases and, with my own observations added to it, present it in this short compilation.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Aster Tripolium</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Atriplex</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Conferva</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Glaux maritima</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Halimus</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Plantago maritima</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Salicornia herbacea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Schoberia maritima,<space unit="chars" quantity="1"/>
+            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Triglochin maritimum</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Ulva</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Zostera marina</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Zostera minor</p>
+         </div>
+      </body>
+   </text>
+</TEI>

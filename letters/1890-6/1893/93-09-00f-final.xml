@@ -1,0 +1,219 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [ ¶ Jussieua repens. ¶ — In a letter to the con[du]ctor ¶ , ¶  Baron Mueller calls attention to the general writing of this name as  ¶ Jussiaea ¶  as being incorrect. In our copy of Linnaeus' "Gene...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1893/93-09-00f-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>93.09.00f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [ ¶ Jussieua repens. ¶ — In a letter to the con[du]ctor ¶ , ¶  Baron Mueller calls attention to the general writing of this name as  ¶ Jussiaea ¶  as being incorrect. In our copy of Linnaeus' "Gene...</title>
+               <date when="1893-09">1893-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1893/93-09-00f-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Ranunculus aquatalis</term>
+               <term>Jussieua diffusa</term>
+               <term>Jussieua repens</term>
+               <term>Jussiaea</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Thomas Meehan</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [ ¶ Jussieua repens. ¶ — In a letter to the con[du]ctor ¶ , ¶  Baron Mueller calls attention to the general writing of this name as  ¶ Jussiaea ¶  as being incorrect. In our copy of Linnaeus' "Gene...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">93.09.00f</p>
+            <p rend="correspondent" xml:lang="en">To Thomas Meehan</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg style="">
+                        <space dim="horizontal" extent="tab"/>Letter note found. The text given here is from '<name key="Jussieua%20repens">Jussieua repens</name>', </seg>
+                     <seg style="font-style: italic; ">Meehan's monthly</seg>
+                     <seg style="">, November 1893, p. 166. It is dated to September as the latest likely date that it could have been sent to have been reported in this issue.</seg>
+                  </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[<seg style="font-variant: small-caps; ">
+                  <name key="Jussieua%20repens">Jussieua repens</name>.</seg>
+               <seg style="">— In a letter to the con[du]ctor</seg>
+               <note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg style="">
+                        <space dim="horizontal" extent="tab"/>Two letters missing from text.</seg>
+                  </p>
+               </note>,<seg style=""> Baron Mueller calls attention to the general writing of this name as </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Jussiaea">Jussiaea</name>
+               </seg>
+               <seg style=""> as being incorrect. In our copy of Linnaeus' "Genera Plantarum iabam ex museo Cliffortiano,1736"</seg>
+               <seg style="">
+                  <note xml:id="ftn3" type="footnote" n="3">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg style="">
+                           <space dim="horizontal" extent="tab"/>Linnaeus (1737a) was written when Linnaeus was residing with Clifford, and below §32 of his 'Ration operis', it is dated </seg>'Dabam ex Museo Cliffortiano, 1736, November 20', which Meehan seems to have used to identify the edition. The reference is to the entry for genus 353 on p. 126. </p>
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>In B93.03.01, p. 163, M wrote 'Linné, en définissant <seg style="font-style: italic; ">
+                           <name key="Jussieua%20repens">Jussieua repens</name>
+                        </seg>dans ses "Species plantarum" p. 388, …'. <seg style="">However, in Linnaeus (1753), vol. 1, p. 388, the name is spelled </seg>
+                        <seg style="font-style: italic; ">
+                           <name key="Jussiaea">Jussiaea</name>
+                        </seg>
+                        <seg style="">, citing 'Rheed. mal. 2 p. 99, t 51', where </seg>Rheede tot Drakenstein (1678-1703), vol. 2, discusses 'Nir-Carambu'. M had argued elsewhere that accepting Linnaeus (1753) as the starting point for legitimate genera was unfair to earlier authors; see, for example, M to A. Engler, 6 August 1892.</p>
+                  </note>
+               </seg>
+               <seg style=""> and referring to Rheede's "Hortus Malabaricus,'' it is written </seg>
+               <seg style="font-style: italic; ">Jussieua</seg>
+               <seg style=""> as Baron Mueller suggests. He asks the aid of American botanists in settling a question of great geographical importance concerning </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Jussieua%20repens">Jussieua repens</name>
+               </seg>
+               <seg style="">credited to our continent. The plant we believe to be the one that he thinks is Forskall's </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Jussieua%20diffusa">Jussieua diffusa</name>
+               </seg>
+               <seg style="">. The genuine </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Jussieua%20repens">Jussieua repens</name>
+               </seg>
+               <seg style=""> has white petals a little yellowish at the base in the manner of </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Ranunculus%20aquatalis">Ranunculus aquatalis</name>
+               </seg>
+               <seg style="">. Torrey and Gray describe the American species as having bright yellow flowers, as also has the Australian plant. </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Jussieua%20diffusa">Jussieua diffusa</name>
+               </seg>
+               <seg style="">is a larger plant than </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Jussieua%20repens">Jussieua repens</name>
+               </seg>
+               <seg style="">and has other differences. It is very desirable to know whether the American — presumably </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Jussieua%20diffusa">Jussieua diffusa</name>
+               </seg>
+               <seg style="">— is identical with the African and Australian species.</seg>
+               <seg style=""> </seg>
+               <seg style="">
+                  <note xml:id="ftn4" type="footnote" n="4">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg style="">
+                           <space dim="horizontal" extent="tab"/>M had previously asked this question, see M to E. Greene, 5 December 1892 (in this edition as 92-12-05b).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <seg style="">]</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Jussiaea">Jussiaea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Jussieua%20diffusa">Jussieua diffusa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Jussieua%20repens">Jussieua repens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ranunculus%20aquatalis">Ranunculus aquatalis</name>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
