@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Adelaide 12th Augt 74 ¶ My dear Baron ¶  ¶ herewith I send you a lithograph of my map ¶  at least of what Mr Goyder has chosen to call my map.— he has taken upon himself to reduce it to its lowest &amp; s...</title>
+            <title>Adelaide 12th Augt 74 ¶ My dear Baron ¶  ¶ herewith I send you a lithograph of my map ¶ 'Map of the country west of the telegraph line in the interior of Australia explored by Mr E. Giles / &amp; compiled...</title>
             <author>Ernest Giles</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Sammlung Perthes Archiv, SPA ARCH PGM 328, Forschungsbibliothek Gotha der Universität Erfurt.</msName>
+                  <msName>Sammlung Perthes Archiv,SPA ARCHPGM328,Forschungsbibliothek Gotha der Universität Erfurt.</msName>
                   <altIdentifier>
                      <idno>74.08.12</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ernest Giles</author>
-               <title>Adelaide 12th Augt 74 ¶ My dear Baron ¶  ¶ herewith I send you a lithograph of my map ¶  at least of what Mr Goyder has chosen to call my map.— he has taken upon himself to reduce it to its lowest &amp; s...</title>
+               <title>Adelaide 12th Augt 74 ¶ My dear Baron ¶  ¶ herewith I send you a lithograph of my map ¶ 'Map of the country west of the telegraph line in the interior of Australia explored by Mr E. Giles / &amp; compiled...</title>
                <date when="1874-08-12">1874-08-12</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
                <term>hyperlink</term>
@@ -69,9 +63,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>Internet link</term>
+               <term>FootnoteText</term>
                <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
@@ -92,57 +87,119 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Adelaide 12th Augt 74 ¶ My dear Baron ¶  ¶ herewith I send you a lithograph of my map ¶  at least of what Mr Goyder has chosen to call my map.— he has taken upon himself to reduce it to its lowest &amp; s...</supplied>
+               <supplied reason="XTF-compatibility">Adelaide 12th Augt 74 ¶ My dear Baron ¶  ¶ herewith I send you a lithograph of my map ¶ 'Map of the country west of the telegraph line in the interior of Australia explored by Mr E. Giles / &amp; compiled...</supplied>
             </head>
             <p rend="number" xml:lang="en">74.08.12</p>
             <p rend="correspondent" xml:lang="en">From Ernest Giles</p>
             <p rend="location" xml:lang="en">
-               <seg style="">Sammlung Perthes Archiv, </seg>
-               <seg style="">SPA ARCH PGM 328</seg>
-               <seg style="">, </seg>Forschungsbibliothek Gotha der Universität Erfurt.</p>
+               <seg rend="DefaultParagraphFont" style="">Sammlung Perthes Archiv,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">SPA ARCH<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">PGM<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">328</seg>
+               <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+               </seg>Forschungsbibliothek Gotha der Universität Erfurt.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Forwarded by M to Petermann with his letter of 6 October 1874; published in Voigt (1996), pp. 125-6. MS annotation by Petermann: '(Giles an Mueller). Erh. 6.12.1874' [(Giles to Mueller). Received 6 December 1874].</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Forwarded by M to Petermann with his letter of 6 October 1874; published in Voigt (1996), pp. 125-6. MS annotation by Petermann: '(Giles an Mueller). Erh. 6.12.1874' [(Giles to Mueller). Received 6 December 1874].</p>
                </note>Adelaide 12th Augt 74</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My dear Baron</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>herewith I send you a lithograph of my map<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">'Map of the country west of the telegraph line in the interior of Australia explored by Mr E. Giles / &amp; compiled in the Office of the Sur. General at Adelaide' (The National Library of Australia digitised copy is available at <ref target="http://nla.gov.au/nla.obj-231439545"
-                          rend="Internet%20link"
-                          style="color: #0563c1; ">
-                        <seg style="color: #4472c4; ">
-                           <hi rend="underline">http://nla.gov.au/nla.obj-231439545</hi>
+               <space dim="horizontal" extent="tab"/>herewith I send you a lithograph of my map<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>'Map of the country west of the telegraph line in the interior of Australia explored by Mr E. Giles / &amp; compiled in the Office of the Sur. General at Adelaide' (National Library of Australia digitized copy available<space unit="chars" quantity="1"/>at<space unit="chars" quantity="1"/>
+                        <ref target="http://nla.gov.au/nla.obj-231439545">
+                           <seg rend="DefaultParagraphFont" style="color: #4472C4; ">
+                              <hi rend="underline">http://nl</hi>
+                           </seg>
+                           <seg rend="DefaultParagraphFont" style="color: #4472C4; ">
+                              <hi rend="underline">a</hi>
+                           </seg>
+                           <seg rend="DefaultParagraphFont" style="color: #4472C4; ">
+                              <hi rend="underline">.gov.au/nla.obj-23143</hi>
+                           </seg>
+                           <seg rend="DefaultParagraphFont" style="color: #4472C4; ">
+                              <hi rend="underline">9</hi>
+                           </seg>
+                           <seg rend="DefaultParagraphFont" style="color: #4472C4; ">
+                              <hi rend="underline">545</hi>
+                           </seg>
+                        </ref>
+                        <seg rend="DefaultParagraphFont" style="">).<space unit="chars" quantity="1"/>
                         </seg>
-                     </ref>
-                     <seg style="">). Below the title of the map Goyder noted:</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg style="">This map shows Mt. Ernest Giles' explorations during 1872-3 and 4 the tract of country however lying in between Ayer's Rock and Mt Stevenson; also that along the Mann and Tomkinson Ranges, and from thence west to Long. 126. 39 E, Lat. 26 20 S was previously explored by Mr W.C. Gosse.</seg>.</p>
-               </note> at least of what Mr Goyder has chosen to call my map.— he has taken upon himself to reduce it to its lowest &amp; smallest dimensions so as to make it appear that I have done nothing to speak of more than Gosse &amp; his sweeping note on the face of it to one who is not conversant with the matter would take away from me all the Southern line shown on the map &amp; a great portion of the northern — for Mr Goyder says (ignoring my discovery &amp; travels on north side of Lake Amadeus) he says that the Country from Kings Creek in Gills range &amp; thence to a point west — was previously explored by Mr Gosse — I have no desire to detract from Mr Gosse or his discoveries but when you see this map I have sent you &amp; my marked line on it you will see how little Mr Gosse explored as I was all round him behind &amp; before — &amp; a great deal further to the west from his furthest than Mr Goyder has allowed to appear — there is another thing Gosse seems to have been ordered to jam every thing into S.A. — &amp; in doing so he has brought every feature more Eastward than it really is by about 30 miles near Mt Olga &amp; more than 50 further west &amp; by so doing has ran a point on my track some 50 miles west of Stuarts line right on to Stuarts track of course Dr. Petermann will discover this in an instant &amp; blame me — there is also another thing I have to complain off. Gosse professedly took no observations for Longitude &amp; travelled only by dead reckoning &amp; on the face of Gosses Journal there is a short paragraph signed by Mr Goyder which I enclose<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Gosse (1874). The introductory comment by Goyder on p. 1 contains the following paragraph: </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">Although the expedition has not effected the passage to Perth, it has placed in possession of the Department, detail of over 60,000 square miles of country, and enabled the places named by Mr. Giles to be correctly laid down as to latitude and longitude. I can speak highly of the way in which the records have been kept, and of the admirably-constructed plans accompanying Mr. Gosse's journal.</p>
-               </note> &amp; which makes or tries to make a fool of me — whereas the folly is all on the other side — however I shall say no more on the subject now — I regret to have to say that the complete list of subscribers that you sent me to Perth arrived here just too late to enable me to place the names of the last 6 gentlemen on the map I saw Mr <space unit="chars" quantity="1"/>Goyder about it this mor[nin]g &amp; he said it was now impossible as the other copies had gone home already —[…]<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Text ends at bottom of page, without valediction, suggesting that the letter continued on a further page that is now missing.</p>
-               </note>
+                        <seg rend="DefaultParagraphFont" style="">Below the title of the map<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Goyder</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>noted:</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">T</seg>
+                        <seg rend="DefaultParagraphFont" style="">his map shows Mt. Ernest Giles</seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>explorations during 1872-3 and 4 the tract of country however lying in between Ayer's Rock and Mt Stevenson; also that along the Mann and Tomkinson Ranges, and from thence west to Long. 126</seg>
+                        <seg rend="DefaultParagraphFont" style="">.<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">39</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">E, Lat. 26</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">20</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">S was previously explored by Mr W.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">C. Gosse</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>at least of what Mr Goyder has chosen to call my map.— he has taken upon himself to reduce it to its lowest &amp; smallest dimensions so as to make it appear that I have done nothing to speak of more than Gosse &amp; his sweeping note on the face of it to one who is not conversant with the matter would take away from me all the Southern line shown on the map &amp; a great portion of the northern — for Mr Goyder says (ignoring my discovery &amp; travels on north side of Lake Amadeus) he says that the Country from Kings Creek in Gills range &amp; thence to a point west — was previously explored by Mr Gosse — I have no desire to detract from Mr Gosse or his discoveries but when you see this map I have sent you &amp; my marked line on it you will see how little Mr Gosse explored as I was all round him behind &amp; before — &amp; a great deal further to the west from his furthest than Mr Goyder has allowed to appear — there is another thing Gosse seems to have been ordered to jam every thing into S.A. — &amp; in doing so he has brought every feature more Eastward than it really is by about 30 miles near Mt Olga &amp; more than 50 further west &amp; by so doing has ran a point on my track some 50 miles west of Stuarts line right on to Stuarts track of course Dr. Petermann will discover this in an instant &amp; blame me — there is also another thing I have to complain off. Gosse professedly took no observations for Longitude &amp; travelled only by dead reckoning &amp; on the face of Gosses Journal there is a short paragraph signed by Mr Goyder which I enclose<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The introductory comment by Goyder on p. 1<space unit="chars" quantity="1"/>of Gosse (1874)<space unit="chars" quantity="1"/>contains the<space unit="chars" quantity="1"/>following<space unit="chars" quantity="1"/>paragraph:<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: 0in; "
+                        xml:lang="en">Although the expedition has not effected the passage to Perth, it has placed in possession of the Department, detail of over 60,000 square miles of country, and enabled the places named by Mr. Giles to be correctly laid down as to latitude and longitude. I can speak highly of the way in which the records have been kept, and of the admirably-constructed plans accompanying Mr. Gosse's journal.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp; which makes or tries to make a fool of me — whereas the folly is all on the other side — however I shall<space unit="chars" quantity="1"/>say no more on the subject now — I regret to have to say that the complete list of subscribers that you sent me to Perth arrived here just too late to enable me to place the names of the last 6 gentlemen on the map I saw Mr <space unit="chars" quantity="1"/>Goyder about it this mor[nin]g &amp; he said it was now impossible as the other copies had gone home already —[…]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Text ends at bottom of page, without valediction, suggesting that<space unit="chars" quantity="1"/>an unknown amount of text is missing.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

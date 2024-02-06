@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>LADIES' ¶ LEICHARDT ¶ SEARCH ¶ COMMITTEE ¶ 28/6/65...</title>
+            <title>LADIES ¶ ' ¶ LEICHARDT ¶ Leichhardt's name mis-spelled in the printed letterhead. ¶ SEARCH ¶ COMMITTEE ¶ 28/6/65...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>DL MS Q371, pp. 141-4, W. B. Clarke papers, Dixson Library, State Library of New South Wales.</msName>
+                  <msName>DL MS Q371, pp. 141-4, W. B. Clarke papers,DixsonLibrary, State Library of New South Wales.</msName>
                   <altIdentifier>
                      <idno>65.06.28</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>LADIES' ¶ LEICHARDT ¶ SEARCH ¶ COMMITTEE ¶ 28/6/65...</title>
+               <title>LADIES ¶ ' ¶ LEICHARDT ¶ Leichhardt's name mis-spelled in the printed letterhead. ¶ SEARCH ¶ COMMITTEE ¶ 28/6/65...</title>
                <date when="1865-06-28">1865-06-28</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-               <term>Times, Times</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,9 +62,11 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>form text</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>formtext</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -92,88 +87,145 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">LADIES' ¶ LEICHARDT ¶ SEARCH ¶ COMMITTEE ¶ 28/6/65...</supplied>
+               <supplied reason="XTF-compatibility">LADIES ¶ ' ¶ LEICHARDT ¶ Leichhardt's name mis-spelled in the printed letterhead. ¶ SEARCH ¶ COMMITTEE ¶ 28/6/65...</supplied>
             </head>
             <p rend="number" xml:lang="en">65.06.28</p>
-            <p rend="correspondent" xml:lang="en">To William Branwhite Clarke</p>
-            <p rend="location" xml:lang="en">DL MS Q371, pp. 141-4, W. B. Clarke papers, Dixson Library, State Library of New South Wales.</p>
+            <p rend="correspondent" xml:lang="en">To William<space unit="chars" quantity="1"/>Branwhite<space unit="chars" quantity="1"/>Clarke</p>
+            <p rend="location" xml:lang="en">DL MS Q371, pp. 141-4, W. B. Clarke papers,<space unit="chars" quantity="1"/>Dixson<space unit="chars" quantity="1"/>Library, State Library of New South Wales.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="">The transcription given in Moyal (2003), pp. 708-9, differs from that given here.</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">The transcription given</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>in Moyal (2003), pp. 708-9</seg>
+                     <seg rend="DefaultParagraphFont" style="">, differs from that given here</seg>
+                     <seg rend="DefaultParagraphFont" style="">.</seg>
                   </p>
                </note>
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">LADIES'</seg>
+               <seg rend="formtext" style="color: #2F5496; ">LADIES</seg>
+               <seg rend="formtext" style="color: #2F5496; ">'</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">LEICHARDT</seg>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Leichhardt's name mis-spelled in the printed letterhead.</p>
-               </note>
+               <seg rend="formtext" style="color: #2F5496; ">LEICHARDT</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Leichhardt's name mis-spelled in the printed letterhead.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">SEARCH</seg>
+               <seg rend="formtext" style="color: #2F5496; ">SEARCH</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">COMMITTEE</seg>
+               <seg rend="formtext" style="color: #2F5496; ">COMMITTEE</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">28/6/65</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Reverend and venerable friend,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Your letter just arrived is certainly so admirable, that with consent of the Ladies Committe I have the main portion of it transferred to the "Australasian,"<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See W. B. Clarke to M, 20 June 1865.</p>
-               </note> trusting that you will not disapprove of the step. It is but just that your noble exertions should be fully known, especially as I have in my speech at St George's Hall<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B65.02.01, subsequently widely reprinted.</p>
-               </note> not done justice to you. This apparent shortcoming arose from the fact, that only a few months before I had in the report on the graves found by Conn &amp; Giles, referred to some extent to your exertions &amp; your opinions.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">B65.14.05, a copy of which was sent to Augustus Gregory 'to obtain his opinion as to the further investigation concerning Leichhardt's fate' (resolution at the meeting of the Royal Society of Victoria, 10 October 1864 after M had read the report, </seg>
-                     <seg style="font-style: italic; ">Transactions and proceedings of the Royal Society of Victoria</seg>
-                     <seg style="">, <space unit="chars" quantity="1"/>vol. 6, p. lii).</seg>
-                  </p>
-               </note> The only copy I had of your long printed letter,<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">'Leichhardt and the Desert', <seg style="font-style: italic; ">Sydney morning herald</seg>, 24 August 1858, pp. 4-5.</p>
-               </note> in which you weigh so fully the evidence I sent with our report to Mr Gregory &amp; have had no oppurtunity of restoring it. The report is however printed in the new volume of our Royal Society &amp; thus my appreciation of your exertions permanently recorded.</p>
+               <space dim="horizontal" extent="tab"/>Your letter just arrived is certainly so admirable, that with consent of the Ladies Committe I have the main portion of it transferred to the "Australasian,"<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See W. B. Clarke to M, 20 June 1865.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>trusting that you will not disapprove<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>the step. It is but just that your noble exertions should be fully known, especially as I have in my speech at St George's Hall<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B65.02.01, subsequently widely reprinted.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>not done justice to you. This apparent shortcoming arose from the fact, that only a few months before I had in the report on the graves found<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>Conn<space unit="chars" quantity="1"/>&amp; Giles,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">William Conn and Ernest Giles.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>referred to some extent to your exertions &amp; your opinions.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>B65.14.05,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">a copy of which was sent to Augustus Gregory<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
+                        <seg rend="DefaultParagraphFont" style="">to obtain his opinion as to the further investigation concerning Leichhardt</seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
+                        <seg rend="DefaultParagraphFont" style="">s fate</seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>(resolution at the meeting of the Royal Society of Victoria, 10 October 1864 after M had read the report,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Transactions and proceedings of the Royal Society<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">of</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>Victoria</seg>
+                        <seg rend="DefaultParagraphFont" style="">, <space unit="chars" quantity="1"/>vol</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>6, p. lii).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The only copy I had of your long printed letter,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>'Leichhardt and the Desert',<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sydney morning herald</seg>, 24 August 1858, pp. 4-5.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>in which you weigh so fully the evidence I sent with our report to Mr Gregory &amp; have had no oppurtunity of restoring it. The report is however printed in the new volume of our Royal Society &amp; thus my appreciation of your exertions<space unit="chars" quantity="1"/>permanently<space unit="chars" quantity="1"/>recorded.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Mrs Dr Bromby has secured the cooperation of Prof Pell, a friend of her brother. I trust you will unite with the few, who now uphold conjointly your friend's claims.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Sundry articles in the Melbourne papers will show what progress is made. Pardon me for the briefness &amp; inelegance of this note. I write hurriedly amidst other engagements.</p>
+               <space dim="horizontal" extent="tab"/>Sundry articles in the Melbourne papers will show what progress is<space unit="chars" quantity="1"/>made. Pardon me for the briefness &amp;<space unit="chars" quantity="1"/>inelegance<space unit="chars" quantity="1"/>of this note. I write hurriedly amidst other<space unit="chars" quantity="1"/>engagements.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>May you enjoy the blessings of health &amp; contentedness, that is the wish of your attached</p>
+               <space dim="horizontal" extent="tab"/>May you enjoy the blessings of health &amp; contentedness, that is the wish of your<space unit="chars" quantity="1"/>attached</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd Mueller</p>
          </div>

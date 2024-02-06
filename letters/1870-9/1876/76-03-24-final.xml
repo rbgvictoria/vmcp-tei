@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>24/3/76 ¶  ¶ The plant, sent by you, dear Mr Ramsay, is Euodia hortensis of Forster ¶  among Rutaceae. It is not rare in Polynesia. ¶  ¶ I gladly accept your offer of some of the new Cycas seeds, espe...</title>
+            <title>24/3/76 ¶  ¶ The plant, sent by you, dear Mr Ramsay, is Euodia hortensis of Forster ¶ i.e. J. R. and G. Forster. ¶  ¶ among Rutaceae. It is not rare in Polynesia. ¶  ¶ I gladly accept your offer of so...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>24/3/76 ¶  ¶ The plant, sent by you, dear Mr Ramsay, is Euodia hortensis of Forster ¶  among Rutaceae. It is not rare in Polynesia. ¶  ¶ I gladly accept your offer of some of the new Cycas seeds, espe...</title>
+               <title>24/3/76 ¶  ¶ The plant, sent by you, dear Mr Ramsay, is Euodia hortensis of Forster ¶ i.e. J. R. and G. Forster. ¶  ¶ among Rutaceae. It is not rare in Polynesia. ¶  ¶ I gladly accept your offer of so...</title>
                <date when="1876-03-24">1876-03-24</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,14 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Euodia hortensis</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/35a79be8-3b86-41b2-a9ad-be8c1dd6bc55">Rutaceae</term>
-               <term>Cycas</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -77,9 +63,11 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -99,76 +87,99 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">24/3/76 ¶  ¶ The plant, sent by you, dear Mr Ramsay, is Euodia hortensis of Forster ¶  among Rutaceae. It is not rare in Polynesia. ¶  ¶ I gladly accept your offer of some of the new Cycas seeds, espe...</supplied>
+               <supplied reason="XTF-compatibility">24/3/76 ¶  ¶ The plant, sent by you, dear Mr Ramsay, is Euodia hortensis of Forster ¶ i.e. J. R. and G. Forster. ¶  ¶ among Rutaceae. It is not rare in Polynesia. ¶  ¶ I gladly accept your offer of so...</supplied>
             </head>
             <p rend="number" xml:lang="en">76.03.24</p>
             <p rend="correspondent" xml:lang="en">To Edward Ramsay</p>
             <p rend="location" xml:lang="en">ML MSS 562, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">24/3/76</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The plant, sent by you, dear Mr Ramsay, is <name key="Euodia%20hortensis">Euodia hortensis</name> of Forster<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">i.e. J. R. and G. Forster.</p>
-               </note> among <name key="Rutaceae">Rutaceae</name>. It is not rare in Polynesia.</p>
+               <space dim="horizontal" extent="tab"/>The plant, sent by you, dear Mr Ramsay, is Euodia hortensis of Forster<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. J. R. and G. Forster.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>among Rutaceae. It is not rare in Polynesia.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I gladly accept your offer of some of the new <name key="Cycas">Cycas</name> seeds, especially as in the still continued ruin of the Department I must rely entirely on private friends for keeping up the means for interchanges.</p>
+               <space dim="horizontal" extent="tab"/>I gladly accept your offer of some of the new Cycas seeds, especially as in the still continued ruin of the Department I must rely entirely on private friends for keeping up the means for interchanges.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It is a pity, that we did not get even one leaf and one male and female scale, to arrive at a correct idea of what the species is. Surely your collector might send that for a few shillings by post. Dr Bennett promised to arrange with Signor d'Albertis about getting plants for me. I have reminded him of it again. When will the Italian Naturalist leave again.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">'Dr. Bennett' is George Bennett, d. 1893; no letters about the 'promise' have been found. Luigi Maria d'Albertis returned to New Guinea in late May 1876 to undertake further exploration of the Fly River. </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>It is a pity, that we did not get even one leaf and one male and female scale, to arrive at a correct idea of what the species is. Surely your collector might send that for a few shillings by post. Dr Bennett promised to arrange with Signor d'Albertis about getting plants for me. I have reminded him of it again. When will the Italian Naturalist leave again.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>'Dr. Bennett' is George Bennett, d. 1893;<space unit="chars" quantity="1"/>no<space unit="chars" quantity="1"/>letters<space unit="chars" quantity="1"/>about the 'promise'<space unit="chars" quantity="1"/>have<space unit="chars" quantity="1"/>been found.<space unit="chars" quantity="1"/>Luigi Maria d'Albertis returned to New Guinea in late May 1876 to undertake further exploration of the Fly River.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>If on any occasion for a few £ any really good rare and showy zoolog objects now and then can be picked up for a continental museum,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M had promised to send his zoological specimens to the <space unit="chars" quantity="1"/>Museum für Naturkunde, Stuttgart, but departed from this agreement on many occassions: see Lucas (2013a).</p>
-               </note> then pray let me know, as I would be a purchaser.</p>
+               <space dim="horizontal" extent="tab"/>If on any occasion for a few £ any really good rare and showy zoolog objects now and then can be picked up for a continental museum,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M had promised to send his zoological specimens to the <space unit="chars" quantity="1"/>Museum für Naturkunde, Stuttgart, but departed from this agreement on many occassions: see Lucas (2013a).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>then pray let me know, as I would be a purchaser.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>It seems a pity, that you cannot send a collector yourself to New Guinea.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Has Mr Pettard arrived in Sydney? Perhaps I can arrange to find him a companion. That is, what he requires or rather himself wishes.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">Petterd? </seg>William Petterd was a member of William Macleay's Chevert expedition, and when Macleay cancelled the planned exploration of the Fly River, he and other members formed an offshoot expedition (Fulton (2017)), which itself broke up in Port Morseby, where Petterd was based with some of the original offshoot party from 29 October 1875 until 26 January 1876, when they returned to Cape York and Petterd thence to Sydney (Petterd (1876); Petterd (1876a); Petterd to C. French, 14 February 1876, in <seg style="font-style: italic; ">Argus</seg>, 11 March 1876, p. 4). Petterd had expressed his ambition to spend several years exploring in New Guinea (Petterd to T. A. Reynolds, 17 September 1875, in <seg style="font-style: italic; ">Mercury</seg> (Hobart), 21 October 1875, p. 2).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Has Mr<space unit="chars" quantity="1"/>Pettard<space unit="chars" quantity="1"/>arrived in Sydney? Perhaps I can arrange to find him a companion. That is, what he requires or rather himself wishes.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Petterd?<space unit="chars" quantity="1"/>
+                        </seg>William Petterd was a member of William Macleay's<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Chevert</seg>
+                        <space unit="chars" quantity="1"/>expedition, and when Macleay cancelled the planned exploration of the Fly River, he and other members formed an offshoot expedition (Fulton<space unit="chars" quantity="1"/>(2017)), which itself broke up in Port Morseby where Petterd<space unit="chars" quantity="1"/>was based<space unit="chars" quantity="1"/>with some of the original offshoot party from 29 October 1875 until 26 January 1876.<space unit="chars" quantity="1"/>They<space unit="chars" quantity="1"/>then<space unit="chars" quantity="1"/>returned to Cape York<space unit="chars" quantity="1"/>and Petterd thence to Sydney (Petterd<space unit="chars" quantity="1"/>(1876);<space unit="chars" quantity="1"/>Petterd (1876a); Petterd to Charles<space unit="chars" quantity="1"/>French<space unit="chars" quantity="1"/>Snr, 14 February 1876,<space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 11 March 1876, p. 4). Petterd had expressed his ambition to spend several years exploring in New Guinea (Petterd to T. A. Reynolds, 17 September 1875,<space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Mercury</seg>
+                        <space unit="chars" quantity="1"/>(Hobart), 21 October 1875, p. 2).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>With best salutation your</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cycas">Cycas</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Euodia%20hortensis">Euodia hortensis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Rutaceae">Rutaceae</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cycas</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Euodia hortensis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Rutaceae</p>
          </div>
       </body>
    </text>

@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,47 +92,50 @@
             <p rend="location" xml:lang="en">L59/10938, unit 747, VPRS 1189 inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot. &amp; zool. Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">28. Oct. 1859</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to transmit to you the documents received by last mail in reference to the loan of an Alpaca-ram granted by the New South Wales Government to this establishment.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The file includes C. Ledger to M, 22 October 1859, and also a letter that M. Fitzpatrick, Department of Lands and Public Works, Sydney wrote to the Superintendent of Alpacas, Goulburn, NSW [i.e. Ledger] on 28 June 1859: 'Referring to your letter of 13th May last, I am directed to inform you that the Executive Council have approved of a Male Alpaca being lent to the proprietors of the Llama flock in Melbourne, as requested by the Reverend Mr Bleasdale, on the conditions that it shall be returned when demanded, and that particulars of the success, or, otherwise attending its introduction be communicated to the Government of this Colony from time to time, of which Mr Bleasdale has been apprised, as well as that you will deliver the animal to any one furnished with authority to receive the same.'</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have the honor to transmit to you the documents received by last mail in reference to the loan of an Alpaca-ram granted by the New South Wales Government to this establishment.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The file includes C. Ledger to M, 22 October 1859, and also a letter that Michael<space unit="chars" quantity="1"/>Fitzpatrick, Department of Lands and Public Works, Sydney,<space unit="chars" quantity="1"/>wrote to the Superintendent of Alpacas, Goulburn, NSW [i.e. Ledger] on 28 June 1859: 'Referring to your letter of 13th May last, I am directed to inform you that the Executive Council have approved of a Male Alpaca being lent to the proprietors of the Llama flock in Melbourne, as requested by the Reverend Mr Bleasdale, on the conditions that it shall be returned when demanded, and that particulars of the success, or, otherwise attending its introduction be communicated to the Government of this Colony from time to time, of which Mr Bleasdale has been apprised, as well as that you will deliver the animal to any one furnished with authority to receive the same.'</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your most obedient and humble servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Mr Undersecretary Moore</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c</p>
          </div>

@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-               <term>Times, 'Times New Roman'</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,10 +62,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>form text</term>
+               <term>FootnoteText</term>
+               <term>formtext</term>
                <term>valediction</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -96,66 +91,66 @@
             </head>
             <p rend="number" xml:lang="en">82.06.30</p>
             <p rend="correspondent" xml:lang="en">From Janet French</p>
-            <p rend="location" xml:lang="en">RB MSS M119, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M119, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>MS is a birthday card, embossed, with images of flowers and butterflies: 82-06-30_image01.jpg</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">
-                        <space unit="chars" quantity="1"/>
-                     </seg>
-                     <space dim="horizontal" extent="tab"/>The handwritten greeting is on the back of the card. Janet French (née Callander) was the first wife of Charles French and the mother of Charles H. French and George French. </p>
+                     <space dim="horizontal" extent="tab"/>The handwritten greeting is on the back of the card, the front of which<space unit="chars" quantity="1"/>is embossed<space unit="chars" quantity="1"/>with images of flowers and butterflies:<space unit="chars" quantity="1"/>82-06-30_image01.jpg</p>
                </note>
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, 'Times New Roman'; ">A Joyous Birthday.</seg>
+               <seg rend="formtext" style="color: #2F5496; ">A Joyous Birthday.</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, 'Times New Roman'; ">As round a column tendrils twine</seg>
+               <seg rend="formtext" style="color: #2F5496; ">As round a column tendrils twine</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, 'Times New Roman'; ">So round a life cling other lives,</seg>
+               <seg rend="formtext" style="color: #2F5496; ">So round a life cling other lives,</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, 'Times New Roman'; ">May happiness impress on thine</seg>
+               <seg rend="formtext" style="color: #2F5496; ">May happiness impress on thine</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, 'Times New Roman'; ">A Birthday light while aught survives!</seg>
+               <seg rend="formtext" style="color: #2F5496; ">A Birthday light while aught survives!</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">To Baron Von Mueller</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>With kindly regards and many happy returns of the day.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">Mrs J French.</p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">Mrs J French.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>Janet French (née Callander) was the first wife of Charles French Snr and the mother of Charles H. French and George French.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>30/6/82.</p>
             <space dim="vertical" unit="lines" quantity="1"/>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>13/1/79 ¶  ¶ It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail ¶  and to express anew ¶  to you and the gentlemen of your institution my a...</title>
+            <title>13/1/79 ¶  ¶ It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail ¶ Letter not found. ¶  ¶ and to express anew ¶ The earlier condolence that ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Sammlung Perthes Archiv, SPA ARCH PGM 328, Forschungsbibliothek Gotha der Universität Erfurt.</msName>
+                  <msName>Sammlung Perthes Archiv,SPA ARCHPGM328,Forschungsbibliothek Gotha der Universität Erfurt.</msName>
                   <altIdentifier>
                      <idno>79.01.13</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>13/1/79 ¶  ¶ It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail ¶  and to express anew ¶  to you and the gentlemen of your institution my a...</title>
+               <title>13/1/79 ¶  ¶ It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail ¶ Letter not found. ¶  ¶ and to express anew ¶ The earlier condolence that ...</title>
                <date when="1879-01-13">1879-01-13</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -77,8 +73,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="60">English</language>
-            <language ident="de" usage="40">German</language>
+            <language ident="en" usage="64">English</language>
+            <language ident="de" usage="36">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -91,130 +87,241 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">13/1/79 ¶  ¶ It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail ¶  and to express anew ¶  to you and the gentlemen of your institution my a...</supplied>
+               <supplied reason="XTF-compatibility">13/1/79 ¶  ¶ It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail ¶ Letter not found. ¶  ¶ and to express anew ¶ The earlier condolence that ...</supplied>
             </head>
             <p rend="number" xml:lang="de">79.01.13</p>
             <p rend="correspondent" xml:lang="de">To Ernst Behm</p>
             <p rend="location" xml:lang="de">
-               <seg style="">Sammlung Perthes Archiv, </seg>
-               <seg style="">SPA ARCH PGM 328</seg>
-               <seg style="">, </seg>Forschungsbibliothek Gotha der Universität Erfurt.</p>
+               <seg rend="DefaultParagraphFont" style="">Sammlung Perthes Archiv,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">SPA ARCH<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">PGM<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">328</seg>
+               <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+               </seg>Forschungsbibliothek Gotha der Universität Erfurt.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">For a published version of this letter, see Voigt (1996), pp. 134-5.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>For a published version of this letter,<space unit="chars" quantity="1"/>see Voigt (1996),<space unit="chars" quantity="1"/>pp. 134-5.</p>
                </note>13/1/79.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Es liegt mir ob, sehr geehrter Herr Doctor, Ihre gütige Zuschrift, welche mit letzter Post anlangte, anzuerkennen, u Ihnen und den Herren Ihrer Anstalt erneuet meine Versicherung auszudrücken, dass das traurige und unerwartete Hischeiden<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Hinscheiden?</p>
-               </note> des berühmten Freundes Petermann in Bezug auf dasjenige, welches ich für Sie dort zu thun vermag, keinen behindernden Einfluss haben wird.</p>
+               <space dim="horizontal" extent="tab"/>Es liegt mir ob, sehr geehrter Herr Doctor, Ihre gütige Zuschrift, welche mit letzter Post anlangte, anzuerkennen, u Ihnen und den Herren Ihrer Anstalt erneuet meine Versicherung auszudrücken, dass das traurige und unerwartete Hischeiden<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Hinscheiden?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>des berühmten Freundes Petermann in Bezug auf dasjenige, welches ich für Sie dort zu thun vermag, keinen behindernden Einfluss haben wird.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ob aber überhaupt viel von meiner Seite geschehen kann, um die geographischen Nachrichten zu fördern, bleibt ungewiss. Freilich ging ich mit dem Gedanken um, Mr Giles wieder auszusenden, aber nun hat Sir Thomas Elder eben Anstalten getroffen, um Mr Jesse Young, den Begleiter Giles's in seiner 3ten Reise mit der Führung einer neuen Dromedar Expedition zu betrauen, was hindernd in den Weg von Giles tritt</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Mr Goldie<seg style="font-size: 9pt; "> </seg>ist nun auch nach 2 oder 3 jähriger Abwesenheit nach Sydney zurückgekehrt; ob seine letzten Resultate von geographischem Belang sind, weiss ich noch nicht; aber ethnologisch ist es interessant, nun durch ihn zu wissen, wie die Fabel über die geschwänzten Menschen entstanden sei.</p>
+               <space dim="horizontal" extent="tab"/>Mr Goldie<space unit="chars" quantity="1"/>ist nun auch nach 2 oder 3 jähriger Abwesenheit nach Sydney zurückgekehrt; ob seine letzten Resultate von geographischem Belang sind, weiss ich noch nicht; aber ethnologisch ist es interessant, nun durch ihn zu wissen, wie die Fabel über die geschwänzten Menschen entstanden sei.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Einige der in den Bergen Neu Guineas lebenden Stämme scheinen sich als Zierrath einen nachgeahmten künstlichen Schwanz anzulegen, was mit den mannigfachen andere Ideen dieser Naturkinder ganz im Einklang steht. Eine Wirbel-Verlängerung in einem Caudal Anhang bei der menschlichen Species gehört freilich auch ja zur Unmöglichkeit.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Ich danke Ihnen für Ihre Aufmerksamkeit, mir die näheren Umstände des Familien Lebens unseres armen Petermann, die zu seinem unzeitigen Ende beitrugen, geschildert zu haben. In unsern Zeitungen war die Schuld zum Theil den anonymen Briefen der ersten Gemahlin zugeschrieben; wollen wir es mit dem Mantel der christlichen Liebe zudecken! </p>
+               <space dim="horizontal" extent="tab"/>Ich danke Ihnen für Ihre Aufmerksamkeit, mir die näheren Umstände des Familien Lebens unseres armen Petermann, die zu seinem unzeitigen Ende beitrugen, geschildert zu haben. In unsern Zeitungen war die Schuld zum Theil den anonymen Briefen der ersten Gemahlin zugeschrieben; wollen wir es mit dem Mantel der christlichen Liebe zudecken!<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Vom ärztlichen Standpunkt erscheint es, als ob das überarbeitete Gehirn des grossen Geographen, am leichtesten durch eine längere wissenschaftliche Reise zur Ruhe und ins Gleichgewicht gekommen sein würde.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Die geographischen Mittheilungen hätten sicher unter keine bessere neue Leitung als die Ihrige kommen können als eine würdige Folge von Petermann.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Verehrungsvoll der Ihre</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">13/1/79</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> and to express anew<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The earlier condolence that M apparently sent has not been found but was probably included in his letter of 14 December 1878, an extract from which was later published in <seg style="font-style: italic; ">Petermann's geographische Mittheilungen</seg> (B79.03.03).</p>
-               </note> to you and the gentlemen of your institution my assurance that the sad and unexpected death of the celebrated friend, Petermann, will have no hindering influence in respect to those things which I am able to do for you here.</p>
+               <space dim="horizontal" extent="tab"/>It is incumbent upon me, very respected Doctor, to acknowledge your kind letter that arrived with the last mail<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and to express anew<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The earlier condolence that M apparently sent has not been found but was probably included in<space unit="chars" quantity="1"/>M to E. Behm,<space unit="chars" quantity="1"/>14 December 1878, an extract from which was later published in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Petermann's geographische Mittheilungen</seg>
+                        <space unit="chars" quantity="1"/>(B79.03.03).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to you and the gentlemen of your institution my assurance that the sad and unexpected death of the celebrated friend, Petermann, will have no hindering influence in respect to those things which I am able to do for you here.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>But whether much from my side can happen at all to promote geographical information remains uncertain. Of course I turn over the idea to send out Mr Giles again, but now Sir Thomas Elder has just made arrangements to entrust Mr Jesse Young, the companion of Giles on his 3rd journey, with the leadership of his new expedition with dromedaries, which will place obstacles in the way of Giles.</p>
+               <space dim="horizontal" extent="tab"/>But whether much from my side can happen at all to promote geographical information remains uncertain. Of course I turn over the idea to send out Mr Gilesagain, but now Sir Thomas Elder has just made arrangements to entrust Mr Jesse Young, the companion of Giles on his 3rd journey, with the leadership of his new expedition with dromedaries, which will place obstacles in the way of Giles.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ernest Giles. Australian newspapers<space unit="chars" quantity="1"/>(for example,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Australasian</seg>
+                        <space unit="chars" quantity="1"/>(Melbourne), 28 December 1878, p. 820)<space unit="chars" quantity="1"/>carried reports from English papers:<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: -0.5in; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">We hear that Sir Thomas Elder, who has</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">already shown so great liberality in promoting the exploration of the unknown regions</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">of Australia, intends shortly to despatch</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>a</seg>
+                        <seg rend="DefaultParagraphFont" style="">nother expedition into the interior, under</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">the command of Mr. Jesse Young, who was</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">astronomer to Mr. Ernest Giles's expedition.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Mr. Young has been in England for some</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">time past making preparations for<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">h</seg>
+                        <seg rend="DefaultParagraphFont" style="">is</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Journey, and sailed for New York,<space unit="chars" quantity="1"/>
+                        </seg>en route for Australia, a few days ago.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Young became ill<space unit="chars" quantity="1"/>in America and he 'is<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">therefore obliged to</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">relinquish all idea of undertaking the journey</seg>
+                        <seg rend="DefaultParagraphFont" style="">' (</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">South Australian<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">r</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">egister</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 13 September 1879, p. 4).</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Mr Goldie<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Andrew Goldie.</p>
-               </note> has now also returned to Sydney after 2 or 3 years' absence; whether his last results are of geographic importance I do not know yet, but ethnographically it is of interest now to know, through him, how the fable about the men with tails arose.</p>
+               <space dim="horizontal" extent="tab"/>Mr Goldie<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Andrew Goldie.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>has now also returned to Sydney after 2 or 3 years' absence; whether his last results are of geographic importance I do not know yet, but ethnographically it is of interest now to know, through him, how the fable about the men with tails arose.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Some of the tribes living in the mountains of New Guinea seem to attach an imitation artificial tail as decoration, which stands in complete harmony with the manifold other ideas of these children of nature. A vertebral extension in a caudal commencement in the case of the human species of course belongs indeed to the impossible.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I thank you for your attention in having described to me the particulars of family life of our poor Petermann that contributed to his untimely end. In our newspapers the blame was in part attributed to the anonymous letters of the first wife; let us cover it up with the the cloak of Christian love!<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Petermann committed suicide on 25 September 1878. The newspaper report of the suicide to which M refers is in <seg style="font-style: italic; ">Australische Zeitung</seg> (Adelaide), 31 December 1878, p. 4, and possibly elsewhere, and includes the passage: </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5516in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg style="">Er hatte mit seiner ersten Gattin, einer Englanderin, welche als ein wahrer Teufel geschildert </seg>wird, höchst unglücklich gelebt. Das Paar war im Jahre 1877 geschieden worden, und seit jener Zeit soll seine erste Frau darauf hingearbeitat haben, seinen Frieden zu zerstören. Nach seiner zweiten Heirath nahm sein Leben einen sehr glücklichen Verlauf, bis seine erste Gattin, dem Vernehmen nach, burch anonyme Drohungen ihre Verfolgungen wieder begann und den Großen Gelehrten bis zum Wahnsinn quälte.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5516in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">[He had lived very unhappily with his first wife, an English woman, who is depicted as a real devil. The couple were divorced in 1877 and since that time his first wife is said to have worked towards destroying his peace. After his second marriage his life took a very happy course, until his first wife, by all accounts, began her persecution again through anonymous threats and tormented the great savant to the point of madness.]</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I thank you for your attention in having described to me the particulars of family life of our poor Petermann that contributed to his untimely end. In our newspapers the blame was in part attributed to the anonymous letters of the first wife; let us cover it up with the the cloak of Christian love!<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Petermann committed suicide on 25 September 1878.<space unit="chars" quantity="1"/>The newspaper report<space unit="chars" quantity="1"/>of the suicide<space unit="chars" quantity="1"/>to which M refers<space unit="chars" quantity="1"/>is in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Australische<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Z</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">eitung</seg>
+                        <space unit="chars" quantity="1"/>(Adelaide), 31 December 1878, p. 4,<space unit="chars" quantity="1"/>and possibly elsewhere,<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>includes the<space unit="chars" quantity="1"/>passage:</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5513in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">Er<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">h</seg>
+                        <seg rend="DefaultParagraphFont" style="">atte mit seiner ersten Gattin, einer Englanderin, welche</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">als ein wahrer Teufel geschildert<space unit="chars" quantity="1"/>
+                        </seg>wird, höchst unglücklich gelebt. Das Paar war im Jahre 1877 geschieden worden, und seit jener<space unit="chars" quantity="1"/>Zeit soll seine erste Frau darauf hingearbeitat haben, seinen Frieden zu zerstören.<space unit="chars" quantity="1"/>Nach seiner zweiten<space unit="chars" quantity="1"/>Heirath nahm<space unit="chars" quantity="1"/>sein Leben einen sehr glücklichen<space unit="chars" quantity="1"/>Verlauf, bis seine erste Gattin, dem Vernehmen nach, burch anonyme Drohungen ihre<space unit="chars" quantity="1"/>Verfolgungen wieder begann und den Großen Gelehrten bis zum Wahnsinn quälte.</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5513in; text-indent: 0in; "
+                        xml:lang="en">[He had lived very unhappily with his first wife, an English woman, who is depicted as a real devil. The couple were divorced in 1877 and since that time his first wife is said to have worked towards destroying his peace. After his second marriage his life took a very happy course, until his first wife, by all accounts, began her persecution again through anonymous threats and tormented the great savant to the point of madness.]</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>From the medical standpoint, it seems as if the overworked brain of the great geographer would have most easily come to rest and into equilibrium by a longer scientific journey.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The <seg style="font-style: italic; ">Geographische Mittheilungen</seg> could not have come under a better new management than yours as a worthy follower of Petermann</p>
+               <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Geographische Mittheilungen</seg>
+               <space unit="chars" quantity="1"/>could not have come under a better new management than yours as a worthy follower of Petermann</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Respectfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>

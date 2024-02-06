@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne ¶ 5/3/76. ¶  ¶ One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you. ¶  You collected many, so I know; but it is difficult for...</title>
+            <title>Melbourne ¶ 5/3/76. ¶  ¶ One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you. You collected many, so I know; but it is difficult for me...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne ¶ 5/3/76. ¶  ¶ One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you. ¶  You collected many, so I know; but it is difficult for...</title>
+               <title>Melbourne ¶ 5/3/76. ¶  ¶ One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you. You collected many, so I know; but it is difficult for me...</title>
                <date when="1876-03-05">1876-03-05</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,33 +86,38 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne ¶ 5/3/76. ¶  ¶ One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you. ¶  You collected many, so I know; but it is difficult for...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne ¶ 5/3/76. ¶  ¶ One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you. You collected many, so I know; but it is difficult for me...</supplied>
             </head>
             <p rend="number" xml:lang="en">76.03.05</p>
             <p rend="correspondent" xml:lang="en">To William Tietkens</p>
             <p rend="location" xml:lang="en">ML DOC 2105 Dover papers, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">5/3/76.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">Aotus tietkensii</seg> attributed by M in B76.03.01, p. 33, to Young and Tietkens as collectors at Victoria Spring, WA, during Ernest Giles's successful journey of exploration from the Overland Telegraph Line to Perth, WA.</p>
-               </note> You collected many, so I know; but it is difficult for me to record the real finders. Perhaps you will be out some day yourself as an important explorer &amp; collect then for yourself.</p>
+               <space dim="horizontal" extent="tab"/>One of the most interesting of the new plants of the last expedition, dear Mr Tietkens, I have named in honor of you. You collected many, so I know; but it is difficult for me to record the real finders.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Aotus tietkensii</seg>
+                        <space unit="chars" quantity="1"/>attributed by M in B76.03.01, p. 33, to Young and Tietkens as collectors at Victoria Spring, WA, during<space unit="chars" quantity="1"/>Ernest<space unit="chars" quantity="1"/>Giles's<space unit="chars" quantity="1"/>successful journey of exploration from the Overland Telegraph Line to Perth, WA.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Perhaps you will be out some day yourself as an important explorer &amp; collect then for yourself.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Always your regardful</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
          </div>

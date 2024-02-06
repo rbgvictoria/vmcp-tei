@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>On board of the "Siam" ¶ 5/10/77 ¶  ¶ It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man of science as that of a generous promo...</title>
+            <title>On board of the "Siam" ¶ M was en route from Melbourne to WA. ¶ 5/10/77 ¶  ¶ It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>On board of the "Siam" ¶ 5/10/77 ¶  ¶ It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man of science as that of a generous promo...</title>
+               <title>On board of the "Siam" ¶ M was en route from Melbourne to WA. ¶ 5/10/77 ¶  ¶ It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man...</title>
                <date when="1877-10-05">1877-10-05</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,55 +85,80 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">On board of the "Siam" ¶ 5/10/77 ¶  ¶ It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man of science as that of a generous promo...</supplied>
+               <supplied reason="XTF-compatibility">On board of the "Siam" ¶ M was en route from Melbourne to WA. ¶ 5/10/77 ¶  ¶ It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man...</supplied>
             </head>
             <p rend="number" xml:lang="en">77.10.05a</p>
             <p rend="correspondent" xml:lang="en">To Joseph Hooker</p>
             <p rend="location" xml:lang="en">RBG Kew, Kew correspondence, Australia, Mueller, 1871-81, f. 202.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">On board of the "Siam"<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M was en route from Melbourne to WA.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">On board of the "Siam"<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M was en route from Melbourne to WA.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">5/10/77</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man of science as that of a generous promotor of Australian Geography. Mr Elder is as eager to be introduced to so famed a man as yourself, as you will be glad to become acquainted personally with him, who sustained so liberally the geographic enterprises of Col. Warburton and the two last expeditions of Mr Giles.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I like you, to conduct the hon. Gentleman through your princely establishment and to let him enjoy the guestship one evening at the Royal Society, when you occupy Sir Isaac Newton's chair.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Hooker was President of the Royal Society of London.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>It affords me extreme pleasure, dear Sir Joseph, to introduce to you the hon. Thom. Elder, whose name is known to every man of science as that of a generous promotor of Australian Geography. Mr Elder is as eager to be introduced to so famed a man as yourself, as you will be glad to become acquainted personally with him, who sustained so liberally the geographic enterprises of Col. Warburton and the two last expeditions of Mr Giles.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ernest Giles.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I like you, to conduct the hon. Gentleman through your princely establishment and to let him enjoy the guestship one evening at the Royal Society, when you occupy Sir Isaac Newton's chair.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Hooker was President of the Royal Society of London.</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>It is likely, that Mr Elder will arrange for some further geographic travels by Giles after his return.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am for a few weeks off to West Australia, and intend to visit Shark-Bay and also the country east of York, to observe personally the late spring vegetation and early summer flowers, especially on geographic considerations while I also hope to reestablish my fluctuating health, which suffered much under the cruel and undeserved oppressions, to which I was a victim since several years. We all look forward to your and Dr Asa Gray's researches in Utah, Arizona and New Mexico, countries which I myself was longing to visit since several years.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">For descriptions of J. Hooker’s journey see Allan (1967), pp. 231–232; Desmond (1999), pp. 248–250.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I am for a few weeks off to West Australia, and intend to visit Shark-Bay and also the country east of York, to observe personally the late spring vegetation and early summer flowers,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>For<space unit="chars" quantity="1"/>M's<space unit="chars" quantity="1"/>WA itinerary,<space unit="chars" quantity="1"/>see Dowe (2023).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>especially on geographic considerations<space unit="chars" quantity="1"/>while I also hope to reestablish my fluctuating health, which suffered much under the cruel and undeserved oppressions, to which I was a victim since several years. We all look forward to your and Dr Asa Gray's researches in Utah, Arizona and New Mexico, countries which I myself was longing to visit since several years.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>For descriptions of J. Hooker’s journey see Allan (1967), pp. 231–232; Desmond (1999), pp. 248–250.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
          </div>

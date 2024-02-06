@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Parramatta ¶ Oct 21 /70 ¶ My dear doctor, ¶  ¶ I have ascertained at last that Mr Woof, the gardener of Mr Prince, has a living specimen of the so called  ¶ Alsophila ¶   ¶ Cooperi ¶ , &amp; I send two fr...</title>
+            <title>Parramatta ¶ NSW.All place names mentioned are in NSW. ¶ Oct 21 /70 ¶ My dear doctor, ¶  ¶ I have ascertained at last that Mr ¶  ¶ Woof, the gardener of Mr Prince, has a living specimen of the so call...</title>
             <author>William Woolls</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>William Woolls</author>
-               <title>Parramatta ¶ Oct 21 /70 ¶ My dear doctor, ¶  ¶ I have ascertained at last that Mr Woof, the gardener of Mr Prince, has a living specimen of the so called  ¶ Alsophila ¶   ¶ Cooperi ¶ , &amp; I send two fr...</title>
+               <title>Parramatta ¶ NSW.All place names mentioned are in NSW. ¶ Oct 21 /70 ¶ My dear doctor, ¶  ¶ I have ascertained at last that Mr ¶  ¶ Woof, the gardener of Mr Prince, has a living specimen of the so call...</title>
                <date when="1870-10-21">1870-10-21</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,17 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Alsophila Leichardtiana</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/d9699953-4f23-4d82-84e1-341652677618">Alsophila australis</term>
-               <term>Doryanthes excelsa</term>
-               <term>Alsophila excelsa</term>
-               <term>Alsophila Cooperi</term>
-               <term>Seaforthia</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -79,10 +62,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -102,114 +87,159 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Parramatta ¶ Oct 21 /70 ¶ My dear doctor, ¶  ¶ I have ascertained at last that Mr Woof, the gardener of Mr Prince, has a living specimen of the so called  ¶ Alsophila ¶   ¶ Cooperi ¶ , &amp; I send two fr...</supplied>
+               <supplied reason="XTF-compatibility">Parramatta ¶ NSW.All place names mentioned are in NSW. ¶ Oct 21 /70 ¶ My dear doctor, ¶  ¶ I have ascertained at last that Mr ¶  ¶ Woof, the gardener of Mr Prince, has a living specimen of the so call...</supplied>
             </head>
             <p rend="number" xml:lang="en">70.10.21</p>
             <p rend="correspondent" xml:lang="en">From William Woolls</p>
-            <p rend="location" xml:lang="en">RB MSS M46, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M46, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS found with a specimen of <seg style="font-style: italic; ">Cyathea cooperi</seg> (MEL 2148770). Though the valediction and signature are missing, the writing matches that in other letters that Woolls wrote to M.</p>
-               </note>Parramatta<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">NSW. All place names mentioned are in NSW.</p>
-               </note>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS found with a specimen of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cyathea cooperi</seg>
+                     <space unit="chars" quantity="1"/>(MEL 2148770). Though the valediction and signature are missing, the writing matches that in other letters that Woolls wrote to M.</p>
+               </note>Parramatta<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>NSW.<space unit="chars" quantity="1"/>All place names mentioned are in NSW.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Oct 21 /70</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My dear doctor,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have ascertained at last that Mr Woof, the gardener of Mr Prince, has a living specimen of the so called <seg style="">
+               <space dim="horizontal" extent="tab"/>I have ascertained at last that Mr<space unit="chars" quantity="1"/>Woof, the gardener of Mr Prince, has a living specimen of the so called<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Alsophila</hi>
                </seg>
-               <seg style="">
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Cooperi</hi>
-               </seg>, &amp; I send two fronds of it. Mr Gelding says that he was with Sir D. Cooper &amp; Mr Moore when it was first discovered, &amp; that in his opinion, it is quite distinct from A. <seg style="">
+               </seg>, &amp; I send two fronds of it. Mr Gelding says that he was with Sir D. Cooper &amp; Mr Moore when<space unit="chars" quantity="1"/>it<space unit="chars" quantity="1"/>was first discovered, &amp; that in his opinion, it is quite distinct from A.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Leichardtiana</hi>
-               </seg>. The trunk &amp; leaf stalks, he says, are identical with those of A. <seg style="">
-                  <hi rend="underline">excelsa</hi>
-               </seg>. It has not any thorns, &amp; the only similarity between it &amp; <seg style="">
-                  <hi rend="underline">A. Leichardtiana</hi>
-               </seg> is in the roughness of its pinnae. In fact, he continues, at first sight, one would take it for <seg style="">
+               </seg>. The trunk &amp; leaf stalks, he says, are identical with those of A.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">ex</hi>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">celsa</hi>
+               </seg>. It has not any thorns, &amp; the only similarity between it &amp;<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">A.</hi>
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Leichardtiana</hi>
+               </seg>
+               <space unit="chars" quantity="1"/>is in the roughness of its pinnae. In fact, he continues, at first sight, one would take it for<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">A. excelsa</hi>
-               </seg>. It is apparently rare, for during two days wandering in the gullies at Illawarra, they met with it only in one spot about a mile on the Sydney side of Bellambi, where it was obtained chiefly growing on fallen &amp; decaying trunks of <seg style="">
-                  <hi rend="underline">
-                     <name key="Seaforthia">Seaforthia</name>
-                  </hi>
-               </seg>. Mr Fitzgerald tells me that Woof exhibited this fern at the Show<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Spring exhibition of the Horticultural Society of New Soutrh Wales; see <seg style="font-style: italic; ">Sydney mail</seg>, 22 October 1870. p. 3.</p>
-               </note> the day before yesterday, &amp; that in his opinion, it is intermediate between <seg style="">
+               </seg>. It is apparently rare, for during two days wandering in the gullies at Illawarra, they met with it only in one spot about a mile on the Sydney side of Bellambi, where it was obtained chiefly growing on fallen &amp; decaying trunks of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Seaforthia</hi>
+               </seg>. Mr Fitzgerald tells me that<space unit="chars" quantity="1"/>Woof<space unit="chars" quantity="1"/>exhibited<space unit="chars" quantity="1"/>this fern at the Show<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Spring exhibition of the Horticultural Society<space unit="chars" quantity="1"/>of New South Wales.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sydney mail</seg>, 22 October 1870,<space unit="chars" quantity="1"/>p. 3, mentions Woof's<space unit="chars" quantity="1"/>exhibiting a collection of ferns, but does not name all species included.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>the day before yesterday, &amp; that in his opinion, it is intermediate between<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">A. excelsa</hi>
-               </seg> &amp; <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>&amp;<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">A. australis</hi>
-               </seg>. The stem, he adds, is woolly."<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">There is no opening set of quotation marks.</p>
-               </note> From looking at the specimen, it certainly appears to me different from any species that I know.</p>
+               </seg>. The stem, he adds, is woolly."<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>There is no opening set of quotation marks.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>From looking at the specimen, it certainly appears to me different from any species that I know.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am afraid I cannot give you any information respecting the northern <seg style="">
+               <space dim="horizontal" extent="tab"/>I am afraid I cannot give you any information respecting the northern<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Doryanthes</hi>
-               </seg>, and I believe that the plant figured by Miss Scott is <seg style="">
+               </seg>, and<space unit="chars" quantity="1"/>I<space unit="chars" quantity="1"/>believe that the plant figured by Miss Scott is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">D. excelsa</hi>
-               </seg> (See Dr Bennett's Wandering of a Naturalist p. 341<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">i.e. Bennett's <seg style="font-style: italic; ">Gatherings of a naturalist</seg> (G. Bennett (1860)); the illustration of 'Gigantic lily | (Doranthes excelsa)', lithographed by Walter Fitch, is between pp. 340 and 341, and the plant is discussed on pp. 339-40.</p>
-               </note>). It used to be very abundant at Illawarra. It occurs near George's River &amp; also near Appin (See Dr B's book p. 339), &amp; near the Lower Hawkesbury.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Hawkesbury River, NSW.</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>(See Dr Bennett's Wandering of a Naturalist p. 341<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e.<space unit="chars" quantity="1"/>Bennett's<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gatherings of a naturalist</seg>
+                        <space unit="chars" quantity="1"/>(G. Bennett (1860)); the illustration of 'Gigantic lily | (Doranthes excelsa)', lithographed by Walter Fitch,<space unit="chars" quantity="1"/>is between pp. 340 and 341, and the plant is discussed on pp. 339-40.</p>
+                  </note>
+               </seg>). It used to be very abundant at Illawarra. It occurs<space unit="chars" quantity="1"/>near George's River &amp; also near Appin (See Dr B's book p. 339), &amp; near the Lower Hawkesbury.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Hawkesbury River, NSW.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[…]<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">An unknown amount of text missing; text ends at the bottom of the page, without valediction.</p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note>
+               <space dim="horizontal" extent="tab"/>[…]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>An unknown amount of text missing; text ends at the bottom of the page, without valediction.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Alsophila%20australis">Alsophila australis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Alsophila%20excelsa">Alsophila excelsa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Alsophila%20Cooperi">Alsophila Cooperi</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Alsophila%20excelsa">Alsophila excelsa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Alsophila%20Leichardtiana">Alsophila Leichardtiana</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Doryanthes%20excelsa">Doryanthes excelsa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Seaforthia">Seaforthia</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Alsophila australis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Alsophila<space unit="chars" quantity="1"/>excelsa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Alsophila Cooperi</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Alsophila excelsa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Alsophila<space unit="chars" quantity="1"/>Leichardtiana</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Doryanthes excelsa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Seaforthia</p>
          </div>
       </body>
    </text>

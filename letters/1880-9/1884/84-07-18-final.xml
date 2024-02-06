@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -93,60 +88,66 @@
             </head>
             <p rend="number" xml:lang="en">84.07.18</p>
             <p rend="correspondent" xml:lang="en">From the Calcutta International Exhibition</p>
-            <p rend="location" xml:lang="en">No. 396 P, drawer 16, Dixson Library, State Library of New South Wales, Sydney.</p>
+            <p rend="location" xml:lang="en">No. 396 P, drawer 16, Dixson Library, State Library of New South Wales, Sydney.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS is a printed certificate on which the two signatures have been added by hand.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS is a printed certificate on which the two signatures have been added by hand.</p>
                </note>CALCUTTA</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">INTERNATIONAL EXHIBITION,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">1883-84.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">Certificate of Merit of the 1st Class</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">AND OF</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">GOLD MEDAL</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">Awarded to Baron Von Mueller, K.C.M.G. Melbourne.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">For A collection of Australian flowers not yet introduced into horticulture, preserved in an Album.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Calcutta</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The 18th July, 1884.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">Rivers Thompson<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Sir Augustus Rivers Thompson, Lieutenant-Governor of Bengal, 1882-7.</p>
-               </note> President.</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Rivers Thompson<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Sir Augustus Rivers Thompson, Lieutenant-Governor of Bengal, 1882-7.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>President.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Executive Committee.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
-               xml:lang="en">[Mountshead] Jackson Secretary.</p>
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">Mountshead<space unit="chars" quantity="1"/>Jackson<space unit="chars" quantity="1"/>Secretary.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">No. 2795.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">No.<space unit="chars" quantity="1"/>2795.</p>
          </div>
       </body>
    </text>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne, 9 March 1854. ¶ My dear Krichauff, ¶  ¶ Yesterday evening I returned from my alpine journey, after I had been laid up with gastric fever. ¶  I thank you for your friendly letter, ¶  and exp...</title>
+            <title>Melbourne, 9 March 1854. ¶ M incorrectly wrote 1854, instead of 1855.On 9 March 1854,M was travelling between the Snowy River and Avon, Vic. (see M to J. Foster, 10 March 1854). On 9 March 1855,hehad ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne, 9 March 1854. ¶ My dear Krichauff, ¶  ¶ Yesterday evening I returned from my alpine journey, after I had been laid up with gastric fever. ¶  I thank you for your friendly letter, ¶  and exp...</title>
+               <title>Melbourne, 9 March 1854. ¶ M incorrectly wrote 1854, instead of 1855.On 9 March 1854,M was travelling between the Snowy River and Avon, Vic. (see M to J. Foster, 10 March 1854). On 9 March 1855,hehad ...</title>
                <date when="1855-03-09">1855-03-09</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -77,8 +73,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="60">English</language>
-            <language ident="de" usage="40">German</language>
+            <language ident="en" usage="61">English</language>
+            <language ident="de" usage="39">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -91,110 +87,136 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne, 9 March 1854. ¶ My dear Krichauff, ¶  ¶ Yesterday evening I returned from my alpine journey, after I had been laid up with gastric fever. ¶  I thank you for your friendly letter, ¶  and exp...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne, 9 March 1854. ¶ M incorrectly wrote 1854, instead of 1855.On 9 March 1854,M was travelling between the Snowy River and Avon, Vic. (see M to J. Foster, 10 March 1854). On 9 March 1855,hehad ...</supplied>
             </head>
             <p rend="number" xml:lang="de">55.03.09</p>
             <p rend="correspondent" xml:lang="de">To Friedrich Krichauff</p>
-            <p rend="location" xml:lang="de">Private hands.</p>
+            <p rend="location" xml:lang="de">Private hands.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS envelope front: 'Fr. Krichauff Esq. | Bugle Range | near | <seg style="font-style: italic; ">Macclesfield</seg>'.</p>
-               </note>Melbourne 9. März 54.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS envelope front: 'Fr. Krichauff Esq. | Bugle Range | near |<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Macclesfield</seg>'.</p>
+               </note>Melb 9. März 54.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Mein lieber Krichauff</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Gestern Abend bin ich von meiner Alpen Reise zurückgekehrt, nachdem ich an gastrischem Fieber darnieder gelegen. Ich danke für Deinen freundlichen Brief, u condoliere mit inniger Theilnahme über den Trauerfall in Deiner Familie. Gewiss wird Euch bald eine frohere Zeit beginnen.</p>
+               <space dim="horizontal" extent="tab"/>Gestern Abend bin ich von meiner Alpen Reise zurückgekehrt, nachdem ich am gastrischem Fieber darnieder gelegen. Ich danke für Deinen freundlichen Brief, u condolire mit inniger Theilnahme über den Trauerfall in Deiner Familie. Gewiss wird Euch bald eine frohere Zeit beginnen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Vielleicht kann Dein Wunsch unserer Wiedervereinigung auch erfüllt werden, indem ich vielleicht nach Macclesfield komme, sollte wirklich das wissenschaftliche Department hier eingehen aus Geldmangel. Ist da wohl Aussicht auf ein Stück Brod als Apotheker? oder was denkst Du von Port Elliot u Encounter Bay. </p>
+               <space dim="horizontal" extent="tab"/>Vielleicht kann Dein Wunsch unserer Wiedervereinigung noch erfüllt werden, indem ich vielleicht nach Macclesfield komme, sollte wirklich das wissenschaftliche Department hier eingehen aus Geldmangel. Ist da wohl Aussicht auf ein Stück Brod als Apotheker? oder was denkst Du von Port Elliot u Encounter Bay.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Herzlichen Dank für die in Aussicht gestellten Pflanzen; ich will Euch Broschüren als Gegengabe sen.</p>
+               <space dim="horizontal" extent="tab"/>Herzlichen Dank für die in Aussicht gestellten Pflanzen; ich will Euch Broschüren als Gegengabe sein.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Verzeihe dass ich aus Eile zur Post zu kommen, für heute nur noch bemerke, dass wenn keine Arrangements getroff es mich freuen sollte, die Hütte in M. nicht auf lange Zeit weggegeben zu sehen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Grüsse Deine liebe Frau u guten Schwiegereltern aufs herzlichste von Deinem</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Dir treu zugethanen</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
-               xml:lang="en">Melbourne, 9 March 1854.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M incorrectly wrote 1854, instead of 1855. On 9 March 1854, M was travelling between the Snowy River and Avon, Vic. (see M to J. Foster, 10 March 1854). On 9 March 1855, he had just returned from another alpine journey, and the letter is to be dated accordingly.</p>
-               </note>
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Melbourne, 9 March 1854.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M incorrectly wrote 1854, instead of 1855.<space unit="chars" quantity="1"/>On 9 March 1854,<space unit="chars" quantity="1"/>M was travelling between the Snowy River and Avon, Vic. (see M to J. Foster, 10 March 1854). On 9 March 1855,<space unit="chars" quantity="1"/>he<space unit="chars" quantity="1"/>had just returned from another alpine journey, and the letter is<space unit="chars" quantity="1"/>to be<space unit="chars" quantity="1"/>dated accordingly.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">My dear Krichauff,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Yesterday evening I returned from my alpine journey, after I had been laid up with gastric fever.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">In M to W. Haines, 10 March 1855, M uses 'last night' to mean he returned on 9 March, not 8 March as iimplied in this letter.</p>
-               </note> I thank you for your friendly letter,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> and express my condolence with deepest sympathy on the bereavement in your family.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Details not identified.</p>
-               </note> Surely a happier time will soon begin for you all.</p>
+               <space dim="horizontal" extent="tab"/>Yesterday evening I returned from my alpine journey,<space unit="chars" quantity="1"/>after I had been laid up with gastric fever.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>In M to W. Haines, 10 March 1855, M uses 'last night' to mean he returned on 9 March, not 8 March as iimplied in this letter.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I thank you for your friendly letter,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and express my condolence with deepest sympathy on the bereavement in your family.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Details not identified.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Surely a happier time will soon begin for you all.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Perhaps your wish for our reunion can also be fulfilled, as I may come to Macclesfield, should the scientific Department here really perish through lack of money. Is there any prospect of earning a crust of bread as a pharmacist there? Or what do you think of Port Elliot and Encounter Bay?</p>
+               <space dim="horizontal" extent="tab"/>Perhaps your wish for our reunion can still be fulfilled, as I may come to Macclesfield, should the scientific Department here really perish through lack of money.<space unit="chars" quantity="1"/>Is there any prospect of earning a crust of bread as a pharmacist there? Or what do you think of Port Elliot and Encounter Bay?</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sincere thanks for the promised plants; I will send you pamphlets to reciprocate.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Forgive me, when in my haste to catch the mail I only add the remark for today that, if no arrangements have been made, I would be pleased not to see the hut in Macclesfield disposed of for a long time yet.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See Gemmell (1975) for details of M's hut in the Bugle Ranges, SA.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Forgive me, when in my haste to catch the mail I only add the remark for today that, if no arrangements have been made, I would be pleased not to see the hut in Macclesfield disposed of for a long time yet.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See Gemmell (1975) for details of M's hut in the Bugle Ranges, SA.<space unit="chars" quantity="1"/>The land with the hut was leased; see B. Mueller to F. Krichauff, 6 May 1856 (in this edition as M56-05-06).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Give my sincerest regards to your dear wife and good parents-in-law<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Dorothea Krichauff, Ludwig and Maria Fischer.</p>
-               </note> from your</p>
+               <space dim="horizontal" extent="tab"/>Give my sincerest regards to your dear wife and good parents-in-law<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Dorothea Krichauff, Ludwig and Maria Fischer.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>from your</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">always devoted</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>

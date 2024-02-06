@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"]...</title>
+            <title> ¶ [Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"] ¶ M's letter was returned to him on 5 February 1885 minuted: 'Attach copy of your ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"]...</title>
+               <title> ¶ [Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"] ¶ M's letter was returned to him on 5 February 1885 minuted: 'Attach copy of your ...</title>
                <date when="1885-02-02">1885-02-02</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,26 +84,42 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"] ¶ M's letter was returned to him on 5 February 1885 minuted: 'Attach copy of your ...</supplied>
             </head>
             <p rend="number" xml:lang="en">85.02.02</p>
             <p rend="correspondent" xml:lang="en">To Graham Berry</p>
-            <p rend="location" xml:lang="en">No. 1106, vol. 1885 C, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">No. 1106, vol. 1885 C, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. Item is a register entry only for an item dated 2 February 1885 and registered on 3 February.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. Item is a register entry only<space unit="chars" quantity="1"/>for an item<space unit="chars" quantity="1"/>dated 2 February 1885<space unit="chars" quantity="1"/>and registered on 3 February.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M's letter was returned to him on 5 February 1885 minuted: 'Attach copy of your letter of 7.6.84' (letter not found). M complied on 6 February and the letters were forwarded to the Public Service Board on 9 February with the annotation: 'For consideration'.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[Alteration in classification re Mr French necessary. Suggests that all employés in his Dept be styled "clerical"]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M's letter was returned to him on 5 February 1885 minuted: 'Attach copy of your letter of 7.6.84'<space unit="chars" quantity="1"/>(letter not found).<space unit="chars" quantity="1"/>M<space unit="chars" quantity="1"/>complied on 6 February and the letters were forwarded to the Public Service Board on 9 February with the annotation: 'For consideration'.<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>It is unclear whether the register entry refers to<space unit="chars" quantity="1"/>Charles French<space unit="chars" quantity="1"/>Snr<space unit="chars" quantity="1"/>or his son<space unit="chars" quantity="1"/>Charles H. French; both were employed in M's department.<space unit="chars" quantity="1"/>It is more likely to have<space unit="chars" quantity="1"/>concerned the<space unit="chars" quantity="1"/>older French, who had been appointed from 1 March 1884;<space unit="chars" quantity="1"/>see T. Wilson to M, 14 March 1884<space unit="chars" quantity="1"/>(in this edition as 84-03-14b).</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>The request was evidently unsuccessful; M to A. Deakin,<space unit="chars" quantity="1"/>30 March 1889,<space unit="chars" quantity="1"/>was another attempt to have the<space unit="chars" quantity="1"/>staff reclassified, but the secretary of the Public Service Board reported that to be appointed to the clerical division would require the officers to pass the relevant examination, and<space unit="chars" quantity="1"/>then<space unit="chars" quantity="1"/>be appointed at a level with a lower salary than they already had.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sir, ¶  ¶ Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell, ¶  I have shared in the eagerness of many Australian colonists of seeing the fate of that...</title>
+            <title>Sir, ¶  ¶ Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell, ¶ See M to T. Mitchell, November 1851; no earlier letter from M to Mitchell has been foun...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Sir, ¶  ¶ Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell, ¶  I have shared in the eagerness of many Australian colonists of seeing the fate of that...</title>
+               <title>Sir, ¶  ¶ Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell, ¶ See M to T. Mitchell, November 1851; no earlier letter from M to Mitchell has been foun...</title>
                <date when="1880-02-20">1880-02-20</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -88,62 +84,87 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Sir, ¶  ¶ Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell, ¶  I have shared in the eagerness of many Australian colonists of seeing the fate of that...</supplied>
+               <supplied reason="XTF-compatibility">Sir, ¶  ¶ Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell, ¶ See M to T. Mitchell, November 1851; no earlier letter from M to Mitchell has been foun...</supplied>
             </head>
             <p rend="number" xml:lang="en">80.02.20a</p>
-            <p rend="correspondent" xml:lang="en">To the Editor of the Age</p>
+            <p rend="correspondent" xml:lang="en">To the Editor of<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Age</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see ‘The Fate of Leichhardt’, <seg style="font-style: italic; ">Age</seg> (Melbourne), 26 February 1880, p. 3 (B80.02.05). See also B80.02.04 and related items referred to there.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see ‘The Fate of Leichhardt’,<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
+                     <space unit="chars" quantity="1"/>(Melbourne), 26 February 1880, p. 3 (B80.02.05). See also B80.02.04 and related items referred to there.</p>
                </note>Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See M to T. Mitchell, November 1851; no earlier letter from M to Mitchell has been found, nor any letter from Mitchell to M.</p>
-               </note> I have shared in the eagerness of many Australian colonists of seeing the fate of that hapless explorer, and of his followers, disclosed, and any remnant of his party rescued. All the endeavors made for fully thirty years to shed light on the fate of the missing expedition have been singularly unfortunate. The early search instituted under the auspices of the Government of New South Wales by Hovenden Hely led us to believe that Leichhardt and his companions had fallen under the hands of the natives towards the sources of the Barcoo. Augustus Gregory's mission by the same Government in 1858 proved that Leichhardt penetrated at least as far as the Thomson River, but there his traces were lost. The tidings suddenly obtained in 1865, through Macintyre, that a marked tree, indicative of Leichhardt's track, was found on the Flinders River in about 20 deg. south, and near to it two of the horses (likely of the expedition), gave rise to the Ladies' Leichhardt Search Expedition; but an incautious movement of MacIntyre, in a season of almost unparalleled drought, involved not only the loss of nearly all the resources which the Melbourne ladies' committee had provided with so much toil; but, sadder still, caused also the ultimate death of the leader. The West Australian Government acted soon subsequently most promptly, on a representation of the writer that the truth of a rumor might be ascertained according to which members of Leichhardt's party had reached Lake Barlee, only 350 miles from Swan River; but the search by T. Forrest<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-style: italic; ">Typesetter's error for</seg> J?. The expedition in question was led by John Forrest.</p>
-               </note> gave no further clue. In 1871 new tidings spread (now proved to be correct) about a white man, presumably of Leichhardt's party, wandering with the tribes near Eyre's Creek, and Gilmore was sent out, though unsuccessfully, by the Government of Queensland to prove the truth of these assertions. Later still, Hume gave an extraordinary account of his meeting a detained member of Leichhardt's party, Classen, in the Far West, and he found in Mr. Du Faur and a few other Sydney gentlemen supporters for a journey, with a view of conducting the forlorn man of the wilderness into their widely advanced settlements,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See Perrin (1991) and D. Lewis (2013).</p>
-               </note> though now, through Mr. Skuthorpe, it has been proved that Hume's tale was correct in many important points, yet it was mixed up with so much that was unfeasible or impossible as to render most of us sceptic regarding his statements, as some of these were not within the reach of possibility; and as the public faith in Hume was weakened also by circumstances of his previous career, and others which were rendered known through the telegraph authorities of South Australia. The sad probability, now apparent, that Leichhardt perished not far west from the Mulligan River, is supported when we reflect on his original plan. He wanted to cross the Australian continent from east to west, skirting Sturt's Desert northerly and keeping to the southern falls of the intertropical watercourses, as far as circumstances would permit, unless favorable aspects of the country allowed him to proceed on a more direct course. Thus we see him advance circumspectly, first to the Flinders River, from whence he must have discovered much of the magnificent country further west since disclosed by a series of explorations of several travellers, but the very discovery of the splendid features of the country led him more than 200 miles south, indeed nearly down to Eyre's Creek, whereas a course nearer the north coast would have proved far safer, though somewhat longer. Eventually Leichhardt was stopped by the same sandy desert which baffled Sturt in 1845, he as well having no dromedaries to traverse wide waterless tracts of country. Whether he and most of his companions perished in the attempt to penetrate further westerly, or whether any of them found an oasis, and refuge with the natives, to pass many a year of dreary isolation from civilised life, remains now to be ascertained. Most unfortunately, again, several years have been lost for a renewed search, and it seems as if a fatality prevailed throughout to prevent us from following up the traces of the lost explorers, or from approaching perhaps any of the survivors. Gilmore came to about 100 miles south of the spot where Classen died; and Hodgkinson in 1876, when the poor man was still alive, came unknowingly even to within twenty miles west of his principal camp. Methodic interrogations of the natives concerning the missing expedition should now be instituted along our whole transcontinental telegraph line. Though Buckley lived in robust health for thirty years with the aborigines around Port Phillip, we can now scarcely hope to find any member of Leichhardt's party still among the living; but what ought to be done would be to despatch at once a party to the Mulligan River, and through the aid of Mr. Skuthorpe, and in response to the appeal of this gentleman, Mr. Du Faur and Mr. Dawson, to communicate with the tribes in the vicinity for further clues. The descendants of Classen must be able to tell what he related to them about the last movements of Leichhardt, the causes of the dispersion of the party, his own lonely arrival in the Eyre's Creek country, and the extent of Leichhardt's last discoveries, further east, even if any diaries should be unrecoverable, so that the great explorer after a third of a century may get credit for his last glorious deeds. The generous Sir Thomas Elder, who in such an enlightened spirit fostered geographical exploration in the fifth continent for several years, would doubtless provide the needful camels from the Beltana station,<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>SA. On 16 February, E. Du Faur received a letter from M stating that he had written to Sir Thomas Elder, appealing for the use of his dromedaries (letter not found, see 'Fate of Leichhardt', <seg style="font-style: italic; ">Sydney morning herald</seg>, 20 February 1880, p. 7).</p>
-               </note> from which the march to the Mulligan River would be only a few hundred miles, and that along mapped country. Thence the blank of the chart between that watercourse and the telegraph line could be easily filled up as a simultaneous gain for geography. For such a service in the cause of humanity and of science also, most probably the tried services of Mr. Giles and Mr. Tietkens, both now in Adelaide, could be rendered at once available. If we cannot restore any of the members of the missing party to the living, we should at all events seek for the solitude of their death-place, should reward their discoveries, and honor in every way their memory.</p>
+               <space dim="horizontal" extent="tab"/>Ever since 1849, when I interchanged letters on the fate of Dr. Leichhardt with Sir Thomas Mitchell,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M to T. Mitchell, November 1851; no earlier letter from M to Mitchell has been found, nor any letter from Mitchell to M.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have shared in the eagerness of many Australian colonists of seeing the fate of that hapless explorer, and of his followers, disclosed, and any remnant of his party rescued. All the endeavors made for fully thirty years to shed light on the fate of the missing expedition have been singularly unfortunate. The early search instituted under the auspices of the Government of New South Wales by Hovenden Hely led us to believe that Leichhardt and his companions had fallen under the hands of the natives towards the sources of the Barcoo. Augustus Gregory's mission by the same Government in 1858 proved that Leichhardt penetrated at least as far as the Thomson River, but there his traces were lost. The tidings suddenly obtained in 1865, through Macintyre, that a marked tree, indicative of Leichhardt's track, was found on the Flinders River in about 20 deg. south, and near to it two of the horses (likely of the expedition), gave rise to the Ladies' Leichhardt Search Expedition; but an incautious movement of MacIntyre, in a season of almost unparalleled drought, involved not only the loss of nearly all the resources which the Melbourne ladies' committee had provided with so much toil; but, sadder still, caused also the ultimate death of the leader. The West Australian Government acted soon subsequently most promptly, on a representation of the writer that the truth of a rumor might be ascertained according to which members of Leichhardt's party had reached Lake Barlee, only 350 miles from Swan River; but the search by T. Forrest<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                        <space unit="chars" quantity="1"/>J?. The expedition in question was led by John Forrest.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>gave no further clue. In 1871 new tidings spread (now proved to be correct) about a white man, presumably of Leichhardt's party, wandering with the tribes near Eyre's Creek, and Gilmore was sent out, though unsuccessfully, by the Government of Queensland to prove the truth of these assertions. Later still, Hume gave an extraordinary account of his meeting a detained member of Leichhardt's party, Classen, in the Far West, and he found in Mr. Du Faur and a few other Sydney gentlemen supporters for a journey, with a view of conducting the forlorn man of the wilderness into their widely advanced settlements,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See Perrin (1991) and<space unit="chars" quantity="1"/>D.<space unit="chars" quantity="1"/>Lewis (2013).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>though now, through Mr. Skuthorpe, it has been proved that Hume's tale was correct in many important points, yet it was mixed up with so much that was unfeasible or impossible as<space unit="chars" quantity="1"/>to render most of us sceptic regarding his statements, as some of these were not within the reach of possibility; and as the public faith in Hume was weakened also by circumstances of his previous career, and others which were rendered known through the telegraph authorities of South Australia. The sad probability, now apparent, that Leichhardt perished not far west from the Mulligan River, is supported when we reflect on his original plan. He wanted to cross the Australian continent from east to west, skirting Sturt's Desert northerly and keeping to the southern falls of the intertropical watercourses, as far as circumstances would permit, unless favorable aspects of the country allowed him to proceed on a more direct course. Thus we see him advance circumspectly, first to the Flinders River, from whence he must have discovered much of the magnificent country further west since disclosed by a series of explorations of several travellers, but the very discovery of the splendid features of the country led him more than 200 miles south, indeed nearly down to Eyre's Creek, whereas a course nearer the north coast would have proved far safer, though somewhat longer. Eventually Leichhardt was stopped by the same sandy desert which baffled Sturt in 1845, he as well having no dromedaries to traverse wide waterless tracts of country. Whether he and most of his companions perished in the attempt to penetrate further westerly, or whether any of them found an oasis, and refuge with the natives, to pass many a year of dreary isolation from civilised life, remains now to be ascertained. Most unfortunately, again, several years have been lost for a renewed search, and it seems as if a fatality prevailed throughout to prevent us from following up the traces of the lost explorers, or from approaching perhaps any of the survivors. Gilmore came to about 100 miles south of the spot where Classen died; and Hodgkinson in 1876, when the poor man was still alive, came unknowingly even to within twenty miles west of his principal camp. Methodic interrogations of the natives concerning the missing expedition should now be instituted along our whole transcontinental telegraph line. Though Buckley lived in robust health for thirty years with the aborigines around Port Phillip, we can now scarcely hope to find any member of Leichhardt's party still among the living; but what ought to be done would be to despatch at once a party to the Mulligan River, and through the aid of Mr. Skuthorpe, and in response to the appeal of this gentleman, Mr. Du Faur and Mr. Dawson, to communicate with the tribes in the vicinity for further clues. The descendants of Classen must be able to tell what he related to them about the last movements of Leichhardt, the causes of the dispersion of the party, his own lonely arrival in the Eyre's Creek country, and the extent of Leichhardt's last discoveries, further east, even if any diaries should be unrecoverable, so that the great explorer after a third of a century may get credit for his last glorious deeds. The generous Sir Thomas Elder, who in such an enlightened spirit fostered geographical exploration in the fifth continent for several years, would doubtless<space unit="chars" quantity="1"/>provide the needful camels from the Beltana station,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>SA. On 16 February,<space unit="chars" quantity="1"/>E. Du Faur received a letter from M stating that he had written to<space unit="chars" quantity="1"/>Sir Thomas<space unit="chars" quantity="1"/>Elder, appealing for the use of his dromedaries<space unit="chars" quantity="1"/>(letter not found, see 'Fate of Leichhardt',<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sydney morning herald</seg>, 20 February 1880, p. 7).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>from which the march to the Mulligan River would be only a few hundred miles, and that along mapped country. Thence the blank of the chart between that watercourse and the telegraph line could be easily filled up as a simultaneous gain for geography. For such a service in the cause of humanity and of science also, most probably the tried services of Mr. Giles<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Ernest Giles.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and Mr. Tietkens, both now in Adelaide, could be rendered at once available. If we cannot restore any of the members of the missing party to the living, we should at all events seek for the solitude of their death-place, should reward their discoveries, and honor in every way their memory.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Yours, &amp;c.,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <seg style="font-variant: small-caps; ">Ferd. von Mueller</seg>.</p>
+               <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">Ferd. von Mueller</seg>.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">20th February.</p>
          </div>
       </body>

@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,13 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/5650b38b-1865-4d59-9260-1f90a24425a9">Billardiera</term>
-               <term>Pittosporae</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,11 +62,13 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -103,63 +92,90 @@
             </head>
             <p rend="number" xml:lang="en">48.05.22</p>
             <p rend="correspondent" xml:lang="en">From Charles Stuart</p>
-            <p rend="location" xml:lang="en">RB MSS M36, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M36, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">For a published precis of this letter see Daley (1935) pp. 106-7.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>For a published precis of this letter see Daley (1935) pp. 106-7.</p>
                </note>Launceston 22nd May 1848.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>You have most likely wondered that I have not written to you before now but the reason is that I have been so unsettled &amp; one thing and another that I have not been able to send you any thing worth your acceptance, more particularly as I have not seen Mr Gunn who has been at Port Philip, but I now send by the brig Henry a box with a few specimens, the weather has been so bad that I have not been able to go to the mountains but shall go a journey next week but thought I would send you a few which I fear are hardly worth your acceptance, but trust me I will send you many more, I shall not easily forget your kindness to me &amp; shall endeavour to repay you, the rain has been so severe here that the rivers are all full and difficult to cross and there are many of them, I have sent a box of plants &amp;c to Mr Giles &amp; if you should see him will you please to tell him that they are at Mr Fairlies Hindley street, with a letter for him I told him that if Mr Stephens had sold any collections that I would send you an order to receive the money &amp; pay him, when he would send my box, on the other side I have written the order, if there is no money I will try &amp; send it to him by the next time the Henry goes to Adelaide — I have plenty of employment here but wages are very low. I hope to get you a good lot of things shortly in the mean time please to write to me &amp; if you can send me the names of the plants you were exploring when I left Adelaide I should be much obliged, particularly of the creeper near <name key="Billardiera">Billardiera</name> also the blue flowered linear leaved plant also in <name key="Pittosporae">Pittosporae</name> &amp; if you could give me the Natural orders of them I think I could remember what is in the collection without aid of a duplicate, I am at last settled in a place where I have convenience for preserving specimens &amp; shall not let slip any opportunity of obtaining them for <seg style="">
+               <space dim="horizontal" extent="tab"/>You have most likely wondered that I have not written to you before now but the reason is that I have been so unsettled &amp; one thing and another that I have not been able to send you any thing worth your acceptance, more particularly as I have not seen Mr Gunn who has been at Port Philip, but I now send by the brig Henry a box with a few specimens, the weather has been so bad that I have not been able to go to the mountains but shall go a journey next week but thought I would send you a few which I fear are hardly worth your acceptance, but trust me I will send you many more, I shall not easily forget your kindness to me &amp; shall endeavour to repay you, the rain has been so severe here that the rivers are all full and difficult to cross and there are many of them, I have sent a box of plants &amp;c to Mr Giles<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Not identified; Daley, in a note, p. 2, identifies him only as 'a botanical collector in the [18]40's and [18]50's.'<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp; if you should see him will you please to tell him that they are at Mr Fairlies Hindley street, with a letter for him I told him that if Mr Stephens<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Not positively identified.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>had sold any collections that I would send you an order to receive the money &amp; pay him, when he would send my box, on the other side I have written the order, if there is no money I will try &amp; send it to him by the next time the Henry goes to Adelaide — I have plenty of employment here but wages are very low. I hope to get you a good lot of things shortly in the mean time please to write to me &amp; if you can send me the names of the plants you were exploring when I left Adelaide I should be much obliged, particularly of the creeper near Billardiera also the blue flowered linear leaved plant also in Pittosporae &amp; if you could give me the Natural orders of them I think I could remember what is in the collection without aid of a duplicate, I am at last settled in a place where I have convenience for preserving specimens &amp; shall not let slip any opportunity of obtaining them for<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">you</hi>
-               </seg> &amp; for no one else as I shall not do it for profit but the pleasure of having your correspondence, the next lot I send you I shall take more pains now I have more convenience for to do it I shall be glad if you could write soon perhaps by the Henry, She generally remains about a week or 10 Days at Adelaide — we had rather a rough passage of about 2 Weeks coming here — I had to pay 3£ — any directions which you may give me respecting specimens I will attend to hoping that yourself &amp; sisters are quite well &amp; with respects to Mr Heuzenroder</p>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp; for no one else as I shall not do it for profit but the pleasure of having your correspondence, the next lot I send you I shall take more pains now I have more convenience for to do it I shall be glad if you could write soon perhaps by the Henry, She generally remains about a week or 10 Days at Adelaide — we had rather a rough passage of about 2 Weeks coming here — I had to pay 3£ — any directions which you may give me respecting specimens I will attend to hoping that yourself &amp; sisters are quite well &amp; with respects to Mr Heuzenroder</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I am Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>yours truly</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Charles Stuart</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">please direct to me to the care of Joseph Bonney Esq</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Woodhall</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">near Perth</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Van Diemens Land</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>PS I have enquired about Honey but cannot get any under 8d pr lb </p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Billardiera">Billardiera</name>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Van Diemens Land</hi>
+               </seg>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pittosporae">Pittosporae</name>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>PS I have enquired about Honey but cannot get any under 8d pr lb<space unit="chars" quantity="1"/>
             </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Billardiera</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pittosporae</p>
          </div>
       </body>
    </text>

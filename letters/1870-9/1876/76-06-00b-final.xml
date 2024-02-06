@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Correspondence was read from … Baron von Mueller, presenting to the Library "Giles' Travels in Central Australia," ¶  "Campbell's New Hebrides," ¶  with phytographic notes by himself, ¶  and also ...</title>
+            <title> ¶ [Correspondence was read from … Baron von Mueller, presenting to the Library ¶  ¶ "Giles' ¶  ¶ Travels in Central Australia," ¶ E.Giles (1875). ¶  ¶ "Campbell's New ¶  ¶ Hebrides," ¶ Campbell (1873...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Correspondence was read from … Baron von Mueller, presenting to the Library "Giles' Travels in Central Australia," ¶  "Campbell's New Hebrides," ¶  with phytographic notes by himself, ¶  and also ...</title>
+               <title> ¶ [Correspondence was read from … Baron von Mueller, presenting to the Library ¶  ¶ "Giles' ¶  ¶ Travels in Central Australia," ¶ E.Giles (1875). ¶  ¶ "Campbell's New ¶  ¶ Hebrides," ¶ Campbell (1873...</title>
                <date when="1876-06">1876-06</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,53 +83,67 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Correspondence was read from … Baron von Mueller, presenting to the Library "Giles' Travels in Central Australia," ¶  "Campbell's New Hebrides," ¶  with phytographic notes by himself, ¶  and also ...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Correspondence was read from … Baron von Mueller, presenting to the Library ¶  ¶ "Giles' ¶  ¶ Travels in Central Australia," ¶ E.Giles (1875). ¶  ¶ "Campbell's New ¶  ¶ Hebrides," ¶ Campbell (1873...</supplied>
             </head>
             <p rend="number" xml:lang="en">76.06.00b</p>
-            <p rend="correspondent" xml:lang="en">To the Ballarat Public Library Committee</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Ballarat Public Library Committee</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter note found. The text given here is from a report of the meeting of the Committee held on 6 June 1876 (<seg style="font-style: italic; ">Ballarat star</seg>, 7 June 1876, p. 2).</p>
+                     <space dim="horizontal" extent="tab"/>Letter note found. The text given here is from a report of the meeting of the Committee held on 6 June 1876 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Ballarat star</seg>, 7 June 1876, p. 2).</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Correspondence was read from … Baron von Mueller, presenting to the Library "Giles' Travels in Central Australia,"<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Giles (1875).</p>
-               </note> "Campbell's New Hebrides,"<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Campbell (1873).</p>
-               </note> with phytographic notes by himself,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B73.14.01.</p>
-               </note> and also his notes on Papuan plants,<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Probably one or both of B75.11.01 and B76.04.01.</p>
-               </note> and intimating that, on requisition from Mr M'Dermott, he would endeavor to send the five or six volumes in continuation of his work "Fragmenta Phytologiae Australiae."<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>i.e. "Fragmenta Phytographiae Australiae". See T. MacDermott to M, 12 June 1876 (in this edition as 76-06-12a).</p>
-               </note>—It was resolved that the best thanks of the committee be tendered to Baron von Mueller for these valuable additions to the library stock.]</p>
+               <space dim="horizontal" extent="tab"/>[Correspondence was read from … Baron von Mueller, presenting to the Library<space unit="chars" quantity="1"/>"Giles'<space unit="chars" quantity="1"/>Travels in Central Australia,"<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>E.<space unit="chars" quantity="1"/>Giles (1875).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>"Campbell's New<space unit="chars" quantity="1"/>Hebrides,"<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Campbell (1873).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>with<space unit="chars" quantity="1"/>phytographic notes by himself,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B73.14.01.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and also his notes on Papuan plants,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Probably one or both of B75.11.01 and<space unit="chars" quantity="1"/>B76.04.01.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and intimating that, on requisition from Mr M'Dermott,<space unit="chars" quantity="1"/>he would endeavor to<space unit="chars" quantity="1"/>send the five or six volumes in continuation of his work<space unit="chars" quantity="1"/>"Fragmenta<space unit="chars" quantity="1"/>Phytologiae<space unit="chars" quantity="1"/>Australiae."<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>i.e.<space unit="chars" quantity="1"/>"Fragmenta Phytographiae Australiae".<space unit="chars" quantity="1"/>See<space unit="chars" quantity="1"/>T. MacDermott to M, 12 June 1876<space unit="chars" quantity="1"/>(in this edition as 76-06-12a).</p>
+                  </note>
+               </seg>—It was resolved that<space unit="chars" quantity="1"/>the best thanks<space unit="chars" quantity="1"/>of the committee be tendered to Baron<space unit="chars" quantity="1"/>von Mueller<space unit="chars" quantity="1"/>for these valuable additions to the library stock.]</p>
          </div>
       </body>
    </text>

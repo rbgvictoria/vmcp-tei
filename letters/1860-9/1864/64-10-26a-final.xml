@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Society of the Friends of Nature, ¶ affiliated to ¶ the Imperial University of Moscow ¶ No. 61 ¶ 26 October 1864...</title>
+            <title>Society of the Friends of Nature, ¶ affiliated to ¶ the Imperial University of Moscow ¶ No. 61 ¶ 26 October 1864 ¶ All dates mentioned are Old Style (that is, according to the Julian calendar still in...</title>
             <author>the Society of the Friends of Nature, Moscow</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>RB MSS M197, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <msName>RB MSS M197,Library, Royal Botanic GardensMelbourne.</msName>
                   <altIdentifier>
                      <idno>64.10.26a</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>the Society of the Friends of Nature, Moscow</author>
-               <title>Society of the Friends of Nature, ¶ affiliated to ¶ the Imperial University of Moscow ¶ No. 61 ¶ 26 October 1864...</title>
+               <title>Society of the Friends of Nature, ¶ affiliated to ¶ the Imperial University of Moscow ¶ No. 61 ¶ 26 October 1864 ¶ All dates mentioned are Old Style (that is, according to the Julian calendar still in...</title>
                <date when="1864-10-26">1864-10-26</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-               <term>Times</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,18 +63,20 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>form text</term>
+               <term>formtext</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="52">English</language>
-            <language ident="de" usage="48">German</language>
+            <language ident="en" usage="53">English</language>
+            <language ident="de" usage="47">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -94,170 +89,188 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Society of the Friends of Nature, ¶ affiliated to ¶ the Imperial University of Moscow ¶ No. 61 ¶ 26 October 1864...</supplied>
+               <supplied reason="XTF-compatibility">Society of the Friends of Nature, ¶ affiliated to ¶ the Imperial University of Moscow ¶ No. 61 ¶ 26 October 1864 ¶ All dates mentioned are Old Style (that is, according to the Julian calendar still in...</supplied>
             </head>
             <p rend="number" xml:lang="de">64.10.26a</p>
             <p rend="correspondent" xml:lang="de">From the Society of the Friends of Nature, Moscow</p>
-            <p rend="location" xml:lang="de">RB MSS M197, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="de">RB MSS M197,<space unit="chars" quantity="1"/>Library, Royal Botanic Gardens<space unit="chars" quantity="1"/>Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times; ">ОБЩЕСТВО ЛЮБИТЕЛЕЙ ЕСТЕСТВОЗНАНИЯ,</seg>
+               <seg rend="formtext" style="color: #2F5496; ">ОБЩЕСТВО ЛЮБИТЕЛЕЙ ЕСТЕСТВОЗНАНИЯ,</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times; ">СОСТОЯЩЕЕ</seg>
+               <seg rend="formtext" style="color: #2F5496; ">СОСТОЯЩЕЕ</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times; ">ПРИ</seg>
+               <seg rend="formtext" style="color: #2F5496; ">ПРИ</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times; ">ИМПЕРАТОРСКОМЪ МОСКОВСКОМЪ УНИВЕРСИТЕТЕ</seg>.</p>
+               <seg rend="formtext" style="color: #2F5496; ">ИМПЕРАТОРСКОМЪ МОСКОВСКОМЪ УНИВЕРСИТЕТЕ</seg>
+               <seg rend="DefaultParagraphFont" style="">.</seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">No. 61</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="de">Октября 26 <seg rend="form%20text" style="color: #2f5496; font-family: Times; ">дня</seg> 1864 г.</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="de">Октября 26<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">дня</seg>
+               <space unit="chars" quantity="1"/>1864<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">г</seg>.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">La Societé des Amis de la Nature affiliée à l'Université Imperiale de Moscou</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">à Monsieur le Vice-Président de la Societé d'acclimatation Victoria</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">Docteur Ferdinand Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">Monsieur le Vice-Président.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Le Conseil d'administration de la Societé des Amis de la Nature a l'honneur de Vous annoncer que Votre admission au nombre des Membres de la Société, qui a eu lieu au mois de Novembre de l'année passée a été confirmée dans la séance du 14 Mai 1864 et que dans la séance suivante du 17 Septembre 1864 la Société a conclu unanimement de Vous offrir le titre du <seg style="">
+               <space dim="horizontal" extent="tab"/>Le Conseil d'administration de la Societé des Amis de la Nature a l'honneur de Vous annoncer que Votre admission au nombre des Membres de la Société, qui a eu lieu au mois de Novembre de l'année passée a été confirmée dans la séance du 14 Mai 1864 et que dans la séance suivante du 17 Septembre 1864 la Société a conclu unanimement de Vous offrir le titre du<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Délégué de la Société des Amis de la Nature</hi>
                </seg>.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Le Conseil Vous prie, Monsieur, de vouloir bien accepter ce titre comme le temoignage d'une parfaite reconnaissance et de la considération la plus distinguée.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">President: Gr. Tchourovsky.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Membre du Conseil: Anatole Bogdanoff.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Secretaire: N. Vaenger</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Le 26 Octobre 1864.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Moscou.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">Extrait du réglement administratif.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Extrait du réglement administratif.</hi>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Droits des délégués.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">§1. Le délégué est le seul représentant officiel de la Société dans la région, où il est accrédité.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">§2. Il a le droit d'entamer, au nom de la Société, des relations avec les sociétés savantes, les Institutions et les personnes civiles - indigènes dans l'interet de la Société.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">§3. Dans le cas de sa présence à Moscou, il siège au bureau et profite des droits égaux à ceux des Membres du Conseil administratif.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               style="font-size: 10pt; hyphenate: false; text-align: center; "
                xml:lang="en">Society of the Friends of Nature,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               style="font-size: 10pt; hyphenate: false; text-align: center; "
                xml:lang="en">affiliated to</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               style="font-size: 10pt; hyphenate: false; text-align: center; "
                xml:lang="en">the Imperial University of Moscow</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">No. 61</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
-               xml:lang="en">26 October 1864<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">All dates mentioned are Old Style (that is, according to the Julian calendar still in use in Russia at the time); they have not been converted to the Gregorian calendar equivalent.</p>
-               </note>
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
+               xml:lang="en">26 October 1864<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>All dates mentioned are Old Style (that is, according to the Julian calendar still in use in Russia at the time); they have not been converted to the Gregorian calendar equivalent.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">The Society of the Friends of Nature affiliated to the Imperial University of Moscow to the Vice President of the Acclimatisation Society of Victoria, Dr Ferdinand Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Mr Vice President,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The administrative Council of the Society of the Friends of Nature has the honour to inform you that your election as a Member of the Society, which occurred in November of last year, was confirmed at the meeting of 14 May 1864 and that at the following meeting, on 17 September 1864, the Society decided unanimously to offer you the title of <seg style="font-style: italic; ">Delegate of the Society of the Friends of Nature</seg>.</p>
+               <space dim="horizontal" extent="tab"/>The administrative Council of the Society of the Friends of Nature has the honour to inform you that your election as a Member of the Society, which occurred in November of last year, was confirmed at the meeting of 14 May 1864 and that at the following meeting, on 17 September 1864, the Society decided unanimously to offer you the title of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Delegate of the Society of the Friends of Nature</seg>.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The Council begs you, Sir, to accept this title as a token of its immense gratitude and highest regard.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
-               xml:lang="en">Gr. Tchourovsky,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">= Shchurovskii; see Society of the Friends of Nature to M, 14 May 1864 (in this edition as 64-05-14b).</p>
-               </note> President.</p>
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Gr. Tchourovsky,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Alternative transliteration of<space unit="chars" quantity="1"/>Shchurovskii; see Society of the Friends of Nature to M, 14 May 1864<space unit="chars" quantity="1"/>(in this edition as 64-05-14b).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>President.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Anatole Bogdanoff, Member of Council.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">N. Vaenger, Secretary.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">26 October 1864</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Moscow</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Extract from the regulations.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Rights of delegates.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">§1. The delegate is the only official representative of the Society in the region where he is accredited.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">§2. He has the right of entering in the name of the Society into relations with local learned societies, institutions and private individuals in the interest of the Society.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">§3. When in Moscow, he has a seat on the executive and is entitled to the same rights as members of the administrative Council.</p>
          </div>
       </body>

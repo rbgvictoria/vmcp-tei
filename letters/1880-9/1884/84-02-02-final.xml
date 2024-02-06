@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne Feb. 2, 1884 ¶ To Aug. L. Eyre, Esq'. Secretary of the Victorian Vinegrowers Association ¶ Sir, ¶  ¶ I have the honour to inform you that I have examined the three samples of diseased vines ...</title>
+            <title>Melbourne ¶  ¶ Feb. ¶  ¶ 2, ¶  ¶ 1884 ¶ To Aug. ¶  ¶ L. ¶  ¶ Eyre, ¶  ¶ Esq. ¶  ¶ Secretary ¶  ¶ of the ¶  ¶ Victorian ¶  ¶ Vinegrowers ¶  ¶ Association ¶ Sir, ¶  ¶ I have ¶  ¶ the honour ¶  ¶ to info...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne Feb. 2, 1884 ¶ To Aug. L. Eyre, Esq'. Secretary of the Victorian Vinegrowers Association ¶ Sir, ¶  ¶ I have the honour to inform you that I have examined the three samples of diseased vines ...</title>
+               <title>Melbourne ¶  ¶ Feb. ¶  ¶ 2, ¶  ¶ 1884 ¶ To Aug. ¶  ¶ L. ¶  ¶ Eyre, ¶  ¶ Esq. ¶  ¶ Secretary ¶  ¶ of the ¶  ¶ Victorian ¶  ¶ Vinegrowers ¶  ¶ Association ¶ Sir, ¶  ¶ I have ¶  ¶ the honour ¶  ¶ to info...</title>
                <date when="1884-02-02">1884-02-02</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,14 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Peronospora vititola</term>
-               <term>Sphareloma ampelinum</term>
-               <term>Oidium</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,9 +61,11 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -88,7 +76,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Augustus Eyre</name>
+               <name>Augustine Eyre</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -97,71 +85,80 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne Feb. 2, 1884 ¶ To Aug. L. Eyre, Esq'. Secretary of the Victorian Vinegrowers Association ¶ Sir, ¶  ¶ I have the honour to inform you that I have examined the three samples of diseased vines ...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne ¶  ¶ Feb. ¶  ¶ 2, ¶  ¶ 1884 ¶ To Aug. ¶  ¶ L. ¶  ¶ Eyre, ¶  ¶ Esq. ¶  ¶ Secretary ¶  ¶ of the ¶  ¶ Victorian ¶  ¶ Vinegrowers ¶  ¶ Association ¶ Sir, ¶  ¶ I have ¶  ¶ the honour ¶  ¶ to info...</supplied>
             </head>
             <p rend="number" xml:lang="en">84.02.02</p>
-            <p rend="correspondent" xml:lang="en">To Augustus Eyre</p>
+            <p rend="correspondent" xml:lang="en">To Augustine<space unit="chars" quantity="1"/>Eyre</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Intercolonial Wine Exhibition', a report of the meeting of the Exhibition Committee of the Victorian Vinegrowers Association held on 5 February 1884, in <seg style="font-style: italic; ">Argus</seg>, 6 February 1884 (B84.02.03). It is introduced by 'The secretary read the following letter from the Baron Von Mueller, which was received with thanks:—'.</p>
-               </note>Melbourne Feb. 2, 1884</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Intercolonial Wine Exhibition', a report of the meeting of the Exhibition Committee of the Victorian Vinegrowers Association held on 5 February 1884, in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 6 February 1884 (B84.02.03). It is introduced by 'The secretary read the following letter from the Baron Von Mueller, which was received with thanks:—'.</p>
+               </note>Melbourne<space unit="chars" quantity="1"/>Feb.<space unit="chars" quantity="1"/>2,<space unit="chars" quantity="1"/>1884</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="en">To Aug. L. Eyre, Esq'. Secretary of the Victorian Vinegrowers Association</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">To Aug.<space unit="chars" quantity="1"/>L.<space unit="chars" quantity="1"/>Eyre,<space unit="chars" quantity="1"/>Esq.<space unit="chars" quantity="1"/>Secretary<space unit="chars" quantity="1"/>of the<space unit="chars" quantity="1"/>Victorian<space unit="chars" quantity="1"/>Vinegrowers<space unit="chars" quantity="1"/>Association</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honour to inform you that I have examined the three samples of diseased vines submitted by you yesterday on behalf of the president and committee of the Victorian Vinegrowers' Association. I find that as regards two of the samples, the damage is due to the well- known oidium mildew, which about a dozen years ago invaded our colony, and has been hurtful in many localities to our grape harvest ever-since. <space unit="chars" quantity="1"/>The third specimen—the one without berries—shows red spots on the leaves, originating probably from stagnant humidity about the roots, or perhaps from very exceptional weather influences. At all events, I have not succeeded to make out any definite fungareous growth on the scant material received, and believe the particular colouration due to cellular atony in some of the leaf substance from impaired nutrition. It would be well if better specimens of the foliage, and also portions of the root, were procured and forwarded carefully in a small case for further examination, the samples this time received having much suffered In transit. So far as I can judge from the material before me at present no new alarm need arise, because the vine oidium, as well known, can he subdued by the liberal and well directed use of sublimated or powdered sulphur, carefully dusted by bellows or whitening brush over vines affected by oidium, this sulphuring to be done early in the season over the young foliage, and subsequently also over the flowers, buds, and later over the young fruit; or the vines may be freed of this mildew by syringing with a weak solution of hydrosulphide of lime, which liquid should also be applied to stem and branches after pruning time. Moreover, dropping leaves and prunings of vines infested with oidium, as indeed with any other disease should, in all instances, be burnt, as often insisted on before, which means would much tend to diminish ­any fungus on vines, to which they will be more or less subject, so long us spores will he wafted anew from any infected place through the air, and this may be from long distances, particularly in windy, warm weather. It may be as well to mention also on this occasion that a vigilant circumspectness should be exercised in preventing the introduction and spreading of another fungus peculiar to the vines, namely the peronospora vititola,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Printers error for 'viticola'?</p>
-               </note> which attacks much the native vines of the eastern states of North America, and infests also the European vine. It is quite distinct from the black rot or anthrarnosis<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Printers error for 'anthracnosis'?</p>
-               </note> caused by sphareloma<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Printers errors for 'sphaceloma?</p>
-               </note> ampelinum. In the former case repeated sulphuring will also be the best remedy; in the latter case measures for drainage are indicated.</p>
+               <space dim="horizontal" extent="tab"/>I have<space unit="chars" quantity="1"/>the honour<space unit="chars" quantity="1"/>to inform<space unit="chars" quantity="1"/>you that I have examined the three<space unit="chars" quantity="1"/>samples<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>diseased<space unit="chars" quantity="1"/>vines submitted<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>you<space unit="chars" quantity="1"/>yesterday<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>behalf of the<space unit="chars" quantity="1"/>president<space unit="chars" quantity="1"/>and committee of the<space unit="chars" quantity="1"/>Victorian<space unit="chars" quantity="1"/>Vinegrowers'<space unit="chars" quantity="1"/>Association.<space unit="chars" quantity="1"/>I<space unit="chars" quantity="1"/>find that<space unit="chars" quantity="1"/>as regards<space unit="chars" quantity="1"/>two of the samples,<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>damage<space unit="chars" quantity="1"/>is due to the well-<space unit="chars" quantity="1"/>known oidium mildew,<space unit="chars" quantity="1"/>which about a dozen<space unit="chars" quantity="1"/>years ago invaded<space unit="chars" quantity="1"/>our colony, and<space unit="chars" quantity="1"/>has been hurtful in many localities to<space unit="chars" quantity="1"/>our<space unit="chars" quantity="1"/>grape<space unit="chars" quantity="1"/>harvest ever-since.<space unit="chars" quantity="1"/>
+               <space unit="chars" quantity="1"/>The<space unit="chars" quantity="1"/>third<space unit="chars" quantity="1"/>specimen—the one<space unit="chars" quantity="1"/>without<space unit="chars" quantity="1"/>berries—shows red spots<space unit="chars" quantity="1"/>on the leaves,<space unit="chars" quantity="1"/>originating<space unit="chars" quantity="1"/>probably<space unit="chars" quantity="1"/>from stagnant humidity<space unit="chars" quantity="1"/>about the<space unit="chars" quantity="1"/>roots, or perhaps from very<space unit="chars" quantity="1"/>exceptional weather<space unit="chars" quantity="1"/>influences.<space unit="chars" quantity="1"/>At all events,<space unit="chars" quantity="1"/>I have not<space unit="chars" quantity="1"/>succeeded to<space unit="chars" quantity="1"/>make<space unit="chars" quantity="1"/>out<space unit="chars" quantity="1"/>any definite<space unit="chars" quantity="1"/>fungareous<space unit="chars" quantity="1"/>growth on the scant<space unit="chars" quantity="1"/>material received,<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>believe<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>particular colouration due to<space unit="chars" quantity="1"/>cellular atony<space unit="chars" quantity="1"/>in some of the leaf<space unit="chars" quantity="1"/>substance<space unit="chars" quantity="1"/>from impaired nutrition.<space unit="chars" quantity="1"/>It would<space unit="chars" quantity="1"/>be well if<space unit="chars" quantity="1"/>better specimens of the foliage,<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>also<space unit="chars" quantity="1"/>portions of the root,<space unit="chars" quantity="1"/>were<space unit="chars" quantity="1"/>procured and forwarded<space unit="chars" quantity="1"/>carefully in a small case for further examination,<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>samples this time received<space unit="chars" quantity="1"/>having much suffered In transit.<space unit="chars" quantity="1"/>So far as I can judge<space unit="chars" quantity="1"/>from the material before me<space unit="chars" quantity="1"/>at present no new alarm need arise,<space unit="chars" quantity="1"/>because the vine oidium,<space unit="chars" quantity="1"/>as well known, can he subdued<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>the liberal<space unit="chars" quantity="1"/>and well directed use of sublimated or powdered<space unit="chars" quantity="1"/>sulphur,<space unit="chars" quantity="1"/>carefully<space unit="chars" quantity="1"/>dusted by<space unit="chars" quantity="1"/>bellows or whitening brush over vines affected<space unit="chars" quantity="1"/>by oidium, this sulphuring to<space unit="chars" quantity="1"/>be<space unit="chars" quantity="1"/>done<space unit="chars" quantity="1"/>early in the season over the<space unit="chars" quantity="1"/>young<space unit="chars" quantity="1"/>foliage,<space unit="chars" quantity="1"/>and subsequently also over the<space unit="chars" quantity="1"/>flowers,<space unit="chars" quantity="1"/>buds,<space unit="chars" quantity="1"/>and later over the young fruit;<space unit="chars" quantity="1"/>or the vines may<space unit="chars" quantity="1"/>be<space unit="chars" quantity="1"/>freed of this mildew<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>syringing with a weak solution of hydrosulphide of lime,<space unit="chars" quantity="1"/>which liquid should also<space unit="chars" quantity="1"/>be applied to stem<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>branches after pruning time. Moreover, dropping leaves and<space unit="chars" quantity="1"/>prunings of vines infested with oidium,<space unit="chars" quantity="1"/>as indeed with<space unit="chars" quantity="1"/>any<space unit="chars" quantity="1"/>other disease should,<space unit="chars" quantity="1"/>in all instances,<space unit="chars" quantity="1"/>be<space unit="chars" quantity="1"/>burnt,<space unit="chars" quantity="1"/>as often insisted on<space unit="chars" quantity="1"/>before,<space unit="chars" quantity="1"/>which means would much tend<space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>diminish<space unit="chars" quantity="1"/>­any<space unit="chars" quantity="1"/>fungus on vines,<space unit="chars" quantity="1"/>to which they<space unit="chars" quantity="1"/>will<space unit="chars" quantity="1"/>be more<space unit="chars" quantity="1"/>or less<space unit="chars" quantity="1"/>subject, so long us spores will he wafted<space unit="chars" quantity="1"/>anew<space unit="chars" quantity="1"/>from<space unit="chars" quantity="1"/>any infected place through the air,<space unit="chars" quantity="1"/>and this may<space unit="chars" quantity="1"/>be<space unit="chars" quantity="1"/>from<space unit="chars" quantity="1"/>long distances,<space unit="chars" quantity="1"/>particularly<space unit="chars" quantity="1"/>in windy, warm<space unit="chars" quantity="1"/>weather.<space unit="chars" quantity="1"/>It may<space unit="chars" quantity="1"/>be<space unit="chars" quantity="1"/>as well to mention also on this occasion that a vigilant circumspectness should<space unit="chars" quantity="1"/>be<space unit="chars" quantity="1"/>exercised in<space unit="chars" quantity="1"/>preventing the introduction and spreading of another fungus peculiar to the vines,<space unit="chars" quantity="1"/>namely<space unit="chars" quantity="1"/>the peronospora<space unit="chars" quantity="1"/>vititola,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Printers error for 'viticola'?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>which attacks much the native vines of the<space unit="chars" quantity="1"/>eastern states of North America,<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>infests<space unit="chars" quantity="1"/>also the<space unit="chars" quantity="1"/>European<space unit="chars" quantity="1"/>vine. It is quite distinct from the black<space unit="chars" quantity="1"/>rot or<space unit="chars" quantity="1"/>anthrarnosis<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Printers error for<space unit="chars" quantity="1"/>'anthracnosis'?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>caused<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>sphareloma<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Printers errors for 'sphaceloma?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>ampelinum.<space unit="chars" quantity="1"/>In the former<space unit="chars" quantity="1"/>case repeated<space unit="chars" quantity="1"/>sulphuring<space unit="chars" quantity="1"/>will also be<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>best remedy;<space unit="chars" quantity="1"/>in the latter<space unit="chars" quantity="1"/>case measures for drainage<space unit="chars" quantity="1"/>are indicated.</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">I have the honour to be, sir, your obedient</p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">I<space unit="chars" quantity="1"/>have<space unit="chars" quantity="1"/>the honour to<space unit="chars" quantity="1"/>be, sir,<space unit="chars" quantity="1"/>your obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; font-variant: small-caps; "
                xml:lang="en">
-               <seg style="font-variant: small-caps; ">
-                  <space dim="horizontal" extent="tab"/>Ferd. von Mueller</seg>
-            </p>
+               <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Oidium">Oidium</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Peronospora%20vititola">Peronospora vititola</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Sphareloma%20ampelinum">Sphareloma ampelinum</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Oidium</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Peronospora vititola</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Sphareloma ampelinum</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

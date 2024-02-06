@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dear Baron, ¶  ¶ I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O. ¶  to send larger specimens. ¶ No  ¶ 1 ¶ . is commonly known as Mulga; it occurs here as well as at...</title>
+            <title>Dear Baron, ¶  ¶ I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O. ¶ Post Office. ¶  ¶ to send larger specimens. ¶ No ¶  ¶ 1 ¶ . is commonly known as Mulga; it occurs...</title>
             <author>George Day</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>RB MSS M114, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <msName>RB MSS M114,Library, Royal Botanic GardensMelbourne.</msName>
                   <altIdentifier>
                      <idno>78.10.00</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>George Day</author>
-               <title>Dear Baron, ¶  ¶ I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O. ¶  to send larger specimens. ¶ No  ¶ 1 ¶ . is commonly known as Mulga; it occurs here as well as at...</title>
+               <title>Dear Baron, ¶  ¶ I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O. ¶ Post Office. ¶  ¶ to send larger specimens. ¶ No ¶  ¶ 1 ¶ . is commonly known as Mulga; it occurs...</title>
                <date when="1878-10">1878-10</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,12 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dfe52d12-cc3f-4620-8a9b-ab8361322615">Acacia</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -74,11 +62,13 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -98,118 +88,129 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Dear Baron, ¶  ¶ I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O. ¶  to send larger specimens. ¶ No  ¶ 1 ¶ . is commonly known as Mulga; it occurs here as well as at...</supplied>
+               <supplied reason="XTF-compatibility">Dear Baron, ¶  ¶ I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O. ¶ Post Office. ¶  ¶ to send larger specimens. ¶ No ¶  ¶ 1 ¶ . is commonly known as Mulga; it occurs...</supplied>
             </head>
             <p rend="number" xml:lang="en">78.10.00</p>
             <p rend="correspondent" xml:lang="en">From George Day</p>
-            <p rend="location" xml:lang="en">RB MSS M114, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M114,<space unit="chars" quantity="1"/>Library, Royal Botanic Gardens<space unit="chars" quantity="1"/>Melbourne.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS annotation by M: 'Answd 18/10/78'. See M to G. Day, 18 October 1878.</p>
-               </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS found with a specimen of <seg style="font-style: italic; ">Prostanthera striatiflora</seg> (MEL<seg style="font-weight: bold; "> </seg>43743).</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS found with a specimen of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Prostanthera striatiflora</seg>
+                     <space unit="chars" quantity="1"/>(MEL<seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>43743).<space unit="chars" quantity="1"/>MS annotation by M: 'Answd 18/10/78', which provides the basis for dating this item to October 1878.</p>
                </note>Dear Baron,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Post Office.</p>
-               </note> to send larger specimens.</p>
+               <space dim="horizontal" extent="tab"/>I enclose 9 fragments of plants — to suit post only, as I am too far from any P. O.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Post Office.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to send larger specimens.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">No <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">No<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">1</hi>
                </seg>. is commonly known as Mulga; it occurs here as well as at Cobar Height 20 to 25 feet high</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">No <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">No<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">2</hi>
-               </seg>. An evergreen Perennial with glaucous aromatic leaves.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS annotation interlined by M: 'Prostanth striatiflora'.</p>
-               </note> height — 5 feet. Flowers — October.</p>
+               </seg>.<space unit="chars" quantity="1"/>An evergreen Perennial with glaucous aromatic leaves.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS annotation interlined by M: 'Prostanth striatiflora'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>height — 5 feet. Flowers — October.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Cobar &amp; here.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">—<seg style=""> </seg>
-               <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">—<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">3</hi>
-               </seg>. spreading shrub with aromatic leaves &amp; corymb[o]se yellow flowers, — September it blooms. 6 feet high</p>
+               </seg>.<space unit="chars" quantity="1"/>spreading shrub with aromatic leaves &amp; corymb[o]se yellow flowers, — September it blooms. 6 feet high</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Cobar only</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">4. shrub 5 feet high flowers about September — Cobar &amp; here</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">5. malvaceous plant 18 inches high; flowers — October. Cobar &amp; here.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">5.<space unit="chars" quantity="1"/>malvaceous plant 18 inches high; flowers — October. Cobar &amp; here.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">6. prickly Solanaceous plant height: — 4 feet. flowers October</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">6.<space unit="chars" quantity="1"/>prickly Solanaceous plant height: — 4 feet. flowers October</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Cobar &amp; here</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">7 — slender malvaceous plant height 8 inches — flowers October</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Cobar &amp; here</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">8 — narrow leaved <name key="Acacia">Acacia</name> (occurs) here height 6 feet. Flowers August.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">8 — narrow leaved Acacia (occurs) here height 6 feet. Flowers August.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">9 — Red flowered plant — myrtaceous perhaps. height 3 feet. flowers October. gathered 70 or 80 miles south of Cobar in a creek.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I now conclude, by having</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">the honor</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>To remain,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Dear Baron,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your humble</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>servant,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -218,37 +219,37 @@
                <space dim="horizontal" extent="tab"/>George P. Day</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">address</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Trida Station</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>near Mossgiel</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>New South Wales</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The next remission will include some plants from here.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">G. Day</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia">Acacia</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

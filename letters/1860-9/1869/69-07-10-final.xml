@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George. ¶ I hereby Covenant and promise, that in case I should hereafter be promo...</title>
+            <title>Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George. ¶ The text of the covenant, in an unknown hand, was sent to M as an enclo...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>National Archives, London, CO 447/11, Order of St Michael and St. George, 1869, Individuals, 10048.</msName>
+                  <msName>National Archives, London, CO447/11, Order of St Michael and St. George, 1869, Individuals, 10048.</msName>
                   <altIdentifier>
                      <idno>69.07.10</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George. ¶ I hereby Covenant and promise, that in case I should hereafter be promo...</title>
+               <title>Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George. ¶ The text of the covenant, in an unknown hand, was sent to M as an enclo...</title>
                <date when="1869-07-10">1869-07-10</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,53 +85,75 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George. ¶ I hereby Covenant and promise, that in case I should hereafter be promo...</supplied>
+               <supplied reason="XTF-compatibility">Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George. ¶ The text of the covenant, in an unknown hand, was sent to M as an enclo...</supplied>
             </head>
             <p rend="number" xml:lang="en">69.07.10</p>
             <p rend="correspondent" xml:lang="en">To Gordon Gairdner</p>
-            <p rend="location" xml:lang="en">National Archives, London, CO 447/11, Order of St Michael and St. George, 1869, Individuals, 10048.</p>
+            <p rend="location" xml:lang="en">National Archives, London, CO<space unit="chars" quantity="1"/>447/11, Order of St Michael and St. George, 1869, Individuals, 10048.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The text of the covenant, in an unknown hand, was sent to M as an enclosure to G. Gairdner to M, 26 April 1869. M inserted: 'Melbourne, Colony of Victoria', and 'tenth' and 'July', signed the form and added his qualifications. Rudall signed his name and added his qualifications. The form was returned, through the Governor of Victoria, as an enclosure to M to G. Gairdner, 13 July 1869 (in this edition as 69-07-13c).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Covenant for the restoration of the Insignia of a Companion of The Most Distinguished Order of Saint Michael and Saint George.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The text of the covenant, in an unknown hand, was sent to M as an enclosure to G. Gairdner to M, 26 April 1869. M inserted: 'Melbourne, Colony of Victoria', and 'tenth' and 'July', signed the form and added his qualifications. Rudall signed his name and added his qualifications.<space unit="chars" quantity="1"/>The form<space unit="chars" quantity="1"/>was returned, through the Governor of Victoria, as an enclosure to<space unit="chars" quantity="1"/>M to G. Gairdner, 13 July 1869<space unit="chars" quantity="1"/>(in this edition as 69-07-13c).</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">I hereby Covenant and promise, that in case I should hereafter be promoted, or cease to hold my rank and place in this Most distinguished Order, I will forthwith restore to the Secretary and Registrar all the Insignia thereof which I have now received from the Sovereign, or from the said Secretary and Registrar; and I further promise that I will, without delay, make provision for the due Restoration of the said Insignia by my Personal Representatives, in case I shall continue a Member of this Order until the Period of my decease.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>The badge was returned upon M's promotion to Knight Commander in the Order; see M to R. Herbert, 29 September 1879 (in this edition as <space unit="chars" quantity="1"/>79-09-29b).</seg>
-                  </p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">I hereby Covenant and promise, that in case I should hereafter be<space unit="chars" quantity="1"/>promoted, or cease to hold my rank<space unit="chars" quantity="1"/>and place in this Most distinguished Order, I will forthwith restore to the Secretary and Registrar all the Insignia thereof which I have now received from the Sovereign, or from the said Secretary and Registrar; and I further promise that I will, without delay, make provision for the due Restoration of the said Insignia by my Personal Representatives, in case I shall continue a Member of this Order until the Period of my decease.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">badge was</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>returned upon M's promotion to Knight Commander in the Order; see<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">M t</seg>
+                        <seg rend="DefaultParagraphFont" style="">o R. Herbert, 29 September 1879</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">(</seg>
+                        <seg rend="DefaultParagraphFont" style="">in this edition as<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">79-09-29b</seg>
+                        <seg rend="DefaultParagraphFont" style="">)</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Given under my hand at Melbourne, Colony of Victoria, this tenth day of July 1869</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Given under my hand at<space unit="chars" quantity="1"/>Melbourne, Colony of Victoria, this tenth day of July 1869</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Ph.D., M.D., F.R.S.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Witness</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">James T. Rudall</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Fellow of the Royal College</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">of Surgeons of England.</p>
          </div>
       </body>

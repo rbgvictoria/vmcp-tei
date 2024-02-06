@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,32 +93,46 @@
             <p rend="location" xml:lang="en">Letters of orders &amp;c, 1855-64, Adelaide Botanic Garden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr F. Müller</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Botanic Garden Adelaide</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">March 7 - 1857</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The Botanic Garden Committee are anxious to procure as complete a collection as possible of Australian plants, with this view, they request that you will take the trouble to furnish them with, or expend for them to the amount of the inclosed draft £10.10 for seeds and dried specimens of native plants the 10/- being for box and shipping charges. They have been told that seeds are about to be sent to them from the Botanic Garden Melbourne they have also ordered seeds of 120 species (5.0.0) from Mr Ferguson of Camden who wrote to say that a friend of his who paid especial attention to such matters would supply us with that quantity of good seeds — Such as we may hope you will favor us with, may purchance be in many respects, duplicate, that will be an objection that cannot be as I see avoided, yet the Committee and myself are very anxious for dried specimens generally and especially for those plants and the seeds of them which were fortunately discovered by you in your last arduous journey,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>North Australian Exploring Expedition, 1855-6?</p>
-               </note> I trust that you will be enabled to add many of these valuable things to our at present small collection — The money sent is but a trifle, but if you will please to let me know if you are capable of supplying to a larger amount, I am sure the committee will sanction a larger expenditure, and I shall have pleasure in writing again</p>
+               <space dim="horizontal" extent="tab"/>The Botanic Garden Committee are anxious to procure as complete a collection as possible of Australian plants, with this view, they request that you will take the trouble to furnish them with, or expend for them to the amount of the inclosed draft £10.10 for seeds and dried specimens of native plants the 10/- being for box and shipping charges. They have been told that seeds are about to be sent to them from the Botanic Garden Melbourne they have also ordered seeds of 120 species (5.0.0) from Mr Ferguson<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Francis Ferguson.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>of Camden who wrote to say that a friend of his who paid especial attention to such matters would supply us with that quantity of good seeds — Such as we may hope you will favor us with, may purchance be in many respects, duplicate, that will be an objection that cannot be as I see avoided, yet the Committee and myself are very anxious for dried specimens generally and especially for those plants and the seeds of them which were fortunately discovered by you in your last arduous journey,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>North Australian Exploring Expedition, 1855-6?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I trust that you will be enabled to add many of these valuable things to our at present small collection — The money sent is but a trifle, but if you will please to let me know if you are capable of supplying to a larger amount, I am sure the committee will sanction a larger expenditure, and I shall have pleasure in writing again</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Your obed Ser</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>G. W. F.</p>
          </div>

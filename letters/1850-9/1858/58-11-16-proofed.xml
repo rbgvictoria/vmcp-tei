@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller. ¶  The Austrian frigate had arrived in Sidney. ¶  Dr Mueller was ex...</title>
+            <title> ¶ [He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller. ¶ Prince Paul Wilhelm of Württemberg; see M to E. Fenzl, 14 Septemb...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -21,16 +21,13 @@
             <msDesc>
                <msIdentifier>
                   <altIdentifier>
-                     <idno>NB: Tom wrote: " I've not read it through properly nor tried to check the botanical names</idno>
-                  </altIdentifier>
-                  <altIdentifier>
                      <idno>58.11.16</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller. ¶  The Austrian frigate had arrived in Sidney. ¶  Dr Mueller was ex...</title>
+               <title> ¶ [He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller. ¶ Prince Paul Wilhelm of Württemberg; see M to E. Fenzl, 14 Septemb...</title>
                <date when="1858-11-16">1858-11-16</date>
             </bibl>
          </sourceDesc>
@@ -40,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,9 +54,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>tei-seg</term>
             </keywords>
             <keywords scheme="#validity">
@@ -78,8 +71,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="74">English</language>
-            <language ident="de" usage="26">German</language>
+            <language ident="en" usage="75">English</language>
+            <language ident="de" usage="25">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -92,105 +85,207 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller. ¶  The Austrian frigate had arrived in Sidney. ¶  Dr Mueller was ex...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller. ¶ Prince Paul Wilhelm of Württemberg; see M to E. Fenzl, 14 Septemb...</supplied>
             </head>
-            <p rend="number" xml:lang="de">
-               <seg style="color: #c00000; ">NB: Tom wrote: "</seg>
-               <seg style="color: #c00000; "> I've not read it through properly nor tried to check the botanical names</seg>
-            </p>
-            <p rend="number" xml:lang="de">
-               <seg style="">58.11.16</seg>
-            </p>
+            <p rend="number" xml:lang="de">58.11.16</p>
             <p rend="correspondent" xml:lang="de">To Wilhelm Sonder</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <seg style="">
+                     <seg rend="DefaultParagraphFont" style="">
                         <space dim="horizontal" extent="tab"/>
-                     </seg>Letter not found. The text given here is extracted from Tkach, Neubauer &amp; Roser (2022), Brief 33, W. Sonder to D. von Schlechtendal, 10 January 1859. The extract is introduced by 'Von Dr. F. Müller hatte ich gestern einen vom 16 Nov. datirten Brief.' [Yesterday I received a letter from Dr. F. Mueller, dated 16 November]</p>
+                     </seg>Letter not<space unit="chars" quantity="1"/>seen. The text given here is extracted from Tkach, Neubauer &amp; Roser (2022), Brief<space unit="chars" quantity="1"/>33,<space unit="chars" quantity="1"/>W. Sonder to D.<space unit="chars" quantity="1"/>von Schlechtendal,<space unit="chars" quantity="1"/>10 January 1859.<space unit="chars" quantity="1"/>The extract is introduced by 'Von Dr. F. Müller hatte ich gestern einen vom 16 Nov. datirten Brief' [Yesterday I received a letter from Dr. F. Mueller, dated 16 November].</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Er ist überaus beschäftigt mit seinem Garten. Der Prinz Paul Wilhelm war längere Zeit dort u verkehrte viel mit Dr. Müller. Die östreichische Fregatte war in Sidney angekommen. Dr. Müller erwartete sie in Melbourne. Es sollte gerade eine Kiste mit Drucksachen u Pflanzen für mich abgehen. — Ich sende Ihnen hierbei eine Doublette vom 2 Heft der Transact. der pharmac. Society; es ist darin ein Rhus beschrieben u wird es Sie vielleicht interessieren zu lesen, wie wenig die englischen Apotheken geneigt sind Reformen in der Pharmacie anzunehmen....</p>
+               <space dim="horizontal" extent="tab"/>[Er ist überaus beschäftigt mit seinem Garten. Der Prinz Paul Wilhelm war längere Zeit dort u verkehrte viel mit Dr. Müller. Die östreichische Fregatte war in Sidney angekommen. Dr. Müller erwartete sie in Melbourne. Es sollte gerade eine Kiste mit Drucksachen u Pflanzen für mich abgehen.<space unit="chars" quantity="1"/>—<space unit="chars" quantity="1"/>Ich sende Ihnen hierbei eine Doublette vom 2 Heft der Transact. der pharmac. Society; es ist darin ein Rhus beschrieben u wird es Sie vielleicht interessieren zu lesen, wie wenig die englischen Apotheken<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Apotheker?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>geneigt sind Reformen in der Pharmacie anzunehmen.....</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Dr. Müller schreibt, dass die Abdrucke der Rhamneen von Reisseck lange auf sich warten lassen.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>This text is from the penultimate paragraph of the letter, following a discussion of the contents of some of M's papers, see n. 7 below.</p>
-               </note>]</p>
+               <space dim="horizontal" extent="tab"/>Dr. Müller schreibt, dass die Abdrucke der Rhamneen von Reisseck lange auf sich warten lassen.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>This text is from the penultimate paragraph of the letter, following a discussion of the contents of some of M's papers, see n. 7 below.</p>
+                  </note>
+               </seg>]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>Prince Paul Wilhelm of Württemberg; see M to E. Fenzl, 14 September 1858.</p>
-               </note> The Austrian frigate had arrived in Sidney.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>An Austrian scientific expedition visited Australia and New Zealand in <seg rend="tei-seg" style="">
-                        <seg style="font-style: italic; ">Novara</seg>
-                     </seg>. See Scherzer (1861-2).</p>
-               </note> Dr Mueller was expecting her in Melbourne. A crate with printed matter and plants was about to leave for me. — I am sending you herewith a duplicate of the second part of the <seg style="font-style: italic; ">Transactions of the Pharmaceutical Society</seg>; a <seg style="font-style: italic; ">Rhus</seg> is described in it<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>
-                     <seg style="font-style: italic; ">Rhus rhodanthema</seg>, (B58.04.01, p. 43).</p>
-               </note> and it may interest you to read how little the English pharmacies are inclined to accept reforms in pharmacy.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="color: #c00000; font-size: 10pt; font-weight: bold; ">This is not available on line, so I can't gloss the comment "… </seg>
-                     <seg style="color: #c00000; font-weight: bold; ">how little the English pharmacies are inclined to accept reforms in pharmacy." It really should have a gloss. I assume it is in another part of the issue where M described the Rhus. Said to be at Monash University. I seem to remember that you checked some entries in Ms pubs list at <space unit="chars" quantity="1"/>School of Pharmacy site.</seg>
-                  </p>
-               </note>]<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Sonder then answers questions </seg>Schlechtendal had evidently asked <seg style="">about M publications</seg> previously received (German text at Tkach, Neubauer &amp; Roser (2022), p. 152):</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.6299in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">The Fragmenta phytographiae. Australasiae is a small independent work, I received the end of the first part via London a few days ago. Our copies of it will probably arrive with the next consignment of plants [<seg style="">B57.07.01: fascicle 3 of </seg>
-                     <seg style="font-style: italic; ">Fragmenta</seg>
-                     <seg style=""> was accompanied by a title page indicating that it completed vol. 1, but when issued as a bound volume (B60.02.04), vol. 1 comprised the first 10 fascicles; see Darragh &amp; Lucas (2015), pp. 303-4]. </seg>The Introduction of useful Plants into Victoria,<seg style="font-size: 9pt; "> </seg>[<seg style="">B58.05.02] </seg>as well as An historical Review of the Explorations of Australia [<seg style="">B58.05.03] </seg>are from the Transactions of the Philosophical Institute. Victoria Vol. II. Part II. I also received: Papers of the Royal Society of Tasmania 1857 p. 227. On Two alpine Eurybiae of the Australian Continent by Dr Ferd. Mueller. [<seg style="">B60.13.03: the paper is dated 'Botanic Gardens, Melbourne, January 1857' and was probably read at a meeting of the Society in February 1857; </seg>M evidently received page proofs before the volume was issued, and Sonder then lists the species described] On Australian &amp; Tasmanian Umbelliferous Plants by Dr. F. Müller [B<seg style="">60.13.02; Sonder summarizes the content and lists species discussed, and</seg> Schlechtendal published a lightly edited version of Sonder's summary in 'Literatur. Papers of the Royal Society of Tasmania. 1857', <seg style="font-style: italic; ">Botanische Zeitung, </seg>11 February 1859, p. 56, which also mentioned the <seg style="font-style: italic; ">Eurybia</seg> paper and listed the new species 'nach gütiger Mittheilung des Hrn. Dr. Sonder' [according to the friendly notification of Dr Sonder].</p>
-               </note> ...</p>
+               <space dim="horizontal" extent="tab"/>[He is extremely busy with his garden. Prince Paul Wilhelm was there for a long time and had many conversations with Dr. Mueller.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>Prince Paul Wilhelm of Württemberg; see M to E. Fenzl, 14 September 1858.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The Austrian frigate had arrived in Sidney.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">i.e. Sydney.<space unit="chars" quantity="1"/>
+                        </seg>An Austrian scientific expedition visited Australia and New Zealand in<space unit="chars" quantity="1"/>
+                        <seg rend="tei-seg" style="font-style: italic; ">Novara</seg>;<space unit="chars" quantity="1"/>see Scherzer (1861-2).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Dr Mueller was expecting her in Melbourne. A crate with printed matter and plants was about to leave for me.<space unit="chars" quantity="1"/>—<space unit="chars" quantity="1"/>I am sending you herewith a duplicate of the second part of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Transactions of the Pharmaceutical Society</seg>; a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Rhus</seg>
+               <space unit="chars" quantity="1"/>is described in it<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Rhus rhodanthema</seg>
+                        <space unit="chars" quantity="1"/>(B58.04.01, p. 43).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and it may interest you to read how little the English pharmacies<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>pharmacists?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>are inclined to accept reforms in pharmacy.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-weight: bold; color: #C00000; font-size: 10pt; ">This is not available on line, so I can't gloss the comment "…<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">how little the English pharmaci</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">ists</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>are inclined to accept reforms in pharmacy." It really should have a gloss. I assume it is in another part of the issue where M described the Rhus</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">. Said to be at Monash University</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">.</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>I<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">seem to remember that you checked some entries in Ms pubs list at<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>School of Pharmacy site.</seg>
+                     </p>
+                  </note>
+               </seg>]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Sonder then answers questions<space unit="chars" quantity="1"/>
+                        </seg>Schlechtendal<space unit="chars" quantity="1"/>had<space unit="chars" quantity="1"/>evidently<space unit="chars" quantity="1"/>asked<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">about M publications</seg>
+                        <space unit="chars" quantity="1"/>previously received<space unit="chars" quantity="1"/>(German text at<space unit="chars" quantity="1"/>Tkach, Neubauer &amp; Roser (2022),<space unit="chars" quantity="1"/>p. 152):</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.6298in; text-indent: 0in; "
+                        xml:lang="en">The Fragmenta phytographiae. Australasiae is a small independent work, I received the end of the first part via London a few days ago. Our copies of it will probably arrive with the next consignment of plants<space unit="chars" quantity="1"/>[<seg rend="DefaultParagraphFont" style="">B57.07.01</seg>
+                        <seg rend="DefaultParagraphFont" style="">:</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">f</seg>
+                        <seg rend="DefaultParagraphFont" style="">ascicle 3 of<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Fragmenta</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>was accompanied by a title page indicating that it completed vol</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>1, but when issued as a bound volume (B60.02.04)</seg>
+                        <seg rend="DefaultParagraphFont" style="">,</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>vol</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>1 comprised the first 10 fascicles</seg>
+                        <seg rend="DefaultParagraphFont" style="">;</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>see Darragh &amp; Lucas (2015), pp. 303-4]</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>The Introduction of useful Plants into Victoria,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>[<seg rend="DefaultParagraphFont" style="">B58.05.02]<space unit="chars" quantity="1"/>
+                        </seg>as well as An historical Review of the Explorations of Australia<space unit="chars" quantity="1"/>[<seg rend="DefaultParagraphFont" style="">B58.05.03]<space unit="chars" quantity="1"/>
+                        </seg>are from the Transactions of the Philosophical Institute. Victoria Vol. II. Part II. I also received: Papers of the Royal Society of Tasmania 1857 p. 227. On Two alpine Eurybiae of the Australian Continent by Dr Ferd. Mueller.<space unit="chars" quantity="1"/>[<seg rend="DefaultParagraphFont" style="">B60.13.03</seg>
+                        <seg rend="DefaultParagraphFont" style="">:</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>the paper is dated 'Botanic Gardens, Melbourne, January 1857' and was probably read at a meeting of the Society in February 1857</seg>
+                        <seg rend="DefaultParagraphFont" style="">;</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>M evidently received page proofs before the volume was issued, and<space unit="chars" quantity="1"/>Sonder then lists the species described]<space unit="chars" quantity="1"/>On Australian &amp; Tasmanian Umbelliferous Plants by Dr. F. Müller<space unit="chars" quantity="1"/>[B<seg rend="DefaultParagraphFont" style="">60.13.02</seg>
+                        <seg rend="DefaultParagraphFont" style="">; Sonder summari</seg>
+                        <seg rend="DefaultParagraphFont" style="">z</seg>
+                        <seg rend="DefaultParagraphFont" style="">es the content</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">and lists species discussed</seg>
+                        <seg rend="DefaultParagraphFont" style="">, and</seg>
+                        <space unit="chars" quantity="1"/>Schlechtendal<space unit="chars" quantity="1"/>published a lightly edited version of Sonder's summary in<space unit="chars" quantity="1"/>'Literatur. Papers of the Royal Society of Tasmania. 1857',<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Botanische Zeitung,</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>11 February 1859, p.<space unit="chars" quantity="1"/>56, which also<space unit="chars" quantity="1"/>mentioned the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eurybia</seg>
+                        <space unit="chars" quantity="1"/>paper and listed the new species<space unit="chars" quantity="1"/>'nach gütiger Mittheilung des Hrn. Dr. Sonder'<space unit="chars" quantity="1"/>[according to the friendly notification of Dr Sonder].</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>...</p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Dr Mueller writes that the reprints of Reisseck's Rhamneae are a long time coming.<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>This text is from the penultimate paragraph of the letter, and follows the discussion described in n. 7 above.</seg>
-                  </p>
-               </note>]</p>
+               <space dim="horizontal" extent="tab"/>Dr Mueller writes that the reprints of Reisseck's Rhamneae are a long time coming.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>This text is from the penultimate paragraph of the letter, and follows the discussion described in n. 7 above.</seg>
+                     </p>
+                  </note>
+               </seg>]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

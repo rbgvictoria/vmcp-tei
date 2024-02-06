@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>6/2/83. ¶  ¶ Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a Cuscuta, obtained by Mr Chr Giles some years ago near Lady Charlotte's Waters, ¶  and find it a ...</title>
+            <title>6/2/83. ¶  ¶ Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a Cuscuta, obtained by Mr Chr Giles ¶ Christopher Giles. ¶  ¶ some years ago near Lady Charlotte's...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>6/2/83. ¶  ¶ Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a Cuscuta, obtained by Mr Chr Giles some years ago near Lady Charlotte's Waters, ¶  and find it a ...</title>
+               <title>6/2/83. ¶  ¶ Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a Cuscuta, obtained by Mr Chr Giles ¶ Christopher Giles. ¶  ¶ some years ago near Lady Charlotte's...</title>
                <date when="1883-02-06">1883-02-06</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,18 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Arthropodium paniculatum</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8eca351a-55ed-473b-b827-6111c5efe90e">Hypoxis hygrometrica</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/64931e10-0c6c-40ea-b266-c9f8e46fd06b">Arthropodium minus</term>
-               <term>Hypoxis pratensis</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/cf9728e7-ea44-478f-ae3e-4e9144e17df2">Hypoxis glabella</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4bcc89f3-b884-4dfd-8d68-5e5ada03af81">Hypoxis vaginata</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/202a6814-3b0d-4fb7-bfad-be3ab938a5e7">Cuscuta</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -81,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
                <term>underline</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -104,105 +88,134 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">6/2/83. ¶  ¶ Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a Cuscuta, obtained by Mr Chr Giles some years ago near Lady Charlotte's Waters, ¶  and find it a ...</supplied>
+               <supplied reason="XTF-compatibility">6/2/83. ¶  ¶ Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a Cuscuta, obtained by Mr Chr Giles ¶ Christopher Giles. ¶  ¶ some years ago near Lady Charlotte's...</supplied>
             </head>
             <p rend="number" xml:lang="en">83.02.06</p>
             <p rend="correspondent" xml:lang="en">To Ralph Tate</p>
             <p rend="location" xml:lang="en">Barr Smith Library, University of Adelaide, SA.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">6/2/83.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a <name key="Cuscuta">Cuscuta</name>, obtained by Mr Chr Giles some years ago near Lady Charlotte's Waters,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Charlotte waterhole, SA?</p>
-               </note> and find it a 3- or 4-merous var. of C. australis. A similar form is known from S. Europe, not separate from the typical plant as a species; this was well shown by Engelmann.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See also M to G. Engelmann, 7 February 1883 (in this edition as 83-02-07a).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Only a few lines, dear Prof. Tate, to say, that I have critically and carefully examined a Cuscuta, obtained by Mr Chr Giles<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Christopher Giles.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>some years ago near Lady Charlotte's Waters,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>i.e.<space unit="chars" quantity="1"/>Charlotte waters, SA.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and find it a 3- or 4-merous var. of C. australis. A similar form is known from S. Europe, not separate from the typical plant as a species; this was well shown by Engelmann.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>A specimen was also sent with<space unit="chars" quantity="1"/>M to G. Engelmann, 7 February<space unit="chars" quantity="1"/>1883<space unit="chars" quantity="1"/>(in this edition as 83-02-07a).<space unit="chars" quantity="1"/>The reference is to Engelmann (1859), pp. 492-3.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">You may be quite right as regards the Hypoxides. I took the small one for the true H.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>
-                     <seg style="font-style: italic; ">Hypoxis</seg>
-                     <seg style="">.</seg>
-                  </p>
-               </note> glabella, because RBr. says of it in the prodromus expressly "scapo medio <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">You may be quite right as regards the Hypoxides. I took the small one for the true H.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Hypoxis</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>glabella, because RBr. says of it in the prodromus expressly "scapo medio<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">bi</hi>
-               </seg>bracteolato".<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>R. Brown (1810), p. 289.</p>
-               </note> Hence Schlechtendal in 1846 took the larger plant of Dr Behrs collection from Tanunda as a new species, and named it H. vaginata, and in this way I disposed of both for years, til I thought it was best to unite the two, just as I joined H. pratensis to H hygrometrica.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>Both unifications in B67.12.01, p.96.</p>
-               </note> A crucial test for the validity would be the examination of the <seg style="">
+               </seg>bracteolato".<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>R.<space unit="chars" quantity="1"/>Brown (1810), p. 289.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Hence Schlechtendal in 1846 took the larger plant of Dr Behrs collection from Tanunda as a new species, and named it H. vaginata, and in this way I disposed of both for years, til I thought it was best to unite the two, just as I joined H. pratensis to H hygrometrica.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>Both unifications in B67.12.01, p.96.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>A crucial test for the validity would be the examination of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">ripe seeds</hi>
-               </seg>. We have a similar case with <name key="Arthropodium%20minus">Arthropodium minus</name> &amp; A. paniculatum.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>For discussion, see B70.1.01, pp. 66-7.</p>
-               </note>
+               </seg>. We have a similar case with Arthropodium minus &amp; A. paniculatum.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>For discussion, see<space unit="chars" quantity="1"/>B70.1.01, pp. 66-7.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Arthropodium%20minus">Arthropodium minus</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Arthropodium%20paniculatum">Arthropodium paniculatum</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cuscuta">Cuscuta</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hypoxis%20glabella">Hypoxis glabella</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hypoxis%20hygrometrica">Hypoxis hygrometrica</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hypoxis%20pratensis">Hypoxis pratensis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hypoxis%20vaginata">Hypoxis vaginata</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Arthropodium<space unit="chars" quantity="1"/>minus</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Arthropodium<space unit="chars" quantity="1"/>paniculatum</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cuscuta</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hypoxis<space unit="chars" quantity="1"/>glabella</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hypoxis<space unit="chars" quantity="1"/>hygrometrica</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hypoxis<space unit="chars" quantity="1"/>pratensis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hypoxis<space unit="chars" quantity="1"/>vaginata</p>
          </div>
       </body>
    </text>

@@ -38,9 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,20 +90,37 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Leichhardt Search Committee', <seg style="font-style: italic; ">Perth gazette and West Australian times</seg>, 24 September 1869, p. 3 (B69.09.02). It is introduced by 'EXTRACT from a letter from Professor Mueller to the Hon. the Colonial Secretary, dated September 7th, 1869.' </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Leichhardt Search Committee',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Perth gazette and West Australian times</seg>, 24 September 1869, p. 3 (B69.09.02). It is introduced by 'EXTRACT from a letter from Professor Mueller to the Hon. the Colonial Secretary, dated September 7th, 1869.'<space unit="chars" quantity="1"/>
+                  </p>
                </note>
-               <space dim="horizontal" extent="tab"/>The ladies of the Leichhardt Search Committee held a meeting today, and begged of me to convey to the Government of Western Australia their grateful appreciation of the aid and sympathy which prompted you and your hon. colleagues to send out the last expedition; and the ladies further wish to express to Mr. Forrest and the members of his party their best thanks for the courage and zeal displayed in the enterprise.</p>
+               <space dim="horizontal" extent="tab"/>The ladies of the Leichhardt Search Committee held a meeting today, and begged of me to convey to the Government of Western Australia their grateful appreciation of the aid and sympathy which prompted you and your hon.<space unit="chars" quantity="1"/>colleagues<space unit="chars" quantity="1"/>to send out the last expedition; and the ladies<space unit="chars" quantity="1"/>further wish to express to Mr. Forrest<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>John Forrest.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and the members of his party their best thanks for the courage and<space unit="chars" quantity="1"/>zeal displayed in the enterprise.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I believe, if the sum asked to send Mr. Forrest out again from the sources of the River Murchison towards Carpentaria, from March till September, 1870, was not <seg style="font-style: italic; ">too</seg> large, I hope to be able to raise it. Some collateral facilities, involving no direct expense, for fitting out a light party, would doubtless be afforded by your generous government. How important it would be to Western Australia if your settlement could be connected with an easy route to Carpentaria, as an immense extent of country of your colony would at once be stocked by the eastern squatters. The new search-line would, however, if possible be to the waters <seg style="font-style: italic; ">south</seg> of the dividing country of Carpentaria.</p>
+               <space dim="horizontal" extent="tab"/>I believe, if the sum asked to send Mr. Forrest out again from the sources of the River Murchison towards Carpentaria, from March till September, 1870, was not<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">too</seg>
+               <space unit="chars" quantity="1"/>large, I hope to be able to raise it. Some collateral facilities,<space unit="chars" quantity="1"/>involving no direct expense, for fitting out a light party,<space unit="chars" quantity="1"/>would doubtless be afforded by your generous government. How important it would be to Western Australia if your settlement could be connected with an easy route to Carpentaria, as an immense extent of country of your colony would at once be stocked by the eastern squatters. The new search-line would, however, if possible be to the waters<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">south</seg>
+               <space unit="chars" quantity="1"/>of the dividing country of Carpentaria.</p>
          </div>
       </body>
    </text>

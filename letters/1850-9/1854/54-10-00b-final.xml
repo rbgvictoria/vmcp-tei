@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ ]...</title>
+            <title>[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ M departed on his new expedition on 1 November 1854; see M to J. Foster, 31 October 1854....</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ ]...</title>
+               <title>[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ M departed on his new expedition on 1 November 1854; see M to J. Foster, 31 October 1854....</title>
                <date when="1854-10">1854-10</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,8 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -88,34 +83,36 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ ]...</supplied>
+               <supplied reason="XTF-compatibility">[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains. ¶ M departed on his new expedition on 1 November 1854; see M to J. Foster, 31 October 1854....</supplied>
             </head>
             <p rend="number" xml:lang="de">54.10.00b</p>
             <p rend="correspondent" xml:lang="de">To Wilhelm Sonder</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here is extracted from the image of Brief 25 in Tkach, Neubauer &amp; Roser (2022), pp.145-6, W. Sonder to D. von Schlechtendal, 1 January 1855. Among other things, Sonder's letter discusses the progress of Plantae Muellerianae, especially a new consignment of mosses that he hopes Hampe and Carl Müller will again deal with; done in Hampe (1856).</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-size: 13pt; ">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>Sonder also requested a catalogue from an antiquarian bookseller as 'ich soll für Dr. Müller verschiedene auf die Flora Australiens bezügliche Werke besorgen" <space unit="chars" quantity="1"/>[I am supposed to procure for Dr Mueller various works relating to the flora of Australia].</p>
+                     <space dim="horizontal" extent="tab"/>Letter not<space unit="chars" quantity="1"/>seen. The text given here is<space unit="chars" quantity="1"/>extracted<space unit="chars" quantity="1"/>from<space unit="chars" quantity="1"/>the image of Brief 25 in<space unit="chars" quantity="1"/>Tkach, Neubauer &amp; Roser (2022),<space unit="chars" quantity="1"/>pp.145-6, W.<space unit="chars" quantity="1"/>Sonder to D. von Schlechtendal, 1 January 1855.<space unit="chars" quantity="1"/>Among other things, Sonder's<space unit="chars" quantity="1"/>letter discusses the progress of Plantae Muellerianae, especially<space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>new<space unit="chars" quantity="1"/>consignment of<space unit="chars" quantity="1"/>mosses that he hopes Hampe and Carl Müller will again deal with;<space unit="chars" quantity="1"/>done<space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>Hampe (1856).</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Sonder also requested a catalogue from an antiquarian bookseller as 'ich soll für Dr. Müller verschiedene auf die Flora Australiens bezügliche Werke besorgen"<space unit="chars" quantity="2"/>[I am supposed to procure for Dr Mueller various works relating to the flora of Australia].</p>
                </note>[Dr. Müller schrieb mir Ende Oktober, dass er im Begriffe sei, eine neue Reise in die Gebirge anzutreten.]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M departed on his new expedition on 1 November 1854; see M to J. Foster, 31 October 1854.</p>
-               </note>]</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">[Dr Mueller wrote to me at the end of October that he was about to embark on a new journey to the mountains.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M departed on his new expedition on 1 November 1854; see M to J. Foster, 31 October 1854.</p>
+                  </note>
+               </seg>]</p>
          </div>
       </body>
    </text>

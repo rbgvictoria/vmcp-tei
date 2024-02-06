@@ -38,9 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>FootnoteReference</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -95,56 +91,86 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is extracted from Tkach, Neubauer &amp; Roser (2022), Brief 24, W. Sonder to D. von Schlechtendal, 7 December 1854.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not<space unit="chars" quantity="1"/>seen. The text given here is extracted from Tkach, Neubauer &amp; Roser (2022), Brief 24, W. Sonder to D.<space unit="chars" quantity="1"/>von Schlechtendal, 7 December 1854.</p>
                </note>[In folge eines gestern von Dr. Müller erhaltenen Briefes sende ich Ihnen heute die Bearbeitung der zuletzt gesandten Laubmoose. Müller schreib mir, dass von einem Engländer neuseel. und neuholländische Laubmoose beschrieben wurden; damit nun nicht die Müller’schen die Autorität verlieren, sende ich sie lieber jetzt ab u lasse die Algen, die vielleicht noch 3 Wochen Arbeit erfordern, vorläufig zurück. Ich möchte Sie bitten, den Druck möglichst zu beschleunigen und nach Vollendung derselben mir wieder die gewöhnliche Anzahl von Abdrucken zukommen zu lassen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">…</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Der neuholländische Dr. Müller hat sich sehr über die rasche Bearbeitung der Moose gefreut, er schreibt, dass er emsig nach Laubmoosen suchen werde. Nach seinem am 23. Sept geschriebenen Briefe wollte er nach ca 6 Wochen eine neue Reise in die Alpen unternehmen; sein Bericht über die letzte Reise war in Arbeit. Eine oder zwei Kisten mit Pflanzen sind wieder unterwegs; wegen des Abfalls u der Sämereien werde ich Ihren Wunsch berücksichtigen. Harvey war mehrere Tage bei ihm gewesen, sie haben schöne Algen zusammen gesammelt.]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">[In consequence of a letter received yesterday from Dr Mueller, I am sending you today the treatment of the mosses last sent. Mueller wrote me that an Englishman would describe New Zealand and New Holland mosses. Now, so that Mueller’s ones do not lose their authority,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>The 'Englishman' is presumably the solicitor William Wilson (1799-1871) (see TL2) who described the mosses for J. D. Hooker's reports of the <seg style="font-style: italic; ">Botany of the Antarctic voyage</seg>, the New Zealand species in W. Wilson (1855) and the Australian in W. Wilson (1860). At least some of the species listed or described in Hampe (1852a) and Hampe (1855) were cited in Wilson (1860), e.g. on p. 186 and p. 190.</p>
-               </note> I prefer to send them off and for the time being leave the algae, which will perhaps require another three weeks of work.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Sonder had previously been holding the account of the mosses until he finished his treatment of the algae; see W. Sonder to D. von Schlechtendal, 10 September 1854 (in <seg style="">Tkach, Neubauer &amp; Roser (2022), Brief 23).</seg>
-                  </p>
-               </note> I would like to ask you to hasten the printing as much as possible and after completion to have the usual number of reprints sent to me.</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">[In consequence of a letter received yesterday from Dr Mueller, I am sending you today the treatment of the mosses last sent. Mueller wrote me that an Englishman would describe New Zealand and New Holland mosses. Now,<space unit="chars" quantity="1"/>so that Mueller’s ones do not lose their authority,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The 'Englishman'<space unit="chars" quantity="1"/>is<space unit="chars" quantity="1"/>presumably<space unit="chars" quantity="1"/>the solicitor<space unit="chars" quantity="1"/>William Wilson<space unit="chars" quantity="1"/>(1799-1871)<space unit="chars" quantity="1"/>(see TL2)<space unit="chars" quantity="1"/>who described the mosses for J. D. Hooker's reports of the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Botany of the Antarctic voyage</seg>,<space unit="chars" quantity="1"/>the New Zealand species in W. Wilson (1855) and the Australian in W. Wilson (1860). At least some of the species listed or described in Hampe (1852a) and Hampe (1855) were cited in Wilson (1860), e.g.<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>p. 186<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>p.<space unit="chars" quantity="1"/>190.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I prefer to send them off and for the time being leave the algae, which will perhaps require another three weeks of work.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Sonder had previously been holding the account of the mosses until he finished his treatment of the algae; see W. Sonder to D. von Schlechtendal, 10 September 1854<space unit="chars" quantity="1"/>(in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">Tkach, Neubauer &amp; Roser (2022), Brief<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">23).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I would like to ask you to hasten the printing as much as possible and after completion to have the usual number of reprints sent to me.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">…</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">…<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Text not relevant to M omitted.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">The New Holland Dr Mueller<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>'New Holland' to distinguish M from Carl Müller who was assisting Hampe and was mentioned earlier in Sonder's letter to von Schlechtendal.</p>
-               </note> was very pleased about the rapid working up of the mosses. He writes that he will search diligently for mosses. According to his letter written on 23 Sept, he intends to undertake a new journey to the Alps after about 6 weeks;<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M left on his new expedition on 1 November; see M to J. Foster, 31 October 1854.</p>
-               </note> his report on the last journey<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B54.10.01.</p>
-               </note> was in progress. One or two boxes with plants are on their way again; I will take your wish into consideration on account of the waste and the seeds. Harvey had been with him for several days; they have collected beautiful algae together.]</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">The New Holland Dr Mueller<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>'New Holland' to distinguish M from Carl Müller<space unit="chars" quantity="1"/>who was<space unit="chars" quantity="1"/>assisting Hampe<space unit="chars" quantity="1"/>and was<space unit="chars" quantity="1"/>mentioned earlier in Sonder's letter to<space unit="chars" quantity="1"/>von Schlechtendal.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>was very pleased about the rapid working up of the mosses. He writes that he will search diligently for mosses.<space unit="chars" quantity="1"/>According to his letter written on 23 Sept, he intends to undertake a new journey to the Alps after about 6 weeks;<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M<space unit="chars" quantity="1"/>left on his new expedition on 1 November; see M to J. Foster, 31 October 1854.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>his report on the last journey<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B54.10.01.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>was in progress. One or two boxes with plants<space unit="chars" quantity="1"/>are on their way again; I will take your wish into consideration on account of the waste and the seeds. Harvey had been with him for several days; they have collected beautiful algae together.]</p>
          </div>
       </body>
    </text>

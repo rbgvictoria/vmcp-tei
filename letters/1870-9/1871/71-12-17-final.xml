@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dec 17 /71 ¶ Dear Von Mueller ¶  ¶ I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as  ¶ Seaforthia eleg...</title>
+            <title>Dec 17 /71 ¶ Dear Von Mueller ¶  ¶ I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as ¶  ¶ Seaforthia el...</title>
             <author>Joseph Hooker</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Joseph Hooker</author>
-               <title>Dec 17 /71 ¶ Dear Von Mueller ¶  ¶ I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as  ¶ Seaforthia eleg...</title>
+               <title>Dec 17 /71 ¶ Dear Von Mueller ¶  ¶ I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as ¶  ¶ Seaforthia el...</title>
                <date when="1871-12-17">1871-12-17</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,17 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Macrozamia Macleayi</term>
-               <term>Seaforthia elegans</term>
-               <term>Corypha australis</term>
-               <term>Corypha humilis</term>
-               <term>Ptychosperma</term>
-               <term>Macrozamia</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -79,10 +62,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -102,127 +87,151 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Dec 17 /71 ¶ Dear Von Mueller ¶  ¶ I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as  ¶ Seaforthia eleg...</supplied>
+               <supplied reason="XTF-compatibility">Dec 17 /71 ¶ Dear Von Mueller ¶  ¶ I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as ¶  ¶ Seaforthia el...</supplied>
             </head>
             <p rend="number" xml:lang="en">71.12.17</p>
             <p rend="correspondent" xml:lang="en">From Joseph Hooker</p>
-            <p rend="location" xml:lang="en">RB MSS M3a, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M3a, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
                      <space dim="horizontal" extent="tab"/>MS extracted at some stage from the collections at MEL but without recording the provenance. MS embossed with crest of Royal Gardens Kew.</p>
                </note>Dec 17 /71</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Von Mueller</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as <seg style="">
-                  <hi rend="underline">
-                     <name key="Seaforthia%20elegans">Seaforthia elegans</name>
-                  </hi>
-               </seg>,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>W. Hooker (1827-64), vol. 93, t. 4961.</p>
-               </note> &amp; which has long been grown &amp; known at Kew under that name, to which Brown<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Robert Brown (1773-1858).</p>
-               </note> assented. Cunningham sent it some 30 years ago. Wendland however according to Seemann, says that it has nothing to do with <seg style="">
-                  <hi rend="underline">
-                     <name key="Seaforthia%20elegans">Seaforthia elegans</name>
-                  </hi>
-               </seg> but is a <seg style="">
-                  <hi rend="underline">
-                     <name key="Ptychosperma">Ptychosperma</name>
-                  </hi>
+               <space dim="horizontal" extent="tab"/>I have often tried to identify our Australian Palms, but hitherto in vain. Will you tell me what the Palm figured in Botanical Magazine t. 4961 as<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Seaforthia elegans</hi>
+               </seg>,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>W. Hooker (1827-64), vol. 93, t. 4961.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp; which has long been grown &amp; known at Kew under that name, to which Brown<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Robert Brown (1773-1858).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>assented. Cunningham sent it some 30 years ago. Wendland however according to Seemann, says that it has nothing to do with<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Seaforthia elegans</hi>
+               </seg>
+               <space unit="chars" quantity="1"/>but is a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Ptychosperma</hi>
                </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In your Enumeration of Australian Palms Fragmenta V. 49.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B67.07.03, p. 49.</p>
-               </note>
-            </p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <seg style="">
-                  <space unit="chars" quantity="1"/>
-               </seg>you do not include the Coryphas — we have two which I have named <seg style="">
+               <space dim="horizontal" extent="tab"/>In your Enumeration of Australian Palms Fragmenta V. 49.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B65.07.03, p. 49.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>you do not include the Coryphas — we have two which I have named<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">australis</hi>
-               </seg> &amp; <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>&amp;<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">humilis</hi>
                </seg>.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Bull<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Almost certainly the nurseryman William Bull (1828-1902), who was awarded a 'Botanical Certificate of Merit' for a <seg style="font-style: italic; ">
-                        <name key="Macrozamia">Macrozamia</name>
-                     </seg> exhibited at the Royal Botanic Society summer exhibition, June 1871 (<seg style="font-style: italic; ">Gardeners' chronicle and agricultural gazette</seg>, 17 June 1871, p. 768).</p>
-               </note> has just sent me a splendid <seg style="">
-                  <hi rend="underline">
-                     <name key="Macrozamia">Macrozamia</name>
-                  </hi>
-               </seg> near your description of M. Macleayi<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-style: italic; ">
-                        <name key="Macrozamia">Macrozamia</name> macleayi</seg> was described in Miquel (1868), p. 250; it has been treated as a synonym of M's <seg style="font-style: italic; ">Encephalartos miquelii</seg> ( B62.05.01, p. 38), which was transferred to <seg style="font-style: italic; ">
-                        <name key="Macrozamia">Macrozamia</name>
-                     </seg> in A. de Candolle (1868), pp. 535-36, but it is possible that Hooker had misremembered the author of <seg style="font-style: italic; ">M. macleayi</seg>.</p>
-               </note> but frond very rigid<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Text ends, seemingly in mid-sentence, at bottom of page without valediction; it appears to be one half of a folded sheet from which the other half has been torn off.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Bull<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Almost certainly the nurseryman William Bull<space unit="chars" quantity="1"/>(1828-1902), who was awarded a 'Botanical Certificate of Merit' for a<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Macrozamia</seg>
+                        <space unit="chars" quantity="1"/>exhibited at the Royal Botanic Society summer exhibition, June 1871 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Gardeners'<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">c</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">hronicle and<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">a</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">gricultural<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">g</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">azette</seg>, 17 June 1871, p. 768).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>has just sent me a splendid<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Macrozamia</hi>
+               </seg>
+               <space unit="chars" quantity="1"/>near your description of M. Macleayi<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Macrozamia macleayi</seg>
+                        <space unit="chars" quantity="1"/>was described in<space unit="chars" quantity="1"/>Miquel<space unit="chars" quantity="1"/>(1868), p. 250; it has been treated as a synonym of M's<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Encephalartos miquelii</seg>
+                        <space unit="chars" quantity="1"/>( B62.05.01, p. 38), which was transferred to<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Macrozamia</seg>
+                        <space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>A. de Candolle<space unit="chars" quantity="1"/>(1868), pp. 535-36, but it is<space unit="chars" quantity="1"/>possible<space unit="chars" quantity="1"/>that Hooker had misremembered the author of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">M. macleayi</seg>.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>but frond very rigid<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Text ends, seemingly<space unit="chars" quantity="1"/>in mid-sentence,<space unit="chars" quantity="1"/>at<space unit="chars" quantity="1"/>bottom of<space unit="chars" quantity="1"/>page without valediction; it appears<space unit="chars" quantity="1"/>to be one<space unit="chars" quantity="1"/>half of a folded sheet<space unit="chars" quantity="1"/>from which the other half<space unit="chars" quantity="1"/>has been torn off.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Corypha%20australis">Corypha australis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Corypha%20humilis">Corypha humilis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Macrozamia">Macrozamia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Macrozamia%20Macleayi">Macrozamia Macleayi</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Ptychosperma">Ptychosperma</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Seaforthia%20elegans">Seaforthia elegans</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Corypha australis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Corypha humilis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Macrozamia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Macrozamia Macleayi</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Ptychosperma</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Seaforthia elegans</p>
          </div>
       </body>
    </text>

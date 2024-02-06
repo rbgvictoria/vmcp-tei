@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ Cuttsia viburnea? F.v.M. ¶  ¶  ¶  ¶ Saxifrageae ¶  ¶ Flowers from Tallebudgera ¶  ¶ Capsules from Coochin ¶  ¶ I doubt the idendity of the plant from which I gathered the flowers and capsules. It l...</title>
+            <title>164 ¶ Cuttsia viburnea? F.v.M. ¶  ¶  ¶  ¶ Saxifrageae ¶  ¶ Flowers from Tallebudgera ¶ Southeastern Qld. ¶  ¶ Capsules from Coochin ¶ Qld....</title>
             <author>Benedetto Scortechini</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Benedetto Scortechini</author>
-               <title> ¶ Cuttsia viburnea? F.v.M. ¶  ¶  ¶  ¶ Saxifrageae ¶  ¶ Flowers from Tallebudgera ¶  ¶ Capsules from Coochin ¶  ¶ I doubt the idendity of the plant from which I gathered the flowers and capsules. It l...</title>
+               <title>164 ¶ Cuttsia viburnea? F.v.M. ¶  ¶  ¶  ¶ Saxifrageae ¶  ¶ Flowers from Tallebudgera ¶ Southeastern Qld. ¶  ¶ Capsules from Coochin ¶ Qld....</title>
                <date when="1881">1881</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,13 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Cuttsia viburnea</term>
-               <term>Saxifrageae</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,9 +62,11 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -97,71 +86,86 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ Cuttsia viburnea? F.v.M. ¶  ¶  ¶  ¶ Saxifrageae ¶  ¶ Flowers from Tallebudgera ¶  ¶ Capsules from Coochin ¶  ¶ I doubt the idendity of the plant from which I gathered the flowers and capsules. It l...</supplied>
+               <supplied reason="XTF-compatibility">164 ¶ Cuttsia viburnea? F.v.M. ¶  ¶  ¶  ¶ Saxifrageae ¶  ¶ Flowers from Tallebudgera ¶ Southeastern Qld. ¶  ¶ Capsules from Coochin ¶ Qld....</supplied>
             </head>
             <p rend="number" xml:lang="en">81.00.00d</p>
             <p rend="correspondent" xml:lang="en">From Benedetto Scortechini</p>
-            <p rend="location" xml:lang="en">RB MSS M127, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M127, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS found with a specimen of <seg style="font-style: italic; ">
-                        <name key="Cuttsia%20viburnea">Cuttsia viburnea</name>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS found with a specimen of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cuttsia viburnea<space unit="chars" quantity="1"/>
                      </seg>(MEL 2235712). MS annotation on reverse: '1881 Scoterchini'. The letter's handwriting is similar to that of known specimens of Scortechini's handwriting.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>
-               <name key="Cuttsia%20viburnea">Cuttsia viburnea</name>? F.v.M.</p>
+               </note>164</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Cuttsia viburnea? F.v.M.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>
-               <name key="Saxifrageae">Saxifrageae</name>
+               <space dim="horizontal" extent="tab"/>Saxifrageae</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Flowers from Tallebudgera<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Southeastern Qld.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Flowers from Tallebudgera<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Southeastern Qld.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Capsules from Coochin<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Qld.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Capsules from Coochin<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Qld.</p>
-               </note>
-            </p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I doubt the idendity of the plant from which I gathered the flowers and capsules. It looks much the same; I gathered the capsules long ago, the flowers only lately in two far apart localities. I have no access to your description in the V vol. of the Frag:<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B65.07.03, p. 47.</p>
-               </note> from the generic description in the Genera Plantarum<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Bentham &amp; Hooker (1862-83), vol. 1, p. 1004.</p>
-               </note> I am inclined to think that the present specimen is a Cuttsia.</p>
+               <space dim="horizontal" extent="tab"/>I doubt the idendity of the plant from which I gathered the flowers and capsules. It looks much the same; I gathered the capsules long ago, the flowers only lately in two far apart localities. I have no access to your description in the V vol. of the Frag:<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B65.07.03, p. 47.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>from the generic description in the Genera Plantarum<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Bentham &amp; Hooker (1862-83), vol. 1, p. 1004.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I am inclined to think that the present specimen is a Cuttsia.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cuttsia%20viburnea">Cuttsia viburnea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Saxifrageae">Saxifrageae</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cuttsia viburnea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Saxifrageae</p>
          </div>
       </body>
    </text>

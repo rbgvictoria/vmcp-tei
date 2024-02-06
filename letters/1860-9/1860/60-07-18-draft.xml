@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>18 July 1860 ¶  ¶ [Walk, Royal Socy Ground]...</title>
+            <title>See fn 3: There are many notes like this, that make the fn 1 note ‘letter not found’ seem a bit odd. I have assumed that the cross reference is to another register entry, rather than to a complete let...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>18 July 1860 ¶  ¶ [Walk, Royal Socy Ground]...</title>
+               <title>See fn 3: There are many notes like this, that make the fn 1 note ‘letter not found’ seem a bit odd. I have assumed that the cross reference is to another register entry, rather than to a complete let...</title>
                <date when="1860-07-18">1860-07-18</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,19 +55,18 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
-               <term>Progress note</term>
+               <term>Progressnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -90,41 +86,52 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">18 July 1860 ¶  ¶ [Walk, Royal Socy Ground]...</supplied>
+               <supplied reason="XTF-compatibility">See fn 3: There are many notes like this, that make the fn 1 note ‘letter not found’ seem a bit odd. I have assumed that the cross reference is to another register entry, rather than to a complete let...</supplied>
             </head>
-            <p rend="Progress%20note"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
-               xml:lang="en">See fn 3: There are many notes like this, that make the fn 1 note ‘letter not found’ seem a bit odd. I have assumed that the cross reference is to another register entry, rather than to a complete letter, but it strikes me now that if that was the case, then the note would/should have said so, So, whose letter / memo is in VPRS 226/P1, PROV?</p>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; color: #0000FF; hyphenate: false; break-before: page; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">or reel 5? check at PRO.</seg>
+                  </p>
+               </note>
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of an item dated 18 July 1860.</p>
+               </note>See fn 3: There are many notes like this, that make the fn 1 note ‘letter not found’ seem a bit odd. I have assumed that the cross reference is to another register entry, rather than to a complete letter, but it strikes me now that if that was the case, then the note would/should have said so, So, whose letter / memo is in VPRS 226/P1, PROV?</p>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; hyphenate: false; color: #C00000; "
+               xml:lang="en">It strikes me now (2024-01-18) that this might be a paraphrase of, perhaps, the folder cover<space unit="chars" quantity="1"/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="number" xml:lang="en">60.07.18</p>
             <p rend="correspondent" xml:lang="en">To James Service</p>
-            <p rend="location" xml:lang="en">No. 4155, unit 5, VPRS 227/P1 inward correspondence register, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">No. 4155, unit 5<seg rend="FootnoteReference" style="font-size: 8pt; "/>, VPRS 227/P1 inward correspondence register, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">or reel 5? check at PRO.</seg>
-                  </p>
-               </note>18 July 1860</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[Walk, Royal Socy Ground]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">check that this is the text from the register. </seg>M requested permission to form a Walk through the ground of the Royal Society using quarry pebbles (VPRS 226/P1, PROV).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[Walk, Royal Socy Ground]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">check that this is the text from the register.<space unit="chars" quantity="1"/>
+                        </seg>M requested permission to form a Walk through the ground of the Royal Society using quarry pebbles (VPRS 226/P1, PROV).</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">We have no reord of such a request.<space unit="chars" quantity="1"/>It seems as if there should be at least a blind entry for that request. Or<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

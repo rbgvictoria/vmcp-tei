@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne ¶ Newyears day 1874. ¶  ¶ Your kind letter, dear Dr Hooker, dated 25 Oct., ¶  I have duely received. The case with Scitamineae, Haemodoraceae &amp;c has also arrived, and quite well preserved as...</title>
+            <title>Melbourne ¶ Newyears day 1874. ¶  ¶ Your kind letter, dear Dr Hooker, dated 25 Oct., ¶ Letter not found. ¶  ¶ I have duely received. The case with Scitamineae, Haemodoraceae &amp;c has also arrived, and q...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne ¶ Newyears day 1874. ¶  ¶ Your kind letter, dear Dr Hooker, dated 25 Oct., ¶  I have duely received. The case with Scitamineae, Haemodoraceae &amp;c has also arrived, and quite well preserved as...</title>
+               <title>Melbourne ¶ Newyears day 1874. ¶  ¶ Your kind letter, dear Dr Hooker, dated 25 Oct., ¶ Letter not found. ¶  ¶ I have duely received. The case with Scitamineae, Haemodoraceae &amp;c has also arrived, and q...</title>
                <date when="1874-01-01">1874-01-01</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,14 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Xanthorrhoea quadrangulata</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4092fc17-9109-4eb9-9cab-9ba40ae87eba">Haemodoraceae</term>
-               <term>Scitamineae</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -77,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -100,115 +88,151 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne ¶ Newyears day 1874. ¶  ¶ Your kind letter, dear Dr Hooker, dated 25 Oct., ¶  I have duely received. The case with Scitamineae, Haemodoraceae &amp;c has also arrived, and quite well preserved as...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne ¶ Newyears day 1874. ¶  ¶ Your kind letter, dear Dr Hooker, dated 25 Oct., ¶ Letter not found. ¶  ¶ I have duely received. The case with Scitamineae, Haemodoraceae &amp;c has also arrived, and q...</supplied>
             </head>
             <p rend="number" xml:lang="en">74.01.01a</p>
             <p rend="correspondent" xml:lang="en">To Joseph Hooker</p>
             <p rend="location" xml:lang="en">RBG Kew, Kew correspondence, Australia, Mueller, 1871-81, ff. 135-6.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Newyears day 1874.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Your kind letter, dear Dr Hooker, dated 25 Oct.,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> I have duely received. The case with <name key="Scitamineae">Scitamineae</name>, <name key="Haemodoraceae">Haemodoraceae</name> &amp;c has also arrived, and quite well preserved as regards its contents. I am glad that <name key="Xanthorrhoea%20quadrangulata">Xanthorrhoea quadrangulata</name> has at last found its way in a living state to you. It grows only a few miles from Adelaide on a macadamized road. So the sending from there can be most easily effected.</p>
+               <space dim="horizontal" extent="tab"/>Your kind letter, dear Dr Hooker, dated 25 Oct.,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have duely received. The case with Scitamineae, Haemodoraceae &amp;c has also arrived, and quite well preserved as regards its contents. I am glad that Xanthorrhoea quadrangulata has at last found its way in a living state to you. It grows only a few miles from Adelaide on a macadamized road. So the sending from there can be most easily effected.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The views, which you now express, concerning yourself and your Directorial position, have taken me very much by surprise. You have only a few months ago manfully struggled, seconded by the thoughtful &amp; persevering efforts of sterling friends, to protect and maintain the <seg style="">
+               <space dim="horizontal" extent="tab"/>The views, which you now express, concerning yourself and your Directorial position, have taken me very much by surprise. You have only a few months ago manfully struggled, seconded by the thoughtful &amp; persevering efforts of sterling friends, to protect and maintain the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">integrity</hi>
-               </seg> of your Directorial position. And now, my dear Dr Hooker, but a few months afterwards, you express yourself anxious to recede from the Directorate as a whole, and to devote even on half salary your attention exclusively to Museum &amp; literary work. You must allow me in candor to confess, that this expression of yours is an enigma to me, and must be surrounded by collateral condition[s], about which from the distance here I cannot judge.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>of your Directorial position. And now, my dear Dr Hooker, but a few months afterwards, you express yourself anxious to recede from the Directorate as a whole, and to devote even on half salary your attention exclusively to Museum &amp; literary work. You must allow me in candor to confess, that this expression of yours is an enigma to me, and must be surrounded by collateral condition[s], about which from the distance here I cannot judge.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In advocating or desiring such a change you are not just to yourself nor to all your great colleagues, none of whom would be rejoicing to see such a precedent set by the greatest of all institutions. I implore you, to make not such sentiments known, if not for your own sake then at least out of consideration of us others. If Mr Michie or any other Victorian or anyone likely to come here or to write here, became acquainted with your sudden change of views, you would give my few antagonists the most powerful weapon to use against me, and you would defy the kind action of a very few friends here, who strenuously operate to see me honorably restored to the integrity of my position. I am sure that one, who like you, has treated me always with so much generous consideration, cannot wish to aid in my permanent ruin, even inconsciously. The life in England must be cheap indeed, if you think you can subsist on half of your modest salary, which — so I saw with delight in "nature" — was to be increased.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">W. H. Flower, in a letter published in <seg style="font-style: italic; ">Nature</seg>, 24 July 1873, pp 243-4, wrote that he knew of no position in the biological sciences that provided an income 'sufficient to join freely in intellectual society and to give one's children a good education' unless 'aided by independent means'. No new organization was wanted, but 'in the first place the Government ought at once to increase the pay of all its scientific officers, such as the Astronomer Royal, the Director of Kew Gardens, …'. <space unit="chars" quantity="1"/>No announcement that this suggestion was to be acted upon has been found in <seg style="font-style: italic; ">Nature</seg>, 1873.</p>
-               </note> Perhaps a Crown piece goes in England as far as here a £.</p>
+               <space dim="horizontal" extent="tab"/>In advocating or desiring such a change you are not just to yourself nor to all your great colleagues, none of whom would be rejoicing to see such a precedent set by the greatest of all institutions. I implore you, to make not such sentiments known, if not for your own sake then at least out of consideration of us others. If Mr Michie or any other Victorian or anyone likely to come here or to write here, became acquainted with your sudden change of views, you would give my few antagonists the most powerful weapon to use against me, and you would defy the kind action of a very few friends here, who strenuously operate to see me honorably restored to the integrity of my position. I am sure that one, who like you, has treated me always with so much generous consideration, cannot wish to aid in my permanent ruin, even inconsciously. The life in England must be cheap indeed, if you think you can subsist on half of your modest salary, which — so I saw with delight in "nature" — was to be increased.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>W. H. Flower, in a letter published in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Nature</seg>, 24 July 1873, pp 243-4, wrote that he knew of no position in the biological sciences that provided an income 'sufficient to join freely in intellectual society and to give one's children a good education' unless 'aided by independent means'. No new organization was wanted, but 'in the first place the Government ought at once to increase the pay of all its scientific officers, such as the Astronomer Royal, the Director of Kew Gardens, …'. <space unit="chars" quantity="1"/>No announcement that this suggestion was to be acted upon has been found in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Nature</seg>, 1873.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Perhaps a Crown piece goes in England as far as here a £.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Of one important point in the consideration of my affairs you seem my dear friend, to have lost sight: namely that my whole <seg style="">
+               <space dim="horizontal" extent="tab"/>Of one important point in the consideration of my affairs you seem my dear friend, to have lost sight: namely that my whole<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">working expenses</hi>
-               </seg> for my Department are only £300 in this expensive country now.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>for my Department are only £300 in this expensive country now.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This covers only the assistant's salary (he is clerk, keeper of the collections, amanuensis, accountant, copyist &amp;c all in one person) and pays for the stationary of the Museum &amp; some other small items. So the Messengers pay (alone £120 pr year), books &amp; journals (£150 a year), one clerical assistant (£120 a year) freights, foreign expenses for interchanges, even <seg style="">
+               <space dim="horizontal" extent="tab"/>This covers only the assistant's salary (he is clerk, keeper of the collections, amanuensis, accountant, copyist &amp;c all in one person) and pays for the stationary of the Museum &amp; some other small items. So the Messengers pay (alone £120 pr year), books &amp; journals (£150 a year), one clerical assistant (£120 a year) freights, foreign expenses for interchanges, even<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">office</hi>
-               </seg> rent<seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>rent<seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">,</hi>
-               </seg> has all to be paid out of my humble income and even then the field branch, the laboratory branch, &amp; the lithographic or xylographic branch remain closed<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">and even ... closed <seg style="font-style: italic; ">is a marginal note with the intended position indicated by an asterisk</seg>.</p>
-               </note> No allowances are made of any kind.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>has all to be paid out of my humble income and even then the field branch, the laboratory branch, &amp; the lithographic or xylographic branch remain closed<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>and even ... closed<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">is a marginal note with the intended position indicated by an asterisk</seg>.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>No allowances are made of any kind.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>When you say that for half your salary you would work in the Museum alone, my understanding becomes paralyzed.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>1. Where will you draw the line of demarcation between garden &amp; Museum, both being required for your Gov Botanistship of England?</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>2. Can you keep up even the Museum out of your salary, as I am almost expected?</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>3. Is the salary not given (whether much or little) to provide for family life and for old age, according to the station, in which we move in the world?</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>4. I can understand you to retire on a pension <seg style="">
+               <space dim="horizontal" extent="tab"/>4. I can understand you to retire on a pension<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">without responsibility</hi>
-               </seg> with a proviso, that you have full access to your and your father's collections of plants &amp; books with the prospect of rivalry &amp; interference of all kind!<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>with the prospect … all kind! <seg style="font-style: italic; ">interlined.</seg>
-                  </p>
-               </note> but I cannot understand, that you could do justice to your position as Gov Botanist for all England through mere Museum work, above all if you were left even in that mere branch without votes and half your salary.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>with a proviso, that you have full access to your and your father's collections of plants &amp; books with the prospect of rivalry &amp; interference of all kind!<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>with the prospect … all kind!<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">interlined.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>but I cannot understand, that you could do justice to your position as Gov Botanist for all England through mere Museum work, above all if you were left even in that mere branch without votes and half your salary.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Excuse the frankness of my remarks. As I have now fortunately abstained from building up a happy home like yours of family pleasures, I am only responsible to myself and am quite willing to go to ruin, and leave Mr Francis, M'Culloch &amp; others the triumph — if that is intended, — to have so finally &amp; permanently ruined me. But I can never on <seg style="">
+               <space dim="horizontal" extent="tab"/>Excuse the frankness of my remarks. As I have now fortunately abstained from building up a happy home like yours of family pleasures, I am only responsible to myself and am quite willing to go to ruin, and leave Mr Francis, M'Culloch &amp; others the triumph<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>That is, James McCulloch and James Francis, heads of government of the colony when M was under pressure.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>— if that is intended, — to have so finally &amp; permanently ruined me. But I can never on<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">principle</hi>
                </seg>, concur in the views, which you express in your last letter.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The administration of the horticultural branch has added largely to the phytographic knowledge of all of us. Without that, a phytographic Department becomes a miserable cripple. The outdoor exercise, required by all of us, we best obtain in a bot Garden. Be it enough! the subject is very painful to me. Pray, do not open it again. If you cannot give me your valiant support to the honorable restoration, then — dear Hooker, do at least not deliver me into the hands of my enemies! You would become to me what Brutus was to Caesar. May the new year to you one of happiness &amp; health, and let it be to me also one free of the anguish &amp; humiliation of the last.</p>
+               <space dim="horizontal" extent="tab"/>The administration of the horticultural branch has added largely to the phytographic knowledge of all of us. Without that, a phytographic Department becomes a miserable cripple. The outdoor exercise, required by all of us, we best obtain in a bot Garden. Be it enough! the subject is very painful to me. Pray, do not open it again. If you cannot give me<space unit="chars" quantity="1"/>your valiant support to the honorable restoration, then — dear Hooker, do at least not deliver me into the hands of my enemies! You would become to me what Brutus was to Caesar. May the new year to you one of happiness &amp; health, and let it be to me also one free of the anguish &amp; humiliation of the last.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Always yr</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Haemodoraceae">Haemodoraceae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Scitamineae">Scitamineae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Xanthorrhoea%20quadrangulata">Xanthorrhoea quadrangulata</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Haemodoraceae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Scitamineae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Xanthorrhoea quadrangulata</p>
          </div>
       </body>
    </text>

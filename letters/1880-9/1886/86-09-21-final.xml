@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>21/9/86. ¶  ¶ In reply to your letter of the 11. Aug, dear Mr Ridley, ¶  let me say, that it seems best, not to disturbe the sets of Mr Forbes’s plants for my benefit there. I will attend to the Dicot...</title>
+            <title>21/9/86. ¶  ¶ In reply to your letter of the 11. Aug, dear Mr Ridley, ¶ Letter not found. ¶  ¶ let me say, that it seems best, not to disturbe the sets of Mr Forbes's plants for my benefit there. ¶ He...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>RBG Kew, Miscellaneous Correspondence, Mueller. </msName>
+                  <msName>RBG Kew, Miscellaneous Correspondence, Mueller.</msName>
                   <altIdentifier>
                      <idno>86.09.21</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>21/9/86. ¶  ¶ In reply to your letter of the 11. Aug, dear Mr Ridley, ¶  let me say, that it seems best, not to disturbe the sets of Mr Forbes’s plants for my benefit there. I will attend to the Dicot...</title>
+               <title>21/9/86. ¶  ¶ In reply to your letter of the 11. Aug, dear Mr Ridley, ¶ Letter not found. ¶  ¶ let me say, that it seems best, not to disturbe the sets of Mr Forbes's plants for my benefit there. ¶ He...</title>
                <date when="1886-09-21">1886-09-21</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,21 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Monocotyledoneae </term>
-               <term>Ternstroemiaceae </term>
-               <term>Dicotyledoneae </term>
-               <term>Acotyledoneae </term>
-               <term>Euphorbiaceae </term>
-               <term>Vaccineaceae </term>
-               <term>Urticeae </term>
-               <term>Agapetes</term>
-               <term>Ericeae </term>
-               <term>Ficus </term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -84,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -107,125 +88,179 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">21/9/86. ¶  ¶ In reply to your letter of the 11. Aug, dear Mr Ridley, ¶  let me say, that it seems best, not to disturbe the sets of Mr Forbes’s plants for my benefit there. I will attend to the Dicot...</supplied>
+               <supplied reason="XTF-compatibility">21/9/86. ¶  ¶ In reply to your letter of the 11. Aug, dear Mr Ridley, ¶ Letter not found. ¶  ¶ let me say, that it seems best, not to disturbe the sets of Mr Forbes's plants for my benefit there. ¶ He...</supplied>
             </head>
             <p rend="number" xml:lang="en">86.09.21</p>
             <p rend="correspondent" xml:lang="en">To Henry Ridley</p>
-            <p rend="location" xml:lang="en">RBG Kew, Miscellaneous Correspondence, Mueller. </p>
+            <p rend="location" xml:lang="en">RBG Kew, Miscellaneous Correspondence, Mueller.<space unit="chars" quantity="1"/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">21/9/86.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In reply to your letter of the 11. Aug, dear Mr Ridley,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found.</p>
-               </note> let me say, that it seems best, not to disturbe the sets of Mr Forbes’s plants for my benefit there. I will attend to the <name key="Dicotyledoneae%20">Dicotyledoneae </name>so far as I have them here, except Euphorbiaceae, <name key="Urticeae%20">Urticeae </name>and a few others (unless Ficus) as mentioned in my letter to your excellent Chief;<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See M to W. Carruthers, 21 October 1885.</p>
-               </note> to my observations then additions could later be made from the ampler material at your establishment. If you and your honored Colleagues will attend to the Mono- and <name key="Acotyledoneae%20">Acotyledoneae </name>meanwhile, we shall have in time a complete elaboration of Mr Forbes’s plants. I am anxiously awaiting the results of his collecting in the vicinity of Dinner-island,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Now Samarai, New Guinea.</p>
-               </note> as these additions may complete in many instances the material of his first collecting, so many of the plants then being found only in flower or only in fruit. You will be aware yourself, that the determining of species with conscientious accuracy is a matter of time and patient research, and a <seg style="">
+               <space dim="horizontal" extent="tab"/>In reply to your letter of the 11. Aug, dear Mr Ridley,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>let me say, that it seems best, not to disturbe the sets of Mr Forbes's plants for my benefit there.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Henry Forbes.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I will attend to the Dicotyledoneae so far as I have them here, except Euphorbiaceae, Urticeae and a few others (unless Ficus) as mentioned in my letter to your excellent Chief;<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M to<space unit="chars" quantity="1"/>W.<space unit="chars" quantity="1"/>Carruthers,<space unit="chars" quantity="1"/>21 October 1885.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to my observations then additions could later be made from the ampler material at your establishment. If you and your honored Colleagues will attend to the Mono- and Acotyledoneae meanwhile, we shall have in time a complete elaboration of Mr Forbes's plants. I am anxiously awaiting the results of his collecting in the vicinity of Dinner-island,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Now Samarai, New Guinea.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>as these additions may complete in many instances the material of his first collecting, so many of the plants then being found only in flower or only in fruit. You will be aware yourself, that the determining of species with conscientious accuracy is a matter of time and patient research, and a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">full</hi>
                </seg>
-               <seg style="font-style: italic; "> </seg>list of Mr Forbes’s plants could therefore not be issued for a very considerable period. All that early could be done (particularly from the often incomplete material) would be, to name in many cases only the <seg style="">
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>list of Mr Forbes's plants could therefore not be issued for a very considerable period. All that early could be done (particularly from the often incomplete material) would be, to name in many cases only the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">genera</hi>
-               </seg>. In disposing of Mr Forbes’s set of plants, it should be made a <seg style="">
+               </seg>. In disposing of Mr Forbes's set of plants, it should be made a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">condition</hi>
-               </seg>, that the elaboration of the <name key="Dicotyledoneae%20">Dicotyledoneae </name>- (with some exceptions) is <seg style="">
+               </seg>, that the elaboration of the Dicotyledoneae - (with some exceptions) is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">reserved</hi>
                </seg>
-               <seg style="">
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">for</hi>
                </seg>
-               <seg style="">
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Melbourne</hi>
-               </seg>, so as to avoid clashing, and this arrangement is surely <seg style="">
+               </seg>, so as to avoid clashing, and this arrangement is surely<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">fair</hi>
-               </seg>, when it is considered, what heaps of undescribed plants from nearly all parts of the world are available for British Phytographers in your country. Of course, bona fide Monographers would always assert their claims. It should also be borne in mind, that Mr Forbes — without the Austral. geograph Society voting him £500 –<seg style="">"</seg>- <seg style="">"</seg> on my proposition last year, — could never have held his ground through the season in New Guinea. </p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I look forward with some interest to your opinion on my observations on the vaccineaceous Ericeae, and hope the notes sent by me will appear in Mr Britten’s journal.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B86.10.01.</p>
-               </note>
+               </seg>, when it is considered, what heaps of undescribed plants from nearly all parts of the world are available for British Phytographers in your country. Of course, bona fide Monographers would always assert their claims. It should also be<space unit="chars" quantity="1"/>borne in mind, that Mr Forbes —<space unit="chars" quantity="1"/>without the Austral. geograph Society voting him £500 –<seg rend="DefaultParagraphFont" style="">"</seg>-<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">"</seg>
+               <space unit="chars" quantity="1"/>on my proposition last year, —<space unit="chars" quantity="1"/>could never have held his ground through the season in New Guinea.<space unit="chars" quantity="1"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I do not at all well understand the limits adopted for <name key="Agapetes">Agapetes</name> and some other genera in recent works, and feel convinced, that they should from augmenting material be recast, which you are sure to do in your excellent way for <name key="Ericeae%20">Ericeae </name>soon. </p>
+               <space dim="horizontal" extent="tab"/>I look forward with some interest to your opinion on my observations on the vaccineaceous Ericeae, and hope the notes sent by me will appear in Mr Britten's journal.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B86.10.01.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am now just working on the few as yet known Papuan Ternstroemiaceae. In reference to your question, when and where the publication of Mr F’s plants should take place, let me say, that only <seg style="">
+               <space dim="horizontal" extent="tab"/>I do not at all well understand the limits adopted for Agapetes and some other genera in recent works, and feel convinced, that they<space unit="chars" quantity="1"/>should from augmenting material be recast, which you are sure to do in your excellent way for Ericeae soon.<space unit="chars" quantity="1"/>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am now just working on the few as yet known Papuan Ternstroemiaceae. In reference to your question, when and where the publication of Mr F's plants should take place, let me say, that only<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">one course</hi>
-               </seg> is open to us, that of publishing any fragmentary elaboration whenever ready in some journals (an excellent one Mr Trimens)<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Error for James Britten? Henry Trimen had been editor of the <seg style="font-style: italic; ">Journal of botany</seg> until 1879, but did not edit another journal when he went to Ceylon (<seg style="font-style: italic; ">TL2</seg>).</p>
-               </note> and to collect these fragments finally for a complete elaboration.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>is open to us, that of publishing any fragmentary elaboration whenever ready in some journals (an excellent one Mr Trimens)<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Error for<space unit="chars" quantity="1"/>James<space unit="chars" quantity="1"/>Britten? Henry Trimen had been editor of the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Journal of b</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">otany</seg>
+                        <space unit="chars" quantity="1"/>until 1879, but did not edit<space unit="chars" quantity="1"/>another journal when he went to Ceylon (<seg rend="DefaultParagraphFont" style="font-style: italic; ">TL2</seg>).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and to collect these fragments finally for a complete elaboration.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">With regardful remembrance </p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">With regardful remembrance<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acotyledoneae%20">Acotyledoneae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acotyledoneae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Agapetes">Agapetes</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Agapetes</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dicotyledoneae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dicotyledoneae%20">Dicotyledoneae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Ericeae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Ericeae%20">Ericeae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Euphorbiaceae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Euphorbiaceae%20">Euphorbiaceae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Ficus<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Ficus%20">Ficus </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Monocotyledoneae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Monocotyledoneae%20">Monocotyledoneae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Ternstroemiaceae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Ternstroemiaceae%20">Ternstroemiaceae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Urticeae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Urticeae%20">Urticeae </name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Vaccineaceae%20">Vaccineaceae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Vaccineaceae<space unit="chars" quantity="1"/>
             </p>
          </div>
       </body>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>6/7/79. ¶  ¶ By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography, ¶  and I hope to submit to you soon the two or three first decades complete. Sad to record, my poor dra...</title>
+            <title>6/7/79. ¶  ¶ By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography, ¶ That is, plates forB79.13.11. ¶  ¶ and I hope to submit to you soon the two or three first decades co...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>6/7/79. ¶  ¶ By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography, ¶  and I hope to submit to you soon the two or three first decades complete. Sad to record, my poor dra...</title>
+               <title>6/7/79. ¶  ¶ By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography, ¶ That is, plates forB79.13.11. ¶  ¶ and I hope to submit to you soon the two or three first decades co...</title>
                <date when="1879-07-06">1879-07-06</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,17 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f6c2d8e7-9d03-4677-b4c8-1caee39964c7">Eucalyptus pauciflora</term>
-               <term>Eucalyptus Stuartiana</term>
-               <term>Eucalyptus coriacea</term>
-               <term>Eucalyptus Gunnii</term>
-               <term>Puccinia graminis</term>
-               <term>Uredo Rubigo</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -80,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -103,121 +88,178 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">6/7/79. ¶  ¶ By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography, ¶  and I hope to submit to you soon the two or three first decades complete. Sad to record, my poor dra...</supplied>
+               <supplied reason="XTF-compatibility">6/7/79. ¶  ¶ By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography, ¶ That is, plates forB79.13.11. ¶  ¶ and I hope to submit to you soon the two or three first decades co...</supplied>
             </head>
             <p rend="number" xml:lang="en">79.07.06</p>
             <p rend="correspondent" xml:lang="en">To Joseph Hooker</p>
             <p rend="location" xml:lang="en">RBG Kew, Kew correspondence, Australia, Mueller, 1871-81, ff. 236-7.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">6/7/79.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">That is, plates for B79.13.11.</p>
-               </note> and I hope to submit to you soon the two or three first decades complete. Sad to record, my poor draftsman Austin,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Robert Austen.</p>
-               </note> after a long and severe illness (nephritis) has died and this needs now the training of another artist for the purpose.</p>
+               <space dim="horizontal" extent="tab"/>By this post, dear Sir Joseph, I send you a few more plates of the Eucalyptography,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>That is, plates for<space unit="chars" quantity="1"/>B79.13.11.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and I hope to submit to you soon the two or three first decades complete. Sad to record, my poor draftsman<space unit="chars" quantity="1"/>Austin,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Robert Austen.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>after a long and severe illness (nephritis) has died and this needs now the training of another artist for the purpose.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Times are very bad here; there is a great deficit in the expected revenue and it is therefore very doubtful, whether my labours even in their merely literary shape, will continue supported to its small extent as before. The Ministry, now in power, seems far more favorable to me than that of Mr Francis, but there is no concealing of the fact (pointed out to you six years ago), that I have <seg style="">
+               <space dim="horizontal" extent="tab"/>Times are very bad here; there is a great deficit in the expected revenue and it is therefore very doubtful, whether my labours even in their merely literary shape, will continue supported to its small extent as before. The Ministry, now in power, seems far more favorable to me than that of Mr Francis,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The government led by Graham Berry came to power in May 1877; James Francis was Chief Secretary from June 1872 to July 1874, the Ministry that removed the the Directorship of the Botanic Garden from M.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>but there is no concealing of the fact (pointed out to you six years ago), that I have<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">lost all hold on the country</hi>
-               </seg> since I had to surrender my bot Garden. As discarded Director, unjust &amp; cruel as it is, I must leave Victoria during our “Worlds exhibition” next year,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">International Exhibition, Melbourne, 1880-1.</p>
-               </note> if indeed I should live so long, what in my continued grief seems very doubtful.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>since I had to surrender my bot Garden. As discarded Director, unjust &amp; cruel as it is, I must leave Victoria during our “Worlds exhibition” next year,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>International Exhibition, Melbourne, 1880-1.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>if indeed I should live so long, what in my continued grief seems very doubtful.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I had last afternoon in a country district to speak on Rust in support of a lecture by Mr M’Ivor,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">R. W. E. MacIvor lectured on rust in wheat at a meeting of the West Bourke Agricultural Society at Lancefield, Vic, on Saturday 5 July 1879. M was present and spoke in support of MacIvor (<seg style="font-style: italic; ">Argus</seg>, 7 July 1879, p. 7, col. g).</p>
-               </note> and I showed the audience the original plates of <name key="Puccinia%20graminis">Puccinia graminis</name> &amp; <name key="Uredo%20Rubigo">Uredo Rubigo</name>, given by the sponsor of your baptism in 1806<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Joseph Banks.</p>
-               </note> (in Koenig's &amp; Sim's Annales.)<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Banks (1805).</p>
-               </note> This reminded me vividly of <seg style="">
+               <space dim="horizontal" extent="tab"/>I had last afternoon in a country district to speak on Rust in support of a lecture by Mr M’Ivor,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>R. W. E. MacIvor lectured on rust in wheat at a meeting of the West Bourke Agricultural Society at Lancefield, Vic, on Saturday 5 July 1879. M was present and spoke in support of MacIvor (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 7 July 1879, p. 7, col. g).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and I showed the audience the original plates of Puccinia graminis &amp; Uredo Rubigo, given by the sponsor of your baptism in 1806<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Joseph Banks.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>(in Koenig's &amp; Sim's Annales.)<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Banks (1805).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>This reminded me vividly of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">you</hi>
-               </seg>, dear Sir Joseph, and let<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">led?</p>
-               </note> me to contemplate, how gloriously your fathers friend, the Naturalist of Cooks first expedition, through yourself and your youngest son, will connect the 18th with the 20th century!</p>
+               </seg>, dear Sir Joseph, and let<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>led?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>me to contemplate, how gloriously your fathers friend, the Naturalist of Cooks first expedition, through yourself and your youngest son, will connect the 18th with the 20th century!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>That must be a triumph to you, far greater than any other! </p>
+               <space dim="horizontal" extent="tab"/>That must be a triumph to you, far greater than any other!<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have found out, that your Euc. Gunnii does really embrace E. Stuartiana also, and that thus it is not merely alpine but like E. pauciflora (E. coriacea A.C.) also a tall timbertree in the lower regions.<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">In the fourth decade of <seg style="font-style: italic; ">Eucalyptographia</seg>, probably being printed at the time of the letter, M retained the distinction between <seg style="font-style: italic; ">E. gunnii</seg> and<seg style="font-style: italic; "> E. stuartiana</seg>. M does not appear to have published any note uniting the species; his later reference to<seg style="font-style: italic; "> E. gunnii</seg> (B78.11.04, p. 38) makes no mention of the unification.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have found out, that your Euc. Gunnii does really embrace E. Stuartiana also, and that thus it is not merely alpine but like E. pauciflora (E. coriacea A.C.) also a tall timbertree in the lower regions.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>In the fourth decade of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eucalyptographia</seg>, probably being printed at the time of the letter, M retained the distinction between<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">E. gunnii</seg>
+                        <space unit="chars" quantity="1"/>and<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>E. stuartiana</seg>. M does not appear to have published any note uniting the species; his later reference to<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>E. gunnii</seg>
+                        <space unit="chars" quantity="1"/>(B78.11.04, p. 38) makes no mention of the unification.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">Let me remain, </p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">Let me remain,<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>dear Sir Joseph, </p>
+               <space dim="horizontal" extent="tab"/>dear Sir Joseph,<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Many thanks for the seeds successively sent. This helps to keep the wreck of my Department afloat. I trust you will be able to carry Prof. M'Coys election at the Royal Society and perhaps you may have a chance to make Dr Rudall also a F.R.S; he was Surgeon also of one of Ships in search or in support of the search after Sir John Franklin, rescuing Belcher; this I forgot to mention.<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">See M to J. Hooker, 8 June 1879 (in this edition as 79-06-08b).</p>
-               </note> Dr Curling FRS, is a particular friend of this really <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Many thanks for the seeds successively sent. This helps to keep the wreck of my Department afloat. I trust you will be able to carry Prof. M'Coys election at the Royal Society and perhaps you may have a chance to make Dr Rudall also a F.R.S; he was Surgeon also of one of Ships in search or in support of the search after Sir John Franklin, rescuing Belcher; this I forgot to mention.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See M to J. Hooker, 8 June 1879 (in this edition as 79-06-08b).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Dr Curling FRS, is a particular friend of this really<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">splendid</hi>
-               </seg> Surgeon. He stands thus far [out] as ophthalmologist also at the head of our profession here.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>Surgeon. He stands thus far [out] as ophthalmologist also at the head of our profession here.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus%20coriacea">Eucalyptus coriacea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus%20Gunnii">Eucalyptus Gunnii</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus%20pauciflora">Eucalyptus pauciflora</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus%20Stuartiana">Eucalyptus Stuartiana</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Puccinia%20graminis">Puccinia graminis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Uredo%20Rubigo">Uredo Rubigo</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus coriacea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus Gunnii</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus pauciflora</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus Stuartiana</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Puccinia graminis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Uredo Rubigo</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

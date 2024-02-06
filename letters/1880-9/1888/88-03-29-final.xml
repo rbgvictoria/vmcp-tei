@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,16 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Dendrobium Macfarlanei </term>
-               <term>Dendrobium Johnsoniae </term>
-               <term>Dicotyledoneae</term>
-               <term>Sapindaceae </term>
-               <term>Vitis </term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -79,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -109,117 +95,180 @@
             <p rend="location" xml:lang="en">RBG Kew, Archives, Miscellaneous correspondence.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">29/3/88</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Herewith, dear Mr Ridley, I beg to send you fragments of two Papuan orchids, taken from plants in the horticultural Establishment of Mr Benj. Gulliver of Townsville, after whom I should like one to be named, the large-flowered Spec. of Dendrobium seemingly being new.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>No <seg style="font-style: italic; ">Dendrobium</seg> species named after Gulliver has been found.</p>
-               </note> But as I am trying to bring the difficult “Key”<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B88.05.03.</p>
-               </note> to a speedy conclusion, I shall have no leisure to enter on a critical examination of these spec. Dendrobium so send them to you, who has gained the most recent experience on them. This will give you also an opportunity, to set right the nomenclature of <name key="Dendrobium%20Johnsoniae%20">Dendrobium Johnsoniae </name>and D. Macfarlanei, as described by myself.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See M to H. Ridley, 21 February 1887, and M to H. Ridley,17 May 1887.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Herewith, dear Mr Ridley, I beg to send you fragments of two Papuan orchids, taken from plants in the horticultural Establishment of Mr Benj. Gulliver of Townsville, after whom I should like one to be named, the large-flowered Spec. of Dendrobium seemingly being new.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>No<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Dendrobium</seg>
+                        <space unit="chars" quantity="1"/>species named after Gulliver has been found (IPNI, accessed 2 October 2023).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>But as I am trying to bring the difficult “Key”<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B88.05.03.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to a speedy conclusion, I shall have no leisure to enter on a critical examination of these spec. Dendrobium so send them to you, who has gained the most recent experience on them. This will give you also an opportunity, to set right the nomenclature of Dendrobium Johnsoniae and D. Macfarlanei, as described by myself.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M to H. Ridley, 21 February 1887, and M to H. Ridley,17 May 1887.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I hope you will be able to give Mr Forbes a <seg style="">
+               <space dim="horizontal" extent="tab"/>I hope you will be able to give Mr Forbes a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">generic</hi>
-               </seg> list of his plants; that is really all he wants for his volume of travels. He will have seen a <name key="Vitis%20">Vitis </name>named by Planchon after him, from a specimen forwarded by me to Montpellier<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>No eponymous orchid species have been found in IPNI.</p>
-               </note> - Radlkofer can furnish the names of his Sapindaceae; he had them all long ago. I will <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>list of his plants; that is really all he wants for his volume of travels.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Henry Forbes'</seg>
+                        <seg rend="DefaultParagraphFont" style="">s</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>only volume of travels was Forbes (1885), dealing with his travels in the East Indies from 1878</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">1883.<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>He will have seen a Vitis named by Planchon after him, from a specimen forwarded by me to Montpellier<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>No eponymous Vitaceae species have been found in IPNI (accessed 2 October 2023). Planchon (1887) did describe some<space unit="chars" quantity="1"/>new species<space unit="chars" quantity="1"/>in the same family<space unit="chars" quantity="1"/>from specimens<space unit="chars" quantity="1"/>that had been<space unit="chars" quantity="1"/>collected by Forbes in New Guinea<space unit="chars" quantity="1"/>and sent by M, for example<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cissus rhamnoidea</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">,</seg>
+                        <space unit="chars" quantity="1"/>listing the specimen<space unit="chars" quantity="1"/>seen<space unit="chars" quantity="1"/>as 'H.-O Forbes in Herb. Melburn.' (p. 516) and<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">C. nervosa</seg>,<space unit="chars" quantity="1"/>from the specimen<space unit="chars" quantity="1"/>'H.-O. Forbes, in herb. Mus. Phytol. Melburn., n° 772, ann. 1885-6'<space unit="chars" quantity="1"/>(p. 564).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>- Radlkofer can furnish the names of his Sapindaceae; he had them all long ago. I will<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">soon</hi>
-               </seg> do something to a portion of the Dicotyledones.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>do something to a portion of the Dicotyledones.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Let me hope that Mr Britten<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>James Britten.</p>
-               </note> will deal generously and unprejudiced by mere […]<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>and unprejudiced by mere […] <seg style="font-style: italic; ">interlined, one illegible word.</seg>
-                  </p>
-               </note> with my Key in reviewing it; the explanatory essay will likely appear in May. <note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See B89.05.04. The paper was read before the Royal Society of NSW in October 1888. See Lucas, Maroske &amp; Brown-May (2006), pp. 46-50.</p>
-               </note>
-               <space unit="chars" quantity="1"/>You know of course that <seg style="">
+               <space dim="horizontal" extent="tab"/>Let me hope that Mr Britten<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>James Britten.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>will deal generously and unprejudiced by mere […]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>and unprejudiced by mere […]<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">interlined, one illegible word.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>with my Key in reviewing it; the explanatory essay will likely appear in May.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See B89.05.04. The paper was read before the Royal Society of NSW in October 1888. See Lucas, Maroske &amp; Brown-May (2006), pp. 46-50.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>You know of course that<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">all</hi>
-               </seg> other languages have the diminutive for flower heads. Ovulary is better than germen, ovary absolutely incorrect. Beak, wings, head, claws, palate, throat, vagina, abortion, spur, mouth, ear, chin, beard, lips &amp;c should be restricted to zoologic organography</p>
+               </seg>
+               <space unit="chars" quantity="1"/>other languages have the diminutive for flower heads. Ovulary is better than germen, ovary absolutely incorrect. Beak, wings, head, claws, palate, throat, vagina, abortion, spur, mouth, ear, chin, beard, lips &amp;c should be restricted to zoologic organography</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ever regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Best compl. to Mr Carruthers.<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Written in the left margin of the back of the folio.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Best compl. to Mr Carruthers.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Written in the left margin of the back of the folio.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Please publish the Dendrobium if new, in Mr Brittens journal<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-style: italic; ">Journal of botany</seg>. Written in the central margin of the back of the folio.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Please publish the Dendrobium if new, in Mr Brittens journal<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Journal of botany</seg>. Written in the central margin of the back of the folio.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dendrobium%20Johnsoniae%20">Dendrobium Johnsoniae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dendrobium Johnsoniae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dendrobium%20Macfarlanei%20">Dendrobium Macfarlanei </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dendrobium Macfarlanei<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dicotyledoneae">Dicotyledoneae</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dicotyledoneae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Sapindaceae<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Sapindaceae%20">Sapindaceae </name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Vitis%20">Vitis </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Vitis<space unit="chars" quantity="1"/>
             </p>
          </div>
       </body>

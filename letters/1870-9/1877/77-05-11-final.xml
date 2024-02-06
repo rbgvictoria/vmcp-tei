@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Normanton ¶ May 11, 1877 ¶ Baron von Mueller ¶ C.M.G. F.R.S ¶ Dear Sir...</title>
+            <title>Normanton ¶ Qld. ¶ May 11, 1877 ¶ Baron von Mueller ¶ C.M.G. F.R.S ¶ Dear Sir...</title>
             <author>Charles Fooks</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Sammlung Perthes Archiv, SPA ARCH PGM 328, Forschungsbibliothek Gotha der Universität Erfurt.</msName>
+                  <msName>Sammlung Perthes Archiv,SPA ARCHPGM328,Forschungsbibliothek Gotha der Universität Erfurt.</msName>
                   <altIdentifier>
                      <idno>77.05.11</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Charles Fooks</author>
-               <title>Normanton ¶ May 11, 1877 ¶ Baron von Mueller ¶ C.M.G. F.R.S ¶ Dear Sir...</title>
+               <title>Normanton ¶ Qld. ¶ May 11, 1877 ¶ Baron von Mueller ¶ C.M.G. F.R.S ¶ Dear Sir...</title>
                <date when="1877-05-11">1877-05-11</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,77 +86,142 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Normanton ¶ May 11, 1877 ¶ Baron von Mueller ¶ C.M.G. F.R.S ¶ Dear Sir...</supplied>
+               <supplied reason="XTF-compatibility">Normanton ¶ Qld. ¶ May 11, 1877 ¶ Baron von Mueller ¶ C.M.G. F.R.S ¶ Dear Sir...</supplied>
             </head>
             <p rend="number" xml:lang="en">77.05.11</p>
-            <p rend="correspondent" xml:lang="en">From Charles Fooks</p>
+            <p rend="correspondent" xml:lang="en">From<space unit="chars" quantity="1"/>Charles Fooks</p>
             <p rend="location" xml:lang="en">
-               <seg style="">Sammlung Perthes Archiv, </seg>
-               <seg style="">SPA ARCH PGM 328</seg>
-               <seg style="">, </seg>Forschungsbibliothek Gotha der Universität Erfurt.</p>
+               <seg rend="DefaultParagraphFont" style="">Sammlung Perthes Archiv,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">SPA ARCH<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">PGM<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">328</seg>
+               <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+               </seg>Forschungsbibliothek Gotha der Universität Erfurt.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">Normanton<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Qld. Fooks appears to have been a storekeeper there and at Burketown; see <seg style="font-style: italic; ">Queenslander</seg>, 9 August 1879, p. 166.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Normanton<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Qld.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">May 11, 1877</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Baron von Mueller</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">C.M.G. F.R.S</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am in receipt of your two letters of the 5th Feby and 13th March.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letters not found.</p>
-               </note> I shall be happy to do what I can for you in the way of collecting botanical Specimens, you may also be sure that I shall always be on the look-out for any trace of Leichardt that may possibly exist.</p>
+               <space dim="horizontal" extent="tab"/>I am in receipt of your two letters of the 5th Feby and 13th March.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letters not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I shall be happy to do what I can for you in the way of collecting botanical Specimens, you may also be sure that I shall always be on the look-out for any trace of Leichardt that may possibly exist.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>My course will probably lie between the 20th and 16th degrees of latitude, and I shall most likely leave the O'Shannessy River at about the 19th degree of latitude and will call either at Tenants Creek, Powells Creek or Daly Waters telegraph Stations<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">All in NT.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>My course will probably lie between the 20th and 16th degrees of latitude, and I shall most likely leave the O'Shannessy River at about the 19th degree of latitude and will call either at Tenants Creek, Powells Creek or Daly Waters telegraph Stations<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>All in NT.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Should you take the field this year and we happen to be on the telegraph line at the same time, we might enter into communication. as minerals will form the principal object of the Expedition,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">No record of such an expedition has been found.</p>
-               </note> I shall stick as much as possible to the dividing water sheds —</p>
+               <space dim="horizontal" extent="tab"/>Should you take the field this year and we happen to be on the telegraph line at the same time, we might enter into communication. as minerals will form the principal object of the Expedition,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The expedition may not have taken place. One had been planned:<space unit="chars" quantity="1"/>'<seg rend="DefaultParagraphFont" style="">There seems to be some chance of the Western</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">boundary of the district being prospected for</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">minerals this wet season, the South Australian</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Government having very generously offered a</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">large supply of rations to be delivered at any</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">required point along the overland telegraph line.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">It is to be hoped that the expedition which was</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">planned some time since will not fall through, as</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">there appears every likelihood of gold being</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">found in the north-western hills, which are off</seg>-shoots of the Cloncurry ranges.'<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>('Carpentaria [From our own correspondent] Normanton',<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Brisbane courier</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 13 October 1877, p. 7</seg>
+                        <seg rend="DefaultParagraphFont" style="">)</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>No account of the planned expedition having started has been found.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I shall stick as much as possible to the dividing water sheds —</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I intend leaving this place in September or October</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I am dear Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Yours very truly</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>C. S. Fooks</p>
+               <space dim="horizontal" extent="tab"/>C. S.<space unit="chars" quantity="1"/>Fooks</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

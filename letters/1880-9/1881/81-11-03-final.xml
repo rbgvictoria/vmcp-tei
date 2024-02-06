@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>3/11/81. ¶  ¶ Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc.  ¶ diversifolia of Bonpland ¶  is, who raised it from see...</title>
+            <title>3/11/81. ¶  ¶ Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc. ¶  ¶ diversifolia of Bonpland ¶ Eucalyptus diversifolia; ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>3/11/81. ¶  ¶ Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc.  ¶ diversifolia of Bonpland ¶  is, who raised it from see...</title>
+               <title>3/11/81. ¶  ¶ Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc. ¶  ¶ diversifolia of Bonpland ¶ Eucalyptus diversifolia; ...</title>
                <date when="1881-11-03">1881-11-03</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,12 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e1ecf9d7-34e1-4a42-9023-3f0324240f05">Eucalyptus diversifolia</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -98,82 +88,151 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">3/11/81. ¶  ¶ Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc.  ¶ diversifolia of Bonpland ¶  is, who raised it from see...</supplied>
+               <supplied reason="XTF-compatibility">3/11/81. ¶  ¶ Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc. ¶  ¶ diversifolia of Bonpland ¶ Eucalyptus diversifolia; ...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.11.03</p>
             <p rend="correspondent" xml:lang="en">To Ralph Tate</p>
             <p rend="location" xml:lang="en">Barr Smith Library, University of Adelaide, SA.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">3/11/81.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc. </p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">diversifolia of Bonpland<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">
-                        <name key="Eucalyptus%20diversifolia">Eucalyptus diversifolia</name>
-                     </seg>; see Bonpland (1813-7), pp. 35-7, t. 13, issued in 1814 (TL2).</p>
-               </note> is, who raised it from seeds of Baudin's Expedition, gathered in Kangaroo-Island.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">SA. </p>
-               </note> As the lower leaves are ovate and opposite and the upper alternate or scattered, it may be a <seg style="">
-                  <hi rend="underline">young</hi>
-               </seg> state of an alternate-leaved species. The flowers are 5-8 in a head. There ought to be no difficulty of getting specimens from your K. I.'s correspondents, at all events fruit-specimens, as fruits are to be found on Eucalypts all the year round. We shall probably have to discard the name of some other Eucalypt, to bring that of Bonplands to honor again.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The same request was made in M to R. Tate, 7 November 1881. In M to R. Tate, 1 January 1882, M identified two of Tate's specimens as <seg style="font-style: italic; ">E. santalifolia, </seg>which<seg style="font-style: italic; "> </seg>M had named in 1854 from specimens found at the Murray River and St Vincent and Spencer Gulfs, SA. </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>M gave Bonpland's name as a synonym in his discussion of <seg style="font-style: italic; ">E. santalifolia</seg> in <seg style="font-style: italic; ">Eucalytographia</seg>, eighth decade (B82.13.17), issued by April 1882 and reviewed in <seg style="font-style: italic; ">Sydney mail and New South Wales advertiser</seg>, 22 April 1882, p. 622, but noted that it had to be 'discarded … because the plant as defined by him represents that very young state in which … the leaves pass from the broad form of juvenile plants into a narrow shape of the leaves, normal for adult trees'.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Bonpland's name has priority and M's name has been sunk into synonymy. </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Before the thought passes from my mind, dear Prof. Tate, I like to mention to you, that it has never been ascertained, what Euc.<space unit="chars" quantity="1"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">diversifolia of Bonpland<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eucalyptus diversifolia</seg>; see<space unit="chars" quantity="1"/>Bonpland (1813-7), pp. 35-7, t. 13, issued in 1814 (TL2).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>is, who raised it from seeds of Baudin's Expedition, gathered in Kangaroo-Island.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>SA.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>As the lower leaves are ovate and opposite and the upper alternate or scattered, it may be a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">young</hi>
+               </seg>
+               <space unit="chars" quantity="1"/>state of an alternate-leaved species. The flowers are 5-8 in a head. There ought to be no difficulty of getting specimens from your K. I.'s correspondents, at all events fruit-specimens, as fruits are to be found on Eucalypts all the year round. We shall probably have to discard the name of some other Eucalypt, to bring that of Bonplands to honor again.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The same request was made in M to R. Tate, 7 November 1881. In M to R. Tate, 1 January 1882, M identified two of Tate's specimens as<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">E. santalifolia</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">,<space unit="chars" quantity="1"/>
+                        </seg>which<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>M<space unit="chars" quantity="1"/>had named<space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>1854 from specimens found at the Murray River and St Vincent and Spencer Gulfs, SA.<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M gave Bonpland's name as a synonym in his discussion of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">E.<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">s</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">antalifolia</seg>
+                        <space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eucalytographia</seg>, eighth decade (B82.13.17),<space unit="chars" quantity="1"/>issued by April 1882 and<space unit="chars" quantity="1"/>reviewed in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sydney mail and New South Wales advertiser</seg>, 22 April 1882, p. 622, but noted that it had to be 'discarded … because the plant as defined by him represents that very young state in which … the leaves pass from the broad form of juvenile plants into a narrow shape of the leaves, normal for adult trees'.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Bonpland's<space unit="chars" quantity="1"/>name has priority<space unit="chars" quantity="1"/>and M's name has<space unit="chars" quantity="1"/>been<space unit="chars" quantity="1"/>sunk into<space unit="chars" quantity="1"/>synonymy.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Anyhow it is very desirable, that your friends on the Island should pay early &amp; special attention to the <seg style="">
+               <space dim="horizontal" extent="tab"/>Anyhow it is very desirable, that your friends on the Island should pay early &amp; special attention to the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Eucalypts</hi>
                </seg>.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have not heard from the Rev. Mr. Kempe for a long time. So there must be also drought in his district.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Surely the S.A. Government is sending out a small Camel-party to the actual death-place of Leichhardt in <seg style="">
+               <space dim="horizontal" extent="tab"/>Surely the S.A. Government is sending out a small Camel-party to the actual death-place of Leichhardt in<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">your</hi>
-               </seg> territory, to erect a small monumental cairn, &amp; bury the bones of the unfortunates.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M is probably referring to claims that Leichhardt relics has been found west of the Mulligan River in far-western Qld, and therefore in the Northern Territory, then administered by SA; see Lewis (2013), pp. 262ff.</p>
-               </note> You could have there no abler man than Mr Tietkens, for such a holy mission, as Mr Giles is otherwise engaged. Can <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>territory, to erect a small monumental cairn, &amp; bury the bones of the unfortunates.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M is probably referring to claims that Leichhardt relics has been found west of the Mulligan River in far-western Qld, and<space unit="chars" quantity="1"/>therefore<space unit="chars" quantity="1"/>in the Northern Territory, then administered by SA; see Lewis (2013), pp. 262ff.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>You could have there no abler man than Mr Tietkens, for such a holy mission, as Mr Giles<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ernest Giles.<space unit="chars" quantity="1"/>Ericksen (1978) has very little detail about Giles's activities in this period, other than<space unit="chars" quantity="1"/>that he 'resumed, in South Australia, the work of searching for<space unit="chars" quantity="1"/>pastoral land',<space unit="chars" quantity="1"/>although pp. 258-9 contain a<space unit="chars" quantity="1"/>brief<space unit="chars" quantity="1"/>mention of his efforts to<space unit="chars" quantity="1"/>raise the funds he needed to stock the land with which he had been provisionally rewarded by the SA Government.<space unit="chars" quantity="1"/>In 1881 he<space unit="chars" quantity="1"/>disposed of his interest in a pastoral lease in the Musgrave<space unit="chars" quantity="1"/>Ranges 'with<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">the</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">view to the formation of a joint stock company to stock the land</seg>
+                        <seg rend="DefaultParagraphFont" style="">' (</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Hamilton spectator</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 25 October 1881, p. 2).</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>By 1883 he was able to show maps of 'the new country taken up by him on the Ferdinand Creek, near the Musgrave Ranges. … to be stocked and afterwards re-sold by a syndicate' (</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Hamilton spectator</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 28 April 1883, p. 2).<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">This<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">may have been still a<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">sp</seg>
+                        <seg rend="DefaultParagraphFont" style="">ec</seg>
+                        <seg rend="DefaultParagraphFont" style="">ulation</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>as he was attempting to interest English capitalists in it as a pastoralist investment (</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 14 February 1883, p. 9).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>is otherwise engaged. Can<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">you</hi>
-               </seg> take up this cause.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>take up this cause.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus%20diversifolia">Eucalyptus diversifolia</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus diversifolia</p>
          </div>
       </body>
    </text>

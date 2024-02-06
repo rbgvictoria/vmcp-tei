@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ In reply to your letter of the 13th inst., ¶  I beg to inform you that the small weed of which you sent a sample is well known to be poisonous to pastoral animals, particularly to sheep. Its botani...</title>
+            <title> ¶ In reply to your letter of the 13th inst., ¶ Letter not found. ¶  ¶ I beg to inform you that the small weed of which you sent a sample, ¶  ¶ is well-known to be poisonous to pastoral animals, parti...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ In reply to your letter of the 13th inst., ¶  I beg to inform you that the small weed of which you sent a sample is well known to be poisonous to pastoral animals, particularly to sheep. Its botani...</title>
+               <title> ¶ In reply to your letter of the 13th inst., ¶ Letter not found. ¶  ¶ I beg to inform you that the small weed of which you sent a sample, ¶  ¶ is well-known to be poisonous to pastoral animals, parti...</title>
                <date when="1887-12">1887-12</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,12 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Euphorbia Drummondi</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -73,9 +61,11 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -95,59 +85,81 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ In reply to your letter of the 13th inst., ¶  I beg to inform you that the small weed of which you sent a sample is well known to be poisonous to pastoral animals, particularly to sheep. Its botani...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ In reply to your letter of the 13th inst., ¶ Letter not found. ¶  ¶ I beg to inform you that the small weed of which you sent a sample, ¶  ¶ is well-known to be poisonous to pastoral animals, parti...</supplied>
             </head>
             <p rend="number" xml:lang="en">87.12.00g</p>
-            <p rend="correspondent" xml:lang="en">To John Jeremy</p>
+            <p rend="correspondent" xml:lang="en">To John<space unit="chars" quantity="1"/>Jeremy</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Rural topics and events', <seg style="font-style: italic; ">Australasian</seg>, 31 December 1887, p. 1257 (B87.12.04). The text is introduced with the following remarks: ‘Some time ago (writes the <seg style="font-style: italic; ">Pastoral Times</seg>) a drover lost seven or eight sheep on the Deniliquin common, and as he observed that they were attacked after eating a peculiar-looking weed, he collected some of it. This he showed to Mr. J. Jeremy, who forwarded it to Baron von Mueller. In reply he received the following letter:—‘.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>'Euphorbia Drummondi',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pastoral times<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">(Deniliquin, NSW)</seg>,<space unit="chars" quantity="1"/>17<space unit="chars" quantity="1"/>December 1887, p.<space unit="chars" quantity="1"/>2<space unit="chars" quantity="1"/>(B87.12.07). The text is introduced with the following remarks: ‘Some time ago a drover lost seven or eight sheep on the Deniliquin common, and as he observed that they were attacked after eating a peculiar<space unit="chars" quantity="1"/>looking weed he collected some of it. This he showed to Mr. J. Jeremy who forwarded it to Baron von Mueller. In reply he received the following letter:—‘.</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>A brief account, including a summary of M's report, was published in <seg style="font-style: italic; ">Sydney mail and New South Wales advertiser</seg>, 24 December 1887, p.1351.</p>
+                     <space dim="horizontal" extent="tab"/>The report was reprinted in the<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Australasian</seg>
+                     <space unit="chars" quantity="1"/>(Melbourne), 31December 1887, p. 1257 (B87.12.04).<space unit="chars" quantity="1"/>A brief account, including a summary of M's report, was published in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sydney mail and New South Wales advertiser</seg>, 24 December 1887, p.1351.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>In reply to your letter of the 13th inst.,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found.</p>
-               </note> I beg to inform you that the small weed of which you sent a sample is well known to be poisonous to pastoral animals, particularly to sheep. Its botanic name is <name key="Euphorbia%20Drummondi">Euphorbia Drummondi</name>. Wherever it copiously occurs the soil should be scarified and sown in autumn with seeds of the best native grasses and fodder herbs occurring in the vicinity, and seeds of British and foreign grasses and fodder plants might also be tried. By such means the euphorbia would become much suppressed.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>At this point the source text has '<seg style="">Baron von Mueller then refers to the collection of native seeds as follows:—'.</seg>
-                  </p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note>
+               <space dim="horizontal" extent="tab"/>In reply to your letter of the 13th inst.,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I beg to inform you that the small weed of which you sent a sample,<space unit="chars" quantity="1"/>is well-known to be poisonous to pastoral animals, particularly to sheep. Its botanic name is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Euphorbia Drummondi</seg>. Wherever it copiously occurs the soil should be scarified and sown in<space unit="chars" quantity="1"/>Autumn with seeds of the best native grasses and fodder herbs occurring in the vicinity and seeds of British and foreign grasses and fodder plants might also be tried. By such means the euphorbia would become much suppressed.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>At this point the source text has '<seg rend="DefaultParagraphFont" style="">Baron von</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>Mueller then refers to the<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">collection of native</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">seeds as follows:—</seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Could you kindly ascertain whether anyone in your town or your district would be inclined this summer to collect the seeds (well matured) of the best salt bushes, pasture herbs, and grasses for stock, indigenous to your region, and at a moderate price? For such seeds I have a demand, and if the prices were not too high, and the selection be carefully made, a trade in such native seeds would likely spring up and afford some lucrative employment. —</p>
+               <space dim="horizontal" extent="tab"/>Could you kindly ascertain whether any<space unit="chars" quantity="1"/>one in your town or your district would be inclined this summer to collect the seeds (well matured) of the best salt bushes, pasture herbs, and grasses for stock, indigenous to your region, and at a moderate price? For such seeds I have a demand and if the prices were not too high and the selection be carefully made, a trade in such native seeds would likely spring up and afford some lucrative employment. —</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Respectfully yours,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-variant: small-caps; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; font-variant: small-caps; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Euphorbia%20Drummondi">Euphorbia Drummondi</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Euphorbia Drummondi</p>
          </div>
       </body>
    </text>

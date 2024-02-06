@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>June 18th [186]2 ¶ Sir. ¶  ¶ I am directed by the Council of the Acclimatisation Society to thank you for the letter ¶  laid before them through the superintendent at the meeting yesterday ¶  and to i...</title>
+            <title>June 18th [186]2 ¶ editorial addition. ¶ Sir. ¶  ¶ I am directed by the Council of the Acclimatisation Society to thank you for the letter ¶ or letters? ¶  ¶ laid before them through the superintenden...</title>
             <author>George Sprigg</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>George Sprigg</author>
-               <title>June 18th [186]2 ¶ Sir. ¶  ¶ I am directed by the Council of the Acclimatisation Society to thank you for the letter ¶  laid before them through the superintendent at the meeting yesterday ¶  and to i...</title>
+               <title>June 18th [186]2 ¶ editorial addition. ¶ Sir. ¶  ¶ I am directed by the Council of the Acclimatisation Society to thank you for the letter ¶ or letters? ¶  ¶ laid before them through the superintenden...</title>
                <date when="1862-06-18">1862-06-18</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
             </keywords>
@@ -91,111 +87,156 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">June 18th [186]2 ¶ Sir. ¶  ¶ I am directed by the Council of the Acclimatisation Society to thank you for the letter ¶  laid before them through the superintendent at the meeting yesterday ¶  and to i...</supplied>
+               <supplied reason="XTF-compatibility">June 18th [186]2 ¶ editorial addition. ¶ Sir. ¶  ¶ I am directed by the Council of the Acclimatisation Society to thank you for the letter ¶ or letters? ¶  ¶ laid before them through the superintenden...</supplied>
             </head>
-            <p rend="number" xml:lang="en">62.06.18a</p>
+            <p rend="number" xml:lang="en">62.06.18a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">From George Sprigg</p>
             <p rend="location" xml:lang="en">No. 62/408, unit 1, pp. 198-9, VPRS 2225 outward letter press copy books, Acclimatisation Society of Victoria, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
                   </p>
-               </note>June 18th [186]2<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">editorial addition.</seg>
-                  </p>
-               </note>
+               </note>June 18th [186]2<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">editorial addition.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am directed by the Council of the Acclimatisation Society to thank you for the letter<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">or letter</seg>
-                     <seg style="font-weight: bold; ">
-                        <hi rend="underline">s</hi>
-                     </seg>
-                     <seg style="font-weight: bold; ">?</seg>
-                  </p>
-               </note> laid before them through the superintendent at the meeting yesterday<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">At a meeting of the Council of the Acclimatisation Society of Victoria held on 17 June 1862, the Superintendent presented three letters that had been sent to M: a letter 'from Mr A Berg of the Isle of Bourbon (where he was the representative of the French Acclimatisation Society) wishing to commence a system of interchange'; one from Mr Butler of Calcutta 'offering his services in procuring specimens of any Indian animals or birds in return for native animals from here', in response to which 'the secretary was directed to write to Mr Butler per next mail and inform him that by the "Bombay" leaving here in July a first shipment should be sent and that these should speedily be followed by others'; and one from George Francis, Director of the Adelaide Botanic Garden, 'declining the offer of the Llamas and stating that at present he is unable to procure any red kangaroos', in response to which 'the secretary was directed to enter into direct communications with Mr Francis' (Unit 1, p. 196, VPRS 2223, Public Record Office, Victoria). <seg style="background-color: #ffff00; ">check</seg>
-                     <seg style="background-color: #ffff00; ">where quotes start and end</seg> The letters have not been found but for newspaper summaries of two of them, see A. Berg to M, April 1862 (in this edition as 62-04-00f) and H. Butler to M, May 1862 (in this edition as 62-05-00g).</p>
-               </note> and to intimate how the Council intend dealing with them.</p>
+               <space dim="horizontal" extent="tab"/>I am directed by the Council of the Acclimatisation Society to thank you for the letter<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">or letter</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                           <hi rend="underline">s</hi>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">?</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>laid before them through the superintendent at the meeting yesterday<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>At a meeting of the Council of the Acclimatisation Society of Victoria held on 17 June 1862, the<space unit="chars" quantity="1"/>Superintendent presented<space unit="chars" quantity="1"/>three letters that had been sent to M:<space unit="chars" quantity="1"/>a letter<space unit="chars" quantity="1"/>'from Mr A Berg of the Isle of Bourbon (where he was the representative of the French Acclimatisation Society) wishing to commence a system of interchange';<space unit="chars" quantity="1"/>one<space unit="chars" quantity="1"/>from Mr Butler of Calcutta 'offering his services in procuring specimens of any Indian animals or birds in return for native animals from here',<space unit="chars" quantity="1"/>in response to which<space unit="chars" quantity="1"/>'the secretary was directed to write<space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>Mr Butler per next mail and inform him that by the "Bombay" leaving here in July a first shipment should be sent and that these should speedily be followed by others';<space unit="chars" quantity="1"/>and one from<space unit="chars" quantity="1"/>George Francis, Director of the Adelaide Botanic Garden, 'declining the offer of the Llamas and stating that at present he is unable to procure any red kangaroos',<space unit="chars" quantity="1"/>in response to which 'the secretary was directed to enter into direct communications with Mr Francis' (Unit 1, p. 196, VPRS 2223,<space unit="chars" quantity="1"/>Public Record Office, Victoria).<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">check</seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">where quotes start and end</seg>
+                        <space unit="chars" quantity="1"/>The letters have not been found but for newspaper summaries of two of them, see<space unit="chars" quantity="1"/>A. Berg to M, April 1862 (in this edition as<space unit="chars" quantity="1"/>62-04-00f)<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>H. Butler to M, May 1862 (in this edition as<space unit="chars" quantity="1"/>62-05-00g).</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>George Francis had been sent some animals (listed in G. Sprigg to M, 30 April 1862) in response to a request made by the Chief Secretary of SA to his Victorian counterpart;<space unit="chars" quantity="1"/>see M to J. Moore,<space unit="chars" quantity="1"/>16 April 1862, and notes thereto.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and to intimate how the Council intend dealing with them.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Firstly with reference to Mr Berg they request that you will kindly write a general letter to this gentleman offering the best services of the Council in reciprocating his offers and at the same time calling Mr Berg's attention to the following paragraphs passed by the Council The Council are very desirous of obtaining chiefly birds and other animals of <seg style="background-color: #ffff00; ">an</seg>
-               <note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">'a'?</seg>
-                  </p>
-               </note> commercially useful kind, and those native kinds already domesticated in your locality, and examples of the game of the country in your neighbourhood are most particularly desired in the first instance.</p>
+               <space dim="horizontal" extent="tab"/>Firstly with reference to Mr Berg they request that you will kindly write a general letter to this gentleman offering the best services of the Council in reciprocating his offers and at the same time calling Mr Berg's attention to the following paragraphs passed by the Council The Council are very desirous of obtaining chiefly birds and other animals of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">an</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">'a'?</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>commercially useful kind, and those native kinds already domesticated in your locality, and examples of the game of the country in your neighbourhood are most particularly desired in the first instance.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Mr Butler the Council have directed me in accordance with your suggestions to write to and by the July mail vessel some specimens of animals will be sent to Mr Butler.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>There appears to be some mistake with reference to the sex of the Fallow deer presented to Mr Francis. It was a female fallow deer that the Council placed at his disposition. I am directed to write Mr Francis as the superintendent informed the Council that such were your wishes.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The Council are of opinion that 1 pair of kangaroo or Wallabys: 6 native quail 6 Lowry parrots and a few magpies might be sent to Major Whitmore.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">any minutes on this?</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>The Council are of opinion that 1 pair of kangaroo or Wallabys: 6 native quail 6 Lowry parrots and a few magpies might be sent to Major Whitmore.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">any minutes on this?</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Could you kindly inform me whether the book promised by the French Society arrived per "kent<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">capital K?</seg>
-                  </p>
-               </note>"</p>
+               <space dim="horizontal" extent="tab"/>Could you kindly inform me whether the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">book</seg>
+               <space unit="chars" quantity="1"/>promised by the French Society arrived per "<seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">k</seg>ent<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">capital K?</seg>
+                     </p>
+                  </note>
+               </seg>"<space unit="chars" quantity="1"/>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Société Imperiale d'Acclimatation de France to M,<space unit="chars" quantity="1"/>February<space unit="chars" quantity="1"/>1862 (in this edition as 62-02-00a)<space unit="chars" quantity="1"/>notified M that a<space unit="chars" quantity="1"/>complete set of the<space unit="chars" quantity="1"/>Society's<space unit="chars" quantity="1"/>publications<space unit="chars" quantity="1"/>had been sent by<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Kent</seg>.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Kent</seg>
+                        <space unit="chars" quantity="1"/>arrived in Melbourne on 3 June, but it is not known whether the items were received.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your most Obedt Servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Geo Sprigg</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -203,10 +244,10 @@
                <space dim="horizontal" extent="tab"/>Secretary</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">To Ferdinand Mueller Esq M.D. Ph.D.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">&amp;c. <space unit="chars" quantity="2"/>&amp;c. <space unit="chars" quantity="2"/>&amp;c.</p>
          </div>
       </body>

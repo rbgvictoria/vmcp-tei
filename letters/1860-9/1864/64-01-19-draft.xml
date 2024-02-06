@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Requests that land used by Caledonian Society be not conveyed to that body]...</title>
+            <title> ¶ [Requests that land used by Caledonian Society be not conveyed to that body] ¶ Is this from the index or the register? If from the register does index add anything?Is there an answer in outward cor...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Requests that land used by Caledonian Society be not conveyed to that body]...</title>
+               <title> ¶ [Requests that land used by Caledonian Society be not conveyed to that body] ¶ Is this from the index or the register? If from the register does index add anything?Is there an answer in outward cor...</title>
                <date when="1864-01-19">1864-01-19</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,35 +85,42 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Requests that land used by Caledonian Society be not conveyed to that body]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Requests that land used by Caledonian Society be not conveyed to that body] ¶ Is this from the index or the register? If from the register does index add anything?Is there an answer in outward cor...</supplied>
             </head>
             <p rend="number" xml:lang="en">64.01.19</p>
             <p rend="correspondent" xml:lang="en">To Richard Heales</p>
-            <p rend="location" xml:lang="en">No. 909, unit 9 VPRS 227/P1 inward correspondence register, VA 538, Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">No. 909, unit 9 VPRS 227/P1 inward correspondence register, VA 538, Department of Crown Lands and Survey, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a letter dated 19 January 1864.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Requests that land used by Caledonian Society be not conveyed to that body]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Is this from the index or the register? If from the register does index add anything?</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; font-weight: bold; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Is there an answer in outward correspondence? VPRS 7934.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; font-weight: bold; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>x-ref to an earlier letter from FitzGibbon warning him to do this.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[Requests that land used by Caledonian Society be not conveyed to that body]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Is this from the index or the register? If from the register does index add anything?</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; font-weight: bold; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Is there an answer in outward correspondence? VPRS 7934.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>M had earlier written to the Town Clerk to ask him to oppose the request made by the Caledonian Society to be granted six acres of land in the Zoological Gardens north of the Yarra<space unit="chars" quantity="1"/>River; see M to E. FitGibbon,14 November 1863<space unit="chars" quantity="1"/>(in this edition as 63-11-14a)<space unit="chars" quantity="1"/>and notes thereto.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

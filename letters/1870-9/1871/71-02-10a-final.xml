@@ -38,12 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -60,56 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Acacia mollísima diurrens</term>
-               <term>Exocarpus cupressiformis</term>
-               <term>Knunzea leptus permoides</term>
-               <term>Pittosporum crasifolium</term>
-               <term>Pittosporum sennifolium</term>
-               <term>Atriples semibaccateam</term>
-               <term>Pittosporum eugenoides</term>
-               <term>Plagianthus pulchellas</term>
-               <term>Podocarpus ferruginens</term>
-               <term>PtycosperniaAlexandrae</term>
-               <term>Cusuarina leptoclada </term>
-               <term>Eremphilla longifolia</term>
-               <term>Euchylaena tormentosa</term>
-               <term>Pittosporum medulatum</term>
-               <term>Pittosporum nigricans</term>
-               <term>Atriples nummulaciam</term>
-               <term>Eucaliptus marginata</term>
-               <term>Hymenus porum flavum</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/e91dc560-84d5-40c5-94bb-033f16503403">Melaleuca ericifolia</term>
-               <term>Acacia homalophilla</term>
-               <term>Eucaliptus globulus</term>
-               <term>Acacia melonosylon</term>
-               <term>Cusuarina suberosa</term>
-               <term>Eucaliptus finitis</term>
-               <term>Eucaliptus obliqua</term>
-               <term>Hibiscus splendens</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/6fbc322c-cdf2-4526-a261-353a4a41f290">Acacia longifolia</term>
-               <term>Acacia retinoides</term>
-               <term>Atriples cinereum</term>
-               <term>Corypha australis</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/6d5b593f-e5e1-407d-883a-7a51b1cbcfc6">Grevillea robusta</term>
-               <term>Pemaderrisapetala</term>
-               <term>Tetragona espansa</term>
-               <term>Acacia reynantha</term>
-               <term>Bursania spinosa</term>
-               <term>Dodonaea cuneata</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/55934b11-1283-48e8-a8f4-4006eeea53f1">Kochia sedifolia</term>
-               <term>Acacia diurrens</term>
-               <term>Acacia lophanta</term>
-               <term>Acacia implesa</term>
-               <term>Acacia siligna</term>
-               <term>Aralia spinosa</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8c260d69-e09f-46cf-a6da-2cbf3c3b0638">Hakea laurina</term>
-               <term>Phomium senat</term>
-               <term>Sida retusa</term>
-            </keywords>
             <keywords scheme="#features">
                <term>table</term>
                <term>note</term>
@@ -118,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -143,1063 +89,1236 @@
                <supplied reason="XTF-compatibility">[Lastly, another communication has been received from that gentleman, ¶ The text follows on from the announcement of a previous letter from M; see M to the Sociedad Rural Argentina, 1 January 1871. ¶ ...</supplied>
             </head>
             <p rend="number" xml:lang="de">71.02.10a</p>
-            <p rend="correspondent" xml:lang="de">To the Sociedad Rural Argentina</p>
+            <p rend="correspondent" xml:lang="de">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Sociedad Rural Argentina</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Semillas de Australia' [Australian seeds], <seg style="font-style: italic; ">Anales de la Sociedad Rural Argentina</seg>, 1871, vol. 5, p. 197. </p>
-               </note>[Ultimamente se ha recibido otra communication de aquel caballero, fecha el 10 febrero ppdo. en la q' avisa haber embarcadoen aquel dia una coleccíon de semillas de árboles de rápido de Australia, en el buque «Loch Fay» dirijido al Agente General de Victoria, en Lóndres, D. Jorge Verdon, con encargo á la Sociedad Rural Argentina, deseando de enviarlo sea ensayado su cultivo en diferentes localidades de este país para poder mejor experimenter su resultado.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Semillas de Australia' [Australian seeds],<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Anales de la Sociedad Rural Argentina</seg>, 1871, vol. 5, p. 197.<space unit="chars" quantity="1"/>
+                  </p>
+               </note>[Ultimamente se ha recibido otra communication de aquel caballero, fecha el 10 febrero ppdo. en la q' avisa haber embarcadoen aquel dia una coleccíon de semillas de árboles de rápido de Australia, en el buque<space unit="chars" quantity="1"/>«Loch Fay»<space unit="chars" quantity="1"/>dirijido al Agente General de Victoria, en Lóndres, D. Jorge Verdon, con encargo á la Sociedad Rural Argentina, deseando de enviarlo sea ensayado su cultivo en diferentes localidades de este país para poder mejor experimenter su resultado.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Segun la lista que acompaña, las semillas que envía son las siguienttes:<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/> The list is given below the translation. These species are listed again, some with one or more of common name, location where they grow naturally, and their use, in 'Semillas de Australia' [Australian seeds], <seg style="font-style: italic; ">Anales de la Sociedad Rural Argentina</seg>
-                     <seg style="">, 1871, vol. 5, pp. 275-6</seg>. In a few cases the name errors noted here have been corrected, or given in a new incorrect reading. There is no indication of the source of the additional information, although it is possible that it was with the seeds.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Segun la lista<space unit="chars" quantity="1"/>que acompaña, las semillas que envía son las siguienttes:<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <space unit="chars" quantity="1"/>The list is given below the translation. These species are listed again, some with one or more of common name, location where they grow naturally, and their use,<space unit="chars" quantity="1"/>in 'Semillas de Australia' [Australian seeds],<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Anales de la Sociedad Rural Argentina</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 1871, vol. 5, pp. 275-6</seg>.<space unit="chars" quantity="1"/>In a few cases the name errors noted here have been corrected, or given in a new incorrect reading. There is no indication of the source of the additional information, although it is possible that it was with the seeds.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">[Lastly, another communication has been received from that gentleman,</seg>
-               <seg style="">
-                  <note xml:id="ftn3" type="footnote" n="3">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">[Lastly, another communication has been received from that gentleman,</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>The text follows on from the announcement of a previous letter from M; see M to the Sociedad Rural Argentina, 1 January 1871.</p>
                   </note>
                </seg>
-               <seg style=""> dated 10 February. in which he reports having shipped a collection of seeds of fast-growing trees from Australia on the ship "Loch Fay" directed to the Agent General of Victoria, in London, Mr George Verdon, with a request to send it to the Argentine Rural Society, wishing their culture to be tested in different localities of this country in order to better test the result.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>dated<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">10<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">February. in which he reports having shipped a collection of seeds of fast-growing trees from Australia on the ship "Loch Fay" directed to the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Agent<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">General of Victoria, in London,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Mr Ge</seg>
+               <seg rend="DefaultParagraphFont" style="">orge Verdon, with a request<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">to send it to the Argentine Rural Society, wishing<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">their</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>culture to be tested in different localities of this country in order to better<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">test</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>result.</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>According to the accompanying list, he sends the following seeds:]</seg>
-            </p>
+               <space dim="horizontal" extent="tab"/>According to the accompanying list, he sends the following seeds:]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <table n="Table1">
+            <table n="">
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20lophanta">Acacia lophanta</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia lophanta</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Wenet.<note xml:id="ftn4" type="footnote" n="4">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for Willd. (=Willdenow)? The typesetter or editor clearly had difficulty with M's hand; where a misreading is the probable cause of the error, this explanation is suggested in the notes. In some cases, while such an error is likely, it is possible that M's text contained a misspelling, and a reading is suggested without further comment. </p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Wenet.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn3" n="4">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for Willd. (=Willdenow)?<space unit="chars" quantity="1"/>The typesetter or editor clearly had difficulty with M's hand; where a misreading is the probable cause of the error, this explanation is suggested in the notes. In some cases, while such an error is likely, it is possible that M's text contained a misspelling, and a reading is suggested without further comment.<space unit="chars" quantity="1"/>
+                              </p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20siligna">Acacia siligna</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia siligna</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Wenet.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20longifolia">Acacia longifolia</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia longifolia</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Wenet.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Acacia mollísima<note xml:id="ftn5" type="footnote" n="5">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">A. mollissima</seg>? </p>
-                        </note> diurrens<note xml:id="ftn6" type="footnote" n="6">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>The typesetter appears to have omitted <seg style="font-style: italic; ">Acacia</seg> before a misread <seg style="font-style: italic; ">decurrens</seg>
-                           </p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia mollísima<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn4" n="5">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">A. mollissima</seg>?<space unit="chars" quantity="1"/>
+                              </p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>diurrens<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn5" n="6">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>The typesetter appears to have omitted<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Acacia</seg>
+                                 <space unit="chars" quantity="1"/>before a misread<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">decurrens</seg>
+                              </p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Wenet.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20homalophilla">Acacia homalophilla</name>
-                        <note xml:id="ftn7" type="footnote" n="7">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">A. homalophylla</seg>; corrected in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia homalophilla<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn6" n="7">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">A. homalophylla</seg>; corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Cunn.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20melonosylon">Acacia melonosylon</name>
-                        <note xml:id="ftn8" type="footnote" n="8">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">A. melanoxylon</seg>? Corrected in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia melonosylon<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn7" n="8">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">A. melanoxylon</seg>? Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Br.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20implesa">Acacia implesa</name>
-                        <note xml:id="ftn9" type="footnote" n="9">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">A. implexa? </seg>Corrected in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia implesa<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn8" n="9">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">A</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">.</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>implexa</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">?<space unit="chars" quantity="1"/>
+                                 </seg>Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Benth.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20retinoides">Acacia retinoides</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia retinoides</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Schl.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Acacia%20reynantha">Acacia reynantha</name>
-                        <note xml:id="ftn10" type="footnote" n="10">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">A. pycnantha?</seg>
-                           </p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Acacia reynantha<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn9" n="10">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">A. pycnantha</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">?</seg>
+                              </p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Benth</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Aralia%20spinosa">Aralia spinosa</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Aralia spinosa</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">N. Zeal.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Atriples<note xml:id="ftn11" type="footnote" n="11">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Atriplex? </seg>Corrected in later list, see note 2 above.</p>
-                        </note> cinereum</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Atriples<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn10" n="11">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">A</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">triplex?<space unit="chars" quantity="1"/>
+                                 </seg>Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>cinereum</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Poir.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Atriples%20nummulaciam">Atriples nummulaciam</name>
-                        <note xml:id="ftn12" type="footnote" n="12">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for<seg style="font-style: italic; "> Atriplex nummularia? </seg>
-                              <space unit="chars" quantity="1"/>This name was given as <seg style="font-style: italic; ">A. nummulacia</seg> in the later notes, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Atriples nummulaciam<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn11" n="12">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>A</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">triplex</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>nummularia</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">?<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <space unit="chars" quantity="1"/>This name was given as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">A. nummulacia</seg>
+                                 <space unit="chars" quantity="1"/>in the later notes, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Lin.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Atriples%20semibaccateam">Atriples semibaccateam</name>
-                        <note xml:id="ftn13" type="footnote" n="13">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Atriplex semibaccata</seg>? Corrected in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Atriples semibaccateam<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn12" n="13">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Atriplex semibaccat</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">a</seg>? Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Br.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Bursania<note xml:id="ftn14" type="footnote" n="14">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Bursaria</seg>? Corrected in later list, see note 2 above.</p>
-                        </note> spinosa</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Bursania<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn13" n="14">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bursaria</seg>? Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>spinosa</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Caron.<note xml:id="ftn15" type="footnote" n="15">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Typesetter's error for</seg> Cavan (=Cavanilles)?</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Caron.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn14" n="15">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                                 <space unit="chars" quantity="1"/>Cavan (=Cavanilles)?</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Cusuarina<note xml:id="ftn16" type="footnote" n="16">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Casuarina? </seg>
-                              <space unit="chars" quantity="1"/>Corrected in later list, see note 2 above, but <seg style="font-style: italic; ">leptoclada</seg> is given there as<seg style="font-style: italic; "> heptoclada.</seg>
-                           </p>
-                        </note> leptoclada mig suberosa<note xml:id="ftn17" type="footnote" n="17">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetters misalignment and misreading? <seg style="font-style: italic; ">Casuarina leptoclada</seg> was named by Miquel (=Miq); <seg style="font-style: italic; ">Casuarina suberosa</seg> was attributed to Miquel (perhaps abbreviated to 'M', but read as 'W'; see Miquel (1868), p 337) although previously named by Otto &amp; Dietrich (1841), p. 155.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Cusuarina<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn15" n="16">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Casuarina?<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <space unit="chars" quantity="1"/>Corrected in later list, see note 2 above, but<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">leptoclada</seg>
+                                 <space unit="chars" quantity="1"/>is given there as<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>heptoclada.</seg>
+                              </p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>leptoclada mig suberosa<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn16" n="17">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetters misalignment and misreading?<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Casuarina</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>leptoclada</seg>
+                                 <space unit="chars" quantity="1"/>was named by Miquel (=Miq);<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Casuarina</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>suberosa</seg>
+                                 <space unit="chars" quantity="1"/>was attributed to Miquel (perhaps abbreviated to 'M', but read as 'W'; see Miquel (1868), p 337) although previously named by Otto &amp; Dietrich (1841), p. 155.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">W</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Corypha%20australis">Corypha australis</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Corypha australis</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Br</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Dodonaea%20cuneata">Dodonaea cuneata</name>
-                        <note xml:id="ftn18" type="footnote" n="18">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Given as <seg style="font-style: italic; ">Dodonaca</seg> in the later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Dodonaea cuneata<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn17" n="18">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Given as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Dodonaca</seg>
+                                 <space unit="chars" quantity="1"/>in the later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Smith</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Euchylaena<note xml:id="ftn19" type="footnote" n="19">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Enchyleana</seg>? Corrected in later list, see note 2 above.</p>
-                        </note> tormentosa<note xml:id="ftn20" type="footnote" n="20">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">tomentosa</seg>.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Euchylaena<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn18" n="19">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Enchyleana</seg>? Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>tormentosa<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn19" n="20">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">tomentosa</seg>.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Br</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Eremphilla<note xml:id="ftn21" type="footnote" n="21">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Eremophila</seg>? Given as <seg style="font-style: italic; ">Eremophyla</seg> in the later list, see note 2 above.</p>
-                        </note> longifolia</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eremphilla<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn20" n="21">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eremoph</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">il</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">a</seg>? Given as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eremophyla</seg>
+                                 <space unit="chars" quantity="1"/>in the later list, see note 2 above.</p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>longifolia</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">F.<space unit="chars" quantity="1"/>V.<space unit="chars" quantity="1"/>Mueller</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eucaliptus<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn21" n="22">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eucalyptus</seg>; the spelling used here is frequent in Spanish, but corrected in the later list, see note 2 above.<space unit="chars" quantity="1"/>
+                              </p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>finitis<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn22" n="23">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">E. fissilis</seg>; corrected in later list, see note 2 above.<space unit="chars" quantity="1"/>This is a<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">nominum</seg>
+                                 <space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">nudum</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>in<space unit="chars" quantity="1"/>Guilfoyle (1877), p. 25, where in his list of native woods he attributes it to M<space unit="chars" quantity="1"/>and notes that it is allied to<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">E. obliqua</seg>.</p>
+                           </note>
+                        </seg>
+                     </p>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">F. V. Mueller</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Eucaliptus<note xml:id="ftn22" type="footnote" n="22">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Eucalyptus</seg>; the spelling used here is frequent in Spanish, but corrected in the later list, see note 2 above. </p>
-                        </note> finitis<note xml:id="ftn23" type="footnote" n="23">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">E. fissilis</seg>; corrected in later list, see note 2 above. This is a <seg style="font-style: italic; ">nominum</seg>
-                              <seg style="font-style: italic; ">nudum </seg>in Guilfoyle (1877), p. 25, where in his list of native woods he attributes it to M and notes that it is allied to <seg style="font-style: italic; ">E. obliqua</seg>.</p>
-                        </note>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eucaliptus globulus</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">F. V. Mueller</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
-                     <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Eucaliptus%20globulus">Eucaliptus globulus</name>
-                     </p>
-                  </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
-                     <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Labill.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Eucaliptus%20obliqua">Eucaliptus obliqua</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eucaliptus obliqua</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Hent.<note xml:id="ftn24" type="footnote" n="24">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Typesetter's error for</seg> Hert. (=L'Héritier)? The plant name is given as <seg style="font-style: italic; ">E. oblicua</seg> in the later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Hent.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn23" n="24">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                                 <space unit="chars" quantity="1"/>Hert. (=L'Héritier)?<space unit="chars" quantity="1"/>The plant name is given as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">E. oblicua</seg>
+                                 <space unit="chars" quantity="1"/>in the later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Eucaliptus%20marginata">Eucaliptus marginata</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eucaliptus marginata</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Smith</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Exocarpus%20cupressiformis">Exocarpus cupressiformis</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Exocarpus cupressiformis</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Labill.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Grevillea%20robusta">Grevillea robusta</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Grevillea robusta</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Cunn.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Hakea%20laurina">Hakea laurina</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Hakea laurina</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Br.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Hibiscus%20splendens">Hibiscus splendens</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Hibiscus splendens</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Tras.<note xml:id="ftn25" type="footnote" n="25">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Typesetter's error for </seg>
-                              <space unit="chars" quantity="1"/>Fras. (=Fraser)?</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Tras.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn24" n="25">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <space unit="chars" quantity="1"/>Fras.<space unit="chars" quantity="1"/>(=Charles<space unit="chars" quantity="1"/>Fraser, see APNI under the species name).</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Hymenus%20porum%20flavum">Hymenus porum flavum</name>
-                        <note xml:id="ftn26" type="footnote" n="26">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Hymenosporum flavum</seg>? Given as <seg style="font-style: italic; ">Hymenosporum floru</seg>
-                              <seg style="color: #000000; font-style: italic; ">m </seg>
-                              <seg style="color: #000000; ">in</seg> the later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Hymenus porum flavum<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn25" n="26">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Hymenosporum flavum</seg>? Given as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Hymenosporum</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>floru</seg>
+                                 <seg rend="DefaultParagraphFont"
+                                      style="font-style: italic; color: #000000; ">m</seg>
+                                 <seg rend="DefaultParagraphFont"
+                                      style="font-style: italic; color: #000000; ">
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #000000; ">in</seg>
+                                 <space unit="chars" quantity="1"/>the later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">F. V. Mueller</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Kochia%20sedifolia">Kochia sedifolia</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Kochia sedifolia</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">F. V. Mueller</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Knunzea%20leptus%20permoides">Knunzea leptus permoides</name>
-                        <note xml:id="ftn27" type="footnote" n="27">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Kunzea leptospermoides</seg>? Corrected in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Knunzea leptus permoides<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn26" n="27">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Kunzea leptospermoides</seg>?<space unit="chars" quantity="1"/>Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">F. V. Mueller</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Melaleuca%20ericifolia">Melaleuca ericifolia</name>
-                        <note xml:id="ftn28" type="footnote" n="28">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Given in the later list as <seg style="font-style: italic; ">Medalena ercifolia</seg>, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Melaleuca ericifolia<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn27" n="28">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Given in the later list as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Medalena ercifolia</seg>, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Smith</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Phomium%20senat">Phomium senat</name>
-                        <note xml:id="ftn29" type="footnote" n="29">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Phormium tenax</seg>?</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Phomium senat<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn28" n="29">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Phormium tenax</seg>?</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Forst.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Pittosporum%20crasifolium">Pittosporum crasifolium</name>
-                        <note xml:id="ftn30" type="footnote" n="30">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Pittosporum crassifolium</seg>?</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pittosporum crasifolium<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn29" n="30">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pittosporum crassifolium</seg>?</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Banks</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Pittosporum%20eugenoides">Pittosporum eugenoides</name>
-                        <note xml:id="ftn31" type="footnote" n="31">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; "> Pittosporum eugeinoides</seg>?</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pittosporum eugenoides<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn30" n="31">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>Pittosporum eugeinoides</seg>?</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Cunn.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Pittosporum%20nigricans">Pittosporum nigricans</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pittosporum nigricans</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Port.<note xml:id="ftn32" type="footnote" n="32">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Typesetter's error for</seg> Hort. (=Horticultural)? Given as 'Port' in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Port.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn31" n="32">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                                 <space unit="chars" quantity="1"/>Hort.<space unit="chars" quantity="1"/>(=Horticultural)? Given as 'Port' in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Pittosporum%20sennifolium">Pittosporum sennifolium</name>
-                        <note xml:id="ftn33" type="footnote" n="33">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>No plausible name for which this might be a typesetter's error has been found. The only <seg style="font-style: italic; ">Pittosporum</seg> species named by Banks listed in IPNI is <seg style="font-style: italic; ">P. crassifolium </seg>
-                              <seg style="">(accessed 23 November 2019)</seg>
-                              <seg style="font-style: italic; ">. </seg>The later list gives its locality as 'De Neuva Zelandia' [From New Zealand], see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pittosporum sennifolium<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn32" n="33">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>No plausible name<space unit="chars" quantity="1"/>for which this might be a typesetter's<space unit="chars" quantity="1"/>error<space unit="chars" quantity="1"/>has been found. The only<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pittosporum</seg>
+                                 <space unit="chars" quantity="1"/>species named by Banks listed in IPNI is<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">P.<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">crassifolium</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="">(accessed 23 November 2019)</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">.<space unit="chars" quantity="1"/>
+                                 </seg>The later list gives its locality as 'De Neuva Zelandia' [From New Zealand], see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Banks</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Pittosporum%20medulatum">Pittosporum medulatum</name>
-                        <note xml:id="ftn34" type="footnote" n="34">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">P. undulatum</seg>? Given as <seg style="font-style: italic; ">P. nudulatum</seg> in the later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pittosporum medulatum<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn33" n="34">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">P. undulatum</seg>? Given as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">P. nudulatum</seg>
+                                 <space unit="chars" quantity="1"/>in the later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Katinat.<note xml:id="ftn35" type="footnote" n="35">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>
-                              <seg style="font-style: italic; ">Typesetter's error for </seg>Ventenat?</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Katinat.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn34" n="35">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>Ventenat?</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Plagianthus%20pulchellas">Plagianthus pulchellas</name>
-                        <note xml:id="ftn36" type="footnote" n="36">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">P. pulchellus</seg>? Corrected in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Plagianthus pulchellas<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn35" n="36">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">P. pulchellus</seg>? Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">A. Gray</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Podocarpus%20ferruginens">Podocarpus ferruginens</name>
-                        <note xml:id="ftn37" type="footnote" n="37">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">P. </seg>
-                              <seg style="font-style: italic; ">ferrugineus</seg>
-                              <seg style="">? </seg>Corrected in later list, see<seg style=""> note 2 above. However, catalogues list this species as described by Don, not Richards; see IPNI and Ngā Tipu o Aotearoa— New Zealand Plants (both accessed 23 October 2019).</seg>
-                              <seg style="font-style: italic; font-weight: bold; "> </seg>
-                           </p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Podocarpus ferruginens<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn36" n="37">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">P</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">.<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">ferrugineus</seg>
+                                 <seg rend="DefaultParagraphFont" style="">?</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>Corrected in later list, see<seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>note 2 above. However,<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="">catalogues<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="">list this<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="">species<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="">as</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>described by Don, not Richards;</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>see IPNI</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>and Ngā Tipu o Aotearoa— New Zealand Plants (both accessed 23 October 2019).</seg>
+                                 <seg rend="DefaultParagraphFont"
+                                      style="font-weight: bold; font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>
+                              </p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Richards</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Pemaderris<note xml:id="ftn38" type="footnote" n="38">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Pomaderris</seg>? Corrected in later list, see note 2 above.</p>
-                        </note> apetala</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pemaderris<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn37" n="38">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pomaderris</seg>? Corrected in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>apetala</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Labill.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">Ptycospernia<note xml:id="ftn39" type="footnote" n="39">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">Ptychosperma</seg>?</p>
-                        </note> Alexandrae</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Ptycospernia<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn38" n="39">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ptychosperma</seg>?</p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>Alexandrae</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">F. V. Mueller</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Sida%20retusa">Sida retusa</name>
-                        <note xml:id="ftn40" type="footnote" n="40">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Given <seg style="font-style: italic; ">as Sila retusa</seg> in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Sida retusa<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn39" n="40">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Given<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">as Sila retusa</seg>
+                                 <space unit="chars" quantity="1"/>in later list, see note 2 above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">L</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Tetragona%20espansa">Tetragona espansa</name>
-                        <note xml:id="ftn41" type="footnote" n="41">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                              xml:lang="en">
-                              <space unit="chars" quantity="1"/>
-                              <space dim="horizontal" extent="tab"/>Typesetter's error for <seg style="font-style: italic; ">T. expansa</seg>? Given as <seg style="font-style: italic; ">T. spansa</seg> in later list, see note 2 above.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Tetragona espansa<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn40" n="41">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>Typesetter's error for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">T. expansa</seg>? Given as<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">T. spansa</seg>
+                                 <space unit="chars" quantity="1"/>in later list,<space unit="chars" quantity="1"/>see note<space unit="chars" quantity="1"/>2<space unit="chars" quantity="1"/>above.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Murray</p>
                   </cell>
                </row>
             </table>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20diurrens">Acacia diurrens</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia diurrens</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia implesa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia longifolia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia lophanta</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia melonosylon</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia mollísima diurrens</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia homalophilla</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia retinoides</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia reynantha</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia siligna</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Aralia spinosa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Atriples cinereum</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Atriples nummulaciam</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Atriples semibaccateam</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Bursania spinosa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Corypha australis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cusuarina leptoclada<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20implesa">Acacia implesa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20longifolia">Acacia longifolia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20lophanta">Acacia lophanta</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20melonosylon">Acacia melonosylon</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20moll%C3%ADsima%20diurrens">Acacia mollísima diurrens</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20homalophilla">Acacia homalophilla</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20retinoides">Acacia retinoides</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20reynantha">Acacia reynantha</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20siligna">Acacia siligna</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Aralia%20spinosa">Aralia spinosa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Atriples%20cinereum">Atriples cinereum</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Atriples%20nummulaciam">Atriples nummulaciam</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Atriples%20semibaccateam">Atriples semibaccateam</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Bursania%20spinosa">Bursania spinosa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Corypha%20australis">Corypha australis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cusuarina%20leptoclada%20">Cusuarina leptoclada </name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cusuarina%20suberosa">Cusuarina suberosa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dodonaea%20cuneata">Dodonaea cuneata</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eremphilla%20longifolia">Eremphilla longifolia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucaliptus%20finitis">Eucaliptus finitis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucaliptus%20globulus">Eucaliptus globulus</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucaliptus%20marginata">Eucaliptus marginata</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucaliptus%20obliqua">Eucaliptus obliqua</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Euchylaena%20tormentosa">Euchylaena tormentosa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Exocarpus%20cupressiformis">Exocarpus cupressiformis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Grevillea%20robusta">Grevillea robusta</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hakea%20laurina">Hakea laurina</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hibiscus%20splendens">Hibiscus splendens</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hymenus%20porum%20flavum">Hymenus porum flavum</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Knunzea%20leptus%20permoides">Knunzea leptus permoides</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Kochia%20sedifolia">Kochia sedifolia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Melaleuca%20ericifolia">Melaleuca ericifolia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pemaderrisapetala">Pemaderrisapetala</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Phomium%20senat">Phomium senat</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pittosporum%20crasifolium">Pittosporum crasifolium</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pittosporum%20eugenoides">Pittosporum eugenoides</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pittosporum%20medulatum">Pittosporum medulatum</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pittosporum%20nigricans">Pittosporum nigricans</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pittosporum%20sennifolium">Pittosporum sennifolium</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Plagianthus%20pulchellas">Plagianthus pulchellas</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Podocarpus%20ferruginens">Podocarpus ferruginens</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="PtycosperniaAlexandrae">PtycosperniaAlexandrae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Sida%20retusa">Sida retusa</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Tetragona%20espansa">Tetragona espansa</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cusuarina suberosa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dodonaea cuneata</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eremphilla longifolia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucaliptus finitis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucaliptus globulus</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucaliptus marginata</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucaliptus obliqua</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Euchylaena tormentosa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Exocarpus cupressiformis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Grevillea robusta</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hakea laurina</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hibiscus splendens</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hymenus porum flavum</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Knunzea leptus permoides</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Kochia sedifolia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Melaleuca ericifolia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pemaderrisapetala</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Phomium senat</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pittosporum crasifolium</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pittosporum eugenoides</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pittosporum medulatum</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pittosporum nigricans</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pittosporum sennifolium</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Plagianthus pulchellas</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Podocarpus ferruginens</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">PtycosperniaAlexandrae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Sida retusa</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Tetragona espansa</p>
          </div>
       </body>
    </text>

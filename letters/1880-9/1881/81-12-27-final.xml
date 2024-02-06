@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hermannsburg ¶  27 December 1881 ¶ Esteemed Baron! ¶  ¶ Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst looking ...</title>
+            <title>Hermannsburg ¶ NT. ¶  ¶ 27 December 1881 ¶ Esteemed Baron! ¶  ¶ Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst ...</title>
             <author>Hermann Kempe</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Hermann Kempe</author>
-               <title>Hermannsburg ¶  27 December 1881 ¶ Esteemed Baron! ¶  ¶ Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst looking ...</title>
+               <title>Hermannsburg ¶ NT. ¶  ¶ 27 December 1881 ¶ Esteemed Baron! ¶  ¶ Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst ...</title>
                <date when="1881-12-27">1881-12-27</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,13 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/71845a4e-1482-4fab-99c8-652823dc2cdc">Stemodia</term>
-               <term>Zamia</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,19 +62,21 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="50">English</language>
-            <language ident="de" usage="50">German</language>
+            <language ident="en" usage="52">English</language>
+            <language ident="de" usage="48">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -100,136 +89,157 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Hermannsburg ¶  27 December 1881 ¶ Esteemed Baron! ¶  ¶ Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst looking ...</supplied>
+               <supplied reason="XTF-compatibility">Hermannsburg ¶ NT. ¶  ¶ 27 December 1881 ¶ Esteemed Baron! ¶  ¶ Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst ...</supplied>
             </head>
             <p rend="number" xml:lang="de">81.12.27</p>
             <p rend="correspondent" xml:lang="de">From Hermann Kempe</p>
-            <p rend="location" xml:lang="de">RB MSS M69, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="de">RB MSS M69, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS found with a specimen of <seg style="font-style: italic; ">Macrozamia macdonnellii</seg> (MEL 276652). MS annotation by M: 'Beantw 4/2/82' [Answered 4 February 1882]. Letter not found.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS found with a specimen of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Macrozamia macdonnellii</seg>
+                     <space unit="chars" quantity="1"/>(MEL 276652). MS annotation by M: 'Beantw 4/2/82' [Answered 4 February 1882]. Letter not found.</p>
                </note>Hermannsburg Dez. 27. 1881.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Geehrter Herr Baron!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Neulich hatte ich Gelegenheit, nicht weit von hier, in den Krichauff-Ranges, indem wir nach einem Platze mit Futter u. Wasser suchten, eine ganze Plantage der sogenannten <name key="Zamia">Zamia</name>e zu entdecken. Tausende u. Abertausende bedecken da die steilen Felswände. Ich schicke Ihnen mit dieser Post davon eines der innern (Herzblätter), welche ganz gerade herauskommen, nicht spiralig gewunden, u. dazu ein Blatt eines Sämlings, mit nur 4 Blättern. Auch brachten wir einen weiblichen Zapfen mit 15 Pfund wiegend. Dieselben kommen gerade in der Mitte heraus, gewöhnlich zwei aus einem Stamm. Früchte habe ich ja schon geschickt, u. ist deshalb nochmals zu schicken unnöthig. Auch fand ich eine mir neue Pflanze, wahrscheinlich eine <name key="Stemodia">Stemodia</name>, welche ich unter 432 hiermit schicke, nebst noch einigen andern Pflanzen u. Samen von <seg style="">
+               <space dim="horizontal" extent="tab"/>Neulich hatte ich Gelegenheit, nicht weit von hier, in den Krichauff-Ranges, indem wir nach einem Platze mit Futter u. Wasser suchten, eine ganze Plantage der sogenannten Zamiae zu entdecken. Tausende u. Abertausende bedecken da die steilen Felswände. Ich schicke Ihnen mit dieser Post davon eines der innern (Herzblätter), welche ganz gerade herauskommen, nicht spiralig gewunden, u. dazu ein Blatt eines Sämlings, mit nur 4 Blättern. Auch brachten wir einen weiblichen Zapfen mit 15 Pfund wiegend. Dieselben kommen gerade in der Mitte heraus, gewöhnlich zwei aus einem Stamm. Früchte habe ich ja schon geschickt, u. ist deshalb nochmals zu schicken unnöthig. Auch fand ich eine mir neue Pflanze, wahrscheinlich eine Stemodia, welche ich unter 432 hiermit schicke, nebst noch einigen andern Pflanzen u. Samen von<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Acazias</hi>
                </seg>. Es lässt sich jetzt wenig thun, denn noch immer hält die Trockenheit an, ja es ist so trocken, wie man es hier noch nie gesehen hat, so dass man ganze Strecken sehen kann, wo die Sträucher abzusterben beginnen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Hoffentlich haben Sie die mit letzter Post verschickten Circulare u. Liste erhalten.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Mit Gruss u. Ihnen ein recht glückliches u. gesegnetes Neujahr wünschend</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">hochachtungsvoll</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ihr</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>H. Kempe.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">D.O.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Der Obige.</p>
-               </note> Zur Berichtigung erwähne ich dass Rev. Schulze mein College ist u. mit mir an einem u. demselben Platze wohnt u. mir schon manche Pflanze gebracht hat. Der Zapfen der <seg style="">
-                  <hi rend="underline">
-                     <name key="Zamia">Zamia</name>
-                  </hi>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">D.O.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Der Obige.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Zur Berichtigung erwähne ich dass Rev. Schulze mein College ist u. mit mir an einem u. demselben Platze wohnt u. mir schon manche Pflanze gebracht hat. Der Zapfen der<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Zamia</hi>
                </seg>, welchen wir mitbrachten, ist 15 Zoll lang u. 8 Zoll im Durchmesser.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Mit dieser Post schickt L. Schulze wieder einige Insekten für Ihren frühern Gartengehülfen, dessen Adresse uns abhanden gekommen ist. Hoffentlich sind Sie so freundlich demselben die Büchse zu übermitteln, vorausgesetzt, dass Sie nicht Selbst wollen Gebrauch davon machen, was zu Ihrer Verfügung steht.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">H. Kempe.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
-               xml:lang="en">Hermannsburg<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">NT.</p>
-               </note> 27 December 1881</p>
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Hermannsburg<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>NT.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>27 December 1881</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Esteemed Baron!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst looking for a place with feed and water. Thousands upon thousands covered the steep rocky walls there. I am sending you by this post one of the inner (heart leaves), which come out completely straight, not spirally wound, and in addition a leaf of a seedling with only four leaves. Also we brought with us a female cone weighing 15 pounds. It comes out straight in the middle, usually two from a trunk. I have already sent fruits and therefore it is not necessary to send again. Also I found a new plant for me, probably a <seg style="font-style: italic; ">
-                  <name key="Stemodia">Stemodia</name>
-               </seg>, which I send herewith under 432, together with some other plants and seeds of acacias. There is little to do now, as the dryness still keeps on, indeed it is dry such as has never been seen here, so that you can see whole stretches where the bushes begin to die.</p>
+               <space dim="horizontal" extent="tab"/>Recently I had the opportunity to discover a whole plantation of the so-called zamias not far from here in the Krichauff Ranges, whilst looking for a place with feed and water. Thousands upon thousands covered the steep rocky walls there. I am sending you by this post one of the inner (heart leaves), which come out completely straight, not spirally wound, and in addition a leaf of a seedling with only four leaves. Also we brought with us a female cone weighing 15 pounds. It comes out straight in the middle, usually two from a trunk. I have already sent fruits and therefore it is not necessary to send again. Also I found a new plant for me, probably a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Stemodia</seg>, which I send herewith under 432, together with some other plants and seeds of acacias. There is little to do now, as the dryness still keeps on, indeed it is dry such as has never been seen here, so that you can see whole stretches where the bushes begin to die.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It is to be hoped you received the circular and list sent with the last mail.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Circular and list not found.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>It is to be hoped you received the circular and list sent with the last mail.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Circular and list not found.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>With greetings and wishing you a very happy and blessed New Year.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Respectfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>H. Kempe</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">The above.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Kempe presumably means to indicate that the postscript was written at the same place and date as the main body of the letter.</p>
-               </note> For correction I mention that Reverend Schulze is my colleague and lives with me at one and the same place and has already brought me some plants. The cone of the <seg style="font-style: italic; ">
-                  <name key="Zamia">Zamia</name>
-               </seg>, which we brought with us, is 15 inches long and 8 inches in diameter.</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">The above.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Kempe presumably means to indicate that the postscript was written at the same place and date as the main body of the letter.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>For correction I mention that Reverend Schulze is my colleague and lives with me at one and the same place and has already brought me some plants. The cone of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Zamia</seg>, which we brought with us, is 15 inches long and 8 inches in diameter.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>With this mail L. Schulze is sending some insects for your former garden assistant, whose address we lost.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Charles French?</p>
-               </note> It is to be hoped you will be so kind as to convey the box to him, provided that you yourself do not wish to make use of what is available to you.</p>
+               <space dim="horizontal" extent="tab"/>With this mail L. Schulze is sending some insects for your former garden assistant, whose address we lost.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Charles French<space unit="chars" quantity="1"/>Snr had joined the staff of the Botanic Garden when M was Director, and was still there at this time. He had a long-standing interest in insects.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It is to be hoped you will be so kind as to convey the box to him, provided that you yourself do not wish to make use of what is available to you.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">H. Kempe</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Stemodia">Stemodia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Zamia">Zamia</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Stemodia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Zamia</p>
          </div>
       </body>
    </text>

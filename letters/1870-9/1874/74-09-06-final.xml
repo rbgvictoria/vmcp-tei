@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Copy: ¶ Melbourne, 6 September 1874. ¶ His Excellency the Minister President of Schwerin, ¶  ¶ I have the honourable duty to notify Your Excellency that two important geographical landmarks in Central...</title>
+            <title>Copy: ¶ Melbourne, 6 September 1874. ¶ His Excellency the Minister President ¶  ¶ of ¶  ¶ Schwerin, ¶  ¶ I have the honourable ¶  ¶ duty to notify Your Excellency ¶  ¶ that two important geographical ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Copy: ¶ Melbourne, 6 September 1874. ¶ His Excellency the Minister President of Schwerin, ¶  ¶ I have the honourable duty to notify Your Excellency that two important geographical landmarks in Central...</title>
+               <title>Copy: ¶ Melbourne, 6 September 1874. ¶ His Excellency the Minister President ¶  ¶ of ¶  ¶ Schwerin, ¶  ¶ I have the honourable ¶  ¶ duty to notify Your Excellency ¶  ¶ that two important geographical ...</title>
                <date when="1874-09-06">1874-09-06</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
             </keywords>
@@ -92,57 +88,71 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Copy: ¶ Melbourne, 6 September 1874. ¶ His Excellency the Minister President of Schwerin, ¶  ¶ I have the honourable duty to notify Your Excellency that two important geographical landmarks in Central...</supplied>
+               <supplied reason="XTF-compatibility">Copy: ¶ Melbourne, 6 September 1874. ¶ His Excellency the Minister President ¶  ¶ of ¶  ¶ Schwerin, ¶  ¶ I have the honourable ¶  ¶ duty to notify Your Excellency ¶  ¶ that two important geographical ...</supplied>
             </head>
             <p rend="number" xml:lang="de">74.09.06</p>
             <p rend="correspondent" xml:lang="de">To the Minister-President of Schwerin</p>
             <p rend="location" xml:lang="de">Signatur: 4630, Grossherzogliches Kabinett III, Mecklenburgisches Landeshauptarchiv Schwerin, Germany</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Abschrift:</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">am 6. September 1874.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">Sr. Excellenz dem Minister-Präsidenten zu Schwerin<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS not found; the text given here is based on a copy made by an amanuensis. There was no such position as Minister-President in Schwerin.</p>
-               </note> &amp;c &amp;c.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">Sr. Excellenz dem Minister-Präsidenten zu Schwerin<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS not found; the text given here is based on a copy made by an amanuensis. There was no such position as Minister-President in Schwerin.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp;c &amp;c.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Es liegt mir die ehrenvolle Pflicht ob, Ew. Excellenz mitzutheilen, dass zwei wichtige geographische Landmarken in Central Australien, welche Mr Giles auf einer <seg style="">
+               <space dim="horizontal" extent="tab"/>Es liegt mir die ehrenvolle Pflicht ob, Ew. Excellenz mitzutheilen, dass zwei wichtige geographische Landmarken in Central Australien, welche Mr Giles<space unit="chars" quantity="1"/>auf einer<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">von mir hervorgerufenen</hi>
-               </seg> Entdeckungsreise auffand, auf meinen Wunsch mit den hohen Namen des Grossfürsten <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>Entdeckungsreise auffand, auf meinen Wunsch mit den hohen Namen des Grossfürsten<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Wladimir</hi>
-               </seg> und der Prinzessin von Mecklenburg-<seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>und der Prinzessin von Mecklenburg-<seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Schwerin</hi>
-               </seg> bezeichnet sind, da ich als geborener Mecklenburger ein bleibendes geographisches Denkmal der herrlichen Nuptialfeier zu setzen wünschte. Indem ich mich nun Ihnen ehrerbietig nahe, bittend, dass Ew. Excellenz diesen Ausdruck meines innigen Glückwünsches Sr Königlichen Hoheit dem grossherzoglichen Vater der Jung-Vermählten Prinzessin meines Geburtslandes überbringen wolle, möchte es mir erlaubt sein hinzuzufügen, dass wie gering auch dieser Tribut sein mag, so ist er doch ein <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>bezeichnet sind, da ich als geborener Mecklenburger ein bleibendes geographisches Denkmal der herrlichen Nuptialfeier zu setzen wünschte. Indem ich mich nun Ihnen ehrerbietig nahe, bittend, dass Ew.<space unit="chars" quantity="1"/>Excellenz diesen Ausdruck meines<space unit="chars" quantity="1"/>innigen Glückwünsches<space unit="chars" quantity="1"/>Sr Königlichen Hoheit dem grossherzoglichen Vater der Jung-Vermählten Prinzessin meines Geburtslandes überbringen wolle, möchte es mir erlaubt sein hinzuzufügen, dass wie gering auch dieser Tribut sein mag, so ist er doch ein<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">bleibender</hi>
-               </seg>, da nächste Generationen sich darüber noch freuen können, während dann die Gelegenheiten nicht mehr vorkommen werden, ein <seg style="">
+               </seg>, da nächste Generationen sich darüber noch freuen können, während dann die Gelegenheiten nicht mehr vorkommen werden, ein<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">geschichtliches Denkmal</hi>
-               </seg> eines hoffnungsvollen Ereignisses auf dem <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>eines hoffnungsvollen Ereignisses auf dem<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Felde der Geographie</hi>
-               </seg> zu errichten. Diese Huldigung, die auf Ew. Excellenz Fürsprache der Sohn meines früheren Landesherrn herablassend hinnehmen mag, giebt mir auch die Gelegenheit Ihrem Souverain meine Dankbarkeit für ein Merkmal ermunternder Anerkennung, welche mir vor einigen Jahren zu Theil ward, ehrerbietig auszusprechen.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>zu errichten. Diese Huldigung, die auf Ew. Excellenz Fürsprache der Sohn meines früheren Landesherrn herablassend hinnehmen mag, giebt mir auch die Gelegenheit Ihrem Souverain meine Dankbarkeit für ein Merkmal ermunternder Anerkennung, welche mir vor einigen Jahren zu Theil ward, ehrerbietig auszusprechen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ich habe die Ehre zu verbleiben Ew. Excellez tief ergebener</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Ferd. von Mueller.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>(Professor der Botanik and der</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Universität in Melbourne.)</p>
@@ -150,59 +160,78 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Copy:</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne, 6 September 1874.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">His Excellency the Minister President of Schwerin,</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">His Excellency the Minister President<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>Schwerin,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honourable duty to notify Your Excellency that two important geographical landmarks in Central Australia, discovered by Mr Giles on an exploration journey <seg style="">
+               <space dim="horizontal" extent="tab"/>I have the honourable<space unit="chars" quantity="1"/>duty to notify Your Excellency<space unit="chars" quantity="1"/>that two important geographical landmarks in Central Australia, discovered by Mr Giles on an exploration journey<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">instituted by me</hi>
-               </seg>, were named at my request with the exalted names of the Grand Duke <seg style="">
+               </seg>, were named at my request with the exalted names of the Grand<space unit="chars" quantity="1"/>Duke<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Wladimir</hi>
-               </seg> and the Princess of Mecklenburg-<seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>and the Princess of Mecklenburg-<seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Schwerin</hi>
-               </seg>, because I, as a born Mecklenburger, wished to erect a lasting memorial on the occasion of the glorious nuptial celebrations.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">In August 1874, Grand Duke Vladimir Alexandrovich of Russia married the Duchess Marie of Mecklenburg-Schwerin. At M’s request, Giles named a range of hills south of Lake Amadeus, NT, Schwerin Mural Crescent, and the principal pass traversing the range, Vladimir Pass.</p>
-               </note> While approaching you in reverence, I ask that Your Excellency convey this expression of my sincere wishes to His Royal Highness, the grand-ducal father of the newly-wed Princess of the land of my birth, and may I be permitted to add that, however small this tribute might be, it is yet a <seg style="">
+               </seg>,<space unit="chars" quantity="1"/>because I, as a born<space unit="chars" quantity="1"/>Mecklenburger, wished to erect a lasting memorial on the occasion of the glorious nuptial celebrations.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>In August 1874, Grand Duke Vladimir Alexandrovich of Russia married the Duchess Marie of Mecklenburg-Schwerin. At M's request,<space unit="chars" quantity="1"/>Ernest<space unit="chars" quantity="1"/>Giles named a range of hills south of Lake Amadeus, NT, Schwerin Mural Crescent, and the principal pass traversing the range, Vladimir Pass.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>While approaching you in reverence, I ask that Your Excellency convey this expression of my sincere wishes to His Royal Highness, the grand-ducal father of the newly-wed Princess of the land of my birth, and may I be permitted to add that, however small this tribute might be, it is yet a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">lasting</hi>
-               </seg> one, as coming generations can rejoice at it when there will no longer be opportunities to erect <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>one, as coming generations can rejoice at it<space unit="chars" quantity="1"/>when there will no longer be opportunities to erect<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">in the field of geography</hi>
-               </seg> a <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">historical memorial</hi>
-               </seg> of an auspicious event. This dedication, which the son of my former Sovereign may condescend to accept on Your Excellency's intercession, also gives me the opportunity to reverently express to your Sovereign my gratitude for a token of encouraging acknowledgement that was bestowed on me some years ago.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M was appointed a Knight in Mecklenburg's Order of the Wendish Crown on 9 November 1865; see Friedrich Franz II, Grand Duke of Mecklenburg, to M, 9 November 1865).</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>of an auspicious event. This dedication, which the son of my former Sovereign may condescend to accept on Your Excellency's intercession, also gives me the opportunity to reverently express to your Sovereign my gratitude for a token<space unit="chars" quantity="1"/>of encouraging acknowledgement<space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>was bestowed on me some years ago.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M was appointed a Knight in Mecklenburg's Order of the Wendish Crown on 9 November 1865; see Friedrich Franz<space unit="chars" quantity="1"/>II, Grand<space unit="chars" quantity="1"/>Duke of Mecklenburg, to M, 9 November 1865).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honour to remain Your Excenllency's humble</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>(Professor of Botany at the</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>University of Melbourne)<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The scribe had evidently misunderstood M’s position in Melbourne.</p>
-               </note>.</p>
+               <space dim="horizontal" extent="tab"/>University of Melbourne)<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The scribe had evidently misunderstood M's position in Melbourne.</p>
+                  </note>
+               </seg>.</p>
          </div>
       </body>
    </text>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>7/1/80. ¶  ¶ I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable. ¶  The imagination of untrained observers is too vivi...</title>
+            <title>7/1/80. ¶  ¶ I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable. ¶ For a published version of the notes describing Wyc...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>7/1/80. ¶  ¶ I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable. ¶  The imagination of untrained observers is too vivi...</title>
+               <title>7/1/80. ¶  ¶ I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable. ¶ For a published version of the notes describing Wyc...</title>
                <date when="1880-01-07">1880-01-07</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,16 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/315dd98d-c659-4efc-adea-bb09a361904f">Veronica peregrina</term>
-               <term>Curvembryonatae</term>
-               <term>Monochlamydeae</term>
-               <term>Amyliferae</term>
-               <term>Apetalae</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -79,9 +63,11 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -101,115 +87,138 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">7/1/80. ¶  ¶ I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable. ¶  The imagination of untrained observers is too vivi...</supplied>
+               <supplied reason="XTF-compatibility">7/1/80. ¶  ¶ I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable. ¶ For a published version of the notes describing Wyc...</supplied>
             </head>
             <p rend="number" xml:lang="en">80.01.07</p>
             <p rend="correspondent" xml:lang="en">To Ralph Tate</p>
             <p rend="location" xml:lang="en">Barr Smith Library, University of Adelaide, SA.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">7/1/80.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>For a published version of the notes describing Wycliffe's observations made in 1866 near Blanche Water Creek, SA, see 'Fossil "Foot-prints in the Sands of Time"', </seg>
-                     <seg style="font-style: italic; ">Queenslander </seg>
-                     <seg style="">(Brisbane), 17 January 1880, p. 84. </seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0.1598in; "
-                     xml:lang="en">In a letter to the editor of the Queenslander, dated 16 February [1880], Wycliffe wrote: </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg style="">With regard to my paper on the above subject which appeared in your issue of the 17th January last, I beg to inform you that I sent a copy to Baron F. von Mueller, Victoria, who kindly transmitted it to Prof. Ralph Tate, of the Adelaide University, who is making a geological survey of the country near Blanche Water, and will give a strictly scientific report on the subject' (</seg>
-                     <seg style="font-style: italic; ">Queenslander</seg>
-                     <seg style="">, 6 March 1880, p. 308). </seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">No letter from Wycliffe to M has been found.</p>
-               </note> The imagination of untrained observers is too vivid, and in this conjecture I am reminded of Hamlets and his courtiers colloquy concerning the shapes of the clouds!<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Shakespeare, <seg style="font-style: italic; ">Hamlet</seg>, Act 3, Scene 2.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I did not anticipate, dear Prof Tate, that Mr Wycliffe's notes on traces of human steps on the rocks, mentioned by him, are reliable.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>For a published version of the notes describing Wycliffe's observations made in 1866 near Blanche Water Creek, SA, see 'Fossil "Foot-prints in the Sands of Time"',<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Queenslander<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">(Brisbane), 17 January 1880, p. 84</seg>
+                        <seg rend="DefaultParagraphFont" style="">.<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; font-size: 9pt; hyphenate: false; text-indent: 0.1597in; "
+                        xml:lang="en">In a letter to the editor of the Queenslander, dated 16 February [1880], Wycliffe wrote:<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">With regard to my paper on the above subject which appeared in your issue of the 17</seg>
+                        <seg rend="DefaultParagraphFont" style="">th</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>January last, I beg to inform you that I sent a copy to Baron F. von Mueller, Victoria, who kindly transmitted it to Prof. Ralph Tate, of the Adelaide University, who is making a geological survey of the country near Blanche Water, and will give a strictly scientific report on the subject' (</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Queenslander</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 6 March 1880, p. 308).<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; font-size: 9pt; hyphenate: false; text-indent: 0in; "
+                        xml:lang="en">No letter from Wycliffe to M has been found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The imagination of untrained observers is too vivid, and in this conjecture I am reminded of Hamlets and his courtiers colloquy concerning the shapes of the clouds!<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Shakespeare,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Hamlet</seg>, Act 3, Scene 2.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>
-               <name key="Veronica%20peregrina">Veronica peregrina</name> spreads more and more from year to year, but it is not a native. I have encouraged two South Australian correspondents to furnish lists of the plants, which I named for them, as their localities were not well searched before. These notes may prove acceptable for the volumes of the phil. Soc. of Adelaide. This falls in with your own views, and I will be most happy to revise any Census, which you may write regarding the plants of South Australia and of which you should be yourself the author. The incompletion of the S. Austr. plants in the "flora Australiensis" arose from two causes.</p>
+               <space dim="horizontal" extent="tab"/>Veronica peregrina spreads more and more from year to year, but it is not a native. I have encouraged two South Australian correspondents to furnish lists of the plants, which I named for them, as their localities were not well searched before. These notes may prove acceptable for the volumes of the phil. Soc. of Adelaide. This falls in with your own views, and I will be most happy to revise any Census, which you may write regarding the plants of South Australia and of which you should be yourself the author. The incompletion of the S. Austr. plants in the "flora Australiensis" arose from two causes.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>1, Mr Bentham would not record any species, from any spot, unless he saw a specimen; thus many of my msc. notes at Kew regarding the geographic distribution of the species were never used. This however I would not like to state publicly.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>2, the earlier volumes were published at a time, when far less of the vegetation of your extensive territory was known; thus many additions to the species and still more so to the localities have been made since 1863.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In the publication of such a Census I would suggest, that the sequence of the orders be that adopted by me for the Tasmanian plants,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B80.13.10.</p>
-               </note> in which arrangement I distributed the monochlamydeae of D.C. or apetalae of Juss.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>De Candolle; Jussieu.</p>
-               </note> among the other orders. Thus all the <name key="Amyliferae">Amyliferae</name> (<name key="Curvembryonatae">Curvembryonatae</name>), scattered by Bentham through five volumes, come together, &amp; several other important changes have been made by me in the classification.</p>
+               <space dim="horizontal" extent="tab"/>In the publication of such a Census I would suggest,<space unit="chars" quantity="1"/>that the sequence of the orders be that adopted by me for the Tasmanian plants,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B80.13.10.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>in which arrangement I distributed the monochlamydeae of D.C. or apetalae of Juss.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>De Candolle; Jussieu.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>among the other orders. Thus all the Amyliferae (Curvembryonatae), scattered by Bentham through five volumes, come together, &amp; several other important changes have been made by me in the classification.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Would it not be well to omit in first instance the Arnhems Land plants, or better still to publish them separately though certainly many of the tropical &amp; extratropical species meet in Central Australia.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">I suppose you have seen my long list of Giles 3th &amp; 4th Expeditions p[laced] in Trimen's journal?<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B77.09.01, B77.10.01, B77.11.03.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">I suppose you have seen my long list of Giles 3th &amp; 4th Expeditions p[laced] in Trimen's journal?<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ernest Giles;<space unit="chars" quantity="1"/>B77.09.01, B77.10.01, B77.11.03.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Amyliferae">Amyliferae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Apetalae">Apetalae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Curvembryonatae">Curvembryonatae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Monochlamydeae">Monochlamydeae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Veronica%20peregrina">Veronica peregrina</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Amyliferae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Apetalae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Curvembryonatae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Monochlamydeae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Veronica peregrina</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

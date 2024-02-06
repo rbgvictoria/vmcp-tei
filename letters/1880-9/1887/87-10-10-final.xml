@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Monday ¶  ¶ This morning, dear Mr Macdonald, I received the byefollowing letter from Mr Fort. ¶  Will you kindly give your opinion thereon, so that we may have the advantage of the viceregal presense....</title>
+            <title>Monday ¶ The letter from G. S. Fort to M, cited by M below, was written on a Sundayand would have been delivered the following day;the present letter has been dated on that basis. ¶  ¶ This morning, d...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Monday ¶  ¶ This morning, dear Mr Macdonald, I received the byefollowing letter from Mr Fort. ¶  Will you kindly give your opinion thereon, so that we may have the advantage of the viceregal presense....</title>
+               <title>Monday ¶ The letter from G. S. Fort to M, cited by M below, was written on a Sundayand would have been delivered the following day;the present letter has been dated on that basis. ¶  ¶ This morning, d...</title>
                <date when="1887-10-10">1887-10-10</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -91,94 +87,119 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Monday ¶  ¶ This morning, dear Mr Macdonald, I received the byefollowing letter from Mr Fort. ¶  Will you kindly give your opinion thereon, so that we may have the advantage of the viceregal presense....</supplied>
+               <supplied reason="XTF-compatibility">Monday ¶ The letter from G. S. Fort to M, cited by M below, was written on a Sundayand would have been delivered the following day;the present letter has been dated on that basis. ¶  ¶ This morning, d...</supplied>
             </head>
             <p rend="number" xml:lang="en">87.10.10</p>
             <p rend="correspondent" xml:lang="en">To Alexander Macdonald</p>
             <p rend="location" xml:lang="en">A38, Papers of the Royal Geographical Society of Australasia (Victorian Branch), Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Monday</hi>
                </seg>
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>The letter from G. S. Fort to M, cited by M below, was written on a Sunday and would have been delivered the following day; the present letter has been dated on that basis.</p>
-               </note>
+               <seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The letter from G. S. Fort to M, cited by M below, was written on a Sunday<space unit="chars" quantity="1"/>and would have been delivered the following day;<space unit="chars" quantity="1"/>the present letter has been dated on that basis.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This morning, dear Mr Macdonald, I received the byefollowing letter from Mr Fort.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>G. S. Fort to M, 9 October 1887.</seg>
-                  </p>
-               </note> Will you kindly give your opinion thereon, so that we may have the advantage of the viceregal presense.</p>
+               <space dim="horizontal" extent="tab"/>This morning, dear Mr Macdonald, I received the byefollowing letter from Mr Fort.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>G. S. Fort to M, 9 October 1887.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Will you kindly give your opinion thereon, so that we may have the advantage of the viceregal presense.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Mr Forbes epistle,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See H. Forbes to M, 5 September 1887 (in this edition as 87-09-05a).</p>
-               </note> I suppose, you like to place before the Council, who can give then full force to your reply. I will merely acknowledge the letter pro forma,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See M to H. Forbes, 26 October 1887.</p>
-               </note> except explaining that the specific elaboration of the plants even in Europe would take a great deal of time. Whether he has <seg style="">
+               <space dim="horizontal" extent="tab"/>Mr Forbes epistle,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See H. Forbes to M, 5 September<space unit="chars" quantity="1"/>1887<space unit="chars" quantity="1"/>(in this edition as 87-09-05a).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I suppose, you like to place before the Council, who can give then full force to your reply. I will merely acknowledge the letter pro forma,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M to H. Forbes, 26 October 1887.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>except explaining that the specific elaboration of the plants even in Europe would take a great deal of time. Whether he has<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">all</hi>
-               </seg> the notes (some he has) or not, cannot affect his sending a short report and a sketch map. A <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>the notes (some he has) or not, cannot affect his sending a short report and a sketch map. A<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">full</hi>
-               </seg> list of the plants would be only suitable as an appendix for his <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>list of the plants would be only suitable as an appendix for his<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">new volume</hi>
-               </seg>, the printing of which (so far as I am aware) has not even yet commenced.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Forbes's only known book is H. Forbes (1885), published in both London and New York editions. There are appendices to each section, with lists of plants and some animal groups <space unit="chars" quantity="2"/>after each section of the book, with a major Appendix VI, pp 497- 523, a 'Prodromus Florae Timorensis' by specialist authors including descriptions of several new species.</p>
-               </note>
+               </seg>, the printing of which (so far as I am aware) has not even yet commenced.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Forbes's only known book is<space unit="chars" quantity="1"/>H.<space unit="chars" quantity="1"/>Forbes (1885), published in both London and New York editions.<space unit="chars" quantity="1"/>There are appendices to each section, with lists of plants<space unit="chars" quantity="1"/>and some animal groups<space unit="chars" quantity="3"/>after each section of the book, with a major<space unit="chars" quantity="1"/>Appendix VI,<space unit="chars" quantity="1"/>pp 497-<space unit="chars" quantity="1"/>523,<space unit="chars" quantity="1"/>a 'Prodromus Florae Timorensis'<space unit="chars" quantity="1"/>by specialist authors<space unit="chars" quantity="1"/>including descriptions of several new species.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>We shall of course be delighted, to have Mr Giles, if he will be ready within a <seg style="">
+               <space dim="horizontal" extent="tab"/>We shall of course be delighted, to have Mr Giles, if he will be ready within a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">reasonable time</hi>
-               </seg>, <seg style="">
+               </seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">and</hi>
-               </seg> I will telegraph to him at Port Darwin to that effect, if <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>I will telegraph to him at Port Darwin to that effect, if<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">you</hi>
-               </seg> concur in this. Or a telegram to that effect I could send him yet to Brisbane.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Giles went to the Kimberley district, WA, in 1887, travelling by 'the eastern route', to prospect for gold. See M to S. Davenport, 5 October 1887 (in this edition as 87-10-05a), and M to S. Davenport, 16 October 1887.</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>concur in this. Or a telegram to that effect I could send him yet to Brisbane.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Ernest<space unit="chars" quantity="1"/>Giles went to the Kimberley district, WA, in 1887, travelling by 'the eastern route', to prospect for gold. See M to S. Davenport, 5<space unit="chars" quantity="1"/>October<space unit="chars" quantity="1"/>1887 (in this edition as 87-10-05a),<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>M to S. Davenport,<space unit="chars" quantity="1"/>16 October 1887.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>

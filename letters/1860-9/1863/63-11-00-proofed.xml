@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>table</term>
                <term>note</term>
@@ -68,9 +62,11 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>DefaultParagraphFont</term>
                <term>location</term>
-               <term>Standard</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>Normal</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,130 +90,142 @@
                <supplied reason="XTF-compatibility"> ¶ We the undersigned members of the Medical Society request you will be good enough to call a special meeting of the Members at an early date, to memorialize the Council of the University of Melbourn...</supplied>
             </head>
             <p rend="number" xml:lang="en">63.11.00</p>
-            <p rend="correspondent" xml:lang="en">To William Gillbee</p>
-            <p rend="location" xml:lang="en">Minute book, Medical Society of Victoria, Australian Medical Association, Melbourne.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="Standard"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found; text is from the minutes of the meeting of the Medical Society of Victoria held on 2 December 1863.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>We the undersigned members of the Medical Society request you will be good enough to call a special meeting of the Members at an early date, to memorialize the Council of the University of Melbourne so to alter the time over which the studies required by the Medical Curriculum extend as to make it equal with that prescribed by the best schools of Grt Britain.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Blainey (1957), p. 30: 'A deputation from the Medical Society of Victoria protested that the course was too long and that time was wasted in imparting a liberal education in the arts.' The medical course in Melbourne was five years compared with four years in Scotland <seg style="font-weight: bold; ">and England</seg>.</p>
-               </note>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">William Gillbee</seg>
             </p>
-            <table n="Table1">
+            <p rend="location" xml:lang="en">Minute book, Medical Society of Victoria, Australian Medical Association, Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="Normal"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; text is from the minutes of the meeting of the Medical Society of Victoria held on 2 December 1863.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>We the undersigned members of the Medical Society request you will be good enough to call a special meeting of the Members at an early date, to memorialize the Council of the University of Melbourne so to alter the time over which the studies required by the Medical Curriculum extend as to make it equal with that prescribed by the best schools of Grt Britain.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>At the conclusion of the Annual Meeting of the Society, 13 January 1864, the 'meeting was then made special' to receive the report of a subcommittee <space unit="chars" quantity="1"/>appointed to 'draw up a protest against the curricula of studies directed for candidates for medical and surgical degree at the university of Melbourne'. The long protest document<space unit="chars" quantity="1"/>comparing the nature and length of the curricula at British universities and that at Melbourne<space unit="chars" quantity="1"/>was adopted unanimously and a deputation appointed to present it to a meeting of the council (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 14 January 1864, p. 6).</p>
+                  </note>
+               </seg>
+            </p>
+            <table n="">
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">Signed</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">Wm Thomson</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">Wm Farrage</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
-                        xml:lang="en">Wm Gillbee</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
-                     <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
-                        xml:lang="en">Ferd. Mueller</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
-                     <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
-                        xml:lang="en">J. Black<note xml:id="ftn3" type="footnote" n="3">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                              xml:lang="en">
-                              <seg style="background-color: #ffff00; ">J or T? Either Thomas or Joseph Black, both of whom were members of the Society.</seg>
-                           </p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Wm Gillbee</seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
+                        xml:lang="en">Ferd. Mueller</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="valediction"
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
+                        xml:lang="en">J. Black<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn2" n="3">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">J or T? Either Thomas or Joseph Black, both of whom were members of the Society.</seg>
+                              </p>
+                           </note>
+                        </seg>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="valediction"
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">John Macadam</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">John Bleasdale</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">Edw Wilson</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">Fred. Lloyd</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
-                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
                         xml:lang="en">John Blair</p>
                   </cell>
                </row>

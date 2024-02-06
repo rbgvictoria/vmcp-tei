@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>11th May [188]7 ¶ Dear Baron Mueller, ¶  ¶ I beg to acknowledge the receipt of your letter of the 6th instant. ¶  ¶ I have applied to the Minister of Public Instruction for a free pass for Mr Bauerlen...</title>
-            <author>Joseph Maiden </author>
+            <title>11th May [188]7 ¶ editorial addition. ¶ Dear Baron Mueller, ¶  ¶ I beg to acknowledge the receipt of your letter of the 6th instant. ¶ See M to J. Maiden, 6 May 1887. ¶  ¶ I have applied to the Minist...</title>
+            <author>Joseph Maiden</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -27,8 +27,8 @@
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>Joseph Maiden </author>
-               <title>11th May [188]7 ¶ Dear Baron Mueller, ¶  ¶ I beg to acknowledge the receipt of your letter of the 6th instant. ¶  ¶ I have applied to the Minister of Public Instruction for a free pass for Mr Bauerlen...</title>
+               <author>Joseph Maiden</author>
+               <title>11th May [188]7 ¶ editorial addition. ¶ Dear Baron Mueller, ¶  ¶ I beg to acknowledge the receipt of your letter of the 6th instant. ¶ See M to J. Maiden, 6 May 1887. ¶  ¶ I have applied to the Minist...</title>
                <date when="1887-05-11">1887-05-11</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,73 +86,86 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">11th May [188]7 ¶ Dear Baron Mueller, ¶  ¶ I beg to acknowledge the receipt of your letter of the 6th instant. ¶  ¶ I have applied to the Minister of Public Instruction for a free pass for Mr Bauerlen...</supplied>
+               <supplied reason="XTF-compatibility">11th May [188]7 ¶ editorial addition. ¶ Dear Baron Mueller, ¶  ¶ I beg to acknowledge the receipt of your letter of the 6th instant. ¶ See M to J. Maiden, 6 May 1887. ¶  ¶ I have applied to the Minist...</supplied>
             </head>
             <p rend="number" xml:lang="en">87.05.11a</p>
-            <p rend="correspondent" xml:lang="en">From Joseph Maiden </p>
+            <p rend="correspondent" xml:lang="en">From Joseph Maiden<space unit="chars" quantity="1"/>
+            </p>
             <p rend="location" xml:lang="en">MRS 4/4/333 outward letters, Archives of Powerhouse Museum, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">11th May [188]7<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">editorial addition.</seg>
-                  </p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">11th May [188]7<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">editorial addition.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Baron Mueller,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I beg to acknowledge the receipt of your letter of the 6th instant.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">See M to J. Maiden, 6 May 1887.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I beg to acknowledge the receipt of your letter of the 6th instant.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See M to J. Maiden, 6 May 1887.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have applied to the Minister of Public Instruction for a free pass for Mr Bauerlen as far as Bourke and back, and available from the middle of July to the end of October.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As to writing letters to squatters and others on behalf of Mr Bauerlen, I would gladly write them if I knew to whom to write. I am making enquiries, but have not heard as yet.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Maiden sought advice on the names of squatters and others who would help with transport and food, see J. Maiden to E. Du Faur, 11 May 1887 (MRS 4/4/329 outward letters, Archives of Powerhouse Museum, Sydney). A list of people contacted is given in J. Maiden to M, 13 May 1887.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>As to writing letters to squatters and others on behalf of Mr Bauerlen, I would gladly write them if I knew to whom to write. I am making enquiries, but have not heard as yet.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Maiden sought advice on the names of squatters and others who would help with transport and food, see J. Maiden to E. Du Faur, 11 May 1887,<space unit="chars" quantity="1"/>in this edition as M87-05-11.<space unit="chars" quantity="1"/>A list of people contacted is given in J. Maiden to M, 13 May 1887.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I enclose copy of a letter I sent to Mr Bauerlen for his southern trip, probably a similar one from you, and one from me, would help him in the north west.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Letters not found.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I enclose copy of a letter I sent to Mr Bauerlen for his southern trip, probably a similar one from you, and<space unit="chars" quantity="1"/>one from me, would help him in the north west.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letters not found.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Yours truly,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>J. H. Maiden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Baron Ferd: von Mueller, K.C.M.G., F.R.S.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Melbourne</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>

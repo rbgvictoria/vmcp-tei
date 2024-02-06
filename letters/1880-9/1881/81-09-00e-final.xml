@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ Some time ago I obtained through Mr. Fitzgerald fruiting specimens of Dacrydium Fitzgeraldi, which showed the fruiting characters to be those of Pherosphaera, the size and shape of the fruits being...</title>
+            <title> ¶ Some time ago I obtained through Mr. Fitzgerald ¶ Robert Fitzgerald. ¶  ¶ fruiting specimens of Dacrydium Fitzgeraldi, which showed the fruiting characters to be those of Pherosphaera, the size and...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -21,13 +21,13 @@
             <msDesc>
                <msIdentifier>
                   <altIdentifier>
-                     <idno>67-81.09.00e</idno>
+                     <idno>81.09.00e</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ Some time ago I obtained through Mr. Fitzgerald fruiting specimens of Dacrydium Fitzgeraldi, which showed the fruiting characters to be those of Pherosphaera, the size and shape of the fruits being...</title>
+               <title> ¶ Some time ago I obtained through Mr. Fitzgerald ¶ Robert Fitzgerald. ¶  ¶ fruiting specimens of Dacrydium Fitzgeraldi, which showed the fruiting characters to be those of Pherosphaera, the size and...</title>
                <date when="1881-09">1881-09</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,14 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Pherosphaera Hookeriana</term>
-               <term>Dacrydium Fitzgeraldi</term>
-               <term>Coniferae</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,8 +61,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -96,44 +84,65 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ Some time ago I obtained through Mr. Fitzgerald fruiting specimens of Dacrydium Fitzgeraldi, which showed the fruiting characters to be those of Pherosphaera, the size and shape of the fruits being...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ Some time ago I obtained through Mr. Fitzgerald ¶ Robert Fitzgerald. ¶  ¶ fruiting specimens of Dacrydium Fitzgeraldi, which showed the fruiting characters to be those of Pherosphaera, the size and...</supplied>
             </head>
-            <p rend="number" xml:lang="en">67-81.09.00e</p>
-            <p rend="correspondent" xml:lang="en">To the Gardeners' Chronicle</p>
+            <p rend="number" xml:lang="en">81.09.00e</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Gardeners' Chronicle</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Dacrydium fitzgeraldi', <seg style="font-style: italic; ">Gardeners' chronicle, </seg>5 November 1881, p. 598 (B81.11.01). It was introduced by ' Baron Von Mueller writes:—'.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Dacrydium fitzgeraldi',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gardeners' chronicle,<space unit="chars" quantity="1"/>
+                     </seg>5 November 1881, p. 598<space unit="chars" quantity="1"/>(B81.11.01).<space unit="chars" quantity="1"/>It was introduced by '<space unit="chars" quantity="1"/>Baron Von Mueller writes:—'.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>Some time ago I obtained through Mr. Fitzgerald fruiting specimens of <name key="Dacrydium%20Fitzgeraldi">Dacrydium Fitzgeraldi</name>, which showed the fruiting characters to be those of Pherosphaera, the size and shape of the fruits being all much like those of P. Hookeriana. Whether Pherosphaera is to be maintained as a genus, or whether it should merge as a section into Dacrydium, depends much on the latitude any one wishes to allow to generic limits in <name key="Coniferae">Coniferae</name>, and I am quite willing also to transfer D. Fitzgeraldi to Pherosphaera.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-style: italic; ">Gardeners' chronicle</seg>, 15 October 1881, p. 503 (B81.10.02), had re-published from <seg style="font-style: italic; ">Gartenflora</seg>, vol. 30, pp. 241-2 (B81.13.01), a note by M on <seg style="font-style: italic; ">Dacrydium</seg>. J. Hooker (1867-89), vol. 14, part 4, p. 64, tab. 1383 (issued June 1882) made the new combination <seg style="font-style: italic; ">Pherosphaera </seg>
-                     <seg style="font-style: italic; ">fitzgeraldi</seg>
-                     <seg style="">, attributing it to 'F. Mueller MS', but did not mention this note. Manuscript letter not found.</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Some time ago I obtained through Mr. Fitzgerald<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Robert Fitzgerald.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>fruiting specimens of Dacrydium Fitzgeraldi, which showed the fruiting characters to be those of Pherosphaera, the size and shape of the fruits being all much like those of P. Hookeriana. Whether Pherosphaera is to be maintained as a genus, or whether it should merge as a section into Dacrydium, depends much on the latitude any one wishes to allow to generic limits in Coniferae, and I am quite willing also to transfer D. Fitzgeraldi to Pherosphaera.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gardeners' chronicle</seg>, 15 October<space unit="chars" quantity="1"/>1881, p. 503 (B81.10.02), had re-published from<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gartenflora</seg>, vol.<space unit="chars" quantity="1"/>30, pp.<space unit="chars" quantity="1"/>241-2<space unit="chars" quantity="1"/>(B81.13.01),<space unit="chars" quantity="1"/>a note<space unit="chars" quantity="1"/>by M<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Dacrydium</seg>.<space unit="chars" quantity="1"/>J.<space unit="chars" quantity="1"/>Hooker (1867-89), vol.<space unit="chars" quantity="1"/>14, part 4, p. 64, tab. 1383 (issued June 1882) made the new combination<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pherosphaera</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">fitzgeraldi</seg>
+                        <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">attributing it to 'F. Mueller MS', but did not mention this note. Manuscript letter not found.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Coniferae">Coniferae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dacrydium%20Fitzgeraldi">Dacrydium Fitzgeraldi</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pherosphaera%20Hookeriana">Pherosphaera Hookeriana</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Coniferae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dacrydium Fitzgeraldi</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pherosphaera<space unit="chars" quantity="1"/>Hookeriana</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

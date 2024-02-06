@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>16/10/60. ¶ My dear Dr M'Adam ¶  ¶ I send you the specimens back, one full set named. I have kept the few duplicates &amp; will gladly retain them for our collection if the Council approves of it. ¶  ¶ Sh...</title>
+            <title>16/10/60. ¶ My dear Dr M'Adam ¶  ¶ I send you the specimens back, one full set named. ¶ Gillbank (2011), p. 117 reports that the first consignment of Hermann Beckler's plants from the the Burke&amp;Wills ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>16/10/60. ¶ My dear Dr M'Adam ¶  ¶ I send you the specimens back, one full set named. I have kept the few duplicates &amp; will gladly retain them for our collection if the Council approves of it. ¶  ¶ Sh...</title>
+               <title>16/10/60. ¶ My dear Dr M'Adam ¶  ¶ I send you the specimens back, one full set named. ¶ Gillbank (2011), p. 117 reports that the first consignment of Hermann Beckler's plants from the the Burke&amp;Wills ...</title>
                <date when="1860-10-16">1860-10-16</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,38 +86,59 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">16/10/60. ¶ My dear Dr M'Adam ¶  ¶ I send you the specimens back, one full set named. I have kept the few duplicates &amp; will gladly retain them for our collection if the Council approves of it. ¶  ¶ Sh...</supplied>
+               <supplied reason="XTF-compatibility">16/10/60. ¶ My dear Dr M'Adam ¶  ¶ I send you the specimens back, one full set named. ¶ Gillbank (2011), p. 117 reports that the first consignment of Hermann Beckler's plants from the the Burke&amp;Wills ...</supplied>
             </head>
             <p rend="number" xml:lang="en">60.10.16</p>
             <p rend="correspondent" xml:lang="en">To John Macadam</p>
             <p rend="location" xml:lang="en">MS 11663 Royal Society of Victoria records, box 2/2, La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">16/10/60.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My dear Dr M'Adam</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I send you the specimens back, one full set named. I have kept the few duplicates &amp; will gladly retain them for our collection if the Council approves of it.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">ref. Council minutes?</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I send you the specimens back, one full set named.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Gillbank (2011), p. 117 reports that the first consignment of Hermann Beckler's plants from the the Burke<space unit="chars" quantity="1"/>&amp;<space unit="chars" quantity="1"/>Wills expedition reached Melbourne in October 1860. This letter represents an examination of that first collection,<space unit="chars" quantity="1"/>brought<space unit="chars" quantity="1"/>back<space unit="chars" quantity="1"/>by Georg<space unit="chars" quantity="1"/>Neumayer<space unit="chars" quantity="1"/>who had accompanied the expedition as far as the Darling River<space unit="chars" quantity="1"/>before<space unit="chars" quantity="1"/>turning back<space unit="chars" quantity="1"/>to Melbourne;<space unit="chars" quantity="1"/>he<space unit="chars" quantity="1"/>arrived back in Melbourne on 15<space unit="chars" quantity="1"/>October<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
+                        <space unit="chars" quantity="1"/>(Melbourne),<space unit="chars" quantity="1"/>16 October 1860, p. 4). The plants were<space unit="chars" quantity="1"/>immediately<space unit="chars" quantity="1"/>sent to M<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>'although only lately forwarded <space unit="chars" quantity="1"/>to [him] had already, with that gentleman's usual promptitude, been duly classified' ('Victorian exploring expedition',<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 17 October 1860, p.<space unit="chars" quantity="1"/>5,<space unit="chars" quantity="1"/>reporting a meeting of the Royal Society<space unit="chars" quantity="1"/>of Victoria<space unit="chars" quantity="1"/>held on 16 October).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have kept the few duplicates &amp; will gladly retain them for our collection if the Council approves of it.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The specimens would have been the responsibility of the Royal Society, as sponsors of the expedition.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Should I be able to find time, I will attend the meeting to night.</p>
+               <space dim="horizontal" extent="tab"/>Should I be able to find time, I will attend the meeting to night.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M did attend; see<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 17 October 1860, p. 5.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">yours obed.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller</p>
          </div>

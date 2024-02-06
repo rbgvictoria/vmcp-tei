@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>20/6/81 ¶  ¶ Since some time, dear Mr Jackson, a very lucrative appointment (at £2500 a year) is held by Mr R Br. Smyth as Manager of a Gold Mining Company in the Madras-Presidency. ¶  ¶ If you write ...</title>
+            <title>20/6/81 ¶ AnnotatedR19. ¶  ¶ Since some time, dear Mr Jackson, a very lucrative appointment (at £2500 a year) is held by Mr R Br. Smyth as Manager of a Gold Mining Company in the Madras-Presidency. ¶ ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>20/6/81 ¶  ¶ Since some time, dear Mr Jackson, a very lucrative appointment (at £2500 a year) is held by Mr R Br. Smyth as Manager of a Gold Mining Company in the Madras-Presidency. ¶  ¶ If you write ...</title>
+               <title>20/6/81 ¶ AnnotatedR19. ¶  ¶ Since some time, dear Mr Jackson, a very lucrative appointment (at £2500 a year) is held by Mr R Br. Smyth as Manager of a Gold Mining Company in the Madras-Presidency. ¶ ...</title>
                <date when="1881-06-20">1881-06-20</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,66 +86,79 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">20/6/81 ¶  ¶ Since some time, dear Mr Jackson, a very lucrative appointment (at £2500 a year) is held by Mr R Br. Smyth as Manager of a Gold Mining Company in the Madras-Presidency. ¶  ¶ If you write ...</supplied>
+               <supplied reason="XTF-compatibility">20/6/81 ¶ AnnotatedR19. ¶  ¶ Since some time, dear Mr Jackson, a very lucrative appointment (at £2500 a year) is held by Mr R Br. Smyth as Manager of a Gold Mining Company in the Madras-Presidency. ¶ ...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.06.20</p>
-            <p rend="correspondent" xml:lang="en">To B. Daydon Jackson</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>B. Daydon<space unit="chars" quantity="1"/>Jackson</p>
             <p rend="location" xml:lang="en">Linnean Society, London, Miscellaneous loose letters, Fellows' files. Mueller, F von, letter no. 3.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">20/6/81<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">Annotated</seg> R19.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">20/6/81<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Annotated</seg>
+                        <space unit="chars" quantity="1"/>R19.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Since some time, dear Mr Jackson, a very lucrative appointment (at £2500 a year) is held by Mr R Br. Smyth as Manager of a Gold Mining Company in the Madras-Presidency.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>If you write to him there, he is sure to come up now to his obligation, as h[i]s tide turned favorably.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Robert Brough Smyth had apparently already notified the Society of his new position: the published list of Fellows’ details for 1881 has his address as ‘Ootacamund, Madras’.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>If you write to him there, he is sure to come up now to his obligation, as h[i]s tide turned favorably.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Robert Brough Smyth<space unit="chars" quantity="1"/>had apparently already notified the Society of his new position: the published list of Fellows’ details for 1881 has his address as ‘Ootacamund, Madras’.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Could you kindly send the list of Forrest's plants to Mr Bentham, after you have looked at it and perhaps taken notice of it. Have but few extra copies. You will have access to it hereafter in the proceed. of the R.S. of N.S. Wales.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">B81.13.04. The first post-script paragraph is written cornerwise on the back of the folio, apparently after the letter was folded.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Could you kindly send the list of Forrest's plants to Mr Bentham, after you have looked at it and perhaps taken notice of it. Have but few extra copies. You will have access to it hereafter in the proceed. of the R.S. of N.S. Wales.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>John Forrest.<space unit="chars" quantity="1"/>B81.13.04. The first post-script paragraph is written cornerwise on the back of the folio, apparently after the letter was folded.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>When next is out the L.S's fellowlist I like to make some changes in the titles added to my name.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>When <seg>…</seg> name <seg style="font-style: italic; ">is written on a separate sheet of paper glued to the front of the folio opposite the remainder of the letter</seg>. </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>The only change in the details given for M between the 1879 list and the 1881 list is the addition of <space unit="chars" quantity="1"/>‘Care of Dulau and Co., 307 Soho Square’. No further change was made in the 1882 list. The award of his KCMG in 1879 was not reflected in these lists, which do indicate his CMG.</p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note>
+               <space dim="horizontal" extent="tab"/>When next is out the L.S's fellowlist I like to make some changes in the titles added to my name.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>When<space unit="chars" quantity="1"/>…<space unit="chars" quantity="1"/>name<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">is written on a separate sheet of paper glued to the front of the folio opposite the remainder of the letter</seg>.<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The only change in the details given for M<space unit="chars" quantity="1"/>between<space unit="chars" quantity="1"/>the 1879 list<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>the 1881 list is the addition of <space unit="chars" quantity="1"/>‘Care of Dulau and Co., 307 Soho Square’. No further change was made in the 1882 list.<space unit="chars" quantity="1"/>The award of his KCMG in 1879 was not reflected in these lists, which do indicate his CMG.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

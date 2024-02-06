@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sir,— ¶  ¶ I have the honour to report that, at the earnest desire of some of the leading men of Bellerine, ¶  I again visited that district, and spent a few days visiting their crops, going about fro...</title>
+            <title>Sir,— ¶  ¶ I have the honour to report that, at the earnest desire of some of the leading men of Bellerine, ¶ Bellarine Peninsula, Vic. ¶  ¶ I again visited that district, and spent a few days visitin...</title>
             <author>Alexander Mackenzie</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Alexander Mackenzie</author>
-               <title>Sir,— ¶  ¶ I have the honour to report that, at the earnest desire of some of the leading men of Bellerine, ¶  I again visited that district, and spent a few days visiting their crops, going about fro...</title>
+               <title>Sir,— ¶  ¶ I have the honour to report that, at the earnest desire of some of the leading men of Bellerine, ¶ Bellarine Peninsula, Vic. ¶  ¶ I again visited that district, and spent a few days visitin...</title>
                <date when="1864-12">1864-12</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,8 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>valediction</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -88,43 +83,63 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Sir,— ¶  ¶ I have the honour to report that, at the earnest desire of some of the leading men of Bellerine, ¶  I again visited that district, and spent a few days visiting their crops, going about fro...</supplied>
+               <supplied reason="XTF-compatibility">Sir,— ¶  ¶ I have the honour to report that, at the earnest desire of some of the leading men of Bellerine, ¶ Bellarine Peninsula, Vic. ¶  ¶ I again visited that district, and spent a few days visitin...</supplied>
             </head>
             <p rend="number" xml:lang="en">64.12.00</p>
-            <p rend="correspondent" xml:lang="en">From Alexander Mackenzie</p>
+            <p rend="correspondent" xml:lang="en">From Alexander<space unit="chars" quantity="1"/>Mackenzie</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see <seg style="font-style: italic; ">Argus</seg>, 5 January 1865, p. 6. The letter was addressed to M as chairman of the Rust and Blight Committee of the Board of Agriculture, and read at a special general meeting of the Council of the Board held on 4 January 1865. The letter is dated to December 1864 since press reports have wheat ripening at Drysdale in mid-November and harvested by early December.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 5 January 1865, p. 6. The letter was addressed to M as chairman of the Rust and Blight Committee of the Board of Agriculture, and read at a special general meeting of the Council of the Board held on 4 January 1865. The letter is dated to December 1864 since press reports have wheat ripening at Drysdale in mid-November and harvested by early December.</p>
                </note>Sir,—</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honour to report that, at the earnest desire of some of the leading men of Bellerine,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Bellarine Peninsula, Vic.</seg>
-                  </p>
-               </note> I again visited that district, and spent a few days visiting their crops, going about from farm to farm. … The fact that last year’s rusty seed produced this season good wheat, seems to have revived the drooping spirits of the farmers, and had this truth been known to them last year, thousands of acres would have been cultivated which now are growing thistles and sorrel. I may be permitted to state, as the result of my observations, that drainage, which has so much to do with blight, seems to be disregarded by the rust, as I found it on the tops of the hills, on their sides as well as on the flats. I also observed that manure seems to have nothing do with it, as I found it on lands that were heavily manured with stable-dung, guano, &amp;c, for potatoes, the preceding year, and on lands manured with shells from the seashore as well as on lands not manured at all. But what seems to me more strange, I invariably found it worst on new land. I also observed that the wheat sown in the first week in May was everywhere the least affected, and the seed sown in July the worst, thus showing the advantage of early sowings. I also observed in the fields sown partly with colonial wheat and partly with Adelaide wheat, that the lands sown with the pure South Australian seed, in every case excepting one were the worst rusted. The samples I have the honour of submitting for your consideration, of wheat grown from last year’s rusty seed, are worthy of notice, being of so much importance to the farmer. Nos 1 and 2, from the farm of Mr. R. Greig, Bellerine-hills, both rusty seed. No. 1 was sown in the beginning of May, and sample No. 2 was sown in June. No. 3 is from the farm of Mr. Thos. Carruthers, Drysdale, sown in the second week in June. No. 4 is from the farm of Mr. Donald M’Andrew, Drysdale; it was self sown rusty seed, as the crop on the previous year was so bad as not to be worth reaping.</p>
-            <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">[A. Mackenzie]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>‘The writer referred to a great many other samples, all of which were produced from rusty seed, and turned out to be not only healthy, but very superior wheat.’</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have the honour to report that, at the earnest desire of some of the leading men of Bellerine,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Bellarine Peninsula, Vic.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I again visited that district, and spent a few days visiting their crops, going about from farm to farm. …<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Ellipsis in source text.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The fact that last year's rusty seed produced this season good wheat, seems to have revived the drooping spirits of the farmers, and had this truth been known to them last year, thousands of acres would have been cultivated which now are growing thistles and sorrel. I may be permitted to state, as the result of my observations, that drainage, which has so much to do with blight, seems to be disregarded by the rust, as I found it on the tops of the hills, on their sides as well as on the flats. I also observed that manure seems to have nothing do with it, as I found it on lands that were heavily manured with stable-dung, guano, &amp;c, for potatoes, the preceding year, and on lands manured with shells from the seashore as well as on lands not manured at all. But what seems to me more strange, I invariably found it worst on new land. I also observed that the wheat sown in the first week in May was everywhere the least affected, and the seed sown in July the worst, thus showing the advantage of early sowings. I also observed in the fields sown partly with colonial wheat and partly with Adelaide wheat, that the lands sown with the pure South Australian seed, in every case excepting one were the worst rusted. The samples I have the honour of submitting for your consideration, of wheat grown from last year's rusty seed, are worthy of notice, being of so much importance to the farmer. Nos 1 and 2, from the farm of Mr. R. Greig, Bellerine-hills, both rusty seed. No. 1 was sown in the beginning of May, and sample No. 2 was sown in June. No. 3 is from the farm of Mr. Thos. Carruthers, Drysdale, sown in the second week in June. No. 4 is from the farm of Mr. Donald M'Andrew, Drysdale;<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Neither Greig nor Carruthers have been further identified.</p>
+                  </note>
+               </seg>it was self sown rusty seed, as the crop on the previous year was so bad as not to be worth reaping.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The extract is followed by<space unit="chars" quantity="1"/>'The writer referred to a great many other samples, all of which were produced from rusty seed, and turned out to be not only healthy, but very superior wheat. The letter was signed by Mr. A Mackenzie'.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

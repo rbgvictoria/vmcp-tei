@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne bot Garden ¶ 1/10/63. ¶ My very dear Sir, ¶  ¶ The last Adelaide mail brought me your welcome letter of the 21. September ¶  and the pleasing intelligence of your restoration to health. May ...</title>
+            <title>Melbourne bot Garden ¶ 1/10/63. ¶ My very dear Sir, ¶  ¶ The last Adelaide mail brought me your welcome letter of the 21. September ¶ Letter not found. ¶  ¶ and the pleasing intelligence of your resto...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>PRG 40/20, Mortlock Library, State Library of South Australia, Adelaide.</msName>
+                  <msName>PRG 40/20, Mortlock Library,State Library of South Australia,Adelaide.</msName>
                   <altIdentifier>
                      <idno>63.10.01</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne bot Garden ¶ 1/10/63. ¶ My very dear Sir, ¶  ¶ The last Adelaide mail brought me your welcome letter of the 21. September ¶  and the pleasing intelligence of your restoration to health. May ...</title>
+               <title>Melbourne bot Garden ¶ 1/10/63. ¶ My very dear Sir, ¶  ¶ The last Adelaide mail brought me your welcome letter of the 21. September ¶ Letter not found. ¶  ¶ and the pleasing intelligence of your resto...</title>
                <date when="1863-10-01">1863-10-01</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,89 +86,122 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne bot Garden ¶ 1/10/63. ¶ My very dear Sir, ¶  ¶ The last Adelaide mail brought me your welcome letter of the 21. September ¶  and the pleasing intelligence of your restoration to health. May ...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne bot Garden ¶ 1/10/63. ¶ My very dear Sir, ¶  ¶ The last Adelaide mail brought me your welcome letter of the 21. September ¶ Letter not found. ¶  ¶ and the pleasing intelligence of your resto...</supplied>
             </head>
             <p rend="number" xml:lang="en">63.10.01</p>
             <p rend="correspondent" xml:lang="en">To Samuel Davenport</p>
-            <p rend="location" xml:lang="en">PRG 40/20, Mortlock Library, State Library of South Australia, Adelaide.</p>
+            <p rend="location" xml:lang="en">PRG 40/20, Mortlock Library,<space unit="chars" quantity="1"/>State Library of South Australia,<space unit="chars" quantity="1"/>Adelaide.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">1/10/63.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My very dear Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The last Adelaide mail brought me your welcome letter of the 21. September<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> and the pleasing intelligence of your restoration to health. May you maintain that precious gift uninterruptedly, for life without health is well nigh deprived of all enjoyments &amp; happiness. I am so glad also to hear of Mrs Davenports well-being &amp; beg to be remembered to your Lady, who as such a kind benefactor to my poor sister Bertha will always be [leave]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">live?</seg>
-                  </p>
-               </note> gratefully in my remembrance.</p>
+               <space dim="horizontal" extent="tab"/>The last Adelaide mail brought me your welcome letter of the 21. September<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and the pleasing intelligence of your restoration to health. May you maintain that precious gift uninterruptedly, for life without health is well nigh deprived of all enjoyments &amp; happiness. I am so glad also to hear of Mrs Davenports well-being &amp; beg to be remembered to your Lady, who as such a kind benefactor to my poor sister Bertha will always be [leaving]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>liv</seg>
+                        <seg rend="DefaultParagraphFont" style="">ing</seg>
+                        <seg rend="DefaultParagraphFont" style="">?</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>gratefully in my remembrance.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am much obliged to you for your circumspect attention to my wishing for Mediterranean Acorns and I have no doubt Mr Berthelemy<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Not further identified.</p>
-               </note> will redeem his promise of sending them.</p>
+               <space dim="horizontal" extent="tab"/>I am much obliged to you for your circumspect attention to my wish<space unit="chars" quantity="1"/>for Mediterranean<space unit="chars" quantity="1"/>Acorns<space unit="chars" quantity="1"/>and I have no doubt Mr<space unit="chars" quantity="1"/>Berthelemy<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Not further identified.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>will redeem his promise of sending them.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As you are so kind to offer me to share in your supply of seeds, I would say, that I should gladly accept of some Pistachia Chenopodium Quinoa, Colza, Sesame, Chinese Hemp &amp; Opium Poppy.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">These names have all been underlined, though in what appears to be a different ink from that used by M.</p>
-               </note> I have a special piece of ground set apart for the cultivation of useful plants and am anxious to have as many species in it as possible.</p>
+               <space dim="horizontal" extent="tab"/>As you are so kind to offer me to share in your supply of seeds, I would say, that I should gladly accept of<space unit="chars" quantity="1"/>some Pistachia<space unit="chars" quantity="1"/>Chenopodium Quinoa,<space unit="chars" quantity="1"/>Colza,<space unit="chars" quantity="1"/>Sesame, Chinese Hemp &amp; Opium Poppy.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>These names have all been underlined, though in what appears to be a different ink from that used by M.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have a special piece of ground set apart for the cultivation of useful plants and am anxious to have as many species in it as possible.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As regards Olives I must in candor confess, that as far as I can judge from our plants, which are of slow growth, that we have probably as yet not the best kinds introduced &amp; I must strive to remedy this defect. I believe however that we have all the superior varieties of the White Mulberry and nothing can surpass their vigour of growth. I made it a point to distribute them largely throughout the country during the last 5 seasons and there ought to be plants now well established in every part of the colony to multiply this useful plant ad infinitum by cuttings which grow with the greatest ease.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">I believe ... greatest ease <seg style="font-style: italic; ">marked with a line in the margin and 'White Mulberry' written beside it, probably in the same ink as the underlining referred to in n. 4</seg>.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>As regards Olives I must in candor confess, that as far as I can judge from our plants, which are of slow growth, that we have probably as yet not the best kinds introduced &amp; I must strive to remedy this defect. I believe however that we have all the superior varieties of the White Mulberry and nothing can surpass their vigour of growth. I made it a point to distribute them largely throughout the country during the last 5 seasons and there ought to be plants now well established in every part of the colony to<space unit="chars" quantity="1"/>multiply<space unit="chars" quantity="1"/>this useful plant ad infinitum by cuttings which grow with the greatest ease.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>I believe ... greatest ease<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">marked with a line in the margin and 'White Mulberry'<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">written beside it, probably in the same ink as the underlining referred to in n. 4</seg>.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Mr Bonnefonts catalogue<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Jacquemet-Bonnefont's nursery at Annonay, France regularly issued catalogues, for example that listed as 'Catalogue et Prix-Courant, pour le printemps et l'automne de 1864, des graines et plantes potagères, etc., de Jacquemet-Bonnefont père et fils, à Annonay (Ardèche), et à Lyon, place Belecour' in <seg style="font-style: italic; ">Bulletin de la Société d'Horticulture et d'Arboriculture de la Côte-d'Or</seg>, 1 January 1864, p. 14.</p>
-               </note> will be returned to you as you desire.</p>
+               <space dim="horizontal" extent="tab"/>Mr Bonnefonts<space unit="chars" quantity="1"/>catalogue<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Jacquemet-Bonnefont's nursery at Annonay, France regularly issued catalogues, for example that listed as 'Catalogue et Prix-Courant, pour le printemps et l'automne de 1864, des graines et plantes potagères, etc., de Jacquemet-Bonnefont père et fils, à Annonay (Ardèche), et à Lyon, place Belecour' in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bulletin de la Société d'</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">H</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">orticulture et d'</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">A</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">rboriculture de la Côte-d'Or</seg>, 1 January 1864, p. 14.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>will be returned<space unit="chars" quantity="1"/>to you as you desire.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>We have the Tuberose &amp; Vanilla. The latter will be a plant of commercial utility for Queensland.</p>
+               <space dim="horizontal" extent="tab"/>We have the Tuberose<space unit="chars" quantity="1"/>&amp; Vanilla. The latter will be a plant of commercial utility for Queensland.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ever with kindest remembrance</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>dear Mr Davenport</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>yours</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>

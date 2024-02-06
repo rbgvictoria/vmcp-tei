@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Goode Island ¶ Thursday Island ¶ 1 Sep. 1881 ¶ Dear Sir ¶  ¶ Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glamis Castle" May 11 &amp; your letter of date 24/6...</title>
+            <title>Goode Island ¶ Thursday Island ¶ Qld. MS annotation by M: '"N. Q." Cook'. ¶ 1 Sep. 1881 ¶ Dear Sir ¶  ¶ Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glami...</title>
             <author>Walter Powell</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Walter Powell</author>
-               <title>Goode Island ¶ Thursday Island ¶ 1 Sep. 1881 ¶ Dear Sir ¶  ¶ Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glamis Castle" May 11 &amp; your letter of date 24/6...</title>
+               <title>Goode Island ¶ Thursday Island ¶ Qld. MS annotation by M: '"N. Q." Cook'. ¶ 1 Sep. 1881 ¶ Dear Sir ¶  ¶ Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glami...</title>
                <date when="1881-09-01">1881-09-01</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
                <term>underline</term>
             </keywords>
@@ -91,63 +87,82 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Goode Island ¶ Thursday Island ¶ 1 Sep. 1881 ¶ Dear Sir ¶  ¶ Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glamis Castle" May 11 &amp; your letter of date 24/6...</supplied>
+               <supplied reason="XTF-compatibility">Goode Island ¶ Thursday Island ¶ Qld. MS annotation by M: '"N. Q." Cook'. ¶ 1 Sep. 1881 ¶ Dear Sir ¶  ¶ Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glami...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.09.01</p>
             <p rend="correspondent" xml:lang="en">From Walter Powell</p>
-            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS found with a specimen of <seg style="font-style: italic; ">Luisa teretifolia</seg> (MEL 2129590). MS annotation by M: 'Answ 21/3/82'. Letter not found.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS found with a specimen of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Luisa teretifolia</seg>
+                     <space unit="chars" quantity="1"/>(MEL 2129590).<space unit="chars" quantity="1"/>MS annotation by M: 'Answ 21/3/82'. Letter not found.</p>
                </note>Goode Island</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">Thursday Island<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Qld. MS annotation by M: '"N. Q." Cook'.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Thursday Island<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Qld. MS annotation by M: '"N. Q." Cook'.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">1 Sep. 1881</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glamis Castle" May 11 &amp; your letter of date 24/6/81<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> only reached me August 10, but I am chancing another lot of seaweed &amp; other plants, which I hope you will receive in more decent time.</p>
+               <space dim="horizontal" extent="tab"/>Our arrangements for communication are not perfect. I sent the box from here by the S. S. "Glamis Castle" May 11 &amp; your letter of date 24/6/81<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>only reached me August 10, but I am chancing another lot of seaweed &amp; other plants, which I hope you will receive in more decent time.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The seeds &amp; plants you remarked, as of some interest, &amp; that you would like to have more of, I will send when they again appear, but at present there are none of them visible; the country having been burnt off &amp; their season, apparently is over for this year, at least til the rains set in.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Did Mr French<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Charles French.</p>
-               </note> get the bottle of beetles I sent in your box, as I have not heard from him as yet about them. I am yours obediently</p>
+               <space dim="horizontal" extent="tab"/>Did Mr French<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Charles French Snr.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>get the bottle of beetles I sent in your box, as I have not heard from him as yet about them. I am yours obediently</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">Walter D. S. Powell<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS is accompanied by the front part of an apparently unrelated envelope marked: '<seg style="">
-                        <hi rend="underline">OHMS</hi>
-                     </seg> Natural History Specimens. Sir F von Muëller K.C.M.G. &amp;c Botanic Gardens Melbourne Victoria | Goode Island 8/1/83'.</p>
-               </note>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">Walter D. S. Powell<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS is accompanied by the front part of an apparently unrelated envelope marked: '<seg rend="DefaultParagraphFont" style="">
+                           <hi rend="underline">OHMS</hi>
+                        </seg>
+                        <space unit="chars" quantity="1"/>Natural History Specimens. Sir F von Muëller K.C.M.G. &amp;c Botanic Gardens Melbourne Victoria | Goode Island 8/1/83'.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

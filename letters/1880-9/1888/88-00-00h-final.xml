@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Last year I discovered on one of the trees at Longerenong, ¶ Agricultural College, Dooen, Vic. ¶  a singular departure from the normal type, one of the branches of a staminate tree bearing pistillate...</title>
-            <author>William Clarson</author>
+            <title> ¶ [In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun. ¶ 'C. Fr...</title>
+            <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -21,13 +21,13 @@
             <msDesc>
                <msIdentifier>
                   <altIdentifier>
-                     <idno>88.00.00h</idno>
+                     <idno>88.02.00</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>William Clarson</author>
-               <title>[Last year I discovered on one of the trees at Longerenong, ¶ Agricultural College, Dooen, Vic. ¶  a singular departure from the normal type, one of the branches of a staminate tree bearing pistillate...</title>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun. ¶ 'C. Fr...</title>
                <date when="1888">1888</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -78,7 +75,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Ferdinand von Mueller</name>
+               <name>the Field Naturalists Club of Victoria</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -87,49 +84,129 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Last year I discovered on one of the trees at Longerenong, ¶ Agricultural College, Dooen, Vic. ¶  a singular departure from the normal type, one of the branches of a staminate tree bearing pistillate...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun. ¶ 'C. Fr...</supplied>
             </head>
-            <p rend="number" xml:lang="en">88.00.00h</p>
-            <p rend="correspondent" xml:lang="en">From William Clarson</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="number" xml:lang="en">88.02.00</p>
+            <p rend="correspondent" xml:lang="en">To the Field Naturalists Club of Victoria</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the <seg style="font-style: italic; ">Eighth Progress Report</seg> of Victoria's Royal Commission on Vegetable Products (March 1890), p. 107, from the Minutes of Evidence recording testimony given by Clarson concerning the value of the Carob, <seg style="font-style: italic; ">Ceratonia siliqua</seg>, during his appearance before the Commission on 22 October 1889. Clarson’s use of the term ‘last year’ suggests that he wrote to M in 1888.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>The text given here is from 'Wolffia and Lemna',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Victorian naturalist</seg>,<space unit="chars" quantity="1"/>vol. 4 (March 1888), pp. 195-6.</p>
                </note>
-               <seg style="">[Last year I discovered on one of the trees at Longerenong,</seg>
-               <seg style="">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <space dim="horizontal" extent="tab"/>[In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Agricultural College, Dooen, Vic.</p>
+                        <space dim="horizontal" extent="tab"/>'C. French jun'<space unit="chars" quantity="1"/>
+                        <space unit="chars" quantity="1"/>is often used for Charles H. French. However<space unit="chars" quantity="1"/>here it may<space unit="chars" quantity="1"/>have been an editorial assumption when editing M's communication, as a younger brother appears to have been the collector.<space unit="chars" quantity="1"/>The following report had appeared earlier in<space unit="chars" quantity="1"/>the<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>Victorian naturalist</seg>, vol. 4 (November 1887), p. 105: 'A rare minute acquatic plant,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Wolf</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">f</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">ia Micheli</seg>
+                        <space unit="chars" quantity="1"/>(Schleiden), has been found near Melbourne by Master G.<space unit="chars" quantity="1"/>[i.e., George]<space unit="chars" quantity="1"/>French for the first time in the southern part of the colony, its only Victorian<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">habitat</seg>
+                        <space unit="chars" quantity="1"/>previously known being lagoons near Mount Elephant. It grows also here, as in Europe, amongst<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lemna minor</seg>, but is a still smaller plant, without any root, but bulges downward, and its anthers are only one-celled. Baron von Mueller, who examined and determined it, attaches great importance to this find.'</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>No collection of a Wolffia by any of the French family is retained at MEL (AVH, accessed 9 November, 2023).</p>
                   </note>
                </seg>
-               <seg style=""> a singular departure from the normal type, one of the branches of a staminate tree bearing pistillate, staminate, and hermaphrodite or perfect flowers. I brought the circumstance under the notice of Baron von Mueller, who was much interested in this “sport” from the accepted character of the tree.]</seg>
-               <seg style="">
-                  <note xml:id="ftn3" type="footnote" n="3">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <space unit="chars" quantity="1"/>As it was exhibited at the Microscopical Society some years before, and noticed by W. M. B. in Studley Park, the moral may be drawn that minute floating plants may be easily overlooked, and that naturalists may be in possession of rare or new captures without securing a permanent record. The Baron adds that Wolffia was first found in Australia by himself in 1873, near Mount Emu.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>In his testimony, Clarson added: ‘<seg style="">I had photographs taken of the three characters of bloom—the pistillate, the staminate, and the hermaphrodite or polygamous. These I have the honour</seg>
-                        <seg style="font-size: 10pt; "> </seg>
-                        <seg style="">to hand for the inspection of the Commission on Vegetable Products,</seg>
-                        <seg style="">but desire to have them returned when they</seg>
-                        <seg style="">have served their purpose.’</seg>
+                        <space dim="horizontal" extent="tab"/>See M. to J. Haast, 25 February 1874, reporting that he had found it 'today'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It was at once recorded, and, attention having been drawn to the find, Rev. Dr. Woolls soon detected examples near Port Jackson. It is probable that this tiny plant will be found in the Melbourne district, and it is to be hoped that the find will be duly recorded.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Another small and closely-allied plant, also, is to be looked for. In 1847 Baron von Mueller recognised a Lemna at Adelaide as a new form, and proposed the name<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. pleiorhiza</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. pleiorrhiza</seg>
+                        <seg rend="DefaultParagraphFont" style="">?</seg>
                      </p>
                   </note>
                </seg>
-            </p>
+               <space unit="chars" quantity="1"/>for it. The plant was not described, as he could not find specimens of the tiny flower or fruit, which, as in Wolffia, is so rarely developed. Dr. Kurz, many years afterwards, discovered the same species in India, and unaware of previous observation, named it<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. oligorhiza</seg>.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. oligorrhiza</seg>
+                        <seg rend="DefaultParagraphFont" style="">?<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">fruit</seg>
+               <space unit="chars" quantity="1"/>of this species is still<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">unknown</seg>, and in order to stimulate search for it, that comparisons may be made with<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. minor</seg>
+               <space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. polyrhiza</seg>, the subject was brought a few months ago before the Linnean Society of New South Wales.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <space dim="horizontal" extent="tab"/>At the meeting of the Society held on 28 September 1887 it was reported that M would 'be glad if members would try to discover the fruts of the native species of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lemna'</seg>; see<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Proceedings of the Linnean Society of New South Wales</seg>
+                        <space unit="chars" quantity="1"/>(1887-8),<space unit="chars" quantity="1"/>series 2, vol.<space unit="chars" quantity="1"/>2, p.<space unit="chars" quantity="1"/>621.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It may perhaps fall to the lot of some of our botanical readers to come across this little plant by closer searching in their rambles. If<space unit="chars" quantity="1"/>so, it is earnestly to be desired that they will communicate with the Baron on the subject.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>minor</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>oligorhiza</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>pleiorhiza</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>polyrhiza</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Wolffia</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>

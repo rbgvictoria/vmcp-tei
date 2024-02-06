@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>I am well aware of the danger of elms being lost through boring insects, and that thus whole shade lines of fully up-grown trees may become destroyed, as European sad experience on this subject has re...</title>
+            <title> ¶ I am well aware ¶ o ¶ f the danger ¶ o ¶ f ¶  ¶ elms being lost through boring insects, and ¶  ¶ that thus whole shade lines of f ¶ ully up- ¶ grown tre ¶ es may become destroyed, as Euro ¶ pean sa...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>I am well aware of the danger of elms being lost through boring insects, and that thus whole shade lines of fully up-grown trees may become destroyed, as European sad experience on this subject has re...</title>
+               <title> ¶ I am well aware ¶ o ¶ f the danger ¶ o ¶ f ¶  ¶ elms being lost through boring insects, and ¶  ¶ that thus whole shade lines of f ¶ ully up- ¶ grown tre ¶ es may become destroyed, as Euro ¶ pean sa...</title>
                <date when="1885-06">1885-06</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,12 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Eucalyptus rootrata</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -73,8 +61,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,103 +84,749 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">I am well aware of the danger of elms being lost through boring insects, and that thus whole shade lines of fully up-grown trees may become destroyed, as European sad experience on this subject has re...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ I am well aware ¶ o ¶ f the danger ¶ o ¶ f ¶  ¶ elms being lost through boring insects, and ¶  ¶ that thus whole shade lines of f ¶ ully up- ¶ grown tre ¶ es may become destroyed, as Euro ¶ pean sa...</supplied>
             </head>
             <p rend="number" xml:lang="en">85.06.00b</p>
             <p rend="correspondent" xml:lang="en">To Alfred Douglass</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Diseases in elm and other forest tress', <seg style="font-style: italic; ">Weekly times</seg>, 27 June 1885, <seg style="font-style: italic; ">Farmers gazette supplement</seg>, p. 4 (B85.06.08). It was introduced by '<seg style="">The following is the reply of Baron von Mueller to Mr. A. Douglass, of Geelong, who communicated with the former touching the attack of grubs on elms and other forest trees: —'. The attention of readers was drawn to this letter in an editorial comment on p. 1 of the supplement.</seg>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Diseases in elm and other forest tress',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Weekly times</seg>, 27 June 1885,<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Farmers gazette supplement</seg>, p. 4 (B85.06.08). It was introduced by '<seg rend="DefaultParagraphFont" style="">The following is the reply of Baron von</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">Mueller</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>to Mr. A. Dou</seg>
+                     <seg rend="DefaultParagraphFont" style="">gla</seg>
+                     <seg rend="DefaultParagraphFont" style="">s</seg>
+                     <seg rend="DefaultParagraphFont" style="">s, of Geelong, who</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">communicated with the former touching t</seg>
+                     <seg rend="DefaultParagraphFont" style="">h</seg>
+                     <seg rend="DefaultParagraphFont" style="">e</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">attack of grubs on elms a</seg>
+                     <seg rend="DefaultParagraphFont" style="">n</seg>
+                     <seg rend="DefaultParagraphFont" style="">d other fore</seg>
+                     <seg rend="DefaultParagraphFont" style="">s</seg>
+                     <seg rend="DefaultParagraphFont" style="">t</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">trees: —</seg>
+                     <seg rend="DefaultParagraphFont" style="">'. The attention of readers was drawn to this letter in an editorial comment on p. 1 of the supplement.</seg>
                   </p>
                </note>
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>I am well aware of the danger of elms being lost through boring insects, and that thus whole shade lines of fully up-grown trees may become destroyed, as European sad experience on this subject has repeatedly proved. Indeed, more than twenty-eight years ago, when I commenced to plant the first shade lines of trees in Victoria, I bore these facts well in mind, and had on this subject a correspondence with the late Mr. Edward Wilson,</seg>
-               <seg style="">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">I am well aware<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">f the danger<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">f</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">elms being lost through boring insects, and</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">that thus whole shade lines of f</seg>
+               <seg rend="DefaultParagraphFont" style="">ully up-</seg>
+               <seg rend="DefaultParagraphFont" style="">grown tre</seg>
+               <seg rend="DefaultParagraphFont" style="">es may become destroyed, as Euro</seg>
+               <seg rend="DefaultParagraphFont" style="">pean sad experience on this<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">ubj</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">ct has</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">repeatedly proved. Indeed, mo</seg>
+               <seg rend="DefaultParagraphFont" style="">r</seg>
+               <seg rend="DefaultParagraphFont" style="">e than</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">twenty-eight years ago, when I commen</seg>
+               <seg rend="DefaultParagraphFont" style="">ce</seg>
+               <seg rend="DefaultParagraphFont" style="">d</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">to plant the first shade lines of trees in</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">V</seg>
+               <seg rend="DefaultParagraphFont" style="">i</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">toria,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">I</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>bore these facts well in mind, and</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">had on this subject a correspondence wi</seg>
+               <seg rend="DefaultParagraphFont" style="">t</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the late Mr. Edward Wilson,</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>See M to E. Wilson. October 1859 (in this edition as 59.10.00d) for M's ordering street trees through Wilson.</p>
+                        <space dim="horizontal" extent="tab"/>See M to E. Wilson. October 1859 (in this edition as<space unit="chars" quantity="1"/>59.10.00d) for M's<space unit="chars" quantity="1"/>ordering street trees through Wilson.</p>
                   </note>
                </seg>
-               <seg style=""> who was then in England, and took great interest in tree-planting also, while aiding with Mr. YouI so prominently in Australian pisciculture. About that time also there was much loss among elms in England. There, as in many other parts of Europe, the larvae of the 'goat moth' (Cassus liguiperdo)</seg>
-               <seg style="">
-                  <note xml:id="ftn3" type="footnote" n="3">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>who was then</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">in England, and took great interest in tree-planting also, while aiding with Mr. Y</seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">uI so</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">prominently in Australian pi</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">cicu</seg>
+               <seg rend="DefaultParagraphFont" style="">l</seg>
+               <seg rend="DefaultParagraphFont" style="">tu</seg>
+               <seg rend="DefaultParagraphFont" style="">r</seg>
+               <seg rend="DefaultParagraphFont" style="">e.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">About that tim</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>also there was much<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">l</seg>
+               <seg rend="DefaultParagraphFont" style="">os</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">among elms in England. Ther</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">, as in<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">ma</seg>
+               <seg rend="DefaultParagraphFont" style="">ny</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">other parts<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">f Europe, the larv</seg>
+               <seg rend="DefaultParagraphFont" style="">ae of the '</seg>
+               <seg rend="DefaultParagraphFont" style="">goat</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">moth' (Cassus liguiperdo)</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>
-                        <seg style="font-style: italic; ">Typesetter's misreading of</seg> Cossus ligniperda?</p>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's misreading of</seg>
+                        <space unit="chars" quantity="1"/>Cossus ligniperda?</p>
                   </note>
                </seg>
-               <seg style=""> and a small beetle (Scolytus destructor) are the main borers of the elm, which not rarely succumbs to their ravages. One remedy would be the encouragement of wood-pecking birds to increase here, by letting our few native species alone and unmolested, and by introducing the best kinds of foreign birds of this sort; the 'shanghai'</seg>
-               <seg style="">
-                  <note xml:id="ftn4" type="footnote" n="4">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d a small beetle</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">(Sco</seg>
+               <seg rend="DefaultParagraphFont" style="">l</seg>
+               <seg rend="DefaultParagraphFont" style="">ytus de</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">tr</seg>
+               <seg rend="DefaultParagraphFont" style="">u</seg>
+               <seg rend="DefaultParagraphFont" style="">ctor) are the main borers of</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the elm, which not rarely succumbs to their</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">ravages. One remedy wo</seg>
+               <seg rend="DefaultParagraphFont" style="">u</seg>
+               <seg rend="DefaultParagraphFont" style="">ld be the encouragement of wood-pe</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">king</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>birds to in</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">reas</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>here,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">by letting our few native species alone and</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">unmolested, and by introducing the best</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">kind</seg>
+               <seg rend="DefaultParagraphFont" style="">s of foreign birds of this sort</seg>
+               <seg rend="DefaultParagraphFont" style="">; t</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">'</seg>
+               <seg rend="DefaultParagraphFont" style="">shanghai'</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>Australian term for a hand-held catapult.</p>
                   </note>
                </seg>
-               <seg style=""> and the reckless use of the sporting gun to be suppressed by police vigilance, bird-protecting clubs, and heavy fines anywhere. In France, trees commencing to suffer from the goat moth are (on the original recommendation of the great entomologist, Latreille), surrounded at the stem base with a mixture of clay and cowdung, by which means the larva of the cassus, which are hatched from eggs deposited at the bottom of the stem, are prevented from penetrating the stem. Whether any similar means are of avail, to prevent the large grubs of the eucalyptus moth, endoxyla eucalypti (which bores not only the stems of our blue-gum trees, but also that of some other eucalypts and of our wattle), from getting access to elms, requires to be ascertained. Trees of healthy growth in well-adapted soil would be far less liable to the boring of the endoxyla than sickly trees, planted in more or less unsuitable soil and subject to stagnant moisture at their roots. Lingering blue-gum tees, when bored by the endoxyla, I have often saved by starting them again into vigorous growth through surrounding the base of the stem with an earth seat, covered with sods of Indian couch-grass, it being also necessary under any circumstances to remove old and loose pieces of the outer bark regularly from the stem, to prevent insects from harbouring under such shelter. As the attack on your elms seems a new one here, it would be necessary to initiate experiments as to the best means of protecting these English trees under altered circumstances in this colony. I should like to see a sample of the larva, pupa, and perfect insect destroying your elms there. Some kinds of our eucalyptus are also attacked by beetles, as borers into the wood, the two most formidable, as identified by Mr. French, being Hapatesus nirtus</seg>
-               <seg style="">
-                  <note xml:id="ftn5" type="footnote" n="5">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>and the re</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">kles</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>use of the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">sporting gun to be suppressed by police</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">vigilance, bird-protecting clubs, and heavy</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">fines any</seg>
+               <seg rend="DefaultParagraphFont" style="">where. In France, trees commencing</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">to suffer from the goat moth are (on the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">original recommendation of the great entomologist, Latreille), surrounded at t</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">e stem</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">base w</seg>
+               <seg rend="DefaultParagraphFont" style="">it</seg>
+               <seg rend="DefaultParagraphFont" style="">h a mixture of<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">lay and<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">owdu</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">g</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">by whi</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">h mea</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">s the larva of the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">assu</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">which are hatched fr</seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">m eggs deposited at the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">bottom of the stem, are prevented from</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">penetrating the stem. Whether a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">y<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">sim</seg>
+               <seg rend="DefaultParagraphFont" style="">i</seg>
+               <seg rend="DefaultParagraphFont" style="">l</seg>
+               <seg rend="DefaultParagraphFont" style="">ar</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">means are of avail, to prevent<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">th</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">larg</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>grubs</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">of the eucalyptus moth, endoxyla eucalypti</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">(which bores not o</seg>
+               <seg rend="DefaultParagraphFont" style="">nl</seg>
+               <seg rend="DefaultParagraphFont" style="">y t</seg>
+               <seg rend="DefaultParagraphFont" style="">he<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">stems of our bl</seg>
+               <seg rend="DefaultParagraphFont" style="">ue</seg>
+               <seg rend="DefaultParagraphFont" style="">-gum tree</seg>
+               <seg rend="DefaultParagraphFont" style="">s, but also that of some ot</seg>
+               <seg rend="DefaultParagraphFont" style="">her</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">ucalypts and of our wattle), from getting</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">access to elms, requires to be ascertained.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Trees of healthy growth in well-adapted soil</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">would be far less liable to the boring</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">of the endoxyla than sickly trees, planted</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">i</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>more or less unsuitable soil and subject to stagnant moi</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">ture at their roots.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Lingering blue-gum t</seg>
+               <seg rend="DefaultParagraphFont" style="">ees, when bored by</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the endoxyla, I hav</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">f</seg>
+               <seg rend="DefaultParagraphFont" style="">te</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>saved by starting</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">them again into vigorous growth throug</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">surrounding th</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>base o</seg>
+               <seg rend="DefaultParagraphFont" style="">f</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>the stem w</seg>
+               <seg rend="DefaultParagraphFont" style="">it</seg>
+               <seg rend="DefaultParagraphFont" style="">h an</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">earth seat, covered with sods<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">f I</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">dia</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">couch-grass, it b</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">ing also n</seg>
+               <seg rend="DefaultParagraphFont" style="">ecessary und</seg>
+               <seg rend="DefaultParagraphFont" style="">er</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">any circumstances to remove old and loose</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">pieces of the outer ba</seg>
+               <seg rend="DefaultParagraphFont" style="">r</seg>
+               <seg rend="DefaultParagraphFont" style="">k regularly from the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">stem, to prevent<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">insects</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>from<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">arbouri</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">g</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">under such shelter. A</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>the atta</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">k on your</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">elms seems a new one here, it would be</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">necessary to initiate experiments as to the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">best means of prote</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">ti</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">g these E</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">g</seg>
+               <seg rend="DefaultParagraphFont" style="">li</seg>
+               <seg rend="DefaultParagraphFont" style="">sh trees</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">under altered<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">ir</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">umstance</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>in this colony. I</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">should like to<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">ee a sample of the larva,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">pup</seg>
+               <seg rend="DefaultParagraphFont" style="">a</seg>
+               <seg rend="DefaultParagraphFont" style="">, and perfect in</seg>
+               <seg rend="DefaultParagraphFont" style="">sec</seg>
+               <seg rend="DefaultParagraphFont" style="">t destroying your</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">elms there. Some kinds of our eucalyptus</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">are also atta</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">ked by beetles, as borers into</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the wood, the two most formidable, as</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">identified by Mr. French,</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>Charles French<space unit="chars" quantity="1"/>Snr.</p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>being Hapa</seg>
+               <seg rend="DefaultParagraphFont" style="">t</seg>
+               <seg rend="DefaultParagraphFont" style="">esus</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">nirt</seg>
+               <seg rend="DefaultParagraphFont" style="">us</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>
-                        <seg style="font-style: italic; ">Typesetter's error for</seg> Hapatesus hirtus?</p>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                        <space unit="chars" quantity="1"/>Hapatesus hirtus?</p>
                   </note>
                </seg>
-               <seg style=""> and Phoracantha nicusyus,</seg>
-               <seg style="">
-                  <note xml:id="ftn6" type="footnote" n="6">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">and</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Phora</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">anth</seg>
+               <seg rend="DefaultParagraphFont" style="">a</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">nicusyus</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>
-                        <seg style="font-style: italic; ">Typesetter's error for</seg> Phoracantha tricuspis? See French (1891-1911), part 5, pp. 71-3. </p>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                        <space unit="chars" quantity="1"/>Phoracantha tricuspis? See French (1891-1911), part 5, pp. 71-3.<space unit="chars" quantity="1"/>
+                     </p>
                   </note>
                </seg>
-               <seg style=""> particularly the latter. The discussion of this subject brings me back to my original recommendations, made more than thirty years ago to adopt for street lines only such trees as are known not to be readily subject to diseases, whether arising from insects or from fungi or otherwise. Thus many pines are also exempt from parasitic attacks. The native red-gum tree (E. rootrata</seg>
-               <seg style="">
-                  <note xml:id="ftn7" type="footnote" n="7">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>particularly</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the latter. The dis</seg>
+               <seg rend="DefaultParagraphFont" style="">cu</seg>
+               <seg rend="DefaultParagraphFont" style="">ssion of this subject</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">brings me back to my original recommendations, made more than thirty years ago to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">adopt for street lines only such trees as are</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">k</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">own not to be readily subject to diseases,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">whether arising from insects or from fungi or</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">otherwise. Thus many pines are also exempt</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">from parasitic atta</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">ks. The native red-gum</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">tree (E. ro</seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">trata</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>
-                        <seg style="font-style: italic; ">Typesetter's error for</seg> E. rostrata?</p>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter's error for</seg>
+                        <space unit="chars" quantity="1"/>E. rostrata?</p>
                   </note>
                </seg>
-               <seg style="">), with its antiseptic wood, is also far preferable to many other eucalyptus for lasting avenues, and many other trees deserve consideration, concerning which my inexpensive work on 'Select plants for Industrial culture and naturalisation'</seg>
-               <seg style="">
-                  <note xml:id="ftn8" type="footnote" n="8">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">), with its antiseptic wood,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">is also far preferable to many other eu</seg>
+               <seg rend="DefaultParagraphFont" style="">caly</seg>
+               <seg rend="DefaultParagraphFont" style="">ptus</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">for lasting avenues, and many other trees</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">deserve consideration,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">on</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">er</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">ing whi</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">h my</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">inexpensive</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>work on 'Select plants for</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Industrial culture and naturalisation</seg>
+               <seg rend="DefaultParagraphFont" style="">'</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>B76.12.04; other, renamed, editions had been published in India, NSW and the United States.</p>
+                        <space dim="horizontal" extent="tab"/>B76.12.04; other, renamed,<space unit="chars" quantity="1"/>editions had been published in India, NSW and the United States.</p>
                   </note>
                </seg>
-               <seg style=""> might be consulted, which is obtainable at the Government printing office in Melbourne, and of which an enlarged edition, by the approval of the Hon. Graham Berry, will appear towards the end of this year.</seg>
-               <seg style="">
-                  <note xml:id="ftn9" type="footnote" n="9">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>might</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">be<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">ons</seg>
+               <seg rend="DefaultParagraphFont" style="">u</seg>
+               <seg rend="DefaultParagraphFont" style="">lted, whi</seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">h is obtainable at the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Government printing office in Melbourne, an</seg>
+               <seg rend="DefaultParagraphFont" style="">d</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">f</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>which</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">an enlarged edition</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>by the approval</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">of the Hon. Graham B</seg>
+               <seg rend="DefaultParagraphFont" style="">er</seg>
+               <seg rend="DefaultParagraphFont" style="">ry, will appear</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">towards the end of<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">thi</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>year.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>B85.12.03.</p>
@@ -198,13 +834,36 @@
                </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">P.S — It might be tried to give the affected portions of the stems of your elms a coating of coal-tar.</seg>
-               <seg style="">
-                  <note xml:id="ftn10" type="footnote" n="10">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">P.</seg>
+               <seg rend="DefaultParagraphFont" style="">S</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>— It might be tried to give the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">affected portions of the st</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">m</seg>
+               <seg rend="DefaultParagraphFont" style="">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>of your e</seg>
+               <seg rend="DefaultParagraphFont" style="">lms</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>a</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">oating of<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">c</seg>
+               <seg rend="DefaultParagraphFont" style="">oal-tar.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn10" n="11">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>There is no valediction before the PS in the source.</p>
@@ -213,9 +872,9 @@
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus%20rootrata">Eucalyptus rootrata</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus rootrata</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>20 July 1858 ¶  ¶ Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens, ¶  I have the honor to inform you that His Excellency the...</title>
+            <title>20 July 1858 ¶  ¶ Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens, ¶ See M to J. O'Shanassy, 7 July 1858. ¶  ¶ I have the ho...</title>
             <author>John Moore</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>John Moore</author>
-               <title>20 July 1858 ¶  ¶ Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens, ¶  I have the honor to inform you that His Excellency the...</title>
+               <title>20 July 1858 ¶  ¶ Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens, ¶ See M to J. O'Shanassy, 7 July 1858. ¶  ¶ I have the ho...</title>
                <date when="1858-07-20">1858-07-20</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,41 +85,49 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">20 July 1858 ¶  ¶ Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens, ¶  I have the honor to inform you that His Excellency the...</supplied>
+               <supplied reason="XTF-compatibility">20 July 1858 ¶  ¶ Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens, ¶ See M to J. O'Shanassy, 7 July 1858. ¶  ¶ I have the ho...</supplied>
             </head>
             <p rend="number" xml:lang="en">58.07.20</p>
             <p rend="correspondent" xml:lang="en">From John Moore</p>
             <p rend="location" xml:lang="en">No. 1582, unit 3, p. 164, VPRS 1187 outward correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">20 July 1858</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to J. O'Shanassy, 7 July 1858.</p>
-               </note> I have the honor to inform you that His Excellency the Governor has been pleased to appoint you to be a member of the Committee the other members of which are named on the margin<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">S. G. Evans, C. Pasley, F. McCoy, M, F. Selwyn, T. Black, T. Embling, D. S. Campbell, H. J. Chambers, W. H. Archer. In letters to these members an extra paragraph was added to the above circular: 'Further I have to inform you that Dr Mueller has consented to act as Hony Secretary &amp; that he will convene a preliminary meeting at an early day'.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Referring to the statement of your willingness to act on the Comittee for the management of the proposed Zoological Gardens,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See M to J. O'Shanassy, 7 July 1858.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have the honor to inform you that His Excellency the Governor has been pleased to appoint you to be a member of the Committee the other members of which are named on the margin<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>S. G. Evans<space unit="chars" quantity="1"/>[G. S. Evans, see M to J. Oshanassy, 7 July 1858, n. 2], C. Pasley, F. McCoy, M, F. Selwyn, T. Black, T. Embling, D. S. Campbell, H. J. Chambers, W. H. Archer. In letters to these members an extra paragraph was added to the above circular: 'Further I have to inform you that Dr Mueller has consented to act as Hony Secretary &amp; that he will convene a preliminary meeting at an early day'.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">signed J. Moore</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Mueller</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Government Botanist</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Melbourne</p>
          </div>
       </body>

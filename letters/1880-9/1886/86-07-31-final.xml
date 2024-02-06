@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,28 +92,31 @@
             <p rend="location" xml:lang="en">Adelaide City Archives, Adelaide.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">31/7/86.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In a few days, dear Sir, I shall have to write to Mr O'Donnell, concerning some plants, sent by him, when I will be happy, to bring your wishes under his notice also. I suppose, you are fully informed about what Mr E. Giles noticed of native paintings a dozen years ago, near the Macdonell-Ranges.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>NT. During his first expedition, in 1872, Giles found, near a waterhole that he named Glen Edith, a large cave 'upon the walls of which the natives had painted strange devices of snakes, principally white, the children had scratched imperfect shapes of hands with bits of charcoal'; see Giles (1875), p. 38.</p>
-               </note> If not, — then write to him; his adress is Kew near Melbourne.</p>
+               <space dim="horizontal" extent="tab"/>In a few days, dear Sir, I shall have to write to Mr O'Donnell, concerning some plants, sent by him, when I will be happy, to bring your wishes under his notice also. I suppose, you are fully informed about what Mr E. Giles noticed of native paintings a dozen years ago, near the Macdonell-Ranges.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>NT. During his first expedition, in 1872, Giles found, near a waterhole that he named Glen Edith, a large cave 'upon the walls of which the natives had painted strange devices of snakes, principally white, the children had scratched imperfect shapes of hands with bits of charcoal'; see<space unit="chars" quantity="1"/>E.<space unit="chars" quantity="1"/>Giles (1875), p. 38.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>If not, — then write to him; his adress is Kew near Melbourne.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>

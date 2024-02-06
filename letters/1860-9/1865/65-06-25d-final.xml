@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-               <term>Times, Times</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,10 +62,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>form text</term>
+               <term>formtext</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -98,98 +93,123 @@
             </head>
             <p rend="number" xml:lang="de">65.06.25d</p>
             <p rend="correspondent" xml:lang="de">To Heinrich Barth</p>
-            <p rend="location" xml:lang="de">Autogr. I/712, Handschriftenabteilung, Staatsbibliothek zu Berlin, Preussischer Kulturbesitz, Berlin.</p>
+            <p rend="location" xml:lang="de">Autogr. I/712, Handschriftenabteilung, Staatsbibliothek zu Berlin, Preussischer Kulturbesitz, Berlin.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS envelope front: 'Herrn Dr Barth, C. B., | Director der geographisch. | Geselllschaft, Ritter &amp;c &amp;c | Berlin | <seg style="">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS envelope front: 'Herrn Dr Barth, C. B., | Director der geographisch. | Geselllschaft, Ritter &amp;c &amp;c | Berlin |<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
                         <hi rend="underline">Prussia</hi>
-                     </seg> | <seg style="">
+                     </seg>
+                     <space unit="chars" quantity="1"/>|<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
                         <hi rend="underline">Ferd. Mueller MD.</hi>
                      </seg>'</p>
                </note>
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">LADIES'</seg>
+               <seg rend="formtext" style="color: #2F5496; ">LADIES'</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">LEICHARDT</seg>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">sic.</seg>
-                  </p>
-               </note>
+               <seg rend="formtext" style="color: #2F5496; ">LEICHARDT</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">sic.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">SEARCH</seg>
+               <seg rend="formtext" style="color: #2F5496; ">SEARCH</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">COMMITTEE</seg>
+               <seg rend="formtext" style="color: #2F5496; ">COMMITTEE</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">25/6/65</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Unzweifelhaft, edler Herr, haben Sie mit Interesse die Bewegung verfolgt, welche hier zur Aufsuchung Leichhardts entstand. Als Präsident der geographischen Gesellschaft Preussens wenden Sie sicher dem Geschick Ihres speciellem Landsmannes rege Theilnahme zu, und theilen meine Freude, dass durch das eifrige Wirken der Damen es möglich geworden, bereits die Expedition zur Aufsuchung der verschollenen Reisenden zu organisiren. Schon in dieser Woche werden die Reisegefährten M'Intyres, der zum Befehlshaber erwählt, ihrem Führer am Darling Fluss zureisen, da dort die ganze Caravane gebildet werden soll. 14 Dromedare u etwa 30 Pferde sind als Lastthiere zusammen gebracht u die Parthie wird für 2 Jahre mit Proviant und andern Erfordernissen ausgerüstet werden. Ob es während dieser Zeit möglich sein wird über Leichhardts Schicksal Gewissheit zu erlangen muss die Zukunft lehren. Vielleicht bedarf es einer zweiten Reise, ja vielleicht einer dritten, sollte der Arme im entfernten Westen Australiens erlegen sein. Soviel aber steht fest, dass die hochherzigen Damen niemals zufrieden sein werden, bis nicht das Geschick der verlorenen Reisenden völlig erkundet ist. — Das vergleichungsweise langsame Dahinziehen einer Aufsuchungs Expedition wird es aber möglich machen, das neue erforschte Land viel genauer u ausgedehnter geographisch zu untersuchen, als es unter den Verhältnissen einer gewöhnlichen Entdeckungsreise möglich ist. Wir dürfen nur einen schwachen Funken der Hoffnung nähren, dass Leichhardt oder irgend einer seiner Begleiter noch das Leben friste; das aber steht fest, dass es nur Ausdauer u sorgsamer Umsicht bedarf, um über sein Geschick sichere Erfahrung einzuziehen. Freilich wird es manche Geldmittel erfordern, um den Plan befriedigend durchzuführen. Die Damen haben aber bereits etwa £1000 gesammelt, haben dann auch das Versprechen von Subsidien aus den Staatscassen v<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">von.</p>
-               </note> Queensland, Südaustralien u Victoria erlangt u gedenken mit dem Sammeln der Geldmittel fortzufahren so lange die Parthie im Felde ist. Die gütigen Vertreterinnen des Unternehmens haben sich bittend an die Kronprinzessin Ihres Reiches gewandt, wohl erkennend, dass ein paar freundliche ermuthigende Worte von den Thronen Europas die Apathie, welche hier leider noch in weiten Kreisen gegen das Unternehmen sich zeigt, überwinden würden. An Ihre Thronfolgerin haben die Damen vielleicht auch einige Ansprüche auf Sympathie; ist doch die Prinzessin berufen einst die Krone des Reiches zu tragen, dem Leichhardt angehört u ist der Arme doch in dem Lande verloren, über das ihre königliche Mutter das Scepter hält. Für mich hat das Unternehmen noch neben seiner menschenfreundlichen Tendenz eine weitere hohe Bedeutung. Es wird uns zeigen, was Damen vermögen vereint wie unsere für grosse hochherzige nationelle Zwecke; u ich zweifle nicht dass das Beispiel welches die Frauen Victorias gegeben in andern Ländern für die Ausführung grosser edler weltbürgerlicher Unternehmungen Nachahmung finden wird. Die Parthie ist so organisirt, dass die Aufsuchung Leichhardts Hauptaufgabe bleibt. Für diesen Zweck sind 2 Schwarze der kleinen Schar beigegeben u nur Mitglieder gewählt die an langes "Buschleben" gewöhnt sind. Dass ungeachtet mag uns die schöne Unternehmung dennoch auch Früchte tragen für manche Zweige der Naturwissenschaft. Wir sind sicher die geographische Karte Australiens durch die Damen Expedition weit ausgedehnt zu sehen, u wir können auch erwarten, dass der talentvolle junge Arzt, Dr J. Murray, der dem Unternehmen beigegeben ist, unsere Kunde der Naturerzeugnisse Australiens bereichern wird. So lernen wir vielleicht neue Goldfelder, Kupferminen, ausgedehnte Weideländereien kennen, u es mag sich, während die Damen Expedition das vielleicht ausführt, was Leichhardt beabsichtigte, nämlich den grossen Westen Australiens zu erschliessen die Gelegenheit geben kennen zu lernen, durch welche Gegenden die Telegraphen Linien, die uns mit Europe in Contact bringen sollen, am vortheilhaftesten gezogen werden können.</p>
+               <space dim="horizontal" extent="tab"/>Unzweifelhaft, edler Herr, haben Sie mit Interesse die Bewegung verfolgt, welche hier zur Aufsuchung Leichhardts entstand. Als Präsident der geographischen Gesellschaft Preussens wenden Sie sicher dem Geschick Ihres speciellem Landsmannes rege Theilnahme zu, und theilen meine Freude, dass durch das eifrige Wirken der Damen es möglich geworden, bereits die Expedition zur Aufsuchung der verschollenen Reisenden zu organisiren. Schon in dieser Woche werden die Reisegefährten M'Intyres, der zum Befehlshaber erwählt, ihrem Führer am Darling Fluss zureisen, da dort die ganze Caravane gebildet werden soll. 14 Dromedare u etwa 30 Pferde sind als Lastthiere zusammen gebracht u die Parthie wird für 2 Jahre mit Proviant und andern Erfordernissen ausgerüstet werden. Ob es während dieser Zeit möglich sein wird über Leichhardts Schicksal Gewissheit zu erlangen muss die Zukunft lehren. Vielleicht bedarf es einer zweiten Reise, ja vielleicht einer dritten, sollte der Arme im entfernten Westen Australiens erlegen sein. Soviel aber steht fest, dass die hochherzigen Damen niemals zufrieden sein werden, bis nicht das Geschick der<space unit="chars" quantity="1"/>verlorenen Reisenden völlig erkundet ist. — Das vergleichungsweise langsame Dahinziehen einer Aufsuchungs Expedition wird es aber möglich machen, das neue erforschte Land viel genauer u ausgedehnter geographisch zu untersuchen, als<space unit="chars" quantity="1"/>es<space unit="chars" quantity="1"/>unter den Verhältnissen einer gewöhnlichen Entdeckungsreise möglich ist. Wir dürfen nur einen<space unit="chars" quantity="1"/>schwachen Funken der Hoffnung nähren, dass Leichhardt oder irgend einer seiner Begleiter noch das Leben friste; das aber steht fest, dass es nur Ausdauer u sorgsamer Umsicht bedarf, um über sein Geschick sichere Erfahrung einzuziehen. Freilich wird es manche Geldmittel erfordern, um den Plan befriedigend durchzuführen. Die Damen haben aber bereits etwa £1000 gesammelt, haben dann auch das Versprechen von Subsidien aus den Staatscassen v<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>von.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Queensland, Südaustralien u Victoria erlangt u gedenken mit dem Sammeln der Geldmittel fortzufahren so lange die Parthie im Felde ist. Die gütigen Vertreterinnen des Unternehmens haben sich<space unit="chars" quantity="1"/>bittend an die Kronprinzessin Ihres Reiches gewandt, wohl erkennend, dass ein paar freundliche ermuthigende Worte von den Thronen Europas die Apathie, welche hier leider noch in weiten Kreisen gegen das Unternehmen sich zeigt, überwinden würden. An Ihre Thronfolgerin haben die Damen vielleicht auch einige Ansprüche auf Sympathie; ist doch die Prinzessin berufen einst die Krone des Reiches zu tragen, dem Leichhardt angehört u ist der Arme doch in dem Lande verloren, über das ihre königliche Mutter das Scepter hält. Für mich hat das Unternehmen noch neben seiner menschenfreundlichen Tendenz eine weitere hohe Bedeutung. Es wird uns zeigen, was Damen vermögen vereint wie unsere für grosse hochherzige nationelle Zwecke; u ich zweifle nicht dass das Beispiel welches die Frauen Victorias gegeben in andern Ländern für die Ausführung grosser edler weltbürgerlicher Unternehmungen Nachahmung finden wird. Die Parthie ist so organisirt, dass die Aufsuchung Leichhardts Hauptaufgabe bleibt. Für diesen Zweck sind 2 Schwarze der kleinen Schar beigegeben u nur Mitglieder gewählt die an langes "Buschleben" gewöhnt sind. Dass ungeachtet mag uns die schöne Unternehmung dennoch auch Früchte tragen für manche Zweige der Naturwissenschaft. Wir sind sicher die geographische Karte Australiens durch die Damen Expedition weit ausgedehnt zu sehen, u wir können auch erwarten, dass der talentvolle junge Arzt, Dr J. Murray, der dem Unternehmen beigegeben ist, unsere Kunde der Naturerzeugnisse Australiens bereichern wird. So lernen wir vielleicht neue Goldfelder, Kupferminen, ausgedehnte Weideländereien kennen, u es mag sich, während die Damen Expedition das vielleicht ausführt, was Leichhardt beabsichtigte, nämlich den grossen Westen Australiens zu erschliessen die Gelegenheit geben kennen zu lernen, durch welche Gegenden die Telegraphen Linien, die uns mit<space unit="chars" quantity="1"/>Europe<space unit="chars" quantity="1"/>in Contact bringen sollen, am vortheilhaftesten<space unit="chars" quantity="1"/>gezogen werden können.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Verehrungsvoll bleibe ich der Ihre</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Ferd. Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="de">Der Name einiger Gelehrter Deutschlands wird auf neue Punkte der Geographie übertragen werden. </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">Der Name einiger Gelehrter Deutschlands wird auf neue Punkte der Geographie übertragen werden.<space unit="chars" quantity="1"/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">25 June 1865.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Undoubtedly, noble Sir, you have followed with interest the movement that has arisen here to search for Leichhardt. I am sure that, as President of the Geographical Society of Prussia, you are greatly concerned for the fate of your special compatriot and share my joy that, through the zealous endeavours of the ladies, it has already become possible to organise the expedition to search for the lost traveller. Already this week the travel companions of McIntyre, who has been elected commander, will depart to meet their leader at the Darling River, where the whole caravan is to be assembled. 14 dromedaries and about 30 horses have been brought together as pack animals, and the party will be equipped with provisions and other requirements for 2 years. The future will show whether it will be possible to gain certainty about the fate of Leichhardt in this time. Perhaps it will require a second, yes, possibly even a third expedition, if the poor man found his end in the far distant west of Australia. But this much is certain: the high-minded ladies will never be satisfied, until the fate of the lost traveller has been completely ascertained. The comparatively slow progress of a search expedition will, however, enable them to explore the newly discovered land far more thoroughly and extensively than is possible under the conditions of an ordinary expedition. We may only keep alive a small spark of hope that Leichhardt or one of his companions might still survive; but this much is certain, that it requires only perseverance and careful searching to gain certainty about his fate. Of course it will require much financial support to carry out the plan satisfactorily. However, the ladies have already collected £1,000, and also have received the promise of subsidies from the State treasuries of Queensland, South Australia and Victoria and intend to continue collecting for as long as the party is out in the field. The kind representatives of the enterprise have petitioned the Crown Princess of your country with the full realisation that a few friendly and encouraging words from the thrones of Europe could overcome the apathy which, unfortunately, is still widely evident towards the venture here. The ladies do, perhaps, have some claim for sympathy from your successor to the throne, as the Princess is destined one day to wear the crown of that nation to which Leichhardt belonged, and the poor man is lost in the country over which her Royal mother's sceptre rules.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Princess Victoria (1840-1901), daughter of Britain's Queen Victoria, was married to the Prussian Crown Prince Friedrich (1831-1888), later Friedrich III, King of Prussia.</p>
-               </note> For me this enterprise has, apart from its philanthropic aspects, another great significance. It will show us what ladies are capable of, united as ours are for a great, noble, national purpose, and I have no doubt that the example given by the ladies of Victoria will be imitated in other countries for the execution of great, noble, cosmopolitan enterprises. The party is organized in such a way that the search for Leichhardt remains the main task. For this purpose two aborigines have been added to the small group, and only such members were chosen who have been long used to living in the bush. Nonetheless, this fine endeavour may also bear fruit for many branches of the natural sciences. We are sure to see the map of Australia greatly extended as a result of the Ladies' expedition, and we can also expect that the talented young doctor, Dr J. Murray, who has been attached to the expedition, will enrich our knowledge of Australia's natural products. In this way we may perhaps discover new goldfields, copper mines, extensive grazing lands, and it may come to pass that the ladies' expedition will carry out what Leichhardt had intended: to open up the great west of Australia, and provide us with the opportunity to determine through which areas the telegraph lines that are to bring us into contact with Europe can most advantageously be drawn. <space unit="chars" quantity="1"/>
+               <space dim="horizontal" extent="tab"/>Undoubtedly, noble Sir, you have followed with interest the movement that has arisen here to search for Leichhardt. I am sure that, as President of the Geographical Society of Prussia, you are greatly concerned for the fate of your special<space unit="chars" quantity="1"/>compatriot<space unit="chars" quantity="1"/>and share my joy that, through the zealous endeavours of the ladies, it has already become possible to organise the expedition to search for the lost traveller. Already this week the travel companions of M'Intyre,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Duncan McIntyre.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>who has been elected commander, will depart<space unit="chars" quantity="1"/>to meet their leader at the Darling River, where the whole caravan is to be assembled. 14 dromedaries and about 30 horses have been brought together as pack animals, and the party will be equipped with provisions and other requirements for 2<space unit="chars" quantity="1"/>years. The future will show<space unit="chars" quantity="1"/>whether it will be possible to gain certainty about the fate of Leichhardt in this time. Perhaps it will require a second, yes, possibly even a third expedition, if the poor man found his end in the far distant west of Australia. But this much is certain: the high-minded ladies will never be satisfied, until the fate of the lost traveller has been completely ascertained.<space unit="chars" quantity="1"/>The comparatively slow progress of a search expedition will, however, enable them to explore the newly discovered land far more thoroughly and extensively than<space unit="chars" quantity="1"/>is possible under the conditions of<space unit="chars" quantity="1"/>an ordinary expedition.<space unit="chars" quantity="1"/>We may only keep alive a small spark of hope<space unit="chars" quantity="1"/>that Leichhardt or one of his companions might still survive; but this much is certain, that it requires only perseverance and careful searching to gain certainty about his fate. Of course it will require much financial support to carry out the plan satisfactorily. However, the ladies have already collected £1,000, and also have received the promise of subsidies from the State treasuries of Queensland, South Australia and Victoria and intend to continue collecting for as long as the party is out in the field. The kind representatives of the enterprise have petitioned the Crown Princess of your country with the full realisation<space unit="chars" quantity="1"/>that a few friendly and encouraging words from the thrones of Europe could overcome the apathy which, unfortunately, is still widely evident towards the venture<space unit="chars" quantity="1"/>here. The ladies do, perhaps, have some claim for sympathy from your successor to the throne, as the Princess is destined one day to wear the crown of that nation<space unit="chars" quantity="1"/>to which Leichhardt belonged, and the<space unit="chars" quantity="1"/>poor man is lost in the country<space unit="chars" quantity="1"/>over which her Royal mother's sceptre rules.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Princess Victoria (1840-1901), daughter of Britain's Queen Victoria, was married to the Prussian Crown Prince Friedrich (1831-1888), later<space unit="chars" quantity="1"/>Friedrich III, King of Prussia.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>For me this enterprise has, apart from its philanthropic aspects, another great significance. It will show us<space unit="chars" quantity="1"/>what ladies are capable of, united<space unit="chars" quantity="1"/>as<space unit="chars" quantity="1"/>ours are for a great, noble, national purpose, and I have no doubt<space unit="chars" quantity="1"/>that the example given by the ladies of Victoria will be imitated in other countries for the execution of great, noble, cosmopolitan enterprises. The party is organized in such a way<space unit="chars" quantity="1"/>that the search for Leichhardt remains the main task. For this purpose two aborigines have been added to the small group, and only such members were chosen<space unit="chars" quantity="1"/>who have been long used to living in the bush. Nonetheless, this fine endeavour may also bear fruit for many branches of the natural sciences. We are sure to see the map of Australia greatly extended as a result of the Ladies' expedition, and we can also expect<space unit="chars" quantity="1"/>that the talented young doctor, Dr J. Murray, who has been attached to the expedition, will enrich our knowledge of Australia's natural products. In this way we may perhaps discover new goldfields, copper mines, extensive grazing lands, and it may come to pass<space unit="chars" quantity="1"/>that the ladies' expedition will carry out<space unit="chars" quantity="1"/>what Leichhardt had intended: to open<space unit="chars" quantity="1"/>up the great west of Australia,<space unit="chars" quantity="1"/>and provide us with the opportunity to determine through<space unit="chars" quantity="1"/>which areas the telegraph lines<space unit="chars" quantity="1"/>that are to bring us into contact with<space unit="chars" quantity="1"/>Europe<space unit="chars" quantity="1"/>can<space unit="chars" quantity="1"/>most advantageously<space unit="chars" quantity="1"/>be drawn. <space unit="chars" quantity="1"/>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">I remain</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>respectfully yours</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">The names of some of Germany's savants will be attached to some new geographical features.</p>
          </div>
       </body>

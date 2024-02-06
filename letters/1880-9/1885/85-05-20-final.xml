@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>SYDNEY, MAY ¶  20  ¶ 188 ¶ 5. ¶  ¶ Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd ¶  not lead high ranges advises steamer take land...</title>
+            <title>SYDNEY, MAY ¶  ¶ 20 ¶  ¶ 188 ¶ 5. ¶ Telegraph Office date stamp. ¶  ¶ Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd ¶ Aird River, ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>SYDNEY, MAY ¶  20  ¶ 188 ¶ 5. ¶  ¶ Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd ¶  not lead high ranges advises steamer take land...</title>
+               <title>SYDNEY, MAY ¶  ¶ 20 ¶  ¶ 188 ¶ 5. ¶ Telegraph Office date stamp. ¶  ¶ Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd ¶ Aird River, ...</title>
                <date when="1885-05-20">1885-05-20</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-               <term>Times, Times</term>
-            </keywords>
             <keywords scheme="#features">
                <term>table</term>
                <term>note</term>
@@ -70,9 +63,11 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>form text</term>
+               <term>FootnoteText</term>
+               <term>formtext</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -92,75 +87,101 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">SYDNEY, MAY ¶  20  ¶ 188 ¶ 5. ¶  ¶ Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd ¶  not lead high ranges advises steamer take land...</supplied>
+               <supplied reason="XTF-compatibility">SYDNEY, MAY ¶  ¶ 20 ¶  ¶ 188 ¶ 5. ¶ Telegraph Office date stamp. ¶  ¶ Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd ¶ Aird River, ...</supplied>
             </head>
             <p rend="number" xml:lang="en">85.05.20</p>
             <p rend="correspondent" xml:lang="en">To Edward Strickland</p>
-            <p rend="location" xml:lang="en">M 539, Telegram no. 488, Royal Australian Historical Society, Sydney.</p>
+            <p rend="location" xml:lang="en">M 539, Telegram no. 488, Royal Australian Historical Society, Sydney.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Strickland received the telegram in the evening of 20 May 1885; see E. Pulsford to M, 21 May 1885. It is probably the item summarized in the register of letters received by the NSW Branch of the Royal Geographical Society of Australasia as 'Telegram Instructions for party' (see ML MSS 853/2, Mitchell Library, Sydney, item 554), registered as received at the Society on 21 May 1885. The register also however records two items received from M on 20 May, 'Re Expedition &amp; instructions' (no. 209) and 'Re New Guinea Ex.' (no. 213), neither of which has been found.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Strickland received the telegram in the evening of 20 May 1885; see E. Pulsford to M, 21 May 1885. It<space unit="chars" quantity="1"/>is probably the item summarized<space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>the register of letters received by the NSW Branch of the Royal Geographical Society of Australasia as 'Telegram Instructions for party'<space unit="chars" quantity="1"/>(see ML MSS 853/2, Mitchell Library, Sydney, item 554),<space unit="chars" quantity="1"/>registered as received at the Society on 21 May 1885.<space unit="chars" quantity="1"/>The register also<space unit="chars" quantity="1"/>however<space unit="chars" quantity="1"/>records two items received from M on 20 May, 'Re Expedition &amp; instructions' (no. 209) and 'Re New Guinea Ex.' (no. 213), neither of which has been found.</p>
                </note>
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">SYDNEY, MAY</seg> 20 <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">188</seg>5.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Telegraph Office date stamp.</p>
-               </note>
-            </p>
-            <table n="Table1">
-               <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
-                     <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: -0.4929in; "
+               <seg rend="formtext" style="color: #2F5496; ">SYDNEY, MAY</seg>
+               <space unit="chars" quantity="1"/>20<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">188</seg>5.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">TELEGRAM from MELBOURNE Station,</seg>
+                        <space dim="horizontal" extent="tab"/>Telegraph Office date stamp.</p>
+                  </note>
+               </seg>
+            </p>
+            <table n="">
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; margin-left: 0.493in; text-indent: -0.493in; "
+                        xml:lang="en">
+                        <seg rend="formtext" style="color: #2F5496; ">TELEGRAM from MELBOURNE Station,</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 0.4945in; margin-right: 0in; text-align: end; text-indent: -0.8055in; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-left: 0.4944in; text-indent: -0.8055in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Addressed</seg>
-                        <seg> to </seg>Sir Edward Strickland</p>
+                        <seg rend="formtext" style="color: #2F5496; ">Addressed</seg>
+                        <seg rend="DefaultParagraphFont">
+                           <space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>
+                        </seg>Sir Edward Strickland</p>
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 0.4945in; margin-right: 0in; text-align: end; text-indent: -0.8055in; "
-                        xml:lang="en">President Geographical Socy<note xml:id="ftn3" type="footnote" n="3">
-                           <p rend="Footnote"
-                              style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                              xml:lang="en">Society.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-left: 0.4944in; text-indent: -0.8055in; "
+                        xml:lang="en">President Geographical Socy<seg rend="FootnoteReference" style="">
+                           <note type="footnote" xml:id="_ftn2" n="3">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space dim="horizontal" extent="tab"/>Society.</p>
+                           </note>
+                        </seg>
                      </p>
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-align: end; text-indent: -0.4929in; "
-                        xml:lang="en">Sy.<note xml:id="ftn4" type="footnote" n="4">
-                           <p rend="Footnote"
-                              style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                              xml:lang="en">Sydney.</p>
-                        </note>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-left: 0.493in; text-indent: -0.493in; "
+                        xml:lang="en">Sy.<seg rend="FootnoteReference" style="">
+                           <note type="footnote" xml:id="_ftn3" n="4">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space dim="horizontal" extent="tab"/>Sydney.</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
             </table>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Aird River, NG.</p>
-               </note> not lead high ranges advises steamer take land party Port Moresby, Consult Lawes, ascend Elevated ranges on line not interfering with Forbes, letter by mail.</p>
+               <space dim="horizontal" extent="tab"/>Victorian Branch regards for instruction Geographic research primary other sciences subordinate, should survey Ayrd<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Aird River, NG.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>not lead high ranges advises steamer take land party Port Moresby, Consult Lawes, ascend Elevated ranges on line not interfering with Forbes,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Henry Forbes.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>letter by mail.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                  <seg style="font-style: italic; ">(Signed)</seg>
-               </seg> Baron Von Mueller</p>
+               <seg rend="formtext" style="color: #2F5496; font-style: italic; ">(Signed)</seg>
+               <space unit="chars" quantity="1"/>Baron Von Mueller</p>
          </div>
       </body>
    </text>

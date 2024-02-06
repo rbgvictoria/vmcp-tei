@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>RBG Kew, Archives, Miscellaneous correspondence.</msName>
+                  <msName>RBG Kew,Archives,Miscellaneouscorrespondence.</msName>
                   <altIdentifier>
                      <idno>87.02.21</idno>
                   </altIdentifier>
@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,15 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Dendrobium Johnsoniae</term>
-               <term>Dendrobium Macfarlani</term>
-               <term>Microstylis Bernaysii</term>
-               <term>Monocotyledoneae </term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -78,9 +63,11 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -104,75 +91,99 @@
             </head>
             <p rend="number" xml:lang="en">87.02.21</p>
             <p rend="correspondent" xml:lang="en">To Henry Ridley</p>
-            <p rend="location" xml:lang="en">RBG Kew, Archives, Miscellaneous correspondence.</p>
+            <p rend="location" xml:lang="en">RBG Kew,<space unit="chars" quantity="1"/>Archives,<space unit="chars" quantity="1"/>Miscellaneous<space unit="chars" quantity="1"/>correspondence.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">21/2/87</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="en">In first instance, dear Mr Ridley, let me express my best appreciation of the generous remarks, which you bestowed on me in the journ. of Bot. regarding my acquaintance with the Papuan Flora.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Ridley (1886) wrote: 'The greater portion of the flowering plants are being described by Baron von Mueller, who is probably better acquainted with the flora of this island than anyone else in the empire' (p. 321). M had thanked Ridley for this comment in a previous letter; M to H. Ridley, 12 January 1887 (in this edition as 87-01-12d).</p>
-               </note> Such recognition from one, so erudite as yourself, is particularly gratifying and encouraging.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">In first instance, dear Mr Ridley, let me express my best appreciation of the generous remarks, which you bestowed on me in the journ. of Bot. regarding my acquaintance with the Papuan Flora.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ridley (1886) wrote:<space unit="chars" quantity="1"/>'The greater portion of the flowering plants are being described by Baron von Mueller, who is probably better acquainted with the flora of this island than anyone else in the empire'<space unit="chars" quantity="1"/>(p. 321). M had thanked Ridley for this comment in a previous letter;<space unit="chars" quantity="1"/>M to H. Ridley, 12 January 1887<space unit="chars" quantity="1"/>(in this edition as 87-01-12d).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Such recognition from one, so erudite as yourself, is particularly gratifying and encouraging.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have written to Mr Fawcett, direct to his new abode, felicitating him to his having gained the position in Jamaica, where he is sure to exercise also a vast influence on the elucidation of the Central-American Flora.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have written to Mr Fawcett, direct to his new abode, felicitating him to his having gained the position in Jamaica, where he is sure to exercise also a vast influence on the elucidation of the Central-American Flora.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Fawcett.<space unit="chars" quantity="1"/>Letter not found.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It is with sorrow that I find myself at this moment unable to send you the only specimen of <name key="Microstylis%20Bernaysii">Microstylis Bernaysii</name>. It is mislaid. The spaces here are most narrow for the half a million of sheets of dried plants, and thus some times misplacements do occur. I hope however to find it yet, and then I will transmit it at once on loan.</p>
+               <space dim="horizontal" extent="tab"/>It is with sorrow that I find myself at this moment unable to send you the only specimen of Microstylis Bernaysii. It is mislaid. The spaces here are most narrow for the half a million of sheets of dried plants, and thus some times misplacements do occur. I hope however to find it yet, and then I will transmit it at once on loan.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Speaking of Orchids, I may remark, that Prof Reichenbach seems unaware, that I described in the “Papuan plants” a <name key="Dendrobium%20Macfarlani">Dendrobium Macfarlani</name>
-               <note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">Dendrobium macfarlanei</seg>
-                     <seg style="">?</seg> (see B76.04.01, p. 29); Reichenbach (1882), p. 520 contains his description of <seg style="font-style: italic; ">D. macfarlanei</seg>, which Sander (1892-4), vol. 2, pp. 27–8 treats as a synonym of M's <seg style="font-style: italic; ">D. johnsoniae</seg>
-                     <seg style=""> (B82.</seg>05.06, p. 95). See also M to H. Ridley, 17 May 1887, for M's interpretation of Reichenbach's <seg style="font-style: italic; ">D. macfarlanei</seg>.</p>
-               </note> and D. Johnsoniae, to both of which he appears to have given later names. The small edition of the above work is exhausted; so I can send him no copy. </p>
+               <space dim="horizontal" extent="tab"/>Speaking of Orchids, I may remark, that Prof Reichenbach seems unaware, that I described in the “Papuan plants” a Dendrobium Macfarlani<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Dendrobium macfarlanei</seg>
+                        <seg rend="DefaultParagraphFont" style="">?</seg>
+                        <space unit="chars" quantity="1"/>(see<space unit="chars" quantity="1"/>B76.04.01, p. 29); Reichenbach (1882), p. 520 contains his description of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">D. macfarlanei</seg>,<space unit="chars" quantity="1"/>which Sander (1892-4),<space unit="chars" quantity="1"/>vol. 2,<space unit="chars" quantity="1"/>pp. 27–8 treats as a synonym of M's<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">D. johnsoniae</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">(</seg>
+                        <seg rend="DefaultParagraphFont" style="">B82.</seg>05.06, p. 95).<space unit="chars" quantity="1"/>See also M to H. Ridley, 17 May 1887,<space unit="chars" quantity="1"/>for M's interpretation of Reichenbach's<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">D. macfarlanei</seg>.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and D. Johnsoniae, to both of which he appears to have given later names. The small edition of the above work is exhausted; so I can send him no copy.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ever regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Perhaps you have occasion, when next writing on Dendrobium, to clear this synonymy up.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Your elaboration of Mr Forbes Monocotyledoneae<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Ridley (1886).</p>
-               </note> is most interesting</p>
+               <space dim="horizontal" extent="tab"/>Your elaboration of Mr Forbes Monocotyledoneae<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ridley (1886)<space unit="chars" quantity="1"/>listed monocotyledonous species represented in Henry Forbes's<space unit="chars" quantity="1"/>collection, including descriptions of<space unit="chars" quantity="1"/>several<space unit="chars" quantity="1"/>news species.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>is most interesting</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dendrobium%20Johnsoniae">Dendrobium Johnsoniae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dendrobium%20Macfarlani">Dendrobium Macfarlani</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Microstylis%20Bernaysii">Microstylis Bernaysii</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Monocotyledoneae%20">Monocotyledoneae </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dendrobium Johnsoniae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dendrobium Macfarlani</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Microstylis Bernaysii</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Monocotyledoneae<space unit="chars" quantity="1"/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>

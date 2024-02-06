@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Natural History Museum, London, Keeper's Archives (Zoological Department), Letters 1878, vol. 14, f. 379b.</msName>
+                  <msName>Natural HistoryMuseum,London,Keeper's Archives(Zoological Department),Letters 1878, vol. 14, f. 379b.</msName>
                   <altIdentifier>
                      <idno>78.10.28</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,63 +90,77 @@
             </head>
             <p rend="number" xml:lang="en">78.10.28</p>
             <p rend="correspondent" xml:lang="en">From Charles French</p>
-            <p rend="location" xml:lang="en">Natural History Museum, London, Keeper's Archives (Zoological Department), Letters 1878, vol. 14, f. 379b.</p>
+            <p rend="location" xml:lang="en">Natural History<space unit="chars" quantity="1"/>Museum,<space unit="chars" quantity="1"/>London,<space unit="chars" quantity="1"/>Keeper's Archives<space unit="chars" quantity="1"/>(Zoological Department),<space unit="chars" quantity="1"/>Letters 1878, vol. 14, f. 379b.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Botanic Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">28/10/78</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My Dear Baron.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I beg to enclose a few particulars connected with my collection of Longicorns and other families, in the hope that you may be able to assist me in disposing of them to the British Museum authorities.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">f. 379c in the letter book is in French's hand and is titled 'Particulars of Australian Longicorns'. There are 700 species, 890 specimens, many named, arranged in ten drawers of a cabinet. Many un-named probably new, especially those collected in Northern Territory, Port Essington and on Overland Telegraph lines, N.W Australia &amp;c. The genera, with numbers of different species, are listed.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>French reports that Mr. Macleay of Sydney has praised the collection. French would prefer the collection, with which circumstances force him to part, to go to the British Museum and offers his collection of Longicorn beetles, in which he had specialized, buying in specimens for as much as £1.5.0, for £150. The remainder of the Australian collection (listed) was offered for £200 without cabinet.</p>
-               </note> The collection has been formed with the greatest care, and has cost me far more than ever I could ask for it. Of course you are aware of the heavy loss which I sustained some time since in my Queensland Nat History undertaking, a loss which I have not yet recovered,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>French and Wiliam Petterd had undertaken a collecting trip to Queensland in 1875 but '</seg>were unfortunate enough to lose nearly the whole of their splendid collection of birds, insects, &amp;c., through the vessel in which the cases were shipped being wrecked on the passage to Melbourne '(<seg style="font-style: italic; ">Argus</seg>, 11 March 1876, p, 4).</p>
-               </note> [so] that I am desirous of disposing of all, or part of my Australian collection, to the best advantage. (I intend to keep my Foreign collection if possible.) I have it on the authority of several well known Scientific Gentlemen both in England, France, and here, that my collection of Australian Longicorns is in point of rarity of sp. and also in numbers, the finest in the whole world.</p>
+               <space dim="horizontal" extent="tab"/>I beg to enclose a few particulars connected with my collection of Longicorns and other families, in the hope that you may be able to assist me in disposing of them to the British Museum authorities.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>f. 379c in the letter book is in<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>hand<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>Charles French Snr.<space unit="chars" quantity="1"/>and is titled 'Particulars of Australian Longicorns'.<space unit="chars" quantity="1"/>There are 700 species, 890 specimens, many named, arranged in ten drawers of a cabinet. Many un-named probably new, especially those collected in Northern Territory, Port Essington and on Overland Telegraph lines, N.W Australia &amp;c. The genera, with numbers of different species,<space unit="chars" quantity="1"/>are listed.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>French reports that Mr Macleay of Sydney has praised the collection. French would prefer the collection, with which circumstances force him to part, to go to the British Museum and offers his collection of Longicorn beetles, in which he had specialized, buying in specimens for as much as £1.5.0, for £150. The remainder of the Australian collection (listed) was offered for £200 without cabinet.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The collection has been formed with the greatest care, and has cost me far more than ever I could ask for it. Of course you are aware of the heavy loss which I sustained some time since in my Queensland Nat History undertaking, a loss which I have not yet recovered,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>French and Wiliam Petterd had undertaken a collec</seg>
+                        <seg rend="DefaultParagraphFont" style="">ting trip to Queensland in 1875</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>but '</seg>were unfortunate enough<space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>lose<space unit="chars" quantity="1"/>nearly the whole<space unit="chars" quantity="1"/>of their splendid<space unit="chars" quantity="1"/>collection of<space unit="chars" quantity="1"/>birds, insects, &amp;c., through the<space unit="chars" quantity="1"/>vessel in which the cases were shipped<space unit="chars" quantity="1"/>being wrecked on the passage to Melbourne<space unit="chars" quantity="1"/>'(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 11 March 1876, p, 4).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>[so] that I am desirous of disposing of all, or part of my Australian collection, to the best advantage.<space unit="chars" quantity="1"/>(I intend to keep my Foreign collection if possible.) I have it on the authority of several well known Scientific Gentlemen both in England, France, and here, that my collection of Australian Longicorns is in point of rarity of sp. and also in numbers, the finest in the whole world.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">Trusting that your health is improving </p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">Trusting that your health is improving<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I remain</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Yours sincerely</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Chas French</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Baron F. von Mueller C.M.G FRS &amp;c &amp;c<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to R. Owen, 30 October 1878.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Baron<space unit="chars" quantity="1"/>F. von Mueller C.M.G FRS &amp;c &amp;c<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See also M to R. Owen, 30 October 1878.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>underline</term>
                <term>valediction</term>
             </keywords>
@@ -78,8 +74,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="51">English</language>
-            <language ident="de" usage="49">German</language>
+            <language ident="en" usage="53">English</language>
+            <language ident="de" usage="47">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -97,81 +93,105 @@
             <p rend="number" xml:lang="de">85.02.24</p>
             <p rend="correspondent" xml:lang="de">To Ferdinand von Krauss</p>
             <p rend="location" xml:lang="de">
-               <seg style="">Staatliches Museum für Naturkunde, Stuttgart.</seg>
+               <seg rend="DefaultParagraphFont" style="">Staatliches Museum für Naturkunde, Stuttgart.</seg>
+               <seg rend="FootnoteReference" style=""/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS annotations:</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS annotations:</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>By Krauss: 'Empf. 7. Apr., Rep. 25. April 85' [Received 7 April. Replied 25 April 1885]. Letter not found. </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>By Krauss: 'Empf. 7. Apr., Rep. 25. April 85' [Received 7 April. Replied 25 April 1885].<space unit="chars" quantity="1"/>Letter not found.<space unit="chars" quantity="1"/>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>Partly by Krauss and partly in an unknown hand: 'von Baron von Müller | Coleopteren von N. H. <space unit="chars" quantity="1"/>6.April 1885 | in <seg style="">
+                     <space dim="horizontal" extent="tab"/>Partly by Krauss and partly in an unknown hand: 'von Baron von Müller | Coleopteren von N. H. <space unit="chars" quantity="1"/>6.April 1885 | in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
                         <hi rend="underline">2 Blechbüchsen</hi>
-                     </seg> enthalten | 255 Arten in 274 Stücken | in <seg style="">
+                     </seg>
+                     <space unit="chars" quantity="1"/>enthalten | 255 Arten in 274 Stücken | in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
                         <hi rend="underline">sehr gutem</hi>
-                     </seg> Zustand angekommen und unter den 68 gut bestimmten | Arten waren 42 neue für das Kabinet vorhanden' [from Baron von Mueller Coleoptera from New Holland 6 April 1885 in 2 <seg style="">
+                     </seg>
+                     <space unit="chars" quantity="1"/>Zustand angekommen und unter den 68 gut bestimmten | Arten waren 42 neue für das Kabinet vorhanden' [from Baron von Mueller Coleopterae<space unit="chars" quantity="1"/>from New Holland 6 April 1885 in 2<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
                         <hi rend="underline">tin boxes</hi>
-                     </seg> containing 255 species in 274 specimens arrived in <seg style="">
+                     </seg>
+                     <space unit="chars" quantity="1"/>containing 255 species in 274 specimens arrived in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
                         <hi rend="underline">very good</hi>
-                     </seg> condition and among the 68 well determined species 42 new for the Cabinet were present].</p>
+                     </seg>
+                     <space unit="chars" quantity="1"/>condition and among the 68 well determined species 42 new for the Cabinet were present].</p>
                </note>24/2/85</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>Mit heutiger Post sende ich Ihnen, edler Freund, zwei Blechbüchsen voll benannter Käfer aus Abtheilungen, welche in meiner letzten Sendung noch nicht repräsentiert waren. Hoffentlich sind Ihnen diese Dingerchen annehmbar, zumal da schon viele benannt sind. Sicherlich finden sich noch manche neue Arten darunter, deren eine oder andere ich </seg>
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>Mit heutiger Post sende ich Ihnen, edler Freund, zwei Blechbüchsen voll benannter Käfer aus Abtheilungen, welche in meiner letzten Sendung noch nicht repräsentiert waren. Hoffentlich sind Ihnen diese Dingerchen annehmbar, zumal da schon viele benannt sind. Sicherlich finden sich noch manche neue Arten darunter, deren eine oder andere ich<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">gern</hi>
                </seg>
-               <seg style=""> nach Mr. Charles French genannt haben möchte, da er hier sammelt, und mir beim Zusammenbringen (durch Kauf) dieser Insekten besonders behülflich war.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>nach Mr. Charles French genannt haben möchte, da er hier sammelt, und mir beim Zusammenbringen (durch Kauf) dieser Insekten besonders behülflich war.</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Hoffentlich werde ich Ihnen auch bald wieder neue Beiträge zu Ihren Vertebraten senden können.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Mit den innigsten Wünschen für Ihr Wohlergehen</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <space dim="horizontal" extent="tab"/>
                </seg>Ferd. von Müller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">24/2/85</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>With today's post I am sending you, noble Friend, two tin boxes full of named beetles from sections that were not yet represented in my last consignment. It is to be hoped these little creatures are acceptable to you, especially since many are already named. No doubt many new species will be found among them, of which I should <seg style="">
+               <space dim="horizontal" extent="tab"/>With today's post I am sending you, noble Friend, two tin boxes full of named beetles from sections that were not yet represented in my last consignment. It is to be hoped these little creatures are acceptable to you, especially since many are already named. No doubt many new species will be found among them, of which I<space unit="chars" quantity="1"/>should<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">like</hi>
-               </seg> to have one or the other named after Mr Charles French because he collects here and was particularly helpful to me with the bringing together (by purchase) of these insects.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>to have one or the other named after Mr Charles French because he collects here and was particularly helpful to me with the bringing together (by purchase) of these insects.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Charles French<space unit="chars" quantity="1"/>Snr.<space unit="chars" quantity="1"/>No evidence<space unit="chars" quantity="1"/>has been<space unit="chars" quantity="1"/>found<space unit="chars" quantity="1"/>that any insect was named for French from specimens sent to Stuttgart.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>It is to be hoped I'll also soon be able to send you new contributions to your vertebrates again.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">With the sincerest wishes for your welfare</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
          </div>

@@ -38,9 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -90,33 +86,44 @@
                <supplied reason="XTF-compatibility"> ¶ [We have received from the Hon A. Fornander, of Lahainai Maui, a pamphlet published by authority of the government, at Melbourne, and forwarded to Judge Fornander by Baron Ferd. von Mueller, a dist...</supplied>
             </head>
             <p rend="number" xml:lang="en">80.04.00b</p>
-            <p rend="correspondent" xml:lang="en">To Abraham Fornander</p>
+            <p rend="correspondent" xml:lang="en">To Abraham<space unit="chars" quantity="1"/>Fornander</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-variant: small-caps; ">'Wattle Bark', </seg>
-                     <seg style="font-style: italic; ">Pacific commercial advertiser </seg>(Honolulu), 1 May 1880, p. 3. It is dated to early April as the latest likely date to have been sent to have been reported in this issue of the newspaper.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'Wattle Bark</seg>
+                     <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">',<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pacific commercial advertiser</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>(Honolulu), 1 May 1880, p. 3. It is dated to early April as the latest likely date to have been sent to have been reported in this issue of the newspaper.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[We have received from the Hon A. Fornander, of Lahainai Maui, a pamphlet published by authority of the government, at Melbourne, and forwarded to Judge Fornander by Baron Ferd. von Mueller, a distinguished botanist and scientist,— on the bark of the "Wattle Tree," showing the profit to be derived from its systematic cultivation.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B78.14.01.</p>
-               </note> The bark is in great demand in Europe for tanning purposes, is worth $20 a ton, and the tree it is said will grow luxuriantly where nothing else will. We shall again refer to this subject at length.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>No article later in 1880 on this subject has been found.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[We have received from the Hon A. Fornander, of Lahainai Maui, a pamphlet published by authority of the government, at Melbourne, and forwarded to Judge Fornander by Baron Ferd. von Mueller, a distinguished botanist and scientist,— on the bark of the "Wattle Tree," showing the profit to be derived from its systematic cultivation.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B78.14.01.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The bark is in great demand in Europe for tanning purposes, is worth $20 a ton, and the tree it is said will grow luxuriantly where nothing else will. We shall again refer to this subject at length.]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>No<space unit="chars" quantity="1"/>article<space unit="chars" quantity="1"/>later<space unit="chars" quantity="1"/>in 1880<space unit="chars" quantity="1"/>on this subject<space unit="chars" quantity="1"/>has been found.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

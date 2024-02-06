@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Advises despatch of two packets containing seed of  ¶ Dodonaea ¶   ¶ viscosa ¶  and  ¶ Cedrela ¶   ¶ Toona ¶ .]...</title>
-            <author>[Dietrich Brandis]</author>
+            <title> ¶ [Advises despatch of two packets containing seed of ¶  ¶ Dodonaea ¶  ¶ viscosa ¶  ¶ and ¶  ¶ Cedrela ¶  ¶ Toona ¶ .] ¶ M acknowledged receipt of the transmission in M to D. Brandis, 31 March 1880 (...</title>
+            <author>Dietrich Brandis</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -20,15 +20,15 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>India Office Library, P/1505, Forests, part B, proceedings 44-50, p. 22, British Library, London. </msName>
+                  <msName>India Office Library, P/1505, Forests, part B, proceedings 44-50, p. 22, British Library, London.</msName>
                   <altIdentifier>
                      <idno>80.02.17a</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>[Dietrich Brandis]</author>
-               <title> ¶ [Advises despatch of two packets containing seed of  ¶ Dodonaea ¶   ¶ viscosa ¶  and  ¶ Cedrela ¶   ¶ Toona ¶ .]...</title>
+               <author>Dietrich Brandis</author>
+               <title> ¶ [Advises despatch of two packets containing seed of ¶  ¶ Dodonaea ¶  ¶ viscosa ¶  ¶ and ¶  ¶ Cedrela ¶  ¶ Toona ¶ .] ¶ M acknowledged receipt of the transmission in M to D. Brandis, 31 March 1880 (...</title>
                <date when="1880-02-17">1880-02-17</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,13 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/26a2dd86-3afa-43cf-8f95-83d8cf125ec2">Dodonaea viscosa</term>
-               <term>Cedrela toona</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,10 +62,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -98,39 +87,59 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Advises despatch of two packets containing seed of  ¶ Dodonaea ¶   ¶ viscosa ¶  and  ¶ Cedrela ¶   ¶ Toona ¶ .]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Advises despatch of two packets containing seed of ¶  ¶ Dodonaea ¶  ¶ viscosa ¶  ¶ and ¶  ¶ Cedrela ¶  ¶ Toona ¶ .] ¶ M acknowledged receipt of the transmission in M to D. Brandis, 31 March 1880 (...</supplied>
             </head>
             <p rend="number" xml:lang="en">80.02.17a</p>
-            <p rend="correspondent" xml:lang="en">From [Dietrich Brandis]</p>
-            <p rend="location" xml:lang="en">India Office Library, P/1505, Forests, part B, proceedings 44-50, p. 22, British Library, London. </p>
+            <p rend="correspondent" xml:lang="en">From Dietrich Brandis</p>
+            <p rend="location" xml:lang="en">India Office Library, P/1505, Forests, part B, proceedings 44-50, p. 22, British Library, London.<seg rend="FootnoteReference" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found; item is an entry in the minutes only, recording that a letter had been sent to M on 17 February 1880. The same information is recorded at Forests Branch, proceedings, February nos 44-50, Part B, Home, Revenue and Agriculture Department, National Archives of India, New Delhi .</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is an entry in the minutes only, recording that a letter had been sent to M on 17 February 1880.<space unit="chars" quantity="1"/>The same information is recorded at<space unit="chars" quantity="1"/>Forests Branch, proceedings, February nos 44-50, Part B, Home, Revenue and Agriculture Department, National Archives of India, New Delhi<seg rend="FootnoteReference" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Advises despatch of two packets containing seed of <seg style="">
+               <space dim="horizontal" extent="tab"/>[Advises despatch of two packets containing seed of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Dodonaea</hi>
                </seg>
-               <seg style="">
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">viscosa</hi>
-               </seg> and <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Cedrela</hi>
                </seg>
-               <seg style="">
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Toona</hi>
-               </seg>.]</p>
+               </seg>.]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M acknowledged receipt of the transmission in M to D. Brandis, 31 March 1880 (in this edition as 80-03-31a).</p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cedrela%20toona">Cedrela toona</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cedrela toona</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dodonaea viscosa</p>
          </div>
       </body>
    </text>

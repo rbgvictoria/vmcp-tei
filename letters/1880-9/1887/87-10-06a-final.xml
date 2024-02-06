@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>6/10/87 ¶  ¶ This morning, dear Mr Macdonald, I received the enclosed letter ¶  from Mr Fort. It seems to me that we should seize on the chance of having the Governor and Lady Loch ¶  present and othe...</title>
+            <title>6/10/87 ¶  ¶ This morning, dear Mr Macdonald, I received the enclosed letter ¶ G. S.Fortto M, 5 October 1887. ¶  ¶ from Mr Fort. It seems to me that we should seize on the chance of having the Governo...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A38 papers, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A38papers, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>87.10.06a</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>6/10/87 ¶  ¶ This morning, dear Mr Macdonald, I received the enclosed letter ¶  from Mr Fort. It seems to me that we should seize on the chance of having the Governor and Lady Loch ¶  present and othe...</title>
+               <title>6/10/87 ¶  ¶ This morning, dear Mr Macdonald, I received the enclosed letter ¶ G. S.Fortto M, 5 October 1887. ¶  ¶ from Mr Fort. It seems to me that we should seize on the chance of having the Governo...</title>
                <date when="1887-10-06">1887-10-06</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
             </keywords>
@@ -91,80 +87,120 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">6/10/87 ¶  ¶ This morning, dear Mr Macdonald, I received the enclosed letter ¶  from Mr Fort. It seems to me that we should seize on the chance of having the Governor and Lady Loch ¶  present and othe...</supplied>
+               <supplied reason="XTF-compatibility">6/10/87 ¶  ¶ This morning, dear Mr Macdonald, I received the enclosed letter ¶ G. S.Fortto M, 5 October 1887. ¶  ¶ from Mr Fort. It seems to me that we should seize on the chance of having the Governo...</supplied>
             </head>
             <p rend="number" xml:lang="en">87.10.06a</p>
             <p rend="correspondent" xml:lang="en">To Alexander Macdonald</p>
-            <p rend="location" xml:lang="en">A38 <space unit="chars" quantity="2"/>papers, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="location" xml:lang="en">A38<space unit="chars" quantity="1"/>
+               <space unit="chars" quantity="1"/>
+               <space unit="chars" quantity="1"/>papers, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">6/10/87</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This morning, dear Mr Macdonald, I received the enclosed letter<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">G. S. Fort to M, 5 October 1887.</p>
-               </note> from Mr Fort. It seems to me that we should seize on the chance of having the Governor and Lady Loch<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Sir Henry and Lady Elizabeth Loch.</p>
-               </note> present and other distinguished Visitors about that time here, such as the Admiral,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Rear Admiral Henry Fairfax, commander of the British Navy's Australian station, arrived in Melbourne for a visit on 27 October 1887. see <seg style="font-style: italic; ">Age</seg>, 28 October 1887, p. 5.</p>
-               </note> &amp;c — but on account of the distance of the date, the <seg style="">
+               <space dim="horizontal" extent="tab"/>This morning, dear Mr Macdonald, I received the enclosed letter<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>G. S.<space unit="chars" quantity="1"/>Fort<space unit="chars" quantity="1"/>to M, 5 October 1887.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>from Mr Fort. It seems to me that we should seize on the chance of having the Governor and Lady Loch<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Sir Henry and Lady Elizabeth<space unit="chars" quantity="1"/>Loch.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>present and other distinguished Visitors about that time here, such as the Admiral,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Rear Admiral Henry Fairfax, commander of the British Navy's Australian station, arrived in Melbourne for a visit on 27 October 1887;<space unit="chars" quantity="1"/>see<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>, 28 October 1887, p. 5.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp;c — but on account of the distance of the date, the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Council</hi>
-               </seg> could give Mr Cuthbertson a preliminary welcome. One advantage arises from having the public welcome later than we thought, that Mr C. will have time, to prepare his map, and write out a full report, to be read then.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">In the event, Cuthbertson, who had led an expedition to New Guinea sponsored by the Victorian Branch of the Royal Geographical Society of Australasia, July to October 1887, was not officially welcomed to present his report until the Branch's meeting on 25 November 1887. Neither the Governor nor Admiral Fairfax was in attendance, and M as President of the Branch was in the chair. The proceedings of the meeting, including both the report that Cuthbertson read at the meeting and his journal and map of the expedition, were published in the Victorian Branch's <seg style="font-style: italic; ">Transactions and proceedings</seg>, vol. 5, part 2 (1887).</p>
-               </note> Let me kindly know your views, so that I can communicate in the course of this day with the Governor.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>could give Mr Cuthbertson a preliminary welcome. One advantage arises from having the public welcome later than we thought, that Mr C. will have time, to prepare his map, and write out a full report, to be read then.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>In the event, Cuthbertson, who had led an expedition to New Guinea sponsored by the Victorian Branch of the Royal Geographical Society of Australasia, July to October 1887, was not officially welcomed to present his report until the Branch's meeting on 25 November 1887. Neither the Governor nor Admiral Fairfax was in attendance, and M as President of the Branch was in the chair. The proceedings of the meeting, including both the report that Cuthbertson read at the meeting and his journal and map of the expedition, were published in the Victorian Branch's<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Transactions and proceedings</seg>, vol. 5, part 2 (1887).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Let me kindly know your views, so that I can communicate in<space unit="chars" quantity="1"/>the course of this day with the Governor.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">I think, the Governor should be asked to take the chair.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I will write to Sir Samuel Davenport this day;<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to S. Davenport, 5 October 1887 (in this edition as 87-10-05a), apparently mis-dated by M.</p>
-               </note> but shall be obliged to point out the uncertainty of Mr Giles<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Ernest Giles.</p>
-               </note> taking command of the party.</p>
+               <space dim="horizontal" extent="tab"/>I will write to Sir Samuel Davenport this day;<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See M to S. Davenport, 5 October<space unit="chars" quantity="1"/>1887 (in this edition as 87-10-05a), apparently mis-dated by M.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>but shall be obliged to point out the uncertainty of Mr Giles<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ernest Giles.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>taking command of the party.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Mr Sayer<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">William Sayer.</p>
-               </note> had an advance from his cousin<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Charles French (see T. Pentzcke to M, 4 March 1887, n. 6).</p>
-               </note> here for <seg style="">
+               <space dim="horizontal" extent="tab"/>Mr Sayer<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Sayer.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>had an advance from his cousin<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Charles French Snr;<space unit="chars" quantity="1"/>see T. Pentzcke to M, 4 March 1887, n. 6.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>here for<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">personal</hi>
-               </seg> outfit; perhaps this can be deducted from pay to Mr Cuthbertson for him.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>outfit; perhaps this can be deducted from pay to Mr Cuthbertson for him.</p>
          </div>
       </body>
    </text>

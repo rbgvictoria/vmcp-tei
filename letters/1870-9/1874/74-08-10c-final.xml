@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne, ¶ 10 August 1874. ¶  ¶ I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's last expedition; but after all his hardship during 12 mon...</title>
+            <title>Melbourne, ¶ 10 August 1874. ¶  ¶ I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's ¶  ¶ last expedition; but after all his hardship during 1...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Sammlung Perthes Archiv, SPA ARCH PGM 328, Forschungsbibliothek Gotha der Universität Erfurt.</msName>
+                  <msName>Sammlung Perthes Archiv,SPA ARCHPGM328,Forschungsbibliothek Gotha der Universität Erfurt.</msName>
                   <altIdentifier>
                      <idno>74.08.10c</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne, ¶ 10 August 1874. ¶  ¶ I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's last expedition; but after all his hardship during 12 mon...</title>
+               <title>Melbourne, ¶ 10 August 1874. ¶  ¶ I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's ¶  ¶ last expedition; but after all his hardship during 1...</title>
                <date when="1874-08-10">1874-08-10</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,14 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Acacia lophantha</term>
-               <term>Petermannia</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/22ad8546-8f00-4999-9b20-e40d11229ad5">Eucalyptus</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -76,19 +62,21 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="56">English</language>
-            <language ident="de" usage="44">German</language>
+            <language ident="en" usage="57">English</language>
+            <language ident="de" usage="43">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -101,172 +89,245 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne, ¶ 10 August 1874. ¶  ¶ I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's last expedition; but after all his hardship during 12 mon...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne, ¶ 10 August 1874. ¶  ¶ I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's ¶  ¶ last expedition; but after all his hardship during 1...</supplied>
             </head>
             <p rend="number" xml:lang="de">74.08.10c</p>
             <p rend="correspondent" xml:lang="de">To August Petermann</p>
             <p rend="location" xml:lang="de">
-               <seg style="">Sammlung Perthes Archiv, </seg>
-               <seg style="">SPA ARCH PGM 328</seg>
-               <seg style="">, </seg>Forschungsbibliothek Gotha der Universität Erfurt.</p>
+               <seg rend="DefaultParagraphFont" style="">Sammlung Perthes Archiv,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">SPA ARCH<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">PGM<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">328</seg>
+               <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+               </seg>Forschungsbibliothek Gotha der Universität Erfurt.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS annotation by Petermann: 'Erh. 8. Okt. 1874' [Received 8 October 1874]. An edited version of part of this letter was published by Petermann (see B74.10.09), who Inserted into the middle of the text part of another letter, given here as M to A. Petermann, July 1874 (in this edition as 74-07-00). For a published version of this material, see Voigt (1996), pp. 122-4, which follows Petermann's placement of the undated fragment.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS annotation by Petermann: 'Erh. 8. Okt. 1874' [Received 8 October 1874]. An edited version of part of this letter was published by Petermann (see B74.10.09), who Inserted into the middle of the text part of another letter, given here as M to A. Petermann, July 1874 (in this edition as 74-07-00). For a published version of this material, see Voigt (1996), pp. 122-4, which follows Petermann's placement of the undated fragment.</p>
                </note>Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">am 10. Aug. 1874.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Ich hoffte, edler Freund, Ihnen schon mit dieser Monatspost weitläufige Nachrichten über Giles's letzte Reise liefern zu können; aber nach all seinen Drangsalen während 12 Monate in der wüsten Wildnis, hat er noch die weite Strecke von Lady Charlotte Waters bis Adelaide nicht zurückgelegt, obwohl er schon vor einigen Wochen im Voraus seine Karte abgeschickt hat, wie er mir telegraphisch meldet. Jedenfalls werden Sie mit nächster Post die Einzelheiten seiner Entdeckungen erfahren. Auf meinen Wunsch wird der eine von drei Gebirgen, die Giles entdeckte, den Namen der Prinzessin "Marie" erhalten zur Erinnerung an die Vermählung Ihrer kaiserlichen Hoheit, die etwa um dieselbe Zeit stattfand, wie dieser Bergzug entdeckt wurde. Ein anderes Gebirge ist <seg style="">
+               <space dim="horizontal" extent="tab"/>Ich hoffte, edler Freund, Ihnen schon mit dieser Monatspost weitläufige Nachrichten über Giles's letzte Reise liefern zu können; aber nach all seinen Drangsalen während 12 Monate in der wüsten Wildnis, hat er noch die weite Strecke von Lady Charlotte Waters bis Adelaide nicht zurückgelegt, obwohl er schon vor einigen Wochen im Voraus seine Karte abgeschickt hat, wie er mir telegraphisch meldet. Jedenfalls werden Sie mit nächster Post die Einzelheiten seiner Entdeckungen erfahren. Auf meinen Wunsch wird der eine von drei Gebirgen, die Giles entdeckte, den Namen der Prinzessin "Marie" erhalten zur Erinnerung an die Vermählung Ihrer kaiserlichen Hoheit, die etwa um dieselbe Zeit stattfand, wie dieser Bergzug entdeckt wurde. Ein anderes Gebirge ist<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Ihnen</hi>
-               </seg> gewidmet als dauerndes australisches Denkmal Ihrer unermüdeten und begeisternden Thätigkeit für die Geographie. Über den Namen eines 3ten Gebirgs werde ich Ihnen demnächst schreiben u die Karte wird Ihnen die Positionen geben. Vorläufige Notiz erhielten Sie mit letzter Post. Ein 4ter Gebirgszug, der Musgrave Range, war auch von Giles zuerst gesehen u bestiegen,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">gesehen u bestiegen <seg style="font-style: italic; ">above</seg> entdeckt<seg style="font-style: italic; "> deleted</seg>.</p>
-               </note> aber da Mr Gosse dasselbe Gebirge auch entdeckte einige Monate nachher, so ist Selbiger meinem Freunde durch zeitigere Heimkehr in der Beschreibung zuvorgekommen.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>gewidmet als dauerndes australisches Denkmal Ihrer unermüdeten und begeisternden Thätigkeit für die Geographie. Über den Namen eines 3ten Gebirgs werde ich Ihnen demnächst schreiben u die Karte wird Ihnen die Positionen geben. Vorläufige Notiz erhielten Sie mit letzter Post. Ein 4ter Gebirgszug, der Musgrave Range, war auch von Giles zuerst gesehen u bestiegen,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>gesehen u bestiegen<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">above</seg>
+                        <space unit="chars" quantity="1"/>entdeckt<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>deleted</seg>.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>aber da Mr Gosse dasselbe Gebirge auch entdeckte einige Monate nachher, so ist Selbiger meinem Freunde<space unit="chars" quantity="1"/>durch zeitigere Heimkehr in der Beschreibung zuvorgekommen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Mr Giles hat grossartiges geleistet mit geringen Mitteln u <seg style="">
+               <space dim="horizontal" extent="tab"/>Mr Giles hat grossartiges geleistet mit geringen Mitteln u<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">ohne Kameele</hi>
-               </seg>, u das in der schlimmsten Jahreszeit während ungewöhnlicher Dürre! <seg style="">
+               </seg>, u das in der schlimmsten Jahreszeit während ungewöhnlicher Dürre!<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Neunmal</hi>
-               </seg> wurde er von den Horden der Wüste attackirt, einmal sogar von selbigen im Kampf herum gezerrt und schwer verwundet, wahrscheinlich weil die Schwarzen das wenige Wasser der Oasen nicht von den Pferden wollten austrinken lassen zur Zeit schrecklicher Dürre. Wenn ich Mittel gewinnen kann, u Giles das Forschungsfeld der Geographie von Neuem betreten will, so werde ich Ihn die weiten Landstriche östlich von dem Überlandstelegraphen Australiens untersuchen lassen.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>wurde er von den Horden der Wüste attackirt, einmal sogar von selbigen im Kampf herum gezerrt und schwer verwundet, wahrscheinlich weil die Schwarzen das wenige Wasser der Oasen nicht von den Pferden wollten austrinken lassen zur Zeit schrecklicher Dürre.<space unit="chars" quantity="1"/>Wenn ich Mittel gewinnen kann, u Giles das Forschungsfeld der Geographie von Neuem betreten will, so werde ich Ihn die weiten Landstriche östlich von dem Überlandstelegraphen Australiens untersuchen lassen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Von Oberst Warburtons Reise habe ich noch keine gedruckten Documente.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The undated fragment referred to above (see n. 1) is inserted at this point into the text published by Petermann.</p>
-               </note> Diejenigen über Gosses Zug werden Ihnen bereits mit letzter Post zugegangen sein. </p>
+               <space dim="horizontal" extent="tab"/>Von Oberst Warburtons Reise habe ich noch keine gedruckten Documente.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The undated fragment referred to above (see n. 1) is inserted at this point into the text published by Petermann.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Diejenigen über Gosses Zug werden Ihnen bereits mit letzter Post zugegangen sein.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Wie schade, dass bei der Gelegenheit des Durchkreuzens der Wüste Lybiens nicht eine Menge Samen von Acacien (namentlich <name key="Acacia%20lophantha">Acacia lophantha</name>) und von Eucalypten, gewissen Gräsern u Kräutern ausgesäet wurden in kühler Jahreszeit, wie ich es angab in einem Aufsatz, den die französische Regierung vor etwa 8 Jahren zu schreiben mich aufforderte u der in dem Bulletin de la Société d'agriculture d'Alger veröffentlicht wurde. Solche Samen sind nun reichlich — meist von Pflanzen zuerst von mir Algier zugewandt, am mittelländisch. Meere erlangbar, u einige Unzen Wasser würden täglich ausreichen, um solche vor der Ausstreuung aufzu weichen.</p>
+               <space dim="horizontal" extent="tab"/>Wie schade, dass bei der Gelegenheit des Durchkreuzens der Wüste Lybiens nicht eine Menge Samen von Acacien (namentlich Acacia lophantha) und von Eucalypten, gewissen Gräsern u Kräutern ausgesäet wurden in kühler Jahreszeit, wie ich es angab in einem Aufsatz, den die französische Regierung vor etwa 8 Jahren zu schreiben mich aufforderte u der in dem Bulletin de la Société d'agriculture d'Alger veröffentlicht wurde. Solche Samen sind nun reichlich — meist von Pflanzen zuerst von mir Algier zugewandt, am mittelländisch. Meere erlangbar, u einige Unzen Wasser würden täglich ausreichen, um solche vor der Ausstreuung aufzu weichen.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="de">Stets Ihr </p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="de">Stets Ihr<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">Wenn Sie sich den 6ten Band der Flora australiensis, jüngst erschienen, aus London kommen lassen, so werden Sie darin das genus <name key="Petermannia">Petermannia</name> beschrieben sehen.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">Wenn Sie sich den 6ten Band der Flora australiensis, jüngst erschienen, aus London kommen lassen, so werden Sie darin das genus Petermannia beschrieben sehen.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">10 August 1874.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's last expedition; but after all his hardship during 12 months in the arid wilderness he has not yet made the long journey back from Charlotte Waters to Adelaide,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Giles had reached Charlotte Waters Telegraph Station on 13 July 1874; see E. Giles to M, 13 July 1874 (in this edition as 74-07-13a). See also Giles (1889), vol. 2, p. 68.</p>
-               </note> although he has already sent his map in advance some weeks ago, according to his telegraphed report to me. You will certainly find out the details of his discovery with the next mail. At my wish one of the three mountain ranges discovered by Giles will receive the name of the Princess, 'Marie', in remembrance of the nuptials of Her Imperial Highness,<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Maria, Grand Duchess of Russia, daughter of Tsar Alexander II, married Alfred, Duke of Edinburgh (from 1893 Prince of Saxe-Coburg-Gotha), son of Queen Victoria of Britain, on 23 January 1874. Giles discovered Mount Marie on 30 September 1873.</p>
-               </note> which took place at about the same time as the discovery of this mountain range. Another mountain range is dedicated to <seg style="">
+               <space dim="horizontal" extent="tab"/>I had hoped, noble friend, to be able to send you already with this month's mail detailed news about Giles's<space unit="chars" quantity="1"/>last expedition; but after all his hardship during 12 months in the arid wilderness he has not yet made the long journey back from Charlotte Waters to Adelaide,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ernest<space unit="chars" quantity="1"/>Giles had reached Charlotte Waters<space unit="chars" quantity="1"/>telegraph<space unit="chars" quantity="1"/>station on 13 July<space unit="chars" quantity="1"/>1874;<space unit="chars" quantity="1"/>see E. Giles to M, 13 July 1874<space unit="chars" quantity="1"/>(in this edition as 74-07-13a). See also<space unit="chars" quantity="1"/>E.<space unit="chars" quantity="1"/>Giles (1889), vol. 2, p.<space unit="chars" quantity="1"/>68.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>although he has already sent his map in advance some weeks ago, according to his telegraphed report to me. You will certainly find out the details of his discovery with the next mail. At my wish one of the three mountain ranges discovered by Giles will receive the name of the Princess, 'Marie', in remembrance of the nuptials of Her Imperial Highness,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Marie, Grand Duchess of Russia, daughter of Tsar Alexander II, married Alfred, Duke of Edinburgh (from 1893 Prince of Saxe-Coburg-Gotha), son of Queen Victoria of Britain,<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>23 January 1874.<space unit="chars" quantity="1"/>On 23 April 1874, Giles sighted 'hills bounding the western horizon … between twenty and thirty miles away' but shortage of water<space unit="chars" quantity="1"/>and weak horses<space unit="chars" quantity="1"/>meant he 'was compelled to retreat'. He 'named this farthest-cited feature the "Alfred and Marie Range"'<space unit="chars" quantity="1"/>(E.<space unit="chars" quantity="1"/>Giles (1875), pp. 189-90; the scene is illustrated in<space unit="chars" quantity="1"/>E.<space unit="chars" quantity="1"/>Giles (1889), vol. 2, facing page<space unit="chars" quantity="1"/>35).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>which took place at about the same time as the discovery of this mountain range. Another mountain range is dedicated to<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">you</hi>
                </seg>
-               <note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Petermann Ranges, west of Uluru (Ayers Rock), NT.</p>
-               </note> as a permanent Australian memorial to your tireless and enthusiastic labours for geography. I shall write to you shortly about the name of the third mountain range, and the map will then give you their positions. You received preliminary news with the last mail.<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">No letter dated July 1874 has been found, but the undated fragment mentioned in n. 1 above, in this edition as 74-07-00, is assumed to be part of that letter.</p>
-               </note> A fourth mountain range, the Musgrave Range, was also seen and climbed first by Giles, but as Mr Gosse<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">William Gosse, during his expedition backed by the SA Government, April-December 1873, was also unsuccessful in reaching the coast of WA.</p>
-               </note> also discovered the same mountain range a few months later, he stole a march on my friend in its naming by his earlier return.</p>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Petermann Ranges, west of Uluru (Ayers Rock), NT.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>as a permanent Australian memorial to your tireless and enthusiastic labours for geography. I shall write to you shortly about the name of the third mountain range, and the map will then give<space unit="chars" quantity="1"/>you their positions. You received preliminary news with the last mail.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>No letter dated July 1874 has been found, but<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>undated fragment mentioned<space unit="chars" quantity="1"/>in n. 1 above, in this edition as 74-07-00,<space unit="chars" quantity="1"/>is assumed to be part of that letter.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>A fourth mountain range, the Musgrave Range, was also seen and<space unit="chars" quantity="1"/>climbed<space unit="chars" quantity="1"/>first by Giles, but as Mr Gosse<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Gosse, during his<space unit="chars" quantity="1"/>expedition backed by the<space unit="chars" quantity="1"/>SA<space unit="chars" quantity="1"/>Government,<space unit="chars" quantity="1"/>April-December 1873,<space unit="chars" quantity="1"/>was<space unit="chars" quantity="1"/>also unsuccessful in reaching the coast of<space unit="chars" quantity="1"/>WA.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>also discovered the same mountain range a few months later, he stole a<space unit="chars" quantity="1"/>march on my friend in its naming by his earlier return.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>What Mr Giles has achieved with small means is marvellous, and <seg style="">
+               <space dim="horizontal" extent="tab"/>What Mr Giles has achieved with small means is marvellous, and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">without camels</hi>
-               </seg>, and that in the worst season during unusual aridity! <seg style="">
+               </seg>, and that in the worst season during unusual aridity!<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Nine times</hi>
-               </seg> he was attacked by the hordes in the desert, once even knocked about in a fight and seriously wounded, probably because the Blacks did not want the little water in the oases drunk by the horses during a time of such terrible drought. If I can raise the funds, and if Giles is willing to enter the field of geographic exploration once again, I shall get him to explore the wide areas east of the Australian overland telegraph line.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>he was attacked by the hordes in the desert, once even knocked about in a fight and seriously<space unit="chars" quantity="1"/>wounded, probably because the Blacks did not want the little water in the oases drunk by the horses during a time of such terrible drought. If I can raise the funds, and if Giles is willing to<space unit="chars" quantity="1"/>enter<space unit="chars" quantity="1"/>the field of geographic exploration<space unit="chars" quantity="1"/>once again, I shall get him to explore the wide areas east of the Australian overland telegraph line.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have not yet received any published documents from Major Warburton's expedition.<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Warburton's private expedition, supported by Thomas Elder, reached the WA coast at the mouth of the De Grey River in December 1873 after suffering incredible hardship; see P. Warburton (1875).</p>
-               </note> Those about Gosse's enterprise should already have got to you with the last mail.<note xml:id="ftn10" type="footnote" n="10">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Gosse (1874). </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have not yet received any published documents from Major Warburton's expedition.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Warburton's private expedition, supported by Thomas Elder,<space unit="chars" quantity="1"/>reached the<space unit="chars" quantity="1"/>WA<space unit="chars" quantity="1"/>coast at the mouth of the De Grey River in December 1873 after suffering incredible hardship; see<space unit="chars" quantity="1"/>P.<space unit="chars" quantity="1"/>Warburton<space unit="chars" quantity="1"/>(1875).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Those about Gosse's enterprise should already have got to you with the last mail.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Gosse (1874).<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>What a pity that, on the occasion of the crossing of the Libyan desert,<note xml:id="ftn11" type="footnote" n="11">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The German expedition across the Libyan desert under Gerhard Rohlfs.</p>
-               </note> a lot of seed of <seg style="font-style: italic; ">Acacia</seg> (in particular <seg style="font-style: italic; ">
-                  <name key="Acacia%20lophantha">Acacia lophantha</name>
-               </seg>) and <seg style="font-style: italic; ">
-                  <name key="Eucalyptus">Eucalyptus</name>
-               </seg>, certain grasses and herbaceous plants were not sown during the cool season, as suggested by me in an essay that the French Government asked me to write about 8 years ago and that was published in the <seg style="font-style: italic; ">Bulletin de la Société d'agriculture d'Alger</seg>.<note xml:id="ftn12" type="footnote" n="12">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See B68.03.05.</p>
-               </note> Such seeds are now abundantly available at the Mediterranean, mostly from plants first sent to Algiers by me, and a few ounces of water each day would suffice to soak them prior to sowing.</p>
+               <space dim="horizontal" extent="tab"/>What a pity<space unit="chars" quantity="1"/>that,<space unit="chars" quantity="1"/>on the occasion of the crossing of the Libyan desert,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn10" n="11">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The German expedition across the Libyan desert under Gerhard Rohlfs.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>a lot of seed of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Acacia</seg>
+               <space unit="chars" quantity="1"/>(in particular<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Acacia lophantha</seg>) and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eucalyptus</seg>, certain grasses and herbaceous plants were not sown during the cool season,<space unit="chars" quantity="1"/>as suggested by me in an essay<space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>the French Government asked me to write about 8 years ago<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>was published in the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bulletin de la Société d'agriculture d'Alger</seg>.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn11" n="12">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See B68.03.05.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Such seeds are now abundantly available at the Mediterranean, mostly from plants first sent to Algiers<space unit="chars" quantity="1"/>by me, and a few ounces of water each day would suffice to soak them prior to sowing.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Always your</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">If you want to order the 6th volume of <seg style="font-style: italic; ">Flora australiensis</seg>,<note xml:id="ftn13" type="footnote" n="13">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Bentham (1863-78); vol. 6 was published on 23 September 1873; <seg style="font-style: italic; ">
-                        <name key="Petermannia">Petermannia</name>
-                     </seg> is on p. 462.</p>
-               </note> published just recently, from London, you will find the genus <seg style="font-style: italic; ">
-                  <name key="Petermannia">Petermannia</name>
-               </seg> described in it.</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">If you want to order the 6th volume of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Flora australiensis</seg>,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn12" n="13">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Bentham (1863-78); vol. 6 was published<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>23 September 1873;<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Petermannia</seg>
+                        <space unit="chars" quantity="1"/>is on p. 462.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>published just recently, from London, you will find the genus<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Petermannia</seg>
+               <space unit="chars" quantity="1"/>described in it.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia%20lophantha">Acacia lophantha</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">Acacia lophantha</seg>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus">Eucalyptus</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Petermannia">Petermannia</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Petermannia</p>
          </div>
       </body>
    </text>

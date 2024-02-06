@@ -38,9 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, ﷽﷽﷽﷽﷽﷽</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -95,1222 +91,1411 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. For the text given here, see B60.01.01.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see B60.01.01.</p>
                </note>Melbourne Botanical and Zoological Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">12th January, 1860.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor of transmitting to you my general report on the labors in this establishment during the past year, and beg to submit at the same time an outline of the arrangements which I propose for our work during the next season.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Some additions to the cultivated ground have been effected by forming ornamental shrubberies along the northern side of the gardens, and flower borders near the office building, at the palm-house, and at the southern lagoon. The nursery-ground has likewise been considerably enlarged, it being our aim to meet fully the annual demand for young plants by the gardens and reserves of the various public institutions throughout the colony.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Many rare or ornamental plants have been transferred from the nurseries to the main garden. Extensive lines of edgings around the flower borders had to be renewed; whilst the attendance to the great <seg style="font-style: italic; ">melange</seg> of plants in the now very large space of cultivated ground absorbs alone a considerable amount of attendance and labor. Rows of such umbrageous trees as are suitable to this climate, including Chinese locust trees, white cedars, paulownias, walnuts, &amp;c., were planted in the central part of the garden and along the northern margin of our ground, and with a view of beautifying the banks of the Yarra towards Prince's bridge willow cuttings have been planted around the lagoons of the reserve.</p>
+               <space dim="horizontal" extent="tab"/>Many rare or ornamental plants have been transferred from the nurseries to the main garden. Extensive lines of edgings around the flower borders had to be renewed; whilst the attendance to the great<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">melange</seg>
+               <space unit="chars" quantity="1"/>of plants in the now very large space of cultivated ground absorbs alone a considerable amount of attendance and labor. Rows of such umbrageous trees as are suitable to this climate, including Chinese locust trees, white cedars,<space unit="chars" quantity="1"/>paulownias, walnuts, &amp;c., were planted in the central part of the garden and along the northern margin of our ground, and with a view of beautifying the banks of the Yarra towards Prince's bridge willow cuttings have been planted around the lagoons of the reserve.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>About three hundred and twenty tree-guards of iron are either ready or contracted for, and will be required for the protection of the young trees, which we have reared for lining the walks of the northern ground, and these tree preservers may be used for very many years in establishing successively avenues through our area and the surrounding domains.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Numerous stumps of trees, felled unfortunately before our grounds were set apart to their present purposes, have been removed. A second and larger propagating house has been constructed; a dwelling for the foreman of the northern ground is erected at the western entrance, and also two wooden lodges are built in the southern ground. In anticipation of the arrival of the twenty-four camels and dromedaries from India, ordered at the expense of this establishment, stables have been built in the south reserve, where also a wooden building for the accommodation of smaller animals is raised, and a similar one, already contracted for, will offer additional shelter to the animals in that enclosure. A wooden house for sheltering the Llamas and Angora goats has been constructed in the southern reserve.</p>
+               <space dim="horizontal" extent="tab"/>Numerous stumps of trees, felled unfortunately before our grounds were set apart to their present purposes, have been removed. A second and larger propagating house has been constructed; a dwelling for the foreman of the northern ground is erected at the western entrance, and also two wooden lodges are built in the southern ground. In anticipation of the arrival of the twenty-four camels and dromedaries from India, ordered at the expense of this establishment, stables have been built in the south reserve, where also a wooden building for the accommodation of smaller animals is raised, and a similar one, already<space unit="chars" quantity="1"/>contracted for, will offer additional shelter to the animals in that enclosure. A wooden house for sheltering the Llamas and Angora goats has been constructed in the southern reserve.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The aviary has been completed by adding the other wing; and as soon as the substitution of an iron bridge for the rustic decayed one was effected, the two divisions of the aviary were united, the whole dry and shady space below the bridge thereby becoming available as a secluded spot for brooding birds.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It was found needful to raise a stone wall and causeway on the depressed part of the Yarra banks, near the lagoon, in order to protect the garden against the periodical inundations to which it was subjected through the Yarra floods.</p>
+               <space dim="horizontal" extent="tab"/>It was found needful to raise a stone wall and causeway on the depressed part of the Yarra banks, near the lagoon, in order to protect the garden against the periodical inundations to which it was subjected<space unit="chars" quantity="1"/>through the Yarra floods.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>By the application of a small ornamental windmill, it is intended to establish the requisite current of fresh water from the river to the lake. At the southern ground similar appliances we may be able to adopt this year for forcing Yarra water to the higher parts of our ground until the Yan Yean pipes shall be brought within our reach.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>With the advantage of an unlimited supply of water, our plan of enhancing the beauty of this spot by fountains may be realized. Meanwhile cisterns and tanks have been provided at all the principal buildings of the establishment, for collecting as much as possible of the rain water for gardening purposes.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See Lamb (1996).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>With the advantage of an unlimited supply of water, our plan of enhancing the beauty of this spot by fountains may be realized. Meanwhile cisterns and tanks have been provided at all the principal buildings of the establishment, for collecting as much as possible of the rain water for gardening purposes.<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See Lamb (1996).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In further reference to the progress of building works throughout the year, I beg to allude to the extensive and substantial fences already erected, or under progress of erection. The close wooden fencing of the northern area was completed in the beginning of last year, thus securing a pasture to many of the herbivorous animals. Of the higher and therefore more salubrious ground of the southern reserve a portion has been enclosed by high wooden fences as grazing ground for various animals, whilst another portion of the reserve by iron fencing has been separated as a paddock for larger graminivorous quadrupeds. A line of superior iron fencing is now in course of construction, to be placed parallel to the northern limits of the above enclosures, and sufficiently distant to admit of the formation of a carriage drive, and a shady promenade.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The Board of Land and Works has been pleased to concede the use of the reserve between Prince's bridge and the botanic garden, for the additional accommodation of the expected camels, and to sanction also the temporary occupation of two and a half acres at the eastern rise of the Government house reserve, for the more convenient trend of the proposed fence lines.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to J. Service, 3 January 1860.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>The Board of Land and Works has been pleased to concede the use of the reserve between Prince's bridge and the botanic garden, for the additional accommodation of the expected camels, and to sanction also the temporary occupation of two and a half acres at the eastern rise of the Government house reserve, for the more convenient trend of the proposed fence lines.<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See M to J. Service, 3 January 1860.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Further iron and wooden fences have been raised at the northern ground, and near the Yarra foot-bridge.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>After the completion of the iron fences, the worn out lines of paling can be removed, and much ground will thereby be added to the nurseries, and space be obtained to cultivate around some of the cottages, a selection of standard varieties of vines and other fruits, which I regret to say, it would be at present hopeless for us to attempt to rear in less guarded localities.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>A main walk has been formed through the northern ground, by conveying from the opposite side of the river, the requisite quarry rubble and gravel. Walks have also been laid out, leading to the palm house. Some of the older lines of walk have only been completed this season.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>With the formation of the contemplated drive in the reserve, and some additional paths, the extension of the system ground, the raising of islands in the lagoons, the construction of a pavilion, of bowers, grottoes, and rockwork, the principal arrangement of our ground may be considered as decided on; and then a lithographed plan of the whole establishment may be issued,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See B65.10.01.</p>
-               </note> for facilitating the search after certain plants or to serve as a general guide to visitors in the inspection of the gardens.</p>
+               <space dim="horizontal" extent="tab"/>With the formation of the contemplated drive in the reserve, and some additional paths, the extension of the system ground, the raising of islands in the lagoons, the construction of a pavilion, of bowers, grottoes, and rockwork, the principal arrangement of our ground may be considered as decided on; and then a lithographed plan of the whole establishment may be issued,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See B65.10.01.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>for facilitating the search after certain plants or to serve as a general guide to visitors in the inspection of the gardens.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The main underground drains in the southern grounds have been for the greater part completed during the past year, but many surface gutters are yet to be laid, whenever material for that purpose shall be available; but a complete system of drainage has yet to be introduced into the more recently added northern division of our area.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>More than 2000 of our cultivated plants are now furnished with conspicuous metal labels; and since their inscriptions seem to have afforded much desirable information, we may by degrees augment their number.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Although many additional benches have been furnished, they are still inadequate for the accommodation of the visitors, for it is pleasing to record that the recreation which this locality affords is so greatly appreciated. In corroboration of this, I may adduce the fact that seldom less, and often more, than 5000 visitors are counted on Sundays as entering at the principal gates of the southern ground; about half this number visiting simultaneously the northern reserve.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The total of our Sunday visitors to the southern ground during 1859, irrespective of those who enter by the smaller gates, was 160,220; the number of visitors at the northern ground during seven months was 41,035. The aggregate of visitors during week days may be regarded as nearly equal to that of the Sundays, so that probably the total has rather exceeded than fallen short of 300,000 during the past year.</p>
+               <space dim="horizontal" extent="tab"/>The total of our Sunday visitors to the southern ground during 1859, irrespective of those who enter<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>the smaller gates, was 160,220; the number of visitors at the northern ground during seven months was 41,035. The aggregate of visitors during week days may be regarded as nearly equal to that of the Sundays, so that probably the<space unit="chars" quantity="1"/>total has rather exceeded than fallen short of 300,000 during the past year.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Anxious to render the establishment one of not less utility than one of healthful recreation and agreeable information, we have endeavoured to furnish from hence as extensive supplies as possible. Thus, on ninety-one occasions, boughs and flowers for decoration have been furnished for public festivals, and not less than 20,438 plants, 2406 cuttings, and 44,572 papers of seeds have been distributed, either to public gardens and reserves, or to donors entitled to supplies by reciprocation, or in our maintaining or initiating an interchange with similar institutions abroad; and means have been adopted to render similar supplies available next season. Besides several thousand lots of seeds gathered in the establishment have been re-sown in this garden.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>A list is added to this document of such plants as were imported or raised during the season;<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The printed report is accompanied (pp. 12-16) by a 'Catalogue of the plants added during 1859 to those under cultivation in the Melbourne Botanic Garden'.</p>
-               </note> and although some contained in the catalogue of the previous year are lost, particularly many of the annual plants, which are always an uncertain possession, there are also still many other young plants cultivated, which, on account of having been received without accurate appellations, could not yet be examined and enumerated. The total of the species in our possession may therefore be approximately estimated at 4500, numerous additional varieties uncounted.</p>
+               <space dim="horizontal" extent="tab"/>A list is added to this document of such plants as were imported or raised during the season;<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The printed report is accompanied (pp. 12-16) by a<space unit="chars" quantity="1"/>'Catalogue of the plants added during 1859 to those under cultivation in the Melbourne Botanic Garden'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and although some contained in the catalogue of the previous year are lost, particularly many of the annual plants, which are always an uncertain possession, there are also still many other young plants cultivated, which, on account of having been received without accurate appellations, could not yet be examined and enumerated. The total of the species in our possession may therefore be approximately estimated at 4500, numerous additional varieties uncounted.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The curator, Mr. Dallachy, was engaged from July, 1858, till February, 1859, in collecting plants and seeds on the rivers Murray and Darling, the collections formed having proved not only valuable for adding to our varieties of such ornamental plants as are calculated to resist the drought, but also as comprising many species previously nowhere under cultivation, and therefore highly acceptable for continuing the interchange with the gardens of Britain, the colonies, and foreign countries.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>By this journey the material for the elaboration of the work on our native plants became also augmented, as may be observed by referring to the appended list of new Victorian plants.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>We being further desirous of adding to our collections both of cultivated and dried plants, Mr. Augustus Oldfield proceeded to the northern districts of Western Australia, from whence he recently returned after an absence of seventeen months. The phytological features of that part of Australia have not merely the charm of novelty, but furnished also, as was anticipated, a clue to the scientific interpretation of several plants, which under a rather similar clime vegetate in the north western desert of Victoria, and are therefore of importance for the elucidation of our own flora. Dr. Beckler, supported like Mr. Oldfield, only with such slender means as this department could afford, has undertaken the botanical examination of the "brush country" situated within the systema of the rivers McLeay, Hastings, Richmond, and Clarence,<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">NSW.</seg>
-                  </p>
-               </note> and is to accumulate also for our public collections, plants from the hitherto little explored alpine and subalpine ranges, in which these rivers rise, and will thereby afford the means of ascertaining the relation which exists between these plants to those of the Victorian Alps.</p>
+               <space dim="horizontal" extent="tab"/>We being further desirous of adding to our collections both of cultivated and dried plants, Mr. Augustus Oldfield proceeded to the northern districts of Western Australia, from whence he recently returned after an absence of seventeen months. The phytological features of that part of Australia have not merely the charm of novelty, but furnished also, as was anticipated, a clue to the scientific interpretation of several plants, which under a rather similar clime vegetate in the north western desert of Victoria, and are therefore of importance for the elucidation of our own flora. Dr. Beckler, supported<space unit="chars" quantity="1"/>like Mr. Oldfield, only with such slender means as this department could afford, has undertaken the botanical examination of the "brush country" situated within the systema of the rivers McLeay, Hastings, Richmond, and Clarence,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">NSW.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and is to accumulate also for our public collections, plants from the hitherto little explored alpine and subalpine ranges, in which these rivers rise, and will thereby afford the means of ascertaining the relation which exists between these plants to those of the Victorian Alps.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Thus it is steadily kept in view to bring into our possession an herbarium as complete as possible for the future elaboration of an universal descriptive work on the vegetation of Australia; and I am gratified to state, that of late a much more general interest has been evinced for investigations into the Australian flora, a work so gigantic, that without the co-operation of circumspect observers in many distant localities, it will be long before it can advance to perfection. Most particularly am I under obligation to W. Woolls, Esq., of Paramatta for contributing an almost complete collection of the plants occurring in his vicinity; to Dr. Milligan and Mr. Oldfield for plants from Tasmania, to Dr. Beckler from subtropical East Australia, to Messrs. Walcott for plants from near Shark's Bay,<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">WA.</seg>
-                  </p>
-               </note> to Mr. Charles Stuart for plants from New England,<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">NSW.</seg>
-                  </p>
-               </note> and to Mr. George Maxwell for plants from South Western Australia. Extensive contributions of extra-Australian plants for the herbarium have been received from the United States of North America, presented by Professor Dr. Asa Gray, Mr. Geyer, Dr. Saltwell, Mr. Eaton, United States; Assam plants, presented by Drs. Jos. Hooker and Thomas Thomson; Hong Kong plants, presented by Dr. Hance; and Ceylon plants, presented by Mr. Thwaites. Minor contributions during the year we owe to<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Not all persons named in the lists below have been identified. Those for whom details have been found have entries in the Biographical Register.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Thus it is steadily kept in view to bring into our possession an herbarium as complete as possible for the future elaboration of an universal descriptive work on the vegetation of Australia; and I am gratified to state, that of late a much more general interest has been evinced for investigations into the Australian flora, a work so gigantic, that without the co-operation of circumspect observers in many distant localities, it will be long before it can advance to perfection. Most particularly am I under obligation to W. Woolls, Esq., of Paramatta for contributing an almost complete collection of the plants occurring in his vicinity; to Dr. Milligan and Mr. Oldfield for plants from Tasmania, to Dr. Beckler from subtropical East Australia, to Messrs. Walcott for plants from near Shark's Bay,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">WA.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to Mr. Charles Stuart for plants from New England,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">NSW.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and to Mr. George Maxwell for plants from South Western Australia. Extensive contributions of extra-Australian plants for the herbarium have been received from the United States of North America, presented by Professor Dr. Asa Gray, Mr. Geyer, Dr. Saltwell, Mr. Eaton, United States; Assam plants, presented by Drs. Jos. Hooker and Thomas Thomson; Hong Kong plants, presented by Dr. Hance; and Ceylon plants, presented by Mr. Thwaites. Minor contributions during the year we owe to<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Not all persons named in the lists below have been identified. Those for whom details have been found have entries in the Biographical Register.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bailey, F., Wellington, New Zealand</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bowman, Edw. M., Lower Macquarie</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Clifton, George, Freemantle</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Cole, Commissioner, Eustone, Murray River<note xml:id="ftn10" type="footnote" n="10">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Stephen Cole, Euston, NSW.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Cole, Commissioner, Eustone,<space unit="chars" quantity="1"/>Murray River<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Stephen Cole, Euston, NSW.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Coutts, Dr., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dallachy, John</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Donavan, S.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Goodwin, Rev. Th. H., Darling River</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Gregory, A., Brisbane</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Gregory, F., Perth, Western Australia</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Gunn, R., M.L.A., Launceston</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hardie, E.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hill, W., Brisbane</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Jones, Ph. F., Williamstown</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Layard, Capt. G.,<seg style="font-size: 12pt; ">
-                  <note xml:id="ftn11" type="footnote" n="11">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Layard, Capt. G.,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn10" n="11">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg style="">i.e. Captain J. A. Layard.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>i.e. Captain J. A. Layard.</seg>
                      </p>
                   </note>
-               </seg> St. Kilda</p>
+               </seg>
+               <space unit="chars" quantity="1"/>St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Main, Patr., Bacchus Marsh</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Rusden, G. W.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Rusden, G.<space unit="chars" quantity="1"/>W.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Sandiman,<seg style="font-size: 12pt; ">
-                  <note xml:id="ftn12" type="footnote" n="12">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                        xml:lang="en">Error for Sandeman.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Sandiman,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn11" n="12">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Error for Sandeman.</p>
                   </note>
-               </seg> Gordon, Ipswich</p>
+               </seg>
+               <space unit="chars" quantity="1"/>Gordon, Ipswich</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Shepherd and Co., Sydney</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Schmidt, E. B., Castlemaine</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Schmidt, E.<space unit="chars" quantity="1"/>B., Castlemaine</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Smith, John Th., M.L.A.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Snellgrove, I. </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Snellgrove, I.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sonder, Dr. W., Hamburgh</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Thozet, Rockhampton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Vernon, W., Wooloomooloo</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Warburton, Major, Adelaide</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wilhelmi, Charles, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wood, Rev. Jul. Edw., Penola</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The total of the botanical specimens received was 10,938.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>From this office a distribution of 11,978 dried plants took place during the year, a share being furnished for the enlargement of the herbariums at the Melbourne University, and at the Public Library.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In endeavouring to enrich the collections, or adding to the notes for the botanical works here under progress, I have enjoyed not only the aid of private gentlemen, but also every support from our Government, of New South Wales, and South Australia. Thus His Excellency Sir William Denison was pleased to submit to this office for examination the plants collected during Mr. Gregory's expedition from Moreton Bay to Lake Torrens,<note xml:id="ftn13" type="footnote" n="13">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B59.04.03.</p>
-               </note> while by desire of His Excellency Sir Richard MacDonnell the Honorable Francis St. Dutton transmitted the botanical collections formed during Mr. Babbage's expedition.<note xml:id="ftn14" type="footnote" n="14">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B59.10.02.</p>
-               </note> The same favor was extended to me by T. Chambers, Esq., of Adelaide,<note xml:id="ftn15" type="footnote" n="15">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">i.e. James Chambers.</seg>
-                  </p>
-               </note> in reference to the plants secured during Mr. Stuart's second expedition.<note xml:id="ftn16" type="footnote" n="16">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B60.06.01.</p>
-               </note> The examination of the plants of tropical Australia, entrusted to me by Her Majesty's Home Government,<note xml:id="ftn17" type="footnote" n="17">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">i.e. from the North Australian Exploring Expedition, 1855-6.</seg>
-                  </p>
-               </note> has absorbed the rest of that time which other duties permitted me to devote for the purpose.</p>
+               <space dim="horizontal" extent="tab"/>In endeavouring to enrich the collections, or adding to the notes for the botanical works here under progress, I have enjoyed not only the aid of private gentlemen, but also every support from our Government, of New South Wales, and South Australia. Thus His Excellency Sir William Denison was pleased to submit to this office for examination the plants collected during Mr. Gregory's expedition from Moreton Bay to Lake Torrens,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn12" n="13">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B59.04.03.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>while by desire of His Excellency Sir Richard MacDonnell the Honorable Francis St. Dutton transmitted the botanical collections formed during Mr. Babbage's expedition.<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn13" n="14">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B59.10.02.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The same favor was extended to me by T. Chambers, Esq., of Adelaide,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn14" n="15">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">i.e. James Chambers.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>in reference to the plants secured during Mr. Stuart's second expedition.<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn15" n="16">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B60.06.01.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The examination of the plants of tropical Australia, entrusted to me by Her Majesty's Home Government,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn16" n="17">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">i.e. from the North Australian Exploring Expedition, 1855-6.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>has absorbed the rest of that time which other duties permitted me to devote for the purpose.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The introduction of plants by interchange of Wardian cases was carried on as formerly, the number of cases received being thirty-four, and exactly the same number was shipped from this establishment. The cases which we received, were furnished by the Royal Gardens of Kew, the Botanic Gardens of Adelaide, Brisbane, Buitenzorg, Capetown, Hobarton, Mauritius, Port Natal, Paradenia, and Portland, and by Captain Anderson, of the Chatham Islands; W. F. Bailey, Esq., of Wellington; J. H. Brooke, M.L.A.; Dr. Evans, M.L.A.; Honorable Dr. Featherstone, Wellington; Dr. Hillebrand, Honolulu; W. K. Hulke, Esq., of New Plymouth; A. Rusden, Esq., Foo-Tchow-Foo;<note xml:id="ftn18" type="footnote" n="18">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Fuzhou, China.</p>
-               </note> W. Woolls, Esq., of Paramatta. In effecting many of these exchanges we were favored with the gratuitous transit of our consignments, and are thus particularly indebted to the Royal Mail Steamers' Company, to many of the mercantile firms of the city and to many commanders of vessels. An active share was taken by many colonists and friends of this establishment abroad, in adding to its horticultural collections, by securing for it seeds, bulbs, &amp;c., as may be demonstrated by the list of donors, which I am much gratified to promulgate.</p>
+               <space dim="horizontal" extent="tab"/>The introduction of plants by interchange of Wardian cases was carried on as formerly, the number of cases received being thirty-four, and exactly the same number was shipped from this establishment. The cases which we received, were furnished by the Royal Gardens of Kew, the Botanic Gardens of Adelaide, Brisbane, Buitenzorg, Capetown, Hobarton, Mauritius, Port Natal, Paradenia, and Portland, and by Captain Anderson, of the Chatham Islands; W.<space unit="chars" quantity="1"/>F. Bailey, Esq., of Wellington; J.<space unit="chars" quantity="1"/>H. Brooke, M.L.A.; Dr. Evans, M.L.A.; Honorable Dr. Featherstone, Wellington; Dr. Hillebrand, Honolulu; W.<space unit="chars" quantity="1"/>K. Hulke, Esq., of New Plymouth; A. Rusden, Esq., Foo-Tchow-Foo;<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn17" n="18">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Fuzhou, China.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>W. Woolls, Esq., of Paramatta. In effecting many of these exchanges we were favored with the gratuitous transit of our consignments, and are thus particularly indebted to the Royal Mail Steamers'<space unit="chars" quantity="1"/>Company, to many of the mercantile firms of the city and to many commanders of vessels. An active share was taken by many colonists and friends of this establishment abroad, in adding to its horticultural collections, by securing for it seeds, bulbs, &amp;c., as may be demonstrated by the list of donors, which I am much gratified to promulgate.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Abbott, F., Hobarton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Alain, Pentland Hills<note xml:id="ftn19" type="footnote" n="19">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Main? A typesetter's error when preparing the source document? Probably <space unit="chars" quantity="1"/>J. P. Main, Pentland Hills. Patrick Main of Bacchus Marsh, mentioned earlier, may be the same person, since the Pentland Hills are close to Bacchus Marsh.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Alain, Pentland Hills<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn18" n="19">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Main? A typesetter's error when preparing the source document? Probably <space unit="chars" quantity="1"/>J. P. Main, Pentland Hills.<space unit="chars" quantity="1"/>Patrick Main of Bacchus Marsh, mentioned earlier, may be the same person, since the Pentland Hills are close to Bacchus Marsh.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Alleyne, St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Alloo, John, Emerald Hill</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Appelius, Erfurth</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Arnold, E., Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Asher, Charles</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Atkinson, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Babbage, Hersch., Adelaide</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bailey, F., Wellington</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Balfour, Professor Dr., Edinburgh</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bancroft, Capt., Toorak</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bannier, W., Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Barker, Mrs., Cape Schanck</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Barkly, His Excellency Sir Henry</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Barry, Honorable Judge</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bateman, Edward</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Baynton, G., Darling Downs</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Begerty, C., St Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Behr, Dr. Herm., San Francisco</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Beissel, Charles</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Berlin Botanic Garden</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Berry, Thomas, Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Best, A. F.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Beveridge, Peter, Murray River</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Buist, R., Philadelphia<note xml:id="ftn20" type="footnote" n="20">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Probably either Robert Buist (1805-1880) or his son, also Robert Buist (1837-1910), both nurserymen in Philadelphis, USA.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Buist, R., Philadelphia<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn19" n="20">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Probably either Robert Buist (1805-1880) or his son, also Robert Buist (1837-1910), both nurserymen in Philadelphis, USA.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bosisto, J., Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bowman, Edward M., Macquarie River</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Brandis, G., Ensfield</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bremen Botanic Garden</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Breslau Botanic Garden</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Brewster, Sandridge<note xml:id="ftn21" type="footnote" n="21">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">G. F. Brewster; now Port Melbourne.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Brewster, Sandridge<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn20" n="21">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>G. F. Brewster; now Port Melbourne.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Brooke, J. H., M.L.A., Heidelberg</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Brooke, J.<space unit="chars" quantity="1"/>H., M.L.A., Heidelberg</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Brown, J., Como<note xml:id="ftn22" type="footnote" n="22">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">i.e., John Brown (<seg>1804-1871)</seg>, of the property 'Como', South Yarra, Vic.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Brown, J., Como<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn21" n="22">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e., John Brown<space unit="chars" quantity="1"/>(1804-1871),<space unit="chars" quantity="1"/>of the property 'Como', South Yarra, Vic.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bryant, George, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Buckley, W.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bunce, Daniel, Geelong</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Buttler, H. S.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Buttler, H.<space unit="chars" quantity="1"/>S.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Calcutta Botanic Garden</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Chapman, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Clayton, W., Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Clifton, George, Freemantle</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cobham, Mrs., Clifton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cole, Capt. G. W.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cole, T. C., Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Coppin, Hon. George, M.L.C.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Cresswell, H. S., South Yarra</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Cresswell, H.<space unit="chars" quantity="1"/>S., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dallachy, John</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Douglass, Mrs., Williamstown</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Duncan, W. </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Duncan, W.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dunlop, Brighton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dyson, Arthur</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Evans, Dr., M.L.A.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Falconer, T. J.,<note xml:id="ftn23" type="footnote" n="23">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">Typesetter's error for </seg>J. J. Falconer<seg style="font-style: italic; ">?</seg>
-                  </p>
-               </note> Sydney</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Falconer, T.<space unit="chars" quantity="1"/>J.,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn22" n="23">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">'</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">s error for<space unit="chars" quantity="1"/>
+                        </seg>J. J. Falconer<seg rend="DefaultParagraphFont" style="font-style: italic; ">?</seg>
+                        <space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Sydney</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Farrel, J.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Fawcett, J. W.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Fawcett, J.<space unit="chars" quantity="1"/>W.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Ferguson, W., Heidelberg</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Ferguson, W.,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn23" n="24">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Ferguson.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Heidelberg</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Ferguson, Capt., Williamstown</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Ferguson, Capt.,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn24" n="25">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Charles Ferguson.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Williamstown</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Fischer, L., Bugle Range, South Australia</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Fisher, W. C., Melbourne</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Fisher, W.<space unit="chars" quantity="1"/>C., Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Fitzallen, E.,<note xml:id="ftn24" type="footnote" n="24">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Eugene Fitzalan?</p>
-               </note> Little River</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Fitzallen, E.,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn25" n="26">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Eugene Fitzalan?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Little River</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Francis, George, Adelaide</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Francis, J. G., M.L.A.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Francis, J.<space unit="chars" quantity="1"/>G., M.L.A.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Franke, Gustave, Collingwood</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Freeman, Heathcote</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Gaulston, E. B., Melbourne</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Gaulston, E.<space unit="chars" quantity="1"/>B., Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Gayet, Henry</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Gell, St. Kilda</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Gell, St.<space unit="chars" quantity="1"/>Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Glasgow Botanic Garden</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Goodall, Harry, Snapper Point<note xml:id="ftn25" type="footnote" n="25">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 9pt; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; "
-                     xml:lang="en">
-                     <seg style="">i.e. Harley Goodall.</seg>
-                  </p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Goodall, Harry, Snapper Point<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn26" n="27">
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.3347in; text-indent: -0.3347in; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">i.e. Harley Goodall</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Goodwin, Rev. Th. H., Darling River</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Gray, Professor Dr. Asa, Boston</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Greeves, Dr. A. </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Greeves, Dr. A.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Gregory, A., Brisbane</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Greigg, Miss</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Grosse, Fr., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hall, W.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hance, Dr., Hong Kong</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Handiside, G.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Harris, Ch.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Harvey, Captain of <seg style="font-style: italic; ">Harvest Home</seg>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Harvey, Captain of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Harvest Home</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hellicar, St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Henderson and Son, London</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Henty, Fr., Portland</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hill, W., Brisbane</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hillebrand, Dr. W., Honolulu</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hooker, Sir W., Kew</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Horne, G. S. W., M.L.A.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Horne, G.<space unit="chars" quantity="1"/>S. W., M.L.A.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Howarth, Boroondara</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Howitt, Dr. G.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Ick, Edw.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Johnson, B. and S., Preston</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Kay, Capt., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Kerr, Rob., St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Lamford, Edw., Castlemaine </p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Lamoile, Mrs., Toorak</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Lang, Th., Ballaarat</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Launceston Horticultural Society</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Law, Will.</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Lee, George</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Lee, Parkin</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Leetch, Conolly</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">London Horticultural Society</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Madras Botanic Garden</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Martley J. F., South Yarra</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Mason, Leonard, Lucknow, Gipps Land</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Maxwell, George, Albany, Western Australia</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Mitchell, W.</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Moore, C. Sydney</p>
-            <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Moore, Dublin<note xml:id="ftn26" type="footnote" n="26">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">David Moore, curator of the Glasnevin Botanic Garden, Dublin?</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Lamford, Edw., Castlemaine<space unit="chars" quantity="1"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Lamoile, Mrs., Toorak</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Lang, Th., Ballaarat</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Launceston Horticultural Society</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Law, Will.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Lee, George</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Lee, Parkin</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Leetch, Conolly</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">London Horticultural Society</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Madras Botanic Garden</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Martley J.<space unit="chars" quantity="1"/>F., South Yarra</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Mason, Leonard, Lucknow, Gipps Land</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Maxwell, George, Albany, Western Australia</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Mitchell, W.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Moore, C. Sydney</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Moore, Dublin<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn27" n="28">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>David Moore, curator of the Glasnevin Botanic Garden, Dublin?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Moore, Thomas, Chelsea</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Morrison, George, Buenos Ayres</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Morrison, Thomas</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Mueller, Dr. F.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Mulliken, Samuel</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Murray, Andrew</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Murray, W., San Francisco</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">McArthur, D. C.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">McArthur, D.<space unit="chars" quantity="1"/>C.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">McGowan, S. W.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">McGowan, S.<space unit="chars" quantity="1"/>W.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">McKenzie, Port Albert</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Newenham, H. H., North Melbourne</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Newenham, H.<space unit="chars" quantity="1"/>H., North Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Owen, Adelaide</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Parker, Mrs. K., Sydney</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Perry, Darling River</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Pestell, William </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Pestell, William<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Phelps, Joseph, Murrumbidgee</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Pittman, Joseph, Prahran</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Politz, St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Portland Botanic Garden</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Ralston, Mrs., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Rickards, J. R.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Rickards, J.<space unit="chars" quantity="1"/>R.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Richie, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Roberts, S.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Roope, Honorable, M.L.C.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Ross, Murray River</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Russell, J., Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Russell, Mrs. John, Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Rutherford, Mrs.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Salkeld, Mrs., Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sangster, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sayce, Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Schott, Dr., Vienna</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Scott, James, Hawthorn</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Scott, W. C., Melbourne</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Scott, W.<space unit="chars" quantity="1"/>C., Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Seidel, Geelong</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Selwin, Alfred</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sewell, Dr.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Shepherd and Co., Messrs., Sydney</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sloane, J.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Smith and Adamson, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Smith, John Thomas, M.L.A.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Smith, Rev. James, Delhi</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Smith, Mrs.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Snellgrove, Edward H.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Standish, London</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Stiffe, John, Geelong</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Stuart, Charles, Clifton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Thozet, Rockhampton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Thwaites, G. H. K., Paradenia</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Thwaites, G.<space unit="chars" quantity="1"/>H.<space unit="chars" quantity="1"/>K., Paradenia</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Timburg, R., St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Turnbull and Buchanan,<note xml:id="ftn27" type="footnote" n="27">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">William Buchanan.</p>
-               </note> Sealers' Cove</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Turnbull and Buchanan,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn28" n="29">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Buchanan.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Sealers' Cove</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Turnbull, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Tyler, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Vause, Richard, Port Natal</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Veitch, James, jun., Chelsea</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Vernon, W., Sydney</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wadsworth, R., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Walcott, P., Chamption Bay</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Walker, S. J.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Walker, S.<space unit="chars" quantity="1"/>J.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Ward, James</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Weidenbach, Max., Adelaide</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">White, George, Geelong</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wilhelmi, Charles, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Williams, Rev. Thomas</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wills, Mrs. T., Collingwood</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wilson, W., Canterbury</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wood, Rev. Jul. Edw., Penola</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Woods, T. F., Angastown </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Woods, T.<space unit="chars" quantity="1"/>F., Angastown<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Woolls, W., Paramatta</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wright, J.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wright, barrister</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Young, Sir Henry, Tasmania</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The animals of the menagerie are at present all in a healthy condition. They comprise Angora goats, fat-tail sheep, Llama-alpacas, 13 fallow deer, with 3 fawns, a Sumatra deer, Ceylon elk, several kangaroos and emus, koalas, an ichneumon, monkeys of various species, a considerable variety of singing birds, of which the canaries, goldfinches, and linnets have reared broods, whilst the thrushes are nesting; Californian quail, which also increased; native companions, 16 black and 6 white swans, English and silver pheasants, Murray pheasants, Australian eagles, hawks, and several other smaller animals.</p>
+               <space dim="horizontal" extent="tab"/>The animals of the menagerie are at present all in a healthy condition. They comprise Angora goats, fat-tail sheep, Llama-alpacas, 13 fallow deer, with 3 fawns, a Sumatra deer, Ceylon elk, several<space unit="chars" quantity="1"/>kangaroos and emus, koalas, an ichneumon, monkeys of various species, a considerable variety of singing birds, of which the canaries, goldfinches, and linnets have reared broods, whilst the thrushes are nesting;<space unit="chars" quantity="1"/>Californian quail, which also increased; native companions, 16 black and 6 white swans, English and silver pheasants, Murray pheasants, Australian eagles, hawks, and several other smaller animals.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Some eagles and waterhens have been shipped for interchange to the Zoological Society of London. An importation of South African game, through the friendly co-operation of the Government of the Cape Colony, may be soon expected.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Contributions towards the menagerie have been gratefully received from the following donors: </p>
+               <space dim="horizontal" extent="tab"/>Contributions towards the menagerie have been gratefully received from the following donors:<space unit="chars" quantity="1"/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Allan, T. M., Warrnambool<note xml:id="ftn28" type="footnote" n="28">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">J. M. Allan? Almost certainly a typesetter's misreading of the inital in the MS.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Allan, T.<space unit="chars" quantity="1"/>M., Warrnambool<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn29" n="30">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>J. M. Allan? Almost certainly a typesetter's misreading of the inital in the MS.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Baker, C., Collingwood</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Baxter, Rev., Kew<note xml:id="ftn29" type="footnote" n="29">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">William Baxter, c.1812-1876.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Baxter, Rev., Kew<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn30" n="31">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Baxter, c.1812-1876.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Beamish, Rev. Dr. J. T., Warrnambool<note xml:id="ftn30" type="footnote" n="30">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Error for P. T. Beamish.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Beamish, Rev. Dr. J.<space unit="chars" quantity="1"/>T., Warrnambool<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn31" n="32">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Error for P. T. Beamish.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Berse, Samuel</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Buttler, A. E., Geelong</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Buttler, A.<space unit="chars" quantity="1"/>E., Geelong</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cameron, Hugh, Prahran</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Cave, Capt., of the <seg style="font-style: italic; ">Panama</seg>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Cave, Capt.,<space unit="chars" quantity="1"/>of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Panama</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Clow, Rev. Mr.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Coppin, Honorable G., Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Craigg, S. K.<note xml:id="ftn31" type="footnote" n="31">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">Samuel Craig?</seg>
-                  </p>
-               </note>, Enfield, Middlesex</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Craigg, S.<space unit="chars" quantity="1"/>K.<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn32" n="33">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Samuel Craig?</seg>
+                     </p>
+                  </note>
+               </seg>, Enfield, Middlesex</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cropper, W., St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cumberland, B.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Embling, Dr., M.L.A.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Frazer, Hugh, Welshpool</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Degraves, Will.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Haselgrave,<note xml:id="ftn32" type="footnote" n="32">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Thomas Hazelgrove?</p>
-               </note> Brighton</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Haselgrave,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn33" n="34">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Thomas<space unit="chars" quantity="1"/>Hazelgrove?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Brighton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Heape, Charles</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hick, George</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hooper, Mrs.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hugham, Allan, Avoca</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Isaacs, B.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Johnson, Hon. G. W., Kyneton</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Johnson, Hon. G.<space unit="chars" quantity="1"/>W., Kyneton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Keith, Archibald</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Kelly, Will. Lancel.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Khull, Miss Mary, Toorak</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Lamoile, Toorak</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Layard, Capt., St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Mallett, D., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Murcutt, Robert</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Nash, R., St. Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Newell, Hooper and Stevens</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Parson, J. G.,<note xml:id="ftn33" type="footnote" n="33">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">J. G. Parsons?</p>
-               </note> Brighton</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Parson, J.<space unit="chars" quantity="1"/>G.,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn34" n="35">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>J. G. Parsons?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Brighton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Penson, R., Prahran</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Pendergast, W. E., Snapper Point</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Perkins, G. B., Brighton</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Perry, R. D., Melbourne</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Perry, R.<space unit="chars" quantity="1"/>D., Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Pritchard, Capt., of <seg style="font-style: italic; ">Camilla</seg>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Pritchard, Capt., of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Camilla</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Riches, Capt. C. F., of <seg style="font-style: italic; ">Gazehound</seg>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Riches, Capt. C.<space unit="chars" quantity="1"/>F., of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gazehound</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Riley, Thomas, Sandridge</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Robertson, Dr., Queenscliff</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Roope, Honorable Mrs.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Russell, Mrs. Lydia, Emerald Hill</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Russell, Mrs.<space unit="chars" quantity="1"/>Lydia, Emerald Hill</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Salkeld, Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sewell, Dr.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Slade, Lieut., R.N.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Simpskin, Queenscliff</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Smith and Adamson, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Smith and Clare</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Thompson, Henry</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Topp, Miss Alice, South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Twoose, R. F.,<note xml:id="ftn34" type="footnote" n="34">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">i.e. R. F. Twose.</p>
-               </note> Richmond</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Twoose, R.<space unit="chars" quantity="1"/>F.,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn35" n="36">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. R. F. Twose.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Richmond</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wadsworth, R., South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
-               xml:lang="en">Webber, F. B., Gardiner's Creek</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Webber, F.<space unit="chars" quantity="1"/>B., Gardiner's Creek</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wehl, Dr. Edward, Mount Gambier</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wild, Miss</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wilson, Edw., London</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Winglesworth.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The canary birds having considerably increased in number, a trial was made under the sanction of the committee for carrying out the original design, to naturalize foreign singing birds,<note xml:id="ftn35" type="footnote" n="35">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See Maroske &amp; Gilfedder (1994).</p>
-               </note> by setting them at liberty in our shrubberies; the experiment seemed at first to be attended with success, but gradually, although well provided with food, the number of the liberated birds decreased, and at last they entirely disappeared. In an attempt to naturalize the more hardy thrushes, we may anticipate to be more successful, particularly if at the proper season, the birds are at once transferred to suitable spots in the forest ranges, or perhaps to some of the islands. Of thrushes, not less than forty-six were obtained through the extreme liberality of Edward Wilson, Esq., and the disinterested zeal, the circumspect care, and patient perseverance of that gentleman, for the introduction of the treasures of the animal kingdom into this country, cannot receive a sufficiently high eulogium. To his exertions, supported by some friends of the colonies in Britain, we owe principally the donation of our llama-alpaca flock, and we shall probably be soon indebted to him for rendering the salmon a denizen of the Australian rivers; some pheasants were likewise received from Mr. Wilson, of which five were transferred to Phillip Island, where Mr. McHaffy<note xml:id="ftn36" type="footnote" n="36">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">John McHaffie.</p>
-               </note> declared himself ready to bestow every care on them and their offspring. The Angora goats have increased by four, the llama-alpacas by seven; the fleece of one of the former yielded approximately, 8 lbs. of wool, that of a young superior animal of the latter, 4½ lbs., although some of the large llamas furnished a greater weight of coarser wool; this supply falls considerably short of the produce obtained from some of the genuine alpacas of the government's flock in New South Wales, two of the best animals having respectively furnished 12 and 18 lbs. of wool; great gratitude is therefore due to the enlightened rulers of that colony, for their liberality in adding a pure alpaca ram to our flock, with a view to the improvement of the breed, the fleece of ours being otherwise scarcely of any mercantile value. Should, as might be expected, the Angora goats thrive in many of the scrubby grassless districts of our ranges, where neither sheep nor cattle prosper, an inestimable addition will be made to the pastoral resources of the colony, and many districts now unoccupied, may become thereby available for settlement. Both Angora goats and alpacas, it may be added, prove here remarkably prolific.</p>
+               <space dim="horizontal" extent="tab"/>The canary birds having considerably increased in number, a trial was made under the sanction of the committee for carrying out the original design, to naturalize foreign singing birds,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn36" n="37">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See Maroske &amp; Gilfedder (1994).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>by setting them at liberty in our shrubberies; the experiment seemed at first to be attended with success, but gradually, although well provided with food, the number of the liberated birds decreased, and at last they entirely disappeared. In an attempt to naturalize the more hardy thrushes, we may anticipate to be more successful, particularly if at the proper season, the birds are at once transferred to suitable spots in the forest ranges, or perhaps to some of the islands. Of thrushes, not less than forty-six were obtained through the extreme liberality of Edward Wilson, Esq., and the disinterested zeal, the circumspect care,<space unit="chars" quantity="1"/>and patient perseverance of that gentleman, for the introduction of the treasures of<space unit="chars" quantity="1"/>the animal kingdom into this country, cannot receive a sufficiently high eulogium. To his exertions, supported by some friends of the colonies in Britain, we owe principally the donation of our llama-alpaca flock, and we shall probably be soon indebted to him for rendering the salmon a denizen of the Australian rivers; some pheasants were likewise received from Mr. Wilson, of which five were transferred to Phillip Island, where Mr. McHaffy<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn37" n="38">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>John McHaffie.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>declared himself ready to bestow every care on them and their offspring. The Angora goats have increased by four,<space unit="chars" quantity="1"/>the llama-alpacas by seven; the fleece of one of the former yielded approximately, 8 lbs. of wool, that of a young superior animal of the latter, 4½<space unit="chars" quantity="1"/>lbs., although some of the large llamas furnished a greater weight of coarser wool; this supply falls considerably short of the produce obtained from some of the genuine alpacas of the government's flock in New South Wales, two of the best animals having respectively furnished 12 and 18 lbs. of wool; great gratitude is therefore due to the enlightened rulers of that colony, for their liberality in adding a pure alpaca ram to our flock, with a view to the improvement of the breed, the fleece of ours being otherwise scarcely of any mercantile value. Should, as might be expected, the Angora goats thrive in many of the scrubby grassless districts of our ranges, where neither sheep nor cattle prosper, an inestimable addition will be made to the pastoral resources of the colony, and many districts now unoccupied, may become thereby available for settlement. Both Angora goats and alpacas, it may be added,<space unit="chars" quantity="1"/>prove here remarkably prolific.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>For the temporary reception of future importations of fish, especially salmon, a series of tanks is now under construction, through which, by the appliance of mill-work, a constant current of river water will be secured; for although it is intended to locate the principal supply of salmon ova at once after arrival in the elevated and artificially protected shallows of rivers rising in our Alps, it will be still desirable that also an attempt should be made to hatch them on our ground, and to rear some of the young fish for experiment, and eventual distribution to other localities of this country.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>To these manifold obligations has been added by the military officers another, deserving of high praise, namely, the frequent attendance of the excellent regimental band at the gardens.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>A few weeks of the previous summer were devoted by the Government botanist to researches into the vegetation of the mountains along the McAllister river. The tributaries of the latter stream were found on that occasion to traverse a country of rather extensive fertility and, to judge by its physical aspect, of auriferous formation. Some botanical novelties, enumerated in the appendix,<note xml:id="ftn37" type="footnote" n="37">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">The printed report is followed (p. 11) by 'Fifth systematic index of the plants of Victoria, comprising those collected in 1859; by Ferdinand Mueller, M.D., PH. D., Government Botanist'.</seg>
-                  </p>
-               </note> were discovered and secured for the herbarium. In this journey, the main range of the South Western Alps was ascertained to extend in an almost semi-elliptical line from Mount Wellington to Mount Useful, at an elevation varying from 4000 to 5000 feet, only the northern part of this mountain tract, encircling the sources of the McAllister, being more depressed and somewhat broken. From several high mountains, then ascended for the first time, bearings were secured to elevations included in the trigonometrical survey. From the more elevated western portion of these mountains, now designated on the chart as the Barkly Ranges, a leading spur will in all probability be found to extend to the hitherto unapproached alpine elevations of Mount Baw Baw.</p>
+               <space dim="horizontal" extent="tab"/>A few weeks of the previous summer were devoted by the Government botanist to researches into the vegetation of the mountains along the McAllister river. The tributaries of the latter stream were found on that occasion to traverse a country of rather extensive fertility and, to judge by its physical aspect, of auriferous formation. Some<space unit="chars" quantity="1"/>botanical novelties, enumerated in the appendix,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn38" n="39">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">The printed report is followed (p. 11) by<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
+                        <seg rend="DefaultParagraphFont" style="">Fifth systematic index of the plants of Victoria, comprising those collected in 1859; by Ferdinand Mueller, M.D., PH. D., Government Botanist</seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>were discovered and secured for the herbarium. In this journey, the main range of the South Western Alps was ascertained to extend in an almost semi-elliptical line from Mount Wellington to Mount Useful, at an elevation varying from 4000 to 5000 feet, only the northern part of this mountain tract, encircling the sources of the McAllister, being more depressed and somewhat broken. From several high mountains, then ascended for the first time, bearings were secured to elevations included in the trigonometrical survey. From the more elevated western portion of these mountains, now designated on the chart as the Barkly Ranges, a leading spur will in all probability be found to extend to the hitherto unapproached alpine elevations of Mount Baw Baw.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This question which I left during my first visit unsolved I am anxious to set at rest during the next season. Mount Wellington, inasmuch as it can be reached by a path accessible to horses from the Avon Ranges, may be regarded as the southern key of the Australian Alps, from whence along the crest of the main ramifications of the high land a journey with horses seems possible in most directions. Otherwise, the dense underwood of the less lofty ranges, stretching between the alpine tract and the low land, frustrates any attempt to traverse the country between the Yarra sources and Gipps Land without cutting previously tracts<note xml:id="ftn38" type="footnote" n="38">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">tracks?</p>
-               </note> through the jungle, whereas the main range, at elevations exceeding 4000 feet, is usually destitute of these impediments.</p>
+               <space dim="horizontal" extent="tab"/>This question which I left during my first visit unsolved I am anxious to set at rest during the next season. Mount Wellington, inasmuch as it can be reached by a path accessible to horses from the Avon Ranges, may be regarded as the southern key of the Australian Alps, from whence along the crest of the main ramifications of the high land a journey with horses seems possible in most directions. Otherwise, the dense underwood of the less lofty ranges, stretching between the alpine tract and the low land, frustrates any attempt to traverse the country between the Yarra sources and Gipps Land without cutting previously tracts<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn39" n="40">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>tracks?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>through the jungle, whereas the main range, at elevations exceeding 4000 feet, is usually destitute of these impediments.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>It is my duty to bear, on this occasion, public acknowledgment to the generous aid which in performing this journey I experienced from Angus McMillan, Esq., M.L.A., the discoverer of Gipps Land, who not only provided six horses and almost all other requisites for this excursion, but also facilitated it, whilst sharing in it, by his intimate knowledge of the surrounding country. The botanical examination of Victoria, although now for the greater part completed, has yet to be extended to the country towards Lake Hindmarsh, to Mount Baw Baw, and to the most eastern part of the colony about Cape Howe.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Ten numbers of the <seg style="font-style: italic; ">Fragmenta Phytographiae Australiae </seg>are issued,<note xml:id="ftn39" type="footnote" n="39">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See Mueller's publication list.</p>
-               </note> comprising the diagnoses of nearly 500 new or rare plants contained in our collection. This publication is illustrated by ten plates drawn by Messrs. Becker<note xml:id="ftn40" type="footnote" n="40">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Ludwig Becker.</p>
-               </note> and Schoenfeld; whilst to botanical science in general it furnishes a series of new observations, it affords the opportunity of publicly expressing my thanks for many contributions received by us; and it will, moreover, be useful as a work of reference to the herbarium.</p>
+               <space dim="horizontal" extent="tab"/>Ten numbers of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Fragmenta Phytographiae Australiae</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>are issued,<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn40" n="41">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See Mueller's<space unit="chars" quantity="1"/>publication list.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>comprising the diagnoses of nearly 500 new or rare plants contained in our collection. This publication is illustrated by ten plates drawn by Messrs. Becker<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn41" n="42">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ludwig Becker.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and Schoenfeld; whilst to botanical science in general it furnishes a series of new observations, it affords the opportunity of publicly expressing my thanks for many contributions<space unit="chars" quantity="1"/>received by us; and it will, moreover, be useful as a work of reference to the herbarium.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Of the <seg style="font-style: italic; ">Plants Indigenous to the Colony of Victoria</seg>, about half the first volume is printed, and twenty-eight lithographic illustrations are prepared for it.<note xml:id="ftn41" type="footnote" n="41">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B62.03.03.</p>
-               </note> This work is intended as a continuation of the series of quarto volumes published by Dr. J. Hooker, under the authority of the Lords Commissioners of the Admiralty. Arrangements have been entered into for issuing the first volume in 1860.</p>
+               <space dim="horizontal" extent="tab"/>Of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Plants Indigenous to the Colony of Victoria</seg>, about half the first volume is printed, and twenty-eight lithographic illustrations are prepared for it.<seg rend="FootnoteReference" style="font-size: 9pt; ">
+                  <note type="footnote" xml:id="_ftn42" n="43">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B62.03.03.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>This work is intended as a continuation of the series of quarto volumes published by Dr. J. Hooker, under the authority of the Lords Commissioners of the Admiralty. Arrangements have been entered into for issuing the first volume in 1860.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In the publication of that part of the work referring to cryptogamic plants, I enjoy the valuable aid of the Rev. Mr. Berkeley and Mr. E. Hampe, who have made those branches of botany referring to cellular plants the subjects of long and careful inquiry.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>For the information of those interested in the progress of knowledge of Australian vegetation, I may be permitted to state, that of any apparently uncommon plant, even the smallest fragments, such as can be easily pressed into an ordinary note-book, and be transmitted in a letter, will be acceptable; and that even specimens of the common plants, particularly of the interior districts, are of value to ascertain the range of the various species over the country. Such specimens should, whenever possible, be procured both in flower and fruit.</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Beyond the frequent application to this office for the systematic determination of indigenous plants, also not rarely wishes are expressed for information on uses and qualities of vegetable productions, or on plants desirable for introduction — questions which receive, I need not state, the promptest and fullest attention I am able to give them. More extensive information may be expected will be gained when once the building now under progress, intended as a museum of economic botany, is filled with a systematic assortment of such raw and artificial materials, obtained from the vegetable kingdom, as are introduced into manufactures, medicine, or domestic use. The numerous fascicles of classified dried plants will be removed from the small office-building to the museum as soon as the necessary fittings are completed, and we may trust that the opening of one of the richest collections of Australian plants, and an extensive herbarium from other parts of the globe, will materially tend to diffuse knowledge, and add to the attractions of this establishment.</p>
+               <space dim="horizontal" extent="tab"/>Beyond the frequent application to this office for the systematic determination of indigenous plants, also not rarely wishes are expressed for information on uses and qualities of vegetable productions, or on plants desirable for introduction — questions which receive, I need not state, the promptest and fullest attention I am able to give them. More extensive information may be expected will be gained when once the building now under progress, intended as a museum of economic botany, is filled with a systematic assortment of such raw and artificial materials, obtained from the vegetable kingdom, as are introduced into manufactures, medicine, or domestic use. The numerous fascicles of classified dried plants will be removed from the small office-building to the museum as soon as the necessary fittings are completed, and we may trust that the opening of one of the richest<space unit="chars" quantity="1"/>collections of Australian plants, and an extensive herbarium from other parts of the globe, will materially tend to diffuse knowledge, and add to the attractions<space unit="chars" quantity="1"/>of this establishment.</p>
             <p rend="valediction"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">I have the honor to be, </p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">I have the honor to be,<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your most obedient and humble servant,</p>
             <p rend="valediction"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>FERD. MUELLER,</p>
             <p rend="valediction"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-style: italic; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; font-style: italic; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -1318,10 +1503,10 @@
                <space dim="horizontal" extent="tab"/>Government Botanist and Director of the Botanical and Zoological Garden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Honorable the Chief Secretary,</p>
             <p rend="letter"
-               style="font-family: Geneva, ﷽﷽﷽﷽﷽﷽; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">&amp;c., <space unit="chars" quantity="2"/>&amp;c., <space unit="chars" quantity="2"/>&amp;c.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gilbert River ¶ North Queensland ¶ Feby 22nd 1886 ¶ Dear Baron ¶  ¶ I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It is the only thing coming any way near ...</title>
+            <title>Gilbert River ¶ North Queensland ¶ MS annotation by M: 'ViaNormanton'. ¶ Feby 22nd 1886 ¶ Dear Baron ¶  ¶ I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It ...</title>
             <author>M. Dugan</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>M. Dugan</author>
-               <title>Gilbert River ¶ North Queensland ¶ Feby 22nd 1886 ¶ Dear Baron ¶  ¶ I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It is the only thing coming any way near ...</title>
+               <title>Gilbert River ¶ North Queensland ¶ MS annotation by M: 'ViaNormanton'. ¶ Feby 22nd 1886 ¶ Dear Baron ¶  ¶ I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It ...</title>
                <date when="1886-02-22">1886-02-22</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
             </keywords>
@@ -91,66 +87,82 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Gilbert River ¶ North Queensland ¶ Feby 22nd 1886 ¶ Dear Baron ¶  ¶ I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It is the only thing coming any way near ...</supplied>
+               <supplied reason="XTF-compatibility">Gilbert River ¶ North Queensland ¶ MS annotation by M: 'ViaNormanton'. ¶ Feby 22nd 1886 ¶ Dear Baron ¶  ¶ I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It ...</supplied>
             </head>
             <p rend="number" xml:lang="en">86.02.22a</p>
             <p rend="correspondent" xml:lang="en">From M. Dugan</p>
-            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS found with specimen of <seg style="font-style: italic; ">Breynia</seg> sp. (MEL 226136).</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS found with specimen of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Breynia</seg>
+                     <space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">cernua</seg>
+                     <space unit="chars" quantity="1"/>(MEL 226136).</p>
                </note>Gilbert River</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">North Queensland<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS annotation by M: '<seg style="">
-                        <hi rend="underline">Via</hi>
-                     </seg>
-                     <seg style="">
-                        <hi rend="underline">Normanton</hi>
-                     </seg>'.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">North Queensland<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS annotation by M: '<seg rend="DefaultParagraphFont" style="">
+                           <hi rend="underline">Via</hi>
+                        </seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <hi rend="underline">Normanton</hi>
+                        </seg>'.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Feby 22nd 1886</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Baron</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It is the only thing coming any way near the description of the tree you wrote me about<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> that I can see about the Gilbert country</p>
+               <space dim="horizontal" extent="tab"/>I enclose you a specimen of a little tree with berries that I obtained near the Gilbert. — It is the only thing coming any way near the description of the tree you wrote me about<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>that I can see about the Gilbert country</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The specimen enclosed is from a bushy tree with from one to eight stems from the root, and grows from 2 to 3 feet high, bearing berries first green, then red and when ripe black. I am sure the leaves fall off in Winter as I never noticed the tree I. E. foliage until after the wet season, and I never to my knowledge saw the tree before except in this region, there are many plants that seem strange to me here but as you have been through this country you know them I expect, — though there are many that come up during the wet and soon wither. I will gather what I can and forward you, I am very busy looking for lost cattle in this wretched place that I have not facilities for keeping plants &amp;c, but I expect that things will be better soon.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Will you please <seg style="">
+               <space dim="horizontal" extent="tab"/>Will you please<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">not</hi>
-               </seg> write to me until you hear from me again as I dont know at present where to have my letters addressed to</p>
+               </seg>
+               <space unit="chars" quantity="1"/>write to me until you hear from me again as I dont know at present where to have my letters addressed to</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I am dear Baron</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>yours obediently</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>M Dugan</p>
