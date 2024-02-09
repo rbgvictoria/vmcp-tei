@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-01-31-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1861/61-01-31-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-01-31-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-01-31-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,22 +53,19 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
-               <term>Progress note</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
                <term>valediction</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -93,58 +87,56 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Melbourne botanic &amp; zoological Garden, ¶ 31 January 1861. ¶ Sir ¶  ¶ I have the honor to inform you for communication to the City-Council, that the heavy rain of this day has caused considerable damag...</supplied>
             </head>
-            <p rend="Progress%20note"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
-               xml:lang="en">I have suggested a rewording of fn 1.</p>
             <p rend="number" xml:lang="en">61.01.31</p>
             <p rend="correspondent" xml:lang="en">To Edmund FitzGibbon</p>
             <p rend="location" xml:lang="en">Unit 731, VPRS 3181/P Town Clerk's file series 1, VA 511 Melbourne, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne botanic &amp; zoological Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">31 January 1861.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to inform you for communication to the City-Council, that the heavy rain of this day has caused considerable damage to the botanic Garden, a quantity of debris being forced into our ground with a stream of water from the road along our eastern fence, where the filling up of a water hole has been recently effected without means being simultaneously adopted for draining the water into the Yarra.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I further beg to avail myself of this occasion to bring under the favorable consideration of his Worship the Mayor and the other gentlemen of the Municipality, that it would be highly desirable to cause arrangements to be made, that the water, which flows now near opposite the Botanical Hotel from the domain road into this garden, may run in an appropriate gutter along the foot path onward.</p>
+               <space dim="horizontal" extent="tab"/>I further beg to avail myself of this occasion to bring under the favorable consideration of his Worship the Mayor and the other gentlemen of the Municipality, that it would be highly desirable to cause arrangements to be made, that the water, which flows now near opposite the Botanical Hotel from the Domain road into this garden, may run in an appropriate gutter along the foot path onward.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your most obedient &amp; humble servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">The Town clerk of Melbourne.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">See also E. FitzGibbon to M, 8 February 1861 in which FitzGibbon states that M's request about drainage has been referred to the City Surveyor. </seg>
-                     <seg style="color: #0000ff; ">The drainage request was forwarded to the City surveyor, E. FitzGibbon to M, 8 February 1861</seg>.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">The Town clerk of Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>E. FitzGibbon to M, 8 February 1861<space unit="chars" quantity="1"/>reported that M's<space unit="chars" quantity="1"/>requests were placed before the Council's Public Works Committee and referred by the Committee to the City Surveyor.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

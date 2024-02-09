@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Memo: ¶  ¶ Submitted for favorable consideration to Mr Undersecretary Moore. ¶ Ferd. Mueller ¶ 7/2/61. ¶  ¶ [Dr Mueller fowds a/c for appl ¶ . De Gruchy &amp; Leigh £25. 6/3]...</title>
+            <title>Memo: ¶  ¶ Submitted for favorable consideration to Mr Undersecretary Moore. ¶ The file cover records: 'Dr Mueller fowds a/c for appl [approval] De Gruchy &amp; Leigh £25. 6/3'. The account would have bee...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,32 +15,29 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-02-00a-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1861/61-02-07a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <msName>S61/1079, unit 749, VPRS 1189/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
-                     <idno>61.02.00a</idno>
+                     <idno>61.02.07a</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Memo: ¶  ¶ Submitted for favorable consideration to Mr Undersecretary Moore. ¶ Ferd. Mueller ¶ 7/2/61. ¶  ¶ [Dr Mueller fowds a/c for appl ¶ . De Gruchy &amp; Leigh £25. 6/3]...</title>
-               <date when="1861-02">1861-02</date>
+               <title>Memo: ¶  ¶ Submitted for favorable consideration to Mr Undersecretary Moore. ¶ The file cover records: 'Dr Mueller fowds a/c for appl [approval] De Gruchy &amp; Leigh £25. 6/3'. The account would have bee...</title>
+               <date when="1861-02-07">1861-02-07</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-02-00a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-02-07a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,22 +53,21 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
-               <term>Progress note</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
+               <term>underline</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -91,46 +87,38 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Memo: ¶  ¶ Submitted for favorable consideration to Mr Undersecretary Moore. ¶ Ferd. Mueller ¶ 7/2/61. ¶  ¶ [Dr Mueller fowds a/c for appl ¶ . De Gruchy &amp; Leigh £25. 6/3]...</supplied>
+               <supplied reason="XTF-compatibility">Memo: ¶  ¶ Submitted for favorable consideration to Mr Undersecretary Moore. ¶ The file cover records: 'Dr Mueller fowds a/c for appl [approval] De Gruchy &amp; Leigh £25. 6/3'. The account would have bee...</supplied>
             </head>
-            <p rend="Progress%20note"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
-               xml:lang="en">Why not 61-02-07? This looks to be more than a register entry</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="number" xml:lang="en">61.02.00a</p>
+            <p rend="number" xml:lang="en">61.02.07a</p>
             <p rend="correspondent" xml:lang="en">To John Moore</p>
             <p rend="location" xml:lang="en">S61/1079, unit 749, VPRS 1189/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Memo:</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Submitted for favorable consideration to Mr Undersecretary Moore.</p>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Memo:</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Submitted for favorable consideration to Mr Undersecretary Moore.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The file cover records: 'Dr Mueller fowds a/c for appl [approval] De Gruchy &amp; Leigh £25. 6/3'. The account would have been for printing lithographic plates.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">7/2/61.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[Dr Mueller fowds a/c for appl<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">approval.</p>
-               </note>. De Gruchy &amp; Leigh £25. 6/3]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>For printing lithographic plates.</p>
-               </note>
-            </p>
          </div>
       </body>
    </text>

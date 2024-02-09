@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,71 +90,81 @@
             </head>
             <p rend="number" xml:lang="en">71.01.05a</p>
             <p rend="correspondent" xml:lang="en">From Aubrey Bowen</p>
-            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="en">RB MSS M1, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS is a printed letter.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS is a printed letter.</p>
                </note>Medical Society of Victoria.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; font-style: italic; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; font-style: italic; "
                xml:lang="en">Melbourne, January 5th, 1871.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; font-style: italic; "
+               style="font-size: 12pt; hyphenate: false; font-style: italic; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; font-style: italic; "
+               style="font-size: 12pt; hyphenate: false; font-style: italic; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I beg to inform you that the Annual Meeting of the Medical Society of Victoria, will be held in the Hall of the Royal Society, on Wednesday, January 11th, at Eight o'clock, p.m.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">BUSINESS:</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">The Office Bearers for the year 1871, will be elected.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">The Treasurer will read the Yearly Balance Sheet.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg>
-                  <space dim="horizontal" extent="tab"/>Mr. </seg>
-               <seg style="font-variant: small-caps; ">Girdlestone</seg>
-               <seg> will move — that the Sub-Committee recently appointed to communicate with the Hon. the Chief Secretary, respecting a new "Pharmacy Act," be further instructed to confer with the Pharmaceutical Society to agree to the necessary provisions to be introduced.</seg>
-            </p>
+               <space dim="horizontal" extent="tab"/>Mr.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">Girdlestone</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Tharp Mountain Girdlestone.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>will move — that the Sub-Committee recently appointed to communicate with the Hon. the Chief Secretary, respecting a new "Pharmacy Act," be further instructed to confer with the Pharmaceutical Society to agree<space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>the necessary provisions to be introduced.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">The President will read his valedictory address.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-style: italic; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; font-style: italic; "
                xml:lang="en">I am, Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-style: italic; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; font-style: italic; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your obedient Servant,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; font-style: italic; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>AUBREY BOWEN,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <seg>
-                  <space dim="horizontal" extent="tab"/>
-                  <space dim="horizontal" extent="tab"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
                   <space dim="horizontal" extent="tab"/>
                </seg>
-               <seg style="font-style: italic; ">Hon. Sec.</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space dim="horizontal" extent="tab"/>Hon. Sec.</seg>
             </p>
          </div>
       </body>
