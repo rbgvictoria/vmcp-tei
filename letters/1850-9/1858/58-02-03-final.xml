@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne bot. Garden ¶ 3. Febr. 1858. ¶ Sir ¶  ¶ In compliance with the request of the honorable the Chief Secretary ¶  I have the honor to inform you, that the appointment of Governm Botanist and of...</title>
+            <title>Melbourne bot. Garden ¶ 3. Febr. 1858. ¶ Sir ¶  ¶ In compliance with the request of the honorable the Chief Secretary ¶ See R. B. Smyth to M, 2 February 1858. ¶  ¶ I have the honor to inform you, that...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne bot. Garden ¶ 3. Febr. 1858. ¶ Sir ¶  ¶ In compliance with the request of the honorable the Chief Secretary ¶  I have the honor to inform you, that the appointment of Governm Botanist and of...</title>
+               <title>Melbourne bot. Garden ¶ 3. Febr. 1858. ¶ Sir ¶  ¶ In compliance with the request of the honorable the Chief Secretary ¶ See R. B. Smyth to M, 2 February 1858. ¶  ¶ I have the honor to inform you, that...</title>
                <date when="1858-02-03">1858-02-03</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,58 +85,73 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 3. Febr. 1858. ¶ Sir ¶  ¶ In compliance with the request of the honorable the Chief Secretary ¶  I have the honor to inform you, that the appointment of Governm Botanist and of...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 3. Febr. 1858. ¶ Sir ¶  ¶ In compliance with the request of the honorable the Chief Secretary ¶ See R. B. Smyth to M, 2 February 1858. ¶  ¶ I have the honor to inform you, that...</supplied>
             </head>
             <p rend="number" xml:lang="en">58.02.03</p>
             <p rend="correspondent" xml:lang="en">To Robert Brough Smyth</p>
             <p rend="location" xml:lang="en">E58/1212, unit 741, VPRS 1189 inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot. Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">3. Febr. 1858.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In compliance with the request of the honorable the Chief Secretary<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See R. B. Smyth to M, 2 February 1858.</p>
-               </note> I have the honor to inform you, that the appointment of Governm Botanist and of Director of the botanic Gardens of Melbourne is held by Ferdinand James Henry Mueller, the appointment of clerk by John Frederick Charles Wilhelmi and the appointment of Curator by John Dallachi, and that beyond these no offices are held directly under Government in this department.</p>
+               <space dim="horizontal" extent="tab"/>In compliance with the request of the honorable the Chief Secretary<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See R. B. Smyth to M, 2 February 1858.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have the honor to inform you, that the appointment of Governm Botanist and of Director of the botanic Gardens of Melbourne is held by Ferdinand James Henry Mueller, the appointment of clerk by John Frederick Charles Wilhelmi and the appointment of Curator by John Dallachi,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. J. Dallachy.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and that beyond these no offices are held directly under Government in this department.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your most obedient servant,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">R. B. Smyth Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Secretary of the board for science.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Smyth forwarded M's letter to the Chief Secretary on 5 February 1858.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Secretary of the board for science.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Smyth forwarded M's letter to the Chief Secretary on 5 February 1858.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

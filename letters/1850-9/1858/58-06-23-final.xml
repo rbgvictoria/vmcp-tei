@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -97,46 +92,54 @@
             <p rend="location" xml:lang="en">E58/5611, unit 745, VPRS 1189 inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot. Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">23 June 1858</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to inform you, that it would be desirable to collect the rarer plants in the remoter parts of the colony during the coming season, in order that the stock of plants for this garden and for exchanges may be increased, and that the botanical collections formed in connection with my work on the plants of Victoria may be completed.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The lines desirable to be visited would be western parts of the Murray Desert, the Buffalo-Range, the country about Cape Howe and the alps around Mount Baw-Baw.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As these journeys cannot be performed without a small allowance for travelling expenses, I have the honor to solicit, that the sum of £120 may be set apart from the vote of tools and apparatus &amp;c (vote N. 38) for this purpose, and that out of these £120 also the travelling expenses may be defrayed, which Mr Dallachi has incurred during the last months, whilst securing plants in the Grampians for this establishment</p>
+               <space dim="horizontal" extent="tab"/>As these journeys cannot be performed without a small allowance for travelling expenses, I have the honor to solicit, that the sum of £120 may be set apart from the vote of tools and apparatus &amp;c (vote N. 38) for this purpose, and that out of these £120 also the travelling expenses may be defrayed, which Mr Dallachi<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. J. Dallachy.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>has incurred during the last months, whilst securing plants in the Grampians for this establishment</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your most obedient and humblest servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -144,16 +147,19 @@
                <space dim="horizontal" extent="tab"/>Gov. Botanist</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The honorable the Chief Secretary</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">The vote for tools, apparatus &amp;c is able to bear the proposed reduction, as it has been most economically used.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">O'Shanassy minuted his approval.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">The vote for tools, apparatus &amp;c is able to bear the proposed reduction, as it has been most economically used.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>O'Shanassy minuted his approval.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
