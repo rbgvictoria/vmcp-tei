@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,17 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Fimbristylis Xyridis</term>
-               <term>Canavallia</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/817cb492-6bd5-4d81-970d-6cb9eb7c8f27">Crotalaria</term>
-               <term>Pterigeron</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/bddc5c5b-54df-4c25-bf3d-a736fc904035">Pluchea</term>
-               <term>Cleome</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -80,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -108,70 +93,81 @@
             <p rend="location" xml:lang="en">GRG 70/3/66, Botanic Gardens, State Records of South Australia, Adelaide.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne botan. Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">8/8/69.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Herewith I have the honor of transmitting to you a preliminary list of the Museum plants, which you were so good to furnish for my department. In many instances it requires yet an analytic dissection of the plants, to determine exactly their specific position, but as the species are all known, (as far as I can see at a superficial glance) and as many of them do not carry with them special interest, it was scarcely necessary to examine each in detail at this early occasion.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I beg however to remark, that the material does not admit in many cases of critical examination, for not only are many of the specimens obtained for my department extremely imperfect, but also the portion sent so scanty, as to involve the sacrifice of the whole material in such cases, were I to institute a dissection. Thus for instance I have only one flower-head of <name key="Fimbristylis%20Xyridis">Fimbristylis Xyridis</name> Br. and several other rarer plants. If of this plant and also of 87 (perhaps <name key="Cleome">Cleome</name>), 77 <name key="Canavallia">Canavallia</name>,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Canavalia?</seg>
-                  </p>
-               </note> 100 <name key="Crotalaria">Crotalaria</name>, 43 <name key="Pluchea">Pluchea</name> or <name key="Pterigeron">Pterigeron</name> you could find an other spare-specimen, it would probably facilitate the examination. To work with insufficient material is a thankless task and apt to create errors.</p>
+               <space dim="horizontal" extent="tab"/>I beg however to remark, that the material does not admit in many cases of critical examination, for not only are many of the specimens obtained for my department extremely imperfect, but also the portion sent so scanty, as to involve the sacrifice of the whole material in such cases, were I to institute a dissection. Thus for instance I have only<space unit="chars" quantity="1"/>one<space unit="chars" quantity="1"/>flower-head of Fimbristylis<space unit="chars" quantity="1"/>Xyridis<space unit="chars" quantity="1"/>Br. and several other rarer plants. If of this plant and also of 87 (perhaps Cleome), 77<space unit="chars" quantity="1"/>Canavallia,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Canavalia</seg>
+                        <seg rend="DefaultParagraphFont" style="">?</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>100 Crotalaria, 43 Pluchea or Pterigeron you could find an other spare-specimen, it would probably facilitate the examination. To work with insufficient material is a thankless task and apt to create errors.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In all probability you possess also some plants, of which the collector did not find a sufficient number to insert them in each set. Should such be the case I would feel indebted, if I obtained them from you even only on loan. In all probability it can be only of advantage to you, to see such plants specially submitted to examination for the benefit of the Adelaide collection.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The whole number of plants received from you is about 210, but they comprise only 172 species. The living Orchids &amp;c are however not included in the number. The collector deserves much credit for his zeal and for the careful manner in which he prepared his plants; and it reflects much credit on Mr Goyder, to have placed him in a fair position to collect, as is evidenced by the sendings.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Goyder had taken a large survey team to the north coast, to settle on a site for the proposed capital of the Northern Territory. The team included F. Schultz as botanical collector; see George (2009), p. 543.</p>
-               </note> Should any more specimens arrive, I would be thankful for a share of them and especially for the most complete specimens you can spare, whereby an opportunity will be afforded me, to work up the material in time for a report, which document will doubtless be very acceptable to Mr Goyder on his return.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Text ends at the bottom of the page, without valediction, but MS is in M's hand. M's somewhat patronizing air and his assumption that he rather than Schomburgk should prepare the report on the botanical results of Goyder's expedition may have been the 'excentrick behaviour towards me' of which Schomburgk complained in a letter he wrote to Bentham a few days after this, in the light of which he sent unique specimens collected by Schultz to Kew rather than to M (see R. Schomburgk to G. Bentham, 16 August 1869 (in this edition as M69-08-16)).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>The whole number of plants received from you is about 210, but they comprise only 172 species. The living Orchids &amp;c are however not included in the number. The collector deserves much credit for his zeal and for the careful manner in which he prepared his plants; and it reflects much credit on Mr Goyder, to have placed him in a fair position to collect, as is evidenced by the sendings.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Goyder had taken a large survey team to the north coast, to settle on a site for the proposed capital of the Northern Territory.<space unit="chars" quantity="1"/>The team included F. Schultze<space unit="chars" quantity="1"/>as botanical collector; see George (2009), p. 543<space unit="chars" quantity="1"/>and Wallis (2020).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Should any more specimens arrive, I would be thankful for a share of them and especially for the most complete specimens you can spare, whereby an opportunity will be afforded me, to work up the material in time for a report, which document will doubtless be very acceptable to Mr Goyder on his return.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Text ends at the bottom of the page, without valediction, but MS is in M's hand.<space unit="chars" quantity="1"/>M's somewhat patronizing air and his assumption that he rather than Schomburgk should prepare the report on the botanical results of Goyder's expedition may have been the 'excentrick behaviour towards me' of which Schomburgk complained in<space unit="chars" quantity="1"/>R. Schomburgk to G. Bentham, 16 August 1869 (in this edition as M69-08-16), in the light of which he sent unique specimens collected by Schultze<space unit="chars" quantity="1"/>to Kew rather than to M.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Canavallia">Canavallia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cleome">Cleome</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Crotalaria">Crotalaria</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Fimbristylis%20Xyridis">Fimbristylis Xyridis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pluchea">Pluchea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pterigeron">Pterigeron</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Canavallia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cleome</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Crotalaria</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Fimbristylis<space unit="chars" quantity="1"/>Xyridis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pluchea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pterigeron</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

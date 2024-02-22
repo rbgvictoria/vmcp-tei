@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1863/63-11-00-proofed.doc</idno>
+            <idno type="filename">data/letters/1860-9/1863/63-11-00-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1863/63-11-00-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1863/63-11-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -62,11 +62,11 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>DefaultParagraphFont</term>
                <term>location</term>
                <term>FootnoteReference</term>
                <term>Normal</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -78,7 +78,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>William Gillbee</name>
+               <name>[William Gillbee]</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -90,9 +90,7 @@
                <supplied reason="XTF-compatibility"> ¶ We the undersigned members of the Medical Society request you will be good enough to call a special meeting of the Members at an early date, to memorialize the Council of the University of Melbourn...</supplied>
             </head>
             <p rend="number" xml:lang="en">63.11.00</p>
-            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">William Gillbee</seg>
-            </p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>[William Gillbee]</p>
             <p rend="location" xml:lang="en">Minute book, Medical Society of Victoria, Australian Medical Association, Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
@@ -110,7 +108,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>At the conclusion of the Annual Meeting of the Society, 13 January 1864, the 'meeting was then made special' to receive the report of a subcommittee appointed to 'draw up a protest against the curricula of studies directed for candidates for medical and surgical degree at the university of Melbourne'. The long protest document comparing the nature and length of the curricula at British universities and that at Melbourne was adopted unanimously and a deputation appointed to present it to a meeting of the<space unit="chars" quantity="1"/>University Council (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 14 January 1864, p. 6).</p>
+                        <space dim="horizontal" extent="tab"/>At the conclusion of the Annual Meeting of the Society, 13 January 1864, the 'meeting was then made special' to receive the report of a subcommittee appointed to 'draw up a protest against the curricula of studies directed for candidates for medical and surgical degree at the university of Melbourne'. The long protest document comparing the nature and length of the curricula at British universities and that at Melbourne was adopted unanimously and a deputation appointed to present it to a meeting of the University Council (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 14 January 1864, p. 6).</p>
                   </note>
                </seg>
             </p>
@@ -144,9 +142,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="valediction"
                         style="font-size: 12pt; hyphenate: false; margin-left: 0in; "
-                        xml:lang="en">
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Wm Gillbee</seg>
-                     </p>
+                        xml:lang="en">Wm Gillbee</p>
                   </cell>
                </row>
                <row>
@@ -171,9 +167,7 @@
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>
-                                 <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">J or T? Either Thomas or Joseph Black, both of whom were members of the Society.</seg>
-                              </p>
+                                 <space dim="horizontal" extent="tab"/>Or T. Black? Both Joseph Black and Thomas Black were members of the Society, but Joseph Black appears to have been a more active member; see Medical Society of Victoria to Australian medical practitioners, 5 May 1865 (in this edition as M65-05-05).</p>
                            </note>
                         </seg>
                      </p>

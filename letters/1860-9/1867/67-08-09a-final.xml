@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1867/67-08-09a-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1867/67-08-09a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-08-09a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-08-09a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -118,14 +118,30 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Annexed I beg to submit to you an approximate estimate of the Expenditure likely to be incurred for effecting the proposed gravelling and planting operations of Toorack. It is quite possible that by rigorous economy, the expenditure may be lessened but I would recommend that fully £300:0:0 may be placed at my disposal in order that no difficulty may arise in the performance of the Work.</p>
+               <space dim="horizontal" extent="tab"/>Annexed I beg to submit to you an approximate estimate of the Expenditure likely to be incurred for effecting the proposed gravelling and planting operations of Toorack.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The Governor's residence.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It is quite possible that by rigorous economy, the expenditure may be lessened but I would recommend that fully £300:0:0 may be placed at my disposal in order that no difficulty may arise in the performance of the Work.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">yours very regardful</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>(Signed) Fed Mueller</p>
+               <space dim="horizontal" extent="tab"/>(Signed) Fred Mueller<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. Ferd. Mueller.</p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
@@ -147,7 +163,7 @@
                   <cell style="border-top: 0.0312in double #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Raising and (preparing) screening 562 Loads (3/4 yards per Load) of gravel (one man to raise 5 Loads per day)</p>
+                        xml:lang="en">Raising and (preparing) screening 562<space unit="chars" quantity="1"/>Loads<space unit="chars" quantity="1"/>(¾<space unit="chars" quantity="1"/>yards<space unit="chars" quantity="1"/>per Load) of gravel (one man to raise 5 Loads per day)</p>
                   </cell>
                   <cell style="border-top: 0.0312in double #000000; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
@@ -279,7 +295,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Carting 95 Trees 5 per Load 3 1/2 loads per day @ 17/6 (6 days)</p>
+                        xml:lang="en">Carting 95 Trees 5 per Load<space unit="chars" quantity="1"/>3½<space unit="chars" quantity="1"/>loads per day @ 17/6 (6 days)</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
@@ -431,7 +447,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Carting 50 Shrubs 6 per Load 3 1/2 loads per day @ 17/6 3 days</p>
+                        xml:lang="en">Carting 50 Shrubs 6 per Load 3½<space unit="chars" quantity="1"/>loads per day @ 17/6 3 days</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
@@ -541,7 +557,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Carting 150 Shrubs 8 per Load 3 1/2 Loads per day @ 17/6 = 5 1/2 days</p>
+                        xml:lang="en">Carting 150 Shrubs 8 per Load 3½<space unit="chars" quantity="1"/>Loads per day @ 17/6 = 5½<space unit="chars" quantity="1"/>days</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
@@ -738,11 +754,11 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Incidental Expenses<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn1" n="2">
+                           <note type="footnote" xml:id="_ftn3" n="4">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>The Surveryor-General, C. Ligar, looked over M's estimates on 13 August 1867 and concluded: 'Including the gravel the cost for each tree &amp; shrub when planted will be as near as possible two pounds each Excluding the gravel the cost for each tree &amp; shrub when planted will be about £1 5s 4d per tree I would suggest that the matter be again referred to Dr Mueller to see if some less expensive arrangement could not be made.' M responded to Ligar's comments on 14 August: 'After deducting the expenditure for gravelling garden walks &amp; carriage drives (£100.7.4) there remains £196.14.0 for effecting the plantations as desired, including the cost of purchasing a portion of the shrubs &amp; trees. The total number of plants required and for which provision is made in my estimate is 295; the cost of each shrub &amp; tree when planted will thus be 13/4 but not £1/5/4. But even including the expenses of raising, screening, carting and spreading 562 loads of gravel, which are quite distinct from those for planting, each shrub and tree will cost £1.0.1 2/3 In computing the above average prices for each plant the total number of them has been taken into account, not only the portion intended to be purchased, as the expenses for lifting packing, carting planting &amp;c will also have to be incurred for any plants to be removed from this establishment'.</p>
+                                 <space dim="horizontal" extent="tab"/>The Surveryor-General, C. Ligar, looked over M's estimates on 13 August 1867 and concluded: 'Including the gravel the cost for each tree &amp; shrub when planted will be as near as possible two pounds each Excluding the gravel the cost for each tree &amp; shrub when planted will be about £1 5s 4d per tree.⅔ I would suggest that the matter be again referred to Dr Mueller to see if some less expensive arrangement could not be made.' M responded to Ligar's comments on 14 August: 'After deducting the expenditure for gravelling garden walks &amp; carriage drives (£100.7.4) there remains £196.14.0 for effecting <space unit="chars" quantity="1"/>the plantations as desired, including the cost of purchasing a portion of the shrubs &amp; trees. The total number of plants required and for which provision is made in my estimate is 295; the cost of each shrub &amp; tree when planted will thus be 13/4 but not £1/5/4. But even including the expenses of raising, screening, carting and spreading 562 loads of gravel, which are quite distinct from those for planting, each shrub and tree will cost £1.0.1⅔. In computing the above average prices for each plant the total number of them has been taken into account, not only the portion intended to be purchased, as the expenses for lifting packing, carting planting &amp;c will also have to be incurred for any plants to be removed from this establishment'.</p>
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
@@ -751,11 +767,11 @@
                                  <seg rend="DefaultParagraphFont" style="">
                                     <hi rend="underline">present cost</hi>
                                  </seg>
-                                 <space unit="chars" quantity="1"/>of planting operations, and gravelling roads, induces me to concur in the opinion expressed by the Surveyor General that the estimate is unnecessarily high, and admits of being considerably reduced. For instance the services of excellent labourers can be obtained for 5/ per diem instead of 6/ as in estimate. Well horsed drays driven by experienced carters can be hired for 11/ per diem instead of for 13/ or 17/6 as in estimate. It has been found in the Treasury Reserve that two men can spread, water, and roll 50 loads of gravel per diem, which circumstance would justify the estimated cost of this work being reduced to less than 2/3rd of the specified amount. In lifting at Mr H Glass<space unit="chars" quantity="1"/>
+                                 <space unit="chars" quantity="1"/>of planting operations, and gravelling roads, induces me to concur in the opinion expressed by the Surveyor General that the estimate is unnecessarily high, and admits of being considerably reduced. For instance the services of excellent labourers can be obtained for 5/ per diem instead of 6/ as in estimate. Well horsed drays driven by experienced carters can be hired for 11/ per diem instead of for 13/ or 17/6 as in estimate. It has been found in the Treasury Reserve that two men can spread, water, and roll 50 loads of gravel per diem, which circumstance would justify the estimated cost of this work being reduced to less<space unit="chars" quantity="1"/>than ⅔rd of the specified amount. In lifting at Mr H Glass<space unit="chars" quantity="1"/>
                                  <seg rend="DefaultParagraphFont" style="">
                                     <hi rend="underline">very</hi>
                                  </seg>
-                                 <space unit="chars" quantity="1"/>large shrubs with large balls attached to their roots, it was found that three men could raise and pack 12 shrubs per day instead of 8 as specified in estimate. The amounts set down for services of water cart, levelling and clearing ground, and extra wages to foreman and gardeners might be reduced. The average cost of trees and shrubs (7/6) is excessive, as the average cost of trees and shrubs procured by purchase for the Treasury Reserve, and including a very large number of araucaria was only about 1/4. It is only fair to the compiler of this estimate that I should state that the prices of plants labour and cartage have never been so low as during the last four or five months.'</p>
+                                 <space unit="chars" quantity="1"/>large shrubs with large balls attached to their roots, it was found that three men could raise and pack 12 shrubs per day instead of 8 as specified in estimate. The amounts set down for services of water cart, levelling and clearing ground, and extra wages to foreman and gardeners might be reduced. The average cost of trees and shrubs (7/6) is excessive, as the average cost of trees and shrubs procured by purchase for the Treasury Reserve, and including a very large number of Araucaria was only about 1/4. It is only fair to the compiler of this estimate that I should state that the prices of plants labour and cartage have never been so low as during the last four or five months.'</p>
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
@@ -764,17 +780,12 @@
                                  <seg rend="DefaultParagraphFont" style="">
                                     <hi rend="underline">approximation</hi>
                                  </seg>
-                                 <space unit="chars" quantity="1"/>and that due economy would be exercised in the performance of this work. The price of plants depends largely on their size &amp; the rate of wages on the nature of labor. The estimate was purposely kept high, as planting operations cannot be performed late in the season with advantage and thus involve extra expenses and extra precaution. If such work is once entrusted to a special department the head should exercise unimpeded his discretionary power for the [...] of arra[nging] my wages are less than those paid by the contractor now [...] the Gardenbridge'.</p>
+                                 <space unit="chars" quantity="1"/>and that due economy would be exercised in the performance of this work. The price of plants depends largely on their size &amp; the rate of wages on the nature of labor. The estimate was purposely kept high, as planting operations cannot be performed late in the season with advantage and thus involve extra expenses and extra precaution. If such work is once entrusted to a special department the head should exercise unimpeded his discretionary power for the details of arra[nging]. My wages are less than those paid by the contractor now [...] the Garden bridge'.</p>
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
                                  <space dim="horizontal" extent="tab"/>
-                                 <space dim="horizontal" extent="tab"/>Hodgkinson defended his alleged interference on 7 September: 'Having been originally requested to prepare a design for some improvements at Toorak I submitted a plan of proposed improvement and in my accompanying report thereon I made the suggestion that the planting and gravelling indicated on that plan be carried out under the general direction of Dr Mueller. I do not therefore wish to interfere with such directions, or with Dr Muellers arrangements. I gave an opinion with regard to the amount specified on the estimate received from Dr Mueller, because, prior to receipt of that estimate, I had verbally stated that the improvements shewn on my plan could be executed for a sum considerably less than that arrived at in the estimate in question'.</p>
-                              <p rend="FootnoteText"
-                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                                 xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>
-                                 <space dim="horizontal" extent="tab"/>See also M to J. Grant, 10 August 1867.</p>
+                                 <space dim="horizontal" extent="tab"/>Hodgkinson defended his alleged interference on 7 September: 'Having been originally requested to prepare a design for some improvements at Toorak I submitted a plan of proposed improvement and, in my accompanying report thereon, I made the suggestion that the planting and gravelling indicated on that plan be carried out under the general direction of Dr Mueller. I do not therefore wish to interfere with such directions, or with Dr Muellers arrangements. I gave an opinion with regard to the amount specified on the estimate received from Dr Mueller, because, prior to receipt of that estimate, I had verbally stated that the improvements shewn on my plan could be executed for a sum considerably less than that arrived at in the estimate in question'.</p>
                            </note>
                         </seg>
                      </p>
@@ -810,6 +821,212 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">1</p>
+                  </cell>
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">4</p>
+                  </cell>
+               </row>
+            </table>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Apparently afterthoughts that M had overnight, before he sent his estimates to Grant.</p>
+                  </note>
+               </seg>No provision has been made for digging the ground after planting and sowing it with grass. The fencing around the plantations as required by His Excellency has not been taken in account, portion of it will be available from other portions in the ground.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Nothing has been calculated for removal of Trees and lopping off branches so as to open up the vista to the Yarra and to Melbourne.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>For the purchase of the necessary Tools Wheel Barrows &amp;c an additional sum of £15 will be required.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>By the sale of the above after the work is completed part of this outlay might be refunded.</p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">(Signed) Fredk Mueller</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">10.8.67</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">Estimate</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">of expenditure for forming plantations and gravelling walks and carriage drive at Toorack Submitted to the honorable the President of the Board of Land &amp; Works 10/8/67<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>These figures repeat those given earlier but are restricted to the cost of gravelling alone.</p>
+                  </note>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="">
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
+                        xml:lang="en">Gravelling</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Raising and screening 562 loads (¾<space unit="chars" quantity="1"/>yd per load) of gravel (1 man to raise 5 loads pr day)</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">33</p>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">18</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">0</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Carting 562 loads gravel (8 loads pr day)</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">47</p>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">4</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">0</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Assistance loading gravel, 12 days at 6/.</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">3</p>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">12</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">0</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Spreading &amp; rolling gravel 4d pr load</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">9</p>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">7</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">4</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Wheeling gravel to garden walks, 127 yards 1 man 21 days at 6/.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn6" n="7">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space dim="horizontal" extent="tab"/>See also M to D. Gillies, 29 June 1868.</p>
+                           </note>
+                        </seg>
+                     </p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">6</p>
+                  </cell>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">6</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">0</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">£</p>
+                  </cell>
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">100</p>
+                  </cell>
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">7</p>
                   </cell>
                   <cell style="border-top: 0.0104in solid #000000; border-left: 0.0104in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
