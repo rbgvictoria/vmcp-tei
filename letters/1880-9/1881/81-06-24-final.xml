@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,17 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Setaria macrostachya</term>
-               <term>Aristida leptopoda</term>
-               <term>Eragrostis Brownii</term>
-               <term>Eriochloa annulata</term>
-               <term>Panicum spinescens</term>
-               <term>Panicum helopus</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -80,9 +63,11 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -109,79 +94,83 @@
             <p rend="location" xml:lang="en">Barr Smith Library, University of Adelaide, South Australia.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">24/6/81.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In looking over some supplement-collections of Grasses, dear Prof Tate, I find that the following are omitted for S.A. from the country west of the Darling-River passing over the S.A boundary:<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">All the plant names that follow, except the first one, are marked with a tick.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>In looking over some supplement-collections of Grasses, dear Prof Tate, I find that the following are omitted for S.A. from the country west of the Darling-River passing over the S.A boundary:<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>All the plant names that follow, except the first one, are marked with a tick.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Eriochloa%20annulata">Eriochloa annulata</name> Hamilton.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Eriochloa annulata Hamilton.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Panicum%20helopus">Panicum helopus</name> Trinius.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Panicum helopus Trinius.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Panicum%20spinescens">Panicum spinescens</name> RBrown.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Panicum spinescens RBrown.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Aristida%20leptopoda">Aristida leptopoda</name> Bentham from the Finke-River,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">NT, a long way from 'the country west of the Darling-River'.</p>
-               </note> (Kempe)</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Aristida leptopoda Bentham from the Finke-River,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>NT, a long way from 'the country west of the Darling-River'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>(Kempe)</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Setaria%20macrostachya">Setaria macrostachya</name> from near the Glenelg River<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">WA? <seg style="font-style: italic; ">
-                        <name key="Setaria%20macrostachya">Setaria macrostachya</name>
-                     </seg> is a northern plant, most unlikely to have been found near the Glenelg River, SA. In B73.11.03, p. 110, M noted a collection by Schultz at Port Darwin that would have provided a basis for inclusion of the species in Tate's census, but that is also a long way from 'the country west of the Darling-River'.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Setaria macrostachya from near the Glenelg River<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>WA?<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Setaria macrostachya</seg>
+                        <space unit="chars" quantity="1"/>is a northern plant, most unlikely to have been found near the Glenelg River, SA. In<space unit="chars" quantity="1"/>B73.11.03,<space unit="chars" quantity="1"/>p. 110, M noted a collection by<space unit="chars" quantity="1"/>Frederick<space unit="chars" quantity="1"/>Schultze<space unit="chars" quantity="1"/>at Port Darwin<space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>would have provided a basis for inclusion of the species in Tate's census, but that is also a long way from 'the country west of the Darling-River'.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Eragrostis%20Brownii">Eragrostis Brownii</name> Kunth. the latter collected in S.A. by myself</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Eragrostis Brownii Kunth. the latter collected in S.A. by myself</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Aristida%20leptopoda">Aristida leptopoda</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eragrostis%20Brownii">Eragrostis Brownii</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eriochloa%20annulata">Eriochloa annulata</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Panicum%20helopus">Panicum helopus</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Panicum%20spinescens">Panicum spinescens</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Setaria%20macrostachya">Setaria macrostachya</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Aristida leptopoda</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eragrostis Brownii</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eriochloa annulata</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Panicum helopus</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Panicum spinescens</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Setaria macrostachya</p>
          </div>
       </body>
    </text>

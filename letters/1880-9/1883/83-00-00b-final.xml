@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection, so far as I had them either obtained or examined at that time. In the later volumes of...</title>
+            <title> ¶ In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection, ¶ B69.10.01 is an enumeration of plants collected by Frederick Schultze, probably up t...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection, so far as I had them either obtained or examined at that time. In the later volumes of...</title>
+               <title> ¶ In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection, ¶ B69.10.01 is an enumeration of plants collected by Frederick Schultze, probably up t...</title>
                <date when="1883">1883</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,35 +84,52 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection, so far as I had them either obtained or examined at that time. In the later volumes of...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection, ¶ B69.10.01 is an enumeration of plants collected by Frederick Schultze, probably up t...</supplied>
             </head>
             <p rend="number" xml:lang="en">83.00.00b</p>
             <p rend="correspondent" xml:lang="en">To Ralph Tate</p>
-            <p rend="location" xml:lang="en">Barr Smith Library, University of Adelaide, SA.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="location" xml:lang="en">Barr Smith Library, University of Adelaide, SA.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS comprises two separate pages of notes and may not be from the same letter. They have been linked together here because of their common subject-matter and the combination has been dated on the basis of what is said in the second note.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS comprises two separate pages of notes<space unit="chars" quantity="1"/>and may not be from the same letter.<space unit="chars" quantity="1"/>They have been linked together here because of their common subject-matter and the combination<space unit="chars" quantity="1"/>has been<space unit="chars" quantity="1"/>dated<space unit="chars" quantity="1"/>on the basis<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>what is said in the second note.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection, so far as I had them either obtained or examined at that time. In the later volumes of the fragmenta occasionally Port Darwin plants are mentioned and several as new described; in the 5th, 6th &amp; 7th vol. of the Flora Australiensis the plants of Mr Schultz, so far as they belonged to the orders of those three volumes are inserted as set after set became accessible to Mr Bentham</p>
+               <space dim="horizontal" extent="tab"/>In the 7th vol. of the fragm p. 40 (1869) I gave a short list of plants from Schultz's Port Darwin collection,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B69.10.01 is an enumeration of plants collected by Frederick Schultze, probably up to the second two consignment <space unit="chars" quantity="1"/>sent to Adelaide in May 1869 (Wallis (2024).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>so far as I had them either obtained or examined at that time. In the later volumes of the fragmenta occasionally Port Darwin plants are mentioned and several as new described; in the 5th, 6th &amp; 7th vol. of the Flora Australiensis the plants of Mr Schultz, so far as they belonged to the orders of those three volumes are inserted as set after set became accessible to Mr Bentham</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Mr Alexander Forrest's party collected also some plants at Port Darwin; but in my enumeration of the plants of his Expedition, as partly published in a parlamentary paper in West Australia,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B81.03.02.</p>
-               </note> and partly in the transactions of the Royal Society of New South Wales two years ago,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B81.13.04.</p>
-               </note> I have not included the Port Darwin portion of Forrest's collection, as so many plants from thence had been recorded already.</p>
+               <space dim="horizontal" extent="tab"/>Mr Alexander Forrest's party collected also some plants at Port Darwin; but in my enumeration of the plants of his Expedition, as partly published in a parlamentary paper in West Australia,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B81.03.02.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and partly in the transactions of the Royal Society of New South Wales two years ago,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B81.13.04.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have not included the Port Darwin portion of Forrest's collection, as so many plants from thence had been recorded already.</p>
          </div>
       </body>
    </text>

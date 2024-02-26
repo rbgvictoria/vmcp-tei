@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,14 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Iris juncea</term>
-               <term>Cyclamen</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/6987fb60-7c4a-474f-97bb-ca1d6c6510a0">Scilla</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -77,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -107,151 +95,167 @@
             <p rend="location" xml:lang="en">GRG 70/3/65, Botanic Gardens, State Records of South Australia, Adelaide.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne botan Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">2/8/69.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that I shall forward to you by the steamer, which leaves to morrow for Adelaide, a case with bulbs and tubers, this being a share of a consignment received by me two days ago from Dr Bodichon of London,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Eugene Bodichon, author of several medical and other woks on Algeria?</seg>
-                  </p>
-               </note> who desired me to forward a portion to you. Accordingly you will receive</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that I shall forward to you by the steamer, which leaves to morrow for Adelaide, a case with bulbs and tubers, this being a share of a consignment received by me two days ago from Dr Bodichon of London,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Eugene Bodichon, author of several medical and other woks on Algeria?</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>who desired me to forward a portion to you. Accordingly you will receive</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">2 sorts 15 bulbs each</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">2 sorts 9 <space unit="chars" quantity="4"/>— <space unit="chars" quantity="6"/>—</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">1 sort 20 <space unit="chars" quantity="4"/>— <space unit="chars" quantity="6"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">1 sort 6 <space unit="chars" quantity="6"/>— <space unit="chars" quantity="6"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Iris%20juncea">Iris juncea</name> 30 —</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Iris juncea 30 —</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <name key="Cyclamen">Cyclamen</name> 36 tubers</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Cyclamen 36 tubers</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Some of these bulbs are <name key="Scilla">Scilla</name>s. But the contents of the case were in great confusion and for most part in decay. Hence the names were lost. In the case were also seeds of some kinds, but as they had been packed without any special cover with the bulbs &amp;c, the seeds became all worthless. Even some copies of Dr Bodichons work were placed with the bulbs and consequently more or less damaged. Altho' I have not been asked to do so, I send also two copies of the best preserved volumes along with the case but under separate cover.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Some of these bulbs are Scillas. But the contents of the case were in great confusion and for most part in decay. Hence the names were lost. In the case were also seeds of some kinds, but as they had been packed without any special cover with the bulbs &amp;c, the seeds became all worthless. Even some copies of Dr Bodichons work were placed with the bulbs and consequently more or less damaged. Altho' I have not been asked to do so, I send also two copies of the best preserved volumes along with the case but under separate cover.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have also the honor to acknowledge with thanks the arrival of your case with museum-plants, Orchid tubers &amp;c which case reached me safely <seg style="">
+               <space dim="horizontal" extent="tab"/>I have also the honor to acknowledge with thanks the arrival of your case with museum-plants, Orchid tubers &amp;c which case reached me safely<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">this</hi>
-               </seg> evening. The steamer for Adelaide intending to leave to morrow noon, I shall probably not be able to give you any list of the names of these plants, indeed I may not have leisure to glance even over them in time. I will however at some early date furnish at least a preliminary list of these plants.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>See M to R. Schomburgk, 8 August 1869.</seg>
-                  </p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>evening. The steamer for Adelaide intending to leave to morrow noon, I shall probably not be able to give you any list of the names of these plants, indeed I may not have leisure to glance even over them in time. I will however at some early date furnish at least a preliminary list of these plants.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>See M to R. Schomburgk, 8 August 1869.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir, your very obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 2.25in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; hyphenate: false; margin-left: 2.25in; "
                xml:lang="en">Director of the Botan. Garden of Melbourne &amp; Gov. Botanist.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Rich Schomburgk Esq., PhD, J.P., Director of the botanic Garden of Adelaide.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>If you attach any value to the work "Fragmenta phytographiae Australiae, I will endeavour to complete the set contained in your Garden library on receiving intimation which fascicles and plates already exist there. The sending of the museum plants from your establishment will be fully and specially acknowledged in my next report to Parliament, as I deem it but just that any <seg style="">
+               <space dim="horizontal" extent="tab"/>If you attach any value to the work "Fragmenta phytographiae Australiae, I will endeavour to complete the set contained in your Garden library on receiving intimation which fascicles and plates already exist there. The sending of the museum plants from your establishment will be fully and specially acknowledged in my next report to Parliament, as I deem it but just that any<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">special</hi>
-               </seg> services of one public department to an other should also to the fullest extent be recorded and due and proper credit be given for it.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>services of one public department to an other should also to the fullest extent be recorded and due and proper credit be given for it.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">F.v.M.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>The postscripts that follow are on a separate sheet.</seg>
-                  </p>
-               </note>As the season progresses Mr Schultz<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Botanical collector who had gone to the north coast with G. Goyder’s survey team to select a site for the proposed capital of the Northern Territory.</seg>
-                  </p>
-               </note> will doubtless find many species in flower of which he at first got only fruits and vice versa.</p>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>The postscripts that follow are on a separate sheet.</seg>
+                     </p>
+                  </note>
+               </seg>As the season progresses Mr Schultz<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">i.e., F. Schultze, natural history</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>collector who had gone to the north coast with G. Goyder’s survey team to select a site for the proposed capital of the Northern Territory.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>will doubtless find many species in flower of which he at first got only fruits and vice versa.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I should be glad if you would early inform me, whether you could oblige me by completing the material of the few numbers specially indicated.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I should also be glad to learn, whether you received the bulbs of <name key="Scilla">Scilla</name> &amp;c, sent by Dr Bodichon, quite safely.</p>
+               <space dim="horizontal" extent="tab"/>I should also be glad to learn, whether you received the bulbs of Scilla &amp;c, sent by Dr Bodichon, quite safely.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be, Sir, your obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Director of the bot. Garden of Adelaide.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">I omitted to remark, that several of the plants were not found previously so far west and are therefore of particular interest as to their locality.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cyclamen">Cyclamen</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Iris%20juncea">Iris juncea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Scilla">Scilla</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cyclamen</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Iris juncea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Scilla</p>
          </div>
       </body>
    </text>

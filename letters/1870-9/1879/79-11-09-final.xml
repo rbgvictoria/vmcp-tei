@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>9/11/79. ¶  ¶ I am pleased, dear fellow-countryman, that you intend investigating the plants of your region ¶  exhaustively and I believe that this was not completely attained through the collections ...</title>
+            <title>9/11/79. ¶  ¶ I am pleased, dear fellow-countryman, that you intend investigating the plants of your region ¶ i.e. the region around Darwin, where Holtze had been appointed curator of the botanic gard...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>9/11/79. ¶  ¶ I am pleased, dear fellow-countryman, that you intend investigating the plants of your region ¶  exhaustively and I believe that this was not completely attained through the collections ...</title>
+               <title>9/11/79. ¶  ¶ I am pleased, dear fellow-countryman, that you intend investigating the plants of your region ¶ i.e. the region around Darwin, where Holtze had been appointed curator of the botanic gard...</title>
                <date when="1879-11-09">1879-11-09</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,12 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Adansonia</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -76,17 +64,19 @@
                <term>location</term>
                <term>letter</term>
                <term>valediction</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="58">English</language>
-            <language ident="de" usage="42">German</language>
+            <language ident="en" usage="57">English</language>
+            <language ident="de" usage="43">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -99,117 +89,142 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">9/11/79. ¶  ¶ I am pleased, dear fellow-countryman, that you intend investigating the plants of your region ¶  exhaustively and I believe that this was not completely attained through the collections ...</supplied>
+               <supplied reason="XTF-compatibility">9/11/79. ¶  ¶ I am pleased, dear fellow-countryman, that you intend investigating the plants of your region ¶ i.e. the region around Darwin, where Holtze had been appointed curator of the botanic gard...</supplied>
             </head>
             <p rend="number" xml:lang="de">79.11.09</p>
             <p rend="correspondent" xml:lang="de">To Maurice Holtze</p>
             <p rend="location" xml:lang="de">GRG 19/391, State Records of South Australia, Adelaide.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">9/11/79</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Es freuet mich, geehrter Herr Landsmann, dass Sie die Pflanzen Ihrer Gegend erschöpfend suchen wollen u. glaube ich, dass dies durch die Sammlungen des Herrn Schultz nicht vollständig erreicht ist, so dass sich dort wohl noch viel Neues wird finden lassen. Es sollen bei Ihnen zwei Bambusrohre vorkommen; die niedrige Art mag aber doch vielleicht nur das immergrüne Schilf sein. </p>
+               <space dim="horizontal" extent="tab"/>Es freuet mich, geehrter Herr Landsmann, dass Sie die Pflanzen Ihrer<space unit="chars" quantity="1"/>Gegend erschöpfend suchen wollen u. glaube ich, dass dies durch die Sammlungen des Herrn<space unit="chars" quantity="1"/>Schultz<space unit="chars" quantity="1"/>nicht vollständig erreicht ist, so dass sich dort wohl noch viel Neues wird finden lassen. Es sollen bei Ihnen zwei Bambusrohre vorkommen; die niedrige Art mag aber doch vielleicht nur das immergrüne Schilf sein.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Schicken Sie doch auch freundlichst einen Sack voll Früchte des Gouty Stem tree (<name key="Adansonia">Adansonia</name>) welche zum Austausch werthvoll sind. </p>
+               <space dim="horizontal" extent="tab"/>Schicken Sie doch auch freundlichst einen Sack voll Früchte des Gouty Stem tree (Adansonia) welche zum Austausch werthvoll sind.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Kann ich Ihnen Sämereien für dortige Gärten senden? Ich habe bereits das mächtige Teosinte Gras dort eingeführt. Algen von Ihrer Küste wären mir sehr erwünscht.</p>
+               <space dim="horizontal" extent="tab"/>Kann ich Ihnen Sämereien für dortige Gärten senden? Ich habe bereits das mächtige Teosinte<space unit="chars" quantity="1"/>Gras dort eingeführt. Algen von Ihrer Küste wären mir sehr erwünscht.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Mit besonderer Ergebenheit der Ihre</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Wenn Sie Ihre Sammlungen für <seg style="">
+               <space dim="horizontal" extent="tab"/>Wenn Sie Ihre Sammlungen für<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">wissenschaftliche</hi>
-               </seg> Zwecke recht wichtig machen wollen, so wäre es gut immer nach fruchttragenden reifen Exemplaren zu spähen; wenn diese nicht erlangbar sind, so finden sich mitunter halbreife Früchte, u. zuweilen die Schalen &amp;c. &amp;c. alter Früchte vergangner Jahreszeiten.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>This sentence is on a separate sheet and may not have been part of the same letter. It is placed here because the advice it contains suggests that it is to be dated, with the rest of the letter, to the commencement of Holtze’s collecting career.</seg>
-                  </p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Zwecke recht wichtig machen wollen, so wäre es gut immer nach fruchttragenden reifen Exemplaren zu spähen; wenn diese nicht erlangbar sind, so finden sich mitunter halbreife Früchte, u. zuweilen die Schalen &amp;c. &amp;c. alter Früchte vergangner Jahreszeiten.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>This sentence is on a separate sheet and may not have been part of the same letter. It is placed here because the advice it contains suggests that it is to be dated, with the rest of the letter, to the commencement of Holtze’s collecting career.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">9/11/79.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am pleased, dear fellow-countryman, that you intend investigating the plants of your region<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>i.e. the region around Darwin, where Holtze had been appointed curator of the botanic garden.</seg>
-                  </p>
-               </note> exhaustively and I believe that this was not completely attained through the collections of Mr Schultz,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Frederick Schultz was botanist on George Goyder's expedition to the north coast of Australia in 1869 that selected the site for Darwin and surveyed the surrounding region. </seg>
-                  </p>
-               </note> so that probably much that is new can still be found there. You are supposed to have two kinds of bamboo occurring there; but the low growing species may perhaps be nothing other than the evergreen reeds.</p>
+               <space dim="horizontal" extent="tab"/>I am pleased, dear fellow-countryman, that you intend investigating the plants of your region<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>i.e. the region around Darwin, where Holtze had been appointed curator of the botanic garden.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>exhaustively and I believe that this was not completely attained through the collections of Mr Schultz,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Frederick Schultz</seg>
+                        <seg rend="DefaultParagraphFont" style="">e</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>was botanist on George Goyder's expedition to the north coast of Australia in 1869 that selected the site for Darwin and surveyed the surrounding region.<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>so that probably much that is new can still be found there. You are supposed to have two kinds of bamboo occurring there; but the low growing species may perhaps be nothing other than the evergreen reeds.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Be so kind as to send me a bag full of the fruit of the Gouty Stem tree (<name key="Adansonia">Adansonia</name>), which are valuable for exchange.</p>
+               <space dim="horizontal" extent="tab"/>Be so kind<space unit="chars" quantity="1"/>as to<space unit="chars" quantity="1"/>send me a bag full of the fruit of the Gouty Stem tree (Adansonia), which are valuable for exchange.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Can I send you seeds for the gardens there? I have introduced the mighty Teosinte grass there already.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>In the 1881 edition of <seg style="font-style: italic; ">Select extra-tropical plants</seg> (B81.13.10) M noted under <seg style="font-style: italic; ">Euchlaena luxurians:</seg> 'It was first brought into notice by the Acclimatisation Society of Paris, and introduced into Australia by the writer.'</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Can I send you seeds for the gardens there? I have introduced the mighty Teosinte grass there already.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>In the 1881 edition of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Select extra-tropical plants</seg>
+                        <space unit="chars" quantity="1"/>(B81.13.10) M noted under<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Euchlaena luxurians:</seg>
+                        <space unit="chars" quantity="1"/>'It was first brought into notice by the Acclimatisation Society of Paris, and introduced into Australia by the writer.'</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Algae from your coast would be very welcome.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Yours with particular devotion </p>
+               <space dim="horizontal" extent="tab"/>Yours with particular devotion<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>If you want to make your collections really important for <seg style="">
+               <space dim="horizontal" extent="tab"/>If you want to make your collections really important for<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">scientific</hi>
-               </seg> purposes, it would be well to search always for ripe fruit-bearing specimens. When these are not available, you may occasionally find half-ripe fruit, and sometimes husks &amp;c. &amp;c. of old fruit from earlier seasons.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>purposes, it would be well to search always for ripe fruit-bearing specimens. When these are not available, you may occasionally find half-ripe fruit, and sometimes husks &amp;c. &amp;c. of old fruit from earlier seasons.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Adansonia">Adansonia</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Adansonia</p>
          </div>
       </body>
    </text>
