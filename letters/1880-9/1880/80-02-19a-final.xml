@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1880/80-02-19a-draft.doc</idno>
+            <idno type="filename">data/letters/1880-9/1880/80-02-19a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1880/80-02-19a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1880/80-02-19a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -118,24 +118,20 @@
                <seg rend="DefaultParagraphFont" style="">
                   <space unit="chars" quantity="1"/>party: — I may remark, however, that<space unit="chars" quantity="1"/>
                </seg>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">[M]unne's</seg>
-               <seg rend="FootnoteReference" style="background-color: #FFFF00; ">
+               <seg rend="DefaultParagraphFont" style="">Hum</seg>
+               <seg rend="DefaultParagraphFont" style="">e's</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>statements are utterly unreliable, a</seg>
+               <seg rend="DefaultParagraphFont" style="">nd we have proof to this effect</seg>
+               <seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">This must be Hume.</seg>
-                     </p>
-                  </note>
-               </seg>
-               <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>statements are utterly unreliable, and we have proof to this effect —</seg>
-               <seg rend="FootnoteReference" style="">
-                  <note type="footnote" xml:id="_ftn2" n="3">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>M had come to believe that Jack-Dick<space unit="chars" quantity="1"/>Skuthorpe had validated some of the claims made by the discredited Andrew Hume;<space unit="chars" quantity="1"/>see M to the Editor of the Age, 20 February 1880 (in this edition as 80-02-20a) (B80.02.05). For Hume, see M to Daily Telegraph (Melbourne),<space unit="chars" quantity="1"/>February 1874<space unit="chars" quantity="1"/>(in this edition as 74-02-00b) (B74.02.11)<space unit="chars" quantity="1"/>and notes thereto.<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>M had come to believe that Jack-Dick<space unit="chars" quantity="1"/>Skuthorpe had validated some of the claims made by the discredited Andrew Hume;<space unit="chars" quantity="1"/>see M to the Editor of the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>, 20 February 1880 (in this edition as 80-02-20a) (B80.02.05). For Hume, see M to<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Daily Telegraph</seg>
+                        <space unit="chars" quantity="1"/>(Melbourne),<space unit="chars" quantity="1"/>February 1874<space unit="chars" quantity="1"/>(in this edition as 74-02-00b) (B74.02.11)<space unit="chars" quantity="1"/>and notes thereto.<space unit="chars" quantity="1"/>
                      </p>
                   </note>
                </seg>

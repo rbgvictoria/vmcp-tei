@@ -59,11 +59,11 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>DefaultParagraphFont</term>
                <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>letter</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
@@ -86,8 +86,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ [...] I have great pleasure in sending by this Mail, to the care of Dr Hooker, the second series of Port Darwin Plants (about 307 spec) which contains again some new and I may say interesting and w...</supplied>
             </head>
-            <p rend="number" xml:lang="en">
-               <seg rend="DefaultParagraphFont" style="color: #1447FE; ">M</seg>70.02.03<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            <p rend="number" xml:lang="en">M70.02.03<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <p rend="correspondent" xml:lang="en">From<space unit="chars" quantity="1"/>Richard Schomburgk to George Bentham</p>
             <space dim="vertical" unit="lines" quantity="1"/>
@@ -121,9 +120,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #1447FE; ">i.e., F Schultze.</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>i.e.<space unit="chars" quantity="1"/>F Schultze.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>to be commemorated in them]</p>

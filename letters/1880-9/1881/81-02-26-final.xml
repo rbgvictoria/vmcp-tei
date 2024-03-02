@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1881/81-02-26-draft.doc</idno>
+            <idno type="filename">data/letters/1880-9/1881/81-02-26-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-02-26-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-02-26-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -108,7 +108,15 @@
                         <space dim="horizontal" extent="tab"/>B76.12.04.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>— I shall be most happy to pay any expense</p>
+               <space unit="chars" quantity="1"/>— I shall be most happy to pay any expense<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See<space unit="chars" quantity="1"/>M to G. Goyder, 3 March 1881 (in this edition as 81-03-03a), and<space unit="chars" quantity="1"/>W. Gosse to M, 8 April 1881.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Faithfully yours</p>
@@ -127,15 +135,7 @@
                xml:lang="en">Baron F. Von Mueller,</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">Melbourne.<seg rend="FootnoteReference" style="">
-                  <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>See also W. Gosse to M, 8 April 1881.</p>
-                  </note>
-               </seg>
-            </p>
+               xml:lang="en">Melbourne.</p>
          </div>
       </body>
    </text>

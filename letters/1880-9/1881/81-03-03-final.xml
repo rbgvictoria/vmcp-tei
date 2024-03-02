@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1881/81-03-03-draft.doc</idno>
+            <idno type="filename">data/letters/1880-9/1881/81-03-03-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-03-03-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-03-03-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -126,14 +126,12 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I hope your conjectures respecting<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Skulthorpe</seg>
-               <seg rend="FootnoteReference" style="background-color: #FFFF00; ">
+               <space dim="horizontal" extent="tab"/>I hope your conjectures respecting<space unit="chars" quantity="1"/>Skuthorpe<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>M was seeking support for a search for<space unit="chars" quantity="1"/>the remains of<space unit="chars" quantity="1"/>August Classen, a member of the lost Leichhardt expedition, after J. R. Skuthorpe claimed he had recovered the diaries of Leichhardt and Classen<space unit="chars" quantity="1"/>and the grave of Classen; see M to G. Berry, 12 December 1880. For an account of the Skuthorpe claims and aftermath see Lewis (2013), pp. 265-80.<space unit="chars" quantity="1"/>See also M to E. Behm, 12 April 1881, and notes thereto.</p>
+                        <space dim="horizontal" extent="tab"/>M was seeking support for a search for<space unit="chars" quantity="1"/>the remains of<space unit="chars" quantity="1"/>August Classen, a member of the lost Leichhardt expedition, after J. R. Skuthorpe claimed he had recovered the diaries of Leichhardt and Classen<space unit="chars" quantity="1"/>and the grave of Classen; see M to G. Berry, 12 December 1880. For an account of the Skuthorpe claims and aftermath,<space unit="chars" quantity="1"/>see Lewis (2013), pp. 265-80.<space unit="chars" quantity="1"/>See also M to E. Behm, 12 April 1881, and notes thereto.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>may be realized. —</p>

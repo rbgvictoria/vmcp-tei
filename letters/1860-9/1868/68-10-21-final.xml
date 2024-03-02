@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1868/68-10-21-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1868/68-10-21-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-10-21-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-10-21-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,18 +53,18 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>DefaultParagraphFont</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
@@ -88,23 +88,14 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Surveyor General's Office ¶ Adelaide 21 Oct. 1868 ¶ Sir, ¶  ¶ I have the honor to acknowledge the receipt of your letter of the 6th Instant ¶  ¶ and to inform you, that if I go to the Northern Territo...</supplied>
             </head>
-            <p rend="number" xml:lang="en">68.10.21<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">68.10.21</p>
             <p rend="correspondent" xml:lang="en">From George Goyder</p>
             <p rend="location" xml:lang="en">GRG 35/20/17, no. 68/1297, p. 1398, outward letter press copy books, Department of Lands, State Records of South Australia, Adelaide<seg rend="DefaultParagraphFont" style="font-weight: bold; ">.</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Surveyor General's Office</p>
+               xml:lang="en">Surveyor General's Office</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Adelaide 21 Oct. 1868</p>
@@ -119,19 +110,19 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The Collector who has been nominated is named Schulze who takes his son with him<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Frederick<space unit="chars" quantity="1"/>Schultze<space unit="chars" quantity="1"/>and Alfred Schultze.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and his time is to be devoted wholly to the Government and he is to collect specimens of Botany &amp; Natural History.<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Frederich Schultze<space unit="chars" quantity="1"/>and Alfred Schultze.</p>
-                  </note>
-               </seg>
-               <space unit="chars" quantity="1"/>and his time is to be devoted wholly to the Government and he is to collect specimens of Botany &amp; Natural History.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>In his reply, M to G. Goyder,<space unit="chars" quantity="1"/>30 October 1868, M offered to prepare an account of the specimens if he could be supplied with a set.<space unit="chars" quantity="1"/>See also M to A. Cooper,15 May 1869 (in this edition as 69-05-15b) and J. Blackmore to M, 26 May 1869 (in this edition as 69-05-26b).<seg rend="DefaultParagraphFont" style="color: #0523FF; ">
+                        <space dim="horizontal" extent="tab"/>In his reply, M to G. Goyder,<space unit="chars" quantity="1"/>30 October 1868, M offered to prepare an account of the specimens if he could be supplied with a set.<space unit="chars" quantity="1"/>See also M to A. Cooper,<space unit="chars" quantity="1"/>15 May 1869 (in this edition as 69-05-15b) and J. Blackmore to M, 26 May 1869 (in this edition as 69-05-26b).<seg rend="DefaultParagraphFont" style="color: #0523FF; ">
                            <space unit="chars" quantity="1"/>
                         </seg>
                      </p>
@@ -166,15 +157,7 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">To Meuller<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>i.e. Mueller.</p>
-                  </note>
-               </seg>
-               <space unit="chars" quantity="1"/>Esq &amp;c F.R.S.</p>
+               xml:lang="en">To Mueller Esq &amp;c F.R.S.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Melbourne</p>
