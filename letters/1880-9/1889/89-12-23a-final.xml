@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ Lonah. Ulverstone ¶ Tasmania ¶ Dec 23/89. ¶ To Baron von Mueller ¶  ¶ &amp;c &amp;c....</title>
+            <title> ¶ Lonah. Ulverstone ¶ Tasmania ¶ Dec 23/89. ¶ To Baron von Mueller ¶  ¶  ¶ &amp;c &amp;c....</title>
             <author>Mary Lodder</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Mary Lodder</author>
-               <title> ¶ Lonah. Ulverstone ¶ Tasmania ¶ Dec 23/89. ¶ To Baron von Mueller ¶  ¶ &amp;c &amp;c....</title>
+               <title> ¶ Lonah. Ulverstone ¶ Tasmania ¶ Dec 23/89. ¶ To Baron von Mueller ¶  ¶  ¶ &amp;c &amp;c....</title>
                <date when="1889-12-23">1889-12-23</date>
             </bibl>
          </sourceDesc>
@@ -59,7 +59,6 @@
                <term>table</term>
                <term>note</term>
                <term>multi-row cell</term>
-               <term>multi-column cell</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
@@ -71,7 +70,6 @@
                <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>Strong</term>
                <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
@@ -92,7 +90,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ Lonah. Ulverstone ¶ Tasmania ¶ Dec 23/89. ¶ To Baron von Mueller ¶  ¶ &amp;c &amp;c....</supplied>
+               <supplied reason="XTF-compatibility"> ¶ Lonah. Ulverstone ¶ Tasmania ¶ Dec 23/89. ¶ To Baron von Mueller ¶  ¶  ¶ &amp;c &amp;c....</supplied>
             </head>
             <p rend="number" xml:lang="en">89.12.23a</p>
             <p rend="correspondent" xml:lang="en">From Mary Lodder</p>
@@ -121,6 +119,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
+               <space unit="chars" quantity="1"/>
                <space dim="horizontal" extent="tab"/>&amp;c &amp;c.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -209,6 +208,7 @@
                   </note>
                </seg>
             </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">x I have no duplicate of no 1. which is<space unit="chars" quantity="1"/>
@@ -220,12 +220,6 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Other omitted numbers are those of which the Baron had already given the names.</p>
             <table n="">
-               <row>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
-                        cols="2">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-               </row>
                <row>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
@@ -634,9 +628,10 @@
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
                                  <space dim="horizontal" extent="tab"/>In the list cited in n.<space unit="chars" quantity="1"/>4 above, Agardh had identified no.<space unit="chars" quantity="1"/>35 as<space unit="chars" quantity="1"/>
-                                 <seg rend="Strong" style="font-weight: normal; font-style: italic; ">Polysiphonia cancellata</seg>
-                                 <seg rend="Strong" style="font-weight: normal; ">.</seg>
-                                 <seg rend="Strong" style="font-weight: normal; ">
+                                 <seg rend="DefaultParagraphFont"
+                                      style="font-weight: bold; font-style: italic; ">Polysiphonia cancellata</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-weight: bold; ">.</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
                                     <space unit="chars" quantity="1"/>
                                  </seg>
                               </p>

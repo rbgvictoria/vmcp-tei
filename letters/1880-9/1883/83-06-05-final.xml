@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1883/83-06-05-draft.doc</idno>
+            <idno type="filename">data/letters/1880-9/1883/83-06-05-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1883/83-06-05-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1883/83-06-05-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -62,8 +62,8 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>FootnoteReference</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
@@ -91,9 +91,9 @@
                <supplied reason="XTF-compatibility">Memorandum in reply to the Undersecretary's minute of 4/6/83. ¶  ¶ The present account of £35.6/6d ¶  ¶ closes ¶  ¶ the expenditure of part I. of the "Census"; the second part cannot appear before 188...</supplied>
             </head>
             <p rend="number" xml:lang="en">83.06.05</p>
-            <p rend="correspondent" xml:lang="en">To Thomas Wilson<seg rend="FootnoteReference" style=""/>
+            <p rend="correspondent" xml:lang="en">To Thomas Wilson</p>
+            <p rend="location" xml:lang="en">Z83/5940, unit 1409, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style=""/>
             </p>
-            <p rend="location" xml:lang="en">Z83/5940, unit 1409, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
@@ -119,8 +119,7 @@
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space unit="chars" quantity="1"/>
-                                 <space dim="horizontal" extent="tab"/>B83.03.04</p>
+                                 <space dim="horizontal" extent="tab"/>B83.03.04.</p>
                            </note>
                         </seg>
                         <space unit="chars" quantity="1"/>cost</p>
@@ -144,9 +143,7 @@
                      </p>
                   </cell>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
@@ -177,9 +174,7 @@
                         xml:lang="en">Total</p>
                   </cell>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
@@ -189,12 +184,12 @@
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>MS annotation in a clerk's hand: 'Will the Government Botanist be good enough to inform me whether the sum of £247.12s.6d represents the whole expenditure for printing, binding &amp;c, including the 2nd part. C.S.O. /6/83'.<space unit="chars" quantity="1"/>Before signing this, Wilson added 'or if not what the total cost is likely to be?'.</p>
+                                 <space dim="horizontal" extent="tab"/>MS annotation in a clerk's hand: 'Will the Government Botanist be good enough to inform me whether the sum of £247.12s.6d represents the whole expenditure for printing, binding &amp;c, including the 2nd part. C.S.O. /6/83'. Before signing this, Wilson added 'or if not what the total cost is likely to be?'.</p>
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
                                  <space dim="horizontal" extent="tab"/>
-                                 <space dim="horizontal" extent="tab"/>To this M replied on 14 June 1883: 'The sum of £247.12/6d represents the total expenditure of part 1 of the Census, as issued already. The second part will not be quite so large, nor will it appear during the next finance-year, and should it never be printed, the first one will remain complete in itself.'<space unit="chars" quantity="1"/>Part 2 was never printed although an extensive manuscript remains in the Library at MEL, RB MSS 772.</p>
+                                 <space dim="horizontal" extent="tab"/>To this M replied<space unit="chars" quantity="1"/>with a minute<space unit="chars" quantity="1"/>on 14 June 1883: 'The sum of £247.12/6d represents the total expenditure of part I of the Census, as issued already. The second part will not be quite so large, nor will it appear during the next finance-year, and should it never be printed, the first one will remain complete in itself'. Part 2 was never printed although an extensive manuscript remains in the Library at MEL (RB MSS 772).</p>
                            </note>
                         </seg>
                      </p>
