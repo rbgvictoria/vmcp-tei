@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-               <term>Times, Times</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,9 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>form text</term>
+               <term>FootnoteText</term>
+               <term>formtext</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -96,119 +90,135 @@
             </head>
             <p rend="number" xml:lang="de">46.05.12</p>
             <p rend="correspondent" xml:lang="de">From Universität Kiel</p>
-            <p rend="location" xml:lang="de">RB MSS M200, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="de">RB MSS M200, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">MS is a printed certificate.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS is a printed certificate.</p>
                </note>
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">Q.B.F.F.S.</seg>
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                        xml:lang="en">Quod Bene Felix Faustum Sit.</p>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">Q.B.F.F.S.</seg>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Quod Bene Felix Faustum Sit.</p>
                   </note>
                </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">Sub avspiciis avgvstissimis serenissimi et potentissimi principis ac domini</seg>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">Sub avspiciis avgvstissimis serenissimi et potentissimi principis ac domini</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">Domini CHRISTIANI VIII daniae vandalorvm gothorvmqve regis slesvici holsatiae stormariae dithmarsiae oldenbvrgi et lavenbvrgi dvcis rel. rel. rel.</seg>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">Domini CHRISTIANI VIII daniae vandalorvm gothorvmqve regis slesvici holsatiae stormariae dithmarsiae oldenbvrgi et lavenbvrgi dvcis rel. rel. rel.</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">CHRISTIANAE ALBERTINAE rectore</seg> Iusto Olshausen, Philosophiae Doctore, Linguarum Orientalium Prof. Publ. Ord. Augustissimo Regi a consiliis status, Ordinis Danebrogici equite,</p>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">CHRISTIANAE ALBERTINAE rectore</seg>
+               <space unit="chars" quantity="1"/>Iusto Olshausen, Philosophiae Doctore, Linguarum Orientalium Prof. Publ. Ord. Augustissimo Regi a consiliis status, Ordinis Danebrogici equite,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">postqvam data dextera de obseqvio et obedientia legibvs academicis conditis et condendis pariter ac magistratvi academico praestandis sanctissime fidem obstrinxit ALBO ACADEMICO inscriptvs</seg>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">postqvam data dextera de obseqvio et obedientia legibvs academicis conditis et condendis pariter ac magistratvi academico praestandis sanctissime fidem obstrinxit ALBO ACADEMICO inscriptvs</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">ET CIVITATE LITERARVM VNIVERSITATIS KILIENSIS</seg>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">ET CIVITATE LITERARVM VNIVERSITATIS KILIENSIS</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">donatvs est</seg> Ferdinandus Jacobus Henricus Müller, Rostochiensis, Pharmaciae studiosus, <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">hvivsqve rei has literas testes sigillo academico mvnitas manvqve rectoris svbscriptas accepit.</seg>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">donatvs est</seg>
+               <space unit="chars" quantity="1"/>Ferdinandus Jacobus Henricus Müller, Rostochiensis, Pharmaciae studiosus,<space unit="chars" quantity="1"/>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">hvivsqve rei has literas testes sigillo academico mvnitas manvqve rectoris svbscriptas accepit.</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">Datvm Kiliae Holsatorum A. D</seg>. xii. <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">m.</seg>
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">Maji a. MDCCCXL</seg>VI.</p>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">Datvm Kiliae Holsatorum A. D</seg>. xii.<space unit="chars" quantity="1"/>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">m.</seg>
+               <space unit="chars" quantity="1"/>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">Maji a. MDCCCXL</seg>VI.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="de">J. Olshausen, h. t.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">hoc tempore.</p>
-               </note> Rector.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">J. Olshausen, h. t.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>hoc tempore.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Rector.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg rend="form%20text"
-                    style="color: #2f5496; font-family: Times, Times; font-size: 12pt; font-style: normal; font-weight: normal; ">Valet ad sexennivm.</seg>
+               <seg rend="formtext"
+                    style="font-weight: normal; font-style: normal; color: #2F5496; font-size: 12pt; ">Valet ad sexennivm.</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; text-align: center; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: center; "
                xml:lang="en">May it turn out right happy and prosperous</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Under the most august auspices of the most serene and powerful prince and lord, Lord Christian VIII, King of the Danes, Vandals and Goths, Duke of Schleswig, Holstein, Stormarn, Dithmarschen, Oldenburg and Lauenburg etc. etc. etc.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Under Justus Olshausen, doctor of philosophy, by state decree professor<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Literally 'public ordinary professor', i.e. full professor ('ordinarius') entitled to give public lectures.</p>
-               </note> of oriental languages to the most august king, knight of the Dannebrog Order, rector of the Christian Albrecht University</p>
+               <space dim="horizontal" extent="tab"/>Under Justus Olshausen, doctor of philosophy, by state decree professor<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Literally 'public ordinary professor', i.e. full professor ('ordinarius') entitled to give public lectures.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>of oriental languages to the most august king, knight of the Dannebrog Order, rector of the Christian Albrecht University</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>after Ferdinand Jakob Heinrich Müller of Rostock, student of Pharmacy, had given his right hand and solemnly bound himself to obedience to and compliance with the academic laws established and to be established and equally to be enforced by the academic magistracy, he was entered into the Academic Register and presented with Citizenship of Letters of the University of Kiel and received as proof of this event this document reinforced with the academic seal and with a subscription in the hand of the rector.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Given at Kiel in Holstein, 12 May 1846.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">(signed) J. Olshausen, Rector at this time.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Valid for six years.</p>
          </div>
       </body>
