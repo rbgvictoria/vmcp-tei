@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne bot. Garden, ¶ 3/10/71. ¶  ¶ This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land sid...</title>
+            <title>Melbourne bot. Garden, ¶ 3/10/71. ¶  ¶ This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land-sid...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-10-03-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-10-03-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne bot. Garden, ¶ 3/10/71. ¶  ¶ This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land sid...</title>
+               <title>Melbourne bot. Garden, ¶ 3/10/71. ¶  ¶ This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land-sid...</title>
                <date when="1871-10-03">1871-10-03</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-10-03-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-10-03-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -65,7 +65,6 @@
                <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -86,9 +85,8 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne bot. Garden, ¶ 3/10/71. ¶  ¶ This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land sid...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne bot. Garden, ¶ 3/10/71. ¶  ¶ This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land-sid...</supplied>
             </head>
-            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="number" xml:lang="en">71.10.03</p>
             <p rend="correspondent" xml:lang="en">To Edmund FitzGibbon</p>
             <p rend="location" xml:lang="en">No. 1635, unit 830, VPRS 3181/P Town Clerk's file series 1, VA 511 Melbourne, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
@@ -101,12 +99,7 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="color: #171BFF; ">The issue had been previously raised in</seg>
-                     <space unit="chars" quantity="1"/>M to E. FitzGibbon, 16 September 1872,<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="color: #171BFF; ">in this edition as 72-09-16b</seg>
-                     <seg rend="DefaultParagraphFont" style="color: #171BFF; ">.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>See also M to E. FitzGibbon, 16 September 1872, in this edition as 72-09-16b.</p>
                </note>Melbourne bot. Garden,</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
@@ -115,7 +108,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land side; also some need pruning, to prevent them to impede or even endanger the boat-passage. Can not a Corporation man be sent over here to look after this?</p>
+               <space dim="horizontal" extent="tab"/>This day, dear Mr Fitzgibbon, I had a look on the willows along the Yarra at the Corporation Side of the River. They require much to be tied back to the land-side; also some need pruning, to prevent them to impede or even endanger the boat-passage. Can not a Corporation man be sent over here to look after this?</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">With best regards</p>

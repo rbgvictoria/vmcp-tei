@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [A letter was received from Dr  ¶ Mueller ¶ , offering a donation of plants in pot and shrubs for the decoration of the hall on, the occasion of the bazaar.]...</title>
+            <title> ¶ [A letter was received from Dr ¶  ¶ Mueller ¶ , offering a donation of plants in pot and shrubs for the decoration of the hall on the occasion of the bazaar.]...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [A letter was received from Dr  ¶ Mueller ¶ , offering a donation of plants in pot and shrubs for the decoration of the hall on, the occasion of the bazaar.]...</title>
+               <title> ¶ [A letter was received from Dr ¶  ¶ Mueller ¶ , offering a donation of plants in pot and shrubs for the decoration of the hall on the occasion of the bazaar.]...</title>
                <date when="1871-08">1871-08</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,8 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,25 +82,25 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [A letter was received from Dr  ¶ Mueller ¶ , offering a donation of plants in pot and shrubs for the decoration of the hall on, the occasion of the bazaar.]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [A letter was received from Dr ¶  ¶ Mueller ¶ , offering a donation of plants in pot and shrubs for the decoration of the hall on the occasion of the bazaar.]...</supplied>
             </head>
-            <p rend="number" xml:lang="en">
-               <seg style="">71.08.00d</seg>
-            </p>
-            <p rend="correspondent" xml:lang="en">To the Ballarat Mechanics’ Institute</p>
+            <p rend="number" xml:lang="en">71.08.00d</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Ballarat Mechanics’<space unit="chars" quantity="1"/>Institute</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the report of the meeting of the general committee of the Ballarat Mechanics’ Institute held on 16 August 1871 to discuss the Institute's Bazaar ('News and notes', <seg style="font-style: italic; ">Ballarat star</seg>, 17 August 1871, p. 2).</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the report of the meeting of the general committee of the Ballarat Mechanics’ Institute held on 16 August 1871 to discuss the Institute's<space unit="chars" quantity="1"/>bazaar ('News and notes',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ballarat star</seg>, 17 August 1871, p. 2).</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[A letter was received from Dr <seg style="">Mueller</seg>, offering a donation of plants in pot and shrubs for the decoration of the hall on, the occasion of the bazaar.]</p>
+               <space dim="horizontal" extent="tab"/>[A letter was received from Dr<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">Mueller</seg>, offering a donation of plants in pot and shrubs for the decoration of the hall on the occasion of the bazaar.]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

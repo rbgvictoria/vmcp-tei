@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower bra...</title>
+            <title> ¶ [Copies of memos &amp; letter addressed to Director] ¶ In June 1871, W. Ferguson, Inspector of Forests wrote to the Chief Secretary 'respecting peculiar circumstances in which he is situated at Botanic...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,25 +15,26 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-07-00d-final.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-06-00b-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
+                  <msName>No. 7867, vol. 1871 Z, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
-                     <idno>71.07.00d</idno>
+                     <idno>71.06.00b</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower bra...</title>
-               <date when="1871-07">1871-07</date>
+               <title> ¶ [Copies of memos &amp; letter addressed to Director] ¶ In June 1871, W. Ferguson, Inspector of Forests wrote to the Chief Secretary 'respecting peculiar circumstances in which he is situated at Botanic...</title>
+               <date when="1871-06">1871-06</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-07-00d-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-06-00b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -52,18 +53,19 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>final</term>
+               <term>not final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
+               <term>location</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
-               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -74,7 +76,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Charles Cramer</name>
+               <name>Charles Gavan Duffy</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -83,11 +85,13 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower bra...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Copies of memos &amp; letter addressed to Director] ¶ In June 1871, W. Ferguson, Inspector of Forests wrote to the Chief Secretary 'respecting peculiar circumstances in which he is situated at Botanic...</supplied>
             </head>
-            <p rend="number" xml:lang="en">71.07.00d</p>
-            <p rend="correspondent" xml:lang="en">To Charles Cramer</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="number" xml:lang="en">71.06.00b<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Charles Gavan Duffy</p>
+            <p rend="location" xml:lang="en">No. 7867, vol. 1871 Z, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
@@ -96,20 +100,23 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here,<space unit="chars" quantity="1"/>see the report of the Warrnambool Borough Council meeting held on 1 August 1871, in<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Warrnambool Examiner</seg>, 4 August 1871, p. 2.<space unit="chars" quantity="1"/>M's letter was probably written in late July 1871.</p>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof at PRO.</seg>
+                  </p>
+               </note>
+               <note type="footnote" xml:id="_ftn1" n="2">
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>See also H. Read to M, August 1871 (in this edition as 71-08-00a).</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry, entered on 23 June 1871. Duffy replaced James McCulloch as Chief Secretary on 19 June, and the registration date suggests that M wrote soon after that. See also M to J. MacPherson, 8 April 1870.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower branches could be taken off from time to time, as the trees grew up.]<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+               <space dim="horizontal" extent="tab"/>[Copies of memos &amp; letter addressed to Director]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>A tree planting ceremony took place in Warrnambool on Tuesday,<space unit="chars" quantity="1"/>29 August 1871. The site for planting was on the south side of Timor Street, from the Town Hall to the Court House and Police Office enclosure. The Mayor, Charles Cramer, said on the occasion: 'As to the kind of tree planted he had taken the opinion of Dr. Mueller, who had approved of the Aleppo Pine as best adapted to the temperature of the Western district, on the sea-coast. The Moreton Bay Pine had been suggested, but the doctor stated that it would not stand exposure to the weather in that part of Victoria.' (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Warrnambool examiner</seg>, 1 September 1871, p. 2).</p>
+                        <space dim="horizontal" extent="tab"/>In June 1871, W. Ferguson, Inspector of Forests wrote to the Chief Secretary 'respecting peculiar circumstances in which he is situated at Botanic Gardens' (No. 7875, vol. 1871 Z, VPRS 1186,<space unit="chars" quantity="1"/>Public Record Office, Victoria). See also M to<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Chief Secretary</seg>, July 1871.</p>
                   </note>
                </seg>
             </p>
