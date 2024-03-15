@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,27 +92,31 @@
             <p rend="location" xml:lang="en">Auckland Public Library, Grey papers, GL M50(10).</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Queensbirthday</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">26/5/66</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My dear Sir George.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>During his stay in Melbourne I was informed by Baron Cederström, one of the Chamberlains of her Majesty the Queen of Sweden, that the King was very desirous to obtain a greenstone battle axe for his collection of arms. I have endeavoured to obtain this, but entirely failed, and know of no other means of realizing his Majestys wish than by appealing to you. Should you be pleased to spare a specimen for the King, perhaps you would send it direct to the Swedish Ambassador in London. Being myself educated in Scandinavia &amp; connected with a number of scientific friends of the Baron, I was very anxious to fulfill his wish or see it fulfilled. Several other requirements from N. Z were rendered known to me, but these I was able to get secured without troubling your Excellency for your powerful mediation. Allow me to remark, that a very intelligent &amp; zealous person is employed in the Gov. Printing Office of Wellington, a Mr W. Kelleway. I fancy, from his ready &amp; liberal transmission of seeds &amp;c to my establishment,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">No correspondence with Kelleway has been found, although he is listed as a donor of living plants in M to J. Grant, 14 September 1864.</p>
-               </note> that he would eagerly embrace any opportunity of serving your Excellency in Acclimation pursuits.</p>
+               <space dim="horizontal" extent="tab"/>During his stay in Melbourne I was informed by Baron Cederström, one of the Chamberlains of her Majesty the Queen of Sweden, that the King was very desirous to obtain a greenstone battle axe for his collection of arms. I have endeavoured to obtain this, but entirely failed, and know of no other means of realizing his Majestys wish than by appealing to you. Should you be pleased to spare a specimen for the King, perhaps you would send it direct to the Swedish Ambassador in London. Being myself educated in Scandinavia &amp; connected with a number of scientific friends of the Baron, I was very anxious to fulfill his wish or see it fulfilled. Several other requirements from N. Z were rendered known to me, but these I was able to get secured without troubling your Excellency for your powerful mediation. Allow me to remark, that a very intelligent &amp; zealous person is employed in the Gov. Printing Office of Wellington, a Mr W. Kelleway. I fancy, from his ready &amp; liberal transmission of seeds &amp;c to my establishment,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>No correspondence with Kelleway has been found, although he is listed as a donor of living plants in M to J. Grant, 14 September 1868.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>that he would eagerly embrace any opportunity of serving your Excellency in Acclimation pursuits.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">with profound obedience</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller</p>
          </div>
