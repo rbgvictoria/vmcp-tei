@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1868/68-10-27b.doc</idno>
+            <idno type="filename">data/letters/1860-9/1868/68-10-27b-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-10-27b.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-10-27b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -97,48 +93,51 @@
             <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter and minute book, p. 28, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne botan. Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">27/10/68</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Yesterday dear Mr Sprigg at the Meeting of the Royal Park's Committee I submitted your letter in which you tendered your resignation as the Official upon whom the surveillance of the Park so long devolved. The Trustees aware of your having accepted a more important position accepted your resignation, but wished me at the same time to express their regret at having lost the services which you so zealously and judiciously rendered on their behalf and desire me to also convey to you their best thanks for your uniform attention to their wishes, and congratulate you to the highly honorable position you now hold</p>
+               <space dim="horizontal" extent="tab"/>Yesterday dear Mr Sprigg at the Meeting of the Royal Park's Committee I submitted your letter in which you tendered your resignation as the Official upon whom the surveillance of the Park so long devolved. The Trustees aware of your having accepted a more important position accepted your resignation, but wished me at the same time to express their regret at having lost the services which you so zealously and judiciously rendered on their behalf and desire me to also convey to you their best thanks for your uniform attention to their wishes, and congratulate you to the highly honorable position you now hold<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">Town Clerk, St Kilda.</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>as M to J. Grant, 27 October 1868 (<seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">in this edition as 68-10-27a) requested that E. Lissingol, Spriggs successor Secretary, be appointed a Crown Bailiff to enforce the regulations of Royal Park.</seg>
+                        <space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I am dear Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your very regardful</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>F. v M.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Hon. Secr. to the Trustees of the Royal Park</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">G. Sprigg Esq.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to J. Grant, 27 October 1868.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">anything more to add from minutes?</seg>
-                  </p>
-               </note>
-            </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">G. Sprigg Esq.</p>
          </div>
       </body>
    </text>

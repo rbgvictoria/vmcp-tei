@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.] ...</title>
+            <title>Letter not found. The text given here is from a report of the meeting of the Bay District Horticultural Society, California, held on 10 June 1871 (California horticulturist and floral magazine, vol. 1...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.] ...</title>
+               <title>Letter not found. The text given here is from a report of the meeting of the Bay District Horticultural Society, California, held on 10 June 1871 (California horticulturist and floral magazine, vol. 1...</title>
                <date when="1871-04">1871-04</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,17 +54,17 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>space</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,30 +84,37 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.] ...</supplied>
+               <supplied reason="XTF-compatibility">Letter not found. The text given here is from a report of the meeting of the Bay District Horticultural Society, California, held on 10 June 1871 (California horticulturist and floral magazine, vol. 1...</supplied>
             </head>
             <p rend="number" xml:lang="en">71.04.00</p>
-            <p rend="correspondent" xml:lang="en">To the Bay District Horticultural Society, California</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Bay District Horticultural Society, California</p>
+            <p rend="space"
+               style="text-align: center; font-size: 9pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from a report of the meeting of the Bay District Horticultural Society, California, held on 10 June 1871 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">California horticulturist and floral magazine</seg>, vol. 1, p. 247). The letter is dated to April as the latest likely date that it could have been sent to have been read at that meeting.<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>The report continues: 'Dr. Mueller is untiring in his efforts to help the cause of Horticulture, and great<space unit="chars" quantity="1"/>credit is due him for the introduction and<space unit="chars" quantity="1"/>cultivation of many valuable plants.'</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from a report of the meeting of the Bay District Horticultural Society, California, held on 10 June 1871 (<seg style="font-style: italic; ">California horticulturist and floral magazine</seg>, vol. 1, p. 247). The letter is dated to April as the latest likely date that it could have been sent to have been read at that meeting. </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>The report continues: 'Dr. Mueller is untiring in his efforts to help the cause of Horticulture, and great credit is due him for the introduction and cultivation of many valuable plants.'</p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note>
-               <space dim="horizontal" extent="tab"/>[A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.] </p>
+               <space dim="horizontal" extent="tab"/>[A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.]<space unit="chars" quantity="1"/>
+            </p>
          </div>
       </body>
    </text>

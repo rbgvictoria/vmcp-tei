@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
                <term>tab alignment</term>
@@ -70,8 +64,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,411 +90,486 @@
                <supplied reason="XTF-compatibility"> ¶ List of Institutions and Men of science to whom it is proposed to present the 5th volume of the Fragmenta phytographiae Australiae on behalf of the Victorian Government. These recipients having mor...</supplied>
             </head>
             <p rend="number" xml:lang="en">67.08.00</p>
-            <p rend="correspondent" xml:lang="en">To James Grant</p>
-            <p rend="location" xml:lang="en">P67/7923, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>James Grant</p>
+            <p rend="location" xml:lang="en">P67/7923, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. M was at Queenscliff, Vic, at this time, in the hope of overcoming persistent ill-health. Heyne sent this list, which is in M's hand, to the President of the Board of Land and Works, James Grant, on 3 August 1867, together with a requisition for 80 copies of the 5th volume of <seg style="font-style: italic; ">Fragmenta phytographiae Australiae</seg>, saying in his covering letter that he had received a letter from M that day with instructions to submit these documents for approval. In addition, 'I am also requested by Dr Mueller to ask your favourable consideration of his letter dated July 17th [letter not found] in which he submitted a list of recipients who seemed to him entitled to receive the 3rd Volume of the Universal Work on Australian plants edited by the President of the Linnean Society in London in conjunction with himself [i.e. Bentham (1863-78), vol. 3], thirty copies of which having been received by him on behalf of the Victorian Government'. Grant minuted his approval of the proposals on the file. One of the presentation copies of Volume 3 of <seg style="font-style: italic; ">Flora Australiensis </seg>was inscribed 'To his Excellency the honorable Sir H. Manners Sutton, K.C.B., Governor of Victoria, with Ferd. Mueller's most profound regards'; the copy is now in the library at the Benedictine Community in New Norcia, WA, along with a copy of volume 4 inscribed 'To his Excellency the hon. Sir Henry Manners Sutton, K.C.B., Governor of Victoria offered with Ferd von Mueller's profound regards'.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>M was at Queenscliff, Vic, at this time, in the hope of overcoming persistent ill-health.<space unit="chars" quantity="1"/>Heyne<space unit="chars" quantity="1"/>sent this list, which is in M's hand,<space unit="chars" quantity="1"/>to the President of the Board of Land and Works, James Grant, on 3 August 1867, together with a requisition for 80 copies of the 5th volume of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Fragmenta</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>phytographiae Australiae</seg>, saying in his covering letter that he had<space unit="chars" quantity="1"/>received<space unit="chars" quantity="1"/>a letter<space unit="chars" quantity="1"/>from M<space unit="chars" quantity="1"/>that day with instructions to submit these documents for approval.<space unit="chars" quantity="1"/>In addition,<space unit="chars" quantity="1"/>'I am also requested by Dr Mueller to ask your favourable consideration of his letter dated July 17th [letter not found] in which he submitted a list of recipients who seemed to him entitled to receive the 3rd Volume of the Universal Work on Australian plants edited by the President of the Linnean Society in London in conjunction with himself [i.e. Bentham (1863-78), vol. 3], thirty copies of which having been received by him on behalf of the Victorian Government'. Grant minuted his<space unit="chars" quantity="1"/>approval of the proposals on the file.<space unit="chars" quantity="1"/>One of the presentation copies of Volume 3 of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Flora Australiensis<space unit="chars" quantity="1"/>
+                     </seg>was inscribed<space unit="chars" quantity="1"/>'To his Excellency the honorable Sir H. Manners Sutton, K.C.B., Governor of Victoria, with<space unit="chars" quantity="1"/>Ferd. Mueller's most profound regards'; the copy is now in<space unit="chars" quantity="1"/>the library at the Benedictine Community in New Norcia, WA, along with a copy of volume 4 inscribed<space unit="chars" quantity="1"/>'To his Excellency the hon. Sir Henry Manners Sutton, K.C.B., Governor of Victoria offered with Ferd von Mueller's profound regards'.</p>
                </note>
                <space dim="horizontal" extent="tab"/>List of Institutions and Men of science to whom it is proposed to present the 5th volume of the Fragmenta phytographiae Australiae on behalf of the Victorian Government. These recipients having more particularly advanced the interest of the phytographic department in 1865 &amp; 1866.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">His Excell. Sir H. Manners-Sutton</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">His Excell. Sir H. Barkly, KCB</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">His Excell. Sir R. M'Donell, CB.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">His Excell Sir W. Denison, KCB</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">His Excell Sir W.<space unit="chars" quantity="1"/>Denison, KCB</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">C. J. Latrobe Esq C.B.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Right Hon. Earl Carnarvon</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Right Hon. Duke of Buckingham</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Right Hon. Duke of<space unit="chars" quantity="1"/>Buckingham</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Royal Society of London</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space unit="chars" quantity="3"/>
-               </seg>"<space dim="horizontal" extent="tab"/>
+               <space unit="chars" quantity="3"/>"<space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Society of Edinburgh</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space unit="chars" quantity="3"/>
-               </seg>"<space dim="horizontal" extent="tab"/>
+               <space unit="chars" quantity="3"/>"<space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Irish Academy</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Imp. Car. Leop. Academy<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Imperial Leopoldine-Carolinian Academy of Naturalists (Academia Caesarea Leopoldino-Carolina Naturae Curiosorum).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Imp. Car. Leop. Academy<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Imperial Leopoldine-Carolinian Academy of Naturalists (Academia Caesarea Leopoldino-Carolina Naturae Curiosorum).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bot. Society of France</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Imp. Library, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Imp. Soc. Moscou<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Imperial Society of Naturalists of Moscow (Société Impériale des Naturalistes de Moscou/Московское общество испытателей природы).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Imp. Soc. Moscou<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Imperial Society of Naturalists<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>Moscow<space unit="chars" quantity="1"/>(Société Impériale des Naturalistes<space unit="chars" quantity="1"/>de Moscou/Московское общество испытателей природы).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bot. Soc. Canada</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Californ. Acad. of Sciences<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Californian Academy of Natural Sciences, San Francisco.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Californ. Acad. of Sciences<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Californian Academy of Natural Sciences, San Francisco.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Pollichian Soc. of the Palatinate<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Pollichia, a Natural Science Union of the Rhineland Palatine, Bad Dürkheim (Polliciha, ein naturwissenschaftlicher Verein der Rheinpfalz).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Pollichian<space unit="chars" quantity="1"/>Soc. of the Palatinate<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Pollichia, a Natural<space unit="chars" quantity="1"/>Science<space unit="chars" quantity="1"/>Union<space unit="chars" quantity="1"/>of the Rhineland Palatine,<space unit="chars" quantity="1"/>Bad Dürkheim<space unit="chars" quantity="1"/>(Polliciha, ein naturwissenschaftlicher Verein der Rheinpfalz).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Germ. Assoc. of Frankfurt<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Free German Foundation for Sciences, Arts and General Culture in Goethe’s Parental Home, Frankfurt (Freies Deutsches Hochstift für Wissenschaften, Künste und Allgemeine Bildung in Goethe's Vaterhause).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Germ. Assoc. of Frankfurt<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Free German Foundation for Sciences, Arts and General Culture in Goethe’s Parental Home, Frankfurt<space unit="chars" quantity="1"/>(Freies Deutsches<space unit="chars" quantity="1"/>Hochstift für<space unit="chars" quantity="1"/>Wissenschaften, Künste und Allgemeine Bildung in Goethe's Vaterhause).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Hercyn. Soc. of Naturalists<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Natural Science Union of the Harz [i.e. Hercynia], Blankenburg (Naturwissenschaftlicher Verein des Harzes).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Hercyn.<space unit="chars" quantity="1"/>Soc. of Naturalists<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Natural Science Union of the Harz<space unit="chars" quantity="1"/>[i.e. Hercynia], Blankenburg<space unit="chars" quantity="1"/>(Naturwissenschaftlicher Verein des Harzes).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Hamburgh Soc. of Naturalists</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Halle Soc. of Naturalists</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Philos. Soc. of Sydney<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Philosophical Society of New South Wales (after 12 December 1866 known as the Royal Society of New South Wales).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Philos. Soc. of Sydney<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Philosophical Society of New South Wales (after 12 December 1866 known as the Royal Society of New South Wales).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Physiogr. Soc. of Lund<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Physiographical Society of Lund (Physiographiska Sällskapet).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Physiogr. Soc. of Lund<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Physiographical Society of Lund (Physiographiska Sällskapet).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Silesian Soc. for Culture<note xml:id="ftn10" type="footnote" n="10">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Silesian Society for National Culture, Breslau (Schlesische Gesellschaft für vaterländische Cultur).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Silesian Soc. for Culture<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Silesian Society for National Culture, Breslau (Schlesische Gesellschaft für vaterländische Cultur).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Roy. Soc. of Mauritius<note xml:id="ftn11" type="footnote" n="11">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Royal Society of Arts and Sciences of Mauritius, Port Louis (Société Royale des Arts et des Sciences de I'lle Maurice).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Roy. Soc. of Mauritius<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn10" n="11">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Royal Society of Arts and Sciences of Mauritius, Port Louis (Société<space unit="chars" quantity="1"/>Royale des Arts et des Sciences de I'lle Maurice).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Bot.Soc. of Ratisbon<note xml:id="ftn12" type="footnote" n="12">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Royal Botanical Society of Regensburg (Königlich botanische Gesellschaft).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Bot.Soc. of Ratisbon<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn11" n="12">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Royal Botanical Society of Regensburg (Königlich botanische Gesellschaft).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Leyden Museum</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Physico-med. Soc. of Erlangen<note xml:id="ftn13" type="footnote" n="13">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Physico-Medical Society of Erlangen (Physikalisch-medicinisches Societät).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Physico-med. Soc. of Erlangen<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn12" n="13">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Physico-Medical Society of Erlangen (Physikalisch-medicinisches Societät).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Bot. Soc. of Edinburgh</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space unit="chars" quantity="2"/>
-               </seg>" <space unit="chars" quantity="5"/>" <space unit="chars" quantity="3"/>of Copenhagen<note xml:id="ftn14" type="footnote" n="14">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Botanical Society of Copenhagen (Botaniske Forening af Kjobenhavn).</p>
-               </note>
+               <space unit="chars" quantity="2"/>" <space unit="chars" quantity="5"/>" <space unit="chars" quantity="3"/>of Copenhagen<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn13" n="14">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Botanical<space unit="chars" quantity="1"/>Society of Copenhagen (Botaniske Forening af Kjobenhavn).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Acad. of Science Boston<note xml:id="ftn15" type="footnote" n="15">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">American Academy of Arts and Sciences, Boston.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Acad. of Science Boston<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn14" n="15">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>American Academy of Arts and Sciences, Boston.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Acad of Science, Upsala<note xml:id="ftn16" type="footnote" n="16">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Royal Society of Sciences, Uppsala (Konigliga Vetenskaps-societeten i Uppsala).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Acad of Science, Upsala<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn15" n="16">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Royal Society of Sciences, Uppsala<space unit="chars" quantity="1"/>(Konigliga<space unit="chars" quantity="1"/>Vetenskaps-societeten i Uppsala).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Hort. Society of Petersburg<note xml:id="ftn17" type="footnote" n="17">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Imperial Russian Society of Horticulture of St Petersburg (Императорское россійское общество садоводства).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Hort. Society of Petersburg<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn16" n="17">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Imperial<space unit="chars" quantity="1"/>Russian<space unit="chars" quantity="1"/>Society of Horticulture of St Petersburg (Императорское россійское<space unit="chars" quantity="1"/>общество<space unit="chars" quantity="1"/>садоводства).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space unit="chars" quantity="3"/>
-               </seg>" <space unit="chars" quantity="8"/>" <space unit="chars" quantity="6"/>of Vienne<note xml:id="ftn18" type="footnote" n="18">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Imperial Horticultural Society of Vienna (Kaiserlich-Königliche Gartenbau Gesellschaft in Wien).</p>
-               </note>
+               <space unit="chars" quantity="3"/>" <space unit="chars" quantity="8"/>" <space unit="chars" quantity="6"/>of Vienne<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn17" n="18">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Imperial Horticultural Society of Vienna (Kaiserlich-Königliche<space unit="chars" quantity="1"/>Gartenbau Gesellschaft in Wien).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Nat. Hist. friends, Moscou<note xml:id="ftn19" type="footnote" n="19">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Society of Lovers of Natural Science, Moscow (Общество любителей естествознания).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Nat. Hist. friends, Moscou<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn18" n="19">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Society of Lovers of Natural<space unit="chars" quantity="1"/>Science, Moscow<space unit="chars" quantity="1"/>(Общество любителей естествознания).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Roy. Society, Goettingen<note xml:id="ftn20" type="footnote" n="20">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Royal Society of Sciences, Göttingen (Königliche Gesellschaft der Wissenschaften).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Roy. Society, Goettingen<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn19" n="20">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Royal Society of Sciences, Göttingen (Königliche Gesellschaft der Wissenschaften).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Roy. Society, Munich<note xml:id="ftn21" type="footnote" n="21">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Royal Bavarian Academy of Sciences, Munich (Königlich Bayerische Akademie der Wissenschaften).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Roy. Society, Munich<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn20" n="21">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Royal Bavarian Academy of Sciences, Munich<space unit="chars" quantity="1"/>(Königlich Bayerische Akademie der Wissenschaften).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Nat. Hist. Museum, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Roy. Soc. Tasmania</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Philosoph. Soc Adelaide<note xml:id="ftn22" type="footnote" n="22">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Adelaide Philosophical Society.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Philosoph. Soc Adelaide<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn21" n="22">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Adelaide Philosophical Society.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Acad. science, Berlin<note xml:id="ftn23" type="footnote" n="23">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">German Academy of Sciences, Berlin (Deutsche Akademie der Wissenschaften).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Acad. science, Berlin<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn22" n="23">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>German Academy of Sciences, Berlin<space unit="chars" quantity="1"/>(Deutsche Akademie der Wissenschaften).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space unit="chars" quantity="3"/>
-               </seg>" <space unit="chars" quantity="8"/>" <space unit="chars" quantity="7"/>Stockholm<note xml:id="ftn24" type="footnote" n="24">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Royal Swedish Academy of Sciences, Stockholm (Konigliga svenska Vetenskapskademien).</p>
-               </note>
+               <space unit="chars" quantity="3"/>" <space unit="chars" quantity="8"/>" <space unit="chars" quantity="7"/>Stockholm<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn23" n="24">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Royal Swedish Academy of Sciences, Stockholm (Konigliga svenska<space unit="chars" quantity="1"/>Vetenskapskademien).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Roy. Garden, Kew.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Philippi, Santiago</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof [Javi], Siena</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Prof Visiani, Naples<note xml:id="ftn25" type="footnote" n="25">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Roberto de Visiani was professor at Padua, not Naples.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Prof Visiani, Naples<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn24" n="25">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Roberto de Visiani was professor at Padua, not Naples.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Graells, Madrid</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof A Braun, Berlin</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Fenzl, Vienne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof A. Gray, Boston</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Roeper, Rostock</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Parlatore, Florence</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Todaro, Palermo</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Lejourdan, Marseilles</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Planchon, Montpellier</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Goeppert, Breslau</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Baillon, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Martius, Munich</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Grisebach, Goettingen</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Babington, Cambridge</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Daubeny, Oxford</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Balfour, Edinburgh</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Anderson, Calcutta</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Krauss, Stuttgart</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Prof Brogniart,<note xml:id="ftn26" type="footnote" n="26">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">i.e. Brongniart.</p>
-               </note> Paris</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Prof Brogniart,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn25" n="26">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. Brongniart.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Decaisne, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Lange, Kopenhagen</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof Miquel, Utrecht</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Prof De Candolle, Geneve</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Comte Jaubert, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Mons. Ramel, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Hance, Whampoa</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Regel, Petersburg</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Dr Thwaites, Paradenia<note xml:id="ftn27" type="footnote" n="27">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Peradeniya, Sri Lanka?</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Dr Thwaites, Paradenia<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn26" n="27">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Peradeniya, Sri Lanka?</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Sonder, Hamburg</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Kurz, Calcutta</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Hector, Wellington, NZ</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Cosson, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Bureau, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Bocquillon, Paris</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Mr Tyesman, Buitenzorg</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Pres. Linnean Society</p>
          </div>
       </body>

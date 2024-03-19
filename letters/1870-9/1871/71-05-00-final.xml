@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Dr von Mueller on the same subject]...</title>
+            <title> ¶ [Dr von Mueller on the same subject] ¶ Supply of Norfolk Island pines.At the Council meeting on 26 April 1871,the Gardens Committee'srecommendation was accepted 'That three acres of the land be plo...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Dr von Mueller on the same subject]...</title>
+               <title> ¶ [Dr von Mueller on the same subject] ¶ Supply of Norfolk Island pines.At the Council meeting on 26 April 1871,the Gardens Committee'srecommendation was accepted 'That three acres of the land be plo...</title>
                <date when="1871-05">1871-05</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,30 +85,39 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Dr von Mueller on the same subject]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Dr von Mueller on the same subject] ¶ Supply of Norfolk Island pines.At the Council meeting on 26 April 1871,the Gardens Committee'srecommendation was accepted 'That three acres of the land be plo...</supplied>
             </head>
             <p rend="number" xml:lang="en">71.05.00</p>
-            <p rend="correspondent" xml:lang="en">To Frederick Mandeville</p>
-            <p rend="location" xml:lang="en">Minute book 4, p. 81, Borough Council records, Port Fairy, Victoria.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Frederick Mandeville</p>
+            <p rend="location" xml:lang="en">Minute book 4, p. 81, Borough Council records, Port Fairy, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; "
-                     xml:lang="en">Letter not found; item is an entry in the minutes of the meeting of the Borough Council held on 26 May 1871, part of the report by the Town Clerk, Frederick Mandeville, of letters received since the last meeting. A summary of the meeting was published in <seg style="font-style: italic; ">Belfast gazette</seg>, 31 May 1871, p. 2.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[Dr von Mueller on the same subject]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">At the Council meeting on 26 April 1871, the Gardens Committee's recommendation was accepted 'That three acres of the land be ploughed up and that application be made to Geelong and Melbourne for 100 Norfolk Island Pines' (Minute book 4, p. 75; <seg style="font-style: italic; ">Belfast gazette</seg>, 3 May 1871, p. 2). The application sent to M has not been found but at the Council meeting on 26 May, It was reported that replies had been received from both Daniel Bunce, at the Geelong Botanic Garden, and M.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0.3347in; text-indent: -0.3347in; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>The minute of 26 May records that Mandeville was instructed to thank both Bunce and M [letter of thanks not found], and to make arrangements for the transit of the pines by <seg style="font-style: italic; ">Mary Stewart</seg> through Mr F. E. Beaver of Flinders Lane, Melbourne.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is an entry in the minutes of the meeting<space unit="chars" quantity="1"/>of the<space unit="chars" quantity="1"/>Port Fairy<space unit="chars" quantity="1"/>Borough Council<space unit="chars" quantity="1"/>held on 26 May 1871, part of the report by the Town Clerk, Frederick Mandeville, of letters received<space unit="chars" quantity="1"/>since the last meeting.<space unit="chars" quantity="1"/>A summary of the meeting was published in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 31 May 1871, p. 2.</p>
                </note>
+               <space dim="horizontal" extent="tab"/>[Dr von Mueller on the same subject]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Supply of Norfolk Island pines.<space unit="chars" quantity="1"/>At the Council meeting on 26 April 1871,<space unit="chars" quantity="1"/>the Gardens Committee's<space unit="chars" quantity="1"/>recommendation was accepted 'That three acres of the land be ploughed up and that application be made to Geelong and Melbourne for 100 Norfolk Island Pines'<space unit="chars" quantity="1"/>(Minute book 4, p. 75;<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 3 May 1871, p. 2).<space unit="chars" quantity="1"/>The application sent to M has not been found but at the<space unit="chars" quantity="1"/>Council<space unit="chars" quantity="1"/>meeting on 26 May,<space unit="chars" quantity="1"/>it was reported that<space unit="chars" quantity="1"/>replies<space unit="chars" quantity="1"/>had been received from<space unit="chars" quantity="1"/>both<space unit="chars" quantity="1"/>Daniel Bunce, at<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Geelong<space unit="chars" quantity="1"/>Botanic Garden, and M.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>The minute<space unit="chars" quantity="1"/>of 26 May<space unit="chars" quantity="1"/>records that<space unit="chars" quantity="1"/>Mandeville<space unit="chars" quantity="1"/>was instructed to thank both Bunce and M<space unit="chars" quantity="1"/>[letter of thanks not found], and to make arrangements for the transit<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>pines<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Mary Stewart</seg>
+                        <space unit="chars" quantity="1"/>through Mr.<space unit="chars" quantity="1"/>F. E. Beaver of Flinders Lane, Melbourne.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

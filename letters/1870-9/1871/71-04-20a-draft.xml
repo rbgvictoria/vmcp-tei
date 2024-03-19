@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>20/4/71 ¶  ¶ Raise these, dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards species) if it can be done for five pounds...</title>
+            <title>20/4/71 ¶  ¶ Raise these, ¶ Not identified.Seeds? Cuttings? ¶  ¶ dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards spe...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-04-20a.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-04-20a-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>20/4/71 ¶  ¶ Raise these, dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards species) if it can be done for five pounds...</title>
+               <title>20/4/71 ¶  ¶ Raise these, ¶ Not identified.Seeds? Cuttings? ¶  ¶ dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards spe...</title>
                <date when="1871-04-20">1871-04-20</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-04-20a.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-04-20a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -90,32 +85,43 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">20/4/71 ¶  ¶ Raise these, dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards species) if it can be done for five pounds...</supplied>
+               <supplied reason="XTF-compatibility">20/4/71 ¶  ¶ Raise these, ¶ Not identified.Seeds? Cuttings? ¶  ¶ dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards spe...</supplied>
             </head>
             <p rend="number" xml:lang="en">71.04.20a</p>
             <p rend="correspondent" xml:lang="en">To James Hector</p>
             <p rend="location" xml:lang="en">Folder 2, box 56, James Hector, correspondence received, Museum of New Zealand Te Papa Tongarewa Archives, Wellington.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">20/4/71</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Raise these, dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards species) if it can be done for five pounds Send a receipt &amp; I will remit the amount</p>
+               <space dim="horizontal" extent="tab"/>Raise these,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Not identified.<space unit="chars" quantity="1"/>Seeds? Cuttings?<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>dear Dr Hector, under bottom heat. Can you kindly send me a Moa Skeleton at least of one kind pretty complete (and named as regards species) if it can be done for five pounds Send a receipt &amp; I will remit the amount</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">your regardful</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Ferd. von Mueller.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS annotation probably by Hector: 'Ansd'. <seg style="font-weight: bold; ">get copy?</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Ferd. von Mueller.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS annotation probably by Hector: 'Ansd'; letter not found.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
