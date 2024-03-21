@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,45 +92,57 @@
             <p rend="location" xml:lang="en">S69/3306, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>There can certainly be no objection to the establishment of a second ferry on the Yarra between that of Jollimont and the City bridge, the distance of the locality now available for an additional ferry being fully one third of a mile from the other.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 11 February 1869, Edward Brandon wrote to the Commissioner of Crown Lands and Survey, J. Grant: 'Your petitioner having held a Licence from your honorable board to work a Ferry on the Upper Yarra known as (Brandons Ferry) for several years past at the bottom of the Jollimont road begs permission to establish a branch Ferry across the Yarra at the end of a new foot Path recently formed by the Corporation of the City of Melbourne passing under the railway and being a continuation of Spring Street. Your petitioner believes the above branch to his Ferry will be an increased accomodation to his customers residing in East Melbourne who visit the Botanical Gardens and who with their families avail themselves of the shade afforded by the Trees on the South side of the River'. Hodgkinson asked M on 11 February 'to state his views relative to this application' (T69/2668, unit 750, VPRS 44/P, Public Record Office, Victoria).</p>
-               </note> The spot is remarkably well fitted for the purpose, as already a group of tall willows exist there, and the natural beauty of the spot could moreover easily be improved by additional plantings. It has for recreative purposes also the advantage of being so near the City and would afford from East Melbourne the nearest way to Emerald Hill for pedestrians. I would observe, that the ground of the vagrants, who still to some extent infest the copses of the Yarra near the bridge, will be also still more cut up by the establishment of the new ferry. It would however be worthy of the consideration of the Board of Land and Works, whether the ferrying should be monopolized by a man, who already enjoys the profits of a very lucrative business, while hundreds of poor people would be glad to become leasees of a new ferry. From monopoly the public is not likely to derive that advantage, which accrues from a proper competition. I could easily select a respectable man to pay the ordinary rent &amp; make the proper provision for a new ferry, if it pleased the Board of Land &amp; Works to give me the authority to do so.</p>
+               <space dim="horizontal" extent="tab"/>There can certainly be no objection to the establishment of a second ferry on the Yarra between that of Jollimont and the City bridge, the distance of the locality now available for an additional ferry being fully one third of a mile from the other.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 11 February 1869, Edward<space unit="chars" quantity="1"/>Brandon<space unit="chars" quantity="1"/>wrote to the Commissioner of Crown Lands and Survey, J. Grant: 'Your petitioner having held a Licence from your honorable board to work a Ferry on the Upper Yarra known as (Brandons<space unit="chars" quantity="1"/>Ferry) for several years past at the bottom of the Jollimont road begs permission to establish a branch Ferry across the Yarra at the end of a new foot Path recently formed by the Corporation of the City of Melbourne passing under the railway and being a continuation of Spring Street. Your petitioner believes the above branch to his Ferry will be an increased accomodation to his customers residing in East Melbourne who visit the Botanical Gardens and who with their families avail themselves of the shade afforded by the Trees on the South side of the River'. Hodgkinson asked M on 11 February 'to state his views relative to this application' (T69/2668, unit 750, VPRS 44/P,<space unit="chars" quantity="1"/>Public Record Office, Victoria).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The spot is remarkably well fitted for the purpose, as already a group of tall willows exist there, and the natural beauty of the spot could moreover easily be improved by additional plantings. It has for recreative purposes also the advantage of being so near the City and would afford from East Melbourne the nearest way to Emerald Hill for pedestrians. I would observe, that the ground of the vagrants, who still to some extent infest the copses of the Yarra near the bridge, will be also still more cut up by the establishment of the new ferry. It would however be worthy of the consideration of the Board of Land and Works, whether the ferrying should be monopolized by a man, who already enjoys the profits of a very lucrative business, while hundreds of poor people would be glad to become leasees of a new ferry. From monopoly the public is not likely to derive that advantage, which accrues from a proper competition. I could easily select a respectable man to pay the ordinary rent &amp; make the proper provision for a new ferry, if it pleased the Board of Land &amp; Works to give me the authority to do so.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>There is moreover room for a third ferry between that of Jollimont and the Iron garden bridge, and I would respectfully suggest, that leave be given to the man in charge of the Yarra bathing house near the Iron bridge to convey passengers also across the river, and that at the renewal of the Jollimont tender provision be made for all the suggested alterations, should the present lease maintain a monopoly.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Under any circumstances I would respectfully advise the Board</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>1, that it be a condition in these ferry-leases, to exempt members and officers of the Board of Land &amp; Works and the Garden personal from ferry-charges when passing on public duty.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>2, that each ferryman may receive his lease on the condition of obeying implicitly such orders, as for public safety, decency and easy convenience may be given to these tenants by the Director of the botanic Garden on behalf of the Board. The want of control over the existing ferry has brought some annoyances about already.</p>
+               <space dim="horizontal" extent="tab"/>2, that each ferryman may receive his lease on the condition of obeying implicitly such orders, as for public safety, decency and easy convenience may be given to these tenants by the Director of the botanic Garden on behalf of the Board. The want of control over the existing ferry has brought some annoyances about already.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 27 February Hodgkinson minuted: 'that applicant be allowed to occupy on north side of river one quarter of an acre in connexion with the establishment of a branch ferry in position applied for. Fee £20 per ann, (which fee should I think be also imposed at end of current quarter with regard to the existing ferry). Dr Mueller suggests that persons connected with the Botanic Gardens the Board of Land &amp; Works and its officers should be authorized to use these ferries without charge. It has not however been the practice to impose any condition of this kind'.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>M returned to the issue of the fee paid by Brandon in M to C. Hodgkinson, 30 June 1869.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">18/2/69.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">The new footpath from Spring Street to the Yarra was formed on my solicitation by the City Council.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 27 February Hodgkinson minuted: 'that applicant be allowed to occupy on north side of river one quarter of an acre in connexion with the establishment of a branch ferry in position applied for. Fee £20 per ann, (which fee should I think be also imposed at end of current quarter with regard to the existing ferry). Dr Mueller suggests that persons connected with the Botanic Gardens the Board of Land &amp; Works and its officers should be authorized to use these ferries without charge. It has not however been the practice to impose any condition of this kind'.</p>
-               </note>
-            </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">The new footpath from Spring Street to the Yarra was formed on my solicitation by the City Council.</p>
          </div>
       </body>
    </text>

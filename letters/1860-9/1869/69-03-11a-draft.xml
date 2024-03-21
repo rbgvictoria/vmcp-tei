@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1869/69-03-11a.doc</idno>
+            <idno type="filename">data/letters/1860-9/1869/69-03-11a-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-03-11a.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-03-11a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,7 +64,9 @@
                <term>location</term>
                <term>valediction</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -97,42 +93,57 @@
             <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter and minute book, p. 30-1, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; text-align: end; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
                xml:lang="en">Melboourne botan Garden</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; text-align: end; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
                xml:lang="en">11/3/69</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor on behalf of the trustees of the Royal Park to draw your kind attention to the circumstance, that no funds are provided to maintain the Park expenditures during 1869, no vote of the Acclimation Society being available as in former years. The trustees therefore earnestly solicit that you will give your favorable consideration to the propriety of allotting a share of the vote for public parks to the ground under their control. It is scarcely needful to add that the maintenance of the extensive fences, the repair of long lines of roads, the various shade and shelter plantations of trees and copses involve a far larger outlay than the small amount of grazing fees, which can be raised, while the Acclimation Society even after reducing largely its operations, will barely be able to maintain the special area enclosed for zoological purposes in a state of order.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The Royal Park is increasingly frequented by very numerous visitors and the only near place for outdoor recreation to a considerable number of citizens and of the inhabitants of the neighbouring townships. The trustees therefore beg to express a hope that the claims of so large a portion of the metropolitan and suburban population will be kindly considered by you on the occasion of the distribution of the grant for parks.</p>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>The Royal Park is increasingly frequented by very numerous visitors and the only near place for outdoor recreation to a considerable number of citizens and of the inhabitants of the neighbouring townships. The trustees therefore beg to express a hope that the claims of so large a portion of the metropolitan and suburban population will be kindly considered by you on the occasion of the distribution of the grant for parks.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">Evidently in response to this letter, Grant and the Chief Secretary, James McCulloch, planned to visit the Royal Park 'during the Easter time', and the Trustees prepared an estimate of works needed, included with M to J. Grant, 22 March 1869.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; font-weight: bold; color: #C00000; "
+                        xml:lang="en">I can't find evidence a visit took place, it might be in minute books one way or the other</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your very obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>(signed) Ferd. von Mueller</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -140,18 +151,31 @@
                <space dim="horizontal" extent="tab"/>Hon. Sec. to the Trustees of the Royal Park</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">The honorable J.M. Grant, Minister of the Crown Land Department<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">add info from minutes of both Acclim. Assoc. and Royal Park.</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; font-weight: bold; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Any info on response?</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">The honorable J.M. Grant, Minister of the Crown Land Department</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">add info from minutes of</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">both Acclim. Assoc. and Royal Park.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                           <space dim="horizontal" extent="tab"/>Any info on response?</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

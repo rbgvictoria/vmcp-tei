@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [We are requested by Dr.  ¶ Von ¶   ¶ Mueller ¶  to state that the plants mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on Friday last, ...</title>
+            <title> ¶ [We ¶  ¶ are requested by Dr. ¶  ¶ Von ¶  ¶ Mueller ¶  ¶ to state that the plants ¶  ¶ mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [We are requested by Dr.  ¶ Von ¶   ¶ Mueller ¶  to state that the plants mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on Friday last, ...</title>
+               <title> ¶ [We ¶  ¶ are requested by Dr. ¶  ¶ Von ¶  ¶ Mueller ¶  ¶ to state that the plants ¶  ¶ mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on ...</title>
                <date when="1869-07">1869-07</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,30 +83,48 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [We are requested by Dr.  ¶ Von ¶   ¶ Mueller ¶  to state that the plants mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on Friday last, ...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [We ¶  ¶ are requested by Dr. ¶  ¶ Von ¶  ¶ Mueller ¶  ¶ to state that the plants ¶  ¶ mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on ...</supplied>
             </head>
             <p rend="number" xml:lang="en">69.07.00b</p>
-            <p rend="correspondent" xml:lang="en">To the Editor of the Argus</p>
+            <p rend="correspondent" xml:lang="en">To the<space unit="chars" quantity="1"/>Editor of the<space unit="chars" quantity="1"/>Argus</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Argus</seg>, 5 July 1869, p. 5.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 5 July 1869, p. 5.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[We are requested by Dr. <seg style="">Von</seg>
-               <seg style="">Mueller</seg> to state that the plants mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on Friday last,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Representatives of several societies and the City of Melbourne Corporation first met the Minister on Thursday 4 February 1869 to discuss a dispute about the future of the 'North Grounds' of the Botanic Garden — that is, the area north of the River Yarra that had been added to the Garden to house animals, in the period when M was responsible for the zoo. The administration of this area had now been transferred to the Friendly Societies. M was also present at this meeting (<seg style="font-style: italic; ">Argus</seg>, 5 February 1869, pp. 5-6). The meeting on 2 July 1869 that provoked M to write as reported here mainly concerned the question of trustees to be appointed to control the land; M was not present. M is responding to a statement that 'the<seg style=""> deputation</seg>, before retiring, mentioned that Dr. Mueller had removed one of the small fences inside the reserve, and that he was also taking away some of the plants, upon which Mr. Grant said he would issue instructions that nothing belonging to the reserve should be touched' (<seg style="font-style: italic; ">Argus</seg>, 3 July 1869, p. 5).</p>
-               </note> as having been taken away from the North Botanical reserve, were plants raised at the expense of the Botanic-garden, and were required for aiding in the supply of churches, schools, and cemeteries, and for other public purposes, during last autumn. With respect to the iron fence alleged to have been removed from the reserve, we are informed that it was no longer required there, as it had been merely put up at the time when animals were kept on the ground, to mark off a special enclosure for some birds, &amp;c. It was removed to complete some fencing on the southern ground, and was also the property of the Botanic-garden. The friendly societies will be able to obtain a supply of plants, like other public institutions, next autumn.] </p>
+               <space dim="horizontal" extent="tab"/>[We<space unit="chars" quantity="1"/>are requested by Dr.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">Von</seg>
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">Mueller</seg>
+               <space unit="chars" quantity="1"/>to state that the plants<space unit="chars" quantity="1"/>mentioned by the Committee of the United Friendly Societies, at their interview with the Minister of Lands on Friday last,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Representatives of several societies and the City of Melbourne Corporation first met the Minister on Thursday 4 February 1869 to discuss a dispute about the future of the 'North Grounds' of the Botanic Garden<space unit="chars" quantity="1"/>—<space unit="chars" quantity="1"/>that is,<space unit="chars" quantity="1"/>the area north of the River Yarra<space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>had been<space unit="chars" quantity="1"/>added<space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>the Garden to<space unit="chars" quantity="1"/>house animals,<space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>the period<space unit="chars" quantity="1"/>when<space unit="chars" quantity="1"/>M was responsible for the zoo.<space unit="chars" quantity="1"/>The administration of<space unit="chars" quantity="1"/>this area<space unit="chars" quantity="1"/>had<space unit="chars" quantity="1"/>now<space unit="chars" quantity="1"/>been transferred to the Friendly Societies. M was also present<space unit="chars" quantity="1"/>at this meeting<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 5 February 1869, pp.<space unit="chars" quantity="1"/>5-6). The meeting on 2 July 1869<space unit="chars" quantity="1"/>that provoked M to write as reported here<space unit="chars" quantity="1"/>mainly concerned the question of trustees to be appointed to control the land; M was not present.<space unit="chars" quantity="1"/>M is responding to<space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>statement<space unit="chars" quantity="1"/>that 'the<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>d</seg>
+                        <seg rend="DefaultParagraphFont" style="">eputation</seg>,<space unit="chars" quantity="1"/>before retiring, mentioned that Dr. Mueller had removed one of the small fences inside the reserve, and that he was also taking away some of the plants, upon which Mr. Grant said he would issue instructions that nothing belonging to the reserve should be touched'<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>,<space unit="chars" quantity="1"/>3 July 1869, p. 5).</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>No instruction to M on the removal of plants or fixtures from the North Grounds have been found.</p>
+                  </note>
+               </seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>as having been taken away from the North Botanical reserve, were plants raised at the expense of the Botanic-garden, and were required for aiding in the supply of churches, schools, and cemeteries, and for other public purposes, during last autumn. With respect to the iron fence alleged to have been removed from the reserve, we are informed that it was no longer required there, as it had been merely put up at the time when animals were kept on the ground, to mark off a special enclosure for some birds, &amp;c. It was removed to complete some fencing on the southern ground, and was also the property of the Botanic-garden. The friendly societies will be able to obtain a supply of plants, like other public institutions, next autumn.]<space unit="chars" quantity="1"/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
