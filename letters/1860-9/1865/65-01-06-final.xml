@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne bot. Garden ¶ 6/1/65 ¶  ¶ I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant, when here, informed me of ...</title>
+            <title>Melbourne bot. Garden ¶ 6/1/65 ¶  ¶ I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant, ¶ James Grant,surgeonatLau...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne bot. Garden ¶ 6/1/65 ¶  ¶ I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant, when here, informed me of ...</title>
+               <title>Melbourne bot. Garden ¶ 6/1/65 ¶  ¶ I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant, ¶ James Grant,surgeonatLau...</title>
                <date when="1865-01-06">1865-01-06</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,22 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b045e94b-d633-411a-a44d-87608a879fc0">Lysimachia vulgaris</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/cd5fc762-22ae-45a5-ab93-02f7cef0a5c0">Portulaca oleracea</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dc8cc6f3-a542-4e0f-a6f6-3092a4df5161">Potentilla</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8fa41e11-dbfa-403b-8d04-2de30ef1d543">Epilobium</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/62667ad5-c9a7-4496-9de5-e52210c66034">Oenothera</term>
-               <term>Jussiaea</term>
-               <term>Circaea</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/42192f56-fd23-4339-9be2-8be596daba5a">Lythrum</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dfe52d12-cc3f-4620-8a9b-ab8361322615">Acacia</term>
-               <term>Cassia</term>
-               <term>Gaura</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -85,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -108,155 +88,223 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 6/1/65 ¶  ¶ I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant, when here, informed me of ...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 6/1/65 ¶  ¶ I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant, ¶ James Grant,surgeonatLau...</supplied>
             </head>
             <p rend="number" xml:lang="en">65.01.06</p>
             <p rend="correspondent" xml:lang="en">To Ronald Gunn</p>
             <p rend="location" xml:lang="en">A251 Gunn papers, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot. Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">6/1/65</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant, when here, informed me of the sudden death of your beloved daughter, and now you tell me of the almost hopeless case of your deer<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">dear?</p>
-               </note> friend, whom during the brief acquaintance here I learnt to estimate. So none of us knows how soon the hour of our departure from this world may arrive.</p>
+               <space dim="horizontal" extent="tab"/>I was, my dear friend, aware of the sad bereavement, which caused you to proceed home without seeing us here in Melbourne. Poor Dr Grant,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>James Grant,<space unit="chars" quantity="1"/>surgeon<space unit="chars" quantity="1"/>at<space unit="chars" quantity="1"/>Launceston,<space unit="chars" quantity="1"/>Tas.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>when here, informed me of the sudden death of your beloved daughter, and now you tell me of the almost hopeless case of your deer<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>dear?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>friend, whom during the brief acquaintance here I learnt to estimate. So none of us knows how soon the hour of our departure from this world may arrive.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I am glad to think that my poor books pleased you. If about March you were writing to the Chief Secretary you would be doubtless supplied with the following volumes</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 0.3472in; margin-right: 0in; text-indent: -0.3472in; "
+               style="font-size: 12pt; hyphenate: false; margin-left: 0.3472in; text-indent: -0.3472in; "
                xml:lang="en">fragmenta phyt. Austr vols 2, 3, 4, the 4th vol. being in the binders hand, vol 1 is no longer obtainable</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">plants of Victoria</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>1 vol. text &amp; plates<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B62.03.03.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>1 vol. text &amp; plates<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B62.03.03.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 0.3472in; margin-right: 0in; text-indent: -0.3472in; "
+               style="font-size: 12pt; hyphenate: false; margin-left: 0.3472in; text-indent: -0.3472in; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>1 vol plates only (about 60) the latter also nearly ready for binding and to appear next month<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B65.02.06.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>1 vol plates only (about 60) the latter also nearly ready for binding and to appear next month<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B65.02.06.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am not at all surprised, that you share not my views on the circumscription of species, as more particularly enunciated in the little book on the Chathamian vegetation.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B64.10.02.</p>
-               </note> I feel that my ideas on this subject are in disharmony with those of the vast majority of living nature's philosophers; and yet I feel a calm consciousness of their truth. I contemplate as type of the meaning species man himself. A species to me is a organism, requiring special creation, never to be confounded with anything else, though often misunderstood by not due allowances being made for its power of variation, a power different in different species and often largely greater than in man or even domestic animals. To characterize a species we have to look for such distinctive marks, resting on absolute difference of internal structure as never <seg style="">
+               <space dim="horizontal" extent="tab"/>I am not at all surprised, that you share not my views on the circumscription of species, as more particularly enunciated in the little book on the Chathamian vegetation.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B64.10.02.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I feel that my ideas on this subject are in disharmony with those of the vast majority of living nature's philosophers; and yet I feel a calm consciousness of their truth. I contemplate as type of the meaning species man himself. A species to me is a organism, requiring special creation, never to be confounded with anything else, though often misunderstood by not due allowances being made for its power of variation, a power different in different species and often largely greater than in man or even domestic animals. To characterize a species we have to look for such distinctive marks, resting on absolute difference of internal structure as never<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">can</hi>
-               </seg> be over turned. On every other diagnosis, based on [moving] characters I look at once with suspicion. We see nowhere transits between real generic forms, and if we have the specific forms in each genus not rightly circumscribed and understood, it arises out of the circumstance of our not having our observations sufficiently extended over the globe. Genera nevertheless are to me nothing but an artificial complex of species of certain resemblance. Man stands by himself; he is not connected by any middleform whatsoever with other beings; and so indeed it is with every true species. Circumstances may give races may give varieties a <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>be over turned. On every other diagnosis, based on [moving]<space unit="chars" quantity="1"/>characters I look at once with suspicion. We see nowhere transits between real generic forms, and if we have the specific forms in each genus not rightly circumscribed and understood, it arises out of the circumstance of our not having our observations sufficiently extended over the globe. Genera nevertheless are to me nothing but an artificial complex of species of<space unit="chars" quantity="1"/>certain resemblance. Man stands by himself; he is not connected by any middleform whatsoever with other beings; and so indeed it is with every true species. Circumstances may give races may give varieties a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">local</hi>
-               </seg> permanence, but this will not be a lasting one <seg style="">
-                  <hi rend="underline">elsewhere </hi>
-               </seg>and will entitle never such a variety or race to specific distinction. I exhibited to you a series of Epilobia, pointing out that in N.Z. the only <name key="Epilobium">Epilobium</name> of the Southern hemisphere assumes a form, not yet met with elsewhere; but this race is even there not upheld by permanent tangible characters and hence every attempt, as Dr Hookers new handbook<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">J. Hooker (1864-7), part 1 of which was published by October 1864 (TL2).</p>
-               </note> shows, to limit its supposed specific boundary proves vain. Contrasting this <name key="Epilobium">Epilobium</name> with any other onagreous<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">onagraceous?</p>
-               </note> plant of the whole southern hemisphere what do we observe? not the remotest transit to any other plant of the order much less to any other. If, as Darwin assumes, no specific limitations exist, how is it, that we should <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>permanence, but this will not be a lasting one<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">elsewhere</hi>
+                  <space unit="chars" quantity="1"/>
+               </seg>and will entitle never such a variety or race to specific distinction. I exhibited to you a series of Epilobia, pointing out that in N.Z. the only Epilobium of the Southern hemisphere assumes a form, not yet met with elsewhere; but this race is even there not upheld by permanent tangible characters and hence every attempt, as Dr Hookers new handbook<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>J. Hooker (1864-7), part 1 of which was published by October 1864 (TL2).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>shows, to limit its supposed specific boundary proves vain. Contrasting this Epilobium with any other onagreous<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>onagraceous?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>plant of the whole southern hemisphere what do we observe? not the remotest transit to any other plant of the order much less to any other. If, as Darwin assumes, no specific limitations exist, how is it, that we should<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">not find a single</hi>
-               </seg> aberrant type of this <name key="Epilobium">Epilobium</name> in either Africa, S. Asia, Australia or S. America, evincing its transit to other plants. This is not a single instance, but so it is throughout nature. In the northern hemisphere we have certain Epilobia, the specific dominion of which remains obscure, and which are probably races aberrant in an other direction, than that of one of those New Zealand But the yellow-flowered N. American <name key="Epilobium">Epilobium</name> is probably as distinct from it, as any <name key="Gaura">Gaura</name>, <name key="Oenothera">Oenothera</name>, <name key="Circaea">Circaea</name>, <name key="Jussiaea">Jussiaea</name> or any other coordinal plant.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>aberrant type of this Epilobium in either Africa, S. Asia, Australia or S. America, evincing its transit to other plants. This is not a single instance, but so it is throughout nature. In the northern hemisphere we have certain Epilobia, the specific dominion of which remains obscure, and which are probably races aberrant in an other direction, than that of one of those New Zealand But the yellow-flowered N. American Epilobium is probably as distinct from it, as any Gaura, Oenothera, Circaea, Jussiaea or any other coordinal plant.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The obscure and enigmatic laws, which rule the distribution of the plants over the globe, we shall probably never be able to reveal. Why is it, that in all Australia, after having travelled through it in lines of about 25,000 miles extent, I never but once found <name key="Lysimachia%20vulgaris">Lysimachia vulgaris</name> and this in a swamp <seg style="">
+               <space dim="horizontal" extent="tab"/>The obscure and enigmatic laws, which rule the distribution of the plants over the globe, we shall probably never be able to reveal. Why is it, that in all Australia, after having travelled through it in lines of about 25,000 miles extent, I never but once found Lysimachia vulgaris and this in a swamp<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">close</hi>
-               </seg> to a habitation in the remote East of Gipps Land, where scarcely any traffic exists? Might not by a sheer accident this plant have sprung from an [embollage] thrown away? Or must it be considered indigenous, simply because it [is] consociated with <name key="Lythrum">Lythrum</name> and other cosmopolitan swamp plants? This is a question, which I will not venture to solve, nor that of the occurrence of <name key="Potentilla">Potentilla</name> in Australia, though I can readily imagine how that plant and many others can have been easily introduced &amp; equally easy through the agency of birds have been carried into the interior. R Brown was too long after the discovery of Australia (and New Zealand) on our shores to be placed in the position of giving an unequivocal opinion of what at the time of his stay was indigenous or not of otherwise widely dispersed plants.<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Robert Brown (1773-1858) was in Australia from 1801-1805.</p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note> Let me adduce still an other example. When I first travelled in the colony of Victoria I never saw a single plant of <name key="Portulaca%20oleracea">Portulaca oleracea</name> any where, a plant that is not readily overlooked; during the latter years, probably from the accidental dispersion of some seeds it has spread so extensively as to have become a plague in much garden land and to be quite frequent in the streets of Melbourne. Had this spreading taken place at the early time of the settlement of Victoria, I should have entertained as little doubt about the Portulaca being indigenous here, as I felt when seeing it on every street gutter and around every house in Rio de Janeiro.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>to a habitation in the remote East of Gipps Land, where scarcely any traffic exists? Might not by a sheer accident this plant have sprung from an [embollage] thrown away? Or must it be considered indigenous, simply because it [is] consociated with Lythrum and other cosmopolitan swamp plants? This is a question, which I will not venture to solve, nor that of the occurrence of Potentilla in Australia, though I can readily imagine how that plant and many others can have been easily introduced &amp; equally easy through the agency of birds have been carried into the interior. R Brown was too long after the discovery of Australia (and New Zealand) on our shores to be placed in the position of giving an unequivocal opinion of what at the time of his stay was indigenous or not of otherwise widely dispersed plants.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Robert Brown (1773-1858)<space unit="chars" quantity="1"/>was in Australia from<space unit="chars" quantity="1"/>1801-1805.</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Let me adduce still an other example. When I first travelled in the colony of Victoria I never saw a single plant of Portulaca oleracea any where, a plant that is not readily overlooked; during the latter years, probably<space unit="chars" quantity="1"/>from the accidental dispersion of some seeds it has spread so extensively as to have become a plague in much garden land and to be quite frequent in the streets of Melbourne. Had this spreading taken place at the early time of the settlement of Victoria, I should have entertained as little doubt about the Portulaca being indigenous here, as I felt when seeing it on every street gutter and around every house in Rio de Janeiro.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>You will ask what is to be done in arranging and naming plants, about the specific value of which from imperfect evidence we remain doubtful. I answer that we should, like in the instance of the <name key="Epilobium">Epilobium</name> admit the species, which shows <seg style="">
+               <space dim="horizontal" extent="tab"/>You will ask what is to be done in arranging and naming plants, about the specific value of which from imperfect evidence we remain doubtful. I answer that we should, like in the instance of the Epilobium admit the species, which shows<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">unalterable</hi>
-               </seg> structural differences, unalterable because they arise from distinct internal organisation. <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>structural differences, unalterable because they arise from distinct internal organisation.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Under such</hi>
-               </seg> a species, which we can all recognize, we should arrange as doubtful what so far approaches to it as to render its transit (even according to circumstantial evidence) possible, leaving it to a future time to confirm or alter the view adopted; but in no instance should we without positive marks of the utmost importance raise them to specific rank. Were this rule obeyed, we would free the descriptive history of plants &amp; animals of an oppressive incubus. I have acted on this principle in the second vol. of my plants of Victoria, when dealing with certain real &amp; supposed species of <name key="Cassia">Cassia</name> and <name key="Acacia">Acacia</name>.<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Only the first 5 sheets (40 pages) of the second volume of the proposed <seg style="font-style: italic; ">Plants indigenous to the colony of Victoria, </seg>
-                     <seg style="">were printed and some at least distributed, as there is a set at Kew that Bentham cited in Bentham (1863-78), vol 2, when describing </seg>
-                     <seg style="font-style: italic; ">
-                        <name key="Acacia">Acacia</name>
-                     </seg>
-                     <seg style="">. (see B63.13.06).</seg>
-                  </p>
-               </note> But it will be impossible to argue this question, if we hold different views on the origin of species; we might just as well expect an allopathic and homaeopathic physician to agree on the treatment of diseases. In the event of you possessing a spare copy of the philosophical journal of Tasmania, edited by you many years since, I should be grateful for it, as it is one of the very few works bearing on the vegetation of Australia, of which my library is devoid.<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">There is no set of the <seg style="font-style: italic; ">Tasmanian journal of natural science</seg> at MEL.</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>a species, which we can all recognize, we should arrange as doubtful what so far approaches to it as to render its transit (even according to circumstantial evidence) possible, leaving it to a future time to confirm or alter the view adopted; but in no instance should we without positive marks of the utmost importance raise them to specific rank. Were this rule obeyed, we would free the descriptive history of plants &amp; animals of an oppressive incubus. I have acted on this principle in the second vol. of my plants of Victoria, when dealing with certain real &amp; supposed species of Cassia and Acacia.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Only the first 5 sheets (40 pages) of the second volume of the proposed<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Plants indigenous to the colony of Victori</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">a,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">were printed and some at least distributed</seg>
+                        <seg rend="DefaultParagraphFont" style="">,</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>as there is a set at Kew<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">that</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>Bentham cited in Bentham (1863-78), vol<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">2, when describing<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Acacia</seg>
+                        <seg rend="DefaultParagraphFont" style="">. (see B63.13.06).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>But it will be impossible to argue this question, if we hold different views on the origin of species; we might just as well expect an allopathic and homaeopathic physician to agree on the treatment of diseases. In the event of you possessing a spare copy of the philosophical journal of Tasmania, edited by you many years since, I should be grateful for it, as it is one of the very few works bearing on the vegetation of Australia, of which my library is devoid.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>There is no set of the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Tasmanian journal of natural science</seg>
+                        <space unit="chars" quantity="1"/>at MEL.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Trusting, dear Mr Gunn, that you will enjoy health &amp; consolation I remain your regardful</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia">Acacia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cassia">Cassia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Circaea">Circaea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Epilobium">Epilobium</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Gaura">Gaura</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Jussiaea">Jussiaea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Lysimachia%20vulgaris">Lysimachia vulgaris</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Lythrum">Lythrum</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Oenothera">Oenothera</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Portulaca%20oleracea">Portulaca oleracea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Potentilla">Potentilla</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cassia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Circaea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Epilobium</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Gaura</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Jussiaea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lysimachia vulgaris</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lythrum</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Oenothera</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Portulaca oleracea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Potentilla</p>
          </div>
       </body>
    </text>
