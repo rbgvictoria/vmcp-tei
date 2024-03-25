@@ -61,12 +61,12 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>FootnoteReference</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>valediction</term>
                <term>DefaultParagraphFont</term>
+               <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,19 +89,12 @@
                <supplied reason="XTF-compatibility">Melbourne bot. Garden, ¶ 3/6/69 ¶ Sir ¶  ¶ It having been finally decided by yourself, that the northern ground of the botanic Garden should be alienated from this establishment and be transferred to ...</supplied>
             </head>
             <p rend="number" xml:lang="en">69.06.03</p>
-            <p rend="correspondent" xml:lang="en">To James Grant<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="correspondent" xml:lang="en">To James Grant</p>
             <p rend="location" xml:lang="en">S69/10697, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>See also M to J. Grant, 12 February 1869.</p>
-               </note>Melbourne bot. Garden,</p>
+               xml:lang="en">Melbourne bot. Garden,</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">3/6/69</p>
@@ -111,7 +104,17 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It having been finally decided by yourself, that the northern ground of the botanic Garden should be alienated from this establishment and be transferred to the trust and expenditure of charitable Societies, I have the honor now to draw your attention to the circumstance, that no longer any necessity exists of maintaining Ranger Smith there on wages paid by this department.</p>
+               <space dim="horizontal" extent="tab"/>It having been finally decided by yourself, that the northern ground of the botanic Garden should be alienated from this establishment and be transferred to the trust and expenditure of charitable Societies, I have the honor now to draw your attention to the circumstance, that no longer any necessity exists of maintaining Ranger Smith there on wages paid by this department.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #1735FF; ">The request to remove Smith from the Botanic Garden was previously made in M</seg>
+                        <space unit="chars" quantity="1"/>to J. Grant, 12 February 1869.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
@@ -137,21 +140,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">M's request was not acceded to.<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">M described him as 'the man I can best of all dispense with' in<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">M to J. McCulloch, 23 April 1870 (in this edition as 70-04-23c</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">) and included him as discharged in the list of employees (M. to J. McCulloch, 11 May 1870, in this edition as 70-05-11f). Smith appealed (W. Smith to J. McCulloch, 9 May 1870, in this edition as M70-05-09), and was reinstated</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">
-                           <space unit="chars" quantity="1"/>(</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">W. Odgers to M</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">, 26 May 1870</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">,</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">
-                           <space unit="chars" quantity="1"/>in this edition as 70-05-26a).</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>M's request was not acceded to. M described<space unit="chars" quantity="1"/>Smith<space unit="chars" quantity="1"/>as 'the man I can best of all dispense with' in M to J. McCulloch, 23 April 1870 (in this edition as 70-04-23c) and included him as discharged in the list of employees (M. to J. McCulloch, 11 May 1870<space unit="chars" quantity="1"/>(in this edition as 70-05-11f)). Smith appealed (W. Smith to J. McCulloch, 9 May 1870<space unit="chars" quantity="1"/>(in this edition as M70-05-09)) and was reinstated<space unit="chars" quantity="1"/>(W. Odgers to M, 26 May 1870<space unit="chars" quantity="1"/>(in this edition as 70-05-26a)).</p>
                   </note>
                </seg>
             </p>

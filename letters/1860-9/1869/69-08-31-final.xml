@@ -65,6 +65,7 @@
                <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -99,7 +100,15 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>M to J. Grant, 5 April 1869<space unit="chars" quantity="1"/>indicates that the 'plants' were part of Sonder's<space unit="chars" quantity="1"/>herbarium.</p>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>M to J. Grant, 5 April 1869</seg>
+                     <seg rend="DefaultParagraphFont" style="">,</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>indicates that the 'plants' were part of Sonder's<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">herbarium</seg>
+                     <seg rend="DefaultParagraphFont" style="">.</seg>
+                  </p>
                </note>Melbourne bot. Garden</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
@@ -131,7 +140,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Grant initialled M's letter. On 6 September 1869 the Assistant Commissioner for Crown Lands and Survey, C. Hodgkinson, forwarded M's letter to the Under Treasurer, E. Symonds: 'together with a special authority for the Purchase of the Draft in question'. Symonds replied on 13 September: 'The remittance has been made as desired'. M was informed of this action on 14 September and he replied on 17 September: 'Returned with best thanks'.</p>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Grant initialled M's letter. On 6 September 1869 the Assistant Commissioner for Crown Lands and Survey, C. Hodgkinson, forwarded M's letter to the Under Treasurer, E. Symonds: 'together with a special authority for the Purchase of the Draft in question'. Symonds replied on 13 September: 'The remittance has been made as desired'. M was informed of this action on 14 September and he replied on 17 September: 'Returned with best thanks'.</seg>
+                     </p>
                   </note>
                </seg>
             </p>

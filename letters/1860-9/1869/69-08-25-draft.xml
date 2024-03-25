@@ -66,8 +66,8 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -111,9 +111,7 @@
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #1120FF; ">Instructions not found.</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>Instructions not found.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>I have the honor of submitting to you a return of the amounts, which became due in the bot. Garden exclusive of Salaries and Wages from 1 Jan. til 31 July 1868, and for which during that period accounts were passed to the treasury.</p>
@@ -173,7 +171,10 @@
                                  <seg rend="DefaultParagraphFont" style="color: #C00000; ">a</seg>
                                  <seg rend="DefaultParagraphFont" style="color: #C00000; ">te column/</seg>
                                  <seg rend="DefaultParagraphFont" style="color: #C00000; ">
-                                    <space unit="chars" quantity="1"/>And also the extent of the horizontal rules wher totals and subtotals aare.</seg>
+                                    <space unit="chars" quantity="1"/>And also the extent of the horizontal rules wher</seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">e</seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                                    <space unit="chars" quantity="1"/>totals and subtotals are.</seg>
                               </p>
                            </note>
                         </seg>
@@ -920,8 +921,14 @@
                                  <seg rend="DefaultParagraphFont" style="">
                                     <space dim="horizontal" extent="tab"/>
                                  </seg>
-                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">Check arithmetic/transcription. This subtotal should be £24/15/2 of transcriptions are correct</seg>
-                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">, but since the same subtotal is carried down to the food and forage section in the totals it looks kike an error in the MS.</seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">Check arithmetic/transcription. This subtotal should be £24/15/2<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">i</seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">f transcriptions are correct</seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">, but since the same subtotal is carried down to the food and forage section in the totals it looks<space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">l</seg>
+                                 <seg rend="DefaultParagraphFont" style="color: #C00000; ">ike an error in the MS.</seg>
                               </p>
                            </note>
                         </seg>
