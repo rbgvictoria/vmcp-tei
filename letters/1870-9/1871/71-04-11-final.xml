@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Recommg ¶ Recommending. ¶  ¶ that a holiday be granted to employé's in Gardens on 8 hours Anniversary] ¶ This letter wasreturnedto Mon18 April 1871 minuted: 'no objection but no pay for the day'.'...</title>
+            <title> ¶ [Recommg ¶ Recommending. ¶  ¶ that ¶  ¶ a holiday be granted to employés in Gardens on 8 hours Anniversary] ¶ His letter wasreturnedto Mon18 April 1871 minuted: 'no objection but no pay for the day...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-04-11-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-04-11-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Recommg ¶ Recommending. ¶  ¶ that a holiday be granted to employé's in Gardens on 8 hours Anniversary] ¶ This letter wasreturnedto Mon18 April 1871 minuted: 'no objection but no pay for the day'.'...</title>
+               <title> ¶ [Recommg ¶ Recommending. ¶  ¶ that ¶  ¶ a holiday be granted to employés in Gardens on 8 hours Anniversary] ¶ His letter wasreturnedto Mon18 April 1871 minuted: 'no objection but no pay for the day...</title>
                <date when="1871-04-11">1871-04-11</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-04-11-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-04-11-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -85,7 +85,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Recommg ¶ Recommending. ¶  ¶ that a holiday be granted to employé's in Gardens on 8 hours Anniversary] ¶ This letter wasreturnedto Mon18 April 1871 minuted: 'no objection but no pay for the day'.'...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Recommg ¶ Recommending. ¶  ¶ that ¶  ¶ a holiday be granted to employés in Gardens on 8 hours Anniversary] ¶ His letter wasreturnedto Mon18 April 1871 minuted: 'no objection but no pay for the day...</supplied>
             </head>
             <p rend="number" xml:lang="en">71.04.11</p>
             <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>James McCulloch</p>
@@ -109,12 +109,17 @@
                         <space dim="horizontal" extent="tab"/>Recommending.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>that a holiday be granted to employé's in Gardens on 8 hours Anniversary]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               <space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>a holiday be granted to employés in Gardens on 8 hours Anniversary]<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>This letter was<space unit="chars" quantity="1"/>returned<space unit="chars" quantity="1"/>to M<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>18 April 1871 minuted: 'no objection but no pay for the day'.<space unit="chars" quantity="1"/>'The sixteenth anniversary of the establishment of the eight hours system in Victoria was celebrated yesterday [Monday, 22 April] by a procession of the trades through the city, and sports at the friendly Societies' grounds. The procession, when it got into Collins street, was fully a quarter of a mile long, and the numbers were estimated at from 1,800 to 2,000. In front was the banner with the words "Eight Hours' Labour, Eight Hours' Recreation, Eight Hours' Rest." '(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 23 April 1872. P. 7).<space unit="chars" quantity="1"/>The building trades had agreed an 8-hour working day on 21 April 1856.<space unit="chars" quantity="1"/>Some trades had negotiated the one-day holiday, without loss of pay, but it was not a<space unit="chars" quantity="1"/>statutory<space unit="chars" quantity="1"/>public holiday.</p>
+                        <space dim="horizontal" extent="tab"/>His letter was<space unit="chars" quantity="1"/>returned<space unit="chars" quantity="1"/>to M<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>18 April 1871 minuted: 'no objection but no pay for the day'.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>'The sixteenth anniversary of the establishment of the eight hours system in Victoria was celebrated yesterday [Monday, 22 April] by a procession of the trades through the city, and sports at the friendly Societies' grounds. The procession, when it got into Collins street, was fully a quarter of a mile long, and the numbers were estimated at from 1,800 to 2,000. In front was the banner with the words "Eight Hours' Labour, Eight Hours' Recreation, Eight Hours' Rest." '(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 23 April 1872. P. 7).<space unit="chars" quantity="1"/>The building trades had agreed an 8-hour working day on 21 April 1856.<space unit="chars" quantity="1"/>Some trades had negotiated the one-day holiday<space unit="chars" quantity="1"/>without loss of pay, but it was not a<space unit="chars" quantity="1"/>statutory<space unit="chars" quantity="1"/>public holiday.</p>
                   </note>
                </seg>
             </p>

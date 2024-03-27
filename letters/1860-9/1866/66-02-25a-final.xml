@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1866/66-02-25a-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1866/66-02-25a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-02-25a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-02-25a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,20 +53,20 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>valediction</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
-               <term>valediction</term>
                <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
@@ -89,24 +89,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 25/2/66 ¶ Sir ¶  ¶ I have the honor to avail myself of the opportunity, at which the details of the expenditure for the services of the employees of the botanic Garden are brou...</supplied>
             </head>
-            <p rend="number" xml:lang="en">66.02.25a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">66.02.25a</p>
             <p rend="correspondent" xml:lang="en">To James McCulloch</p>
             <p rend="location" xml:lang="en">O66/2150, unit 180, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont" style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">footnotes to proof.</seg>
-                  </p>
-               </note>Melbourne bot. Garden</p>
+               xml:lang="en">Melbourne bot. Garden</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">25/2/66</p>
@@ -120,7 +109,11 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>During an occasional absense of the Director on journeys or otherwise the surveillance of the establishment can be well provided for without the appointment of a salaried permanent assistant. I have the honor to be, Sir, your most obedient and humble servant</p>
+               <space dim="horizontal" extent="tab"/>During an occasional absense of the Director on journeys or otherwise the surveillance of the establishment can be well provided for without the appointment of a salaried permanent assistant.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I have the honor to be, Sir, your most obedient and humble servant</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. Mueller.</p>
@@ -131,12 +124,33 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">&amp;c <space unit="chars" quantity="4"/>&amp;c <space unit="chars" quantity="4"/>&amp;c<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <seg rend="DefaultParagraphFont" style="">
-                           <space dim="horizontal" extent="tab"/>McCulloch responded: 'I am much pleased to learn that the Director of the Botanical Gardens has resolved on reducing the expenditure connected with the Botanical Gardens and I assure Dr Mueller that I shall most willingly meet his wishes in economising the expenditure. Wilhelmi has been so long a servant of the Government and is placed under the operation of the Civil Service Act — it will be necessary to compensate him if his services are dispensed with and as the object that Dr Mueller has in view can be met by the dismissal of Heyne which can be done without any compensation if that course will be taken. There appears to be little difference between the salaries of the two servants. Dr Mueller will therefore have the goodness to give notice to Heyne that his services will no longer be required. I will thank Dr Mueller to say whether the number of men cannot be considerably reduced and I may say that I think the wages are too high.' M replied on 1 March 1866: 'The hon. the Chief Secretary being evidently very imperfectly informed of the value to be attached to Mr Heyne's as compared to Mr Wilhelmi's service, I beg leave to point out respectfully, that not only Mr Heyne's educational and professional knowledge far exceeds that of Mr Wilhelmi, but also that his services are at an average for<space unit="chars" quantity="1"/>
+                           <space dim="horizontal" extent="tab"/>McCulloch responded: 'I am much pleased to learn that the Director of the Botanical Gardens has resolved on reducing the expenditure connected with the Botanical Gardens and I assure Dr Mueller that I shall most willingly meet his wishes in economising the expenditure.<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">|<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Wilhelmi has been so long a servant of the Government and is placed under the operation of the Civil Service Act — it will be necessary to compensate him if his services are dispensed with and as the object that Dr Mueller has in view can be met by the dismissal of Heyne which can be done without any compensation if that course will be taken. There appears to be little difference between the salaries of the two servants. Dr Mueller will therefore have the goodness to give notice to Heyne that his services will no longer be required.<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">|<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">I will thank Dr Mueller to say whether the number of men cannot be considerably reduced and I may say that I</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>think the wages are too high.'</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">M replied on 1 March 1866: 'The hon. the Chief Secretary being evidently very imperfectly informed of the value to be attached to Mr Heyne's as compared to Mr Wilhelmi's service, I beg leave to point out respectfully, that not only Mr Heyne's educational and professional knowledge far exceeds that of Mr Wilhelmi, but also that his services are at an average for<space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="">
                            <hi rend="underline">four hours</hi>
@@ -150,28 +164,36 @@
                         <seg rend="DefaultParagraphFont" style="">
                            <space unit="chars" quantity="1"/>of that of Mr Wilhelmi. If the latter had to take the former's place, a measure which for many reasons would prove impracticable and very disadvantageous, an additional sum would have to be paid for extra assistant labor at the office. Mr Wilhelmi's services are comparatively of no value to the department except for manual work at the museum and this could be carried out at a much smaller rate of remuneration. I further have the honor to point out, that Mr Heyne has been in a superior position in the horticultural branch of the establishment<space unit="chars" quantity="1"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">eversince</seg>
+                        <seg rend="DefaultParagraphFont" style="">ever</seg>
                         <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>1857, which Mr Wilhelmi acceded to an assistant position without my having had an opportunity to give an opinion on the creation of such, only one year before, his engagement from 1853-1856 having been temporary, interrupted and very subordinate. The compensation for the discontinuance of Mr Wilhelmi's office, I would beg leave to point out, might be saved by transferring his services to any other Department, for which his labours might prove valuable. To dispense with the services of Mr Heyne, who supports an aged mother, the Lady<space unit="chars" quantity="1"/>
+                           <space unit="chars" quantity="1"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">of of</seg>
+                        <seg rend="DefaultParagraphFont" style="">since</seg>
                         <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>a physician, would be an act of much greater severity, than discontinuing the services of Mr Wilhelmi, the latter being entitled to a compensation, the former not. From my letter attached to my return of the employees, to which I beg to draw most respectfully the special attention of the honor. the Chief Secretary, the reasons will be apparent, why the number of the employees cannot be reduced without crippling same branch of the department. The only saving, which without serious injury to the establishment, could be effected, is that of the salary of the present assistant in the botanical branch. If the honorable the Chief Secretary desires it, the daily wages shall be reduced by from 6d to 1/1 though the rate of payment is<space unit="chars" quantity="1"/>
+                           <space unit="chars" quantity="1"/>1857, which Mr Wilhelmi acceded to an assistant position without my having had an opportunity to give an opinion on the creation of such, only one year before, his engagement from 1853-1856 having been temporary, interrupted and very subordinate. The compensation for the discontinuance of Mr Wilhelmi's office, I would beg leave to point out, might be saved by transferring his services to any other Department, for which his labours might prove valuable. To dispense with the services of Mr Heyne, who supports an aged mother, the<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">Lady of a</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>physician, would be an act of much greater severity, than discontinuing the services of Mr Wilhelmi, the latter being entitled to a compensation, the former not. From my letter attached to my return of the employees, to which I beg to draw most respectfully the special attention of the honor. the Chief Secretary, the reasons will be apparent, why the number of the employees cannot be reduced without crippling same branch of the department. The only saving, which without serious injury to the establishment, could be effected, is that of the salary of the present assistant in the botanical branch. If the honorable the Chief Secretary desires it, the daily wages shall be red</seg>
+                        <seg rend="DefaultParagraphFont" style="">uced by from 6d to 1/,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">though the rate of payment is<space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="">
                            <hi rend="underline">lower</hi>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>than in most other departments of Government, at least if it is considered that no provision is made for ordinary illness, that to the system of eight hours work is not adhered, that for extra night duty and other work in extra hours no additional remuneration is offered and that only four holidays are kept.' McCulloch added on 2 March: 'I am of opinion that the<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">servies</seg>
+                           <space unit="chars" quantity="1"/>than in most other departments of Government, at least if it is considered</seg>
+                        <seg rend="DefaultParagraphFont" style="">,</seg>
                         <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>of both may be<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">despensed</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>with without [...] to the department'.</seg>
+                           <space unit="chars" quantity="1"/>that no provision is made for ordinary illness, that to the system of eight hours work is not adhered, that for extra night duty and other work in extra hours no additional remuneration is offered and tha</seg>
+                        <seg rend="DefaultParagraphFont" style="">t only four holidays are kept.'</seg>
                      </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>McCulloch added on 2 March: 'I am of opinion that the<space unit="chars" quantity="1"/>services<space unit="chars" quantity="1"/>of both may be<space unit="chars" quantity="1"/>dispensed<space unit="chars" quantity="1"/>with without [...] to the department'.</p>
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -181,7 +203,7 @@
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>
-                        <space dim="horizontal" extent="tab"/>See also M to J.<space unit="chars" quantity="1"/>Mccuylloch, 7 March 1866.</p>
+                        <space dim="horizontal" extent="tab"/>See also M to J.<space unit="chars" quantity="1"/>McCulloch, 7 March 1866.</p>
                   </note>
                </seg>
             </p>

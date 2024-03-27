@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sir, ¶  ¶ In reply to your letter of the 17th inst. ¶ Permission to use the Gardens was requested inW. Paton to M,17 February 1871. ¶  ¶ I have the honor to inform you, that the Hon. the Chief Secreta...</title>
+            <title>Sir, ¶  ¶ In reply to your letter of the 17th inst. ¶ Permission to use the Gardenwas requested inW. Paton to M,17 February 1871. ¶  ¶ I have the honor to inform you, that the Hon. the Chief Secretary...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-02-23a-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-02-23a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Sir, ¶  ¶ In reply to your letter of the 17th inst. ¶ Permission to use the Gardens was requested inW. Paton to M,17 February 1871. ¶  ¶ I have the honor to inform you, that the Hon. the Chief Secreta...</title>
+               <title>Sir, ¶  ¶ In reply to your letter of the 17th inst. ¶ Permission to use the Gardenwas requested inW. Paton to M,17 February 1871. ¶  ¶ I have the honor to inform you, that the Hon. the Chief Secretary...</title>
                <date when="1871-02-23">1871-02-23</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-02-23a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-02-23a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,19 +53,18 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -86,10 +85,9 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Sir, ¶  ¶ In reply to your letter of the 17th inst. ¶ Permission to use the Gardens was requested inW. Paton to M,17 February 1871. ¶  ¶ I have the honor to inform you, that the Hon. the Chief Secreta...</supplied>
+               <supplied reason="XTF-compatibility">Sir, ¶  ¶ In reply to your letter of the 17th inst. ¶ Permission to use the Gardenwas requested inW. Paton to M,17 February 1871. ¶  ¶ I have the honor to inform you, that the Hon. the Chief Secretary...</supplied>
             </head>
-            <p rend="number" xml:lang="en">71.02.23a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">71.02.23a</p>
             <p rend="correspondent" xml:lang="en">To William Paton</p>
             <p rend="location" xml:lang="en">MS 12521 Victorian Horticultural Society, box 3401, p. 446, Australian Manuscripts Collection, La Trobe Library, Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -101,31 +99,21 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Letter not found. Text taken from copy in minute book, p. 445.<space unit="chars" quantity="1"/>The letter was received by the Society on 24 February 1871; it<space unit="chars" quantity="1"/>was probably sent the previous day<seg rend="DefaultParagraphFont" style="color: #142AFF; ">
-                        <space unit="chars" quantity="1"/>
-                     </seg>and is dated accordingly.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. Text taken from<space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>copy in<space unit="chars" quantity="1"/>the Society's<space unit="chars" quantity="1"/>minute book, p. 445.<space unit="chars" quantity="1"/>The letter was received by the Society on 24 February 1871; it<space unit="chars" quantity="1"/>was probably sent the previous day<space unit="chars" quantity="1"/>and is dated accordingly.</p>
                </note>Sir,</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In reply to your letter of the 17th inst.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Permission to use the Gardens was requested in<space unit="chars" quantity="1"/>W. Paton to M,<space unit="chars" quantity="1"/>17 February 1871.</p>
+                        <space dim="horizontal" extent="tab"/>Permission to use the Garden<space unit="chars" quantity="1"/>was requested in<space unit="chars" quantity="1"/>W. Paton to M,<space unit="chars" quantity="1"/>17 February 1871.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>I have the honor to inform you, that the Hon. the Chief Secretary, on my recommendation, has approved of the application of the Vict. Hort. Improv. Socy,<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -133,14 +121,14 @@
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>to hold a horticultural Exhibition in the Botanic Garden on the 18th March 1871 this concession being granted on an understanding that the restrictions adopted on form<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn4" n="5">
+                  <note type="footnote" xml:id="_ftn3" n="4">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>former?</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>so similar occasions will be in force. In reference to these and other details I should be glad to make arrangement with you at my office.</p>
+               <space unit="chars" quantity="1"/>so similar occasions will be in force. In reference to these and other details I should be glad to make arrangements<space unit="chars" quantity="1"/>with you at my office.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have &amp;c</p>

@@ -65,7 +65,6 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -109,16 +108,22 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #1735FF; ">The request to remove Smith from the Botanic Garden was previously made in M</seg>
-                        <space unit="chars" quantity="1"/>to J. Grant, 12 February 1869.</p>
+                        <space dim="horizontal" extent="tab"/>The request to remove Smith from the Botanic Garden was previously made in M to<space unit="chars" quantity="1"/>J. Grant, 12 February 1869.</p>
                   </note>
                </seg>
             </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>May I therefore request your favorable consideration to the proposition, that his appointment in connection with the botanic Garden be cancelled, more especially as I am anxious to avail myself of the wages thus to be saved for obtaining other labor for this garden, where indeed the means at my command are utterly inadequate for the requirements and work of the season.</p>
+               <space dim="horizontal" extent="tab"/>May I therefore request your favorable consideration to the proposition, that his appointment in connection with the botanic Garden be cancelled, more especially as I am anxious to avail myself of the wages thus to be saved for obtaining other labor for this garden, where indeed the means at my command are utterly inadequate for the requirements and work of the season.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M's request was not acceded to. M described Smith as 'the man I can best of all dispense with' in M to J. McCulloch, 23 April 1870 (in this edition as 70-04-23c) and included him as discharged in the list of employees (M. to J. McCulloch, 11 May 1870 (in this edition as 70-05-11f)). Smith appealed (W. Smith to J. McCulloch, 9 May 1870 (in this edition as M70-05-09)) and was reinstated (W. Odgers to M, 26 May 1870 (in this edition as 70-05-26a)).</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
@@ -135,15 +140,7 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">The honorable the President of the Board of Land &amp; Works<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>M's request was not acceded to. M described<space unit="chars" quantity="1"/>Smith<space unit="chars" quantity="1"/>as 'the man I can best of all dispense with' in M to J. McCulloch, 23 April 1870 (in this edition as 70-04-23c) and included him as discharged in the list of employees (M. to J. McCulloch, 11 May 1870<space unit="chars" quantity="1"/>(in this edition as 70-05-11f)). Smith appealed (W. Smith to J. McCulloch, 9 May 1870<space unit="chars" quantity="1"/>(in this edition as M70-05-09)) and was reinstated<space unit="chars" quantity="1"/>(W. Odgers to M, 26 May 1870<space unit="chars" quantity="1"/>(in this edition as 70-05-26a)).</p>
-                  </note>
-               </seg>
-            </p>
+               xml:lang="en">The honorable the President of the Board of Land &amp; Works</p>
          </div>
       </body>
    </text>

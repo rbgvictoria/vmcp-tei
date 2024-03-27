@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Requisition for printing 250 envelopes] ¶ Therequisition was forwarded to the Government Printer's office, 24 April 1871....</title>
+            <title> ¶ [Requisition for printing 250 envelopes] ¶ Therequisition was forwarded tothe Government Printer's office on24 April 1871....</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-04-18-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-04-18-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Requisition for printing 250 envelopes] ¶ Therequisition was forwarded to the Government Printer's office, 24 April 1871....</title>
+               <title> ¶ [Requisition for printing 250 envelopes] ¶ Therequisition was forwarded tothe Government Printer's office on24 April 1871....</title>
                <date when="1871-04-18">1871-04-18</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-04-18-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-04-18-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -84,7 +84,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Requisition for printing 250 envelopes] ¶ Therequisition was forwarded to the Government Printer's office, 24 April 1871....</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Requisition for printing 250 envelopes] ¶ Therequisition was forwarded tothe Government Printer's office on24 April 1871....</supplied>
             </head>
             <p rend="number" xml:lang="en">71.04.18</p>
             <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>James McCulloch</p>
@@ -105,7 +105,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>requisition was forwarded to the Government Printer's office, 24 April 1871.</p>
+                        <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>requisition was forwarded to<space unit="chars" quantity="1"/>the Government Printer's office on<space unit="chars" quantity="1"/>24 April 1871.</p>
                   </note>
                </seg>
             </p>

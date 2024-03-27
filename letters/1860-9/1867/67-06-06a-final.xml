@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1867/67-06-06a-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1867/67-06-06a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-06-06a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-06-06a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -61,7 +61,6 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>DefaultParagraphFont</term>
                <term>correspondent</term>
                <term>location</term>
                <term>FootnoteReference</term>
@@ -89,8 +88,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Botanic Gardens ¶ June 6th 1867 ¶ Sir ¶  ¶ I have the honor to solicit that you will be pleased to sanction the expenditure of the undermentioned sums, available out of the Votes for the current year ...</supplied>
             </head>
-            <p rend="number" xml:lang="en">67.06.06<seg rend="DefaultParagraphFont">a</seg>
-            </p>
+            <p rend="number" xml:lang="en">67.06.06a</p>
             <p rend="correspondent" xml:lang="en">To James Grant</p>
             <p rend="location" xml:lang="en">O67/7029, unit 750, VPRS 44 inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -130,7 +128,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">50.0.0</p>
+                        xml:lang="en">50.0.0.</p>
                   </cell>
                </row>
                <row>
@@ -160,7 +158,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">80.0.0</p>
+                        xml:lang="en">80.0.0.</p>
                   </cell>
                </row>
             </table>
@@ -193,8 +191,7 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">The honorable the President of the Board of Land<space unit="chars" quantity="1"/>
-               <space dim="horizontal" extent="tab"/>&amp; Works<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               xml:lang="en">The honorable the President of the Board of Land &amp; Works<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "

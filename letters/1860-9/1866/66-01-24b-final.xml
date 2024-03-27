@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1866/66-01-24b-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1866/66-01-24b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-01-24b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-01-24b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,20 +53,19 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
-               <term>HTMLCite</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -89,8 +88,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 24/1/66 ¶ To the honorable the President of the Board for Land &amp; Works &amp;c &amp;c ¶ Sir ¶  ¶ I have the honor to transmit to you a copy of regulations framed for the preservation of...</supplied>
             </head>
-            <p rend="number" xml:lang="en">66.01.24b<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">66.01.24b</p>
             <p rend="correspondent" xml:lang="en">To James Grant</p>
             <p rend="location" xml:lang="en">N66/825, unit 18, VPRS 242 crown reserves correspondence files, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -102,55 +100,7 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>For a copy of this letter see A345 Royal Park Zoological Society letter and minute book, p. 21-3, Mitchell Library, Sydney.</p>
-                  <p rend="FootnoteText"
-                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont"
-                          style="font-weight: bold; background-color: #FFFF00; ">do we add the Regulations as set out in the letter in the R. P. Zoo. Soc?</seg>
-                  </p>
-                  <p rend="FootnoteText"
-                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">In principle I think we should</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
-                        <space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont"
-                          style="font-weight: bold; font-style: italic; color: #C00000; ">if they are file</seg>
-                     <seg rend="DefaultParagraphFont"
-                          style="font-weight: bold; font-style: italic; color: #C00000; ">d</seg>
-                     <seg rend="DefaultParagraphFont"
-                          style="font-weight: bold; font-style: italic; color: #C00000; ">
-                        <space unit="chars" quantity="1"/>with this letter</seg>
-                     <seg rend="DefaultParagraphFont"
-                          style="font-weight: bold; font-style: italic; color: #C00000; ">,<space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">but the alternative is to cross</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">-</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">refer to the notes to 66-02-08.<space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">But if they are with the letter, and</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
-                        <space unit="chars" quantity="1"/>there were no changes to the submitted regs</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">,</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
-                        <space unit="chars" quantity="1"/>than I think that this will do.<space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">I expect that the regs will NOT be with the letter but in the minute book.<space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Draft</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
-                        <space unit="chars" quantity="1"/>note below should do.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>For a copy of this letter, see A345 Royal Park Zoological Society letter and minute book, p. 21-3, Mitchell Library, Sydney.</p>
                </note>Melbourne bot. Garden</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
@@ -166,14 +116,12 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to transmit to you a copy of regulations framed for the preservation of order and property at the Royal Park and beg to solicit on behalf of the trustees, that you will be pleased to take these proposed rules into favorable consideration and if approving of them to give legality to them by the Board of Land &amp; Works.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>For the approved regulations,<space unit="chars" quantity="1"/>see notes to<space unit="chars" quantity="1"/>[A. Morrah] to M, 8<space unit="chars" quantity="1"/>February 1866.<seg rend="HTMLCite" style="font-style: normal; ">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>The file was minuted by C. Hodgkinson on 27 January 1866: 'Recommended that the formal approval of the Bd under seal be endorsed on the proposed regulations'. <space unit="chars" quantity="1"/>The file was duly stamped<space unit="chars" quantity="1"/>'Approved by the Board of Land and Works' on 7 February 1866.<space unit="chars" quantity="1"/>There is also a reminder<space unit="chars" quantity="1"/>on the same day<space unit="chars" quantity="1"/>by the secretary, J. Lewis, that the regulations needed to<space unit="chars" quantity="1"/>be published in the Government Gazette; this was done in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Victoria. Government gazette</seg>, 13 February 1866, p. 38.<space unit="chars" quantity="1"/>For the approved regulations, see notes to [A. Morrah] to M, 8<space unit="chars" quantity="1"/>February 1866; there is no copy with the present file.</p>
                   </note>
                </seg>
             </p>

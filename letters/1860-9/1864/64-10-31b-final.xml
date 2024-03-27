@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1864/64-10-31b-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1864/64-10-31b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1864/64-10-31b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1864/64-10-31b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,17 +53,17 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>valediction</term>
@@ -88,22 +88,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Office of Lands &amp; Survey. ¶ Melbourne, 31st Octr 1864. ¶ Dear Sir, ¶  ¶ I shall be obliged by your informing me the botanical name of the tree of the foliage of which the enclosed is a specimen. ¶ Spe...</supplied>
             </head>
-            <p rend="number" xml:lang="en">64.10.31b<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">64.10.31b</p>
             <p rend="correspondent" xml:lang="en">From Clement Hodgkinson</p>
             <p rend="location" xml:lang="en">Unit 1, p. 420, VPRS 7936/P1 outward letterbooks of the Secretary for Lands, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Office of Lands &amp; Survey.</p>
+               xml:lang="en">Office of Lands &amp; Survey.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne, 31st Octr 1864.</p>
@@ -114,15 +105,17 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I shall be obliged by your informing me the botanical name of the tree of the foliage of which the enclosed is a specimen.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Specimen not found, but M identifid it as the<space unit="chars" quantity="1"/>Australian<space unit="chars" quantity="1"/>beech,<space unit="chars" quantity="1"/>Fagus cunninghami, in M to [C. Hodgkinson], 1 November 1864.</p>
+                        <space dim="horizontal" extent="tab"/>Specimen not found, but M identified it as the<space unit="chars" quantity="1"/>Australian<space unit="chars" quantity="1"/>beech,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">F</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">agus cunninghami</seg>, in M to [C. Hodgkinson], 1 November 1864.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>It is found near the gullies at the head of the Acheron river,<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -130,7 +123,7 @@
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>and is described to me as a beautiful tree, attaining a considerable size, the stem being in some instances about two feet in diameter.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
