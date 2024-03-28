@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Observations re Phylloxera Vastatrix ¶  Encloses publications]...</title>
+            <title> ¶ [Observations re Phylloxera ¶  ¶ Vastatrix ¶ For request see T. Wilson to M, 13 July 1881(in this edition as 81-07-13b). ¶  ¶ Encloses publications] ¶ Andy’s notes indicate this letter is attached ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Observations re Phylloxera Vastatrix ¶  Encloses publications]...</title>
+               <title> ¶ [Observations re Phylloxera ¶  ¶ Vastatrix ¶ For request see T. Wilson to M, 13 July 1881(in this edition as 81-07-13b). ¶  ¶ Encloses publications] ¶ Andy’s notes indicate this letter is attached ...</title>
                <date when="1881-07-16">1881-07-16</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,52 +85,65 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Observations re Phylloxera Vastatrix ¶  Encloses publications]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Observations re Phylloxera ¶  ¶ Vastatrix ¶ For request see T. Wilson to M, 13 July 1881(in this edition as 81-07-13b). ¶  ¶ Encloses publications] ¶ Andy’s notes indicate this letter is attached ...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.07.16</p>
-            <p rend="correspondent" xml:lang="en">To James Grant</p>
-            <p rend="location" xml:lang="en">No. 5976, vol. 1881 V, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>James Grant</p>
+            <p rend="location" xml:lang="en">No. 5976, vol. 1881 V, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found; item is a register entry only, of a letter dated 16 July 1881. <seg style="background-color: #ffff00; ">Unless it's 81-06-16!</seg>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only,<space unit="chars" quantity="1"/>of a letter dated<space unit="chars" quantity="1"/>16 July 1881.<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Unless it's 81-06-16!</seg>
                   </p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Observations re Phylloxera Vastatrix<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>For request see T. Wilson to M, 13 July 1881 (in this edition as 81-07-13b).</p>
-               </note> Encloses publications]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Andy’s notes indicate this letter is attached to V6734 with the following minute ‘Chf Sec South Aust Telegram Concurs in apptmt of Mr Dyer as representve at Phylloxera Congress. and V7094 with the following minue ‘Secy of State Transmitting corrce relating to the Phylloxera Congress at Bordeaux.’ This file seems to have been transferred to Agriculture on 13 September 1881 and returned to CS on 20.2.82. Returned to Agriculture on 20.2.82 and the final minute is ‘Handed to Mr Mullaly’. M’s letter above needs to be put in a context – apparently of a Phylloxera Congress. Check the registers again to see if there is any more information about the congress. There might be some correspondence to SA for example in the outward letters that sheds further light on M’s letter.</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>See also M to T. Wilson, 16 June 1881.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">Perhaps this is the above letter. Check register at PRO for date.</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>See also M to J. Hooker, 22 July 1881.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[Observations re Phylloxera<space unit="chars" quantity="1"/>Vastatrix<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>For request see T. Wilson to M, 13 July 1881<space unit="chars" quantity="1"/>(in this edition as 81-07-13b).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Encloses publications]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Andy’s notes indicate this letter is attached to V6734 with the following minute ‘Chf Sec South Aust Telegram Concurs in apptmt of Mr Dyer as representve at Phylloxera Congress. and V7094 with the following minue ‘Secy of State Transmitting corrce relating to the Phylloxera Congress at Bordeaux.’ This file seems to have been transferred to Agriculture on 13 September 1881 and returned to CS on 20.2.82. Returned to Agriculture on 20.2.82 and the final minute is ‘Handed to Mr Mullaly’. M’s letter above needs to be put in a context – apparently of a Phylloxera Congress. Check the registers again to see if there is any more information about the congress. There might be some correspondence to SA for example in the outward letters that sheds further light on M’s letter.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>See also M to T. Wilson, 16 June 1881.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Perhaps this is the above letter. Check register at PRO for date.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>See also M to J. Hooker, 22 July 1881.</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">I wondered today whether this is necessarily a response to the request in<space unit="chars" quantity="1"/>81-07-13b; M sometimes anticipated these things.<space unit="chars" quantity="1"/>But I have not tried further to sort this out. See comments from some time ago with 81-06-16.<space unit="chars" quantity="2"/>Depending on how this is sorted out we may need to modify n. 4 in 81-07-23 .AML 28 March<space unit="chars" quantity="1"/>2024</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
