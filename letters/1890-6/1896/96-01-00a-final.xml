@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>On the 3rd inst. ¶ The month is confirmed by a news item describing the incident in Evening news (Sydney), 6 January 1896, p. 3. ¶  a boat manned by Captain Clark ¶ Error for Grant? The Evening news a...</title>
+            <title> ¶ On the 3rd inst. ¶ Themonthis confirmed bya news itemdescribing the incidentinEvening news(Sydney),6January 1896, p.3. ¶ a bo ¶ at manned by Captain Clark ¶ Error for Grant? TheEvening newsand othe...</title>
             <author>William MacDonald</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>William MacDonald</author>
-               <title>On the 3rd inst. ¶ The month is confirmed by a news item describing the incident in Evening news (Sydney), 6 January 1896, p. 3. ¶  a boat manned by Captain Clark ¶ Error for Grant? The Evening news a...</title>
+               <title> ¶ On the 3rd inst. ¶ Themonthis confirmed bya news itemdescribing the incidentinEvening news(Sydney),6January 1896, p.3. ¶ a bo ¶ at manned by Captain Clark ¶ Error for Grant? TheEvening newsand othe...</title>
                <date when="1896-01">1896-01</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,96 +83,397 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">On the 3rd inst. ¶ The month is confirmed by a news item describing the incident in Evening news (Sydney), 6 January 1896, p. 3. ¶  a boat manned by Captain Clark ¶ Error for Grant? The Evening news a...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ On the 3rd inst. ¶ Themonthis confirmed bya news itemdescribing the incidentinEvening news(Sydney),6January 1896, p.3. ¶ a bo ¶ at manned by Captain Clark ¶ Error for Grant? TheEvening newsand othe...</supplied>
             </head>
             <p rend="number" xml:lang="en">96.01.00a</p>
             <p rend="correspondent" xml:lang="en">From William MacDonald</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'A brave lad', <seg style="font-style: italic; ">Weekly times</seg>, 25 January 1896, p. 13. It is introduced by<space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'A brave lad',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Weekly times</seg>, 25 January 1896, p. 13. It is introduced by<space dim="horizontal" extent="tab"/>
                   </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: -0.1666in; "
                      xml:lang="en">
-                     <seg style="">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="">TWO BOYS SWIM TWO MILES</seg>
+                     <seg rend="DefaultParagraphFont" style="">
                         <space unit="chars" quantity="1"/>
                      </seg>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="">TWO BOYS SWIM TWO MILES AND SAVE MEN'S LIVES. Mr William Macdonald, of Kempsey. N.S.W., writes to Baron von Mueller a short account of the manner in which his son Henry, aged thirteen, swam a distance of two miles, with another boy aged eleven, from a capsized boat in Trial Bay. He says:—‘.</seg>
+                     <seg rend="DefaultParagraphFont" style="">AND SAVE MEN'S LIVES.</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">Mr William Ma</seg>
+                     <seg rend="DefaultParagraphFont" style="">cdonald, of Kempsey. N.S.W.,<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">writes to Baron von Mueller a short account of the manner in which<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">his son Henry, aged thirteen, swam a<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">distance of two miles, with another boy</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">age</seg>
+                     <seg rend="DefaultParagraphFont" style="">d</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>eleven,<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">f</seg>
+                     <seg rend="DefaultParagraphFont" style="">rom a capsized boat<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">in<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">Trial Bay. He says:—</seg>
+                     <seg rend="DefaultParagraphFont" style="">‘.</seg>
+                     <space unit="chars" quantity="1"/>
                   </p>
                </note>
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>On the 3rd inst.</seg>
-               <seg style="">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">On the 3rd inst.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>The month is confirmed by a news item describing the incident in <seg style="font-style: italic; ">Evening news </seg>(Sydney), 6 January 1896, p. 3.</p>
+                        <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>month<space unit="chars" quantity="1"/>is confirmed by<space unit="chars" quantity="1"/>a news item<space unit="chars" quantity="1"/>describing the incident<space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Evening news<space unit="chars" quantity="1"/>
+                        </seg>(Sydney),<space unit="chars" quantity="1"/>6<space unit="chars" quantity="1"/>January 1896, p.<space unit="chars" quantity="1"/>3.</p>
                   </note>
                </seg>
-               <seg style=""> a boat manned by Captain Clark</seg>
-               <seg style="">
-                  <note xml:id="ftn3" type="footnote" n="3">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>a bo</seg>
+               <seg rend="DefaultParagraphFont" style="">at manned by Captain Clark</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Error for Grant? The <seg style="font-style: italic; ">Evening news</seg> and other reports refer to Captain Grant.</p>
+                        <space dim="horizontal" extent="tab"/>Error for Grant? The<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Evening news</seg>
+                        <space unit="chars" quantity="1"/>and other reports refer to Captain Grant.<space unit="chars" quantity="1"/>
+                     </p>
                   </note>
                </seg>
-               <seg style=""> and two men started from the Government dredge Fitzroy, for another dredge. The boys mentioned, the second being a son of Captain Clark, were allowed to accompany them. The boat capsized on the M'Leay bar</seg>
-               <seg style="">
-                  <note xml:id="ftn4" type="footnote" n="4">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">t</seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">o m</seg>
+               <seg rend="DefaultParagraphFont" style="">en started from the Government<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">dredge Fitzroy</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>for another dredge.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">The boys mentioned, the second being</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">a son of Captain Clark, were allo</seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">ed to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">accompany them. T</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">e boat capsized</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">on the M'Leay bar</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>The entrance to Trial Bay from the Macleay River, NSW.</p>
                   </note>
                </seg>
-               <seg style=""> and the two men started to swim ashore. One soon disappeared</seg>
-               <seg style="">
-                  <note xml:id="ftn5" type="footnote" n="5">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">and t</seg>
+               <seg rend="DefaultParagraphFont" style="">he<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">t</seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">o men</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">started to<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">sw</seg>
+               <seg rend="DefaultParagraphFont" style="">im ashore. One soon disappeared</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Named as Martin Gunner in the <seg style="font-style: italic; ">Evening news</seg> account.</p>
+                        <space dim="horizontal" extent="tab"/>Named as Martin Gunner in the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Evening news</seg>
+                        <space unit="chars" quantity="1"/>account.</p>
                   </note>
                </seg>
-               <seg style=""> and is supposed to have been taken by a shark, the other returned to the capsized boat in an exhausted condition. My boy (against the captain's advice) then started for the shore, and Grant, believing that they would all perish under any circumstances, agreed to let his son</seg>
-               <seg style="">
-                  <note xml:id="ftn6" type="footnote" n="6">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>and is supposed to have been</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">taken by a shark, the other returned to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the capsized boat in an exhausted condition. My boy (</seg>
+               <seg rend="DefaultParagraphFont" style="">a</seg>
+               <seg rend="DefaultParagraphFont" style="">ga</seg>
+               <seg rend="DefaultParagraphFont" style="">inst<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">t</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">e captain's</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">advice) then started for the shore, a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Grant, believing that they<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">ould all</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">perish under any circumstances, agreed</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">to let his son</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Adam Grant, according to <seg style="font-style: italic; ">Evening news</seg>.</p>
+                        <space dim="horizontal" extent="tab"/>Adam Grant, according to<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Evening news</seg>.<space unit="chars" quantity="1"/>Neither Captain Grant nor Adam Grant further identified.</p>
                   </note>
                </seg>
-               <seg style=""> follow. Captain Grant then followed the boys, but, not being equal to the task, returned to the wreck with the surviving man. Meanwhile they saw a large shark near the hoys, and the poor little fellows also saw the monster, hut they continued on. My son, who is a remarkably strong and fast swimmer, could have left the younger lad far behind, but in response to the latter's wish he kept by his side until within a short distance of the land when a wave separated them. My son landed at the feet of some gentlemen who were bathing, and who, up to that moment, knew nothing about the accident. The drifting boat was by this time nearly out of sight and could only be discerned by the aid of binocular. It so happened, however, that one of the gentlemen on the beach had a horse ready saddled, by the aid of which the Trial Bay Gaol, about a mile and a half distant, was soon reached, and the life boat sent to the rescue of Captain Grant and his man, who were brought in very much exhausted. It is admitted that they would have perished had it not been for the bravery and endurance of the boys.</seg>
-               <seg style="">
-                  <note xml:id="ftn7" type="footnote" n="7">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>follow. Captain Grant</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">then followed the boys, but, not being equal to the task, returned to the</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">wreck<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">with</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>the surviving man. Meanwhile they sa</seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>a large shark near t</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">hoys, and the poor little fellows also</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">saw</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>the monster, hut they continued</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">on. My son, w</seg>
+               <seg rend="DefaultParagraphFont" style="">ho is a remarkably</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">strong a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d fast swimmer, could have</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">left the younger lad f</seg>
+               <seg rend="DefaultParagraphFont" style="">a</seg>
+               <seg rend="DefaultParagraphFont" style="">r behi</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d, but i</seg>
+               <seg rend="DefaultParagraphFont" style="">n response to t</seg>
+               <seg rend="DefaultParagraphFont" style="">he latter's wish he kept by</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">his side un</seg>
+               <seg rend="DefaultParagraphFont" style="">ti</seg>
+               <seg rend="DefaultParagraphFont" style="">l</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">ithin a short distance of</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the la</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">hen a<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">ave separated them.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">My son landed at the feet of some gentlemen who<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">ere bathing, a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">wh</seg>
+               <seg rend="DefaultParagraphFont" style="">o, up</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">to that moment, knew nothing about</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the accident. The drifting boat<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">as by</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">this time nearly out of sight and could</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">only be discerned<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">by the aid of binocular.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>It so happened, ho</seg>
+               <seg rend="DefaultParagraphFont" style="">w</seg>
+               <seg rend="DefaultParagraphFont" style="">ever, that one</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">of the gentlemen on the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">b</seg>
+               <seg rend="DefaultParagraphFont" style="">eac</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>had a</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">orse ready saddled, by t</seg>
+               <seg rend="DefaultParagraphFont" style="">h</seg>
+               <seg rend="DefaultParagraphFont" style="">e aid of</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">which the Trial Bay Gaol, about a mile</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">and a half distant, was soon reached,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d th</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>life boat sent to the rescue of</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Captain Grant and his man, who were</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">brought in very much exhausted. It is</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">admitted that they would<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">hav</seg>
+               <seg rend="DefaultParagraphFont" style="">e perished</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">had it n</seg>
+               <seg rend="DefaultParagraphFont" style="">o</seg>
+               <seg rend="DefaultParagraphFont" style="">t been for the bravery a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">d endurance of the boys.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>The news item concludes: '<seg style="">Doubtless the pluck and endurance of both lads in thus having saved their own lives and those of the others deserves recognition by the Royal Humane Society.' <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The news item concludes:<space unit="chars" quantity="1"/>'<seg rend="DefaultParagraphFont" style="">Doubtless the pluck and endurance</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
                         </seg>
+                        <seg rend="DefaultParagraphFont" style="">of both lads in thus having saved their</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">own lives and those of the others deserves recognition by the Royal Humane Society.</seg>
+                        <seg rend="DefaultParagraphFont" style="">'</seg>
                      </p>
                   </note>
                </seg>
-               <seg style=""> </seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
             </p>
          </div>
       </body>

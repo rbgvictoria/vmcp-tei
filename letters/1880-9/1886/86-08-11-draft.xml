@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Melbourne,11 August 1886 ¶  ¶ 're £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying its...</title>
+            <title>[ ¶ Melbourne,11 August 1886 ¶  ¶ 're £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>[Melbourne,11 August 1886 ¶  ¶ 're £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying its...</title>
+               <title>[ ¶ Melbourne,11 August 1886 ¶  ¶ 're £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying ...</title>
                <date when="1886-08-11">1886-08-11</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,39 +85,87 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Melbourne,11 August 1886 ¶  ¶ 're £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying its...</supplied>
+               <supplied reason="XTF-compatibility">[ ¶ Melbourne,11 August 1886 ¶  ¶ 're £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying ...</supplied>
             </head>
-            <p rend="number" xml:lang="en">86.08.11</p>
+            <p rend="number" xml:lang="en">86.08.11<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">To Edward Strickland</p>
-            <p rend="location" xml:lang="en">ML MSS.853/2 letter register, no. 1070, Royal Geographical Society of Australasia (NSW Branch) papers, Mitchell Library, State Library of NSW, Sydney.</p>
+            <p rend="location" xml:lang="en">ML MSS.853/2 letter register, no. 1070, Royal Geographical Society of Australasia (NSW Branch) papers, Mitchell Library, State Library of NSW, Sydney.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">Transcribed 11.5.90. Corrected 21.4.93, 20.5.93. To proof.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Transcribed 11.5.90. Corrected 21.4.93, 20.5.93. To proof.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See E. Strickland to M, 15 August 1886, in which he refers to M's 'very kind letter of the 11th'. M's letter is also recorded as having been received by the Society on 11 August 1886. It was possibly a telegram sent the same day.</p>
-               </note>
-               <note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. Item is a register entry only.</p>
-               </note>[Melbourne,11 August 1886</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. Item is a register entry only.<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">M's letter is also recorded as having been received by the Society on 11 August 1886. It was possibly a telegram sent the same day.</seg>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                     xml:lang="en">
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">I therefore infer that the Melbourne, 11 August 1886 is part of the text in the register</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">; is that so</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">?</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>If not the case then "also recorded" is a bit odd.</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>I would have expected Strickland to have used "telegram" rather than letter in "</seg>
+                     <space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">I have been in bed during the last week, for five days, during that time I received your second<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="color: #C00000; background-color: #FFFF00; ">very kind letter of the 11th</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>telling me of your kind and successful efforts to get together £100 to send to us."</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>I would also have expected the register to include a record of the letter telling Strickland "</seg>
+                     <space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">On the very day on which I received your letter</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">announcing that you had secured £1000 in the Estimates for your branch of the Society, I was taken ill</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">"</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">.<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>The language of 86-08-15 could be read as meaning both letters were written on 11 August, bhut it is ambiguous "could mean second letter about grants, written on 11</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">th</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">"</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                  </p>
+               </note>[<seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Melbourne,11 August 1886</seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>'re £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying its liabilities.]</p>
+               <space dim="horizontal" extent="tab"/>'re £100 Grant'. The sum of £100 has been raised by the Victorian Branch of the Royal Geographical Society of Australasia to aid the New South Wales Branch in paying its liabilities.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See E. Strickland to M, 15 August 1886, in which he refers to M's 'very kind letter of the 11th'.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+            </p>
          </div>
       </body>
    </text>
