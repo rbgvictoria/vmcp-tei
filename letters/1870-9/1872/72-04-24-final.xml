@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Baron Von Mueller. Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]...</title>
+            <title>[Baron Von Mueller. ¶  ¶ Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>[Baron Von Mueller. Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]...</title>
+               <title>[Baron Von Mueller. ¶  ¶ Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]...</title>
                <date when="1872-04-24">1872-04-24</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,21 +84,22 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Baron Von Mueller. Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]...</supplied>
+               <supplied reason="XTF-compatibility">[Baron Von Mueller. ¶  ¶ Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]...</supplied>
             </head>
             <p rend="number" xml:lang="en">72.04.24</p>
             <p rend="correspondent" xml:lang="en">To William Cutts</p>
-            <p rend="location" xml:lang="en">No. 8122, unit 212, VPRS 893/P central inward registered correspondence, VA 714 Education Department, Public Record Office, Victoria.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="location" xml:lang="en">No. 8122, unit 212, VPRS 893/P central inward registered correspondence, VA 714 Education Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found; item is a register entry only, of a letter dated 24 April 1872.</p>
-               </note>[Baron Von Mueller. Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a letter dated 24 April 1872.<space unit="chars" quantity="1"/>An apparently related letter, M to<space unit="chars" quantity="1"/>the Board of Education, Victoria,<space unit="chars" quantity="1"/>2<space unit="chars" quantity="1"/>May<space unit="chars" quantity="1"/>1872, was also registered, but it has not been found.</p>
+               </note>[Baron Von Mueller.<space unit="chars" quantity="1"/>Asks Dr Cutts to explain his views relative to the planting of School grounds with native plants]</p>
          </div>
       </body>
    </text>

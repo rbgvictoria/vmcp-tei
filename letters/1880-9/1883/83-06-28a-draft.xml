@@ -64,12 +64,12 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>FootnoteReference</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>formtext</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>invalid</term>
@@ -80,7 +80,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>[Graham Berry]</name>
+               <name>Graham Berry</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -92,9 +92,9 @@
                <supplied reason="XTF-compatibility">QUARTERLY ESTIMATE. ¶ To the Honorable ¶  ¶ the Chief Secretary ¶ Sir, ¶  ¶ I have ¶  ¶ the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending ¶  ¶ 30th June...</supplied>
             </head>
             <p rend="number" xml:lang="en">83.06.28a</p>
-            <p rend="correspondent" xml:lang="en">To [Graham Berry]<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Graham Berry</p>
+            <p rend="location" xml:lang="en">Y83/6224, unit 1410, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
-            <p rend="location" xml:lang="en">Y83/6224, unit 1410, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
@@ -103,10 +103,7 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>MS written by G. Luehmann and signed by M.<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">C</seg>
-                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">orrected correspondent—Berry took office 8 March 1883</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>MS written by G. Luehmann and signed by M.</p>
                </note>
                <seg rend="formtext" style="color: #2F5496; ">QUARTERLY ESTIMATE.</seg>
             </p>
@@ -303,16 +300,7 @@
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>
-                                 <seg rend="DefaultParagraphFont" style="color: #1D16FF; ">The arrears<space unit="chars" quantity="1"/>
-                                 </seg>
-                                 <seg rend="DefaultParagraphFont" style="color: #1D16FF; ">amount was</seg>
-                                 <seg rend="DefaultParagraphFont" style="color: #1D16FF; ">
-                                    <space unit="chars" quantity="1"/>for<space unit="chars" quantity="1"/>
-                                 </seg>
-                                 <seg rend="DefaultParagraphFont" style="color: #1D16FF; ">iron cases obtained from the penal department in the previous year (M to T. Wilson, 29 June 1883 (in this edition as 83-06-29a))</seg>
-                                 <seg rend="DefaultParagraphFont" style="color: #1D16FF; ">.</seg>
-                              </p>
+                                 <space dim="horizontal" extent="tab"/>The arrears<space unit="chars" quantity="1"/>amount was<space unit="chars" quantity="1"/>for<space unit="chars" quantity="1"/>iron cases obtained from the<space unit="chars" quantity="1"/>Penal<space unit="chars" quantity="1"/>Department in the previous year (M to T. Wilson, 29 June 1883 (in this edition as 83-06-29a)).</p>
                            </note>
                         </seg>
                      </p>

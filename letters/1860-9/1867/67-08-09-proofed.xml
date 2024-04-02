@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bot. Garden 9/8/67. ¶  ¶ I came purposely back, dear Mr Manners-Sutton, to arrange about the gravelling and planting at Toorak. ¶ M had returned from Queenscliff, Vic,where he had been recuperating,to...</title>
+            <title>Bot. Garden 9/8/67. ¶  ¶ I came purposely back, dear Mr Manners-Sutton, to arrange about the gravelling and planting at Toorak. ¶ M had returned from Queenscliff, Vic, where he had been recuperating, ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,12 +15,12 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1867/67-08-09-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1867/67-08-09-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>M67/64,unit 22 or 23,VPRS 1096 inward correspondence, VA 466 Governor, Public Record Office, Victoria.</msName>
+                  <msName>M67/64,unit 23,VPRS 1096 inward correspondence, VA 466 Governor, Public Record Office, Victoria.</msName>
                   <altIdentifier>
                      <idno>67.08.09</idno>
                   </altIdentifier>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Bot. Garden 9/8/67. ¶  ¶ I came purposely back, dear Mr Manners-Sutton, to arrange about the gravelling and planting at Toorak. ¶ M had returned from Queenscliff, Vic,where he had been recuperating,to...</title>
+               <title>Bot. Garden 9/8/67. ¶  ¶ I came purposely back, dear Mr Manners-Sutton, to arrange about the gravelling and planting at Toorak. ¶ M had returned from Queenscliff, Vic, where he had been recuperating, ...</title>
                <date when="1867-08-09">1867-08-09</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-08-09-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-08-09-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -86,15 +86,12 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Bot. Garden 9/8/67. ¶  ¶ I came purposely back, dear Mr Manners-Sutton, to arrange about the gravelling and planting at Toorak. ¶ M had returned from Queenscliff, Vic,where he had been recuperating,to...</supplied>
+               <supplied reason="XTF-compatibility">Bot. Garden 9/8/67. ¶  ¶ I came purposely back, dear Mr Manners-Sutton, to arrange about the gravelling and planting at Toorak. ¶ M had returned from Queenscliff, Vic, where he had been recuperating, ...</supplied>
             </head>
             <p rend="number" xml:lang="en">67.08.09</p>
             <p rend="correspondent" xml:lang="en">To Henry C. Manners-Sutton</p>
             <p rend="location" xml:lang="en">M67/64,<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont"
-                    style="font-weight: bold; background-color: #FFFF00; ">unit 22 or 23</seg>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">,</seg>
-               <space unit="chars" quantity="1"/>VPRS 1096 inward correspondence, VA 466 Governor, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               <seg rend="DefaultParagraphFont" style="font-weight: bold; ">unit 23</seg>,<space unit="chars" quantity="1"/>VPRS 1096 inward correspondence, VA 466 Governor, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <space unit="chars" quantity="1"/>
                </seg>
             </p>
@@ -111,15 +108,12 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M had returned from Queenscliff, Vic, where he had been recuperating, to attend to a request received from James Grant to provide estimates of work required at the Governor's residence<space unit="chars" quantity="1"/>(M to J. Grant, 8 August 1867). The requested estimates were submitted with M to J.<space unit="chars" quantity="1"/>Grant, 9 August 1867 (in this edition as 67-08-09a). There was a protracted correspondence about the costs and the source of the funds required to carry out the work before the Duke of Edinburgh arrived for a visit to Victoria later in 1867 (see notes to M to D. Gilles, 29 June 1868; E. Agg to M, 31 March 1869 (in this edition as 69-03-31a)).</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
                         <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">M had returned from Queenscliff</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">, Vic,</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">
-                           <space unit="chars" quantity="1"/>where he had been recuperating</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">,</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #2F1EF9; ">
-                           <space unit="chars" quantity="1"/>to attend to a request received from James Grant to provide estimates of work required at the Governor's residence<space unit="chars" quantity="1"/>
-                        </seg>(M to J. Grant, 8 August 1867). The requested estimates were submitted with M to J Grant, 9 August 1867<space unit="chars" quantity="1"/>(in this edition as 67-08-09a). There was a protracted correspondence about the costs and the source of the funds required to carry out the work before the Duke of Edinburgh arrived for a visit to Victoria later in 1867 (see notes to M to D. Gilles,<space unit="chars" quantity="1"/>29 June 1868; E. Agg to M,<space unit="chars" quantity="1"/>31 March 1869<space unit="chars" quantity="1"/>(in this edition as 69-03-31a)).</p>
+                        <space dim="horizontal" extent="tab"/>MS annotated by Henry Manners-Sutton: 'Note receipt. Express regret at illness &amp; state that I should be sorry if he were to remain in Melbourne to the detriment of his health. I shall personally take an interest in the planting &amp; his superintendence therefore will be the less necessary Augt. 9. 1867'. Also annotated by Henry C. Manners-Sutton: 'Done 10/ Aug/ 67' and 'N.B. visited Dr Mueller and explained H.E.'s wishes with respect to improvements at Toorak &amp;c'.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>But I am far too weak to look to the details of the work personally &amp; have therefore requested Mr Heyne, my Assistant, to wait on you to prepare an estimate of the work to be done, in order that such may at once be submitted to Mr Grant and the needful fund be placed at my disposal. Will you be so kind to cause to be shown to Mr Heyne the localities on which the improvements have to be effected.</p>
