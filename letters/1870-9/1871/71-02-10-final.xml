@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-02-10-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-02-10-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-02-10-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-02-10-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -66,7 +66,6 @@
                <term>valediction</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -125,12 +124,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>On 14 February 1871 the Chief Secretary, James McCulloch, minuted: 'Certainly not', and the minute was forwarded to M on<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">16</seg>
-                        <space unit="chars" quantity="1"/>February 1871.<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="color: #082FFF; ">T. Ware to M, 24January 1872 requested that this letter be returned to the Chief Secretary's office</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #082FFF; ">.</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>On 14 February 1871,<space unit="chars" quantity="1"/>the Chief Secretary, James McCulloch, minuted: 'Certainly not', and the<space unit="chars" quantity="1"/>file<space unit="chars" quantity="1"/>was forwarded to M on<space unit="chars" quantity="1"/>the same day.<space unit="chars" quantity="1"/>T. Ware to M, 24January 1872,<space unit="chars" quantity="1"/>requested that this letter be returned to the Chief Secretary's office.<space unit="chars" quantity="1"/>M did so on 16 January.</p>
                   </note>
                </seg>
             </p>

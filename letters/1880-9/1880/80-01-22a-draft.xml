@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1880/80-01-22a.doc</idno>
+            <idno type="filename">data/letters/1880-9/1880/80-01-22a-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1880/80-01-22a.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1880/80-01-22a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
+               <term>DefaultParagraphFont</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
@@ -81,7 +77,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name> Chief Secretary</name>
+               <name>Chief Secretary</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -92,35 +88,49 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ [Quarterly estimate]...</supplied>
             </head>
-            <p rend="number" xml:lang="en">80.01.22</p>
-            <p rend="correspondent" xml:lang="en">To <seg style="font-weight: bold; ">Chief Secretary</seg>
+            <p rend="number" xml:lang="en">80.01.22<seg rend="FootnoteReference" style=""/>
             </p>
-            <p rend="location" xml:lang="en">S80/833</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Chief Secretary</seg>
+            </p>
+            <p rend="location" xml:lang="en">S80/833<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
                      <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">To proof.</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
                      <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">According to my/Andy’s notes I/he </seg>
-                     <seg style="font-weight: bold; ">
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">According to my/Andy’s notes I/he<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
                         <hi rend="underline">may</hi>
                      </seg>
-                     <seg style="font-weight: bold; "> have found this file but it isn’t listed in hypercard – is it among the p/cs? May need to check PRO. If not there then it needs to be cited as a LNF from VPRS 1168.</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                        <space unit="chars" quantity="1"/>have found this file but it isn’t listed in hypercard – is it among the p/cs? May need to check PRO. If not there then it needs to be cited as a LNF from VPRS 1168.</seg>
                   </p>
+                  <space dim="vertical" unit="lines" quantity="1"/>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
+                     xml:lang="en">I think that this is likely to be 80-01-00, which can then date that item, and this then deleted;<space unit="chars" quantity="1"/>
+                     <space unit="chars" quantity="1"/>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
+                     xml:lang="en">Doubt is that it is retrospective "estimating", but I suspect that this was more akin to modern management accounting, keeping track period by period of funds committed.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[Quarterly estimate]</p>
          </div>

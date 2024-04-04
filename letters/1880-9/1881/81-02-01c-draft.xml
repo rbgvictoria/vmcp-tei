@@ -15,14 +15,14 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1881/81-02-01c.doc</idno>
+            <idno type="filename">data/letters/1880-9/1881/81-02-01c-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <msName>U81/948</msName>
                   <altIdentifier>
-                     <idno>81.02.01</idno>
+                     <idno>81.02.01c</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-02-01c.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-02-01c-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -80,7 +76,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name> Chief Secretary</name>
+               <name>Graham Berry</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -91,31 +87,40 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ Eucalyptus Atlas paper....</supplied>
             </head>
-            <p rend="number" xml:lang="en">81.02.01</p>
-            <p rend="correspondent" xml:lang="en">To <seg style="font-weight: bold; ">Chief Secretary</seg>
+            <p rend="number" xml:lang="en">81.02.01<seg rend="DefaultParagraphFont" style="color: #182EFE; ">c</seg>
+               <seg rend="FootnoteReference" style=""/>
             </p>
-            <p rend="location" xml:lang="en">U81/948</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="color: #182EFE; ">Graham Berry</seg>
+            </p>
+            <p rend="location" xml:lang="en">U81/948<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
                      <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">To proof.</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
                      <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">According to my notes I may have found this file at the PRO. It is not a M letter but has on it an annotation by M which can be treated like a letter. The rest can go in notes (there are several attached files).</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">According to my notes I may have found this file at the PRO. It is not a M letter but has on it an annotation by M which can be treated like a letter. The rest can go in notes (there are several attached files).</seg>
                   </p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
+                     xml:lang="en">HOWEVER, see 81-01-31, and notes thereto. I suspect nothing of importance will be list of this reg entry is deleted, or buried in the notes 81-01-31, although it would need to be fairly anodyne</p>
+                  <space dim="vertical" unit="lines" quantity="1"/>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </note>
                <space dim="horizontal" extent="tab"/>Eucalyptus Atlas paper.</p>
          </div>
