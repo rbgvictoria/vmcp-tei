@@ -15,12 +15,12 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1872/72-04-17a-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1872/72-04-17a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>No. 605, Letter register, Museum of New Zealand, Wellington.</msName>
+                  <msName>No. 605,correspondence received, Museum of New Zealand Te Papa Tongarewa Archives, Wellington.</msName>
                   <altIdentifier>
                      <idno>72.04.17a</idno>
                   </altIdentifier>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1872/72-04-17a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1872/72-04-17a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,16 +53,16 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
@@ -87,10 +87,9 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ [ackg ¶ acknowledging.R. Gore to M, 9 April 1872, had let M know that, on Hector's instructions, a new collection of plants from the Chatham Islands, recently purchased for the museum in Wellington...</supplied>
             </head>
-            <p rend="number" xml:lang="en">72.04.17a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">72.04.17a</p>
             <p rend="correspondent" xml:lang="en">To James Hector</p>
-            <p rend="location" xml:lang="en">No. 605, Letter register, Museum of New Zealand, Wellington.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            <p rend="location" xml:lang="en">No. 605,<space unit="chars" quantity="1"/>correspondence received, Museum of New Zealand Te Papa Tongarewa Archives, Wellington.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -100,32 +99,16 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
-                        <space dim="horizontal" extent="tab"/>Sara to check if there is a letter at NZ. Note: 'put up.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a letter dated 17 April 1872.<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">James Hector, correspondence received, Museum of New Zealand Te Papa Tongarewa Archives, Wellington.?</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a letter dated<space unit="chars" quantity="1"/>17 April 1872.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[ackg<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>acknowledging.<space unit="chars" quantity="1"/>R. Gore to M, 9 April 1872, had let M know that, on Hector's instructions, a new collection of plants from the Chatham Islands, recently purchased for the museum in Wellington, had been forwarded to him for identification.<space unit="chars" quantity="1"/>Since the plants themselves had not yet arrived (see M to R. Gore, 19 April 1872), M must have been acknowledging Gore's information.</p>
-                     <p rend="FootnoteText"
-                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
-                        xml:lang="en">Are we sure of the date of this. It looks very much like an entry for the letter of acknowledgement to Gore, 72-04-19, which was acknowledging a letter that arrived "yesterday"</p>
-                     <p rend="FootnoteText"
-                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
-                        xml:lang="en">So could not have been acknowledged the day before it arrived.<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>acknowledging.<space unit="chars" quantity="1"/>R. Gore to M, 9 April 1872, had let M know that, on Hector's instructions, a new collection of plants from the Chatham Islands, recently purchased for the museum in Wellington, had been forwarded to him for identification.<space unit="chars" quantity="1"/>Since the plants themselves had not yet arrived (see M to R. Gore, 19 April 1872), M must have been acknowledging Gore's information.<seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
                      </p>
                   </note>
                </seg>

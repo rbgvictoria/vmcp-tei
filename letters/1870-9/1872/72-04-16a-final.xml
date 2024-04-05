@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Forwarding letter from Secy ¶  Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April]...</title>
+            <title> ¶ [Forwarding letter from Secy ¶ Secretary. ¶  ¶ Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April] ¶ W. Odgers to M, 19 April 1872 (in this edition as 72-04-1...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Forwarding letter from Secy ¶  Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April]...</title>
+               <title> ¶ [Forwarding letter from Secy ¶ Secretary. ¶  ¶ Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April] ¶ W. Odgers to M, 19 April 1872 (in this edition as 72-04-1...</title>
                <date when="1872-04-16">1872-04-16</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,29 +85,43 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Forwarding letter from Secy ¶  Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Forwarding letter from Secy ¶ Secretary. ¶  ¶ Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April] ¶ W. Odgers to M, 19 April 1872 (in this edition as 72-04-1...</supplied>
             </head>
             <p rend="number" xml:lang="en">72.04.16a</p>
-            <p rend="correspondent" xml:lang="en">To Charles Gavan Duffy</p>
-            <p rend="location" xml:lang="en">No. 4146, vol. 1872 A, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="correspondent" xml:lang="en">To Charles<space unit="chars" quantity="1"/>Gavan<space unit="chars" quantity="1"/>Duffy</p>
+            <p rend="location" xml:lang="en">No. 4146, vol. 1872 A, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found; item is a register entry only, of a letter dated 16 April 1872.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only,<space unit="chars" quantity="1"/>of a letter<space unit="chars" quantity="1"/>dated<space unit="chars" quantity="1"/>16 April 1872.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Forwarding letter from Secy<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Secretary.</p>
-               </note> Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">This letter was referred to the Crown Land Office on 19 April 1872 minuted: 'Bot. Gardens are transferred to Lands'.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[Forwarding letter from Secy<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Secretary.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Eight Hours Demonstration asking for a holiday for men employed in gardens for 23rd April]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>W. Odgers to M, 19 April 1872 (in this edition as 72-04-19b) reported that it had been<space unit="chars" quantity="1"/>referred to the Crown Land Office. The original letter was<space unit="chars" quantity="1"/>minuted: 'Bot. Gardens are transferred to<space unit="chars" quantity="1"/>Lands'.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>The Demonstration took place on 22 April 1872 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 23 April 1872, p. 7)</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

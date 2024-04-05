@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1872/72-03-24a-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1872/72-03-24a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1872/72-03-24a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1872/72-03-24a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -61,9 +61,9 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
@@ -89,8 +89,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Requisition ¶ for Articles not included in the Annual Contracts, for the Department of ¶ the bot. Garden ¶ Only three of the columns in this requisition have been filled in;they are the only ones tran...</supplied>
             </head>
-            <p rend="number" xml:lang="en">72.03.24a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">72.03.24a</p>
             <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Government Printer's Office</p>
             <p rend="location" xml:lang="en">B72/3108, unit 597, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -102,30 +101,15 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
                      <seg rend="DefaultParagraphFont" style="">
                         <space dim="horizontal" extent="tab"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="color: #082FFF; ">Filed with M to C. Gavan Duffy, 24 March 18</seg>
-                     <seg rend="DefaultParagraphFont" style="color: #082FFF; ">
-                        <space unit="chars" quantity="6"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="color: #082FFF; ">72</seg>
-                     <seg rend="DefaultParagraphFont" style="">.</seg>
-                  </p>
+                     </seg>Filed with M to C. Gavan Duffy, 24 March 1872.</p>
                </note>
                <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">Requisition</seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>for Articles not included in the Annual Contracts, for the Department of<space unit="chars" quantity="1"/>
                </seg>the bot. Garden<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -168,12 +152,11 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Fragm. Phytr. Austr<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn3" n="4">
+                           <note type="footnote" xml:id="_ftn2" n="3">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>
-                                 <seg rend="DefaultParagraphFont" style="color: #082FFF; ">Volume 7, B72.02.08, was the most recently issued complete volume. The implication of the letter to Gavan Duffy is that if available M required the preceding volumes as well</seg>.</p>
+                                 <space dim="horizontal" extent="tab"/>Vol.<space unit="chars" quantity="1"/>7, B72.02.08, was the most recently issued complete volume. The implication of the letter to Gavan Duffy is that if available M required the preceding volumes as well.</p>
                            </note>
                         </seg>
                      </p>
@@ -194,13 +177,11 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Chath. Isl. Veget<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn4" n="5">
+                           <note type="footnote" xml:id="_ftn3" n="4">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>
-                                 <seg rend="DefaultParagraphFont" style="color: #082FFF; ">B64.10.02.</seg>
-                              </p>
+                                 <space dim="horizontal" extent="tab"/>B64.10.02.</p>
                            </note>
                         </seg>
                      </p>
@@ -221,12 +202,11 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Austral <space unit="chars" quantity="1"/>Mosses<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn5" n="6">
+                           <note type="footnote" xml:id="_ftn4" n="5">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>
-                                 <seg rend="DefaultParagraphFont" style="color: #082FFF; ">B64.10.03</seg>.</p>
+                                 <space dim="horizontal" extent="tab"/>B64.10.03.</p>
                            </note>
                         </seg>
                      </p>
@@ -247,13 +227,11 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Plants of Victoria<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn6" n="7">
+                           <note type="footnote" xml:id="_ftn5" n="6">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>
-                                 <seg rend="DefaultParagraphFont" style="color: #082FFF; ">B62.03.03, B</seg>
-                                 <seg rend="DefaultParagraphFont" style="color: #082FFF; ">65.02.06</seg>.</p>
+                                 <space dim="horizontal" extent="tab"/>B62.03.03, B65.02.06.</p>
                            </note>
                         </seg>
                      </p>
@@ -261,7 +239,15 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Chicago</p>
+                        xml:lang="en">Chicago<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn6" n="7">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space dim="horizontal" extent="tab"/>The Academy building and all its contents had been destroyed in a fire on 9 October 1871, and the Academy was seeking replacements wherever possible.</p>
+                           </note>
+                        </seg>
+                     </p>
                   </cell>
                </row>
             </table>

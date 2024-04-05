@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1869/69-02-12-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1869/69-02-12-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-02-12-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-02-12-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -63,10 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>DefaultParagraphFont</term>
-               <term>valediction</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
+               <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -104,8 +103,15 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It having been decided by yourself, that the northern reserve should be alienated from the botanic Garden, I venture to suggest, that it might be desirable to give intimation to Bailiff<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">J</seg>. Smith, that his services in connection with the botanic Garden will now terminate. I have to beg, that in the event of your approving of the cessation of his services as Bailiff, you will be pleased to cause direct intimation from the crownlands office to be given to that effect.</p>
+               <space dim="horizontal" extent="tab"/>It having been decided by yourself, that the northern reserve should be alienated from the botanic Garden, I venture to suggest, that it might be desirable to give intimation to Bailiff J. Smith,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>W. Smith?<space unit="chars" quantity="1"/>There is no other Smith listed in the schedule of wages for October 1869 in M to J. McKean, 19 October 1868. M commented against his name:<space unit="chars" quantity="1"/>'Was hitherto employed on the northern Ground now transferred to the Friendly Societies. The discontinuation of his service has been recommended already to the Honble. the President and was already decided on by Mr Grant, although [his]<space unit="chars" quantity="1"/>term of service was temporarily prolonged'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>that his services in connection with the botanic Garden will now terminate. I have to beg, that in the event of your approving of the cessation of his services as Bailiff, you will be pleased to cause direct intimation from the crownlands office to be given to that effect.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
@@ -125,7 +131,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">President of the Board of Land &amp; Works.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn0" n="1">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -134,7 +140,7 @@
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>
-                        <space dim="horizontal" extent="tab"/>In<space unit="chars" quantity="1"/>M to J. Grant, 3 June 1869, M<space unit="chars" quantity="1"/>requested that Smith's salary, paid from M's budget, be retained to allow employment of other labour in the Botanic Garden.</p>
+                        <space dim="horizontal" extent="tab"/>In M to J. Grant, 3 June 1869, M requested that Smith's salary, paid from M's budget, be retained to allow employment of other labour in the Botanic Garden.</p>
                   </note>
                </seg>
             </p>
