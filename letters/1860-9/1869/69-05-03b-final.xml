@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne bot Garden ¶ 3/5/69. ¶ Honored and dear Sir ¶  ¶ Much do I regret having missed your kind visit and that of Mr Grant ¶ James Grant, Minister in McCulloch's government ¶  ¶ &amp; Mr ¶  ¶ Seller ¶...</title>
+            <title>Melbourne bot Garden ¶ 3/5/69. ¶ Honored and dear Sir ¶  ¶ Much do I regret having missed your kind visit and that of Mr Grant ¶ James Grant, Minister in McCulloch's government ¶  ¶ &amp; Mr ¶  ¶ Seller. ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1869/69-05-03b-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1869/69-05-03b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne bot Garden ¶ 3/5/69. ¶ Honored and dear Sir ¶  ¶ Much do I regret having missed your kind visit and that of Mr Grant ¶ James Grant, Minister in McCulloch's government ¶  ¶ &amp; Mr ¶  ¶ Seller ¶...</title>
+               <title>Melbourne bot Garden ¶ 3/5/69. ¶ Honored and dear Sir ¶  ¶ Much do I regret having missed your kind visit and that of Mr Grant ¶ James Grant, Minister in McCulloch's government ¶  ¶ &amp; Mr ¶  ¶ Seller. ...</title>
                <date when="1869-05-03">1869-05-03</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-05-03b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-05-03b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -65,7 +65,6 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -86,7 +85,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne bot Garden ¶ 3/5/69. ¶ Honored and dear Sir ¶  ¶ Much do I regret having missed your kind visit and that of Mr Grant ¶ James Grant, Minister in McCulloch's government ¶  ¶ &amp; Mr ¶  ¶ Seller ¶...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne bot Garden ¶ 3/5/69. ¶ Honored and dear Sir ¶  ¶ Much do I regret having missed your kind visit and that of Mr Grant ¶ James Grant, Minister in McCulloch's government ¶  ¶ &amp; Mr ¶  ¶ Seller. ...</supplied>
             </head>
             <p rend="number" xml:lang="en">69.05.03b</p>
             <p rend="correspondent" xml:lang="en">To James McCulloch</p>
@@ -113,29 +112,19 @@
                      </p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>&amp; Mr<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Seller</seg>.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               <space unit="chars" quantity="1"/>&amp; Mr<space unit="chars" quantity="1"/>Seller.<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont"
-                             style="color: #1120FF; background-color: #FFFF00; ">Robert Sellar</seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">?</seg>
-                        <space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">I suspect this is<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">either a mistranscription, or error on M's part. RS was a partner in McCullock, Sellar and co</seg>.<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">His son appears in 80-01-22</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>Robert Sellar, McCulloch's partner in McCulloch, Sellar and Co.?</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>From four til past 5 I stayed at the upper portion of Princes Bridge, and yet you must have passed unobserved by me.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I feel much indebted for the interest you evince in the new work of the garden, and I hope, that at some leisure day, perhaps some Saturday afternoon or half day, you and your Lady will allow me the privilege to conduct you over the ground.</p>
+               <space dim="horizontal" extent="tab"/>I feel much indebted for the interest you evince in the new work of the garden, and I hope, that at some leisure day, perhaps<space unit="chars" quantity="1"/>some Saturday afternoon or holyday, you and your Lady will allow me the privilege to conduct you over the ground.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">With best regards</p>

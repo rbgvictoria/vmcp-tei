@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,12 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9c9ecf70-9027-490a-b26e-add18d163bf7">Dicksonia antarctica</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -106,147 +96,182 @@
             <p rend="location" xml:lang="de">Lange papers, Botanisk Centralbibliotek, Copenhagen.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">Melbourne im botanisch. Garten,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">15/7/71</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Hauptsächlich schreibe ich diesmal, edler Freund, um Ihnen und Ihren grossmüthigen Collegen in der dänischen Hauptstadt, so wie auch Hr. Prof Willkomm meinen innigen Dank auszusprechen für die reichen literarischen Gaben, welche Sie mir durch Ihre neueren Werke eben zugänglich machen. Die neue erleuchtete Regierung Spaniens wird gewiss Ihr schönes Werk unterstützen, zumal da das uralte Land noch immer eines Gesammt Werkes über seine Pflanzen entbehrte, bis Sie u. Prof Willkomm Ihre grossen Arbeiten durchzuführen begannen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Vielleicht sind Sie so freundlich, der archäologisch. Gesellschaft Copenhagens meinen Dank ebenfalls auszusprechen für die prachtvoll ausgestatteten Werke, welche eben mit Ihren durch die freundliche Vermittlung des Herrn Dr W. Sonder anlangten.— </p>
+               <space dim="horizontal" extent="tab"/>Vielleicht sind Sie so freundlich, der archäologisch. Gesellschaft Copenhagens meinen Dank ebenfalls auszusprechen für die prachtvoll ausgestatteten Werke, welche eben mit Ihren durch die freundliche Vermittlung des Herrn Dr W. Sonder anlangten.—<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Wie mein würdiger Freund Consul Were erfuhr, dass diese Bücher der nordischen Antiquaren angekommen seien, bat er mich die Aufmerksamkeit der Gesellschaft darauf hinzulenken, dass die andern Mitglieder in Melbourne Ihre Schriften nicht erhielten. Dies erklärt sich sehr leicht dahin, dass es durch <seg style="">
+               <space dim="horizontal" extent="tab"/>Wie mein würdiger Freund Consul Were erfuhr, dass diese Bücher der nordischen Antiquaren angekommen seien, bat er mich die Aufmerksamkeit der Gesellschaft darauf hinzulenken, dass die andern Mitglieder in Melbourne Ihre Schriften nicht erhielten. Dies erklärt sich sehr leicht dahin, dass es durch<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Ihre</hi>
-               </seg> u. <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>u.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Hr Dr Sonders</hi>
-               </seg> Güte mir möglich war einer directen Agentur zu entbehren. Mir scheint es wäre das einfachste für Melbourne die andern Packete durch das dänische Consulat in London<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>London above Copenhagen deleted.</p>
-               </note> zu befördern. Verzeihen Sie, dass ich über diese Sache schreibe, aber ich habe es dem Consul Were zu Gefallen gern gethan. Der alte Herr freuet sich ausserordentlich auf die ihm vom Throne Dänemarks in Aussicht gestellte hohe Auszeichnung. Das Leben ist ja so flüchtig, und so verarge ich es ihm nicht, wenn er solche noch zu genießen wünscht, während es möglich ist.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>Güte mir möglich war einer directen Agentur zu entbehren. Mir scheint es wäre das einfachste für Melbourne die andern Packete durch das dänische Consulat in London<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>London above Copenhagen deleted.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>zu befördern. Verzeihen Sie, dass ich über diese Sache schreibe, aber ich habe es dem Consul Were zu Gefallen gern gethan. Der alte Herr freuet sich ausserordentlich auf die ihm vom Throne Dänemarks in Aussicht gestellte hohe Auszeichnung. Das Leben ist ja so flüchtig, und so verarge ich es ihm nicht, wenn er solche noch zu genießen wünscht, während es möglich ist.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Der Vice Consul Howitz, der Neffe eines Ihrer Staats Minister, bewirbt sich um eine Anstellung in unserm neu zu errichtenden Forstdepartement, das nun endlich <seg style="">
+               <space dim="horizontal" extent="tab"/>Der Vice Consul Howitz, der Neffe eines Ihrer Staats Minister, bewirbt sich um eine Anstellung in unserm neu zu errichtenden Forstdepartement, das nun endlich<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">auf meine Anregung</hi>
-               </seg> begründet werden soll. Seit den 80 oder 90 Jahren Colonisation ist noch nichts in der Forstsache beschafft, aber die Vorlesung, welche ich neulich gab (u von welcher ich einen <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>begründet werden soll. Seit den 80 oder 90 Jahren Colonisation ist noch nichts in der Forstsache beschafft, aber die Vorlesung, welche ich neulich gab (u von welcher ich einen<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">unvollständigen</hi>
-               </seg> Abdruck sende) hat die Colonisten endlich aus Ihrer Lethargie, soweit es die Wälder u. den Holzbedarf anlangt, aufgeschreckt. Ich werde selbstverständlich alles thun, um Mr Howitz's Interesse zu fördern. Mit dem "Anglesey" sende ich diesen Monat 6 Farnbäume auf <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>Abdruck sende) hat die Colonisten endlich aus Ihrer Lethargie, soweit es die Wälder u. den Holzbedarf anlangt, aufgeschreckt. Ich werde selbstverständlich alles thun, um Mr Howitz's Interesse zu fördern. Mit dem "Anglesey" sende ich diesen Monat 6 Farnbäume auf<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Privat</hi>
-               </seg> Kosten (ich habe keine Departements Mittel dafür) als Geschenk an Prof Agardh ab. Sollte diese Dicksonia (D. antarctica) noch nicht in einem grossen Exemplare in Ihrem Conservatorium existiren, so würde Prof Agardh Ihnen auf meinen Wunsch ein Exemplar ablassen. Alle Kosten bis London sind von mir gezahlt. Diese Prachtpflanzen bedürfen Bodenwärme u vollauf Wasser. Auf der Fahrt muss der grosse Stamm gegen Frost, See-wasser &amp; Ratten geschützt werden.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>Kosten (ich habe keine Departements Mittel dafür) als Geschenk an Prof Agardh ab. Sollte diese Dicksonia (D. antarctica) noch nicht in einem grossen Exemplare in Ihrem<space unit="chars" quantity="1"/>Conservatorium existiren, so würde Prof Agardh Ihnen auf meinen Wunsch ein Exemplar ablassen. Alle Kosten bis London sind von mir gezahlt. Diese Prachtpflanzen bedürfen Bodenwärme u vollauf Wasser. Auf der Fahrt muss der grosse Stamm gegen Frost, See-wasser &amp; Ratten geschützt werden.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Entschuldigen Sie, edler Herr, dies eilige Schreiben, dass ich inmitten grosser Departements Arbeiten gerade noch einige Minuten habe zu vollenden ehe die Post schliesst.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Stets verehrungsvoll</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>der Ihre</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Entbieten Sie freundlichst meinen Gruß dem Conferenzrath Steenstrup, Hr. Professor Rasmussen u Hr Prof Oersted</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; text-align: end; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne Botanic Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; text-align: end; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">15/7/71.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This time I am writing principally, noble friend, to express my sincere gratitude to you and to your generous colleagues in the Danish capital, as well as to Professor Willkomm, for the rich literary gifts, which you made available to me with your more recent works. The new enlightened government of Spain will surely support your fine work, all the more since this ancient country still lacked a comprehensive general work on its plants, until you and Professor Willkomm started your great work.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Willkomm &amp; Lange (1861–80).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>This time I am writing principally, noble friend, to express my sincere gratitude to you and to your generous colleagues in the Danish capital, as well as to Professor Willkomm, for the rich literary gifts, which you made available to me with your more recent works. The new enlightened government of Spain will surely support your fine work, all the more since this ancient country still lacked a comprehensive general work on its plants, until you and Professor Willkomm started your great work.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Willkomm &amp; Lange (1861–80).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Perhaps you will be so kind and express my thanks also to the Archaeological Society of Copenhagenfor the magnificently produced works, which have just arrived with yours through the kind agency of Dr Sonder.</p>
+               <space dim="horizontal" extent="tab"/>Perhaps you will be so kind and express my thanks also to the Archaeological Society of Copenhagen<space unit="chars" quantity="1"/>for the magnificently produced works, which have just arrived with yours through the kind agency of Dr Sonder.</p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>When my worthy friend Consul Were heard, that these books on Nordic antiquity had arrived, he asked me to direct the attention of the Society to the fact, that the other members of the Society in Melbourne did not receive their copies. This is, however, easily explained in that, through <seg style="">
+               <space dim="horizontal" extent="tab"/>When my worthy friend Consul Were heard, that these books on Nordic antiquity had arrived, he asked me to direct the attention of the Society to the fact, that the other members of the Society in Melbourne did not receive their copies. This is, however, easily explained in that, through<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">your</hi>
-               </seg> and <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Dr Sonder's</hi>
-               </seg> kindness it was made possible for me to circumvent a direct agency. It seems to me, that the most simple solution for Melbourne would be to transmit the other parcels through the Danish Consul in London. Please forgive, that I write about this matter, but I have been happy to do so as a favour to Consul Were. The old gentleman is extraordinarily pleased about the prospect of the high distinction held out to him by the Throne of Denmark. Life is so fleeting, so I do not blame him, if he still wants to enjoy this, while he can.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>kindness it was made possible for me to circumvent a direct agency. It seems to me, that the most simple solution for Melbourne would be to transmit the other parcels through the Danish Consul in London. Please forgive, that I write about this matter, but I have been happy to do so as a favour to Consul Were. The old gentleman is extraordinarily pleased about the prospect of the high distinction held out to him by the Throne of Denmark. Life is so fleeting, so I do not blame him, if he still wants to enjoy this, while he can.</p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Vice Consul Howitz,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">See also M to J. Hooker, 21 September 1881.</p>
-               </note> the nephew of your Minister of State, has applied for a position in our new, soon to be established Department of Forestry, which is to be founded at long last <seg style="">
+               <space dim="horizontal" extent="tab"/>Vice Consul Howitz,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See also M to J. Hooker, 21 September 1881.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>the nephew of your Minister of State, has applied for a position in our new, soon to be established Department of Forestry, which is to be founded at long last<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">on my suggestion</hi>
-               </seg>. In the 80 or 90 years of colonisation nothing at all has been done about forestry, but the lecture I recently gave (and of which I enclose an <seg style="">
+               </seg>. In the 80 or 90 years of colonisation nothing at all has been done about forestry, but the lecture I<space unit="chars" quantity="1"/>recently gave (and of which I enclose an<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">incomplete</hi>
-               </seg> reprint)<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B71.13.03.</p>
-               </note> has finally shaken the colonists out of their lethargy where forest and timber requirements are concerned. I shall, of course, do everything to further Mr Howitz's interests. I am sending 6 treeferns this month by the Anglesey at my own <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>reprint)<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B71.13.03.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>has finally shaken the colonists out of their lethargy where forest and timber requirements are concerned. I shall, of course, do everything to further Mr Howitz's interests. I am sending 6 treeferns this month by the Anglesey at my own<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">private</hi>
-               </seg> expense (I do not have any departmental means for this) as a gift to Professor Agardh.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See also M to J. Lange, 7 September 1871 (in this edition as 71-09-07a); M to J. Agardh, 15 July 1871 (in this edition as 71-07-15a); and M to J. Agardh, 25 July 1871 (in this edition as 71-07-25a).</p>
-               </note> Professor Agardh would let you have a specimen at my request, if this Dicksonia (D. antarctica) is not already represented in your conservatory in a larger specimen. All expenses have been paid by me as far as London. These magnificent plants require bottom warmth and plenty of water. During the voyage the large trunk must be protected against frost, sea water and rats.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>expense (I do not have any departmental means for this) as a gift to Professor Agardh.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See also M to J. Lange, 7 September 1871<space unit="chars" quantity="1"/>(in this edition as 71-09-07a);<space unit="chars" quantity="1"/>M to J. Agardh, 15 July<space unit="chars" quantity="1"/>1871<space unit="chars" quantity="1"/>(in this edition as 71-07-15a);<space unit="chars" quantity="1"/>and M to J. Agardh,<space unit="chars" quantity="1"/>25 July 1871<space unit="chars" quantity="1"/>(in this edition as 71-07-25a).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Professor Agardh would let you have a specimen at my request, if this Dicksonia (D. antarctica) is not already represented in your conservatory in a larger specimen. All expenses have been paid by me as far as London. These magnificent plants require bottom warmth and plenty of water. During the voyage the large trunk must be protected against frost, sea water and rats.</p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Please pardon this hasty letter, noble Sir, as I have only a few minutes in the midst of all my large departmental labours in which to complete it, before the mails close.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; line-height: 0.1945in; text-indent: 0in; font-size: 10pt; "
+               style="line-height: 0.1944in; margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Always respectfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; line-height: 0.1945in; text-indent: 0in; font-size: 10pt; "
+               style="line-height: 0.1944in; margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>your</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; line-height: 0.1945in; text-indent: 0in; font-size: 10pt; "
+               style="line-height: 0.1944in; margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Please be so kind and pass on my regards to Conferenzrath Steenstrup, Professor Rasmussen, and Professor Oersted.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dicksonia%20antarctica">Dicksonia antarctica</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dicksonia antarctica</p>
          </div>
       </body>
    </text>
