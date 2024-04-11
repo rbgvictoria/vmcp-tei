@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1882/82-10-04-proofed.doc</idno>
+            <idno type="filename">data/letters/1880-9/1882/82-10-04-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1882/82-10-04-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1882/82-10-04-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -67,7 +67,6 @@
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -106,22 +105,42 @@
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>That is, M's<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Census</seg>, B83.03.04; see<space unit="chars" quantity="1"/>M to J. Grant, 29 October 1881.</p>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Census</seg>, B83.03.04.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>it may be of use to send back to you the enclosed memorandum, as the original letter, on which Mr Grants approval was noted, may not yet<space unit="chars" quantity="1"/>[have]<seg rend="FootnoteReference" style="">
+               <space unit="chars" quantity="1"/>it may be of use to send back to you the enclosed memorandum,<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Word obscured by binding</seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">, here and below</seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">?</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>See M to T. Wilson, 5 May 1882.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>turned up again,<space unit="chars" quantity="1"/>I have forwarded now some accounts, which meanwhile had been held back</p>
+               <space unit="chars" quantity="1"/>as the original letter, on which Mr Grants approval was noted, may not yet<space unit="chars" quantity="1"/>[have]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Word obscured by binding.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>turned up again,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Grant's approval, dated<space unit="chars" quantity="1"/>4 November 1881, was a minute on M to J. Grant, 29 October 1881.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have forwarded now some accounts, which meanwhile had been held back<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Accounts not found.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully</p>
@@ -135,55 +154,6 @@
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">
-               <seg rend="DefaultParagraphFont" style="">
-                  <hi rend="underline">Memorandum</hi>
-               </seg>
-            </p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[After] due enquiry at three [tr]ading printing-establishments it was found, that the price at Mess. M'Carron, Bird &amp; Co's was the lowest,<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">[th]e firm declining to tender</seg>
-               <seg rend="FootnoteReference" style="background-color: #FFFF00; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
-                     <p rend="FootnoteText"
-                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">There was evidently more than one word missing, as the sense requires at least one of the three declined to tender</seg>
-                     </p>
-                  </note>
-               </seg>
-               <space unit="chars" quantity="1"/>[for] the work, whereas smaller establishments have not the needful types. The hon. the Chief Secretary approved of the work being done in a private establishment; the letter [on] which Mr Grants approval is noted, has gone back to the C. S.'s office.</p>
-            <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
-               xml:lang="en">Ferd. von Mueller.</p>
-            <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>5/5/82.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">Will Mr Wilson kindly obtain or sign approval on the L2 form?</p>
-            <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
-               xml:lang="en">F.v.M.<seg rend="FootnoteReference" style="">
-                  <note type="footnote" xml:id="_ftn3" n="4">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="">On 12 May 1882, the Chief Secretary, J. Grant, approved and initialled the memorandum and Wi</seg>
-                        <seg rend="DefaultParagraphFont" style="">lson minuted: 'A/c. approved &amp; returned</seg>
-                        <seg rend="DefaultParagraphFont" style="">'.</seg>
-                     </p>
-                  </note>
-               </seg>
-            </p>
          </div>
       </body>
    </text>

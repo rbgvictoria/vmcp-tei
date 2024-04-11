@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1872/72-05-28-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1872/72-05-28-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1872/72-05-28-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1872/72-05-28-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,16 +53,16 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
@@ -87,8 +87,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ [To Baron Von Mueller. Thanks for Vol. 7 of "Fragmenta phytographiae Australiae ¶ B72.02.08.M's donation was acknowledged inMonthly notices of papers and proceedings of the Royal Society of Tasmani...</supplied>
             </head>
-            <p rend="number" xml:lang="en">72.05.28<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">72.05.28</p>
             <p rend="correspondent" xml:lang="en">From James Agnew</p>
             <p rend="location" xml:lang="en">RSA/B/1 letter abstract book, no. 36, Royal Society of Tasmania Archives, Hobart.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -100,18 +99,10 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
                      <space dim="horizontal" extent="tab"/>Letter not found; item is an entry in the Society's letter-book, of a letter dated 28 May 1872.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[To Baron Von Mueller. Thanks for Vol. 7 of "Fragmenta phytographiae Australiae<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">

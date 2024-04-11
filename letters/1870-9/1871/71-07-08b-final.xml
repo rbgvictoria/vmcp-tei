@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-07-08b-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-07-08b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-07-08b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-07-08b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -61,11 +61,11 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>DefaultParagraphFont</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>underline</term>
                <term>valediction</term>
@@ -90,24 +90,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Melbourne, bot. Garden ¶ 8/7/71. ¶ Sir ¶ In response to your communication, received this day, ¶ See W. Odgers to M, 7 July 1871. ¶ I have the honor to submit a new estimate of expenditure for the bot...</supplied>
             </head>
-            <p rend="number" xml:lang="en">
-               <seg rend="DefaultParagraphFont" style="">71.07.08b</seg>
-               <seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">71.07.08b</p>
             <p rend="correspondent" xml:lang="en">To Charles<space unit="chars" quantity="1"/>Gavan<space unit="chars" quantity="1"/>Duffy</p>
             <p rend="location" xml:lang="en">Y71/8565, unit 576, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Melbourne, bot. Garden</p>
+               xml:lang="en">Melbourne, bot. Garden</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">8/7/71.</p>
@@ -120,7 +109,7 @@
                <seg rend="DefaultParagraphFont" style="">
                   <space dim="horizontal" extent="tab"/>In response to your communication, received this day,</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -251,15 +240,13 @@
                xml:lang="en">
                <seg rend="DefaultParagraphFont" style="">1, The Forest Inspector was to be temporarily employed in the bot. Garden,</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #2C25FE; ">William Ferguson.</seg>
-                     </p>
+                        </seg>William Ferguson.</p>
                   </note>
                </seg>
                <seg rend="DefaultParagraphFont" style="">
@@ -273,17 +260,27 @@
                <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">view of discharging</hi>
                </seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Underlining, here and elsewhere, probably not by M.</p>
+                  </note>
+               </seg>
                <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>one of the present employees, who against my recommendation remained in this establishment when by the transfer of the northern ground to the friendly societies his assistantship of that place had ceased.</seg>
+                  <space unit="chars" quantity="1"/>one of the present employees, who against my recommendation remained in this establishment when by the transfer of the northern ground to the friendly societies his<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">custodianship</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>of that place had ceased.</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn3" n="4">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>William Smith; he was required to be retained (W.<space unit="chars" quantity="1"/>Odgers to M, 26 May 1870<space unit="chars" quantity="1"/>(in this edition as 70-05-26a)).<space unit="chars" quantity="1"/>The reduction … had ceased<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">is marked with a line in the margin</seg>. MS annotation, possibly by Duffy: 'This was not appd by [late] CS' [Chief Secretary].<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">check orig to establish who added the underlining here and below , some seems not to be by M.</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>William Smith; he was required to be retained (W. Odgers to M, 26 May 1870 (in this edition as 70-05-26a)). The reduction … had ceased<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">is marked with a line in the margin</seg>. MS annotation: 'This was not appd by [late] CS [Chief Secretary]'.</p>
                   </note>
                </seg>
                <seg rend="DefaultParagraphFont" style="">
@@ -293,37 +290,32 @@
                   <hi rend="underline">provides for collecting plants in unexplored portions</hi>
                </seg>
                <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>of Australia, also for clearing and despatching consignments effecting supplies to public institutions, carrying on Laboratory work and Museum work, and provides for progressive improvements in the garden, domain and Gov. House Reserve. This item could not have been reduced so far already, had not<space unit="chars" quantity="1"/>
+                  <space unit="chars" quantity="1"/>of Australia, also for clearing and despatching consignments effecting supplies to public institutions, carrying on Laboratory work and Museum work, and provides for progressive improvements in the garden, domain and Gov. House Reserve. This item could not have been reduced so far already, had not the gratuitous labor of about 50 Industrial School Boys been obtained<space unit="chars" quantity="1"/>
                </seg>
-               <seg rend="DefaultParagraphFont" style="">the gratuitous labor of about 50 Industrial School Boys been obtained since May 1870. Nevertheless I frankly admit, that still further reductions could be effected by<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">since May 1870. Nevertheless I frankly admit, that still further reductions could be effected by<space unit="chars" quantity="1"/>
                </seg>
                <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">extreme measures</hi>
                </seg>
-               <seg rend="DefaultParagraphFont" style="">:<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">:</seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
                </seg>
                <seg rend="DefaultParagraphFont">α</seg>
-               <seg rend="DefaultParagraphFont" style="">, if all the employees were discharged and reengagements</seg>
+               <seg rend="DefaultParagraphFont" style="">, if all the employees were discharged and reengagements were effected at reduced wages</seg>
+               <seg rend="DefaultParagraphFont" style="">; but as most of the employee</seg>
+               <seg rend="DefaultParagraphFont" style="">s have been many years here and established family domesticities on the small income which they enjoyed, they seem to forget, that they were originally all engaged at weekly warning, and endeavoured to establish vested rights; from this cause the establishment is under heavier expenses then</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn4" n="5">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">check - one word or two?</seg>
-                     </p>
-                  </note>
-               </seg>
-               <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>were effected at reduced wages but as most of the employeés have been many years here and established family domesticities on the small income which they enjoyed, they seem to forget, that they were originally all engaged at weekly warning, and endeavoured to establish vested rights; from this cause the establishment is under heavier expenses then</seg>
-               <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn5" n="6">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">sic</seg>.<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">Are we sure the letter is well formed and not poorly formed "a"?</seg>
+                        <seg rend="DefaultParagraphFont" style="">than?</seg>
                      </p>
                   </note>
                </seg>
@@ -344,19 +336,25 @@
                   <space unit="chars" quantity="1"/>extreme measure might be effected by extending the gardenwork on Saturdays only til noon, and rendering thus only payment for 5</seg>
                <seg rend="DefaultParagraphFont" style="">½</seg>
                <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>instead of six days in the week. This measure could however only apply to the outdoor work, not to the nurseries, hence the saving would not exceed £120 pro anno. The employees —, I need scarcely add —, would raise a great clamour against this proposition.</seg>
+                  <space unit="chars" quantity="1"/>instead of six days in the week. This measure could however only apply to the out</seg>
+               <seg rend="DefaultParagraphFont" style="">door work, not to the nurseries;</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>hence the saving would not exceed £120 pro anno. The employees —, I need scarcely add —, would raise a great clamour against this proposition.</seg>
             </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The storevote at £200 is really too small for all that is asked from the service of my department; it stood at £250 in my original estimate; but being anxious to aid the Government in retrenchments, I will endeavour to carry the service on with the sum indicated.</p>
+               <space dim="horizontal" extent="tab"/>The storevote at £200 is really too small for all that is asked from the service of my department; it stood at £250.- .-<space unit="chars" quantity="1"/>in my original estimate; but being anxious to aid the Government in retrenchments, I will endeavour to carry the service on with the sum indicated.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <seg rend="DefaultParagraphFont" style="">
-                  <space dim="horizontal" extent="tab"/>The £100 for publishing works is the ordinary subsidy of this Government for the 6th vol. of the Flora of Australia, published in London.</seg>
+                  <space dim="horizontal" extent="tab"/>The £100</seg>
+               <seg rend="DefaultParagraphFont" style="">.- .-</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>for publishing works is the ordinary subsidy of this Government for the 6th vol. of the Flora of Australia, published in London.</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn6" n="7">
+                  <note type="footnote" xml:id="_ftn5" n="6">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -372,7 +370,11 @@
                <space dim="horizontal" extent="tab"/>As regards my own salary, I beg to say, that I have to defray out of it the greater expense of books, journals, instruments and even much of foreign agency and transit, besides the hospitalities of the department. I have the honor to be, Sir, your very obedient servant</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
-               xml:lang="en">Ferd. von Mueller, M.D., Direct. botan. Garden</p>
+               xml:lang="en">Ferd. von Mueller, M.D.,</p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Direct. botan. Garden</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
