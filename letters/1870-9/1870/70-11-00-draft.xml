@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>November 1870 ¶  ¶ [Letter from Doctor Von Mueller relative to plantations in Yarra Park and Yarra Park Road referred to the City Surveyor for report.]...</title>
+            <title> ¶ [Letter from Doctor Von Mueller relative to plantations in Yarra Park and Yarra Park Road referred to the City Surveyor for report.]...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-11-00.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-11-00-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>November 1870 ¶  ¶ [Letter from Doctor Von Mueller relative to plantations in Yarra Park and Yarra Park Road referred to the City Surveyor for report.]...</title>
+               <title> ¶ [Letter from Doctor Von Mueller relative to plantations in Yarra Park and Yarra Park Road referred to the City Surveyor for report.]...</title>
                <date when="1870-11">1870-11</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-11-00.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-11-00-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,29 +84,22 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">November 1870 ¶  ¶ [Letter from Doctor Von Mueller relative to plantations in Yarra Park and Yarra Park Road referred to the City Surveyor for report.]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Letter from Doctor Von Mueller relative to plantations in Yarra Park and Yarra Park Road referred to the City Surveyor for report.]...</supplied>
             </head>
             <p rend="number" xml:lang="en">70.11.00</p>
             <p rend="correspondent" xml:lang="en">To Edmund FitzGibbon</p>
-            <p rend="location" xml:lang="en">Unit 7, p. 288, VPRS 4037 Special Committees, VA 511 Melbourne, Public Record Office, Victoria.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. M's letters to the Melbourne City Council are mainly addressed to the Town Clerk, E. FitzGibbon.</p>
-               </note>November 1870<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M's letter was read at a meeting of the Melbourne City Council Public Works Committee, 22 November 1870.</p>
-               </note>
+            <p rend="location" xml:lang="en">Unit 7, p. 288, VPRS 4037 Special Committees, VA 511 Melbourne, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a report of a letter read at a meeting of the Melbourne City Council's Public Works Committee on 22 November 1870. M's letters to the Melbourne City Council are usually addressed to the Town Clerk, E. FitzGibbon.</p>
+               </note>
                <space dim="horizontal" extent="tab"/>[Letter from Doctor Von Mueller relative to plantations in Yarra Park and Yarra Park Road referred to the City Surveyor for report.]</p>
          </div>
       </body>
