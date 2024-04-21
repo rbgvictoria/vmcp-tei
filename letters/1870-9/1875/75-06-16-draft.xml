@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>St Kilda Road ¶ 16/6/75 ¶  ¶ Herewith, dear Mr [Odg]ers, ¶  I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become e...</title>
+            <title>St Kilda Road ¶ 16/6/75 ¶  ¶ Herewith, dear Mr Odgers, I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become early ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>St Kilda Road ¶ 16/6/75 ¶  ¶ Herewith, dear Mr [Odg]ers, ¶  I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become e...</title>
+               <title>St Kilda Road ¶ 16/6/75 ¶  ¶ Herewith, dear Mr Odgers, I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become early ...</title>
                <date when="1875-06-16">1875-06-16</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,67 +86,110 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">St Kilda Road ¶ 16/6/75 ¶  ¶ Herewith, dear Mr [Odg]ers, ¶  I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become e...</supplied>
+               <supplied reason="XTF-compatibility">St Kilda Road ¶ 16/6/75 ¶  ¶ Herewith, dear Mr Odgers, I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become early ...</supplied>
             </head>
-            <p rend="number" xml:lang="en">75.06.16</p>
+            <p rend="number" xml:lang="en">75.06.16<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">To William Odgers</p>
-            <p rend="location" xml:lang="en">G75/6573, unit 258, VPRS 3992/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">G75/6573, unit 258, VPRS 3992/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">This letter was registed in the Education Department as H5970.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">This letter was registed in the Education Department as H5970.</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                     xml:lang="en">
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">I am not sure what this means: transferred to<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">Education and then returned</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">;? copy to Education? ??</seg>
                   </p>
                </note>St Kilda Road</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">16/6/75</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Herewith, dear Mr [Odg]ers,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">obscured in p/c.</seg>
-                  </p>
-               </note> I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become early distributed, which after the first circular letter would probably require more adressing.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>You are aware, that we have made already an inroad on the new votes of the department for the requisite paper &amp; past-board for this collection; so I trust Mr Ramsey, who is well inclined, will arrange with Mr <seg style="background-color: #ffff00; ">Kerford</seg> &amp; Mr Service, that an honorable support is accorded to my Department on the new estimates.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 18 June W. Odgers minuted: 'Did I not sign a few days agon the Circlr of distribution'; to which [A. G.] responded the next day: 'Yes but it has not gone out. The Fascicles have only just been received'.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>A few years later on 22 July 1882, [I. […] K.] minuted: 'There are about 11 sets of this work still in the vault — They are of no possible use here — Possibly the Botanist would be glad to have them — Three parts form a set. Part 3 herewith for inspection'.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Herewith, dear Mr Odgers, I send you the copies of the second fascicle of the educational collections. It would be in the interest of the Department, if they become early distributed, which after the first circular letter would probably require more adressing.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 18 June W. Odgers minuted: 'Did I not sign a few days<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">agon</seg>
+                        <space unit="chars" quantity="1"/>the Circlr of distribution'; to which [A. G.] responded the next day: 'Yes but it has not gone out. The Fascicles have only just been received'.</p>
+                  </note>
+               </seg>
             </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>You are aware, that we have made already an inroad on the new votes of the department for the requisite paper &amp; past-board for this collection; so I trust Mr Ramsey, who is well inclined, will arrange with Mr<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Kerford</seg>
+               <space unit="chars" quantity="1"/>&amp; Mr Service,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Members of cabinet; at this date George Kerferd was the Premier, Robert Ramsay was the Postmaster-General,<space unit="chars" quantity="1"/>acting also as Chief Secretary, and James Service the Treasurer. They lost office on 7 August, replaced by an administration headed by Graham Berry.<space unit="chars" quantity="1"/>The estimates for 1875/6 provided for a total of £1,200 for the Government Botanist, including M's salary of £800, the same amount as in the Estimates for 1874/5 (Victoria,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Parliamentary papers,</seg>
+                        <space unit="chars" quantity="1"/>1875 no, B 3, p. 14; Victoria,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Parliamentary papers</seg>, 1874 no. B 3, p. 14.)<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>that an honorable support is accorded to my Department on the new estimates.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
+               <space dim="horizontal" extent="tab"/>Ferd. von Mueller<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">A few years later on 22 July 1882, [I. […] K.] minuted: 'There are about 11 sets of this work still in the vault — They are of no possible use here — Possibly the Botanist would be glad to have them — Three parts form a set. Part 3 herewith for inspection'.</seg>
+                        <space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; color: #C00000; "
+                        xml:lang="en">Delete this paragraph?<space unit="chars" quantity="1"/>I<space unit="chars" quantity="1"/>expected the minute to be with 82-06-20a, but it was not there.<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">If as I now infer the minute was written on this letter, it should stay here but be referred to in the notes to the 1882 letter; if it is a minute on the cover of the bundle then use it with 82-06-20a??</p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Since February all current daily expenses of the service I had to bear out of my private purse, except salary.</p>
          </div>
       </body>

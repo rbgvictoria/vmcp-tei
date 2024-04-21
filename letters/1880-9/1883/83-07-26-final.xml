@@ -125,7 +125,7 @@
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <seg rend="formtext" style="color: #2F5496; ">I have the honor to submit for approval the following Estimate* of Expenditure during the</seg>
-               <seg rend="DefaultParagraphFont">
+               <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>
                </seg>two months<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">ending</seg>
@@ -145,7 +145,7 @@
                                  style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
                                  <space dim="horizontal" extent="tab"/>There is<space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>
-                                 <seg rend="DefaultParagraphFont">✓</seg>
+                                 <seg rend="DefaultParagraphFont">✔️</seg>
                                  <space unit="chars" quantity="1"/>against each amount in the 'Particulars of Vote' section.</p>
                            </note>
                         </seg>
@@ -501,7 +501,7 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Collector of<space unit="chars" quantity="1"/>Plants</p>
+                        xml:lang="en">Collector of Plants</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
@@ -754,10 +754,9 @@
                            <space unit="chars" quantity="6"/>
                         </seg>
                         <seg rend="formtext" style="color: #2F5496; ">shillings</seg>
-                        <seg rend="DefaultParagraphFont">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="formtext" style="color: #2F5496; ">and</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">
+                           <space unit="chars" quantity="1"/>a</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">nd</seg>
                         <space unit="chars" quantity="1"/>
                         <space unit="chars" quantity="5"/>
                         <space unit="chars" quantity="1"/>
@@ -787,7 +786,7 @@
                                  xml:lang="en">
                                  <space unit="chars" quantity="1"/>
                                  <space dim="horizontal" extent="tab"/>There is<space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>
-                                 <seg rend="DefaultParagraphFont">✓</seg>
+                                 <seg rend="DefaultParagraphFont">✔️</seg>
                                  <space unit="chars" quantity="1"/>against this amount.</p>
                            </note>
                         </seg>
@@ -837,6 +836,7 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
+                        <seg rend="formtext" style="color: #2F5496; font-style: italic; ">√</seg>
                         <seg rend="formtext" style="color: #2F5496; font-style: italic; ">Signature of the Officer authorized to certify to accounts</seg>
                         <space unit="chars" quantity="1"/>Ferd. von Mueller.</p>
                      <p rend="letter"
