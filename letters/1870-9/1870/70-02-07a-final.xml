@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-02-07a-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-02-07a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-02-07a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-02-07a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,16 +53,16 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
@@ -87,8 +87,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ [To Baron F. Von Mueller, Melbourne acknowledging receipt of his paper on Tasmanian Plants. ¶ B71.13.05. For MS of this paper see RSA/A.17 F. Mueller, 'Contributions to the phytography of Tasmania ...</supplied>
             </head>
-            <p rend="number" xml:lang="en">70.02.07a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">70.02.07a</p>
             <p rend="correspondent" xml:lang="en">From James Agnew</p>
             <p rend="location" xml:lang="en">RSA/B/1, No. 11, letter abstract book, Royal Society of Tasmania Archives, Hobart, Tasmania, Australia.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -100,18 +99,10 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Transcribed 8 December 1989.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
                      <space dim="horizontal" extent="tab"/>Letter not found;<space unit="chars" quantity="1"/>item is a summary in the Society's<space unit="chars" quantity="1"/>letter-book of a letter<space unit="chars" quantity="1"/>written<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>7<space unit="chars" quantity="1"/>February 1870.<space unit="chars" quantity="1"/>See also M to J. Agnew, 31 December 1869.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[To Baron F. Von Mueller, Melbourne acknowledging receipt of his paper on Tasmanian Plants.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">

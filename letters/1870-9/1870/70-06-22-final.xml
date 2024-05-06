@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,83 +93,101 @@
             <p rend="location" xml:lang="en">V70/6920, unit 468, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne botanic Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">22/6/70.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In reference to the proposed alterations of the rules, under which hitherto the supply of plants, cuttings and seeds was obtained from the botanic Garden,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>The existing regulations </seg>governing the distribution of plants<seg style="">, dated 29 September 1862, were as follows:</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Government departments may be supplied with any plants, cuttings, or seeds (fruit trees excepted), as far as such can be made conveniently available without undue abstraction of labor from the general establishment.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">For the gardens or reserves of public institutions, plants, cuttings, and seeds shall be supplied as far as they are conveniently available, but exclusive of avenue trees or fruit trees.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Donors, or gentlemen who have rendered services to the Botanic Garden, may, on their special request, be supplied in a proportion not exceeding the approximate value of their contribution, or in a ratio approximate to the service rendered, with plants, cuttings, seeds, or cut flowers, but cannot obtain plants of the ordinary kinds of floeists’ flowers, or pines, avenue and fruit trees, from the garden.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Cut flowers may be supplied for benevolent or artistic purposes, or for public festivals.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Plants needed in a fresh state may, when available, be supplied for medicinal purposes.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Plants or seeds of any species promising to be of extensive utility to the colony, may, when available, be distributed in small quantities to private gardens, without restrictions.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Interrchanges with public and private gardens beyond the colony may be carried on unlimited by the above rules. </p>
-               </note> I have the honor in accordance with your request to submit such changes, as the altered circumstances of the times seem to advise, and as in my opinion are worthy of your consideration.</p>
+               <space dim="horizontal" extent="tab"/>In reference to the proposed alterations of the rules, under which hitherto the supply of plants, cuttings and seeds was obtained from the botanic Garden,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">See W. Odgers to M, 15 June 1870.<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">The existing regulations<space unit="chars" quantity="1"/>
+                        </seg>governing the distribution of plants<seg rend="DefaultParagraphFont" style="">, dated 29 September 1862,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">and published in Victoria<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Government gazette</seg>
+                        <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+                        </seg>7 October 1862, p. 1917,<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">were as follows:</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Government departments may be supplied with any plants, cuttings, or seeds (fruit trees excepted), as far as such can be made conveniently available without undue abstraction of labor from the general establishment.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">For the gardens or reserves or<space unit="chars" quantity="1"/>public institutions, plants, cuttings, and seeds shall be supplied as far as they are conveniently available, but exclusive of avenue trees or fruit trees.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Donors, or gentlemen who have rendered services to the Botanic Garden, may, on their special request, be supplied in a proportion not exceeding the approximate value of their contribution, or in a ratio approximate to the service rendered, with plants, cuttings, seeds, or cut flowers, but cannot obtain plants of the ordinary kinds of<space unit="chars" quantity="1"/>florists'<space unit="chars" quantity="1"/>flowers, or pines, avenue and fruit trees, from the garden.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Cut flowers may be supplied for benevolent or artistic purposes, or for public festivals.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Plants needed in a fresh state may, when available, be supplied for medicinal purposes.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Plants or seeds of any species promising to be of extensive utility to the colony, may, when available, be distributed in small quantities to private gardens, without restrictions.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Interchanges with public and private gardens beyond the colony may be carried on unlimited by the above rules.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have the honor in accordance with your request to submit such changes, as the altered circumstances of the times seem to advise,<space unit="chars" quantity="1"/>and as in my opinion are worthy of your consideration.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>1. That in clause 2 the word "charitable" may be substituted for public.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>2. That to clause four may be added "to a moderate extent.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>3. That to clause 6 the words may be added: "provided such plants are not readily available in the trade"</p>
+               <space dim="horizontal" extent="tab"/>3. That to<space unit="chars" quantity="1"/>clause 6 the words may be added: "provided such plants<space unit="chars" quantity="1"/>are not readily available in the trade"</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>4. That in rule 7 the words "and with local nurserymen" may be inserted.</p>
+               <space dim="horizontal" extent="tab"/>4. That in rule 7 the words "and with local<space unit="chars" quantity="1"/>nurserymen" may be inserted.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -181,32 +195,35 @@
                <space dim="horizontal" extent="tab"/>Director botanic Garden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">The honorable the Chief Secretary.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">An enclosed copy of the existing regulations, with M’s suggested alterations inserted by him, has been annotated in an unknown hand to the following effect:</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>In clause 2 the word 'public' is restored.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>In clause 3 the words 'or gentlemen who have rendered services' and 'or in a ratio aproximate to the service rendered' have been deleted.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>Clause 7 is scored out and replaced by, 'Plants seeds or cuttings may be interchanged with Public or Private Gardens in the colony or elsewhere'.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>McCulloch approved the regulations amended in these ways and they were gazetted on 5 August 1870 (no. 52, p. 1137). See also W. Odgers to M, 12 August 1870.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">The honorable the Chief Secretary.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>An enclosed copy of the existing regulations, with M’s suggested alterations inserted by him,<space unit="chars" quantity="1"/>has been annotated in an unknown hand<space unit="chars" quantity="1"/>to the following effect:</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>In clause 2 the word 'public' is restored.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>In clause 3 the words 'or gentlemen who have rendered services' and 'or in a ratio aproximate to the service rendered' have been deleted.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>Clause 7 is scored out and replaced by, 'Plants seeds or cuttings may be interchanged with Public or Private Gardens in the colony or elsewhere'.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>McCulloch approved the regulations amended in these ways and they were gazetted on 5 August 1870<space unit="chars" quantity="1"/>(no. 52, p. 1137). See<space unit="chars" quantity="1"/>also W. Odgers to M, 12 August 1870.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
