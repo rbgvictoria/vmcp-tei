@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Our illustration (fig. 46) ¶  is taken from a glass negative prepared in New Guinea by the Rev. Mr. Kennedy, ¶  and forwarded by Baron Sir Ferdinand von Mueller. Ed.]...</title>
+            <title> ¶ [Our illustration (fig. 46) ¶ The illustration is in an unsigned article, 'Orchid notes and gleanings'.94-08-00b_image01.jpg ¶  ¶ is ¶  ¶ taken from a glass negative prepared in New Guinea by the R...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Our illustration (fig. 46) ¶  is taken from a glass negative prepared in New Guinea by the Rev. Mr. Kennedy, ¶  and forwarded by Baron Sir Ferdinand von Mueller. Ed.]...</title>
+               <title> ¶ [Our illustration (fig. 46) ¶ The illustration is in an unsigned article, 'Orchid notes and gleanings'.94-08-00b_image01.jpg ¶  ¶ is ¶  ¶ taken from a glass negative prepared in New Guinea by the R...</title>
                <date when="1894-08">1894-08</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,37 +83,53 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Our illustration (fig. 46) ¶  is taken from a glass negative prepared in New Guinea by the Rev. Mr. Kennedy, ¶  and forwarded by Baron Sir Ferdinand von Mueller. Ed.]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Our illustration (fig. 46) ¶ The illustration is in an unsigned article, 'Orchid notes and gleanings'.94-08-00b_image01.jpg ¶  ¶ is ¶  ¶ taken from a glass negative prepared in New Guinea by the R...</supplied>
             </head>
             <p rend="number" xml:lang="en">94.08.00b</p>
-            <p rend="correspondent" xml:lang="en">To the Gardeners' Chronicle</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Gardeners' Chronicle</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Gardeners' chronicle</seg>, 22 September 1894, p. 339. <space unit="chars" quantity="1"/>The letter is dated to early August as the latest likely date that it could have been sent for the illustration to have been engraved and published in this issue of the journal.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gardeners' chronicle</seg>, 22 September 1894, p. 339. <space unit="chars" quantity="1"/>The letter is dated to early August as the latest likely date that it could have been sent for the illustration to have been engraved and published in this issue of the journal.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Our illustration (fig. 46)<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>The illustration 94-08-00b_image01.jpg is in an unsigned article, 'Orchid notes and gleanings'.</p>
-               </note> is taken from a glass negative prepared in New Guinea by the Rev. Mr. Kennedy,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>C. E Kennedy in 1894 supplied some specimens from Papua to M, e.g. MEL 0577708, recorded as from Milne Bay, the area where his last lay missionary posting, Taupota, was situated (Langmore (1981), p. 433).</p>
-               </note> and forwarded by Baron Sir Ferdinand von Mueller. Ed.]</p>
+               <space dim="horizontal" extent="tab"/>[Our illustration (fig. 46)<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The illustration is in an unsigned article, 'Orchid notes and gleanings'.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space unit="chars" quantity="1"/>94-08-00b_image01.jpg</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>is<space unit="chars" quantity="1"/>taken from a glass negative prepared in New Guinea by the Rev. Mr. Kennedy,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>C. E<space unit="chars" quantity="1"/>Kennedy<space unit="chars" quantity="1"/>in 1894 supplied some specimens from Papua to M, e.g. MEL 0577708, recorded as from Milne Bay, the area where his last<space unit="chars" quantity="1"/>lay<space unit="chars" quantity="1"/>missionary<space unit="chars" quantity="1"/>posting, Taupota, was situated<space unit="chars" quantity="1"/>(Langmore (1981), p. 433).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and forwarded by Baron Sir Ferdinand von Mueller. Ed.]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">
+               <note type="frame">94-08-00b_image01</note>
+            </p>
          </div>
       </body>
    </text>
