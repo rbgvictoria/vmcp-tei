@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honoured and dear sir, ¶  ¶ Having learnt through my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclimatisaton So...</title>
+            <title>Honoured and dear sir, ¶  ¶ Having learnt ¶  ¶ through ¶  ¶ my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclima...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Honoured and dear sir, ¶  ¶ Having learnt through my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclimatisaton So...</title>
+               <title>Honoured and dear sir, ¶  ¶ Having learnt ¶  ¶ through ¶  ¶ my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclima...</title>
                <date when="1861-01-21">1861-01-21</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,8 +61,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -80,7 +76,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Isidor Geoffroy Saint-Hilaire</name>
+               <name>Isidore Geoffroy Saint-Hilaire</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -89,74 +85,92 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Honoured and dear sir, ¶  ¶ Having learnt through my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclimatisaton So...</supplied>
+               <supplied reason="XTF-compatibility">Honoured and dear sir, ¶  ¶ Having learnt ¶  ¶ through ¶  ¶ my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclima...</supplied>
             </head>
             <p rend="number" xml:lang="de">61.01.21</p>
-            <p rend="correspondent" xml:lang="de">To Isidor Geoffroy Saint-Hilaire</p>
+            <p rend="correspondent" xml:lang="de">To Isidore<space unit="chars" quantity="1"/>Geoffroy Saint-Hilaire</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Bulletin de la </seg>
-                     <seg style="font-style: italic; ">Société Impériale Zoologique d'Acclimatation</seg>, vol. 8 (1861), p. 236 (B61.05.08) The text is introduced as follows: 'Nous venons d'être informés de l'arrivée à Londres de deux Phascolomes wombats, destinés au Jardin d'acclimatation du bois de Boulogne, qui sont envoyés à la Société par M. le docteur Mueller, directeur du Jardin botanique et zoologique de Melbourne. Nous croyons devoir reproduire ici la lettre par laquelle notre honorable collègue annonçait cet envoi à M. le Président' [We have just been informed of the arrival in London of two Phascolome wombats destined for the acclimatization garden at the Bois de Boulogne, that have been sent to the Society by Dr. Mueller, director of the Botanic and Zoological Garden at Melbourne. We believe we ought to reproduce here the letter by which our honourable colleague announced this sending to the President].</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bulletin de</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>la</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Société Impériale Zoologique d'Acclimatation</seg>, vol. 8 (1861), p. 236 (B61.05.08) The text is introduced as follows: 'Nous venons d'être informés de l'arrivée à Londres de deux Phascolomes wombats, destinés au Jardin d'acclimatation du bois de Boulogne, qui sont envoyés à la Société par M. le docteur Mueller, directeur du Jardin botanique et zoologique de Melbourne. Nous croyons devoir reproduire ici la lettre par laquelle notre honorable collègue annonçait cet envoi à M. le Président' [We have just been informed of the arrival in London of two Phascolome wombats destined for the acclimatization garden at the Bois de Boulogne, that have been sent to the Society by Dr. Mueller, director of the Botanic and Zoological Garden at Melbourne. We believe we ought to reproduce here the letter by which our honourable colleague announced this sending to the President].</p>
                </note>Melbourne, le 21 Janvier 1861.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: 0in; text-align: justify; text-indent: 0in; "
+               style="font-size: 12pt; hyphenate: false; text-align: justify; margin-left: 0in; "
                xml:lang="de">Honoré et cher Monsieur,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Ayant appris par mon excellent ami, M. Ramel, que vous aviez le désir d'ajouter une paire de Phascolomes wombats à la brillante collection formée par la Société impériale d'acclimatation, sous votre présidence, j'ai saisi la première occasion qui s'est présentée de satisfaire à votre désir; j'ai aujourd'hui confié aux soins du commandant du navire <seg style="font-style: italic; ">Copenhague</seg> une paire de ces animaux qui ont vécu plusieurs mois en bonne santé dans notre jardin, et qui, par conséquent, ont chance d'arriver en bon état dans votre établissement.</p>
+               <space dim="horizontal" extent="tab"/>Ayant appris par mon excellent ami, M. Ramel, que vous aviez le désir d'ajouter une paire de Phascolomes wombats à la brillante collection formée par la Société impériale d'acclimatation, sous votre présidence, j'ai saisi la première occasion qui s'est présentée de satisfaire à votre désir; j'ai aujourd'hui confié aux soins du commandant du navire<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Copenhague</seg>
+               <space unit="chars" quantity="1"/>une paire de ces animaux qui ont vécu plusieurs mois en bonne santé dans notre jardin, et qui, par conséquent, ont chance d'arriver en bon état dans votre établissement.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>J'espère avoir avant peu le plaisir de vous envoyer une seconde et nouvelle espèce de Wombat de la colonie de l'Australie méridionale, qui se trouve dans le voisinage des golfes de Spencer et de Saint-Vincent. Je pense que vous permettrez que le nom de <seg style="font-style: italic; ">Phascolome Saint-Hilaire</seg> soit attaché à cette espèce, comme un témoignage de la profonde vénération que j'éprouve pour ces grands scrutateurs de la nature, portant votre nom, qui ont, depuis plus d'un demi-siècle, illustré le monde scientifique.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>There is a footnote to the printed text at this point, as follows: 'On sait que le genre Phascolome (<seg style="font-style: italic; ">Phascolomys</seg>) a été établi en 1803 par Étienne Geoffroy Saint-Hilaire, d'après des individus ramenés vivants, d'une des premières expéditions françaises autour du monde, par Péron et Lesueur. Depuis cette époque, on n'avait pas revu en France de Phascolomes vivants' [It is known that the genus Phascolome (<seg style="font-style: italic; ">Phascolomys</seg>) was established in 1803 by Étienne Geoffroy Saint-Hilaire from individuals brought back alive, by Péron and Lesueur, from one of the first French expeditions around the world. Living Phascolomes have not been seen again in France since that time].</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>J'espère avoir avant peu le plaisir de vous envoyer une seconde et nouvelle espèce de Wombat de la colonie de l'Australie méridionale, qui se trouve dans le voisinage des golfes de Spencer et de Saint-Vincent. Je pense que vous permettrez que le nom de<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Phascolome Saint-Hilaire</seg>
+               <space unit="chars" quantity="1"/>soit attaché à cette espèce, comme un témoignage de la profonde vénération que j'éprouve pour ces grands scrutateurs de la nature, portant votre nom, qui ont, depuis plus d'un demi-siècle, illustré le monde scientifique.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>There is a footnote to the printed text at this point, as follows: 'On sait que le genre Phascolome (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Phascolomys</seg>) a été établi en 1803 par Étienne Geoffroy Saint-Hilaire, d'après des individus ramenés vivants, d'une des premières expéditions françaises autour du monde, par Péron et Lesueur. Depuis cette époque, on n'avait pas revu en France de Phascolomes vivants' [It is known that the genus Phascolome (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Phascolomys</seg>) was established in 1803 by Étienne Geoffroy Saint-Hilaire from individuals brought back alive, by Péron and Lesueur, from one of the first French expeditions around the world. Living Phascolomes have not been seen again in France since that time].</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Veuillez agréer, etc.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Honoured and dear sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Having learnt through my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclimatisaton Society under your presidency, I have seized the first opportunity that has presented itself of satisfying your desire; I have today committed to the care of the commander of the vessel <seg style="font-style: italic; ">Copenhague</seg> a pair of these animals which have lived in good health for several months in our garden, and which, as a result, have a chance <space unit="chars" quantity="1"/>of arriving in good condition at your establishment.</p>
+               <space dim="horizontal" extent="tab"/>Having learnt<space unit="chars" quantity="1"/>through<space unit="chars" quantity="1"/>my excellent friend, Mr Ramel, that you wanted to add a pair of Phascolome wombats to the splendid collection formed by the Imperial Acclimatisaton Society under your presidency, I have seized the first opportunity that<space unit="chars" quantity="1"/>has presented itself of satisfying your desire; I have today committed to the care of the commander of the vessel<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Copenhague</seg>
+               <space unit="chars" quantity="1"/>a pair of these animals which have lived in good health for several months in our garden, and which, as a result, have a chance <space unit="chars" quantity="1"/>of arriving in good condition at your establishment.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I hope before long to have the pleasure of sending you a second, new species of Wombat from the colony of South Australia, found in the vicinity of Spencer and Saint Vincent Gulfs. I suppose you will allow the name <seg style="font-style: italic; ">Phascolome Saint-Hilaire</seg> to be attached to this species, in testimony to the deep veneration I have for those great investigators of nature, carrying your name, who have, for more than half a century, given lustre to the scientific world.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>But see M to P. Ramel, 25 December 1861 (in this edition as 61-12-25d).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I hope before long to have the pleasure of sending you a second, new species of Wombat from the colony of South Australia, found in the vicinity of Spencer and Saint Vincent Gulfs. I<space unit="chars" quantity="1"/>suppose<space unit="chars" quantity="1"/>you will allow the name<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Phascolome Saint-Hilaire</seg>
+               <space unit="chars" quantity="1"/>to be attached to this species, in testimony to the deep veneration I have for those great investigators of nature, carrying your name, who have, for more than half a century, given lustre to the scientific world.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>But see M to<space unit="chars" quantity="1"/>P. Ramel, 25 December 1861<space unit="chars" quantity="1"/>(in this edition as 61-12-25d).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Yours sincerely,</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
          </div>

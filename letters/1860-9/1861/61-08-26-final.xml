@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Dr. F. Mueller, by a letter written from Melbourne on 26 August, announces the shipment he has just made by the  ¶ Lincolnshire ¶  of several animals, namely: five Quail of Australia ( ¶ Coturnix aus...</title>
+            <title> ¶ [ ¶ Dr. F. Mueller, by a letter written from Melbourne on ¶ 26 ¶ August, announces the ¶ shipment ¶ he has just made by the ¶ Lincolnshire ¶ of several animals, namely: five Quail of Australia ( ¶ ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>[Dr. F. Mueller, by a letter written from Melbourne on 26 August, announces the shipment he has just made by the  ¶ Lincolnshire ¶  of several animals, namely: five Quail of Australia ( ¶ Coturnix aus...</title>
+               <title> ¶ [ ¶ Dr. F. Mueller, by a letter written from Melbourne on ¶ 26 ¶ August, announces the ¶ shipment ¶ he has just made by the ¶ Lincolnshire ¶ of several animals, namely: five Quail of Australia ( ¶ ...</title>
                <date when="1861-08-26">1861-08-26</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,29 +54,26 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/3f3f9dc4-294e-415c-b628-3f643323e78a">Pittosporum undulatum</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>space</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="49">English</language>
-            <language ident="de" usage="51">German</language>
+            <language ident="en" usage="48">English</language>
+            <language ident="de" usage="52">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -95,76 +86,196 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Dr. F. Mueller, by a letter written from Melbourne on 26 August, announces the shipment he has just made by the  ¶ Lincolnshire ¶  of several animals, namely: five Quail of Australia ( ¶ Coturnix aus...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [ ¶ Dr. F. Mueller, by a letter written from Melbourne on ¶ 26 ¶ August, announces the ¶ shipment ¶ he has just made by the ¶ Lincolnshire ¶ of several animals, namely: five Quail of Australia ( ¶ ...</supplied>
             </head>
             <p rend="number" xml:lang="de">61.08.26</p>
-            <p rend="correspondent" xml:lang="de">To the Société Impériale Zoologique d'Acclimatation, Paris</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+            <p rend="correspondent" xml:lang="de">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Société Impériale Zoologique d'Acclimatation, Paris</p>
+            <p rend="space"
+               style="text-align: center; font-size: 9pt; hyphenate: false; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Bulletin de la Société Impériale Zoologique d'Acclimatation</seg>, vol. 8 (1861), pp. 558-9.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[M. le docteur F. Mueller, par une lettre écrite de Melbourne le 26 août, annonce l'envoi qu'il vient de faire, par le navire <seg style="font-style: italic; ">Lincolnshire</seg>, de plusieurs animaux, savoir: cinq Cailles d'Australie (<seg style="font-style: italic; ">Coturnix australis</seg>), dont quatre sont arrivées vivantes; quatre <seg style="font-style: italic; ">Goat-suckers</seg> (<seg style="font-style: italic; ">Caprimulgus humeralis</seg>), qui ont péri tous pendant la traversée, et deux Colombes (<seg style="font-style: italic; ">Peristera chalcoptera</seg>), destinées au Jardin d'acclimatation d'Alger.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Notre honorable confrère, membre honoraire de la Société, annonce en outre la prochaine expédition d'un couple de Grues d'Australie (<seg style="font-style: italic; ">Native Companions</seg>), offert par la Société d'acclimatation de Melbourne, et un mâle de la même espèce que le docteur Embling veut bien mettre à notre disposition. Il ajoute ensuite qu'il espère pouvoir nous faire parvenir, pour la saison prochaine, quelques jeunes <seg style="font-style: italic; ">Laughing Jacass</seg> (<seg style="font-style: italic; ">Dacelo gigantea</seg>), et d'autres espèces utiles ou d'ornement, et adresse ses remercîments pour la paire de Zébus du Soudan qui a été offerte par notre Société à sa soeur de Melbourne. </p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Il termine en signalant le bienveillant empressement de M. Truy, consul de France, à favoriser ces précédents échanges, et à intervenir tout récemment encore pour l'envoi d'une collection considérable de graines, provenant du jardin botanique de Melbourne et destinées au jardin d'acclimatation d'Alger. Dans cette collection, se trouvent des graines de <seg style="font-style: italic; ">
-                  <name key="Pittosporum%20undulatum">Pittosporum undulatum</name>
-               </seg>, arbre qu'il regarde comme digne d'une sérieuse attention, parce qu'il pourrait très probablement s'accommoder du climat de notre colonie africaine et de l'Europe méridionale, et qu'il est précieux pour ses propriétés médicinales, sa beauté de formes et la fragrance toute spéciale de ses fleurs. Un échantillon d'huile de ce curieux végétal, préparé par ses soins, figurera à la prochaine exposition de Londres.] </p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bulletin de la Société<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">I</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">mpériale<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Zoologique d'A</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">cclimatation</seg>, vol. 8 (1861), pp. 558-9.</p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
-               xml:lang="en">
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>[Dr. F. Mueller, by a letter written from Melbourne on 26 August, announces the shipment he has just made by the </seg>
-               <seg style="font-style: italic; ">Lincolnshire</seg>
-               <seg style=""> of several animals, namely: five Quail of Australia (</seg>
-               <seg style="font-style: italic; ">Coturnix australis</seg>
-               <seg style="">), four of whom arrived alive; four </seg>
-               <seg style="font-style: italic; ">Goat-suckers</seg>
-               <seg style=""> (</seg>
-               <seg style="font-style: italic; ">Caprimulgus humeralis</seg>
-               <seg style="">), all of which perished during the voyage, and two doves (</seg>
-               <seg style="font-style: italic; ">Peristera chalcoptera</seg>
-               <seg style="">), destined for the Algiers Acclimatization Garden.</seg>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>[M. le docteur F. Mueller, par une lettre écrite de Melbourne le 26 août, annonce l'envoi qu'il vient de faire, par<space unit="chars" quantity="1"/>le navire<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lincolnshire</seg>, de plusieurs animaux, savoir: cinq Cailles d'Australie<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Coturnix australis</seg>), dont quatre sont arrivées vivantes; quatre<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Goat-suckers</seg>
+               <space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Caprimulgus humeralis</seg>), qui ont péri tous pendant<space unit="chars" quantity="1"/>la traversée, et deux Colombes (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Peristera chalcoptera</seg>), destinées au<space unit="chars" quantity="1"/>Jardin d'acclimatation d'Alger.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Notre honorable confrère, membre honoraire de la Société, annonce en outre la prochaine expédition d'un couple de Grues d'Australie<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Native Companions</seg>), offert par la Société d'acclimatation de Melbourne, et un mâle de la même espèce que le docteur Embling veut bien<space unit="chars" quantity="1"/>mettre à notre disposition.<space unit="chars" quantity="1"/>Il<space unit="chars" quantity="1"/>ajoute ensuite qu'il espère pouvoir nous faire parvenir, pour la saison prochaine, quelques jeunes<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Laughing Jacass</seg>
+               <space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">Dacelo gigantea</seg>), et d'autres espèces utiles ou d'ornement, et adresse ses remercîments<space unit="chars" quantity="1"/>pour la paire de Zébus du Soudan qui a été offerte par notre Société à sa soeur de Melbourne.<space unit="chars" quantity="1"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Il termine en signalant le bienveillant empressement de M. Truy, consul de France, à<space unit="chars" quantity="1"/>favoriser ces précédents échanges, et à intervenir tout récemment encore pour l'envoi d'une collection considérable de graines, provenant du jardin botanique de Melbourne et destinées au jardin d'acclimatation d'Alger. Dans cette collection, se trouvent des graines de<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pittosporum undulatum</seg>,<space unit="chars" quantity="1"/>arbre qu'il regarde comme digne d'une<space unit="chars" quantity="1"/>sérieuse attention, parce qu'il pourrait très probablement s'accommoder du climat de notre colonie africaine et de l'Europe méridionale, et qu'il est précieux pour ses propriétés médicinales, sa beauté de formes et la fragrance toute spéciale de ses fleurs. Un échantillon d'huile de ce curieux végétal, préparé par ses soins, figurera à la prochaine exposition de Londres.]<space unit="chars" quantity="1"/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">[</seg>
+               <seg rend="DefaultParagraphFont" style="">Dr. F. Mueller, by a letter written from Melbourne on<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">26</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>August, announces the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">shipment<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">he has just made by the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lincolnshire</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>of several animals, namely: five Quail of Australia (</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Coturnix australis</seg>
+               <seg rend="DefaultParagraphFont" style="">)</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>four of whom arrived alive; four<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Goat-suckers</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>(</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Caprimulgus humeralis</seg>
+               <seg rend="DefaultParagraphFont" style="">), all of which perished during the voyage, and two doves (</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Peristera chalcoptera</seg>
+               <seg rend="DefaultParagraphFont" style="">), destined for the Algiers</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Acclimatization Garden.</seg>
+            </p>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <seg style="">Our honorable colleague, an honorary member of the Society, announces in addition the impending shipment of a pair of Australian Cranes (</seg>
-               <seg style="font-style: italic; ">Native Companions</seg>
-               <seg style="">), offered by the Acclimatisation Society of Melbourne, and a male of the same species that Dr. Embling wants to put at our disposal. He then adds that he hopes to be able to send for the impending season some young </seg>
-               <seg style="font-style: italic; ">Laughing Jackass</seg>
-               <seg style=""> (</seg>
-               <seg style="font-style: italic; ">Dacelo gigantea</seg>
-               <seg style="">) and other useful or ornamental species, and extends his thanks for the pair of Sudanese Zebu offered by our Society to its sister in Melbourne.</seg>
+               <seg rend="DefaultParagraphFont" style="">Our honorable colleague, an honorary member of the Society, announces<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">in addition<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">impending</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>shipment of a pair of Australian Cranes (</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Native Companions</seg>
+               <seg rend="DefaultParagraphFont" style="">), off</seg>
+               <seg rend="DefaultParagraphFont" style="">ered by the Acclimatis</seg>
+               <seg rend="DefaultParagraphFont" style="">ation Society</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>of Melbourne</seg>
+               <seg rend="DefaultParagraphFont" style="">, and a male of the same species<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">that</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>Dr</seg>
+               <seg rend="DefaultParagraphFont" style="">.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>Embling wants to pu</seg>
+               <seg rend="DefaultParagraphFont" style="">t at our disposal. He then adds that he hopes</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>to be able<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">to send</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>for the impending season</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>some young<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Laughing Jackass</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>(</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Dacelo gigantea</seg>
+               <seg rend="DefaultParagraphFont" style="">) and other useful or ornamental species</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>and extends his thanks for the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">pair of<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Sudanese Zebu offered by our Society to its sister in Melbourne.</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>He concludes by pointing out the sympathetic eagerness of M. Truy, the French consul, to promote these earlier exchanges, and to intervene very recently in sending a considerable collection of seeds from the Melbourne Botanic Garden to the acclimatisation garden in Algiers. In this collection are seeds of </seg>
-               <seg style="font-style: italic; ">
-                  <name key="Pittosporum%20undulatum">Pittosporum undulatum</name>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>He concludes</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>by pointing out the sympathetic eagerness of M. Truy, the French consul, to<space unit="chars" quantity="1"/>
                </seg>
-               <seg style="">, a tree that he considers worthy of serious attention because it would very likely be able to adapt to the climate of our African colony and of southern Europe. It is valuable for its medicinal properties, its beauty of form and the quite special fragrance of its flowers. An oil sample from this curious plant, prepared by him, will be in the impending exhibition in London.]</seg>
+               <seg rend="DefaultParagraphFont" style="">promote</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>these earlier exchanges, and to intervene very recently in sending a considerable collection of se</seg>
+               <seg rend="DefaultParagraphFont" style="">eds from the Melbourne Botanic</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>Garden to the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">acclimatis</seg>
+               <seg rend="DefaultParagraphFont" style="">ation</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">garden</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>in Algiers</seg>
+               <seg rend="DefaultParagraphFont" style="">. In this collection are seeds of<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Pittosporum undulatum</seg>
+               <seg rend="DefaultParagraphFont" style="">, a tree<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">that</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>he consid</seg>
+               <seg rend="DefaultParagraphFont" style="">ers worthy of serious attention</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>because it would very likely be able to adapt to the climate of our African colony and of southern Europe. It is valuable for its medicinal properties, its beauty of form and the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">quite</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>special fragrance of its flowers. An oil sample<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">from</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>this curious p</seg>
+               <seg rend="DefaultParagraphFont" style="">lant, prepared by him, will be i</seg>
+               <seg rend="DefaultParagraphFont" style="">n the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">impending</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>exhibition in London.</seg>
+               <seg rend="DefaultParagraphFont" style="">]</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pittosporum%20undulatum">Pittosporum undulatum</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">Pittosporum undulatum</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
