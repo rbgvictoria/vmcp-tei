@@ -57,6 +57,7 @@
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
+               <term>hyperlink</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
@@ -66,6 +67,8 @@
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
+               <term>HTMLCite</term>
+               <term>Hyperlink</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -108,16 +111,9 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">Reg only note needed</seg>
-                  </p>
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont" style="">See also M to J. MacPherson, 25 March 1870.<space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Subsequent letter Z71/7867. Follow up chain.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only,<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">dated</seg>
+                     <space unit="chars" quantity="1"/>8 April 1870.</p>
                </note>8 April 1870</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -131,9 +127,7 @@
                         <space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">William Ferguson.</seg>
-                     </p>
+                        </seg>William Ferguson.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>may be placed under the Lands Dept with a view of commencing an inspection of the principal forests of this Colony<seg rend="FootnoteReference" style="font-size: 8pt; ">
@@ -141,40 +135,43 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">See notes to W. Odgers to M, 24 March 1870 for the text of an enclosed letter to William Ferguson. The letter<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">from Odgers<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">to Ferguson included '</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">it would be well for you to hold yourself in readiness to actively engage in the work of Inspection of Forests as soon as suitable weather sets in'.</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="2"/>It is probable that M knew the content of the letter and<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">may have acted when the<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">weather at the end of March and the first week of April was</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>generally</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>'dry and warm'</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>and 'warm and sultry' (Government Astronomers reports,<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Argus</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, 4 April 1870, p. 5 and<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Argus</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                        <space dim="horizontal" extent="tab"/>See notes to W. Odgers to M, 24 March 1870,<space unit="chars" quantity="1"/>for the text of an enclosed letter to William Ferguson. The letter<space unit="chars" quantity="1"/>from Odgers<space unit="chars" quantity="1"/>to Ferguson included 'it would be well for you to hold yourself in readiness to actively engage in the work of Inspection of Forests as soon as suitable weather sets in'. <space unit="chars" quantity="1"/>It is probable that M knew the content of the letter and<space unit="chars" quantity="1"/>may have acted when the<space unit="chars" quantity="1"/>weather at the end of March and the first week of April was<space unit="chars" quantity="1"/>generally<space unit="chars" quantity="1"/>'dry and warm'<space unit="chars" quantity="1"/>and 'warm and sultry' (Government Astronomers reports,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 4 April 1870, p. 5,<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>,<space unit="chars" quantity="1"/>11 April<space unit="chars" quantity="1"/>1870, p. 5).<space unit="chars" quantity="1"/>M's letter<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>was referred to the Commissioner of Crown Lands on 12 April 1870 and returned to the Chief Secretary's Department on 21 April.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
                            <space unit="chars" quantity="1"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">11 April, p. 5).</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>M's<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Was it approved?</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">Ferguson was still subordinate to M when<space unit="chars" quantity="1"/>C. Hodgkinson to M, 21 April 1870 asked M to instruct Ferguson to visit Bullarook Forest.<space unit="chars" quantity="1"/>His report is at Ballarat Star 20 October 1870, p. 2<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">But he was still<space unit="chars" quantity="1"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont" style="">letter was referred to the Commissioner of Crown Lands on 12 April 1870 and returned to the Chief Secretary's Department on 21 April.</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">at Gardens as curator in 1872, transferring to Macedon by 1 November, see note 8 to<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="HTMLCite" style="font-style: normal; color: #C00000; ">72-09-16</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">Fergusson's report as Inspector of forests <space unit="chars" quantity="1"/>Vic Parl Paper <space unit="chars" quantity="1"/>1871 C 9</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="2"/>
+                        </seg>
+                        <ref target="https://pov.ent.sirsidynix.net.au/client/en_GB/parl_paper/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:66781/one">
+                           <seg rend="Hyperlink" style="color: #467886; ">https://pov.ent.sirsidynix.net.au/client/en_GB/parl_paper/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:66781/one</seg>
+                        </ref>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>and go to bottom and open pdf shows he was ardered by Hodgkinson top male other inspections during 1870</seg>
                      </p>
                   </note>
                </seg>]</p>

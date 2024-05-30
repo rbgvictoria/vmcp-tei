@@ -38,12 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -60,12 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Cordyline Australis</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -73,9 +61,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>apple-converted-space</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -98,79 +89,98 @@
                <supplied reason="XTF-compatibility">MELBOURNE BOTANICAL GARDENS. ¶ To the Editor of the Argus. ¶ Sir, — ¶  ¶ As probably a numerous attendance at the bazaar to be held to-morrow again in the Botanical Gardens will reward the great exert...</supplied>
             </head>
             <p rend="number" xml:lang="en">57.11.27</p>
-            <p rend="correspondent" xml:lang="en">To the Editor of the Argus</p>
+            <p rend="correspondent" xml:lang="en">To the Editor of the<space unit="chars" quantity="1"/>Argus</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here is from 'Melbourne Botanical Gardens', <seg style="font-style: italic; ">Argus</seg>, 28 November 1857, <space unit="chars" quantity="1"/>p. 5 (B57.11.01.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Melbourne Botanical Gardens',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>,<space unit="chars" quantity="1"/>28 November<space unit="chars" quantity="1"/>1857, <space unit="chars" quantity="1"/>p. 5 (B57.11.01.</p>
                </note>MELBOURNE BOTANICAL GARDENS.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; font-style: italic; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; font-style: italic; "
                xml:lang="en">To the Editor of the Argus.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir, —</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As probably a numerous attendance at the bazaar to be held to-morrow again in the Botanical Gardens will reward the great exertions of so many benevolent ladies for a noble purpose, I hope you will kindly permit me to draw, through your esteemed paper, the attention of those visitors who value our acquisition of very rare plants to a beautiful specimen of the New Zealand palm lily (<seg style="font-style: italic; ">
-                  <name key="Cordyline%20Australis">Cordyline Australis</name>
-               </seg>), now for the first time flowering in this establishment. It is very conspicuous in the north eastern portion of the garden, near the lagoon.</p>
+               <space dim="horizontal" extent="tab"/>As probably a numerous attendance at the bazaar to be held to-morrow again in the Botanical Gardens will reward the great exertions of so many benevolent ladies for a noble purpose,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>In the expectation that the bazaar would attract a large crowd, Henry Kay, the Clerk of the Executive Council, wrote to the Police Chief, Charles MaMahon, to ask somewhat<space unit="chars" quantity="1"/>diffidently<space unit="chars" quantity="1"/>whether some police constables could be assigned to the<space unit="chars" quantity="1"/>Botanic Garden to help maintain order, and the<space unit="chars" quantity="1"/>request was granted (Unit 1, VPRS 1199 Chief Commissioner's inward correspondence, VA 724 Victoria Police, Public Record<seg rend="apple-converted-space" style=""> </seg>Office, Victoria).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I hope you will kindly permit me to draw, through your esteemed paper, the attention of those visitors who value our acquisition of very rare plants to a beautiful specimen of the New Zealand palm lily (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Cordyline Australis</seg>), now for the first time flowering in this establishment. It is very conspicuous in the north eastern portion of the garden, near the lagoon.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Mr. Johnson, the band-master, kindly informs us that we shall enjoy the following music to-morrow:—</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">March — Leichhardt's — Marsh.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Overture — Fidelio — Beethoven. </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Overture — Fidelio — Beethoven.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cavatina — Sonnambula — Bellini.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Waltz — Werber zum Tanz — Labitzki.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Selection — Stabat Mater — Rossini.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Quadrille — Como — D'Albert.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Harmonious Blacksmith (by desire) — Handel.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Polka — Young Couple — Coote.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Selection — Irish Melodies (by desire) — Johnson.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Galop — Austrian.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Most obediently yours,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>FREDK. MUELLER.</p>
+               <space dim="horizontal" extent="tab"/>FREDK<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetters error for<space unit="chars" quantity="1"/>
+                        </seg>Ferd<seg rend="DefaultParagraphFont" style="font-style: italic; ">?</seg>
+                     </p>
+                  </note>
+               </seg>. MUELLER.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">27th November, 1857.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cordyline%20Australis">Cordyline Australis</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cordyline Australis</p>
          </div>
       </body>
    </text>

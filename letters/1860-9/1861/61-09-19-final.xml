@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-09-19-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1861/61-09-19-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-09-19-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-09-19-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,19 +53,18 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -88,8 +87,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">19/9/61 ¶ Sir ¶  ¶ I have much pleasure in informing you that the honorable the Chief Secretary has been pleased to approve of my recommendation, that the V. G. M. I. Society ¶ Victorian Gardeners' Mu...</supplied>
             </head>
-            <p rend="number" xml:lang="en">61.09.19<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">61.09.19</p>
             <p rend="correspondent" xml:lang="en">To Joseph Harris</p>
             <p rend="location" xml:lang="en">MS 12521 Victorian Horticultural Society records, Box 3401, p. 109, La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -98,14 +96,6 @@
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Trans. 28.9.94. To proof.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
@@ -118,14 +108,14 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have much pleasure in informing you that the honorable the Chief Secretary has been pleased to approve of my recommendation, that the V. G. M. I. Society<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>Victorian Gardeners' Mutual Improvement Society, Melbourne.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>may avail itself of the Botanic Gardens, for holding their intended Spring Exhibition, &amp; that the customary entrance fee may be raised at the garden gates on the occasion, provided that the Society will not enforce such contributions — from those persons who may be unwilling to give up the general privilege of the public, to have free access to the gardens. I beg to add that the Society will find me most ready to render such assistance as may be within my power, for the furtherance of the Exhibition —</p>
+               <space unit="chars" quantity="1"/>may avail itself of the Botanic Gardens, for holding their intended Spring Exhibition, &amp; that the customary entrance fee may be raised at the garden gates on the occasion, provided that the Society will<space unit="chars" quantity="1"/>not enforce such contributions<space unit="chars" quantity="1"/>from those persons who may be unwilling to give up the general privilege of the public, to have free access to the gardens. I beg to add that the Society will find me most ready to render such assistance as may be within my power, for the furtherance of the Exhibition —</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be Sir,</p>
@@ -141,12 +131,12 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">to J. Harris, Hon: Sec: of the V. G. M. I. S.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+               xml:lang="en">to J. Harris, Hon. Sec.<space unit="chars" quantity="1"/>of the V. G. M. I. S.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>See also M to J. Harris, 27 September 1861.</p>
+                        <space dim="horizontal" extent="tab"/>See also M to J. Harries, 27 September 1861.</p>
                   </note>
                </seg>
             </p>

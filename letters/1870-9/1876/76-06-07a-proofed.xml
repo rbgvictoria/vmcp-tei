@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Proposed Circular for State Schools re collecting plants] ¶ M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sent t...</title>
+            <title> ¶ [Proposed Circular for State Schools re collecting plants] ¶ M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sen...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>[Proposed Circular for State Schools re collecting plants] ¶ M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sent t...</title>
+               <title> ¶ [Proposed Circular for State Schools re collecting plants] ¶ M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sen...</title>
                <date when="1876-06-07">1876-06-07</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,20 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Athens, 'Times New Roman'</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
+               <term>hyperlink</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>HTMLCite</term>
+               <term>Hyperlink</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,35 +88,88 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Proposed Circular for State Schools re collecting plants] ¶ M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sent t...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Proposed Circular for State Schools re collecting plants] ¶ M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sen...</supplied>
             </head>
             <p rend="number" xml:lang="en">76.06.07a</p>
             <p rend="correspondent" xml:lang="en">To John MacPherson</p>
-            <p rend="location" xml:lang="en">
-               <seg>No. 6173, vol. 1876 K, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</seg>
-               <seg/>
+            <p rend="location" xml:lang="en">No. 6173, vol. 1876 K, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Athens, 'Times New Roman'; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Athens, 'Times New Roman'; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg>Letter not found; item is a register entry only dated 15 June 1876, of a letter dated 7 June.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only<space unit="chars" quantity="1"/>dated<space unit="chars" quantity="1"/>15<space unit="chars" quantity="1"/>June 1876, of a letter dated 7 June.</p>
                </note>
-               <seg>
-                  <space dim="horizontal" extent="tab"/>[Proposed Circular for State Schools re collecting plants]</seg>
-               <seg>
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Athens, 'Times New Roman'; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <space dim="horizontal" extent="tab"/>[Proposed Circular for State Schools re collecting plants]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg>M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sent to the various State Schools’' </seg>
-                        <seg style="font-weight: bold; ">This letter should be looked for in the Education Dept files at PRO.</seg>
+                        <space dim="horizontal" extent="tab"/>M's letter was forwarded to the Minister for Education on 16 June minuted: 'For careful considn &amp; if apped to direct circulars to be sent to the various State Schools’'<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-weight: bold; background-color: #FFFF00; ">This letter should be looked for in the Education Dept files at PRO.</seg>
                      </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">See notes to 76-08-12a, especially<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">"a circular on the subject has been issued to all the State Schools in Victoria &amp; when replies shall have been received I shall be able to say how many schools will be prepared to assist in the object in view'.</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>I th</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">i</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">nk that either the clerk made a mistake when<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">registering</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">the circular or the Ed Dept misunderstood the request</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>and referred to a circular we have not found mentioned elsewhere.<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">Might it be</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>referring to a circular to schools about the proposed<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #C00000; ">School flora</seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #C00000; ">?<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">Or to a<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">modified version of<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="HTMLCite" style="font-style: normal; color: #C00000; ">76-04-00</seg>
+                        <seg rend="HTMLCite" style="font-style: normal; color: #C00000; ">?<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="HTMLCite" style="font-style: normal; color: #C00000; ">One for searching the Ed Dept files at PRO perhaps?</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="HTMLCite" style="font-style: normal; color: #C00000; ">A circular by ed dept had been issued about tree planting in school grounds<space unit="chars" quantity="1"/>
+                        </seg>
+                        <ref target="https://trove.nla.gov.au/newspaper/article/5893345/243927">
+                           <seg rend="Hyperlink" style="color: #467886; ">Argus 29 June 1876, p. 5</seg>
+                        </ref>
+                        <seg rend="HTMLCite" style="font-style: normal; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">I<space unit="chars" quantity="1"/>
+                        <space unit="chars" quantity="1"/>have not drafted a note until you have a chance to think about how we interpret this entry: at strict face value, or with the possibility of a mis-description.</p>
                   </note>
                </seg>
             </p>
