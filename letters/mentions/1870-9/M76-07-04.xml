@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Oakleigh Hall ¶ E. St Kilda ¶ July 4  ¶ 187 ¶ 6 ¶ The Hon J. MacPherson M.P. ¶ Sir...</title>
+            <title>Oakleigh Hall ¶ E. St Kilda ¶ July 4 ¶  ¶ 187 ¶ 6 ¶ The Hon J. MacPherson M.P. ¶ Sir...</title>
             <author>Samuel Wilson</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,32 +15,29 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/mentions/1870-9/76-07-04Wilson-MacPherson.doc</idno>
+            <idno type="filename">data/letters/mentions/1870-9/M76-07-04.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <msName>K76/7042, unit 930, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
-                     <idno>76.07.04</idno>
+                     <idno>M76.07.04</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Samuel Wilson</author>
-               <title>Oakleigh Hall ¶ E. St Kilda ¶ July 4  ¶ 187 ¶ 6 ¶ The Hon J. MacPherson M.P. ¶ Sir...</title>
+               <title>Oakleigh Hall ¶ E. St Kilda ¶ July 4 ¶  ¶ 187 ¶ 6 ¶ The Hon J. MacPherson M.P. ¶ Sir...</title>
                <date when="1876-07-04">1876-07-04</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/mentions/1870-9/76-07-04Wilson-MacPherson.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/mentions/1870-9/M76-07-04.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
                <term>underline</term>
             </keywords>
@@ -91,61 +87,69 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Oakleigh Hall ¶ E. St Kilda ¶ July 4  ¶ 187 ¶ 6 ¶ The Hon J. MacPherson M.P. ¶ Sir...</supplied>
+               <supplied reason="XTF-compatibility">Oakleigh Hall ¶ E. St Kilda ¶ July 4 ¶  ¶ 187 ¶ 6 ¶ The Hon J. MacPherson M.P. ¶ Sir...</supplied>
             </head>
-            <p rend="number" xml:lang="en">76.07.04</p>
+            <p rend="number" xml:lang="en">M76.07.04<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">Samuel Wilson to John MacPherson</p>
             <p rend="location" xml:lang="en">K76/7042, unit 930, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; font-style: italic; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; font-style: italic; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
                   </p>
                </note>Oakleigh Hall</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; font-style: italic; "
-               xml:lang="en">E. St Kilda</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">E. St Kilda</seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">July 4 <seg style="font-style: italic; ">187</seg>6</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">July 4<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">187</seg>6</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Hon J. MacPherson M.P.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I understand that the papers on Plants suitable for cultivation in the colony by Baron von Mueller and which were published with the proceedings of the Zoological and Acclimatisation Society are out of print and as these notes are very valuable, and many persons wish to obtain them, I have to request that a few thousand copies be reprinted for sale or distribution</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>your obedt Servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Saml Wilson</hi>
                </seg>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">MS annotations have not come out clearly on p/c.</seg>
-                  </p>
-               </note>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">MS annotations have not come out clearly on p/c.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
