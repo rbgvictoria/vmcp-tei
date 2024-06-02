@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne ¶ 19/1/77. ¶ The honorable the Chief Secretary. ¶ Sir, ¶  ¶ I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants ¶  being supplied to the public L...</title>
+            <title>Melbourne ¶ 19/1/77. ¶ The honorable the Chief Secretary. ¶ Sir, ¶  ¶ I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants ¶ B76.12.04. ¶  ¶ being supplied ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne ¶ 19/1/77. ¶ The honorable the Chief Secretary. ¶ Sir, ¶  ¶ I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants ¶  being supplied to the public L...</title>
+               <title>Melbourne ¶ 19/1/77. ¶ The honorable the Chief Secretary. ¶ Sir, ¶  ¶ I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants ¶ B76.12.04. ¶  ¶ being supplied ...</title>
                <date when="1877-01-19">1877-01-19</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,75 +86,137 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne ¶ 19/1/77. ¶ The honorable the Chief Secretary. ¶ Sir, ¶  ¶ I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants ¶  being supplied to the public L...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne ¶ 19/1/77. ¶ The honorable the Chief Secretary. ¶ Sir, ¶  ¶ I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants ¶ B76.12.04. ¶  ¶ being supplied ...</supplied>
             </head>
             <p rend="number" xml:lang="en">77.01.19</p>
             <p rend="correspondent" xml:lang="en">To John MacPherson</p>
             <p rend="location" xml:lang="en">L77/725, unit 930, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">19/1/77.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The honorable the Chief Secretary.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B76.12.04.</p>
-               </note> being supplied to the public Library to effect interchanges, the Secretary of that Institution having applied for that number. I further beg to recommend, that I be permitted to send on behalf of the Government a copy to each newspaper of Victoria, by which means the work will become best known to the Colonists and its sale (through the Gov. Printers Department) much increased.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to ask, whether you approve of 25 copies of the new volume on industrial plants<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B76.12.04.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>being supplied to the public Library to effect interchanges, the Secretary of that Institution having applied for that number. I further beg to recommend, that I be permitted to send on behalf of the Government a copy to each newspaper of Victoria, by which means the work will become best known to the Colonists and its sale (through the Gov. Printers Department) much increased.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I also wish much to obtain your instruction whether the volume ought to be sent to each member of Parliament, also to each Mechanics Institute and free Library. I would respectfully point out, that in my opinion the cultural interests of the colony are best served by the widest distribution of the work, rather than retaining a large number of copies for sale.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 25 January 1877 W. Odgers, Under Secretary, minuted: 'Will Gov. Printer inform me what the practice is in regard to Govt publications. Were members of Parliament supplied gratuitously with Mr Brough Smyths book on the Gold Fields'. The Government Printer, J. Ferres, replied two days later: 'The Hon. the Treasurer has lately approved of Mr. Geo. Robertson being the publisher of all Govt Publications, on certain conditions; they will be on sale at this office, as usual. A copy of Mr Smyth's work was sent to each member of Parlt, and to the Public Libraries.' Odgers instructed on 31 January: 'Similar course to be followed in this case'. Ferres replied on 13 February: 'Done accordingly'. On 24 March Odgers directed 'The Gov. Botanist to note'; M replied 'Noted' the same day.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">was there also a formal reply to this letter at PRO which dealt with M's other questions?</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I also wish much to obtain your instruction whether the volume ought to be sent to each member of Parliament, also to each Mechanics Institute and free Library. I would respectfully point out, that in my opinion the cultural interests of the colony are best served by the widest distribution of the work, rather than retaining a large number of copies for sale.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 25 January 1877 W. Odgers, Under Secretary, minuted: 'Will Gov. Printer inform me what the practice is in regard to Govt publications. Were members of Parliament supplied gratuitously with Mr Brough Smyths book on the Gold Fields'. The Government Printer, J. Ferres, replied two days later: 'The Hon. the Treasurer has lately approved of Mr. Geo. Robertson being the publisher of all Govt Publications, on certain conditions; they will be on sale at this office, as usual. A copy of Mr Smyth's work was sent to each member of Parlt, and to the Public Libraries.' Odgers instructed on 31 January: 'Similar course to be followed in this case'. Ferres replied on 13 February: 'Done accordingly'. On 24 March Odgers directed 'The Gov. Botanist to note'; M replied 'Noted' the same day.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">was there also a formal reply to this letter at PRO which dealt with M's other questions?</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">I can't see any letters or notes that suggest that there was</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>a full formal response. Would be nice to check, but my sense is that there will not be one, so suggest that not hold up finalizing until a search is made. If it turns out that there is, we can amend later</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be, Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>Ferd. von Mueller<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 3 February 1877 W. H. Archer, Secretary for Lands, wrote to Odgers asking for 'six copies of Baron von Mueller's Select Plans [sic] for Industrial Culture in Victoria to be supplied to this department'. Odgers approved the request and the Government Printer, J. Ferres, informed him on 13 February that they had been 'Supplied'.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>The file containing this letter is annotated in an unknown hand: 'The Baron is anxious that either a set should be sent to the principal papers, or that he should be authorized to make the work public [<seg style="font-weight: bold; ">5 or 6 illegible words</seg>]' (L77/1978, unit 930, VPRS 3991/P, PROV).</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>There was a review of the work, using a copy sent by M to the Curator of the Castlemaine Botanic Gardens, Vic, in <seg style="font-style: italic; ">Mount Alexander mail</seg>. 30 January 1877, p. 2. The <seg style="font-style: italic; ">Bendigo advertiser</seg>, 28 March, p. 2, carried a notice of the work, a copy of which it had received from the Government Printer's office, concluding with the statement that copies were available from the Government Printer and from George Robertson, bookseller, priced 2/6. The paper also received a copy direct from M (<seg style="font-style: italic; ">Mount Alexander mail</seg>, 30 March 1877, p. 2). Notices were published by other Victorian newspapers that had received copies, but not all provided details of availability, e.g. <seg style="font-style: italic; ">Ovens and Murray advertiser</seg> (Beechworth), 29 March 1877, p. 2. </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Ferd. von Mueller<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 3 February 1877 W. H. Archer, Secretary for Lands, wrote to Odgers asking for 'six copies of Baron von Mueller's Select Plans [sic] for Industrial Culture in Victoria to be supplied to this department'. Odgers approved the request and the Government Printer, J. Ferres, informed him on 13 February that they had been 'Supplied'.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>The file containing this letter is annotated in an unknown hand: 'The Baron is anxious that either a set should be sent to the principal papers, or that he should be authorized to make the work public [<seg rend="DefaultParagraphFont" style="font-weight: bold; ">5 or 6 illegible words</seg>]'<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">(L77/1978, unit 930, VPRS 3991/P, PROV).</seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Is this necessary, it is the same as<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-weight: bold; font-style: italic; color: #C00000; ">location</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">?</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>There was a review of the work, using a copy sent by M to the Curator of the Castlemaine<space unit="chars" quantity="1"/>Botanic Gardens, Vic, in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Mount Alexander mail</seg>. 30 January 1877, p. 2. The<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bendigo advertiser</seg>, 28 March, p. 2, carried a notice of the work, a copy of which it had received from the Government Printer's office, concluding with the statement that copies were available from the<space unit="chars" quantity="1"/>Government<space unit="chars" quantity="1"/>Printer and<space unit="chars" quantity="1"/>from<space unit="chars" quantity="1"/>George Robertson, bookseller, priced 2/6.<space unit="chars" quantity="1"/>The paper also received a copy direct from M (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Mount Alexander mail</seg>, 30 March 1877, p. 2).<space unit="chars" quantity="1"/>Notices were published by other<space unit="chars" quantity="1"/>Victorian<space unit="chars" quantity="1"/>newspapers<space unit="chars" quantity="1"/>that had received copies, but not all provided details of availability, e.g.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ovens and Mu</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">r</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">ray advertiser</seg>
+                        <space unit="chars" quantity="1"/>(Beechworth), 29 March 1877, p. 2<seg rend="DefaultParagraphFont" style="color: #0070C0; ">.</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">It was also<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">noted and reviewed in other colonies, for example in<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #0070C0; ">Sydney mail and New South Wales advertiser</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">20 January 1877, p. 71;<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #0070C0; ">Mercury</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>(Hobart), 30 April 1877, p. 2;<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #0070C0; ">Inquirer and commercial news</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>(Perth, WA), 4 April 1877, p. 2. The<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #0070C0; ">Leader</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>(Melbourne),<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">20 January 1877, p. 7 published a letter from Walter Bissill that reviewed the volume, with further comment from Bissill in the next edition, 27 January p. 7, including a plea that M should 'have under his control a botanic garden in the strict sense'</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
