@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>12/5/78. ¶ Strictly  ¶ private ¶  ¶ Let me thank you for your kind letter, dear Mr Dyer, of 18 febr. ¶  It is not surprising, that a Dipteraceous plant is found in N. Guinea; indeed I hope to demonstr...</title>
+            <title>12/5/78. ¶ Strictly ¶  ¶ private ¶ Each page of the letter is headedPrivate; subsequent headings are not transcribed here. ¶  ¶ Let me thank you for your kind letter, dear Mr Dyer, of 18 febr. ¶ Lette...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>12/5/78. ¶ Strictly  ¶ private ¶  ¶ Let me thank you for your kind letter, dear Mr Dyer, of 18 febr. ¶  It is not surprising, that a Dipteraceous plant is found in N. Guinea; indeed I hope to demonstr...</title>
+               <title>12/5/78. ¶ Strictly ¶  ¶ private ¶ Each page of the letter is headedPrivate; subsequent headings are not transcribed here. ¶  ¶ Let me thank you for your kind letter, dear Mr Dyer, of 18 febr. ¶ Lette...</title>
                <date when="1878-05-12">1878-05-12</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -91,245 +87,435 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">12/5/78. ¶ Strictly  ¶ private ¶  ¶ Let me thank you for your kind letter, dear Mr Dyer, of 18 febr. ¶  It is not surprising, that a Dipteraceous plant is found in N. Guinea; indeed I hope to demonstr...</supplied>
+               <supplied reason="XTF-compatibility">12/5/78. ¶ Strictly ¶  ¶ private ¶ Each page of the letter is headedPrivate; subsequent headings are not transcribed here. ¶  ¶ Let me thank you for your kind letter, dear Mr Dyer, of 18 febr. ¶ Lette...</supplied>
             </head>
             <p rend="number" xml:lang="en">78.05.12</p>
             <p rend="correspondent" xml:lang="en">To William Thiselton-Dyer</p>
             <p rend="location" xml:lang="en">RBG Kew, Kew correspondence, Australia, Mueller, 1871-81, ff. 211-14.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">12/5/78.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Strictly <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Strictly<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">private</hi>
                </seg>
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Each page of the letter is headed <seg style="">
-                        <hi rend="underline">Private</hi>
-                     </seg>; subsequent headings are not transcribed here.</p>
-               </note>
+               <seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Each page of the letter is headed<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <hi rend="underline">Private</hi>
+                        </seg>; subsequent headings are not transcribed here.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Let me thank you for your kind letter, dear Mr Dyer, of 18 febr.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> It is not surprising, that a Dipteraceous plant is found in N. Guinea; indeed I hope to demonstrate the occurrence of the order some day in Australia yet, in the N.E. part, where even Paradise-birds occur. I had a visit from Dr Beccari;<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">Beccari, accompanied by Enrico Alberto d'Albertis, met with <space unit="chars" quantity="1"/>M on 6 February (Dowe (2016), p. 36).</seg>
-                  </p>
-               </note> what a <seg style="">
+               <space dim="horizontal" extent="tab"/>Let me thank you for your kind letter, dear Mr Dyer, of 18 febr.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It is not surprising, that a Dipteraceous plant is found in N. Guinea; indeed I hope to demonstrate the occurrence of the order some day in Australia yet, in the N.E. part, where even Paradise-birds occur. I had a visit from Dr Beccari;<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Beccari, accompanied by Enrico Alberto d'Albertis, met with <space unit="chars" quantity="1"/>M on 6 February (Dowe<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">(</seg>
+                        <seg rend="DefaultParagraphFont" style="">2016</seg>
+                        <seg rend="DefaultParagraphFont" style="">)</seg>
+                        <seg rend="DefaultParagraphFont" style="">, p. 36)</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>what a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">humiliation</hi>
-               </seg> of the "Princeps of Australian Botany" (as you considerately call me)<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Source not identified.</p>
-               </note> to be obliged to tell the <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>of the "Princeps<space unit="chars" quantity="1"/>of Australian Botany" (as you considerately call me)<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Source not identified.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to be obliged to tell the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Director of the</hi>
-               </seg> botanic Garden of Florence, that his colleague here was a Nurseryman,<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">William Guilfoyle.</p>
-               </note> and that I could not set my foot into my own garden since 5 years with any self-respect.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to J. Hooker, 15 July 1873.</p>
-               </note> Pray look on my report of 1869<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B69.07.01.</p>
-               </note> &amp; the <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>botanic Garden of Florence, that his colleague here was a Nurseryman,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Guilfoyle.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and that I could not set my foot into my own garden since 5 years with any self-respect.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See also M to J. Hooker, 15 July 1873.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Pray look on my report of 1869<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B69.07.01.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp; the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Gardenplan</hi>
-               </seg>; nearly every walk is changed, nearly every tree moved or destroyed to remove all traces of my work and to convert a scientific Garden into a Cremorne.<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Cremorne Gardens was a commercially-operated amusement park or 'pleasure gardens' near Battersea Bridge, London. The name was also given to amusement parks established in Melbourne and Sydney in the 1850s.</p>
-               </note> There was even the Vict. reg. <seg style="">
+               </seg>; nearly every walk is changed, nearly every tree moved or destroyed to remove all traces of my work and to convert a scientific Garden into a Cremorne.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Cremorne Gardens was a commercially-operated amusement park or 'pleasure gardens' near Battersea Bridge, London. The name was also given to amusement parks established in Melbourne and Sydney in the 1850s.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>There was even the Vict. reg.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">first</hi>
-               </seg> through me in Australia,<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See Maroske (1992).</p>
-               </note> the first Glass-houses in Austr, islands in the lake, Geyserfountain, Bamboos, Palms, and <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>through me in Australia,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See Maroske (1992).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>the first Glass-houses in Austr, islands in the lake, Geyserfountain, Bamboos, Palms, and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">many thousand species</hi>
-               </seg> of plants, systematically arranged, others geographically, others industrially. All this with 1/4 of the means available after my time. Look to the 600 000 pl largely Himalaian &amp; Californ Pines which I distributed. Now how is it, that altho' I am praised as a Botanist, <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>of plants, systematically arranged, others geographically, others industrially. All this with 1/4 of the means available after my time. Look to the 600 000 pl largely Himalaian<space unit="chars" quantity="1"/>&amp; Californ<space unit="chars" quantity="1"/>Pines which I distributed. Now how is it, that altho' I am praised as a Botanist,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Kew</hi>
-               </seg> has never given me any support in my struggles as a <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>has never given me any support in my struggles as a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Horticulturist</hi>
                </seg>. This is an enigma to me and my friends here and abroad.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">One single letter from Kew</hi>
                </seg>
-               <seg style="font-style: italic; ">,</seg> such as I could have shown to Ministers here might have saved me from <seg style="">
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">,</seg>
+               <space unit="chars" quantity="1"/>such as I could have shown to Ministers here might have saved me from<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">ruin</hi>
-               </seg>! See, my dear Dyer, you have a young Lady to grace your home, but I am forbidden to build up a household, because when I was driven for the sake of a common Gardener [&amp;] (who usurpates the Director-title &amp; boasts to be the Colleague of Hooker, but who is Gazetted only <seg style="">
+               </seg>! See, my dear Dyer, you have a young Lady to grace your home, but I am forbidden to build up a household, because when I was driven for the sake of a common Gardener [&amp;] (who usurpates the Director-title &amp; boasts to be the Colleague of Hooker, but who is Gazetted only<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Curator</hi>
-               </seg> and should not be acknowledged by any professional University-man otherwise), well —, when I was deprived of House and home and staff &amp; votes and the very <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>and should not be acknowledged by any professional University-man otherwise), well —, when I was deprived of House and home and staff &amp; votes and the very<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">living</hi>
-               </seg> plants, which I as well as Hooker &amp; yourself want daily as much as our Museum plants, for research, — I had then in this <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>plants, which I as well as Hooker &amp; yourself want daily as much as our Museum plants, for research, — I had then in this<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">expensive</hi>
-               </seg> country to maintain the wreck of a once illustrious department mainly out of my salary; indeed I would be infinitely better off with £300 &amp; my house &amp; former votes in the bot Garden than with £800 out of it. So my future is <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>country<space unit="chars" quantity="1"/>to maintain the wreck of a once illustrious department mainly out of my salary; indeed I would be infinitely better off with £300 &amp; my house &amp; former votes in the bot Garden than with £800 out of it. So my future is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">blighted</hi>
                </seg>, for I was forsaken as a Director even by Kew.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Two days ago I waited with the Explorer D'Albertis<note xml:id="ftn10" type="footnote" n="10">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">Luigi Maria d'Albertis was travelling from Sydney to London and visited M during the period the SS </seg>
-                     <seg style="font-style: italic; ">Garonne</seg>
-                     <seg style=""> was in Melbourne— from 7 May until it 'cleared out' on 10 May (</seg>
-                     <seg style="font-style: italic; ">Argus</seg>
-                     <seg style="">, 8 May 1878, p. 4; 11 May 1878, p. 6); <space unit="chars" quantity="1"/>he '</seg>placed a number of botanical specimens at the joint disposal of Baron von Mueller and Mr Guilfoyle, the director of the Botanical Gardens' (<seg style="font-style: italic; ">Ovens and Murray advertiser </seg>(Beechworth, Vic.), 11 May, p. [4].</p>
-               </note> on the Governor,<note xml:id="ftn11" type="footnote" n="11">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Sir George Bowen.</p>
-               </note> when his Exc. distinctly asserted, that Sir Joseph told him that he wished to be placed like myself! This very statement was made by Sir Geo. Bowen to my former Minister, the hon. John M'Pherson, and altho' this expression may have been made hastily yet Dr Hooker was fully informed, that I was ruined as a Head of my Department &amp; that without the bot Garden I could <seg style="">
+               <space dim="horizontal" extent="tab"/>Two days ago I waited with the Explorer D'Albertis<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn9" n="10">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Luigi Maria d'Albertis was travelling from Sydney to<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">London</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>and visited M during the period the SS<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Garonne</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>was in Melbourne</seg>
+                        <seg rend="DefaultParagraphFont" style="">—</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">from</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>7 May</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">until it 'cleared out' on</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>10 May</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>(</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 8 May 1878, p. 4;</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">11 May</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>1878, p. 6); <space unit="chars" quantity="1"/>he</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>'</seg>placed a number of botanical specimens at the joint disposal of Baron von<space unit="chars" quantity="1"/>Mueller and Mr Guilfoyle, the director of<space unit="chars" quantity="1"/>the Botanical Gardens' (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Ovens and Murray advertiser<space unit="chars" quantity="1"/>
+                        </seg>(Beechworth, Vic.), 11 May, p. [4].</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>on the Governor,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn10" n="11">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Sir George Bowen.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>when his Exc. distinctly asserted, that Sir Joseph told him that he wished to be placed like myself! This very statement was made by Sir Geo. Bowen to my former Minister, the hon. John M'Pherson,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn11" n="12">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e., John MacPherson.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and altho' this expression may have been made hastily yet Dr Hooker was fully informed, that I was ruined as a Head of my Department &amp; that without the bot Garden I could<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">not</hi>
-               </seg> do my work as Gov Botanist.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>do my work as Gov Botanist.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>These young colonies do not care about my sorting Museum specimens; they want me to elaborate for them means for new industries &amp; cultures; but even my laboratory was pulled down &amp; my apparatus taken away, &amp; the greater part of my library is stored away since 5 years!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Now, could not a single letter have been written to me — or could not even now a letter be written, <seg style="">
+               <space dim="horizontal" extent="tab"/>Now, could not a single letter have been written to me — or could not even now a letter be written,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">not to Sir George Bowen nor to the Ministry</hi>
-               </seg>, as it would cause only additional annoyance and trouble &amp; perhaps professional <seg style="">
+               </seg>, as it would cause only additional annoyance and trouble &amp; perhaps professional<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">disgrace</hi>
-               </seg> has Kew not so much consideration for me as the leading Gov. establishment of England and the leading institution for bot science, <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>has Kew not so much consideration for me as the leading Gov. establishment of England and the leading institution for bot science,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">to point out in a letter to me</hi>
-               </seg>, which I could present to Members of the Ministry, that the place of the Gov Botanist is <seg style="">
+               </seg>, which I could present to Members of the Ministry, that the place of the Gov Botanist is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">in</hi>
-               </seg> the bot Garden &amp; not out of it, and the place of a Landscape Gardener (whatever that may mean that unlogic word), is on the Parks &amp; Reserves, that I want <seg style="">
-                  <hi rend="underline">living </hi>
-               </seg>plants more than dry plants, that a traveller &amp; naturalist knows the treatment of living plants better than <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>the bot Garden &amp; not out of it, and the place of a Landscape Gardener (whatever that may mean that unlogic word), is on the Parks &amp; Reserves, that I want<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">living</hi>
+                  <space unit="chars" quantity="1"/>
+               </seg>plants more than dry plants, that a traveller &amp; naturalist knows the treatment of living plants better than<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">any</hi>
-               </seg> gardener, and that I am placed in ruinous &amp; false position without buildings &amp; but very scanty votes, and thus prevented to do justice to my work &amp; duties, and <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>gardener, and that I am placed in ruinous &amp; false position without buildings &amp; but very scanty votes, and thus prevented to do justice to my work &amp; duties, and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">stopped</hi>
-               </seg> in most, even though I have not a single servant to save what little I have to carry on the wreck, while enormous sums are squandered on my former place in senseless and destructive changes or on plebejan<note xml:id="ftn12" type="footnote" n="12">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">plebian?</p>
-               </note> cultures, for which latter ample scope is on all the parks &amp; other Gardens of the Government round Melbourne.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>in most, even though I have not a single servant to save what little I have to carry on the wreck, while enormous sums are squandered on my former place in senseless and destructive changes or on plebejan<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn12" n="13">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>plebian?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>cultures, for which latter ample scope is on all the parks &amp; other Gardens of the Government round Melbourne.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>What a change to me since 1857 when Sir William gave me such glorious support also in the horticultural branch. I will do Sir Joseph justice that he not willingly wished to injure me, when he made the uncautious remark to Sir G. Bowen, but surely it would be impossible for any Gov Botanist, whether of England or any country, to do his work without the bot. Garden &amp; all that pertains to it. The <seg style="">
+               <space dim="horizontal" extent="tab"/>What a change to me since 1857 when Sir William gave me such glorious support also in the horticultural branch. I will do Sir Joseph justice that he not willingly wished to injure me, when he made the uncautious remark to Sir G. Bowen, but surely it would be impossible for any Gov Botanist, whether of England or any country, to do his work<space unit="chars" quantity="1"/>without the bot. Garden &amp; all that pertains to it. The<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">deep injury</hi>
-               </seg> which that remark made at Kew (if it was made) inflicted on me, nothing will make good again &amp; it has hindered me even to get married! Now can this not be remedied? Cannot a fair statement be made, setting forth in <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>which that remark made at Kew (if it was made) inflicted on me, nothing will make good again &amp; it has hindered me even to get married! Now can this not be remedied? Cannot a fair statement be made, setting forth in<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">a letter to me, what</hi>
-               </seg> a Governm. Botanist requires.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>a Governm. Botanist requires.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This is perhaps the last letter, which I may ever write to Kew, my dear Mr Dyer, for <seg style="">
+               <space dim="horizontal" extent="tab"/>This is perhaps the last letter, which I may ever write to Kew, my dear Mr Dyer, for<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">grief</hi>
-               </seg> has brought on an almost permanent insomnia, and it is a wonder I become not already insane; for not only have I to do my daily duty as Gov. Botanist under extreme obstacles but have to spend all that I have and have to waste an enormous time in the mere "struggle for existence",<note xml:id="ftn13" type="footnote" n="13">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The title of ch. 3 of Darwin (1859).</p>
-               </note> while I have <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>has brought on an almost permanent insomnia, and it is a wonder I become not already insane; for not only have I to do my daily duty as Gov. Botanist under extreme obstacles but have to spend all that I have and have to waste an enormous time in the mere "struggle for existence",<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn13" n="14">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The title of ch. 3 of Darwin (1859).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>while I have<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">lost</hi>
-               </seg> all hold on the country, and may any day be called on to hand over to the Nurseryman (a cousin of <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>all hold on the country, and may any day be called on to hand over to the Nurseryman (a cousin of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Mr Casey</hi>
                </seg>
-               <seg style="font-style: italic; font-weight: bold; "> </seg>the Paris Exhib Commissioner) also my library &amp; my Museum, if the <seg style="">
+               <seg rend="DefaultParagraphFont"
+                    style="font-weight: bold; font-style: italic; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>the Paris Exhib Commissioner) also my library &amp; my Museum, if the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">only room</hi>
                </seg>
-               <seg style="font-style: italic; "> </seg>built since 1857 for my dried plants can be called such!</p>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>built since 1857 for my dried plants can be called such!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As perhaps you will never get a letter from me again, you will as a <seg style="">
+               <space dim="horizontal" extent="tab"/>As perhaps you will never get a letter from me again, you will as a<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">professional</hi>
-               </seg> man allow me to claim your brotherhood as an University man also, by pointing out an other deep &amp; lasting injury inflicted on me, i.e., by <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>man allow me to claim your brotherhood as an University man also, by pointing out an other deep &amp; lasting injury inflicted on me, i.e., by<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">depriving me of the authorship of the Australian flora</hi>
                </seg>
-               <seg style="font-style: italic; ">. </seg>Bentham's work is everywhere quoted as his sole and own; I have myself done so, simply the diagnoses are written by him; but the <seg style="">
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">.<space unit="chars" quantity="1"/>
+               </seg>Bentham's work is everywhere quoted as his sole and own; I have myself done so, simply the diagnoses are written by him; but the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">real main work</hi>
                </seg>
-               <seg style="font-style: italic; ">,</seg> in travels, prior publications &amp; accumulating &amp; examining the vast material the main work of my best years of life done by me since 1847 uninterruptedly is <seg style="">
-                  <hi rend="underline">far </hi>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">,</seg>
+               <space unit="chars" quantity="1"/>in travels, prior publications &amp; accumulating &amp; examining the vast material the main work of my best years of life done by me since 1847 uninterruptedly is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">far</hi>
+                  <space unit="chars" quantity="1"/>
                </seg>greater than Benthams.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Now, why was that not left for me? Would it not have been far more just to leave <seg style="">
+               <space dim="horizontal" extent="tab"/>Now, why was that not left for me? Would it not have been far more just to leave<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">me</hi>
-               </seg> that work, when Kew was teaming<note xml:id="ftn14" type="footnote" n="14">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">teeming?</p>
-               </note> with unexamined treasures from tropical Africa &amp; other parts of the Globe. Or why did the venerable Bentham not concentrate his great talent on the "genera",<note xml:id="ftn15" type="footnote" n="15">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Bentham &amp; Hooker (1862-83).</p>
-               </note> which by this time would then have been ready. No doubt, you will say, I merely out of <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>that work, when Kew was teaming<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn14" n="15">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>teeming?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>with unexamined treasures from tropical Africa &amp; other parts of the Globe. Or why did the venerable Bentham not concentrate his great talent on the "genera",<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn15" n="16">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Bentham &amp; Hooker (1862-83).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>which by this time would then have been ready. No doubt, you will say, I merely out of<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">vanity</hi>
-               </seg> wished to reserve the Austral Flora to myself; it is not so; but if you had heard the endless derogatory remarks <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>wished to reserve the Austral Flora to myself; it is not so; but if you had heard the endless derogatory remarks<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">made here</hi>
                </seg>
-               <seg style="font-style: italic; "> </seg>to injure me concerning the "Flora Australiensis or rather Australiana" you would have <seg style="">
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>to injure me concerning the "Flora Australiensis or rather Australiana" you would have<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">sympathy</hi>
-               </seg> with me. I lost that <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>with me. I lost that<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">stronghold</hi>
-               </seg> also, which the <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>also, which the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">coauthorship</hi>
-               </seg> of the flora would have afforded me; and altho' I have with manly straightforwardness kept all my promises as a mere "assistant", yet I deeply regretted ever since the first volume was issued, that I entered into a compact, which has had a damaging influence on my position here.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>of the flora would have afforded me; and altho' I have with manly straightforwardness kept all my promises as a mere "assistant", yet I deeply regretted ever since the first volume was issued, that I entered into a compact, which has had a damaging influence on my position here.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Be it enough! and excuse the bitterness of this letter, but my whole future is <seg style="">
+               <space dim="horizontal" extent="tab"/>Be it enough! and excuse the bitterness of this letter, but my whole future is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">spoiled</hi>
-               </seg>. Should you send any return for the seeds from West Australia, please send such direct to me not to the bot Garden. I am striving to get my own creation back again; failing that to get a new piece of ground &amp; new <seg style="">
+               </seg>. Should you send any return for the seeds from West Australia, please send such direct to me not to the bot Garden. I am striving to get my own creation back again; failing that to get a new piece of ground &amp; new<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">buildings</hi>
-               </seg> &amp; votes. But, <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>&amp; votes. But,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">how cruel</hi>
-               </seg> even then to ask me to commence again at the age of 53, when it will take til the end of the century, to build anew what I left in 1873.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>even then to<space unit="chars" quantity="1"/>ask me to commence again at the age of 53, when it will take til the end of the century, to build anew what I left in 1873.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Is there a single friendly sentence about <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Is there a single friendly sentence about<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">me</hi>
-               </seg> except in the preface, in the 7 volumes of [B]<note xml:id="ftn16" type="footnote" n="16">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See Lucas (2003).</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>except in the preface, in the 7 volumes of [B]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn16" n="17">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See Lucas (2003).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I hope this appeal to the P. R. S.,<note xml:id="ftn17" type="footnote" n="17">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Joseph Hooker completed his five-year term as President of the Royal Society in 1878. See M to J. Hooker, 18 May 1878.</p>
-               </note> who sits in Newtons chair, from a man of science in distress, will not be in vain.</p>
+               <space dim="horizontal" extent="tab"/>I hope this appeal to the P. R. S.,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn17" n="18">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Joseph Hooker completed his five-year term as President of the Royal Society in 1878. See M to J. Hooker, 18 May 1878.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>who sits in Newtons chair, from a man of science in distress, will not be in vain.</p>
          </div>
       </body>
    </text>
