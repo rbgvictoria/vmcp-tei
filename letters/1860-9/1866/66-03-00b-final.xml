@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [A letter was read from the Hon. S. Davenport, … enclosing a letter from Dr.  ¶ Mueller ¶ , of Melbourne recommending a display of several varieties of Northern Territory timber, and stating that i...</title>
+            <title> ¶ [A letter was read from the Hon. S. Davenport, ¶  ¶ … ¶  ¶ enclosing a letter from Dr. ¶  ¶ Mueller ¶ , of Melbourne recommending a display of several varieties of Northern Territory timber, and st...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [A letter was read from the Hon. S. Davenport, … enclosing a letter from Dr.  ¶ Mueller ¶ , of Melbourne recommending a display of several varieties of Northern Territory timber, and stating that i...</title>
+               <title> ¶ [A letter was read from the Hon. S. Davenport, ¶  ¶ … ¶  ¶ enclosing a letter from Dr. ¶  ¶ Mueller ¶ , of Melbourne recommending a display of several varieties of Northern Territory timber, and st...</title>
                <date when="1866-03">1866-03</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,29 +83,38 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [A letter was read from the Hon. S. Davenport, … enclosing a letter from Dr.  ¶ Mueller ¶ , of Melbourne recommending a display of several varieties of Northern Territory timber, and stating that i...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [A letter was read from the Hon. S. Davenport, ¶  ¶ … ¶  ¶ enclosing a letter from Dr. ¶  ¶ Mueller ¶ , of Melbourne recommending a display of several varieties of Northern Territory timber, and st...</supplied>
             </head>
             <p rend="number" xml:lang="en">66.03.00b</p>
             <p rend="correspondent" xml:lang="en">To Samuel Davenport</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see 'Letters' in the report of a meeting of the 'General Committee of the Paris Universal Exhibition, 1867' in <seg style="font-style: italic; ">Adelaide observer,</seg> 24 March 1866, p. 3. </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see 'Letters' in the report of a meeting of the 'General Committee of the Paris Universal Exhibition, 1867' in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Adelaide observer,</seg>
+                     <space unit="chars" quantity="1"/>24 March 1866, p. 3.<space unit="chars" quantity="1"/>
+                  </p>
                </note>
-               <space dim="horizontal" extent="tab"/>[A letter was read from the Hon. S. Davenport, … enclosing a letter from Dr. <seg style="">Mueller</seg>, of Melbourne recommending a display of several varieties of Northern Territory timber, and stating that if these were accompanied by a corresponding number of flowering and fruit-bearing <seg style="">trees</seg>, the scientific appellations could be given to the <seg style="">specimens</seg>.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>The suggestion was 'referred to the Miscellaneous Sub-Committee'. </p>
-               </note>] </p>
+               <space dim="horizontal" extent="tab"/>[A letter was read from the Hon. S. Davenport,<space unit="chars" quantity="1"/>…<space unit="chars" quantity="1"/>enclosing a letter from Dr.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">Mueller</seg>, of Melbourne recommending a display of several varieties of Northern Territory timber, and stating that if these were accompanied by a corresponding number of flowering and fruit-bearing<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">trees</seg>, the scientific appellations could be given to the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">specimens</seg>.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The suggestion<space unit="chars" quantity="1"/>was<space unit="chars" quantity="1"/>'referred to the Miscellaneous Sub-Committee'.</p>
+                  </note>
+               </seg>]<space unit="chars" quantity="1"/>
+            </p>
          </div>
       </body>
    </text>

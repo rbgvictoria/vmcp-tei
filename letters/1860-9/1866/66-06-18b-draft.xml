@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Requisition for printing] ¶ M's requisition was approved and forwarded to the Government Printer on 17 May.It is not known what was to be printed, whether stationery or M's latest work....</title>
-            <author>Ferdinand von Mueller</author>
+            <title>18 June 1866. ¶  ¶ I am desired by the Chief Secretary to request that in future when you transmit to the office any paper intended for submission to Parliament you will be good enough at the same tim...</title>
+            <author>John Moore</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -15,26 +15,26 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1876/76-05-00-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1866/66-06-18b-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>No. 4981, vol. 1876 J, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <msName>O5259, no. 2290, p. 163, unit 11, VPRS 1187/P outward correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
-                     <idno>76.05.00</idno>
+                     <idno>66.06.18b</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>Ferdinand von Mueller</author>
-               <title> ¶ [Requisition for printing] ¶ M's requisition was approved and forwarded to the Government Printer on 17 May.It is not known what was to be printed, whether stationery or M's latest work....</title>
-               <date when="1876-05">1876-05</date>
+               <author>John Moore</author>
+               <title>18 June 1866. ¶  ¶ I am desired by the Chief Secretary to request that in future when you transmit to the office any paper intended for submission to Parliament you will be good enough at the same tim...</title>
+               <date when="1866-06-18">1866-06-18</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1876/76-05-00-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-06-18b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -66,6 +66,7 @@
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
+               <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -76,7 +77,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>John MacPherson</name>
+               <name>Ferdinand von Mueller</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -85,16 +86,15 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Requisition for printing] ¶ M's requisition was approved and forwarded to the Government Printer on 17 May.It is not known what was to be printed, whether stationery or M's latest work....</supplied>
+               <supplied reason="XTF-compatibility">18 June 1866. ¶  ¶ I am desired by the Chief Secretary to request that in future when you transmit to the office any paper intended for submission to Parliament you will be good enough at the same tim...</supplied>
             </head>
-            <p rend="number" xml:lang="en">76.05.00<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            <p rend="number" xml:lang="en">66.06.18b<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
-            <p rend="correspondent" xml:lang="en">To John MacPherson</p>
-            <p rend="location" xml:lang="en">No. 4981, vol. 1876 J, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="correspondent" xml:lang="en">From John Moore</p>
+            <p rend="location" xml:lang="en">O5259, no. 2290, p. 163, unit 11, VPRS 1187/P outward correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <note type="footnote" xml:id="_ftn0" n="1">
                   <p rend="FootnoteText"
@@ -104,23 +104,28 @@
                      <space dim="horizontal" extent="tab"/>
                      <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
                   </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a requisition registered<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>17 May 1876.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[Requisition for printing]<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+               </note>18 June 1866.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am desired by the Chief Secretary to request that in future when you transmit to the office any paper intended for submission to Parliament you will be good enough at the same time to specify the number of printed copies (if any) that you will probably require.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>M's requisition was approved and forwarded to the Government Printer on 17 May.<space unit="chars" quantity="1"/>It is not known what was to be printed, whether stationery or M's latest work.</p>
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>This Circular was addressed to the Heads of Departments<space unit="chars" quantity="1"/>within the Chief Secretary's Department;<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>text of the<space unit="chars" quantity="1"/>letter appears<space unit="chars" quantity="1"/>as no. 2286, p. 63.</p>
                   </note>
                </seg>
             </p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">(Sd) J. Moore</p>
             <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Director of The Botanic Gardens</p>
          </div>
       </body>
    </text>

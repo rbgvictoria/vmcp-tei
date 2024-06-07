@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>October 1868 ¶  ¶ [from Dr Mueller.]...</title>
+            <title>October 1868 ¶ M's letter was read at a Council meeting, 28 October 1868.This is all a bit tenuous. The notes imply that this letter was in response to that of the Council in May; I suspect corres[ond...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Minute book 3, p. 351, Borough Council records, Port Fairy, Victoria. </msName>
+                  <msName>Minute book 3, p. 351, Borough Council records, Port Fairy, Victoria.</msName>
                   <altIdentifier>
                      <idno>68.10.00</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>October 1868 ¶  ¶ [from Dr Mueller.]...</title>
+               <title>October 1868 ¶ M's letter was read at a Council meeting, 28 October 1868.This is all a bit tenuous. The notes imply that this letter was in response to that of the Council in May; I suspect corres[ond...</title>
                <date when="1868-10">1868-10</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,47 +85,65 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">October 1868 ¶  ¶ [from Dr Mueller.]...</supplied>
+               <supplied reason="XTF-compatibility">October 1868 ¶ M's letter was read at a Council meeting, 28 October 1868.This is all a bit tenuous. The notes imply that this letter was in response to that of the Council in May; I suspect corres[ond...</supplied>
             </head>
-            <p rend="number" xml:lang="en">68.10.00</p>
+            <p rend="number" xml:lang="en">68.10.00<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">To William Barrett</p>
-            <p rend="location" xml:lang="en">Minute book 3, p. 351, Borough Council records, Port Fairy, Victoria. </p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Transcribed 10.9.93. To proof.</seg>
-                  </p>
-               </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>At the Council meeting of 27 May 1868 the Mayor, E. Yorke, reported: 'that while in Melbourne he had seen Dr Mueller with a view of obtaining some plants for the Gardens. The Town Clerk was instructed to send to Dr Mueller a plan of the Gardens and also a description of the soil, and to request Mr Binyon to take delivery of the plants and forward them.' (Minute book 3, pp. 316-7; <seg style="font-style: italic; ">Belfast gazette</seg>, 4 June 1868, p. 2).</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>For another reference to this letter see <seg style="font-style: italic; ">Belfast gazette</seg>, 5 November 1868, p. 2.</p>
-               </note>
-               <seg style="background-color: #ffff00; ">October 1868</seg>
-               <note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M's letter was read at a Council meeting, 28 October 1868.</p>
-               </note>
+            <p rend="location" xml:lang="en">Minute book 3, p. 351, Borough Council records, Port Fairy, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Transcribed 10.9.93. To proof.</seg>
+                  </p>
+               </note>
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>At the<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Belfast Borough<space unit="chars" quantity="1"/>
+                     </seg>Council meeting of 27 May 1868 the Mayor, E. Yorke, reported: 'that while in Melbourne he had seen Dr Mueller with a view of obtaining some plants for the Gardens. The Town Clerk was instructed to send to Dr Mueller a plan of the Gardens and also a description of the soil, and to request Mr Binyon to take delivery of the plants and forward them.' (Minute book 3, pp. 316-7;<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 4 June 1868, p. 2).</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>For another reference to this letter see<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 5 November 1868, p. 2.</p>
+               </note>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">October 1868</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M's letter was read at a Council meeting, 28 October 1868.</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">This is all a bit tenuous. The notes imply that this letter was in response to that of the Council in May; I suspect corres[ondene in between these dates, what we really need is the text of the report in the Belfast Gazette 5 November 1868. That newspaper not on line.<space unit="chars" quantity="1"/>Unfortunately University of Melb microfilsm<space unit="chars" quantity="1"/>stop June 1868<space unit="chars" quantity="1"/>SLV has microfilm, n=but I haven’t been able to conform the holdings, but seems to be complete.</p>
+                  </note>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>[from Dr Mueller.]</p>
          </div>
