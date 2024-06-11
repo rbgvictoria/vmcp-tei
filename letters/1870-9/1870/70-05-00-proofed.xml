@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>May 1870 ¶  ¶ [Inward correspondence ¶  ¶ Dr F Mueller. — asking that the Council would name some person in Melbourne to take delivery of plants for the Gardens.]...</title>
+            <title> ¶ [Inward correspondence ¶  ¶ Dr F Mueller. — asking that the Council would name some person in Melbourne to take delivery of plants for the Gardens.]...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,8 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Minute book 3, p. 476, 11 May 1870, Municipal Council records, Port Fairy, Victoria.</msName>
+                  <msName>Minute book 3, p. 476,11 May 1870, Municipal Council records, Port Fairy, Victoria.</msName>
+                  <msName>Minute book3,p. 476,VPRS 11097/P0001, Council Minutes, 30 Sep 1863 - 03 Aug 1870,Belfast Borough Council records, VA4030, Public Record Office, Victoria</msName>
                   <altIdentifier>
                      <idno>70.05.00</idno>
                   </altIdentifier>
@@ -28,7 +29,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>May 1870 ¶  ¶ [Inward correspondence ¶  ¶ Dr F Mueller. — asking that the Council would name some person in Melbourne to take delivery of plants for the Gardens.]...</title>
+               <title> ¶ [Inward correspondence ¶  ¶ Dr F Mueller. — asking that the Council would name some person in Melbourne to take delivery of plants for the Gardens.]...</title>
                <date when="1870-05">1870-05</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +39,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +56,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,34 +86,77 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">May 1870 ¶  ¶ [Inward correspondence ¶  ¶ Dr F Mueller. — asking that the Council would name some person in Melbourne to take delivery of plants for the Gardens.]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Inward correspondence ¶  ¶ Dr F Mueller. — asking that the Council would name some person in Melbourne to take delivery of plants for the Gardens.]...</supplied>
             </head>
-            <p rend="number" xml:lang="en">70.05.00</p>
+            <p rend="number" xml:lang="en">70.05.00<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">To William Barrett</p>
-            <p rend="location" xml:lang="en">Minute book 3, p. 476, 11 May 1870, Municipal Council records, Port Fairy, Victoria.</p>
+            <p rend="location" xml:lang="en">Minute book 3, p. 476,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">11 May 1870</seg>, Municipal Council records, Port Fairy, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="location" xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">Minute book<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">3,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">p. 476</seg>,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">VPRS 11097/P0001, Council Minutes, 30 Sep 1863 - 03 Aug 1870,</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">Belfast Borough Council records, VA</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">4030</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">, Public Record Office, Victoria</seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; background-color: #ffff00; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">Transcribed 1.9.93. To proof.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Transcribed 1.9.93. To proof.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. For another summary of the letter see <seg style="font-style: italic; ">Belfast Gazette</seg>, 19 May 1870, p. 2.</p>
-               </note>May 1870</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="en">
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">The text given here is from the minutes of the meeting of the Belfast<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Borough</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                        <space unit="chars" quantity="1"/>Council held on 11 May 1871</seg>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <seg rend="DefaultParagraphFont" style="font-size: 13pt; ">
+                        <space dim="horizontal" extent="tab"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-size: 13pt; ">
+                        <space dim="horizontal" extent="tab"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">For another summary of the letter see<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="font-style: italic; background-color: #FFFF00; ">Belfast Gazette</seg>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">, 19 May 1870, p. 2.</seg>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
+                     xml:lang="en">Is this worth including unless it is significantly different?<space unit="chars" quantity="1"/>It is not easy to find on=line<space unit="chars" quantity="1"/>
+                  </p>
+               </note>
                <space dim="horizontal" extent="tab"/>[Inward correspondence</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr F Mueller. — asking that the Council would name some person in Melbourne to take delivery of plants for the Gardens.]</p>
          </div>

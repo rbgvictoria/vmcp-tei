@@ -38,9 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -78,7 +74,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>the Town Clerk, Port Fairy</name>
+               <name>Charles Neylon</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -90,28 +86,33 @@
                <supplied reason="XTF-compatibility"> ¶ [From Baron Von Mueller, acknowledging receipt of council's invitation to visit Port Fairy to witness the splendid results obtained by the planting of the marum grass, for which he felt highly grat...</supplied>
             </head>
             <p rend="number" xml:lang="en">94.07.00</p>
-            <p rend="correspondent" xml:lang="en">To the Town Clerk, Port Fairy</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Charles Neylon</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Charles Neylon. Letter not found. The text given here is from a report of the meeting of the Port Fairy Borough Council on 25 July 1894, <seg style="font-style: italic; ">Port Fairy gazette</seg>, 27 July 1894, p. 3. The Council minutes merely record the receipt of a letter from M ‘re proposed visit to Port Fairy’ (minute book 11, p. 17, Borough Council records, Port Fairy, Victoria). </p>
+                     <space dim="horizontal" extent="tab"/>Letter not<space unit="chars" quantity="1"/>found. The text given here is from a report<space unit="chars" quantity="1"/>of the meeting of the Port Fairy Borough Council on 25 July 1894,<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Port Fairy gazette</seg>, 27 July 1894, p. 3. The Council minutes merely record the receipt of a letter from M ‘re proposed visit to Port Fairy’<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="">Minute book 11, 06 Jun 1894 - 18 May 1898, p. 17, VPRS 11097/P0001, Council Minutes, Port Fairy Borough Council records, VA 2488, Public Record Office, Victoria)</seg>
+                  </p>
                </note>
-               <space dim="horizontal" extent="tab"/>[From Baron Von Mueller, acknowledging receipt of council's invitation to visit Port Fairy to witness the splendid results obtained by the planting of the marum grass, for which he felt highly gratified.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>At a meeting of the Council on 30 June 1894 the Mayor, W. Earle, reported 'that the planting of the Marram grass had this year been carried out in a most satisfactory manner and he now thought it would be a fitting time to invite Baron Von Mueller to visit Port Fairy and see for himself the immense amount of good accruing from the introduction of Marrum grass. They were greatly indebted to the Baron and he accordingly moved "That an invitation be sent to Baron von Mueller K.C.M.G. to visit Port Fairy and see for himself the wonderful growth of the grass" — | Seconded by Cr Tennyson Carried unanimously' (minute book 11, p. 8, Borough Council records, Port Fairy).</p>
-               </note> He could not, however, visit the town during the winter months, as he was not in very good health, but he would come down in the summer, when the weather would be more suitable for him to move about.]<space dim="horizontal" extent="tab"/>
+               <space dim="horizontal" extent="tab"/>[From Baron Von Mueller, acknowledging receipt of council's invitation to visit Port Fairy to witness the splendid results obtained by the planting of the marum grass, for which he felt highly gratified.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>At a meeting of the Council on 30 June 1894 the Mayor, W. Earle, reported 'that the planting of the Marram grass had this year been carried out in a most satisfactory manner and he now thought it would be a fitting time to invite Baron Von Mueller to visit Port Fairy and see for himself the immense amount of good accruing from the introduction of Marrum grass. They were greatly indebted to the Baron and he accordingly moved "That an invitation be sent to Baron von Mueller K.C.M.G. to visit Port Fairy and see for himself the wonderful growth of the grass" — | Seconded by Cr Tennyson Carried unanimously' (minute book 11, p. 8, Borough Council records).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>He could not, however, visit the town during the winter months, as he was not in very good health, but he would come down in the summer, when the weather would be more suitable for him to move about.]<space dim="horizontal" extent="tab"/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>

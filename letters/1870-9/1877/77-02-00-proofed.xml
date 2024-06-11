@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation]...</title>
+            <title> ¶ [Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation] ¶ Council 'Resolved that a letter be forwarded in reply stating a...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -21,6 +21,7 @@
             <msDesc>
                <msIdentifier>
                   <msName>Minute book 5, pp. 335-6, Borough Council records, Port Fairy, Victoria.</msName>
+                  <msName>Minute book5,1873-1879(sic),p. 335-6,VPRS 11097/P0001, Council Minutes,VPRS 11097/P0001,Belfast Borough Council records, VA4030, Public Record Office, Victoria.</msName>
                   <altIdentifier>
                      <idno>77.02.00</idno>
                   </altIdentifier>
@@ -28,7 +29,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation]...</title>
+               <title> ¶ [Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation] ¶ Council 'Resolved that a letter be forwarded in reply stating a...</title>
                <date when="1877-02">1877-02</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +39,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +56,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +63,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,28 +86,123 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation] ¶ Council 'Resolved that a letter be forwarded in reply stating a...</supplied>
             </head>
             <p rend="number" xml:lang="en">77.02.00</p>
             <p rend="correspondent" xml:lang="en">To Frederick Mandeville</p>
-            <p rend="location" xml:lang="en">Minute book 5, pp. 335-6, Borough Council records, Port Fairy, Victoria.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="location" xml:lang="en">Minute book 5, pp. 335-6, Borough Council records, Port Fairy, Victoria.<seg rend="FootnoteReference" style=""/>
+            </p>
+            <p rend="location" xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">Minute book<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">5</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">1873-187</seg>
+               <seg rend="DefaultParagraphFont"
+                    style="color: #C00000; background-color: #FFFF00; ">9</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                  <space unit="chars" quantity="1"/>(</seg>
+               <seg rend="DefaultParagraphFont"
+                    style="font-style: italic; color: #C00000; ">sic</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">)</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">p. 335-6,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">VPRS 11097/P0001, Council Minutes,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">VPRS 11097/P0001,<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">Belfast Borough Council records, VA</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">4030</seg>
+               <seg rend="DefaultParagraphFont" style="color: #C00000; ">, Public Record Office, Victoria.</seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. M's letter was read at a Council meeting on 7 February 1877. For a printed copy of this report see <seg style="font-style: italic; ">Belfast gazette</seg>, 9 February 1877, p<seg style="font-weight: bold; ">. 2</seg>.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Council 'Resolved that a letter be forwarded in reply stating actual result of experiments thanking the Baron for his past services ad accepting with pleasure any future donation of seeds'; letter not found. 'The Town Clerk stated that Mr. Cole, the [...]man, had sown some of the seed [...] Baron Mueller in his paddock [...] and took all kinds of care to [...] but without success. | Resolved that a letter be forwarded to Dr Mueller, conveying the thanks of [...] his kindness in forwarding the [...] received, and desiring a further [...] would be sown at the proper [...] carefully attended to.' (<seg style="font-style: italic; ">Belfast gazette</seg>, 9 February 1877, p. 3). 'Mr. Cole' not further identified<seg style="color: #0015fe; "> .</seg>
-                     <seg style="font-weight: bold; ">need to check another copy in LtL because film of this one cuts off some text. </seg>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">The text given here is from the minutes of the meeting of the Belfast Borough Council held on<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">7 February 1877</seg>.<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">For a printed copy of<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="font-weight: bold; background-color: #FFFF00; ">this report</seg>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">
+                        <space unit="chars" quantity="1"/>see<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="font-style: italic; background-color: #FFFF00; ">Belfast gazette</seg>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">, 9 February 1877, p</seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="font-weight: bold; background-color: #FFFF00; ">. 2</seg>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">.</seg>
+                     <space unit="chars" quantity="1"/>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                     xml:lang="en">
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">"</seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="color: #C00000; background-color: #FFFF00; ">This report</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">" is ambiguous or at least unclear. Is it<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">ghe</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">newspaper<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">report of the meeting of the council</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">?<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">a copy of the report asked for by M?</seg>
                   </p>
                </note>
+               <space dim="horizontal" extent="tab"/>[Baron Von Mueller asking what success had attended the planting out of the seeds sent by Government for Sand Hummocks reclamation]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Council 'Resolved that a letter be forwarded in reply stating actual result of experiments thanking the Baron for his past services ad accepting with pleasure any future donation of seeds'; letter not found.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">'The Town Clerk stated that Mr. Cole, the [...]man, had sown some of the seed [...] Baron Mueller in his paddock [...] and took all kinds of care to [...] but without success. | Resolved that a letter be forwarded to Dr Mueller, conveying the thanks of [...] his kindness in forwarding the [...] received, and desiring a further [...] would be sown at the proper [...] carefully attended to.</seg>' (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 9 February 1877, p. 3).<space unit="chars" quantity="1"/>'Mr. Cole'<space unit="chars" quantity="1"/>not further identified<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>.</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">need to check another copy in LtL because film of this one cuts off some text.</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Are further details only found in the<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-weight: bold; font-style: italic; color: #C00000; ">Gazette</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">, or in Minutes too? I assume the former, in which case it is certainly worth giving it, but introduce this passage<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>by</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="2"/>"A report in the<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #C00000; ">Belfast gazette</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">, 9 February 1877, p. 3, gives additional details.</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>…</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

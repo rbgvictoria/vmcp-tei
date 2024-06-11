@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -93,16 +89,22 @@
             </head>
             <p rend="number" xml:lang="en">86.05.00</p>
             <p rend="correspondent" xml:lang="en">To Samuel Avery</p>
-            <p rend="location" xml:lang="en">Minute book 8, p. 456, Borough Council records, Port Fairy, Victoria.</p>
+            <p rend="location" xml:lang="en">Minute book 8, p. 456, Borough Council records, Port Fairy, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. M's letter was read at a Council meeting, 26 May 1886, when it was 'Resolved that the Baron be thanked for interest taken in the matter'. The <seg style="font-style: italic; ">Belfast gazette</seg> published the following summary of the letter and discussion: 'Baron Von Mueller to the Park Ranger, expressing his gratification at the success of the British Marrum grass on the reserve, the seeds of which he had forwarded to the Council, the report of which he had seen in the <seg style="font-style: italic; ">Belfast</seg>
-                     <seg style="font-style: italic; ">Gazette</seg>. The Baron stated he had some other valuable grasses and herbs seeds which he would forward to Mr Avery. — It was decided that the thanks of the Council be sent to Baron Von Muller for his kindness' (<seg style="font-style: italic; ">Belfast gazette</seg>, 28 May 1886, p. 3). Letter of thanks not found.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>The text given here is from the minutes of the meeting of the Belfast Borough Council held on<space unit="chars" quantity="1"/>26 May 1886, when it was 'Resolved that the Baron be thanked for interest taken in the matter'. The<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>
+                     <space unit="chars" quantity="1"/>published the following summary of the letter and discussion: 'Baron Von Mueller to the Park Ranger, expressing his gratification at the success of the British Marrum grass on the reserve, the seeds of which he had forwarded to the Council, the report of which he had seen in the<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast</seg>
+                     <space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gazette</seg>. The Baron stated he had some other valuable grasses and herbs seeds which he would forward to Mr Avery. — It was decided that the thanks of the Council be sent to Baron Von Muller for his kindness' (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 28 May 1886, p. 3).<space unit="chars" quantity="1"/>Letter of thanks not found.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[Baron Von Mueller — on success of some planting at Fairy Park]</p>
          </div>
