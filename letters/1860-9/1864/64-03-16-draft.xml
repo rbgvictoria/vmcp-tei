@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne botanic Garden, ¶ 16/3/64 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX, ¶  and to tender for the transmission ...</title>
+            <title>Melbourne botanic Garden, ¶ 16/3/64 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX, and to tender for the transmission my ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1864/64-03-16.doc</idno>
+            <idno type="filename">data/letters/1860-9/1864/64-03-16-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne botanic Garden, ¶ 16/3/64 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX, ¶  and to tender for the transmission ...</title>
+               <title>Melbourne botanic Garden, ¶ 16/3/64 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX, and to tender for the transmission my ...</title>
                <date when="1864-03-16">1864-03-16</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1864/64-03-16.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1864/64-03-16-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,60 +86,63 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne botanic Garden, ¶ 16/3/64 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX, ¶  and to tender for the transmission ...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne botanic Garden, ¶ 16/3/64 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX, and to tender for the transmission my ...</supplied>
             </head>
             <p rend="number" xml:lang="en">64.03.16</p>
             <p rend="correspondent" xml:lang="en">To James McCulloch</p>
             <p rend="location" xml:lang="en">F64/2730, unit 25, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also W. Odgers to M, 15 March 1864.</p>
-               </note>Melbourne botanic Garden,</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Melbourne botanic Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">16/3/64</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Cite. Are they at MEL?</seg>
-                  </p>
-               </note> and to tender for the transmission my best thanks.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to acknowledge the receipt of Capt Beddome's work on ferns of South India, two copies of part IX, and to tender for the transmission my best thanks<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Beddome (1863).</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>The fascicles were sent with<space unit="chars" quantity="1"/>
+                        </seg>W. Odgers to M, 15 March 1864.</p>
+                  </note>
+               </seg>.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The honorable the Chief Secretary</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">&amp;c <space unit="chars" quantity="4"/>&amp;c <space unit="chars" quantity="4"/>&amp;c</p>
          </div>
       </body>
