@@ -57,12 +57,16 @@
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
+               <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -101,7 +105,17 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to solicit, that you will be pleased to sanction for expenditure in this establishment during this and the following months the following amounts</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to solicit, that you will be pleased to sanction for expenditure in this establishment during this and the following months the following amounts<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Approval minuted?</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <table n="">
                <row>

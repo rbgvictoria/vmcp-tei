@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Minute book 6, p. 168, Borough Council records, Port Fairy, Victoria.</msName>
+                  <msName>Minute book6,06 February1878 - 27 April1881,p.168, VPRS 11097/P0001, Belfast Borough Council records VA 4030, Public Record Office, Victoria.</msName>
                   <altIdentifier>
                      <idno>81.02.00</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -93,21 +88,20 @@
             </head>
             <p rend="number" xml:lang="en">81.02.00</p>
             <p rend="correspondent" xml:lang="en">To Zachariah Wilson</p>
-            <p rend="location" xml:lang="en">Minute book 6, p. 168, Borough Council records, Port Fairy, Victoria.</p>
+            <p rend="location" xml:lang="en">Minute book<space unit="chars" quantity="1"/>6,<space unit="chars" quantity="1"/>06 February<space unit="chars" quantity="1"/>1878 - 27 April<space unit="chars" quantity="1"/>18<space unit="chars" quantity="1"/>81,<space unit="chars" quantity="1"/>p.<space unit="chars" quantity="1"/>168, VPRS 11097/P0001, Belfast Borough Council records VA 4030, Public Record Office, Victoria.<seg rend="FootnoteReference" style=""/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found; item is a minute entry only. The letter was read at the meeting of the Borough Council of 2 March 1881, and is therefore dated to February 1881.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>The text given here is from the minutes of the meeting of the Belfast Borough Council held on 2 March 1881. It is dated to February 1881 as the latest date it could have been written to have been reported at this meeting.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Baron Von Mueller</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Forwarding seeds for sewing on the Hummocks.]</p>
+               <space dim="horizontal" extent="tab"/>[Baron Von Mueller<space unit="chars" quantity="1"/>Forwarding seeds for sewing on the Hummocks.]</p>
          </div>
       </body>
    </text>

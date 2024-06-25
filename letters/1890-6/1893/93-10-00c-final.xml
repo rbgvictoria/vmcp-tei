@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum grass seed might be sent hi...</title>
+            <title> ¶ [The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum ¶ Marrum? ¶  ¶ grass seed m...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum grass seed might be sent hi...</title>
+               <title> ¶ [The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum ¶ Marrum? ¶  ¶ grass seed m...</title>
                <date when="1893-10">1893-10</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,25 +83,48 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum grass seed might be sent hi...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum ¶ Marrum? ¶  ¶ grass seed m...</supplied>
             </head>
             <p rend="number" xml:lang="en">93.10.00c</p>
             <p rend="correspondent" xml:lang="en">To Samuel Avery</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. For the text given here, see the report of the meeting of the Port Fairy Borough Council held on 11 October 1893, in <seg style="font-style: italic; ">Belfast gazette</seg>, 13 October 1893, p. 2. The official minutes of the meeting (Minute book 10, p. 438, 11 October 1893, Borough Council records, Port Fairy) contain significantly less information.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see<space unit="chars" quantity="1"/>the report of the meeting of the Port Fairy Borough Council held on 11 October 1893, in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 13 October 1893, p. 2.<space unit="chars" quantity="1"/>The official minutes of the meeting (Minute book 10,<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">01 Oct</seg>
+                     <seg rend="DefaultParagraphFont" style="">ober</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>1890 - 23 May 1894, p. 438, VPRS 11097/P0001, Port Fairy Borough Council records VA 2488, Public Record Office, Victoria</seg>
+                     <seg rend="DefaultParagraphFont" style="">)</seg>
+                     <space unit="chars" quantity="1"/>contain significantly less information.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum grass seed might be sent him, as well as a photograph of the grass.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">According to the newspaper report, ‘The Mayor stated this request had been attended to, the photographer who was recently in the town having taken a number of the views'.</p>
-               </note>]</p>
+               <space dim="horizontal" extent="tab"/>[The Park Ranger acknowledged the receipt of 23 packets of different kinds of seeds from Baron Von Mueller, for planting in the park. The Baron had asked that some marum<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Marrum?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>grass seed might be sent him, as well as a photograph of the grass.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>According to the newspaper report, ‘The Mayor stated this request had been attended to, the photographer who was recently in the town having taken a number of the views'.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gardener's<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">c</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">hronicle</seg>, 16 December 1893, p. 745,<space unit="chars" quantity="1"/>published two<space unit="chars" quantity="1"/>engravings from photographs<space unit="chars" quantity="1"/>provided<space unit="chars" quantity="1"/>by M (see p. 750), presumably from this set.</p>
+                  </note>
+               </seg>]</p>
          </div>
       </body>
    </text>

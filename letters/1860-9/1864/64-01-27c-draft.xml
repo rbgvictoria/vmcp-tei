@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>27th January 1864 ¶  ¶ I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock ¶ Sd J Moore ¶ The Director ¶ Botanic Gardens ¶ See also M to J. McCulloch, 27 Januar...</title>
+            <title>27th January 1864 ¶  ¶ I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock ¶ It is not known what lay behind this summons. ¶ Sd J Moore ¶ The Director ¶ Botanic...</title>
             <author>John Moore</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>John Moore</author>
-               <title>27th January 1864 ¶  ¶ I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock ¶ Sd J Moore ¶ The Director ¶ Botanic Gardens ¶ See also M to J. McCulloch, 27 Januar...</title>
+               <title>27th January 1864 ¶  ¶ I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock ¶ It is not known what lay behind this summons. ¶ Sd J Moore ¶ The Director ¶ Botanic...</title>
                <date when="1864-01-27">1864-01-27</date>
             </bibl>
          </sourceDesc>
@@ -86,7 +86,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">27th January 1864 ¶  ¶ I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock ¶ Sd J Moore ¶ The Director ¶ Botanic Gardens ¶ See also M to J. McCulloch, 27 Januar...</supplied>
+               <supplied reason="XTF-compatibility">27th January 1864 ¶  ¶ I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock ¶ It is not known what lay behind this summons. ¶ Sd J Moore ¶ The Director ¶ Botanic...</supplied>
             </head>
             <p rend="number" xml:lang="en">64.01.27c<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -108,7 +108,15 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to intimate the Chief Secretarys desire to see you tomorrow at one O'clock<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>It is not known what lay behind this summons.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Sd J Moore</p>
@@ -118,27 +126,7 @@
                xml:lang="en">The Director</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">Botanic Gardens<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">See also M to J. McCulloch, 27 January 1864.</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Which of M's letters? Does the cover sheet have the relevant file number annotated on it? It should have.</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
-                        xml:lang="en">None of the three letters to McCulloch of 27 Jan 1864<space unit="chars" quantity="1"/>we have<space unit="chars" quantity="1"/>looks at all remotely possible. In any case, must the summons be a consequence of a letter from M?<space unit="chars" quantity="1"/>
-                     </p>
-                  </note>
-               </seg>
-            </p>
+               xml:lang="en">Botanic Gardens</p>
          </div>
       </body>
    </text>
