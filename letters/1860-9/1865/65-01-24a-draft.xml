@@ -66,6 +66,7 @@
                <term>valediction</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -126,7 +127,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>MS written by Ernst Heyne and signed by M.</p>
+                        <space dim="horizontal" extent="tab"/>MS written by Ernst Heyne and signed by M.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Any response?</seg>
+                     </p>
                   </note>
                </seg>
             </p>
