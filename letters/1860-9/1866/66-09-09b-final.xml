@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1866/66-09-09b-proofed.doc</idno>
+            <idno type="filename">data/letters/1860-9/1866/66-09-09b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-09-09b-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-09-09b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -52,7 +52,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -86,8 +86,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Sir, — Observing in a letter, on tea culture, promulgated by your paper, that allusion is made to ¶  ¶ my name, I deem it but right to reply to the discouraging remarks of your correspondent. While ¶ ...</supplied>
             </head>
-            <p rend="number" xml:lang="en">66.09.09b<space unit="chars" quantity="1"/>
-            </p>
+            <p rend="number" xml:lang="en">66.09.09b</p>
             <p rend="correspondent" xml:lang="en">To the Editor of the Age</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
@@ -100,7 +99,10 @@
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'The tea plant in Victoria',<space unit="chars" quantity="1"/>
                      <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
-                     <space unit="chars" quantity="1"/>(Melbourne), 14 September 1866, p. 7<space unit="chars" quantity="1"/>(B66.09.02).</p>
+                     <space unit="chars" quantity="1"/>(Melbourne), 14 September 1866, p. 7<space unit="chars" quantity="1"/>(B66.09.02).<seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                  </p>
                </note>
                <seg rend="DefaultParagraphFont" style="">Sir, — Observing in a letter, on tea culture, promulgated by your paper, that allusion is made to</seg>
                <seg rend="DefaultParagraphFont" style="">
@@ -117,17 +119,22 @@
                   <space unit="chars" quantity="1"/>
                </seg>
                <seg rend="DefaultParagraphFont" style="">Candalle</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter error for</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">'s</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>error for</seg>
                         <space unit="chars" quantity="1"/>Candolle?</p>
                   </note>
                </seg>
-               <seg rend="DefaultParagraphFont" style="">, expressed in his presidential address, at</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>expressed in his presidential address, at</seg>
                <seg rend="DefaultParagraphFont" style="">
                   <space unit="chars" quantity="1"/>
                </seg>
@@ -153,7 +160,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>'Cultivator', in a letter to the Editor of the Age dated 4 September 1866 ('Can we grow our own tea'<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>'Cultivator', in a letter to the Editor of the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
+                        <space unit="chars" quantity="1"/>dated 4 September 1866 ('Can we grow our own tea',<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>, 5 September 1866, p. 7) had quoted a long translation from<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">de Candolle<space unit="chars" quantity="1"/>
                         </seg>
@@ -164,7 +173,10 @@
                         <seg rend="DefaultParagraphFont" style="">Cultivator's emphasis], and<space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">vice versa</seg>
-                        <seg rend="DefaultParagraphFont" style="">'. The original passage is from A. de Candolle (1866), p. 38. 'Cultivator' ended his letter ' "Pause on it, think on it, tea planting men.'</seg>
+                        <seg rend="DefaultParagraphFont" style="">'. The original passage is from A. de Candolle (1866), p. 38. 'Cultivator' ended his letter</seg>
+                        <seg rend="DefaultParagraphFont" style="">,</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>' "Pause on it, think on it, tea planting men.'</seg>
                      </p>
                   </note>
                </seg>
@@ -260,7 +272,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>The International exhibition, London 1862 (1862), p. 143,<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>International<space unit="chars" quantity="1"/>Exhibition, London 1862 (1862), p. 143,<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">lists</seg>
                         <seg rend="DefaultParagraphFont" style="">
                            <space unit="chars" quantity="1"/>tea<space unit="chars" quantity="1"/>
