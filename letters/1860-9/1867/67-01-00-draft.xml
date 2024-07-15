@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>January 1867 ¶  ¶ [Debts for Civil Service Regulations]...</title>
+            <title>January 1867 ¶  ¶ [ ¶ Debts ¶  ¶ for Civil Service Regulations] ¶ This letter was referred to the Government Printer's office, 12 January 1867.I am sure thatDebtswill not be correctly transcribed:NewP...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>January 1867 ¶  ¶ [Debts for Civil Service Regulations]...</title>
+               <title>January 1867 ¶  ¶ [ ¶ Debts ¶  ¶ for Civil Service Regulations] ¶ This letter was referred to the Government Printer's office, 12 January 1867.I am sure thatDebtswill not be correctly transcribed:NewP...</title>
                <date when="1867-01">1867-01</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,41 +85,70 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">January 1867 ¶  ¶ [Debts for Civil Service Regulations]...</supplied>
+               <supplied reason="XTF-compatibility">January 1867 ¶  ¶ [ ¶ Debts ¶  ¶ for Civil Service Regulations] ¶ This letter was referred to the Government Printer's office, 12 January 1867.I am sure thatDebtswill not be correctly transcribed:NewP...</supplied>
             </head>
-            <p rend="number" xml:lang="en">67.01.00a</p>
+            <p rend="number" xml:lang="en">67.01.00a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">To James McCulloch</p>
-            <p rend="location" xml:lang="en">No. 486, vol. 1867 Q, VPRS 1186/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof at PRO.</seg>
-                  </p>
-               </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note>January 1867<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Registered, 11 January 1867.</p>
-               </note>
+            <p rend="location" xml:lang="en">No. 486, vol. 1867 Q, VPRS 1186/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[Debts for Civil Service Regulations]<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">This letter was referred to the Government Printer's office, 12 January 1867.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof at PRO.</seg>
+                  </p>
                </note>
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found<seg rend="DefaultParagraphFont" style="color: #0070C0; ">; item is a register entry only, of a letter<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="color: #0070C0; background-color: #FFFF00; ">registered<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">11 January 1867</seg>
+                     <seg rend="DefaultParagraphFont" style="font-size: 13pt; ">.</seg>
+                  </p>
+               </note>January 1867</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>[<seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Debts</seg>
+               <space unit="chars" quantity="1"/>for Civil Service Regulations]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>This letter was referred to the Government Printer's office, 12 January 1867.</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">I am sure that<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="color: #C00000; background-color: #FFFF00; ">Debts</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                           <space unit="chars" quantity="1"/>will not be correctly transcribed:<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">New<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #C00000; ">Public Service Regulations</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">, dated 31 December 1866 were published in the Gazette, 8 January 1867, pp 38-39. Section 34 stated that "… Officers at the head of the various branches opf each Department are directed to send in requisitions for copies of these regulations for the use of all officers under their control…"</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
