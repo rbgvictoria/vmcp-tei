@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Melbourne the 21 May 1857 ¶ Dear Sir William! ¶  ¶ Your friendly letter from the 26 of October '56 I received at the end of March '57 on my return from my excursion I have delayed until now to reply t...</title>
+            <author>Carl Wilhelmi</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/mentions/1850-9/M57-05-21-nonsf.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RBG Kew, Directors' letters, vol. LXXIV, Australia letters 1851-8, no. 235.</msName>
+                  <altIdentifier>
+                     <idno>M57.05.21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Carl Wilhelmi</author>
+               <title>Melbourne the 21 May 1857 ¶ Dear Sir William! ¶  ¶ Your friendly letter from the 26 of October '56 I received at the end of March '57 on my return from my excursion I have delayed until now to reply t...</title>
+               <date when="1857-05-21">1857-05-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/mentions/1850-9/M57-05-21-nonsf.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William Hooker</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Melbourne the 21 May 1857 ¶ Dear Sir William! ¶  ¶ Your friendly letter from the 26 of October '56 I received at the end of March '57 on my return from my excursion I have delayed until now to reply t...</supplied>
+            </head>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="number" xml:lang="en">M57.05.21</p>
+            <p rend="correspondent" xml:lang="en">From Carl Wilhelmi to William Hooker</p>
+            <p rend="location" xml:lang="en">RBG Kew, Directors' letters, vol. LXXIV, Australia letters 1851-8, no. 235.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">Melbourne the 21 May 1857</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">Dear Sir William!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Your friendly letter from the 26 of October '56 I received at the end of March '57 on my return from my excursion I have delayed until now to reply to your above letter, hoping that Dr. Mueller would have been back here long since and that he would have in that case described the plants found in my Expedition. Dr. Mueller was here in February but returned the same month to Sydney to put in order his business there, but now according to his last advises he will not definitely return to Melbourne before the End of June [...]<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.1665in; margin-right: 0in; text-indent: -0.1665in; font-size: 9pt; margin-top: 0.1665in; margin-bottom: 0in; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>The remainder of Wilhelmi’s letter describes his excursion to the Grampians, Victoria Ranges &amp; Pyrenees with his assistant Dr. Schenk. <space unit="chars" quantity="1"/>A post-script asked for plants of 'Cyperus Papirus' (<seg style="font-style: italic; ">sic</seg>) to introduce into the lagoon of the Botanical Garden.</p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

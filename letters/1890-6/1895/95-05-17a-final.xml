@@ -1,0 +1,153 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [The Ministry has accepted the report of 22nd of the previous month concerning the forthcoming 70th birthday of Baron Dr Ferdinand v. Müller in Melbourne and has addressed a letter of congratulatio...</title>
+            <author>[Gustav von Silcher]</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1895/95-05-17a-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Staatliches Museum für Naturkunde, Stuttgart.</msName>
+                  <altIdentifier>
+                     <idno>95.05.17a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>[Gustav von Silcher]</author>
+               <title> ¶ [The Ministry has accepted the report of 22nd of the previous month concerning the forthcoming 70th birthday of Baron Dr Ferdinand v. Müller in Melbourne and has addressed a letter of congratulatio...</title>
+               <date when="1895-05-17">1895-05-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1895/95-05-17a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="50">English</language>
+            <language ident="de" usage="50">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [The Ministry has accepted the report of 22nd of the previous month concerning the forthcoming 70th birthday of Baron Dr Ferdinand v. Müller in Melbourne and has addressed a letter of congratulatio...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">95.05.17a</p>
+            <p rend="correspondent" xml:lang="de">From [Gustav von Silcher]</p>
+            <p rend="location" xml:lang="de">
+               <seg style="">Staatliches Museum für Naturkunde, Stuttgart.</seg>
+               <seg style=""/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found; text is a memorandum from Württemberg's Ministry of Church and School Affairs to Kurt Lampert, Director of Stuttgart's Staatliches Museum für Naturkunde. The signatory, Sarvey, who has not been further identified, was presumably an official in the Ministry. Silcher, as Minister, would have signed the letter sent to M.</p>
+               </note>
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[Das Ministerium hat den Bericht vom 22. v. 3. d. Mts, betreffend den bevorstehenden 70. Geburtstag des Baron Dr Ferdinand v. Müller in Melbourne eingesehen und an denselben im Allerhöchsten Auftrag Seiner Majistät des Königs ein Glückwunschschreiben gerichtet, wovon die Direktion in Kenntniss gesetzt wird.</seg>
+            </p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="de">Sarvey</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Stuttgart, d. 17 Mai 1895</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Herrn Prof. Dr Lampert]</seg>
+               <seg style=""> </seg>
+               <note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">The letter's being sent was prompted by a memorandum from Lampert, 6 April 1895, alerting the Ministry of Church and School Affairs to the fact that M's 70th birthday was approaching and reminding them of his manifold contributions to the Museum's collections as well as his funding of a scholarship from which the collections had likewise benefited.</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>[The Ministry has accepted the report of 22nd of the previous month concerning the forthcoming 70th birthday of Baron Dr Ferdinand v. Müller in Melbourne and has addressed a letter of congratulations to him on behalf of His Majesty the King, of which the Directorate is informed. </p>
+            <p rend="valediction"
+               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>Sarvey </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Stuttgart, 17 May 1895 </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">To Prof. Dr Lampert]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>
