@@ -59,6 +59,7 @@
                <term>table</term>
                <term>note</term>
                <term>multi-row cell</term>
+               <term>multi-column cell</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
@@ -857,7 +858,8 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">1 7 yrs since last engagement ?reasons</p>
                   </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
+                        cols="2">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; margin-left: 0.3333in; text-indent: -0.1819in; "
                         xml:lang="en">1 Advanced to higher position</p>
@@ -872,7 +874,8 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">2 Carpenter not required at present</p>
                   </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
+                        cols="2">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; margin-left: 0.3333in; text-indent: -0.1819in; "
                         xml:lang="en">2 Mechanic</p>
@@ -887,7 +890,8 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">3 Carter (his place to be taken by junior) one cart only required</p>
                   </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
+                        cols="2">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; margin-left: 0.3333in; text-indent: -0.1819in; "
                         xml:lang="en">3 Advanced to higher position</p>
@@ -897,19 +901,20 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: none; border-left: none; border-bottom: 0.0069in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">4 Laborer</p>
                   </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
+                        cols="2">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; margin-left: 0.3333in; text-indent: -0.1819in; "
                         xml:lang="en">4 Engine driver not reqd</p>
                   </cell>
                </row>
                <row>
-                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         rows="2">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
@@ -920,32 +925,43 @@
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
                                  <space unit="chars" quantity="1"/>
-                                 <space dim="horizontal" extent="tab"/>Rows for notes 5 and 6 bracketed<space unit="chars" quantity="1"/>at right of column.</p>
+                                 <space dim="horizontal" extent="tab"/>Rows for notes 5 and 6 bracketed at right of column.</p>
                            </note>
                         </seg>
                      </p>
                   </cell>
-                  <cell style="border-top: 0.0069in solid #000000; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">5 Understood he was about to leave</p>
                   </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: 0.0069in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; margin-left: 0.3333in; text-indent: -0.1819in; "
-                        xml:lang="en">5 Chemical operator (evening duties)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">5 Chemical operator (evening<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">duties)</p>
                   </cell>
                </row>
                <row>
                   <space dim="vertical" unit="lines" quantity="1"/>
-                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: 0.0069in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">6 purposes to tack his duties on to another man who is 5 yrs his senior</p>
                   </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0069in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; margin-left: 0.3333in; text-indent: -0.1819in; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">6 Professl. knowledge Seeds.</p>
                   </cell>
                </row>

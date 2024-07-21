@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>31 May 1870 ¶  ¶ [Forwdg applicn from D Manzie for compensatn for loss of employment]...</title>
+            <title>31 May 1870 ¶  ¶ [Forwdg applicn from D Manzie ¶ In M to J,McCulloch, 11 May 1870 (In this edition as 70-05-11f)containing the list of staff dischargedDavid Manzies, employed for 5 years in the Botani...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>No. 5776, vol. 1870 W, unit?, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <msName>No. 5776, vol. 1870 W,unit?,VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
                      <idno>70.05.31f</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>31 May 1870 ¶  ¶ [Forwdg applicn from D Manzie for compensatn for loss of employment]...</title>
+               <title>31 May 1870 ¶  ¶ [Forwdg applicn from D Manzie ¶ In M to J,McCulloch, 11 May 1870 (In this edition as 70-05-11f)containing the list of staff dischargedDavid Manzies, employed for 5 years in the Botani...</title>
                <date when="1870-05-31">1870-05-31</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,38 +85,78 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">31 May 1870 ¶  ¶ [Forwdg applicn from D Manzie for compensatn for loss of employment]...</supplied>
+               <supplied reason="XTF-compatibility">31 May 1870 ¶  ¶ [Forwdg applicn from D Manzie ¶ In M to J,McCulloch, 11 May 1870 (In this edition as 70-05-11f)containing the list of staff dischargedDavid Manzies, employed for 5 years in the Botani...</supplied>
             </head>
-            <p rend="number" xml:lang="en">70.05.31f</p>
+            <p rend="number" xml:lang="en">70.05.31f<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">To James McCulloch</p>
-            <p rend="location" xml:lang="en">No. 5776, vol. 1870 W, <seg style="background-color: #ffff00; ">unit?,</seg> VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">No. 5776, vol. 1870 W,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">unit?,</seg>
+               <space unit="chars" quantity="1"/>VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof at PRO.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof at PRO.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found<seg rend="DefaultParagraphFont" style="color: #0070C0; font-size: 13pt; ">;<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">item is a register entry only,<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont"
+                          style="color: #0070C0; background-color: #FFFF00; ">of a letter dated 31 May 1870</seg>
+                     <seg rend="DefaultParagraphFont" style="font-size: 13pt; ">.</seg>
+                  </p>
                </note>31 May 1870</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[Forwdg applicn from D Manzie for compensatn for loss of employment]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">According to my notes this letter is attached to W6235 which I have not followed up in the register - disposal needs to be followed through at PRO.</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[Forwdg applicn from D Manzie<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">In M to J,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">M</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">cCulloch, 11 May 1870 (In this edition as 70-05-11f)<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">containing the list of staff discharged<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">David Manzies, employed for 5 years in the Botanic Gardens was listed</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">with a note saying 'understood he was about to leave'.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>for compensatn for loss of employment]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">According to my notes this letter is attached to W6235 which I have not followed up in the register - disposal needs to be followed through at PRO.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">ANY mention of outcome of request?</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
