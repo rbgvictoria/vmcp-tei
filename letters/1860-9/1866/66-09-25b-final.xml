@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne botan. Garden, ¶ 25. Sept. 1866. ¶ Sir ¶  ¶ In compliance with your request, conveyed in your circular 3711 ¶ J. Moore to M, 15 September 1866 (in this edition as 66-09-15a). ¶ , I have the ...</title>
+            <title>Melbourne botan. Garden, ¶ 25. Sept. 1866. ¶ Sir ¶  ¶ In compliance with your request, conveyed in your circular 3711, ¶ J. Moore to M, 15 September 1866 (in this edition as 66-09-15a). ¶  ¶ I have th...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1866/66-09-25b-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1866/66-09-25b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne botan. Garden, ¶ 25. Sept. 1866. ¶ Sir ¶  ¶ In compliance with your request, conveyed in your circular 3711 ¶ J. Moore to M, 15 September 1866 (in this edition as 66-09-15a). ¶ , I have the ...</title>
+               <title>Melbourne botan. Garden, ¶ 25. Sept. 1866. ¶ Sir ¶  ¶ In compliance with your request, conveyed in your circular 3711, ¶ J. Moore to M, 15 September 1866 (in this edition as 66-09-15a). ¶  ¶ I have th...</title>
                <date when="1866-09-25">1866-09-25</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-09-25b-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-09-25b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -62,12 +62,12 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>DefaultParagraphFont</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
             </keywords>
@@ -89,10 +89,9 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne botan. Garden, ¶ 25. Sept. 1866. ¶ Sir ¶  ¶ In compliance with your request, conveyed in your circular 3711 ¶ J. Moore to M, 15 September 1866 (in this edition as 66-09-15a). ¶ , I have the ...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne botan. Garden, ¶ 25. Sept. 1866. ¶ Sir ¶  ¶ In compliance with your request, conveyed in your circular 3711, ¶ J. Moore to M, 15 September 1866 (in this edition as 66-09-15a). ¶  ¶ I have th...</supplied>
             </head>
-            <p rend="number" xml:lang="en">66.09.25<seg rend="DefaultParagraphFont">b</seg>
-            </p>
+            <p rend="number" xml:lang="en">66.09.25b</p>
             <p rend="correspondent" xml:lang="en">To James McCulloch</p>
             <p rend="location" xml:lang="en">N66/10101, unit 191, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
@@ -108,7 +107,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In compliance with your request, conveyed in your circular 3711<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>In compliance with your request, conveyed in your circular 3711,<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -116,12 +115,10 @@
                         <space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">J. Moore to M, 15 September 1866 (in this edition as 66-09-15a)</seg>
-                        <seg rend="DefaultParagraphFont" style="">.</seg>
-                     </p>
+                        </seg>J. Moore to M, 15 September 1866 (in this edition as 66-09-15a).</p>
                   </note>
-               </seg>, I have the honor of submitting an estimate of the expenditure, which in all likelihood will be required to maintain the scientific and horticultural branches and the services for the parks of this establishment in unimpaired efficiency during the year 1867.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>I have the honor of submitting an estimate of the expenditure, which in all likelihood will be required to maintain the scientific and horticultural branches and the services for the parks of this establishment in unimpaired efficiency during the year 1867.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <table n="">
                <row>
@@ -135,7 +132,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
                         <seg rend="DefaultParagraphFont" style="">
-                           <hi rend="underline">£610</hi>
+                           <hi rend="underline">£610.- .-</hi>
                         </seg>
                      </p>
                   </cell>
@@ -151,7 +148,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
                         <seg rend="DefaultParagraphFont" style="">
-                           <hi rend="underline">£300</hi>
+                           <hi rend="underline">£300.- .-</hi>
                         </seg>
                      </p>
                   </cell>
@@ -175,7 +172,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
                         <seg rend="DefaultParagraphFont" style="">
-                           <hi rend="underline">£4000</hi>
+                           <hi rend="underline">£4000.- .-</hi>
                         </seg>
                      </p>
                   </cell>
@@ -185,20 +182,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Altho' I am most anxious to decrease the expenditure of the department, I find it impossible after repeated most scrupulous and careful calculations to diminish the wages vote, unless the gratuitous distribution of plants to so many public grounds throughout the colonial territory is brought to a close and applications for aiding daily at the numerous public festivals for charities &amp;c are henceforth no longer attended to. And even then, not very many hundred pounds Sterling could be saved, which are now chiefly expended to benefit country districts, while these cannot participate in the recreation and instruction afforded by this establishment, and which yet for its maintenance the country districts contribute. I would also respectfully remind the honorable the Chief Secretary, that while at Brisbane, Adelaide, &amp; Hobarton only about 40 acres are devoted to gardens and arboreta of the Governments, here actually 400 acres are planted, that furthermore in none of the Australian colonies a general and extensive scientific department is joined to the garden as here, and that thus the expenditure is in reality here less in proportion to the services performed than in the other Australian Colonies, except in Tasmania, where part of the expenses of the bot. Garden of Hobarton are borne by sale of plants, a measure here inadmissable amidst the keen competitions of the trading nurserymen. Indeed if reductions are to be made, it must be on the votes for Salaries, as for each hundred pound<space unit="chars" quantity="1"/>deducted<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">therefrom</seg>
-               <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-weight: bold; background-color: #FFFF00; ">one word?</seg>
-                     </p>
-                  </note>
-               </seg>
-               <space unit="chars" quantity="1"/>the services of an intelligent and active gardener (for 10 hours daily work) can be secured. The wages vote supports also the operations for maintaining the plantations in Gov House reserve, and this plantation serves not merely as readily accessible recreation ground, but also for the amelioration of the city clime and as the means of providing seeds in future by the ton for forest-culture. Furthermore the service in the new chemical laboratory for testing the commercial and technological value of vegetable substances indigenous here are carried out by an annual expenditure of about £150 defrayed out of this vote; and all small repairs also to buildings, fences, gates, drains &amp;c are met out of this item. The rates of wages paid are as low as is consistent with efficiency, and indeed the multifarious works in the department could not be carried out, within the means indicated unless a number of boys were engaged at an extremely cheap rate for all work requiring no particular skill.</p>
+               <space dim="horizontal" extent="tab"/>Altho' I am most anxious to decrease the expenditure of the department, I find it impossible after repeated most scrupulous and careful calculations to diminish the wages vote, unless the gratuitous distribution of plants to so many public grounds throughout the colonial territory is brought to a close and applications for aiding daily at the numerous public festivals for charities &amp;c are henceforth no longer attended to. And even then, not very many hundred pounds Sterling could be saved, which are now chiefly expended to benefit country districts, while these cannot participate in the recreation and instruction afforded by this establishment, and which yet for its maintenance the country districts contribute. I would also respectfully remind the honorable the Chief Secretary, that while at Brisbane, Adelaide, &amp; Hobarton only about 40 acres are devoted to gardens and arboreta of the Governments, here actually 400 acres are planted, that furthermore in none of the Australian colonies a general and extensive scientific department is joined to the garden as here, and that thus the expenditure is in reality here less in proportion to the services performed than in the other Australian Colonies, except in Tasmania, where part of the expenses of the bot. Garden of Hobarton are borne by sale of plants, a measure here inadmissable amidst the keen competition<space unit="chars" quantity="1"/>of the trading nurserymen. Indeed if reductions are to be made, it must be on the votes for Salaries, as for each hundred pound deducted<space unit="chars" quantity="1"/>therefrom<space unit="chars" quantity="1"/>the services of an intelligent and active gardener (for 10 hours daily work) can be secured. The wages vote supports also the operations for maintaining the plantations in Gov House reserve, and this plantation serves not merely as readily accessible recreation-ground, but also for the amelioration of the city clime and as the means of providing seeds in future by the ton for forest-culture. Furthermore the service in the new chemical laboratory for testing the commercial and technological value of vegetable substances indigenous here are carried out by an annual expenditure of about £150.- .-<space unit="chars" quantity="1"/>defrayed out of this vote; and all small repairs also to buildings, fences, gates, drains &amp;c are met out of this item. The rates of wages paid are as low as is consistent with efficiency, and indeed the multifarious works in the department could not be carried out, within the means indicated unless a number of boys were engaged at an extremely cheap rate for all work requiring no particular skill.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
@@ -214,7 +198,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£150</p>
+                        xml:lang="en">£150.- .-</p>
                   </cell>
                </row>
                <row>
@@ -226,7 +210,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£350</p>
+                        xml:lang="en">£350.- .-</p>
                   </cell>
                </row>
                <row>
@@ -238,7 +222,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£420</p>
+                        xml:lang="en">£420.- .-</p>
                   </cell>
                </row>
                <row>
@@ -250,7 +234,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£220</p>
+                        xml:lang="en">£220.- .-</p>
                   </cell>
                </row>
                <row>
@@ -262,7 +246,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£120</p>
+                        xml:lang="en">£120.- .-</p>
                   </cell>
                </row>
                <row>
@@ -274,7 +258,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£40</p>
+                        xml:lang="en">£40.- .-</p>
                   </cell>
                </row>
                <row>
@@ -286,7 +270,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">£300</p>
+                        xml:lang="en">£300.- .-</p>
                   </cell>
                </row>
             </table>
@@ -294,7 +278,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The last mentioned sum will have to be regarded probably only as a nominal expenditure, in as much as it will mainly be required to cover the charge for water obtained from the Yan Yean System for the use (at night time only) of the garden and the surrounding reserves.</p>
+               <space dim="horizontal" extent="tab"/>The last mentioned sum will have to be regarded probably only as a nominal expenditure, in as much as it will mainly be required to cover the charge for water obtained from the Yan Yean System for the use (at night-time only) of the garden and the surrounding reserves.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
