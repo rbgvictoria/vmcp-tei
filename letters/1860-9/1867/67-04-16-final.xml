@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1867/67-04-16-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1867/67-04-16-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-04-16-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-04-16-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -66,7 +66,6 @@
                <term>FootnoteReference</term>
                <term>valediction</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>letter</term>
             </keywords>
             <keywords scheme="#validity">
@@ -101,15 +100,7 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Written by<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Ernst Heyne?<space unit="chars" quantity="1"/>
-                     </seg>
-                  </p>
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Did M sign?</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>MS written<space unit="chars" quantity="1"/>by<space unit="chars" quantity="1"/>Ernst Heyne and signed by M.</p>
                </note>Botanic Gardens, Melbourne</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
@@ -125,7 +116,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>These amounts were approved on 29 April 1867 [Q67/4437, unit 255, VPRS 3991, PROV].</p>
+                        <space dim="horizontal" extent="tab"/>These amounts were approved on 29 April 1867 [Q67/4437, unit 255, VPRS 3991,<space unit="chars" quantity="1"/>Public Record Office, Victoria].</p>
                   </note>
                </seg>
             </p>
@@ -206,17 +197,6 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">120.0.0</p>
-                  </cell>
-               </row>
-               <row>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
             </table>
