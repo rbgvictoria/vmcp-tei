@@ -15,12 +15,12 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-10-22.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-10-22-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>No. 2950, V70/14221, unit 471, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <msName>No. 2950, V70/14221, unit 471, VPRS 3991/Pinwardregistered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
                      <idno>70.10.22</idno>
                   </altIdentifier>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-10-22.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-10-22-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
+               <term>DefaultParagraphFont</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -92,60 +88,80 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Memm ¶  ¶ The Chief Secretary requests the following information from the Director of the Botanic Gardens: ¶  ¶ The number of men employed in the department on work of a scientific kind only, and thei...</supplied>
             </head>
-            <p rend="number" xml:lang="en">70.10.22</p>
-            <p rend="correspondent" xml:lang="en">From Thomas Ware</p>
-            <p rend="location" xml:lang="en">No. 2950, V70/14221, unit 471, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="number" xml:lang="en">70.10.22<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="correspondent" xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">From</seg>
+               <space unit="chars" quantity="1"/>Thomas Ware<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="location" xml:lang="en">No. 2950, V70/14221, unit 471, VPRS 3991/P<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">inward</seg>
+               <space unit="chars" quantity="1"/>registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Trans 18.1.94. To proof.</seg>
-                  </p>
-               </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also No 2950, unit 23, p. 111, VPRS 1187, outward registered correspondence.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>See also M to McCulloch, 22 October 1870.</p>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Trans 18.1.94. To proof.</seg>
+                  </p>
+               </note>
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">See also No 2950, unit 23, p. 111, VPRS 1187, outward registered correspondence</seg>.</p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                     xml:lang="en">
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Since M replies to this describing, it as Memorandum No 2950 this note must mean that there is a copy in outwards. It would be more sensible to cite that source I think. I suspect that the</seg>
+                     <seg rend="DefaultParagraphFont" style="color: #C00000; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Memo was returned with 70-10-22a, as it has the same details as that letter, but without a No: "V70/14221, unit 471, VPRS 3991/P inward registered correspondence VA 475 Chief</seg>
+                     <space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Secretary's Department, Public Record Office, Victoria"</seg>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>M to McCulloch, 22 October 1870<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">is his reply</seg>.</p>
                </note>Memm</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The Chief Secretary requests the following information from the Director of the Botanic Gardens:</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The number of men employed in the department on work of a scientific kind only, and their pay</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>2. The names of the men inhabiting cottages within the gardens and an account of the work performed by each.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>This information the Chief Secretary desires to have on Monday in connection with the Estimates.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">for the Under Secy</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>(Sd) Thos. Webb Ware.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">C. S. Office</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">22 Octr 1870.</p>
          </div>
       </body>
