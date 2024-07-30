@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Unit 16, p. 609, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne City Council, Public Record Office, Victoria.</msName>
+                  <msName>Unit 16, p. 609, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne City Council, Public Record Office, Victoria</msName>
                   <altIdentifier>
                      <idno>70.09.12</idno>
                   </altIdentifier>
@@ -65,6 +65,7 @@
                <term>letter</term>
                <term>FootnoteSymbol</term>
                <term>Footnote</term>
+               <term>FootnoteReference</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -89,37 +90,44 @@
             </head>
             <p rend="number" xml:lang="en">70.09.12</p>
             <p rend="correspondent" xml:lang="en">From Edmund FitzGibbon</p>
-            <p rend="location" xml:lang="en">Unit 16, p. 609, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne City Council, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">Unit 16, p. 609, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne City Council, Public Record Office, Victoria</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Town Clerk's Office</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne, 12th Sept. 1870</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">My dear Dr von Mueller,</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">My dear Dr von Mueller,</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have sent your letter<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="Footnote"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space unit="chars" quantity="1"/>M to E. FitzGibbon, 11 September 1870.</p>
+                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>M to E. FitzGibbon, 11 September 1870.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>on to the City Surveyor with a request that he will get the rail supplied at once on the fence of the approach to Princes Bridge</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Yours very faithfully</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>E. G. FitzGibbon</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Town Clerk</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>
