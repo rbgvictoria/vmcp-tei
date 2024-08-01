@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-11-05-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-11-05-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-11-05-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-11-05-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,21 +53,19 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,23 +87,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Chief Secretary's Office. ¶ Melbourne, 5th November 1870 ¶ Sir, ¶  ¶ I am directed by the Chief Secretary to request that you will have the goodness to forward to the Industrial and Technological Muse...</supplied>
             </head>
-            <p rend="number" xml:lang="en">70.11.05<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">70.11.05</p>
             <p rend="correspondent" xml:lang="en">From William Odgers</p>
             <p rend="location" xml:lang="en">No. 3069, p. 234, unit 23, VPRS 1187/P, outward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office of Victoria</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Chief Secretary's Office.</p>
+               xml:lang="en">Chief Secretary's Office.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne, 5th November 1870</p>
@@ -116,22 +104,12 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I am directed by the Chief Secretary to request that you will have the goodness to forward to the Industrial and Technological Museum at the Public Library the phytological collection recently exhibited at Sydney<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Agricultural Society of New South Wales Metropolitan Intercolonial Exhibition, Sydney, 1870.<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">M to J. McCulloch, 13 July 1879 (in this edition as 70-07-13a) sought permission to send exhibits.</seg>
-                        <space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">There appears to have been some confusion when the cases from Sydney arrived</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>about which items belonged to the Public Library and Museum and which to the Government Botanist</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">' Department and which to M</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">: s</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">ee A. Neate to M, 4 November 1870 (in this edition as 70-11-04a), and M to R. Barry 4 November 1970</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">.</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>Agricultural Society of New South Wales Metropolitan Intercolonial Exhibition, Sydney, 1870.<space unit="chars" quantity="1"/>M to J. McCulloch, 13 July 1879 (in this edition as 70-07-13a),<space unit="chars" quantity="1"/>sought permission to send exhibits. There appears to have been some confusion when the cases<space unit="chars" quantity="1"/>were returned<space unit="chars" quantity="1"/>from Sydney,<space unit="chars" quantity="1"/>about which items belonged to the Public Library and Museum,<space unit="chars" quantity="1"/>which to the Government Botanist's<space unit="chars" quantity="1"/>Department,<space unit="chars" quantity="1"/>and which to M: see A. Neate to M, 4 November 1870 (in this edition as 70-11-04a), and M to R. Barry,<space unit="chars" quantity="1"/>4 November 1970.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>and which Sir James McCulloch is informed has now been returned to your custody.</p>
@@ -152,35 +130,11 @@
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>(Sd)<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Signed.</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; font-weight: bold; color: #C00000; "
-                        xml:lang="en">Do we really need to gloss that?</p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; font-weight: bold; color: #C00000; "
-                        xml:lang="en">I can't find any response by M to this order<space unit="chars" quantity="1"/>couched as a request.</p>
-                  </note>
-               </seg>
-               <space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="">
-                  <hi rend="underline">W. H. Odgers</hi>
-               </seg>
-            </p>
+               <space dim="horizontal" extent="tab"/>(Sd) W. H. Odgers</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">The Director</p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">The Botanic Gardens.</p>
+               xml:lang="en">The Director<space unit="chars" quantity="1"/>of the Botanic Gardens.</p>
          </div>
       </body>
    </text>

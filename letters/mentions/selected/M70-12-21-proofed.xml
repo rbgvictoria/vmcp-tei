@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/mentions/selected/M70-12-21-draft.doc</idno>
+            <idno type="filename">data/letters/mentions/selected/M70-12-21-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/mentions/selected/M70-12-21-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/mentions/selected/M70-12-21-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -60,14 +60,13 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,22 +88,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Chief Secretary's Office ¶ Melbourne 21st December 1870 ¶ Sir ¶  ¶ I am directed by the Honorable the Chief Secretary to inform you, that you have been appointed by the Governor in Council the Chairma...</supplied>
             </head>
-            <p rend="number" xml:lang="en">M70.12.21<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
-            <p rend="correspondent" xml:lang="en">William Odgers to William Hammill</p>
+            <p rend="number" xml:lang="en">M70.12.21</p>
+            <p rend="correspondent" xml:lang="en">From<space unit="chars" quantity="1"/>William Odgers to William Hammill</p>
             <p rend="location" xml:lang="en">No. 3970, unit 23, pp. 654-5, VPRS 1187/P letters outwards October-December 1870, VA 475 Chief Secretary's Department, Public Record Office of Victoria, Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Chief Secretary's Office</p>
+               xml:lang="en">Chief Secretary's Office</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne 21st December 1870</p>
@@ -115,7 +105,7 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I am directed by the Honorable the Chief Secretary to inform you, that you have been appointed by the Governor in Council the Chairman of a Board consisting of the gentlemen named in the margin<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -127,15 +117,13 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The general direction which the Government desires the inquiry should take<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">will apparent</seg>
-               <space unit="chars" quantity="1"/>to a Board by the perusal of the enclosed extract from the minute laid before the Governor in Council on which the Order in Council was issued directing the appointment of the Board.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+               <space dim="horizontal" extent="tab"/>The general direction which the Government desires the inquiry should<space unit="chars" quantity="1"/>take will<space unit="chars" quantity="1"/>be<space unit="chars" quantity="1"/>apparent<space unit="chars" quantity="1"/>to the Board by a perusal of the enclosed extract from the minute laid before the Governor in Council on which the Order in Council was issued directing the appointment of the Board.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>M was informed the same day, M. Odgers to M, 21 December 1870 (in this edition as 70-12-21a).<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>M was informed<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>the same day; W. Odgers to M, 21 December 1870 (in this edition as 70-12-21a).<space unit="chars" quantity="1"/>
                      </p>
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -167,14 +155,15 @@
                         <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
                            <space unit="chars" quantity="1"/>It is supposed to be at<space unit="chars" quantity="1"/>
                         </seg>(<seg rend="DefaultParagraphFont" style="color: #C00000; ">Minute 88, unit 12, pp. 352-3, VPRS 1080, Public Record Office, Victoria</seg>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">).according to the note on 70-12-21a</seg>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">.</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">).according to the note on 70-12-21a.</seg>
                         <seg rend="DefaultParagraphFont" style="color: #C00000; ">
                            <space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Otherwise we can cross</seg>
                         <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">-</seg>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">refer to the notes on 71-12-21a</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">refer to t</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">he notes on 70</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">-12-21a</seg>
                         <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">.</seg>
                      </p>
                   </note>
@@ -201,11 +190,7 @@
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>
-               <seg rend="DefaultParagraphFont" style="">
-                  <hi rend="underline">W. H. Odgers</hi>
-               </seg>
-            </p>
+               <space dim="horizontal" extent="tab"/>W. H. Odgers</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
