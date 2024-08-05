@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1871/71-01-23-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1871/71-01-23-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-01-23-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-01-23-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -61,12 +61,11 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -89,22 +88,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Botanic Garden Melbourne, ¶ 23/1/71 ¶ Sir ¶  ¶ I have the honor to solicit that you will be pleased to issue authorities of expenditure for this Department for the following sums viz. ¶ and place thes...</supplied>
             </head>
-            <p rend="number" xml:lang="en">71.01.23<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">71.01.23</p>
             <p rend="correspondent" xml:lang="en">To James McCulloch</p>
             <p rend="location" xml:lang="en">Y71/2169, unit 576, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Botanic Garden Melbourne,</p>
+               xml:lang="en">Botanic Garden Melbourne,</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">23/1/71</p>
@@ -131,10 +121,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">430</p>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                        xml:lang="en">430.- <space unit="chars" quantity="1"/>.-</p>
                   </cell>
                </row>
                <row>
@@ -149,12 +136,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">1345</p>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">10</p>
+                        xml:lang="en">1345.10. -</p>
                   </cell>
                </row>
                <row>
@@ -169,10 +151,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">40</p>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                        xml:lang="en">40.- <space unit="chars" quantity="1"/>.-</p>
                   </cell>
                </row>
                <row>
@@ -187,10 +166,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">100</p>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                        xml:lang="en">100.- <space unit="chars" quantity="1"/>.-</p>
                   </cell>
                </row>
                <row>
@@ -205,10 +181,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">40</p>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                        xml:lang="en">40.- <space unit="chars" quantity="1"/>.-</p>
                   </cell>
                </row>
                <row>
@@ -223,10 +196,7 @@
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">70</p>
-                  </cell>
-                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                        xml:lang="en">70.- <space unit="chars" quantity="1"/>.-</p>
                   </cell>
                </row>
             </table>
@@ -234,19 +204,11 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">and place these amounts at my disposal for disbursement.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">any decision recorded?</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Could be C. S. authority numbers supplied</seg>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">, or just a minute of approval</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>The file cover was initialled by McCulloch<space unit="chars" quantity="1"/>and what appear to be authority numbers added in another hand.</p>
                   </note>
                </seg>
             </p>
