@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Mr. Hesse announces the sending of a packet of seeds that he had received from Mr. Ferd. Mueller, director of the Melbourne Botanic Garden.]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1867/67-11-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>67.11.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[Mr. Hesse announces the sending of a packet of seeds that he had received from Mr. Ferd. Mueller, director of the Melbourne Botanic Garden.]...</title>
+               <date when="1867-11">1867-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-11-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="55">English</language>
+            <language ident="de" usage="45">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Antoine Hesse</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[Mr. Hesse announces the sending of a packet of seeds that he had received from Mr. Ferd. Mueller, director of the Melbourne Botanic Garden.]...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">67.11.00</p>
+            <p rend="correspondent" xml:lang="de">To Antoine Hesse</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Bulletin de la Société Impériale Zoologique d'Acclimatation,</seg>
+                     <seg style=""> series 2, vol. 4 (1867), p. 769. The letter is dated to November 1867 as the latest likely date that it could have been sent for Hesse to report it to the meeting of the Society held on 27 December 1867.</seg>
+                  </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[M. Hesse annonce l'envoi d'un paquet de graines qu'il a reçues de M. Ferd. Mueller, directeur du Jardin botanique de Melbourne.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[Mr. Hesse announces the sending of a packet of seeds that he had received from Mr. Ferd. Mueller, director of the Melbourne Botanic Garden.]</seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

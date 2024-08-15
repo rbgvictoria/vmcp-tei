@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower bra...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1871/71-07-00d-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>71.07.00d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower bra...</title>
+               <date when="1871-07">1871-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-07-00d-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Charles Cramer</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower bra...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">71.07.00d</p>
+            <p rend="correspondent" xml:lang="en">To Charles Cramer</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here,<space unit="chars" quantity="1"/>see the report of the Warrnambool Borough Council meeting held on 1 August 1871, in<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Warrnambool Examiner</seg>, 4 August 1871, p. 2.<space unit="chars" quantity="1"/>M's letter was probably written in late July 1871.</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>See also H. Read to M, August 1871 (in this edition as 71-08-00a).</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[A letter from Dr. Mueller to the Mayor was read, stating that the Aleppo pine would be best adapted for planting in the streets at Warrnambool. It would thrive well near the sea, and the lower branches could be taken off from time to time, as the trees grew up.]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>A tree planting ceremony took place in Warrnambool on Tuesday,<space unit="chars" quantity="1"/>29 August 1871. The site for planting was on the south side of Timor Street, from the Town Hall to the Court House and Police Office enclosure. The Mayor, Charles Cramer, said on the occasion: 'As to the kind of tree planted he had taken the opinion of Dr. Mueller, who had approved of the Aleppo Pine as best adapted to the temperature of the Western district, on the sea-coast. The Moreton Bay Pine had been suggested, but the doctor stated that it would not stand exposure to the weather in that part of Victoria.' (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Warrnambool examiner</seg>, 1 September 1871, p. 2).</p>
+                  </note>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

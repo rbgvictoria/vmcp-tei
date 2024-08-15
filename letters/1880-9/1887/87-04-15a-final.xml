@@ -1,0 +1,2244 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Baron F. von Mueller ¶ Report on the New Guinea mosses ¶ determined by A. Geheeb revised ¶ by Dr Karl Müller, Halle ¶ A,  ¶  ¶ Large-leaved mosses...</title>
+            <author>Adelbert Geheeb</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1887/87-04-15a-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RB MSS M1, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>87.04.15a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Adelbert Geheeb</author>
+               <title>To Baron F. von Mueller ¶ Report on the New Guinea mosses ¶ determined by A. Geheeb revised ¶ by Dr Karl Müller, Halle ¶ A,  ¶  ¶ Large-leaved mosses...</title>
+               <date when="1887-04-15">1887-04-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1887/87-04-15a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Aerobryum Eriocladium Bauerae var gracilis</term>
+               <term>Syrrhopodon Calymperidium strictifolius</term>
+               <term>Hypnodendron abrorescens forma minor</term>
+               <term>Syrrhopodon Calymperidium Bäuerlenii</term>
+               <term>Hypnum Ectropothecium subverrucosum</term>
+               <term>Neckera Paraphysanthus nanodisticha</term>
+               <term>Hypnum Sigmatella semimammillosum</term>
+               <term>Hypnum Vesicularia angustotextum</term>
+               <term>Neckera Nanocarpidium Bäuerlenii</term>
+               <term>Neckera Nanocarpidium prionacis</term>
+               <term>Neckera section Rhystophyllum</term>
+               <term>Hypnodendron fuscomucronatum</term>
+               <term>Chaetomitrium papillifolium</term>
+               <term>Hypnodendron fuscoaciculare</term>
+               <term>Hypnodendron subarborescens</term>
+               <term>Rhizogonium NovaeCaledoniae</term>
+               <term>Syrrhopodon Codonoblepharum</term>
+               <term>Codonoblepharum undulatum</term>
+               <term>Hypnum Sigmatella hamatum</term>
+               <term>Hypnodendron arborescens</term>
+               <term>Syrrhopodon Junquilianus</term>
+               <term>Taxicaulis mamillosulum</term>
+               <term>Dicranum caespitulosum</term>
+               <term>Endotrichum Bäuerlenii</term>
+               <term>Leucobryum auriculatum</term>
+               <term>Leucophanes albonitens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4f77eeff-e7bd-4d1f-9a79-fc300f769147">Rhizogonium spiniforme</term>
+               <term>Aerobryum longissimum</term>
+               <term>Chaetomitrium cygneum</term>
+               <term>Chaetomitrium elegans</term>
+               <term>Garovaglia Bäuerlenii</term>
+               <term>Papillaria floribunda</term>
+               <term>Hypnum angustotextum</term>
+               <term>Neckera nanodisticha</term>
+               <term>Pelekium lonchopodum</term>
+               <term>Pelekium trachypodum</term>
+               <term>Spiridens Reinwardti</term>
+               <term>Syrrhopodon gracilis</term>
+               <term>Syrrhopodon muelleri</term>
+               <term>Eriocladium Bauerae</term>
+               <term>Homalia bibrachiata</term>
+               <term>Hypnum NovoGuinense</term>
+               <term>Leucophanes minutum</term>
+               <term>Pelekium Meyenianum</term>
+               <term>Thuidium plumulosum</term>
+               <term>Hypnum calodictyon</term>
+               <term>Leucobryum sanctum</term>
+               <term>Neckera Celebesica</term>
+               <term>Neckera gracilenta</term>
+               <term>Neckera loriformis</term>
+               <term>Aerobryum Bauerae</term>
+               <term>Aerobryum lawesii</term>
+               <term>Hypnum Bäuerlenii</term>
+               <term>Hypnum verrucosum</term>
+               <term>Neckera Gräffeana</term>
+               <term>Neckera Lepineana</term>
+               <term>Hypnum instratum</term>
+               <term>Hypnum tabescens</term>
+               <term>Neckera disticha</term>
+               <term>Neckera crinita</term>
+               <term>Neckera exserta</term>
+               <term>Homalia exigua</term>
+               <term>Cupressina</term>
+               <term>Thelidium</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>table</term>
+               <term>note</term>
+               <term>multi-row cell</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+               <term>valediction</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="55">English</language>
+            <language ident="de" usage="45">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">To Baron F. von Mueller ¶ Report on the New Guinea mosses ¶ determined by A. Geheeb revised ¶ by Dr Karl Müller, Halle ¶ A,  ¶  ¶ Large-leaved mosses...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">87.04.15a</p>
+            <p rend="correspondent" xml:lang="de">From Adelbert Geheeb</p>
+            <p rend="location" xml:lang="de">RB MSS M1, Library, Royal Botanic Gardens Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>MS found with a copy of Geheeb (1889). Accompanying the MS are an offprint from <seg style="font-style: italic; ">Botanisches Centralblatt</seg>, vol. 40, no. 3, 1889, including a summary of Geheeb (1889), and two scraps of paper with notes in M's hand: '<name key="Neckera%20Lepineana">Neckera Lepineana</name> Montagne | NG.' and 'Acanthocladium complanatum C. Mueller sec. Brotherus | St Josephs Valley | Sir Will Macgregor || Trichostegium papillosum Mitten. | St Josephs Valley | Sir W Macgregor'.</p>
+               </note>Herrn Dr F. Baron von Müller</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">Bericht über</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">die </seg>
+               <seg style="">
+                  <hi rend="underline">Neu=Guinea=Moose,</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">bestimmt von </seg>
+               <seg style="">
+                  <hi rend="underline">A. Geheeb</hi>
+               </seg>
+               <seg style="">, revidirt</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">von Dr </seg>
+               <seg style="">
+                  <hi rend="underline">Karl Müller Hal.</hi>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">A, <seg style="">
+                  <hi rend="underline">Laubmosse</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">I, Vom <seg style="">
+                  <hi rend="underline">Fly River Branch</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">leg. </seg>
+               <seg style="">
+                  <hi rend="underline">W. Bäuerlen</hi>
+               </seg>
+               <seg style="">, 1885</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">(d. 22. Februar 1886 in </seg>
+               <seg style="">
+                  <hi rend="underline">Geisa</hi>
+               </seg>
+               <seg style=""> angekommen)</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">No 149a <seg style="">
+                  <hi rend="underline">
+                     <name key="Leucobryum%20auriculatum">Leucobryum auriculatum</name> C Müll. n. sp.!</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Mir war es nicht gut möglich, dieses Moos von </seg>
+               <seg style="">
+                  <hi rend="underline">L. sanctum Hpe</hi>
+               </seg>
+               <seg style=""> zu unterscheiden, ob Varietät davon? Herr Dr </seg>
+               <seg style="">
+                  <hi rend="underline">K Müller</hi>
+               </seg>
+               <seg style=""> aber schreibt: "Ein grosser Unterschied schon durch </seg>
+               <seg style="">
+                  <hi rend="underline">folia basi late auriculata!</hi>
+               </seg>
+               <seg style=""> Auriculis unicellulosis laxe reticulatis."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">99c (in dem Rasen von No 99 gefunden). </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Leucophanes%20minutum">Leucophanes minutum</name> C Mull. n. sp.!</hi>
+               </seg>
+               <seg style=""> Nach </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> mit </seg>
+               <seg style="">
+                  <hi rend="underline">Leucophanes albo-nitens C Müll</hi>
+               </seg>
+               <seg style=""> von den Fidschi-Inseln verwandt, von dem es abweicht "foliis glaucis brevioribus basi breviore atque areolatione facillime dissoluta subchlorophyllosa." Fand sich nur in kleinen Räschen, ob Sie mehr davon haben?</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">No 70 (als "<name key="Dicranum%20caespitulosum">Dicranum caespitulosum</name>" bezeichnet). </seg>
+               <seg style="">
+                  <hi rend="underline">Syrrhopodon </hi>
+               </seg>
+               <seg style="">(Calymperidium) </seg>
+               <seg style="">
+                  <hi rend="underline">Bäuerlenii C Müll. n. sp</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">" 95. <seg style="">
+                  <hi rend="underline">Syrrhopodon </hi>
+               </seg>(Calymperidium) s<seg style="">
+                  <hi rend="underline">trictifolius C Müll. n.sp.</hi>
+               </seg>! <seg style="">Täuschend ähnlich dem </seg>
+               <seg style="">
+                  <hi rend="underline">S. Mülleri Dzy &amp; Mlkb</hi>
+               </seg>
+               <seg style=""> von Sumatra, für welche Art ich diese No bestimmt hatte. </seg>
+               <seg style="">
+                  <hi rend="underline">C. Müller</hi>
+               </seg>
+               <seg style=""> aber schreibt: "Weicht durch die zarteren, äusserst lockeren und nicht so eigenthümlich gekrümmten Basilarzellen, sowie durch grüne Färbung ab."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" 94. </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Syrrhopodon%20gracilis">Syrrhopodon gracilis</name> Geheeb n. sp.</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Mit </seg>
+               <seg style="">
+                  <hi rend="underline">S. Junquilianus Mitt</hi>
+               </seg>
+               <seg style="">. </seg>(in Bryol. Javanica I, tab. <seg style="">XLVI) zu vergleichen, durch robustere Statur, längere Seta und stärker gezähnelte Blattspitze abweichend. Neigt sich nach </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style="">, noch mehr dem </seg>
+               <seg style="">
+                  <hi rend="underline">S. Codonoblepharum</hi>
+               </seg>
+               <seg style=""> (<name key="Codonoblepharum%20undulatum">Codonoblepharum undulatum</name> Dz &amp; Mlkb) zu, von dem es aber sogleich durch lange Fruchstiele zu unterscheiden ist.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table1">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">No 149b</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 22pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <hi rend="underline">Rhizogonium Novae-Caledoniae Bescherelle, var. </hi>
+                        </seg>(c. flor. femineis!)</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>" <space unit="chars" quantity="4"/>351 <space unit="chars" quantity="2"/>
+                     </p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Blüthenstand constant </seg>
+               <seg style="">
+                  <hi rend="underline">zweihäusig</hi>
+               </seg>
+               <seg style="">, also schon dadurch von </seg>
+               <seg style="">
+                  <hi rend="underline">Rh. spiniforme</hi>
+               </seg>
+               <seg style=""> verschieden. Ich kenne das </seg>
+               <seg style="">
+                  <hi rend="underline">Bescherelle</hi>
+               </seg>
+               <seg style="">'sche Moos von Neu-Caledonien nicht, aber in der Beschreibung finde ich keinen Unterschied. </seg>
+               <seg style="">
+                  <hi rend="underline">Dr C Müller</hi>
+               </seg>
+               <seg style=""> sagt: "Weicht zwar durch länger zugespitzte und blass areolirte Blätter ab, doch weiss ich obiges Moos auch nicht von </seg>
+               <seg style="">
+                  <hi rend="underline">Rh. Novae-Caledoniae</hi>
+               </seg>
+               <seg style=""> scharf zu unterscheiden." Also vorläufig </seg>
+               <seg style="">
+                  <hi rend="underline">Varietät</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" 99b </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Homalia%20bibrachiata">Homalia bibrachiata</name> C.Müll in Muscis Exped. Gazelle</hi>
+               </seg>
+               <seg style=""> (Engler's Bot. Jahrbücher). Wie es scheint, ist dieser Bericht noch nicht publicirt, ich kann Ihnen daher leider nicht sagen, wodurch sich diese Art von der zunächst stehen, den </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Homalia%20exigua">Homalia exigua</name> Bsch &amp; Lacoste</hi>
+               </seg>
+               <seg style=""> von Celebes, mit welcher ich sie verwechselt hatte, unterscheidet. </seg>Jedenfalls sehr minutiöse Differenzen!</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table2">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">No 71.</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="font-size: 22pt; ">}</seg>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg style="">
+                           <hi rend="underline">Neckera </hi>
+                        </seg>(Nanocarpidium) <seg style="">
+                           <hi rend="underline">Bäuerlenii Geheeb n. sp.</hi>
+                        </seg> !! <seg style="">
+                           <hi rend="underline">c. fruct</hi>
+                        </seg>!</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">" <space unit="chars" quantity="2"/>82. </p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Eine sehr interessante, neue Art, der </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Neckera%20Gr%C3%A4ffeana">Neckera Gräffeana</name> C Müll.</hi>
+               </seg>
+               <seg style=""> von den Fidschi=Inseln </seg>
+               <seg style="">
+                  <hi rend="underline">habituell</hi>
+               </seg>
+               <seg style=""> zum Verwechseln ähnlich, durch die Form der Blattspitze aber sofort von ihr abweichend. Oberhaut der Kapsel durch schwach <space unit="chars" quantity="1"/>vorstehende Zellen hie und da (papillös=) rauh.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" 82b Ein </seg>
+               <seg style="">
+                  <hi rend="underline">steriles</hi>
+               </seg>
+               <seg style=""> Fragment einer </seg>
+               <seg style="">
+                  <hi rend="underline">Neckera</hi>
+               </seg>
+               <seg style=""> mit stark querwelligen Blättern (also zur Sectio <space unit="chars" quantity="1"/>"Rhystophyllum" gehörend) fand sich in dem mit </seg>
+               <seg style="">
+                  <hi rend="underline">No 82</hi>
+               </seg>
+               <seg style=""> bezeichneten Convolute (Fly River Branch, on the stems of trees), leider aber ist nicht mit Sicherheit zu sagen, ob dieser einzige Aestchen zu </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Neckera%20gracilenta">Neckera gracilenta</name>
+                  </hi>
+               </seg>
+               <seg style=""> gehört, oder zu </seg>
+               <seg style="">
+                  <hi rend="underline">N. </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="underline">exserta</hi>
+               </seg>
+               <seg style=""> oder </seg>
+               <seg style="">
+                  <hi rend="underline">crinita</hi>
+               </seg>
+               <seg style="">? Besitzen Sie mehr davon ? </seg>
+               <seg style="">
+                  <hi rend="underline">C. Müller</hi>
+               </seg>
+               <seg style=""> schreibt: "Nichts damit zu machen."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">No 84. <seg style="">
+                  <hi rend="underline">Neckera</hi>
+               </seg> (Paraphysanthus) <seg style="">
+                  <hi rend="underline">nano-disticha Geheeb n. sp.</hi>
+               </seg>!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Durch </seg>
+               <seg style="">
+                  <hi rend="underline">einhäusigen</hi>
+               </seg>
+               <seg style=""> Blüthenstand von der zwitterigen </seg>
+               <seg style="">
+                  <hi rend="underline">N. disticha Hdw</hi>
+               </seg>
+               <seg style="">, sogleich abweichend!</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" 92. </seg>
+               <seg style="">
+                  <hi rend="underline">Neckera</hi>
+               </seg>
+               <seg style=""> (Nanocarpidium) </seg>
+               <seg style="">
+                  <hi rend="underline">prionacis C Müll. n. sp</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Zweihäusig</hi>
+               </seg>
+               <seg style="">! </seg>
+               <seg style="">
+                  <hi rend="underline">Nur weibliche</hi>
+               </seg>
+               <seg style=""> Blüthen vorhanden, Frucht leider unbekannt. Bitte, sehen Sie Ihren Vorrath durch, ob Sie eine Kapsel finden? Im Habitus mit </seg>
+               <seg style="">
+                  <hi rend="underline">N. loriformis Bsch &amp; Lacoste</hi>
+               </seg>
+               <seg style=""> und </seg>
+               <seg style="">
+                  <hi rend="underline">N. Celebesica C Müll.</hi>
+               </seg>
+               <seg style=""> verwandt.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">No 97. </seg>
+               <seg style="">
+                  <hi rend="underline">Endotrichum</hi>
+               </seg>
+               <seg style=""> (Garovaglia) </seg>
+               <seg style="">
+                  <hi rend="underline">Bäuerlenii Geheeb n. sp</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Leider steril, ich weiss nicht, wodurch sich dieses Moos besonders auszeichnet, </seg>
+               <seg style="">
+                  <hi rend="underline">Dr C Müller </hi>
+               </seg>
+               <seg style="">bemerkt hierzu: "Foliis undulatis ab omnibus congeneribus differt."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" 99a </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Chaetomitrium%20elegans">Chaetomitrium elegans</name> Geheeb n. sp!</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Dieses schöne, auch von </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> als </seg>
+               <seg style="">
+                  <hi rend="underline">neue</hi>
+               </seg>
+               <seg style=""> Species anerkannte Moos bildet den Hauptbestandtheil des mit </seg>
+               <seg style="">
+                  <hi rend="underline">No 99</hi>
+               </seg>
+               <seg style=""> bezeichneten Convoluts, No 99b u. 99c fanden sich nur als Fragmente darunter gemischt.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" 181. </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Chaetomitrium%20cygneum">Chaetomitrium cygneum</name> C. Müll n. sp</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Dieses interessante Moos hatte ich für </seg>
+               <seg style="">
+                  <hi rend="underline">Ch. papillifolium</hi>
+               </seg>
+               <seg style=""> der </seg>
+               <seg style="">
+                  <hi rend="underline">Bryolog. Javanica</hi>
+               </seg>
+               <seg style=""> gehalten, doch </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> bemerkt hierzu: "Durch </seg>
+               <seg style="">
+                  <hi rend="underline">theca truncato-ovali brevi majore</hi>
+               </seg>
+               <seg style=""> schon von </seg>
+               <seg style="">
+                  <hi rend="underline">Ch. papillifolium</hi>
+               </seg>
+               <seg style=""> verschieden."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table3">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">No 72</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="3">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 36pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">" <space unit="chars" quantity="2"/>81 </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <hi rend="underline">
+                              <name key="Pelekium%20lonchopodum">Pelekium lonchopodum</name> C Müll. n. sp</hi>
+                        </seg>
+                        <seg style="">!</seg>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">" <space unit="chars" quantity="2"/>91 </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Ueber dieses von mir als </seg>
+               <seg style="">
+                  <hi rend="underline">P. trachypodum Mitt.</hi>
+               </seg>
+               <seg style=""> bestimmte (und trotz </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style="">'s Ansicht noch heute dafür gehaltene!) </seg>Moos bemerkt unser Freund: "Ab omnibus congeneribus differt jam theca longe pedicellata majore; in specie ramificatione pauperrima irregulariter plumulosa." <seg style="">Ich bitte Sie, legen Sie einmal ein Pröbchen dieses Mooses (das Sie sub No </seg>
+               <seg style="">
+                  <hi rend="underline">72</hi>
+               </seg>
+               <seg style=""> als "<name key="Hypnum%20B%C3%A4uerlenii">Hypnum Bäuerlenii</name>
+               </seg>
+               <seg style="">
+                  <hi rend="underline">F.v. Müll</hi>
+               </seg>
+               <seg style="">. n. sp." bezeichnet hatten) auf die </seg>
+               <seg style="">
+                  <hi rend="underline">Tab CCXXV</hi>
+               </seg>
+               <seg style=""> des II Bandes der </seg>
+               <seg style="">
+                  <hi rend="underline">Bryologia Javanica</hi>
+               </seg>
+               <seg style="">, wo </seg>
+               <seg style="">
+                  <hi rend="underline">Pelekium</hi>
+               </seg>
+               <seg style=""> (sub </seg>
+               <seg style="">
+                  <hi rend="underline">"Thuidium</hi>
+               </seg>
+               <seg style="">") t</seg>
+               <seg style="">
+                  <hi rend="underline">rachypodum Mitt.</hi>
+               </seg>
+               <seg style=""> in allen seinen characteristischen Theilen ausgezeichnet abgebildet ist, — und Sie werden sehen, dass obiges Neu-Guinea-Moos dazu passt, wie ein Ei zum anderen! Die Seta ist genau ebenso lang, keineswegs länger und die Theca gewiss nicht grösser! Und wäre es auch, wie </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> zu sehen meint, dann wäre die "neue Art" gewiss sehr schwach begründet! Warum nicht eine </seg>
+               <seg style="">
+                  <hi rend="underline">Varietät</hi>
+               </seg>
+               <seg style=""> (seta longiore!) von </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Pelekium%20trachypodum">Pelekium trachypodum</name>
+                  </hi>
+               </seg>
+               <seg style=""> darin sehen? Ich besitze letzteres Moos ex hb. Hampe (von </seg>
+               <seg style="">
+                  <hi rend="underline">Java</hi>
+               </seg>
+               <seg style="">, soll auch auf Sumatra vorkommen), es stimmt </seg>
+               <seg style="">
+                  <hi rend="underline">genau</hi>
+               </seg>
+               <seg style=""> mit dem </seg>
+               <seg style="">
+                  <hi rend="underline">Neu-Guinea</hi>
+               </seg>
+               <seg style="">-Moose überein! — Nie werde ich </seg>
+               <seg style="">
+                  <hi rend="underline">P. lonchopodum C Müll</hi>
+               </seg>
+               <seg style="">. als eigene Art anerkennen können, es ist gewiss nicht verschieden von </seg>
+               <seg style="">
+                  <hi rend="underline">P. trachypodum Mitt</hi>
+               </seg>
+               <seg style="">.!!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Ein zweiter Moos, nur in wenigen Individuen, fand sich mit obigem verwachsen, nämlich:</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table4">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">No 72a</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg style="font-size: 22pt; font-weight: bold; ">}</seg>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <hi rend="underline">Hypnum</hi>
+                        </seg> (Ectropothecium) <seg style="">
+                           <hi rend="underline">subverrucosum Geheeb n. sp</hi>
+                        </seg>!</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">" <space unit="chars" quantity="2"/>91a </p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Durch Habitus und Blattform von dem ihm ähnlichen </seg>
+               <seg style="">
+                  <hi rend="underline">Hypn. verrucosum Hpe</hi>
+               </seg>
+               <seg style=""> verschieden. Seta glatt, Kapsel und Deckel auf der Oberfläche </seg>
+               <seg style="">
+                  <hi rend="underline">schwach warzig</hi>
+               </seg>
+               <seg style="">, Deckel gewölbt, mit kurzem, geradem Spitzchen. Blätter rippenlos, oval — lanzettlich, zugespitzt, ganzrandig. </seg>
+               <seg style="">
+                  <hi rend="underline">Dr C. Müller</hi>
+               </seg>
+               <seg style=""> bemerkt hierzu: "Steht meinem noch unbeschriebenen </seg>
+               <seg style="">
+                  <hi rend="underline">Hypnum</hi>
+               </seg>
+               <seg style=""> (Taxicaulis) </seg>
+               <seg style="">
+                  <hi rend="underline">mamillosulum</hi>
+               </seg>
+               <seg style=""> von den </seg>
+               <seg style="">
+                  <hi rend="underline">Neuen Hebriden</hi>
+               </seg>
+               <seg style=""> äusserst nahe, weicht aber schon durch kleinere nicht so lang zugespitzte Blätter und eine etwas grössere, einfach nickende, nicht durch eine Schlinge des Fruchstieles nach unten gewundene Fruchtkapsel ab."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">No 58. Zwei verschiedene Arten:</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" <space unit="chars" quantity="3"/>58a </seg>
+               <seg style="">
+                  <hi rend="underline">Hypnum</hi>
+               </seg>
+               <seg style=""> (Sigmatella) t</seg>
+               <seg style="">
+                  <hi rend="underline">abescens C Müll. n. sp.</hi>
+               </seg>
+               <seg style="">! c. </seg>
+               <seg style="">
+                  <hi rend="underline">fruct!</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Hatte ich als </seg>
+               <seg style="">
+                  <hi rend="underline">H. instratum Brid.</hi>
+               </seg>
+               <seg style=""> </seg>(nach <seg style="">
+                  <hi rend="underline">Borneo</hi>
+               </seg> — Exemplaren ex hb. <seg style="">Sande-Lacoste) bestimmt; allein </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> schreibt: "Hat mit </seg>
+               <seg style="">
+                  <hi rend="underline">H. instratum</hi>
+               </seg>
+               <seg style=""> nichts zu thun und weicht schon durch die gleichsam verkümmerte Blattspitze ab."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" <space unit="chars" quantity="3"/>58b, </seg>
+               <seg style="">
+                  <hi rend="underline">steril! Hypnum</hi>
+               </seg>
+               <seg style=""> (Vesicularia) </seg>
+               <seg style="">
+                  <hi rend="underline">angusto-textum Geheeb n. sp</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">"Ex habitu </seg>
+               <seg style="">
+                  <hi rend="underline">Hypni calodictyi C. Müll</hi>
+               </seg>
+               <seg style="">. </seg>Samoani (in Journ. d. Mus. Godeffroy VI, p 30), sed areolatione multo angustiore foliisque angustioribus longius cuspidatis toto coelo diversum." <seg style="">
+                  <hi rend="underline">C. Müll</hi>
+               </seg>
+               <seg style="">. in </seg>
+               <seg style="">
+                  <hi rend="underline">litt.</hi>
+               </seg>
+               <seg style=""> ad A.G.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" <space unit="chars" quantity="2"/>352. </seg>
+               <seg style="">
+                  <hi rend="underline">Hypnum</hi>
+               </seg>
+               <seg style=""> (<name key="Thelidium">Thelidium</name>) </seg>
+               <seg style="">
+                  <hi rend="underline">Novo-Guinense Geheeb n. sp</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Zweihäusig</hi>
+               </seg>
+               <seg style=""> (nur </seg>
+               <seg style="">
+                  <hi rend="underline">weibliche</hi>
+               </seg>
+               <seg style=""> Blüthen vorhanden!), Frucht unbekannt. Blätter rippenlos, ganzrandig, </seg>
+               <seg style="">
+                  <hi rend="underline">stark papillös</hi>
+               </seg>
+               <seg style="">, besonders am Blattrücken mit dichten Papillen besetzt, daher die Zellen fast undurchsichtig; Perichätialblätter </seg>
+               <seg style="">
+                  <hi rend="underline">stark </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="underline">gesägt</hi>
+               </seg>
+               <seg style="">. Dr </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> schreibt: "Sehr gute Art, fast ganz allein stehend durch </seg>
+               <seg style="">
+                  <hi rend="underline">caulis modo <name key="Cupressina">Cupressina</name>e pinnatus</hi>
+               </seg>
+               <seg style=""> unter </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Thelidium">Thelidium</name>
+                  </hi>
+               </seg>
+               <seg style=""> von welchem ich es aber nicht trennen mag, obgleich diese Arten einen </seg>
+               <seg style="">
+                  <hi rend="underline">caulis dichotome divisus</hi>
+               </seg>
+               <seg style=""> besitzen."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">No 354. <seg style="">
+                  <hi rend="underline">
+                     <name key="Hypnodendron%20subarborescens">Hypnodendron subarborescens</name> C Müll. n. sp</hi>
+               </seg>! <seg style="">Mit </seg>
+               <seg style="">
+                  <hi rend="underline">weiblichen </hi>
+               </seg>
+               <seg style="">Blüthen!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Halte ich für </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Hypnodendron%20arborescens">Hypnodendron arborescens</name> Mitt.</hi>
+               </seg>
+               <seg style="">, das ich von </seg>
+               <seg style="">
+                  <hi rend="underline">Sumatra</hi>
+               </seg>
+               <seg style=""> etc besitze. Dr </seg>
+               <seg style="">
+                  <hi rend="underline">C. M.</hi>
+               </seg>
+               <seg style=""> schreibt: "</seg>
+               <seg style="">
+                  <hi rend="underline">H. arborescens Mitt.</hi>
+               </seg>
+               <seg style=""> ist viel kräftiger mit grösseren breiteren Blättern, welche auch weit kräftigere, viel dichter gestellte und grössere Zähne am <space unit="chars" quantity="1"/>Rande habe. " Gewiss nur eine </seg>
+               <seg style="">
+                  <hi rend="underline">schwache </hi>
+               </seg>
+               <seg style="">Art, dieses</seg>
+               <seg style="">
+                  <hi rend="underline"> Hypnum subarborescens</hi>
+               </seg>
+               <seg style="">, — wäre es nicht naturgemässer, es gleich als </seg>
+               <seg style="">
+                  <hi rend="underline">forma minor</hi>
+               </seg>
+               <seg style=""> von </seg>
+               <seg style="">
+                  <hi rend="underline">H. arborescens</hi>
+               </seg>
+               <seg style=""> zu bezeichnen?</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">No 98. Enthält dieselben Moose, wie No 58, und noch eine </seg>
+               <seg style="">
+                  <hi rend="underline">3.</hi>
+               </seg>
+               <seg style=""> Art in einem Fragment dazu, nämlich:</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>a, <seg style="">
+                  <hi rend="underline">Hypnum</hi>
+               </seg> (Sigmatella) <seg style="">
+                  <hi rend="underline">tabescens C Müll. c fruct</hi>
+               </seg>!,</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>b, <seg style="">
+                  <hi rend="underline">Hypnum</hi>
+               </seg> (Vesicularia) <seg style="">
+                  <hi rend="underline">angusto-textum Geheeb</hi>
+               </seg>, (steril)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>c, <seg style="">
+                  <hi rend="underline">Neckera</hi>
+               </seg> (Paraphysanthus) <seg style="">
+                  <hi rend="underline">nano-disticha Geheeb c. fruct</hi>
+               </seg>! (nur in <seg style="">
+                  <hi rend="underline">einem</hi>
+               </seg> Stengelchen!)</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">II, Von den <seg style="">
+                  <hi rend="underline">Cloudy Mountains</hi>
+               </seg>, near <seg style="">
+                  <hi rend="underline">South-Cape,</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">leg Rev. Mr. Chalmers &amp; Capt. Bridge, 1884.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">(d. 26. März 1886 in </seg>
+               <seg style="">
+                  <hi rend="underline">Geisa</hi>
+               </seg>
+               <seg style=""> angekommen)</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">No 1. <seg style="">
+                  <hi rend="underline">Hypnodendron fusco-aciculare C Müll. n. sp</hi>
+               </seg>!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Dieses schöne Moos, dessen Fructification leider fehlt, hatte ich für </seg>
+               <seg style="">
+                  <hi rend="underline">Hypnodendron fusco-mucronatum C Müll</hi>
+               </seg>
+               <seg style=""> von den </seg>
+               <seg style="">
+                  <hi rend="underline">Philippinen</hi>
+               </seg>
+               <seg style=""> bestimmt, ohne indessen <space unit="chars" quantity="1"/>ein gutes, resp. authentisches Exemplar letzterer Art zu besitzen. Dr </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> schreibt: "</seg>
+               <seg style="">
+                  <hi rend="underline">Hypnodendron fusco-aciculare</hi>
+               </seg>
+               <seg style=""> ist der nächtse Verwandte meines </seg>
+               <seg style="">
+                  <hi rend="underline">H. fusco-mucronatum</hi>
+               </seg>
+               <seg style="">, aber durch zartere Blattimbrication und weit dichteres Blattnetz, d.h. durch fast elliptische Zellen von den fast prosenchymatischen lockeren des Philippinen-Mooses sicher verschieden."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">No 2. </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Spiridens%20Reinwardti">Spiridens Reinwardti</name> Nees</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Von </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> als solcher anerkannt. Auf keinen Fall eine </seg>
+               <seg style="">
+                  <hi rend="underline">neue</hi>
+               </seg>
+               <seg style=""> Art wie Sie solche als "</seg>
+               <seg style="">
+                  <hi rend="underline">Spec. Bridgei</hi>
+               </seg>
+               <seg style=""> in Vorschlag brachten. Ein Unterschied zwischen der </seg>
+               <seg style="">
+                  <hi rend="underline">Neu-Guinea Pflanze</hi>
+               </seg>
+               <seg style=""> und den </seg>
+               <seg style="">
+                  <hi rend="underline">Originalexemplaren Reinwardt'i</hi>
+               </seg>
+               <seg style=""> (die ich ex </seg>
+               <seg style="">
+                  <hi rend="underline">herb. van der Sande-Lacoste</hi>
+               </seg>
+               <seg style=""> besitze) ist nicht vorhanden!</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">No 3. Habe ich für </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Thuidium%20plumulosum">Thuidium plumulosum</name> Dzy &amp; Mlkb.</hi>
+               </seg>
+               <seg style=""> bestimmt, da ich es für übereinstimmend halte mit Exemplaren dieser Art von der </seg>
+               <seg style="">
+                  <hi rend="underline">Insel Ceram</hi>
+               </seg>
+               <seg style=""> (ex hb. </seg>
+               <seg style="">
+                  <hi rend="underline">Sande-Lacoste</hi>
+               </seg>
+               <seg style="">). Dr </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> aber schreibt: "Halte ich eher für ein ¨</seg>
+               <seg style="">
+                  <hi rend="underline">Pelekium</hi>
+               </seg>
+               <seg style="">¨aus der Verwandtschaft von </seg>
+               <seg style="">
+                  <hi rend="underline">P. Meyenianum</hi>
+               </seg>
+               <seg style="">, - steril ist aber nichts damit anzufangen! </seg>
+               <seg style="">
+                  <hi rend="underline">Thuidium</hi>
+               </seg>
+               <seg style=""> und </seg>
+               <seg style="">
+                  <hi rend="underline">Pelekium</hi>
+               </seg>
+               <seg style=""> sind nur durch die </seg>
+               <seg style="">
+                  <hi rend="underline">Mütze</hi>
+               </seg>
+               <seg style=""> (Calyptra) zu unterscheiden!"</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">III, Von <seg style="">
+                  <hi rend="underline">Astrolabe Range</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">leg. Rev. <seg style="">
+                  <hi rend="underline">W. G. Lawes</hi>
+               </seg> (1885?)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">(d. </seg>
+               <seg style="">
+                  <hi rend="underline">3.Mai 1886</hi>
+               </seg>
+               <seg style=""> in Geisa angekommen).</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">No 7. <seg style="">
+                  <hi rend="underline">
+                     <name key="Spiridens%20Reinwardti">Spiridens Reinwardti</name> Nees</hi>
+               </seg>! c.<seg style="">
+                  <hi rend="underline">flor. femineis</hi>
+               </seg>!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Ebenfalls von </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> bestätigt! Ist, nach meiner Ansicht, eine jüngere Pflanze, als die von </seg>
+               <seg style="">
+                  <hi rend="underline">Bridge</hi>
+               </seg>
+               <seg style="">, daher von frischeren Grün, oder durch locale Verhältnisse in Aeusseren abweichend.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">No 8. </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Neckera%20Lepineana">Neckera Lepineana</name> Mtge</hi>
+               </seg>
+               <seg style="">!</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Mit Spuren eines feinstengligen Mooses, das ich für </seg>
+               <seg style="">
+                  <hi rend="underline">Papillaria floribund Dzy &amp; Mlkb.</hi>
+               </seg>
+               <seg style=""> halten möchte. </seg>
+               <seg style="">
+                  <hi rend="underline">Dr C Müller</hi>
+               </seg>
+               <seg style=""> bemerkt hierzu: "Mag als </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Papillaria%20floribunda">Papillaria floribunda</name>
+                  </hi>
+               </seg>
+               <seg style=""> gehen, doch glaube ich nicht, dass es die Sunda-Art ist. Aber auf solche Brocken eine neue Art zu begründen, vermag ich nicht."</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">" 9. </seg>
+               <seg style="">
+                  <hi rend="underline">Aerobryum</hi>
+               </seg>
+               <seg style=""> (Eriocladium) </seg>
+               <seg style="">
+                  <hi rend="underline">Bauerae</hi>
+               </seg>
+               <seg style=""> C </seg>
+               <seg style="">
+                  <hi rend="underline">Müll.</hi>
+               </seg>
+               <seg style="">, </seg>
+               <seg style="">
+                  <hi rend="underline">var. gracilis</hi>
+               </seg>
+               <seg style="">.</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">Ich hatte dieses Moos als </seg>
+               <seg style="">
+                  <hi rend="underline">neue</hi>
+               </seg>
+               <seg style=""> Art zu erkennen geglaubt und Herrn </seg>
+               <seg style="">
+                  <hi rend="underline">Dr C Müller</hi>
+               </seg>
+               <seg style=""> den Namen </seg>
+               <seg style="">
+                  <hi rend="underline">A. Lawesii</hi>
+               </seg>
+               <seg style=""> vorgeschlagen, doch schreibt unser Freund: " Dieses Moos weicht in keiner anderen Weise von einem anderen ab, das ich vom </seg>
+               <seg style="">
+                  <hi rend="underline">Bloomfield River</hi>
+               </seg>
+               <seg style=""> in </seg>
+               <seg style="">
+                  <hi rend="underline">Queensland</hi>
+               </seg>
+               <seg style=""> und in </seg>
+               <seg style="">
+                  <hi rend="underline">Herb. Melbourne <name key="Eriocladium%20Bauerae">Eriocladium Bauerae</name>
+                  </hi>
+               </seg>
+               <seg style=""> gennant habe (gesammelt von </seg>
+               <seg style="">
+                  <hi rend="underline">Miss Bauer</hi>
+               </seg>
+               <seg style="">) als dass es schmächtigere Aeste hat. </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>Ich wage es folglich nicht, es von diesem zu trennen, obgleich ich von diesem noch keine Frucht besitzte. Ich nenne das Moos deshalb </seg>
+               <seg style="">
+                  <hi rend="underline">Aerobryum</hi>
+               </seg>
+               <seg style=""> (Eriocladium) Bauerae</seg>
+               <seg style="">
+                  <hi rend="underline">,</hi>
+               </seg>
+               <seg style="">-</seg>
+               <seg style="">
+                  <hi rend="underline"> var: gracilis</hi>
+               </seg>
+               <seg style="">". Das </seg>
+               <seg style="">
+                  <hi rend="underline">Guinea</hi>
+               </seg>
+               <seg style=""> Moos von Astrolabe Range hat indessen eine junge Fruchtkapsel, die ich </seg>
+               <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg>
+               <seg style=""> mitgetheilt habe. Dieselbe ist </seg>
+               <seg style="">
+                  <hi rend="underline">hypnum</hi>
+               </seg>
+               <seg style=""> = artig übergeneigt, mit lang geschnäbelten Deckel. Seta unterhalb der Kapsel und bis zur Hälfte des Fruchtstiels herab von Papillen </seg>
+               <seg style="">
+                  <hi rend="underline">rauh</hi>
+               </seg>
+               <seg style="">, wie bei </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Aerobryum%20longissimum">Aerobryum longissimum</name>
+                  </hi>
+               </seg>
+               <seg style=""> von Java, an letztere Art auch in der Blattform erinnernd, doch sind die Blätter von No 9 bedeutend breiter. </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Aerobryum%20Bauerae">Aerobryum Bauerae</name>
+                  </hi>
+               </seg>
+               <seg style=""> hat </seg>
+               <seg style="">
+                  <hi rend="underline">zweihäusigen</hi>
+               </seg>
+               <seg style=""> Blüthenstand.</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>Ein letztes kleines Convolut, ohne No, von mir mit No 11 bezeichnet, gleichfalls von </seg>
+               <seg style="">
+                  <hi rend="underline">Astrolabe Range</hi>
+               </seg>
+               <seg style="">, enthält ein kleines Stück denselben Mooses, </seg>
+               <seg style="">
+                  <hi rend="underline">
+                     <name key="Aerobryum%20Bauerae">Aerobryum Bauerae</name>
+                  </hi>
+               </seg>
+               <seg style="">, nebst 1 Lebermoosfragment und einem winzigen </seg>
+               <seg style="">
+                  <hi rend="underline">Hypnum c. fruct</hi>
+               </seg>
+               <seg style="">., nur in 2 Individuen vorhanden, in welchem ich </seg>
+               <seg style="">
+                  <hi rend="underline">Hypnum </hi>
+               </seg>
+               <seg style="">
+                  <space unit="chars" quantity="1"/>(Sigmatella) </seg>
+               <seg style="">
+                  <hi rend="underline">hamatum Dzy &amp; Mlkb.</hi>
+               </seg>
+               <seg style=""> zu erkennen glaubte. Indessen schreibt </seg>
+               <seg style="">
+                  <hi rend="underline">Herr Dr C Müller</hi>
+               </seg>
+               <seg style="">: "Ist bestimmt </seg>
+               <seg style="">
+                  <hi rend="underline">nicht </hi>
+               </seg>
+               <seg style="">H. </seg>
+               <seg style="">
+                  <hi rend="underline">hamatum</hi>
+               </seg>
+               <seg style="">; denn bei lezterem ist der </seg>
+               <seg style="">
+                  <hi rend="underline">pedunculus ubique scaber</hi>
+               </seg>
+               <seg style="">, während er hier </seg>
+               <seg style="">
+                  <hi rend="underline">ped. apice mammillosus</hi>
+               </seg>
+               <seg style=""> ist. Daher will ich den Namen </seg>
+               <seg style="">
+                  <hi rend="underline">Hypnum</hi>
+               </seg>
+               <seg style=""> (Sigmatella) </seg>
+               <seg style="">
+                  <hi rend="underline">semimammillosum C Müll. n.sp.</hi>
+               </seg>
+               <seg style="">! </seg>wählen."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Geisa, d. 15. April 1887.</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="de">Geheeb.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               xml:lang="en">To Baron F. von Mueller</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">Report on the New Guinea mosses</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">determined by A. Geheeb revised</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">by Dr Karl Müller, Halle</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">A, <space unit="chars" quantity="1"/>Large-leaved mosses</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">I from Fly River branch</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">collected by W. Bäuerlen, 1885</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">(arrived in Geisa 22 February 1886)</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 149a <seg style="font-style: italic; ">
+                  <name key="Leucobryum%20auriculatum">Leucobryum auriculatum</name>
+               </seg> C. Müll. n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">It was not easily possible for me to <space unit="chars" quantity="1"/>distinguish this moss from <seg style="font-style: italic; ">L. sanctum</seg> Hpe. Is it a variety of it? Dr K. Müller writes, however: "A big difference by leaf bases broadly auriculate with auricles unicellular, loosely reticulate."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">" <space unit="chars" quantity="1"/>99c (found in the turf of No 99). <seg style="font-style: italic; ">
+                  <name key="Leucophanes%20minutum">Leucophanes minutum</name>
+               </seg>
+               <seg style=""> C. Müll. n. sp. </seg>Related to <seg style="font-style: italic; ">
+                  <name key="Leucophanes%20albonitens">Leucophanes albonitens</name>
+               </seg> C. Müll. from the Fiji Islands according to C. Müller, from which It differs by "short leaves, glaucus with short bases and with areolation easily dissolved, somewhat green." Found only in small turfs. Have you more of it?</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 70 (labeled as "<seg style="font-style: italic; ">
+                  <name key="Dicranum%20caespitulosum">Dicranum caespitulosum</name>
+               </seg>"<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Name not found; herbarium name?</p>
+               </note>). <seg style="font-style: italic; ">Syrrhopodon (Calymperidium) bäuerlenii</seg>
+               <seg style=""> C. Müll. n. sp.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">" <space unit="chars" quantity="1"/>95. <seg style="font-style: italic; ">Syrrhopodon (Calymperidium) strictifolius</seg> C. Müll. n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Deceptively similar to <seg style="font-style: italic; ">S. muelleri</seg> Dzy &amp; Mlkb from Sumatra, to which I had assigned this number. <seg style="">
+                  <hi rend="underline">C Müller</hi>
+               </seg> writes however: "Differs by the finer, extremely loose and not so peculiarly hooked basilary cells, as well as by the green colour."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">" <space unit="chars" quantity="1"/>94 <seg style="font-style: italic; ">
+                  <name key="Syrrhopodon%20gracilis">Syrrhopodon gracilis</name>
+               </seg> Geheeb n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Compared with <seg style="font-style: italic; ">S. junuilianus</seg>
+               <note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                     </seg>
+                     <seg style="font-style: italic; ">S. Jungquilianus</seg>
+                     <seg style="">?</seg>
+                  </p>
+               </note>Mitt. (in <seg style="font-style: italic; ">Bryol. Javanica</seg> 1, pl. XLVI<note xml:id="ftn4" type="footnote" n="4">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Dozy &amp; Molkenboer (1855-61).</seg>
+                  </p>
+               </note>), it differs by the robust stature, longer seta and stronger, dentate <space unit="chars" quantity="1"/>leaf ends. However, according to <seg style="">
+                  <hi rend="underline">C. Müller</hi>
+               </seg> it approaches even more to <seg style="font-style: italic; ">S. codonoblepharum</seg> (<seg style="font-style: italic; ">
+                  <name key="Codonoblepharum%20undulatum">Codonoblepharum undulatum</name>
+               </seg> Dz &amp; Mlkb), from which, however, it is immediately distinguished by the long fruitstalk.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table5">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">No 149b</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 22pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg style="font-style: italic; ">Rhizogonium novaecaledoniae</seg>
+                        <space unit="chars" quantity="1"/>Bescherelle, var. (with female inflorescence).</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="7"/>
+                        </seg>351</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Inflorescence constantly <seg style="">
+                  <hi rend="underline">dioecious</hi>
+               </seg>, therefore by that different from <seg style="font-style: italic; ">Rh. spiniforme</seg>. I do not know <space unit="chars" quantity="1"/>Bescherelle's moss from New Caledonia, but in the description I find no difference. <seg style="">
+                  <hi rend="underline">Dr C. Müller</hi>
+               </seg> says: "Differs in fact by the longer acuminate and <space unit="chars" quantity="1"/>pallid areolate leaves, but I also do not know how precisely to distinguish the above moss <space unit="chars" quantity="1"/>from <seg style="font-style: italic; ">Rh. novaecaledoniae</seg>." <space unit="chars" quantity="1"/>Therefore provisionally a <seg style="">
+                  <hi rend="underline">variety</hi>
+               </seg>.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="3"/>
+               </seg>99b <seg style="font-style: italic; ">
+                  <name key="Homalia%20bibrachiata">Homalia bibrachiata</name>
+               </seg> C. Müll. in Muscis Exped. Gazelle (<seg style="font-style: italic; ">Engler's Bot. Jahrbücher</seg>)<note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>C. Müller (1884), p. 86.</seg>
+                  </p>
+               </note>. As it seems this report is not yet published, I can therefore <space unit="chars" quantity="1"/>unfortunately not say, how this species <space unit="chars" quantity="1"/>differs from the next one, <seg style="font-style: italic; ">
+                  <name key="Homalia%20exigua">Homalia exigua</name>
+               </seg> Bsch &amp; Lacoste from the Celebes, for which I had mistaken it. At any rate very minute differences.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table6">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">No 71.</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 22pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="font-style: italic; ">Neckera (Nanocarpidium) baeuerlenii</seg> Geheeb n. sp. with fruit.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>" <space unit="chars" quantity="2"/>82 </p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">A very interesting new species, habitually much alike <seg style="font-style: italic; ">Neckera graeffeana</seg> C. Müll. from the Fiji Islands, by the form of the leaf tip, but at once different from it. <space unit="chars" quantity="1"/>Epidermis of the capsule, here and there rough (papillose) through weakly protuberant cells.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="4"/>
+               </seg>82b A <seg style="">
+                  <hi rend="underline">sterile</hi>
+               </seg> fragment of a <seg style="font-style: italic; ">Neckera</seg>
+               <space unit="chars" quantity="1"/>with strongly transversely undulating <space unit="chars" quantity="1"/>leaves (therefore belonging to the Section "Rhystophyllum") found in the bundle <space unit="chars" quantity="1"/>labeled <space unit="chars" quantity="1"/>
+               <seg style="">
+                  <hi rend="underline">No </hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="underline">82</hi>
+               </seg> (Fly River Branch, on the stems of trees), but unfortunately it is not possible to say with certainty whether this single branchlet belongs to <seg style="font-style: italic; ">
+                  <name key="Neckera%20gracilenta">Neckera gracilenta</name>
+               </seg>, or to <seg style="font-style: italic; ">N exserta</seg>
+               <space unit="chars" quantity="1"/>or <seg style="font-style: italic; ">crinita</seg>. Do you have more of it? <seg style="">
+                  <hi rend="underline">C. Müller</hi>
+               </seg> writes: "Nothing to be made of it."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 84. <seg style="font-style: italic; ">Neckera (Paraphysanthus) nano-disticha</seg> Geheeb n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Differing at once from the hermaphroditic <seg style="font-style: italic; ">N. disticha</seg> Hdw by the <seg style="">
+                  <hi rend="underline">monoecious</hi>
+               </seg> inflorescence.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="3"/>
+               </seg>92. <seg style="font-style: italic; ">Neckera (Nanocarpidium) prionacis</seg> C. Müll. n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <hi rend="underline">Dioecious</hi>
+               </seg>. <seg style="">
+                  <hi rend="underline">Only female</hi>
+               </seg> inflorescence to hand, fruit unfortunately unknown. Please search through your stock, if you can find a capsule. In habit related to <space unit="chars" quantity="1"/>
+               <seg style="font-style: italic; ">N. loriformis</seg> Bsch &amp; Lacoste and <seg style="font-style: italic; ">N. celebesica</seg>
+               <space unit="chars" quantity="1"/>C. Müll.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 97. <seg style="font-style: italic; ">Endotrichum (Garovaglia) baeuerlenii</seg> Geheeb n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Unfortunately sterile. I don't know what particularly distinguishes this moss. Dr C. Müller remarks on it: "With undulating leaves, differs from all others in the genus."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="3"/>
+               </seg>99a <seg style="font-style: italic; ">
+                  <name key="Chaetomitrium%20elegans">Chaetomitrium elegans</name>
+               </seg> Geheeb n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">This attractive moss, also recognized by <seg style="">
+                  <hi rend="underline">C. Müller</hi>
+               </seg> as a <seg style="">
+                  <hi rend="underline">new</hi>
+               </seg> species, forms the chief constituent of the bundle labeled No 99. No 99b and <space unit="chars" quantity="1"/>99c were found <space unit="chars" quantity="1"/>only as fragments mixed with it.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="3"/>
+               </seg>
+               <seg style="">181. </seg>
+               <seg style="font-style: italic; ">
+                  <name key="Chaetomitrium%20cygneum">Chaetomitrium cygneum</name>
+               </seg>
+               <seg style=""> C. Müll. n. sp.</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">I had regarded this interesting moss as <seg style="font-style: italic; ">Ch. papillifolium</seg> of the <seg style="font-style: italic; ">Bryolog. Javanica</seg>, but <seg style="">
+                  <hi rend="underline">C, Müller</hi>
+               </seg> remarks on it: "It differs from <seg style="font-style: italic; ">Ch. papillifolium </seg>by the larger, shorter truncate-oval capsule."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table7">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">No 72</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="3">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 36pt; "
+                        xml:lang="en">} </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="5"/>
+                        </seg>81</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="font-style: italic; ">
+                           <name key="Pelekium%20lonchopodum">Pelekium lonchopodum</name>
+                        </seg>
+                        <seg style=""> C. Müll. n. sp.</seg>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="5"/>
+                        </seg>91</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Our friend remarks on this moss identified by me as <seg style="font-style: italic; ">P. trachypodum</seg> Mitt (and still regarded as such today despite <seg style="">
+                  <hi rend="underline">C. Müller's</hi>
+               </seg> opinion): "it differs <space unit="chars" quantity="1"/>indeed from all others in the genus, capsule being longer pedicellate; in the branching specimens irregular, very poorly plumulate." I ask you, just lay a small sample of this moss (which you had labeled under No 72 as "<seg style="font-style: italic; ">Hypnum baeuerlenii</seg> F. v. Müll. n. sp.) on pl. CCXXV of <space unit="chars" quantity="1"/>volume II of <seg style="font-style: italic; ">Bryologia Javanica</seg>, where <seg style="font-style: italic; ">Pelekium</seg> (under "<seg style="font-style: italic; ">Thuidium</seg>") <seg style="font-style: italic; ">trachypodum</seg> Mitt. is excellently figured in all its characterisic parts, — and you will see that the above New Guinea moss matches it like two peas in a pod. The seta is exactly as long, in no way longer and the theca certainly not larger! And even if it were, as <seg style="">
+                  <hi rend="underline">C. Müller</hi>
+               </seg> seems to see, then the "new species" would certainly be very poorly established! Why not see a <seg style="">
+                  <hi rend="underline">variety</hi>
+               </seg> (seta longiore) of <seg style="font-style: italic; ">Pelekium trachypodium</seg>? I possess the latter moss from Hampe's herbarium (from Java, also said to occur on Sumatra), it corresponds <seg style="">
+                  <hi rend="underline">exactly</hi>
+               </seg> with the <seg style="">
+                  <hi rend="underline">New Guinea</hi>
+               </seg> moss! I will never be able to acknowledge <seg style="font-style: italic; ">P. lonchopodum</seg> C. Müll. as a valid species, it is certainly not different from <seg style="font-style: italic; ">P. trachypodum</seg> Mitt.!! A second moss only in a few individuals was found with the above, namely:</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table8">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">No 72a</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 22pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="font-style: italic; ">Hypnum (Ectropothecium) subverrucosum</seg> Geheeb n. sp.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="6"/>
+                        </seg>91a</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Different to the similar <seg style="font-style: italic; ">Hypn. verrucosum</seg> Hpe by habit and leaf shape. Seta smooth, capsule and operculum <seg style="">
+                  <hi rend="underline">weakly papillose</hi>
+               </seg> on the surface, operculum arched, with short, straight apiculus. Leaves without a costa, <space unit="chars" quantity="1"/>oval — lanceolate, <space unit="chars" quantity="1"/>aciculate, entire. <seg style="">
+                  <hi rend="underline">Dr C. Müller</hi>
+               </seg> remarks on it: "Stands extremely close to my yet undescribed <seg style="font-style: italic; ">Hypnum <space unit="chars" quantity="1"/>
+               </seg>(<seg style="font-style: italic; ">Taxicaulis</seg>)<seg style="font-style: italic; "> mamillosulum</seg>
+               <note xml:id="ftn6" type="footnote" n="6">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Geheeb (1889), pp 8-9, contains a description of <space unit="chars" quantity="1"/>
+                     <seg style="font-style: italic; ">Hypnum </seg>(<seg style="font-style: italic; ">Taxicaulis</seg>)<seg style="font-style: italic; "> submammillosulum</seg> attributed to C. Müeller, with the comment ' Nach Dr. Karl Müller mit seinem H. mammillosulum nahe verwandt, von welchem unser Moos durch robustere Statur und verschiedene Blattform indessen abweicht' [According to Dr. Karl Müller closely related to his <seg style="font-style: italic; ">H. mammillosulum</seg>, yet from which our moss varies by more robust stature and different leaf shape]. No record of Müller describing <seg style="font-style: italic; ">H. mammillosulum</seg> has been found. Geheeb also described <seg style="font-style: italic; ">Hypnum (Taxicaulis) subverrucosum</seg> on p. 9.</p>
+               </note> from the New Hebrides, but differs by the smaller not so long aciculate leaves and a somewhat larger, simple drooping fruit capsule, which is not coiled at the bottom by a loop of the seta."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 58. Two different species:</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">" <space unit="chars" quantity="3"/>58a <seg style="font-style: italic; ">Hypnum (Sigmatella) tabescens</seg> C. Müll. n. sp. with fruit!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">I had identified it as <seg style="font-style: italic; ">H. instratum </seg>Brid. (from Borneo — specimens from Sande-Lacoste herbarium), but C. Müller writes: "Has nothing to do with <seg style="font-style: italic; ">H. instratum</seg> and differs by the almost rudimentary leaf point."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">" <space unit="chars" quantity="2"/>58b, sterile! <seg style="font-style: italic; ">Hypnum (Vesicularia) angusto-textum</seg> Geheeb n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">From the habit of <seg style="font-style: italic; ">Hypni calodictyi</seg> C. Müll. of Samoa (in <seg style="font-style: italic; ">Journal des Museums Godeffroy</seg> VI, p. 30)<note xml:id="ftn7" type="footnote" n="7">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">
+                        <name key="Hypnum%20calodictyon">Hypnum calodictyon</name>
+                     </seg>
+                     <space unit="chars" quantity="1"/>was published in C. Muller (1874), p. 30, i.e. <seg style="font-style: italic; ">Journal des Museum Godeffroy</seg>, vol. 3, part 6, consistent with Geheeb citing the issue number within vol. 3.</p>
+               </note>, but with the areolation much narrower with all spaces distinct and with longer cuspidate narrower leaves." <seg style="">
+                  <hi rend="underline">C. Müll</hi>
+               </seg>. in <seg style="">
+                  <hi rend="underline">correspondence</hi>
+               </seg> to A.G.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">" <space unit="chars" quantity="1"/>352. <seg style="font-style: italic; ">Hypnum (<name key="Thelidium">Thelidium</name>) novoguinense</seg> Geheeb n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Dioecious (only female fowers to hand!), fruit unknown. Leaves enervate, entire, <seg style="">
+                  <hi rend="underline">strongly papillose</hi>
+               </seg>, particularly studded with thick papillae on the leaf surface, therefore the cells almost opaque. <space unit="chars" quantity="1"/>Perichaetial leaves <seg style="">
+                  <hi rend="underline">strongly dentate</hi>
+               </seg>. Dr C. Müller writes: "Very good species, almost completely standing alone by stems in the manner of pinnate <seg style="font-style: italic; ">
+                  <name key="Cupressina">Cupressina</name>e </seg>under <seg style="font-style: italic; ">
+                  <name key="Thelidium">Thelidium</name>
+               </seg>
+               <note xml:id="ftn8" type="footnote" n="8">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-style: italic; ">
+                        <name key="Thelidium">Thelidium</name>
+                     </seg> is a genus of lichenized fungus, but the name was used for a moss in C. Müller MSS, see H. Dixon (1922), p. 507.</p>
+               </note>from which, however, I cannot separate it, although these species possess a stem separated dichotomously."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 354. <seg style="font-style: italic; ">
+                  <name key="Hypnodendron%20subarborescens">Hypnodendron subarborescens</name>
+               </seg> C. Müll n. sp. with <seg style="">
+                  <hi rend="underline">female</hi>
+               </seg> flowers!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">I regarded this as <seg style="font-style: italic; ">
+                  <name key="Hypnodendron%20arborescens">Hypnodendron arborescens</name>
+               </seg> Mitt, which I have from <seg style="">
+                  <hi rend="underline">Sumatra</hi>
+               </seg> &amp;c. Dr C. M. writes: "<seg style="font-style: italic; ">H. arborescens</seg> Mitt is much more robust with larger, wider leaves, which also have far more robust, much closer arranged and larger teeth an the edge." Certainly only a slender variety of this <seg style="font-style: italic; ">Hypnum subarborescens</seg>, — would it not be more natural to identify it just as <seg style="font-style: italic; ">H. arborescens</seg> forma <seg style="font-style: italic; ">minor</seg>?</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 98. Contains the same mosses as No 58 and <space unit="chars" quantity="1"/>yet a third species in a fragment, that is</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>a, <seg style="font-style: italic; ">Hypnum (Sigmatella tabescens</seg> C. Müll, with fruit</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>b, <seg style="font-style: italic; ">Hypnum (Vesicularia) angusto-textum</seg> Geheeb, (sterile)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>c, <seg style="font-style: italic; ">Neckera (Paraphysanthus) nanodisticha</seg> Geheeb with fruit (only in <seg style="">
+                  <hi rend="underline">one</hi>
+               </seg> little stalk!)</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">II, from the Cloudy Mountains, near South Cape,</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">collected by Rev. Mr Chalmers &amp; Capt. Bridge, 1884.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">(arrived in Geisa 26 March 1886)</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 1. <seg style="font-style: italic; ">
+                  <name key="Hypnodendron%20fuscoaciculare">Hypnodendron fuscoaciculare</name>
+               </seg>C. Müll. n. sp.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">I had identified this fine moss, whose fructification is unfortunately lacking, as <seg style="font-style: italic; ">
+                  <name key="Hypnodendron%20fuscomucronatum">Hypnodendron fuscomucronatum</name>
+               </seg> C. Müll from the Philippines, however, without having a good <space unit="chars" quantity="1"/>representative authentic specimen of the latter species. Dr Müller writes: "<seg style="font-style: italic; ">
+                  <name key="Hypnodendron%20fuscoaciculare">Hypnodendron fuscoaciculare</name>
+               </seg> is the nearest relation of my <seg style="font-style: italic; ">H. fuscomucronatum</seg>, but certainly differs by more delicate leaf imbrication and far denser leaf reticulation, that is by almost elliptical cells of the almost prosenchymatic looseness of the Philippine moss."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 2. <space unit="chars" quantity="1"/>
+               <seg style="font-style: italic; ">Spiridens reinwardti</seg> Nees</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Recognised as such by C. Müller. On no account a <seg style="">
+                  <hi rend="underline">new</hi>
+               </seg> species as you proposed such as "species bridgei". A difference between the New Guinea plant and the original specimen of <seg style="font-style: italic; ">reinwardti</seg> (which I have from herbarium van der Sande-Lacoste) does not exist.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 3. I identified it as <seg style="font-style: italic; ">
+                  <name key="Thuidium%20plumulosum">Thuidium plumulosum</name>
+               </seg> Dzy &amp; Mklb., because I regarded it as agreeing with specimens of this species from <seg style="">
+                  <hi rend="underline">Ceram Island</hi>
+               </seg> (from herbarium Sande-Lacoste). Dr <seg style="">
+                  <hi rend="underline">C. Müller</hi>
+               </seg> writes however: "Previously I regarded it as a <seg style="font-style: italic; ">Pelekium</seg> from the group of <seg style="font-style: italic; ">P. meyenianum</seg>
+               <note xml:id="ftn9" type="footnote" n="9">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Name not found.</p>
+               </note> — however as sterile nothing can be made of it! <seg style="font-style: italic; ">Thuidium</seg> and <seg style="font-style: italic; ">Pelekium</seg> are only distinguished by the cap (calyptra)!"</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">III, from Astrolabe Range</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">collected <space unit="chars" quantity="1"/>by Rev. W. G. Lawes (1885?)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">(arrived in Geisa 3 May 1886).</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 7. <seg style="font-style: italic; ">Spiridens reinwardti</seg> Nees with female inflorescence.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Likewise confirmed by C. Müller! It is a juvenile plant in my opinion as the one from Bridge differs in appearance, in consequence of fresher green or through local conditions.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">No 8. <seg style="font-style: italic; ">Neckera lepineana</seg> Mtge.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">With traces of a finely stalked moss that I would regard as <seg style="font-style: italic; ">
+                  <name key="Papillaria%20floribunda">Papillaria floribunda</name>
+               </seg> Dzy &amp; Mlkb. Dr C Müller remarks in addition: "May go as <seg style="font-style: italic; ">
+                  <name key="Papillaria%20floribunda">Papillaria floribunda</name>
+               </seg>, but I don't think that is the Sunda species. However, I cannot establish a new species on such a piece."</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">" 9. </seg>
+               <seg style="font-style: italic; ">Aerobryum (Eriocladium) bauerae</seg>
+               <seg style=""> C. Müll., var. </seg>
+               <seg style="font-style: italic; ">gracilis.</seg>
+               <seg style="font-style: italic; ">
+                  <note xml:id="ftn10" type="footnote" n="10">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>var. <seg style="font-style: italic; ">gracile</seg>?</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">I thought I had recognized this moss as a new species and suggested the name <seg style="font-style: italic; ">A. lawesii</seg> to Dr C. Müller, but our friend writes: "This moss differs in no other way than it has thinner branches from another from Bloomfield River in Queensland and in Melbourne Herbarium (collected by Miss Bauer) that I have named <seg style="font-style: italic; ">Eriocladium bauerae</seg>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Consequently I dare not separate it from the latter, although I do not yet have fruit <space unit="chars" quantity="1"/>of the latter. Therefore I am naming the moss <seg style="font-style: italic; ">Aerobryum (Eriocladium) bauerae, <space unit="chars" quantity="1"/>
+               </seg>var. <seg style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>gracilis</seg>." The Guinea moss from Astrolabe Range has <space unit="chars" quantity="1"/>nevertheless a juvenile fruit capsule, which I have transmitted to C. Müller. It is bent over H<seg style="font-style: italic; ">ypnum</seg>-like, with long rostrate operculum. Seta below the capsule and roughened by papillae down to half of the seta as in <seg style="font-style: italic; ">
+                  <name key="Aerobryum%20longissimum">Aerobryum longissimum</name>
+               </seg> from Java, also reminiscent of the latter species in the leaf shape, but the leaves of No 9 are significantly wider. <seg style="font-style: italic; ">Aerobryum bauerae</seg> has dioeceous <space unit="chars" quantity="1"/>inflorescence.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>A final small bundle without a number, labeled by me No 11, also from Astrolabe Range, contains a small piece of the same moss, <seg style="font-style: italic; ">Aerobryum bauerae</seg> together with one liverwort fragment and a tiny <seg style="font-style: italic; ">Hypnum</seg> with fruit, only 2 individuals to hand, In which I thought to recognize <seg style="font-style: italic; ">Hypnum (Stigmatella) hamatum </seg>Dzy &amp; Mlkb. However, Dr C. Müller writes: "Is definitely <seg style="">
+                  <hi rend="underline">not</hi>
+               </seg>
+               <seg style="font-style: italic; ">H. hamatum</seg>, because with the latter the peduncle is scabrose everywhere, whereas here the peduncle has a mammilate apex. Therefore I will choose the name <seg style="font-style: italic; ">Hypnum (Sigmatella) semimammillosum</seg> C. Müll. n. sp.!<note xml:id="ftn11" type="footnote" n="11">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>No publication of C. Müller's name has been found.</p>
+               </note>
+               <seg style="">"</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">Geisa, 15 April 1887.</p>
+            <p rend="valediction"
+               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               xml:lang="en">A. Geheeb.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">Aerobryum (Eriocladium) Bauerae var. gracilis</seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aerobryum%20Bauerae">Aerobryum Bauerae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aerobryum%20lawesii">Aerobryum lawesii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aerobryum%20longissimum">Aerobryum longissimum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chaetomitrium%20cygneum">Chaetomitrium cygneum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chaetomitrium%20elegans">Chaetomitrium elegans</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chaetomitrium%20papillifolium">Chaetomitrium papillifolium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Codonoblepharum%20undulatum">Codonoblepharum undulatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cupressina">Cupressina</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dicranum%20caespitulosum">Dicranum caespitulosum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Endotrichum%20B%C3%A4uerlenii">Endotrichum Bäuerlenii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Eriocladium%20Bauerae">Eriocladium Bauerae</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Garovaglia%20B%C3%A4uerlenii">Garovaglia Bäuerlenii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Homalia%20bibrachiata">Homalia bibrachiata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Homalia%20exigua">Homalia exigua</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnodendron%20abrorescens%20forma%20minor">Hypnodendron abrorescens forma minor</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnodendron%20arborescens">Hypnodendron arborescens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Hypnodendron fusco-aciculare</p>
+            <p rend="plant%20names" xml:lang="en">Hypnodendron fusco-mucronatum</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnodendron%20subarborescens">Hypnodendron subarborescens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Hypnum (Ectropothecium) subverrucosum</p>
+            <p rend="plant%20names" xml:lang="en">Hypnum (Sigmatella) hamatum</p>
+            <p rend="plant%20names" xml:lang="en">Hypnum (Sigmatella) semimammillosum</p>
+            <p rend="plant%20names" xml:lang="en">Hypnum (Vesicularia) angusto-textum</p>
+            <p rend="plant%20names" xml:lang="en">Hypnum angusto-textum</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnum%20B%C3%A4uerlenii">Hypnum Bäuerlenii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnum%20calodictyon">Hypnum calodictyon</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnum%20instratum">Hypnum instratum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Hypnum Novo-Guinense</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnum%20tabescens">Hypnum tabescens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypnum%20verrucosum">Hypnum verrucosum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Leucobryum%20auriculatum">Leucobryum auriculatum</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leucobryum%20sanctum">Leucobryum sanctum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Leucophanes albo-nitens</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leucophanes%20minutum">Leucophanes minutum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Neckera <space unit="chars" quantity="1"/>nano-disticha</p>
+            <p rend="plant%20names" xml:lang="en">Neckera (Nanocarpidium) Bäuerlenii</p>
+            <p rend="plant%20names" xml:lang="en">Neckera (Nanocarpidium) prionacis</p>
+            <p rend="plant%20names" xml:lang="en">Neckera (Paraphysanthus) nano-disticha</p>
+            <p rend="plant%20names" xml:lang="en">Neckera (section Rhystophyllum)</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20Celebesica">Neckera Celebesica</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20crinita">Neckera crinita</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20disticha">Neckera disticha</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20exserta">Neckera exserta</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20gracilenta">Neckera gracilenta</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20Gr%C3%A4ffeana">Neckera Gräffeana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20Lepineana">Neckera Lepineana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neckera%20loriformis">Neckera loriformis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Papillaria%20floribunda">Papillaria floribunda</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelekium%20lonchopodum">Pelekium lonchopodum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelekium%20lonchopodum">Pelekium lonchopodum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelekium%20Meyenianum">Pelekium Meyenianum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelekium%20trachypodum">Pelekium trachypodum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelekium%20trachypodum">Pelekium trachypodum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Pelekium%20trachypodum">Pelekium trachypodum</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Rhizogonium Novae-Caledoniae</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhizogonium%20spiniforme">Rhizogonium spiniforme</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Spiridens%20Reinwardti">Spiridens Reinwardti</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Syrrhopodon (Calymperidium) Bäuerlenii</p>
+            <p rend="plant%20names" xml:lang="en">Syrrhopodon (Calymperidium) strictifolius</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Syrrhopodon%20Codonoblepharum">Syrrhopodon Codonoblepharum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Syrrhopodon%20gracilis">Syrrhopodon gracilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Syrrhopodon%20Junquilianus">Syrrhopodon Junquilianus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Syrrhopodon%20muelleri">Syrrhopodon muelleri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Taxicaulis%20mamillosulum">Taxicaulis mamillosulum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thelidium">Thelidium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thuidium%20plumulosum">Thuidium plumulosum</name>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,763 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ Melb. bot. Garden ¶ 10/9/63. ¶ Dear Mr Bentham. ¶  ¶ The rest of the Leguminosae has been sent to you pr "Monarch" in the first days of this month. I trust that they will prove interesting to you a...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1863/63-09-10b-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RBG Kew, Kew correspondence, Australia, Mueller, 1858-70, ff. 116-19.</msName>
+                  <altIdentifier>
+                     <idno>63.09.10b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ Melb. bot. Garden ¶ 10/9/63. ¶ Dear Mr Bentham. ¶  ¶ The rest of the Leguminosae has been sent to you pr "Monarch" in the first days of this month. I trust that they will prove interesting to you a...</title>
+               <date when="1863-09-10">1863-09-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1863/63-09-10b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Leptocyamus clandestinus</term>
+               <term>Spadostyles Cunninghami </term>
+               <term>Swainsona coronillifolia</term>
+               <term>Daviesia colletioides </term>
+               <term>Dillwynia empetrifolia</term>
+               <term>Callistachys linearis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/375de873-5bfa-415d-94cc-a8a0f9a3fd1f">Podolobium procumbens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/ec99d3e1-3d4a-4549-9ea1-84da2a6833a9">Swainsona galegifolia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/39355758-2ef5-4949-b38b-4492648964f5">Acacia dodonaeifolia</term>
+               <term>Chorizema ellipticum</term>
+               <term>Dolichos reticulatus</term>
+               <term>Eutaxia empetrifolia</term>
+               <term>Indigofera brevidens</term>
+               <term>Indigofera lasiantha</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/5a355fe8-1291-499f-9b93-74a7d0d04c81">Oxylobium ellipticum</term>
+               <term>Acacia angustifolia</term>
+               <term>Bruguiera Australis</term>
+               <term>Calotropis tricolor</term>
+               <term>Eutaxia sparsifolia</term>
+               <term>Hoveae acanthoclada</term>
+               <term>Indigofera ervoides</term>
+               <term>Panax sambucifolius</term>
+               <term>Podolobium scandens</term>
+               <term>Swainsona Froebelii</term>
+               <term>Swainsona oroboides</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f967d3ae-2e58-4928-89a1-333d137acbf4">Swainsona phacoides</term>
+               <term>Chorizema scandens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/072e1f03-9ebe-4b7e-b1b2-2e0e715e8e25">Goodia medicaginea</term>
+               <term>Kennedya prostrata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/51f072c7-ed5b-42a3-aef5-b30c93bdf331">Oxylobium alpestre</term>
+               <term>Oxylobium spinosum</term>
+               <term>Pultenaea ternata </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4d90c72f-8085-4654-8d36-4cf4398252c4">Acacia suaveolens</term>
+               <term>Bruguiera Rheedei</term>
+               <term>Daviesia physodes</term>
+               <term>Dolichos Benthami</term>
+               <term>Mirbelia oxyclada</term>
+               <term>Acacia visciflua</term>
+               <term>Dillwynia patens</term>
+               <term>Glycine labialis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/6ece0f8f-f267-492b-8754-7f2f29766f04">Goodia lotifolia</term>
+               <term>Medicago arborea</term>
+               <term>Mirbelia Baxteri</term>
+               <term>Psoralea Archeri</term>
+               <term>Psoralea pannosa</term>
+               <term>Psoralea plicata</term>
+               <term>Swainsona Burkei</term>
+               <term>Acacia leprosa </term>
+               <term>Galega tricolor</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b3ad8b60-b1d8-48f0-90d0-eb6f4d388f7e">Psoralea patens</term>
+               <term>Psoralea tenax </term>
+               <term>Chrysobalaneae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/695ff155-8166-4402-986f-d350b51cf4ed">Psoralea parva</term>
+               <term>Goodia retusa</term>
+               <term>Nematophyllum</term>
+               <term>Papilionaceae</term>
+               <term>Sclerothamnus</term>
+               <term>Vigna Catjang</term>
+               <term>Combretaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/6f655a77-a0d4-4ccb-9215-4e513d2aaaf1">Hardenbergia</term>
+               <term>Rhizophoreae</term>
+               <term>Diplolobium</term>
+               <term>Leguminosae</term>
+               <term>Melastomeae</term>
+               <term>Physolobium</term>
+               <term>Saxifrageae</term>
+               <term>Astragalus</term>
+               <term>Cyclogyne</term>
+               <term>Eremosyne</term>
+               <term>Tephrosia</term>
+               <term>Bosistoa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dae70f15-f957-4e9d-8147-64a9aa46de87">Bossiaea</term>
+               <term>Carallia</term>
+               <term>Euchilus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f7b4eedb-5dd8-460c-9b90-75fa4ea8a369">Phyllota</term>
+               <term>Donatia</term>
+               <term>Mimosa</term>
+               <term>Zichya</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9da68566-39c5-4b80-9db5-df935dcf265d">Aotus</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+               <term>valediction</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>George Bentham</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ Melb. bot. Garden ¶ 10/9/63. ¶ Dear Mr Bentham. ¶  ¶ The rest of the Leguminosae has been sent to you pr "Monarch" in the first days of this month. I trust that they will prove interesting to you a...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">63.09.10b</p>
+            <p rend="correspondent" xml:lang="en">To George Bentham</p>
+            <p rend="location" xml:lang="en">RBG Kew, Kew correspondence, Australia, Mueller, 1858-70, ff. 116-19.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>Melb. bot. Garden</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">10/9/63.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">Dear Mr Bentham.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The rest of the <name key="Leguminosae">Leguminosae</name> has been sent to you pr "Monarch" in the first days of this month. I trust that they will prove interesting to you and augment largely the material for the second volume.<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Of Bentham (1863-78).</p>
+               </note> Your unrivalled knowledge of <name key="Leguminosae">Leguminosae</name> will enable you to furnish us with a lucid rearrangement of the genera. I feel we have too many. Is not Meisners <name key="Goodia%20lotifolia">Goodia lotifolia</name> = G. medicaginea, which I called so<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">
+                        <name key="Goodia%20medicaginea">Goodia medicaginea</name>
+                     </seg>, B58.03.01, p. 10. </p>
+               </note> from some habitual resemblance to <name key="Medicago%20arborea">Medicago arborea</name>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Perhaps you have authentic specimina of Sweets G. retusa, which I cannot recognize from the short phrase.<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">i.e. in Sweet (1826), p. 110, which APNI treats as invalid being a <seg style="font-style: italic; ">nomina</seg>
+                     <seg style="font-style: italic; ">nuda</seg> (i.e. a name without an attached description). Sweet's 'short phrase' was 'notched'; a symbol indicated that it was one of the 'new plants from New Holland in Mr. Mackay's Nursery, with the MS names, not published'.</p>
+               </note> Of Swainsona you receive a magnificent &amp; instructive series of forms. The species are evidently very variable in inflorescence, indument, color &amp;c. I find S. phacoides assumes occasionally orange colored flowers; is therefore not perhaps S. galegifolia = G. coronillifolia? I had no time to examine the specimens with critical care, but trust they will travel safely to &amp; fro, so that I can work them up after you for the flora of Victoria[.] I have a few singular forms of Swainsona from the desert temporary named, such a S. oroboides, S. Burkei &amp;c, but am not sure, that they are not mere extreme forms of other species.<note xml:id="ftn4" type="footnote" n="4">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Bentham (1863-78), vol. 2, accepted both <seg style="font-style: italic; ">S. oroboides</seg> (p. 222) and <seg style="font-style: italic; ">S. burkei</seg> (p. 218).</p>
+               </note>
+               <name key="Cyclogyne">Cyclogyne</name> = Swainsona, as I pointed out in the Fragmenta.<note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">B59.02.03, pp. 75-76 and B62.07.01, p. 46.</seg>
+                  </p>
+               </note> Eutaxia I combine with Dillwynia. <name key="Phyllota">Phyllota</name> with <name key="Aotus">Aotus</name>. <name key="Nematophyllum">Nematophyllum</name> appears to be a good genus. It differs from Goodia in habit, partially unifoliolate leaves, persistent stipules and bracteoles, inflorescence, form of Calyx, the concrescence of the carinal petals on their anterior part, imperfectly septate and somewhat patellar strophiole. It is neither combinable with <name key="Bossiaea">Bossiaea</name>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>What is <name key="Swainsona%20Froebelii">Swainsona Froebelii</name> of Regels Gartenflora.<note xml:id="ftn6" type="footnote" n="6">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Regel (1854), including tab. 89. Bentham (1863-78), vol. 2, p. 216 suggested that it may have been <seg style="font-style: italic; ">S. lessertiifolia,</seg> but he had not seen Regel's description or plate.</p>
+               </note> Leptocyamus may contain but <seg style="">
+                  <hi rend="underline">one</hi>
+               </seg> Australian species, altho' I have not carefully examined my material. It has not the upturned rostrum to the pod as G. labialis. Would it not be best to obliterate the genus Glycine, which has become so ambiguous, and place G. labialis a Leptocyamus. Are the anthers really not always either all fertile or half-sterile. Hitherto I considered this a generic character in <name key="Leguminosae">Leguminosae</name>. The Yellow flowered Vignas described by you and which are so near to V. Catjang I combine as <name key="Dolichos%20Benthami">Dolichos Benthami</name>.<note xml:id="ftn7" type="footnote" n="7">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">See Bentham (1863-78), vol. 2, pp. 259-60 where the cosmopolitan <seg style="font-style: italic; ">Vigna</seg>
+                     <seg style="font-style: italic; ">lutea</seg> and <seg style="font-style: italic; ">V. luteola</seg> are discussed; <seg style="font-style: italic; ">
+                        <name key="Dolichos%20Benthami">Dolichos Benthami</name>i </seg>had been described by Meissner in 1843. </p>
+               </note> I cannot see more than subgeneric value in Vigna.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <name key="Psoralea%20pannosa">Psoralea pannosa</name> of former sendings contains varieties not well responding to the specific name,<note xml:id="ftn8" type="footnote" n="8">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">A specimen bearing M's label <name key="Psoralea%20pannosa">Psoralea pannosa</name> dated ‘Dec 55’ exists at Kew under <seg style="font-style: italic; ">Cullen badocanum </seg>(K000217484). See Bentham (1863-78), vol. 2, p, 190.</p>
+               </note> hence I have altered it into P. Archeri.<note xml:id="ftn9" type="footnote" n="9">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Psoralea archeri, </seg>B63.09.01, p. 21.</p>
+               </note> P. parva may be a var of P. tenax. Once I held the color of the flowers of Psoralea of importance, but I find them now not so, as certainly P. patens occurs rarely with blue flowers &amp; usually with pink. P. tenax has usually blue P. parva usually pink flowers. Is P. patens really distinct from P. plicata? Of Leichhardts plants I have selected what I considered of interest from the <name key="Leguminosae">Leguminosae</name>. The bulk of them repeats what we have better in other collections, and they are too ill preserved as to render it desirable to send them all.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I believe that on a former occasion I alluded already to Mr Daniel Bunce as having gathered plants [on] Dr Leichhardts <seg style="">
+                  <hi rend="underline">second</hi>
+               </seg> (short) expedition.<note xml:id="ftn10" type="footnote" n="10">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">M to G. Bentham, 23 October 1862.</p>
+               </note> I recognize now his handwriting with certainty and you will easily distinguish it from Leichhardts; so I would recommend that in regard to these particular plants their names should be quoted conjointly; The number of Bunce's specimens is few compared with Leichhardts general collection.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>That the second hundred pounds are sent by last mail to the Colonial Agent I have mentioned by last mail.<note xml:id="ftn11" type="footnote" n="11">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">The Victorian Government’s contribution to the cost of Bentham (1863-78), vol. 2. See M to G. Bentham, 11 August 1863.</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Pray stimulate Mr Reeves to the despatch of the 30 copies for our Government as early as possible. I think it would not be liked, if the booksellers (who always import by the overland mail) had the work before the Government.<note xml:id="ftn12" type="footnote" n="12">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">There is a question mark in the margin against this paragraph. </p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I enclose a note upon my new genus <name key="Diplolobium">Diplolobium</name>.<note xml:id="ftn13" type="footnote" n="13">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">
+                        <name key="Diplolobium">Diplolobium</name>
+                     </seg> (<seg style="font-style: italic; ">D. walcottii</seg>), B63.13.03, p. 489.</p>
+               </note> It has the foliage of Swainsona &amp; <name key="Astragalus">Astragalus</name>, and I should have combined it with the latter genus, were its pods not <seg style="">
+                  <hi rend="underline">two-seeded</hi>
+               </seg> &amp; very readily breaking into two closed mericarps. In looking over my carpological collections of <name key="Leguminosae">Leguminosae</name>, I found the remnants of flowers herewith forwarded.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Is not <name key="Physolobium">Physolobium</name> a mere variety of <name key="Kennedya%20prostrata">Kennedya prostrata</name>, which varies with slightly and exceedingly turgid pods! If <name key="Physolobium">Physolobium</name> is something different I have never seen the plant.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The cases (4) pr Prince of Wales arrived &amp; the contents are (I am glad to say) again dry &amp; safe in our Museum, altho the soldering of the seems<note xml:id="ftn14" type="footnote" n="14">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">seams?</p>
+               </note> of the metal lids to the case was so imperfectly done, that large fissures were left open. This work was evidently done by an inexperienced man, and had the cases been placed on a moist spot or exposed to leakage, the contents would not have been preserved by the metal coating. Will you kindly give instructions to prevent similar dangers? By the "Monarch", which sailed on the 7. Sept. you will receive in two cases the rest of the <name key="Leguminosae">Leguminosae</name>. To fill up the second box I added <name key="Melastomeae">Melastomeae</name>, <name key="Chrysobalaneae">Chrysobalaneae</name> and <name key="Combretaceae">Combretaceae</name>. The latter order is highly interesting &amp; the series of forms of most of the species is good. I shall send by the "Norfolk", which is to sail by the 19 of the month the remaining collections, required for your second volume. Amongst these the <name key="Saxifrageae">Saxifrageae</name> in their grand arborescent form are highly interesting. <name key="Donatia">Donatia</name> is omitted by Dr Hooker as a Tasmanian plant together with <name key="Panax%20sambucifolius">Panax sambucifolius</name> and a few other plants from that Island.<note xml:id="ftn15" type="footnote" n="15">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">J. Hooker (1860).</p>
+               </note> Would it not be well to obtain also Dr Milligans collections for comparison. He took his herbarium home with him and his adress could be made out at the British Museum.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I have not <name key="Eremosyne">Eremosyne</name> and if you have a small specimen to spare at Kew I should feel thankful, though Endlicher or rather Bauer figured it well.<note xml:id="ftn16" type="footnote" n="16">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Endlicher (1838), t.112 (Stearn (1947) gives the date of publication of this plate as March 1841). Although Ferdinand Bauer drew most of the plates, t. 112 is signed 'Poutterlick (<seg style="font-style: italic; ">sic</seg>) del.'</p>
+               </note> The lignotideous <name key="Carallia">Carallia</name> occurs not like the true <name key="Rhizophoreae">Rhizophoreae</name> on the saline aestuaries.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>What is <name key="Dolichos%20reticulatus">Dolichos reticulatus</name> Aiton from Australia, referred to also in Wallich's list?<note xml:id="ftn17" type="footnote" n="17">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Wallich (1828-49), number 5552.</p>
+               </note> &amp; by Steudel in the Nomenclator<note xml:id="ftn18" type="footnote" n="18">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Steudel (1840-41), p. 523.</p>
+               </note>
+               <name key="Bruguiera%20Australis">Bruguiera Australis</name> All. Cunn., republished by Miquel in fl. Ind. Batav<note xml:id="ftn19" type="footnote" n="19">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Miquel (1855-59), vol. 1, part 1, p. 588.</p>
+               </note> seems identical with B. Rheedei<note xml:id="ftn20" type="footnote" n="20">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">B. rheedii?</p>
+               </note> Blume. In my last letter I suggested, that simultaneous with the present publication a cryptogamic series of volumes for the flora of Australia might be commenced. If you think it desirable I will at once send what I have for the purpose of revision. Is not <name key="Calotropis%20tricolor">Calotropis tricolor</name> Don<note xml:id="ftn21" type="footnote" n="21">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">APNI does not list <seg style="font-style: italic; ">
+                        <name key="Calotropis%20tricolor">Calotropis tricolor</name>
+                     </seg>
+                     <seg style="">(accessed 7 August 2019)</seg>, but see note in Bentham (1863-78), vol. 2, p. 7.</p>
+               </note> (<name key="Galega%20tricolor">Galega tricolor</name> Hook fl. exot.)<note xml:id="ftn22" type="footnote" n="22">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">W. Hooker (1823-7), vol. 3, plate 185.</p>
+               </note> a <name key="Tephrosia">Tephrosia</name>?</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <name key="Indigofera%20ervoides">Indigofera ervoides</name>, I. brevidens &amp; I. lasiantha appear reducible to I. Australia.<note xml:id="ftn23" type="footnote" n="23">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">I. australis</seg>?</p>
+               </note> All the Kennedyae (including <name key="Zichya">Zichya</name> &amp; <name key="Hardenbergia">Hardenbergia</name>) appear to me to form only seven species. I have not worked up the <name key="Papilionaceae">Papilionaceae</name> for the Vict. Flora, but will (to ease your work) attend as far as I can to the subsequent orders.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Glancing over your volume it appears to me, that Mr Woolls name but scantily appears. I have, in the immensity of work, which surrounds me, not had time to mark all his specimens with his name. But his handwriting, always in leadpencil, will be readily recognized. His contributions have been extensive and were always rendered gratuitously. I would advise to obtain Dr Milligans plants. He has much from <seg style="">
+                  <hi rend="underline">Flinders Island</hi>
+               </seg> in his private collection and many of his plants are not at Kew. The Doctors adress may be made out at the British Museum. Some notes upon the habitats of certain <name key="Leguminosae">Leguminosae</name> I have to send by next mail.<note xml:id="ftn24" type="footnote" n="24">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Notes not identified.</p>
+               </note> As I do not intend to work up the <name key="Leguminosae">Leguminosae</name>
+               <name key="Papilionaceae">Papilionaceae</name>, the next shipments will follow in rapid succession.<note xml:id="ftn25" type="footnote" n="25">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">Although M had ceased work on Part 2 of </seg>
+                     <seg style="font-style: italic; ">Plants indigenous to the colony of Victoria </seg>
+                     <seg style="">after 5 sheets (40 pages) were printed (see B63.13.06), he did nevertheless work up specimens before they went to Kew, publishing an account of this group in his </seg>
+                     <seg style="font-style: italic; ">Fragmenta</seg>
+                     <seg style=""> (B63.09.01, pp. 3-22). The same practice influenced his publication pattern throughout his assistance to Bentham; see Lucas (2003), pp. 264-7.</seg>
+                  </p>
+               </note> What means have we of ascertaining what <name key="Acacia%20dodonaeifolia">Acacia dodonaeifolia</name> is? Wendlands figure &amp; description are imperfect.<note xml:id="ftn26" type="footnote" n="26">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">H. L. </seg>
+                     <seg style="">Wendland (1820), p. 30, tab. 7.</seg>
+                  </p>
+               </note> But original specimens might be got from Hannover. My A. dodonaeifolia is probably not his; hence I would like to call it A. visciflua.<note xml:id="ftn27" type="footnote" n="27">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">B63.13.06, p. 24; see also Bentham (1863-78), vol. 2, p. 539. </p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I believe Wendland's plant is an E. Australia one and one of the many forms of A. leprosa. Through Fenzl it might be readily ascertained, what A. angustifolia is. Its calyx (not of free sepals) seems to distinguish it from A. suaveolens.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Trusting that you be long spared us in uninterrupted health so that you may pursue your luminous path with accustomed vigor,</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">I remain, dear Mr Bentham,</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>your attached</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <space dim="horizontal" extent="tab"/>Ferd. Mueller</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">Many thanks for your shipping 4 cases pr Prince of Wales. But would it not be well to send not too many by one ship, in order to diminish risk?</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Pray give me the names of the special orders you intend to elaborate in vol II, so that I may be in time with my contributions.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Is the byefollowing <seg style="">
+                  <hi rend="underline">
+                     <name key="Mimosa">Mimosa</name>
+                  </hi>
+               </seg> really new?</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In <name key="Leptocyamus%20clandestinus">Leptocyamus clandestinus</name> we have as well pinnately as digitately trifoliolate leaves.<note xml:id="ftn28" type="footnote" n="28">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Paragraph is a marginal note on f. 117.</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <note xml:id="ftn29" type="footnote" n="29">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">The remaining text is filed at folio 10 of the archive volume. It is placed here on the basis that the discussion concerns genera included in Cases16 and 17 sent on the <seg style="font-style: italic; ">Monarch</seg> on 7 September. Other genera sent in the same cases are discussed above (Notebook recording despatch of plants for Flora Australiensis, RB, MSS, M44, Library, Royal Botanic Gardens Melbourne). </p>
+               </note>I regard it most advisable to unite <name key="Euchilus">Euchilus</name> with Pultenaea, as also Spadostylis.<note xml:id="ftn30" type="footnote" n="30">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Spadostyles</seg>? Contrast the argument here with that in M to G. Bentham, 11 August 1863.</p>
+               </note> The position of the leaves, whether alternating or opposite, is not of generic value in my opinion, because we have in Daviesia also sp. with opposite leaves. These would require to be placed into a separate new genus, if the distinction between <name key="Euchilus">Euchilus</name> &amp; Pultenaea are kept up. Eutaxia has on the same grounds to be placed with Dillwynia and so <name key="Sclerothamnus">Sclerothamnus</name>. My <name key="Eutaxia%20sparsifolia">Eutaxia sparsifolia</name> I have redescribed for the fragmenta as <name key="Dillwynia%20patens">Dillwynia patens</name>.<note xml:id="ftn31" type="footnote" n="31">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">D. patula in B63.09.01, p. 16.</p>
+               </note> In a readjustment of the genera I go a step f[a]rther th[a]n you by uniting not only Podolob.<note xml:id="ftn32" type="footnote" n="32">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Podolobium</seg>.</p>
+               </note> &amp; Callistachys to Oxylobium,<note xml:id="ftn33" type="footnote" n="33">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">See G. Bentham to M, 24 June 1863 (in this edition as 63-06-24a).</p>
+               </note> but all these also to Chorizema,<note xml:id="ftn34" type="footnote" n="34">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Spelled Chorozema by M in B63.09.01, pp. 17-20.</p>
+               </note> the oldest of the 4. I have a great piety for old genera, but when they are absolutely untenable, I think we are justified in obliterating them for the sake of logical lucid systematic arrangements[.] I see no difference between Daviesia collitioides and D. physodes. That <name key="Podolobium%20scandens">Podolobium scandens</name>, P. procumbens, <name key="Oxylobium%20spinosum">Oxylobium spinosum</name> and <name key="Mirbelia%20Baxteri">Mirbelia Baxteri</name> are all the same = <name key="Chorizema%20scandens">Chorizema scandens</name> Sm you will have also, no doubt, ascertained. I have now to offer a few remarks on the range of certain species of <name key="Leguminosae">Leguminosae</name> Will be only able to send this by next mail<note xml:id="ftn35" type="footnote" n="35">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Will only … by next mail <seg style="font-style: italic; ">is written at the bottom of the first page of the back of f. 10, with its intended position indicated by an asterisk. Additional notes on the range of <name key="Leguminosae">Leguminosae</name> spp. have not been found</seg>. </p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Amongst Hovea I have a curious new species. (H. acanthoclada) with thornlike branchlets &amp; minute leaves. The eastern Hoveae seem all reducible to 2 or 3 sp. <name key="Euchilus">Euchilus</name> I unite with Spadostylis to Pultenaea. There is quite as much difference in the calyx of the genus <name key="Bossiaea">Bossiaea</name> as in the so extended genus Pultenaea. Stipules &amp; strophioles seem to me of sufficient value to build upon them generic distinctions. I adopt for Spadostylis Cunninghami the name Pultenaea ternata, under which the plant was sent to Kew many years ago. Mr Black<note xml:id="ftn36" type="footnote" n="36">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Allan Black.</p>
+               </note> in his list of identifications gave me that of Spadostylis Cunninghami for my plant. Dillwynia (Eutaxia) empetrifolia, so common in the E. desert I have now also from S. W. Australia. Many Murray plants strech quite around the Great Bight.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Since writing the above I have more closely looked on Chorizemata. The presense of strophioles in Chorizema (Callistachys) linearis is curious and the presense of stipules in Oxylob. alpestre and their absence in Choriz (Oxylobium) ellipticum seems also remarkable. Of<note xml:id="ftn37" type="footnote" n="37">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">If?</p>
+               </note> therefore these two characters cannot be relied on, many of the genera of <name key="Leguminosae">Leguminosae</name> are swept away. There are again exceedingly minute stipules in [some] <name key="Phyllota">Phyllota</name>, which either must go back to Pultenaea, or as I propose be united with <name key="Aotus">Aotus</name>, as all those examined by me have <seg style="">
+                  <hi rend="underline">no</hi>
+               </seg> strophiole. They would form however a section. Oxycladium I unite with Mirbelia after the discovery of an other leafless species (M. oxyclada)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <name key="Bosistoa">Bosistoa</name> has often only [5] leaflets.<note xml:id="ftn38" type="footnote" n="38">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">The final paragraph is a marginal note and refers to the published account in Bentham (1863-78), vol. 1, p. 359.</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20angustifolia">Acacia angustifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20dodonaeifolia">Acacia dodonaeifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20leprosa%20">Acacia leprosa </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20suaveolens">Acacia suaveolens</name>.</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia%20visciflua">Acacia visciflua</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aotus">Aotus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Astragalus">Astragalus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bosistoa">Bosistoa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea">Bossiaea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bruguiera%20Australis">Bruguiera Australis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Bruguiera%20Rheedei">Bruguiera Rheedei</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Callistachys%20linearis">Callistachys linearis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calotropis%20tricolor">Calotropis tricolor</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Carallia">Carallia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chorizema%20ellipticum">Chorizema ellipticum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chorizema%20scandens">Chorizema scandens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chrysobalaneae">Chrysobalaneae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Combretaceae">Combretaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cyclogyne">Cyclogyne</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Daviesia%20colletioides%20">Daviesia colletioides </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Daviesia%20physodes">Daviesia physodes</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dillwynia%20empetrifolia">Dillwynia empetrifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dillwynia%20patens">Dillwynia patens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Diplolobium">Diplolobium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dolichos%20Benthami">Dolichos Benthami</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Dolichos%20reticulatus">Dolichos reticulatus</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Donatia">Donatia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremosyne">Eremosyne</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Euchilus">Euchilus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eutaxia%20empetrifolia">Eutaxia empetrifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eutaxia%20sparsifolia">Eutaxia sparsifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Galega%20tricolor">Galega tricolor</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Glycine%20labialis">Glycine labialis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodia%20lotifolia">Goodia lotifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodia%20medicaginea">Goodia medicaginea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodia%20retusa">Goodia retusa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hardenbergia">Hardenbergia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hoveae%20acanthoclada">Hoveae acanthoclada</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Indigofera%20brevidens">Indigofera brevidens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Indigofera%20ervoides">Indigofera ervoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Indigofera%20lasiantha">Indigofera lasiantha</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Kennedya%20prostrata">Kennedya prostrata</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leguminosae">Leguminosae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leptocyamus%20clandestinus">Leptocyamus clandestinus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Medicago%20arborea">Medicago arborea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melastomeae">Melastomeae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mimosa">Mimosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mirbelia%20Baxteri">Mirbelia Baxteri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mirbelia%20oxyclada">Mirbelia oxyclada</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Nematophyllum">Nematophyllum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Oxylobium%20alpestre">Oxylobium alpestre</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Oxylobium%20ellipticum">Oxylobium ellipticum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Oxylobium%20spinosum">Oxylobium spinosum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Panax%20sambucifolius">Panax sambucifolius</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Papilionaceae">Papilionaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Phyllota">Phyllota</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Physolobium">Physolobium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Podolobium%20procumbens">Podolobium procumbens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Podolobium%20scandens">Podolobium scandens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20Archeri">Psoralea Archeri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20pannosa">Psoralea pannosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20parva">Psoralea parva</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20patens">Psoralea patens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20plicata">Psoralea plicata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20tenax%20">Psoralea tenax </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pultenaea%20ternata%20">Pultenaea ternata </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhizophoreae">Rhizophoreae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Saxifrageae">Saxifrageae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sclerothamnus">Sclerothamnus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Spadostyles%20Cunninghami%20">Spadostyles Cunninghami </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Swainsona%20Burkei">Swainsona Burkei</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Swainsona%20coronillifolia">Swainsona coronillifolia</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Swainsona%20Froebelii">Swainsona Froebelii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Swainsona%20galegifolia">Swainsona galegifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Swainsona%20oroboides">Swainsona oroboides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Swainsona%20phacoides">Swainsona phacoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tephrosia">Tephrosia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Vigna%20Catjang">Vigna Catjang</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Zichya">Zichya</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ Since I examined the fruit of Nuytsia I had occasion to examine also that of Loranthus celastroides and find 2 or 3 cotyledons!...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1867/67-07-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RBG Kew, Kew correspondence, Australia, Mueller, 1858-70. f. 20.</msName>
+                  <altIdentifier>
+                     <idno>67.07.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ Since I examined the fruit of Nuytsia I had occasion to examine also that of Loranthus celastroides and find 2 or 3 cotyledons!...</title>
+               <date when="1867-07">1867-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-07-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Loranthus celastroides</term>
+               <term>Nuytsia</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>[Joseph Hooker]</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ Since I examined the fruit of Nuytsia I had occasion to examine also that of Loranthus celastroides and find 2 or 3 cotyledons!...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">67.07.00</p>
+            <p rend="correspondent" xml:lang="en">To [Joseph Hooker]</p>
+            <p rend="location" xml:lang="en">RBG Kew, Kew correspondence, Australia, Mueller, 1858-70. f. 20.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">MS annotation in pencil in an unknown hand: 'vol iii', i.e, Bentham (1863–78), vol 3: see pp. 387, 389). The correspondent is conjectural. It is most likely to have been Hooker, as a follow-up to the comment on the embryo of <seg style="font-style: italic; ">
+                        <name key="Nuytsia">Nuytsia</name>
+                     </seg> in M to J. Hooker, 15 May 1867 (in this edition as 67-05-15a). M reported the structure of the embryo of <seg style="font-style: italic; ">
+                        <name key="Loranthus%20celastroides">Loranthus celastroides</name>
+                     </seg> in B68.13.01, and the fragment is dated on the assumption that the earliest it could have been written was June 1867; the earliest known letter with which it could have been enclosed is M to J. Hooker, 25 July 1867 (in this edition as 67-07-25a).</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>Since I examined the fruit of <name key="Nuytsia">Nuytsia</name> I had occasion to examine also that of <name key="Loranthus%20celastroides">Loranthus celastroides</name> and find 2 or 3 cotyledons!</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Loranthus%20celastroides">Loranthus celastroides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Nuytsia">Nuytsia</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

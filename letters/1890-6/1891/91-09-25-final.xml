@@ -1,0 +1,1124 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Algae collected in Champion-bay ¶  by Spalding sent to me on 21/7 by Baron Ferd. v. Mueller 1891. ¶  ¶ fragment not determined. ¶  ¶ not yet properly examined. ¶ Algae collected from Preservation Isla...</title>
+            <author>Jacob Agardh</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1891/91-09-25-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RB MSS M108a, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>91.09.25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Jacob Agardh</author>
+               <title>Algae collected in Champion-bay ¶  by Spalding sent to me on 21/7 by Baron Ferd. v. Mueller 1891. ¶  ¶ fragment not determined. ¶  ¶ not yet properly examined. ¶ Algae collected from Preservation Isla...</title>
+               <date when="1891-09-25">1891-09-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1891/91-09-25-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Callophyllis Calliblepharoides</term>
+               <term>Hymenocladia Gracilarioides</term>
+               <term>Thysanocladia oppositifolia</term>
+               <term>Callithamnion mucronatum</term>
+               <term>Callophyllis Hombroniana</term>
+               <term>Melanthalia polydactylis</term>
+               <term>Kuetzingia canaliculata</term>
+               <term>Callophyllis Lambertii</term>
+               <term>Centroceras clavulatum</term>
+               <term>Cystophyllum muricatum</term>
+               <term>Gracilaria Lichenoides</term>
+               <term>Mastophora Lamourouxii</term>
+               <term>Melanthalia flabellata</term>
+               <term>Peyssonellia multifida</term>
+               <term>Lenormandia latifolia</term>
+               <term>Plocamium Preissianum</term>
+               <term>Scytothalia dorycarpa</term>
+               <term>Stenocladia Harveyana</term>
+               <term>Cystoseira prolifera</term>
+               <term>Gracilaria Harveyana</term>
+               <term>Melanthalia concinna</term>
+               <term>Melanthalia obtusata</term>
+               <term>Ptilota formosissima</term>
+               <term>Thuretia Quercifolia</term>
+               <term>Asparagopsis armata</term>
+               <term>Dicranema Grevillei</term>
+               <term>Dictyota paniculata</term>
+               <term>Galaxaura marginata</term>
+               <term>Halimeda platydisca</term>
+               <term>Horea Halymenioides</term>
+               <term>Plocamium nidificum</term>
+               <term>Rhabdonia globifera</term>
+               <term>Sargassum Desvauxii</term>
+               <term>Amphiroa Charoides</term>
+               <term>Cystophora uvifera</term>
+               <term>Eucheuma speciosum</term>
+               <term>Laurencia Forsteri</term>
+               <term>Plocamium procerum</term>
+               <term>Pterocladia lucida</term>
+               <term>Ptilota articulata</term>
+               <term>Rhodophyllis erosa</term>
+               <term>Amansia glomerata</term>
+               <term>Sargassum Sonderi</term>
+               <term>Tylotus obtusatus</term>
+               <term>Conferva Brownii</term>
+               <term>Ecklonia radiata</term>
+               <term>Gelidium corneum</term>
+               <term>Gelidium rigidum</term>
+               <term>Mychodea pusilla</term>
+               <term>Rytiphlaea elata</term>
+               <term>Sargassum fallax</term>
+               <term>Sargassum opacum</term>
+               <term>Scaberia Agardhi</term>
+               <term>Ballia scoparia</term>
+               <term>Delisea pulchra</term>
+               <term>Acanthophora</term>
+               <term>Neurymenia</term>
+               <term>Rhodymenia</term>
+               <term>Corallina</term>
+               <term>Gigartina</term>
+               <term>Wrangelia</term>
+               <term>Codium</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>table</term>
+               <term>note</term>
+               <term>multi-row cell</term>
+               <term>multi-column cell</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>underline</term>
+               <term>Footnote</term>
+               <term>valediction</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="58">English</language>
+            <language ident="de" usage="42">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Algae collected in Champion-bay ¶  by Spalding sent to me on 21/7 by Baron Ferd. v. Mueller 1891. ¶  ¶ fragment not determined. ¶  ¶ not yet properly examined. ¶ Algae collected from Preservation Isla...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">91.09.25</p>
+            <p rend="correspondent" xml:lang="de">From Jacob Agardh</p>
+            <p rend="location" xml:lang="de">RB MSS M108a, Library, Royal Botanic Gardens Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Algae in Champion-bay a Spalding lectae sub 21/7 a Bar. Ferd. v. Mueller mihi missae 1891</hi>
+               </seg>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">Algae collected in Champion-bay<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg style="">
+                        <space dim="horizontal" extent="tab"/>WA.</seg>
+                  </p>
+               </note> by Spalding sent to me on 21/7 by Baron Ferd. v. Mueller 1891.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table1">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        cols="3">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Sargassum</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">fallax</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">"</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="de">fragm. vix determ.</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">fragment scarcely determinable</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Cystophyllum%20muricatum">Cystophyllum muricatum</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Cystophora%20uvifera">Cystophora uvifera</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Scaberia%20Agardhi">Scaberia Agardhi</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Scytothalia%20dorycarpa">Scytothalia dorycarpa</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Ecklonia%20radiata">Ecklonia radiata</name> fragm.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Thuretia%20Quercifolia">Thuretia Quercifolia</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Kuetzingia%20canaliculata">Kuetzingia canaliculata</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Lenormandia%20latifolia">Lenormandia latifolia</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Neurymenia">Neurymenia</name>e? fragment</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Rytiphlaea%20elata">Rytiphlaea elata</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Laurencia%20Forsteri">Laurencia Forsteri</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Eucheuma%20speciosum">Eucheuma speciosum</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Rhabdonia%20globifera">Rhabdonia globifera</name> J. Ag.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Stenocladia%20Harveyana">Stenocladia Harveyana</name> J. Ag.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Gracilaria%20Harveyana">Gracilaria Harveyana</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Tylotus%20obtusatus">Tylotus obtusatus</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Ptilota%20articulata">Ptilota articulata</name>
+            </p>
+            <table n="Table2">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Plocamium</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">procerum</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Preissianum</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">nidificum</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Thysanocladia%20oppositifolia">Thysanocladia oppositifolia</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Mastophora%20Lamourouxii">Mastophora Lamourouxii</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Amphiroa%20Charoides">Amphiroa Charoides</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">fragmenta non determinatis.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>fragment not determined.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Corallina">Corallina</name>e.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Caulerpae.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Callithamnion sp. nondum rite examinatum.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>not yet properly examined.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Algae ex Preservation Island (Bass Str.) ab E. Maclaine lectae, sub 1/6 91 a Bar. Mueller mihi missae</hi>
+               </seg>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">Algae collected from Preservation Island (Bass Str.) by E. Maclaine, sent to me on 1/6 91 by Baron Mueller.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Sargassum%20Sonderi">Sargassum Sonderi</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Dictyota%20paniculata">Dictyota paniculata</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Callithamnion%20mucronatum">Callithamnion mucronatum</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Ptilota%20articulata">Ptilota articulata</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Callophyllis%20Lambertii">Callophyllis Lambertii</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Hymenocladia%20Gracilarioides">Hymenocladia Gracilarioides</name> J Ag.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Horea%20Halymenioides">Horea Halymenioides</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Dicranema%20Grevillei">Dicranema Grevillei</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Mychodea%20pusilla">Mychodea pusilla</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Asparagops. armata</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Wrangelia">Wrangelia</name> sp. vix determ.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>scarcely determinable</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Thuretia%20Quercifolia">Thuretia Quercifolia</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Algae ex Port Stevens ab Aug. Rudder lectae, sub 10/7 a Bar. Ferd. de Mueller mihi missae 1891</hi>
+               </seg>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">Algae collected from Port Stevens<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg style="">
+                        <space dim="horizontal" extent="tab"/>Port Stephens, NSW?</seg>
+                  </p>
+               </note> by Aug. Rudder, sent to me on 10/7 by Baron Ferd. von Mueller 1891.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Delisea%20pulchra">Delisea pulchra</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Peyssonellia%20multifida">Peyssonellia multifida</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Galaxaura%20marginata">Galaxaura marginata</name>
+            </p>
+            <table n="Table3">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Melanthalia </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; margin-left: 0in; margin-right: -0.4063in; text-indent: 0in; "
+                        xml:lang="en">polydactylis J Ag. (M. flabellata<note xml:id="ftn3" type="footnote" n="3">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <space unit="chars" quantity="1"/>
+                              <seg style="">
+                                 <space dim="horizontal" extent="tab"/>
+                              </seg>
+                              <seg style="font-style: italic; ">
+                                 <name key="Melanthalia%20flabellata">Melanthalia flabellata</name>
+                              </seg> is listed without description in Sonder (1880), p. 22, but was apparently not otherwise published: see AlgaeBase (accessed 13 September 2020).</p>
+                        </note> Sond.?)</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">"</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">obtusata angusta</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Pterocladia%20lucida">Pterocladia lucida</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Cystophyllum%20muricatum">Cystophyllum muricatum</name>
+            </p>
+            <table n="Table4">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Codium">Codium</name> sp.</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 18pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="de">nondum rite determanatae.</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">not yet properly determined</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Ceramium sp.</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Algae ex Port Stevens ab Aug. Rudder lectae, sub 27/4 a Bar. v. Mueller mihi missae</hi>
+               </seg>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">Algae collected from Port Stevens by Aug. Rudder, sent to me on 27/4 by Baron v. Mueller.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Delisea%20pulchra">Delisea pulchra</name>
+            </p>
+            <table n="Table5">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Melanthalia </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">polydactylis</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">"</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">concinna J Ag.</p>
+                  </cell>
+               </row>
+            </table>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table6">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Conferva sp.</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="3">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 28pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="3">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="de">nondum rite determinatae </p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">not yet properly determined.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Wrangelia">Wrangelia</name> sp.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Corallina">Corallina</name> sp.</p>
+                  </cell>
+               </row>
+            </table>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Algae ex Endeavour River (Queensl.) a St. Johnson lectae, sub 27/7 91 a F. de Mueller</hi>
+               </seg> mihi missae.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">Algae collected from Endeavour River (Queensl.) by St. Johnson, sent to me on 27/7 91 by F. von Mueller</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table7">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Sargassum </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">opacum </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="de">(specimines valde imperfectae)</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">(specimens very imperfect)</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">—</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="de">vile (an forma S. Desvauxii?)</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">worthless (towards S. Desvauxii?)</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">—</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">—</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>—<seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>fragm. non determ.</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Cystoseira%20prolifera">Cystoseira prolifera</name> infans</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Halimeda sp. ad H. platydiscam acced.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>approaching H. platydisca</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Conferva sp. habitus C. Brownii</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Gracilaria%20Lichenoides">Gracilaria Lichenoides</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Rhodymenia">Rhodymenia</name> sp. nana, nondum rite examinatae)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>dwarf, not yet properly examined)</p>
+            <table n="Table8">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Gelidium </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">rigidum</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">nanum</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">—</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">—</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">corneum auct. forma</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Acanthophora">Acanthophora</name> sp. (nana, vix determ.)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>(dwarf, scarcely determinable)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Amansia%20glomerata">Amansia glomerata</name> fragm.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Centroceras%20clavulatum">Centroceras clavulatum</name>
+            </p>
+            <table n="Table9">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Hypnea</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="3">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 28pt; "
+                        xml:lang="en">}</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        rows="3">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="de">nondum rite determinata</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 10pt; "
+                        xml:lang="en">
+                        <seg style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>not yet properly determined.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Jania</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Desmia fragm</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Ich bin nicht gewiss über folgende Sendung berichtet zu haben:</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am not certain I have reported on the following sending:</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="de">
+               <seg style="">
+                  <hi rend="underline">Algae ex Bluff Novae Zelandiae sub mense martii 1891 receptae, collectore non indicato</hi>
+               </seg>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; text-align: center; "
+               xml:lang="en">Algae from Bluff New Zealand received in the month of March 1891, collector not indicated.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table10">
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Callophyllis </p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Calliblepharoides J Ag.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: center; "
+                        xml:lang="en">—<seg style="">
+                           <space unit="chars" quantity="3"/>
+                        </seg>—</p>
+                  </cell>
+                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Hombroniana Mont. (non Harv.)</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Rhodophyllis%20erosa">Rhodophyllis erosa</name>? nondum rite determ.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>not yet properly determined</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Ptilota%20formosissima">Ptilota formosissima</name> Mont.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Ballia%20scoparia">Ballia scoparia</name> Harv.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Nitophyllum Harveyanum</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Plocamium%20Preissianum">Plocamium Preissianum</name> fragm.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <name key="Gigartina">Gigartina</name> sp. vix cert. determinanda</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>scarcely determinable with certainty</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Dabam Lundae 25/9 1891.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acanthophora">Acanthophora</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Amansia%20glomerata">Amansia glomerata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Amphiroa%20Charoides">Amphiroa Charoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Asparagopsis%20armata">Asparagopsis armata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ballia%20scoparia">Ballia scoparia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Callithamnion%20mucronatum">Callithamnion mucronatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Callophyllis%20Calliblepharoides">Callophyllis Calliblepharoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Callophyllis%20Hombroniana">Callophyllis Hombroniana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Callophyllis%20Lambertii">Callophyllis Lambertii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Centroceras%20clavulatum">Centroceras clavulatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Codium">Codium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Conferva%20Brownii">Conferva Brownii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Corallina">Corallina</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cystophora%20uvifera">Cystophora uvifera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cystophyllum%20muricatum">Cystophyllum muricatum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cystoseira%20prolifera">Cystoseira prolifera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Delisea%20pulchra">Delisea pulchra</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dicranema%20Grevillei">Dicranema Grevillei</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dictyota%20paniculata">Dictyota paniculata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ecklonia%20radiata">Ecklonia radiata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eucheuma%20speciosum">Eucheuma speciosum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Galaxaura%20marginata">Galaxaura marginata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gelidium%20corneum">Gelidium corneum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gelidium%20rigidum">Gelidium rigidum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gigartina">Gigartina</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gracilaria%20Harveyana">Gracilaria Harveyana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gracilaria%20Lichenoides">Gracilaria Lichenoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Halimeda%20platydisca">Halimeda platydisca</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Horea%20Halymenioides">Horea Halymenioides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hymenocladia%20Gracilarioides">Hymenocladia Gracilarioides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Kuetzingia%20canaliculata">Kuetzingia canaliculata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Laurencia%20Forsteri">Laurencia Forsteri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lenormandia%20latifolia">Lenormandia latifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mastophora%20Lamourouxii">Mastophora Lamourouxii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melanthalia%20polydactylis">Melanthalia polydactylis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melanthalia%20concinna">Melanthalia concinna</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melanthalia%20flabellata">Melanthalia flabellata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melanthalia%20obtusata">Melanthalia obtusata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melanthalia%20polydactylis">Melanthalia polydactylis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mychodea%20pusilla">Mychodea pusilla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Neurymenia">Neurymenia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Peyssonellia%20multifida">Peyssonellia multifida</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Plocamium%20nidificum">Plocamium nidificum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Plocamium%20Preissianum">Plocamium Preissianum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Plocamium%20procerum">Plocamium procerum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pterocladia%20lucida">Pterocladia lucida</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilota%20articulata">Ptilota articulata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilota%20formosissima">Ptilota formosissima</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhabdonia%20globifera">Rhabdonia globifera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhodophyllis%20erosa">Rhodophyllis erosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhodymenia">Rhodymenia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rytiphlaea%20elata">Rytiphlaea elata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sargassum%20Desvauxii">Sargassum Desvauxii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sargassum%20fallax">Sargassum fallax</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sargassum%20opacum">Sargassum opacum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sargassum%20Sonderi">Sargassum Sonderi</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scaberia%20Agardhi">Scaberia Agardhi</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scytothalia%20dorycarpa">Scytothalia dorycarpa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Stenocladia%20Harveyana">Stenocladia Harveyana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thuretia%20Quercifolia">Thuretia Quercifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thysanocladia%20oppositifolia">Thysanocladia oppositifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tylotus%20obtusatus">Tylotus obtusatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Wrangelia">Wrangelia</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>
