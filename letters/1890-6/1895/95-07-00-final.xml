@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [ ¶ Warden Jephson has obtained a quantity of young trees from the Agricultural Bureau, also an assortment of seeds of all kinds from Baron Von Mueller, and is having a patch of ground cultivated b...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1895/95-07-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>95.07.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [ ¶ Warden Jephson has obtained a quantity of young trees from the Agricultural Bureau, also an assortment of seeds of all kinds from Baron Von Mueller, and is having a patch of ground cultivated b...</title>
+               <date when="1895-07">1895-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1895/95-07-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Maynard Jephson</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [ ¶ Warden Jephson has obtained a quantity of young trees from the Agricultural Bureau, also an assortment of seeds of all kinds from Baron Von Mueller, and is having a patch of ground cultivated b...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">95.07.00</p>
+            <p rend="correspondent" xml:lang="en">To Maynard Jephson</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Western argus</seg> (Kalgoorlie, WA), 1 August 1895, p. 3. The letter is dated to July 1895 as the last date that it could have been sent to have been mentioned as received in this edition of the newspaper. </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[<seg style="">Warden Jephson has obtained a quantity of young trees from the Agricultural Bureau, also an assortment of seeds of all kinds from Baron Von Mueller, and is having a patch of ground cultivated behind his offices, so that a satisfactory trial may be made. The enclosure is to be surrounded with rabbit-proof wire fencing.</seg>]<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>It is possible that M's seeds were not received directly from him, but distributed by the WA Bureau of Agriculture:</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                     xml:lang="en">
+                     <seg style="">
+                        <space dim="horizontal" extent="tab"/>While on the subject of seeds, the Bureau must mention the liberality of Baron von Mueller, who is continually sending seeds of plants of economic value for experimental purposes. These, as they arrive, are distributed to various growers in different parts of the colony for experimental work.</seg>
+                  </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>(See 'Bureau of Agriculture, Second annual report', <seg style="font-style: italic; ">West Australian</seg>, 3 August, 1895, p. 10).</p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ Fitzgerald had split  ¶ Chiloglottis gunnii ¶  into 2 species according to the colour and even figured it as 2 species. He has, however, himself publicly afterwards withdrawn his second species....</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1893/93-03-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RB MSS M198, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>93.03.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ Fitzgerald had split  ¶ Chiloglottis gunnii ¶  into 2 species according to the colour and even figured it as 2 species. He has, however, himself publicly afterwards withdrawn his second species....</title>
+               <date when="1893-03">1893-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1893/93-03-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Chiloglottis gunnii</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="73">English</language>
+            <language ident="de" usage="27">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Otto Tepper</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ Fitzgerald had split  ¶ Chiloglottis gunnii ¶  into 2 species according to the colour and even figured it as 2 species. He has, however, himself publicly afterwards withdrawn his second species....</supplied>
+            </head>
+            <p rend="number" xml:lang="de">93.03.00</p>
+            <p rend="correspondent" xml:lang="de">To Otto Tepper</p>
+            <p rend="location" xml:lang="de">RB MSS M198, Library, Royal Botanic Gardens Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">MS annotation by Tepper: '25.3.93?'. This may be an inferred date of composition, or perhaps a recollected date of receipt.</p>
+               </note>
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>Fitzgerald hatte Chiloglottis Gunnii nach der Farbe in 2 Arten gespalten u sogar als 2 Species abgebildet. Er hat aber selbst öffentlich seine zweite Art nachher eingezogen.</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Fitzgerald had split <seg style="font-style: italic; ">
+                  <name key="Chiloglottis%20gunnii">Chiloglottis gunnii</name>
+               </seg> into 2 species according to the colour and even figured it as 2 species. He has, however, himself publicly afterwards withdrawn his second species.<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">Fitzgerald distinguished </seg>
+                     <seg style="font-style: italic; ">
+                        <name key="Chiloglottis%20gunnii">Chiloglottis gunnii</name>
+                     </seg>
+                     <seg style="">and</seg>
+                     <seg style="font-style: italic; "> C. muelleri</seg>
+                     <seg style=""> in R. Fitzgerald (1875-94), vol. 2, part 2, plate [</seg>6] (i.e. in 1885). No publication by Fitzgerald in which he withdrew <seg style="font-style: italic; ">C. muelleri</seg> as a distinct species has been found. M did not list it in B89.12.03 but this does not mean it was withdrawn by then since M was quite scathing about Fitzgerald's nomenclature; see, for example, M to R. Tate, September 1882 (in this edition as 82-09-00b). In B89.12.03, M included only 15 of the more than 80 orchid names (excluding varieties and orthographic variants) that Fitzgerald created up to 1888.</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chiloglottis%20gunnii">Chiloglottis gunnii</name>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

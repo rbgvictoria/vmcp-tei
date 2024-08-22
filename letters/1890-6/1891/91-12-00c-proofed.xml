@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[I duly presented myself at the residence of the famous Baron von Mueller, armed with a letter of introduction from his friend Brace ¶ b ¶ ridge Wilson. ¶ BracebridgeWilson, uncle of H. Montague R. Ru...</title>
+            <author>J. Bracebridge Wilson</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1891/91-12-00c-proofed.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>91.12.00c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>J. Bracebridge Wilson</author>
+               <title>[I duly presented myself at the residence of the famous Baron von Mueller, armed with a letter of introduction from his friend Brace ¶ b ¶ ridge Wilson. ¶ BracebridgeWilson, uncle of H. Montague R. Ru...</title>
+               <date when="1891-12">1891-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1891/91-12-00c-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[I duly presented myself at the residence of the famous Baron von Mueller, armed with a letter of introduction from his friend Brace ¶ b ¶ ridge Wilson. ¶ BracebridgeWilson, uncle of H. Montague R. Ru...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">91.12.00c</p>
+            <p rend="correspondent" xml:lang="en">From J. Bracebridge Wilson</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from Rupp (1992), p.<space unit="chars" quantity="1"/>107. Rupp left Geelong Grammar school at the end of 1891 and began his studies at the University pf Melbourne in 1892. The letter is dated to December 1891 as the most likely date it would have been given to him, see Gilbert (1992), p. 37.</p>
+               </note>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>[I duly presented myself at the residence of the famous Baron von Mueller, armed with a letter of introduction from his friend Brace</seg>
+               <seg rend="DefaultParagraphFont" style="">b</seg>
+               <seg rend="DefaultParagraphFont" style="">ridge Wilson.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Bracebridge<space unit="chars" quantity="1"/>Wilson, uncle of H. Montague R. Rupp, was Headmaster of Geelong Grammar School.</p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">]</seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

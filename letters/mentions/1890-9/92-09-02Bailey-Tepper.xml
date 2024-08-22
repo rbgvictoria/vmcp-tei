@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [...] ¶  ¶ I have noticed that the plants you mention vary in the different Queensland localities very much and have often thought that from some places Ajuga australis would be worth introducing i...</title>
+            <author>Frederick Bailey</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/mentions/1890-9/92-09-02Bailey-Tepper.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Letter press copy book 2, p. 175, Queensland Herbarium, Brisbane.</msName>
+                  <altIdentifier>
+                     <idno>92.09.02</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Frederick Bailey</author>
+               <title> ¶ [...] ¶  ¶ I have noticed that the plants you mention vary in the different Queensland localities very much and have often thought that from some places Ajuga australis would be worth introducing i...</title>
+               <date when="1892-09-02">1892-09-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/mentions/1890-9/92-09-02Bailey-Tepper.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Otto Tepper</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [...] ¶  ¶ I have noticed that the plants you mention vary in the different Queensland localities very much and have often thought that from some places Ajuga australis would be worth introducing i...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">92.09.02</p>
+            <p rend="correspondent" xml:lang="en">Frederick Bailey to Otto Tepper</p>
+            <p rend="location" xml:lang="en">Letter press copy book 2, p. 175, Queensland Herbarium, Brisbane.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">To proof.</seg>
+                  </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[...]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I have noticed that the plants you mention vary in the different Queensland localities very much and have often thought that from some places Ajuga australis would be worth introducing into garden culture were our so called Botanic Gardens worthy of the name our indigenous plants would be found in them, and attention paid to their life history, but my opinion of these establishments is that they teach but very little.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>[...]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
