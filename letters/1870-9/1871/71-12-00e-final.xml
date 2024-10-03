@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [From a letter just received from my friend Dr. von Mueller, I find he proposes, in conjunction with Mr. C. Moore, to dedicate this plant [Iris Robinsoniana] to our future governor, Sir Hercules Ro...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1871/71-12-00e-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>71.12.00e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [From a letter just received from my friend Dr. von Mueller, I find he proposes, in conjunction with Mr. C. Moore, to dedicate this plant [Iris Robinsoniana] to our future governor, Sir Hercules Ro...</title>
+               <date when="1871-12">1871-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-12-00e-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>George Bennett</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [From a letter just received from my friend Dr. von Mueller, I find he proposes, in conjunction with Mr. C. Moore, to dedicate this plant [Iris Robinsoniana] to our future governor, Sir Hercules Ro...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">71.12.00e</p>
+            <p rend="correspondent" xml:lang="en">To George Bennett</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Correspondent is George Bennett, d. 1893. Letter not found. The quotation given here comes from G. Bennett (1872). <seg style="font-style: italic; ">Iris robinsoniana</seg> was described in B71.12.03, proof sheets of which had arrived in London in time for the editors to include details with Bennett's illustrated note in <seg style="font-style: italic; ">Gardeners' chronicle, </seg>23 March p. 393 (see editor’s addendum to the article). The latest likely date of M's letter is before B71.12.03 was published, so the letter is dated to early December 1871.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[From a letter just received from my friend Dr. von Mueller, I find he proposes, in conjunction with Mr. C. Moore, to dedicate this plant [Iris Robinsoniana] to our future governor, Sir Hercules Robinson ... G. Bennett, M.D. F.L.S.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

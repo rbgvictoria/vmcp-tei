@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Memm ¶  ¶ The Chief Secretary requests that the Director of the Botanic Gardens will have the goodness to place Mr Ferguson in occupation of the cottage nearest to Anderson Street as early as possible...</title>
+            <author>Thomas Ware</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1870/70-10-22c-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>No. 2949, unit 23, p. 110, VPRS 1187/P outward registered correspondence, VA 475 Chief Secretary's, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>70.10.22c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Thomas Ware</author>
+               <title>Memm ¶  ¶ The Chief Secretary requests that the Director of the Botanic Gardens will have the goodness to place Mr Ferguson in occupation of the cottage nearest to Anderson Street as early as possible...</title>
+               <date when="1870-10-22">1870-10-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-10-22c-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Memm ¶  ¶ The Chief Secretary requests that the Director of the Botanic Gardens will have the goodness to place Mr Ferguson in occupation of the cottage nearest to Anderson Street as early as possible...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">70.10.22c</p>
+            <p rend="correspondent" xml:lang="en">From Thomas Ware</p>
+            <p rend="location" xml:lang="en">No. 2949, unit 23, p. 110, VPRS 1187/P outward registered correspondence, VA 475 Chief Secretary's, Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Memm</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The Chief Secretary requests that the Director of the Botanic Gardens will have the goodness to place Mr Ferguson in occupation of the cottage nearest to Anderson Street as early as possible.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Ferguson had requested that he be assigned a cottage in the Botanic Gardens;<space unit="chars" quantity="1"/>see M to J. McCulloch,<space unit="chars" quantity="1"/>18 August 1870<space unit="chars" quantity="1"/>(in this edition as 70-08-18b).<space unit="chars" quantity="1"/>The cottage concerned was<space unit="chars" quantity="1"/>occupied<space unit="chars" quantity="1"/>by the gardener<space unit="chars" quantity="1"/>David Coller;<space unit="chars" quantity="1"/>see M to D. Coller,<space unit="chars" quantity="1"/>29 December 1870.</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">For the Under Secry</p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Thos Webb Ware</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Chief Secy Office</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">22 October 1870</p>
+         </div>
+      </body>
+   </text>
+</TEI>

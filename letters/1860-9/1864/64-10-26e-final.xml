@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[On 26 October 1864 [Mueller] advised that he was just about to dispatch to the Zoological Institute at Rostock a substantial crate full of birds and a number of bird skins and skins of four-footed cr...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1864/64-10-26e-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>64.10.26e</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[On 26 October 1864 [Mueller] advised that he was just about to dispatch to the Zoological Institute at Rostock a substantial crate full of birds and a number of bird skins and skins of four-footed cr...</title>
+               <date when="1864-10-26">1864-10-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1864/64-10-26e-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="52">English</language>
+            <language ident="de" usage="48">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Johannes Roeper</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[On 26 October 1864 [Mueller] advised that he was just about to dispatch to the Zoological Institute at Rostock a substantial crate full of birds and a number of bird skins and skins of four-footed cr...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">
+               <seg style="">64.10.26e</seg>
+            </p>
+            <p rend="correspondent" xml:lang="de">To Johannes Roeper</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found. For the text given here, see Kobert (1911), pp. 42-3.</p>
+               </note>
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[Am 26. Oktober 1864 meldet [Mueller], dass er an das zoologische Institut zu Rostock eine bedeutende Kiste voll Vögel und eine Anzahl Vogelbälge und Vierfüsslerbälge abzuschicken eben im Begriff ist. Der Sendung war der Wunsch beigefügt, ihn ja nicht etwa mit Geld für die Unkosten zu entschädigen.]</seg>
+               <seg style="">
+                  <note xml:id="ftn2" type="footnote" n="2">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                        xml:lang="en">Kobert's text continues: 'Man beschloss im Konzil der Universität daraufhin, ihn der Regierung zu einem Orden vorzustellen. Diese Vorstellung hatte den gewunschten Erfolg' [In response to this, it was agreed at the University Council to recommend him to the government for an Order. This recommendation had the desired result], followed by the text of M to J. Roeper, 24 February 1866 (in this edition as 66-02-24d), in which M thanks Roeper for his role in M's being created a Kight of Mecklenburg's House-Order of the Wendish Crown.</p>
+                  </note>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[On 26 October 1864 [Mueller] advised that he was just about to dispatch to the Zoological Institute at Rostock a substantial crate full of birds and a number of bird skins and skins of four-footed creatures. Joined to the sending was the wish that he should not be reimbursed with money at all for the expense.] </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

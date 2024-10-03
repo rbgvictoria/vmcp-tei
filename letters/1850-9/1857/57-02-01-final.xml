@@ -1,0 +1,795 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Melbourne 1 Febr 1857 ¶ My dear Sir William ¶  ¶ Just returned from a flying visit to my sisters ¶  and prepared to return to Sydney again, I am anxious to despatch a few lines, in order to repeat a f...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1850-9/1857/57-02-01-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RBG Kew, Directors' letters, vol LXXIV, Australia letters 1851-8, letter no. 157.</msName>
+                  <altIdentifier>
+                     <idno>57.02.01</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Melbourne 1 Febr 1857 ¶ My dear Sir William ¶  ¶ Just returned from a flying visit to my sisters ¶  and prepared to return to Sydney again, I am anxious to despatch a few lines, in order to repeat a f...</title>
+               <date when="1857-02-01">1857-02-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1850-9/1857/57-02-01-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Actinocarpus carpus minor </term>
+               <term>Tripterococcus spathulatus</term>
+               <term>Hymenanthera angustifolia</term>
+               <term>Ranunculus sessiliflorus </term>
+               <term>Geranium pontentilliodes</term>
+               <term>Pelargonium acugnaticum </term>
+               <term>Tetragonella implexicoma</term>
+               <term>Calandrinia Balonensis </term>
+               <term>Halothamnus microphylla</term>
+               <term>Leptocyamus Latrobeanus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8312cab7-24e2-4bc1-90b7-e7e0b588c7bd">Ranunculus glabrifolius</term>
+               <term>Sambucus Gaudichaudiana</term>
+               <term>Scleranthus fasciculiis</term>
+               <term>Bossiaea horizontalis </term>
+               <term>Calandrinia calyptrate</term>
+               <term>Pultenaea bossiaeoides</term>
+               <term>Cibotium Billardierii</term>
+               <term>Clematis linearifolia</term>
+               <term>Hutchinsia procumbens</term>
+               <term>Ranunculus rivularis </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/78f14d46-32e7-4920-a835-029988da95d3">Tetratheca procumbens</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/08d7e9bc-c930-41f1-b06d-e09520b24158">Clematis microphylla</term>
+               <term>Hutchinsia Australis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b026e947-48ca-47ec-a809-c21d59d3514f">Hymenanthera dentata</term>
+               <term>Hypericum graminuem </term>
+               <term>Pelargonium Australe</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/aecf3f26-cab5-4480-90b8-d20dd107468e">Ranunculus inundatus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/169f52ff-3d5a-486b-89eb-ce549f720ac1">Scleranthus biflorus</term>
+               <term>Zygophyllum foetidum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/db3edae8-b90d-4c2c-a404-847a6d0f6066">Bauera sessiliflora</term>
+               <term>Botrychium Australe</term>
+               <term>Calandrinia pygmaea</term>
+               <term>Damasonium Australe</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/3d9bd8f0-49c1-4f0a-8d54-dfc8508696ab">Geranium brevicaule</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/839c8ace-0b9c-4fbd-a7e1-84ea1b6bf96d">Hypericum japonicum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/75b4e6a0-f695-4b6d-b451-5a53dc7b479d">Psoralea adscendens</term>
+               <term>Bauera Billardiera</term>
+               <term>Boronia dentigera </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b2f9b482-e5da-4ce0-99d5-dec18b31079e">Bossiaea cordigera</term>
+               <term>Botrychium Lunaria</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4e6edcf0-1f61-492c-b6af-da9eed2fe869">Geranium dissectum</term>
+               <term>Ranunculus Pumilio</term>
+               <term>Capsella antipoda</term>
+               <term>Goodia polysperma</term>
+               <term>Tetratheca Gunnii</term>
+               <term>Zichya Latrobeana</term>
+               <term>Gentiana montana</term>
+               <term>Tetratheca calva</term>
+               <term>Psoralea Gunnii</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c419789b-5659-4a05-891e-735053c34881">Viola hederacea</term>
+               <term>Microsciadium </term>
+               <term>Talinum nanum </term>
+               <term>Draba Pumilio</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/85a7a78f-a6b7-46e5-a327-c6e460454be7">Euphorbiaceae</term>
+               <term>Viola Sieberi</term>
+               <term>Argyrolobium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/ed621f0a-383a-4add-8566-ee26494fd74f">Stackhousia</term>
+               <term>Oschatzia </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/8fa41e11-dbfa-403b-8d04-2de30ef1d543">Epilobium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f5d5c1dd-4785-4dd2-ba3a-a44f9e23d525">Swainsona</term>
+               <term>Thlaspi </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f4142d8f-ee0f-461a-991e-a7782b9ce728">Roepera</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+               <term>hyperlink</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+               <term>Internet link</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William Hooker</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Melbourne 1 Febr 1857 ¶ My dear Sir William ¶  ¶ Just returned from a flying visit to my sisters ¶  and prepared to return to Sydney again, I am anxious to despatch a few lines, in order to repeat a f...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">57.02.01</p>
+            <p rend="correspondent" xml:lang="en">To William Hooker</p>
+            <p rend="location" xml:lang="en">RBG Kew, Directors' letters, vol LXXIV, Australia letters 1851-8, letter no. 157.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">The letter as given here is assembled from three locations in the bound guard books. The justification for the placement of each of the other two folios, and a note of their archival location, is given at the appropriate location in the text. The sequence of the final two components is arbitrary; there may also be parts of the letter missing.</p>
+               </note>Melbourne 1 Febr 1857</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">My dear Sir William</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Just returned from a flying visit to my sisters<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Clara Wehl lived at Mt Gambier, SA and Bertha Doughty at St Helens, Vic. M's visit began in mid-January 1857. See M to A. Gregory, 14 January 1857.</p>
+               </note> and prepared to return to Sydney again, I am anxious to despatch a few lines, in order to repeat a few of the principal points of my last letter, in case this should not arrive. I shall however not dwell this time upon the wider topic of our Australian exploration, having with the last mail forwarded a special account of the latter part of the exploration, at least as far as Botany is concerned. I have first to state once more, that your as well as my plan to visit now Europe in order to complete the examination of the newly discovered plants has been for the present frustrated. For altho' both the Gov. General &amp; the Gov. of Victoria<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">William Denison and Henry Barkly.</p>
+               </note> viewed our application most favourably, I found arrived at Melbourne, when I intended to arrange for my farther prolongation of my leave of absence, that the opinion of the Council &amp; the Colonists is against my leaving, in fact that a renewed absence would likely involve the loss of my position in Victoria. Nevertheless I see for the present no obstacle to proceed to Kew after 2 years, preparing in the meanwhile as a byework the North Australian plants for the press, and publishing part of my Victoria Flora. Thus my position will be consolidated again, and I can finish under you that part of the work, for which here not sufficient materials are at command.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I have particularly to look upon the reconsolidation of my position in this colony, as all other employment would be ephemeral and my health is by far not so firm as I wished and obliges me not to disregard a good fixed position. Moreover it would be ingratitude to the Government &amp; Colonists, to leave instantly again my adopted home, where I have been so kindfully and flattering remembered, where my absence on many public occasions has been regretted, where I was received again with marked kindness and respect. A new three-roomed cottage has been built for me,<note xml:id="ftn4" type="footnote" n="4">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">A cottage, the first stage of today's Gardens House, was constructed in the Melbourne Botanic Gardens for M between October and December 1856, at a cost of £426 (Unit 5, VPRS 69, Public Record Office, Victoria).</p>
+               </note> my salary has been augmented to 600£ annually,<note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">In the estimates presented to the Victorian Legislative Assembly, 4 December 1856, M's salary as Government Botanist, for six months, was given as £300. See Victoria, Legislative Assembly (1856) <seg style="font-style: italic; ">Estimates of the revenue and expenditure of the Government of Victoria for the year 1857</seg>, Melbourne, p. 58.</p>
+               </note> so that I see now a fair prospect of saving a little for days of need. During the last four or five years I had no time to look after my private-affairs, which consequently went nearly to ruin.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In Sydney I intend to label the plants from North Australia more correctly and to copy the rough notes for transmission to the Government.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>With the last mail I took the liberty of forwarding to you a bill of exchange for 25£. I beg now to transmit the secunda and hope you will pardon me, if I ask from your kindness to order for me through your bookseller such books, as you, Sir William, deem requisite, for the furtherance of my labours on the North Australian plants. Undoubtedly I require <seg style="">
+                  <hi rend="underline">Hook &amp; Thompsons flora Indica.</hi>
+               </seg>
+               <note xml:id="ftn6" type="footnote" n="6">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">J. Hooker &amp; Thomson (1855).</p>
+               </note> I pray also for the transmission of a <seg style="">
+                  <hi rend="underline">simple microscope</hi>
+               </seg>, such as you recommend to your scholars and as Prof. Harvey used here for general analyses of plants. The bye following list shows what books I possess. I do not know whether Seemans new publication<note xml:id="ftn7" type="footnote" n="7">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Possibly Seemann (1852). Although dated 1852 on the title page, this work was issued in parts with the final, 10th <space unit="chars" quantity="1"/>part issued in May-June 1857. The final parts contained a 'Flora of the Island of Honkong', pp. 347-432.</p>
+               </note> will aid me. Works on Cryptogamia are at present of little use to me, as I can not afford time for their study except for ferns, and for these <seg style="">
+                  <hi rend="underline">the wanting part of your excellent spec. filic.</hi>
+               </seg>
+               <note xml:id="ftn8" type="footnote" n="8">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">W. Hooker (1846-64).</p>
+               </note> would be highly acceptable. I think the works on Indian plants previous to Walpers<note xml:id="ftn9" type="footnote" n="9">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Walpers (1848-71).</p>
+               </note> I may dispense with, as his extracts are tolerably complete. <seg style="">
+                  <hi rend="underline">Bauers illustrationis florae Novae Hollandiae</hi>
+               </seg>
+               <note xml:id="ftn10" type="footnote" n="10">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Bauer (1813).</p>
+               </note> &amp; also his or your <seg style="">
+                  <hi rend="underline">genera filicum</hi>
+               </seg>
+               <note xml:id="ftn11" type="footnote" n="11">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">W. Hooker (1842) is based on the illustrations by Bauer.</p>
+               </note> I think I should desire. [...]<note xml:id="ftn12" type="footnote" n="12">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">illegible </seg>— [two words] obscured by binding.</p>
+               </note> &amp; spec. orchideaceum<note xml:id="ftn13" type="footnote" n="13">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Possibly Lindley (1830-40).</p>
+               </note> farther your <seg style="font-style: italic; ">Icones</seg> vol V VI VII VIII IX.<note xml:id="ftn14" type="footnote" n="14">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">W. Hooker (1836-54).</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I hope that at my return to Sydney the schooner will have arrived with the collections from the Victoria River &amp; Central Australia, so that I may be able to absolve the work by May or June, when I must immediately return. It seems to be the intention of the Government to invest me with the Directorship of the Bot. gardens,<note xml:id="ftn15" type="footnote" n="15">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Not until August; T. Balmain to M, 13 August 1857.</p>
+               </note> to which establishment I stood formerly in a somewhat ambiguous position, being merely an official member of the Committee. I hope that this alteration will be productive of a more extensive interchange of plants with other institutions. Our new glasshouse is erected and ready to receive coldhouse-plants.<note xml:id="ftn16" type="footnote" n="16">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Conservatories were constructed in the Melbourne Botanic Gardens in 1856 at a cost of £305 (Unit 1, VPRS 957, Public Record Office, Victoria).</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In the limestone caves of Mount gambier (Colony of South Australia) I found a few days ago <name key="Cibotium%20Billardierii">Cibotium Billardierii</name>. This is likewise the most western locality, I am aquainted with, of <name key="Gentiana%20montana">Gentiana montana</name> &amp; <name key="Sambucus%20Gaudichaudiana">Sambucus Gaudichaudiana</name>.<note xml:id="ftn17" type="footnote" n="17">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">The MS as bound in the archives ends here without valediction. The next section of the letter given here is bound within the sheets of M to W. Hooker, 17 September 1860 (in this edition as 60-09-17a) (Directors' letters, vol. LXXV, Australian and Pacific letters, 1859-65, letter no. 127). A date of 1860 for this folio is unlikely because of the references to Hannaford in the final parts of the letter, and because in M to W. Hooker, 11 June 1857 (in this edition as 57-06-11a), M mentions receiving the work by de Vriese that he had ordered. The fragment is placed with this letter because it is a list of books, presumably intended to guide Hooker in fulfilling M's request to augment his library.</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Books in my possession (besides many smaller or less important ones)<note xml:id="ftn18" type="footnote" n="18">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">The botanical works referred to by M are: J. Hooker (1844-7), J. Hooker (1853-5), J. Hooker (1860), of which the first fascicle was issued in 1855; the 'Hooker Journals' are W. Hooker (1827-64), W. Hooker (1830-3), W. Hooker (1834-42), W. Hooker (1842-8), W. Hooker (1849-57); Endlicher (1836-40) and Endlicher (1842-50); A. P. de Candolle (1823-73); A. P. de Candolle (1818-21); Walpers (1842-8); Walpers (1848-71); Endlicher (1847); Endlicher (1833); Kunth (1833-50); R. Brown (1825-34); Mitchell (1848); Lehmann (1844-7); Labillardière (1804-6); Endlicher (1838); Endlicher &amp; Fenzl (1839); Guillemin (1827); G. Don (1831-8); W. Hooker (1846-64); 'Huegel' probably refers to Endlicher <seg style="font-style: italic; ">et al</seg>. (1837); W. Hooker (1836-54), W. Hooker (1818-20); Steudel (1855); Schlechtendal (1826-66).</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">J. Hk. flor. antarctic. (complete)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">J. Hk — N. Zeel. (complete)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">J. Hk. — Tasm. fasc. I &amp; II</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Hook. journals complete as far as 1855 inclusive.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Endl. genera [c]. suppl. I-V.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">DC prodr. I-XIII.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">DC syst. I-II.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Walp. repert. (complete)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">—<seg style=""> </seg>annales (complete)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Endl. synops coniferr.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">—<seg style=""> </seg>flor. Norfolk.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Kunth Enum I-V</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">R Br [vermischte b] Schriften, I-V.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Mitch. trop. Austr.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Lehm. pl. Preiss</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Labill. Nov. Holl.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Endl. iconograph.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <seg style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>—<seg style=""> </seg>decades </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Guillemin icon. lithogr.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Don gen. syst.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Hook spec. filic. Vol I &amp; fasc. I &amp; II of the second vol. </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Plant. Huegelian.<note xml:id="ftn19" type="footnote" n="19">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Plant. Huegelian. <seg style="font-style: italic; ">interlined, probably by W. Hooker; i.e. Endlicher et al. (1837).</seg>
+                  </p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Hook. icon. I-IV &amp; X</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">(5. 6. 7. 8. 9. wanting)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Hook. musci exotici</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Steudl] synops. pl. glumac.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Linnaea (partim)</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">—</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I have lately ordered through my booksellers.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Putterlick Pittosporeae</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Fl. Tasm. continuatio</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">De Vriese Goodeniaceae</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Miq. Casuarineae</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">As. Gray Bot. of Wilk. expl.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Horsfield &amp; Bennett pl. javan. rarior.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 0.4929in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Steudel nomenclator</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Dr Sonder intends to send Pritzels works &amp; Endl. atakta.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I shall have access in our public library to Bot. Magazin, Bot. Regist., Bot. Cabinet; at least I ordered these works. —</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Wight icones plant. Ind. or &amp; Wallich plant. [asiat.] rariores I intend to order for the University library. <note xml:id="ftn20" type="footnote" n="20">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">The works referred to are: Putterlick (1839); J. Hooker (1860) of which the first fascilce was issued in 1855; Vriese (1851), of which the first part was issued in 1849 and the second in 1850, or Vriese (1854); Miquel (1848); A. Gray (1854); Horsfield, Bennett &amp; Brown (1838-52); Steudel (1840-1); probably Pritzel (1851) and Pritzel (1855); Endlicher (1833a); Curtis (1787-1800), probably also including the continuation as <seg style="font-style: italic; ">Curtis's botanical magazine</seg> by Sims (1801-26); S. Edwards (1815-28), probably also including the continuation as <seg style="font-style: italic; ">Edwards's botanical register</seg> by Lindley (1829-47); Loddiges (1817-33); Wight (1840-53); Wallich (1830-2).</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In case of the transmission of a small pamphlet on the plants of Victoria by Mr Hannaford published during my absence, I feel it my duty to mention, that it is virtually a copy of my first report with habitats copied for all rarer kinds from the Gov. Collection, which Mr H. omits to state on any occasion.<note xml:id="ftn21" type="footnote" n="21">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Hannaford (1856), p. 4, explains that his aim is 'to give an index of the more common Phaenogamous or flowering plants and ferns, with their habitats and dates of flowering, from specimens in our own herbarium — referring our readers for more full information, to the reports of our esteemed friend, Dr. Ferdinand Mueller, the Government Botanist, on the Vegetation of the Colony'.</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0.1598in; "
+                     xml:lang="en">On 10 November 1856 Hannaford wrote to R. Gunn: 'I am fully aware of the shortcomings of my little work — but the management of a Bank (working often as late as 10 at night) rather interferes with Natural history Studies. I sincerely wish all the plants <seg style="">
+                        <hi rend="underline">had</hi>
+                     </seg> been introduced — but I merely intended it as a forerunner to Muëllers large work. He was very indignant when he heard some 2 years since of my intention to publish a work of the kind, and even threatened to prevent my having access to the Government collection for comparison. This thoroughly disgusted me as it was only at his request &amp; knowing that he was working at the Flora of the colony — that prevented my forwarding all my specimens to Sir William Hooker as he requested. I worked very hard for Muëller when in Melbourne — prepared his papers for the press &amp;c. I did not make my Book as far as I might have done simply — that Mueller should not <seg style="">
+                        <hi rend="underline">even hint</hi>
+                     </seg> of my having made use of information derived in any way from working with him: &amp; only gave those plants which were thoroughly examined — from my own herbarium' (A247 Gunn papers, Mitchell Library, Sydney).</p>
+               </note> It must seem consequently, that Mr H was the discoverer of all these rare plants, whilst he never saw any but those about Melbourne &amp; Warrnambool, and never added a single spec. to the collection except <name key="Botrychium%20Australe">Botrychium Australe</name>, if really distinct from B. Lunaria. — He found also the first specimen of <name key="Damasonium%20Australe">Damasonium Australe</name> (Actinocarpus carpus minor) but does not hesitate to give my remark on the normal number of 9 carpels as his own. — I should consider it below my dignity to mention this at all, might not Dr — —,<note xml:id="ftn22" type="footnote" n="22">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Hannaford (1856) is dedicated to 'John Milner Barry, Esq., M.D … as a memorial of pleasant summer rambles.' See Ducker (1981), p. ix.</p>
+               </note> to whom the work is dedicated imagine, that I had withdrawn the merits from Mr H., should he afterwards meet with the pages of the Flora of Victoria. All Mr H's plants were determined by myself. I beg, Sir William, you will consider this a private communication, unless Mr H's product should come before the public in England, for anyone a little versed in Botany might [here] before a public, which does not understand the merits of the case, do me a great deal of harm.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">[...]<note xml:id="ftn23" type="footnote" n="23">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">An unknown amount of text is missing.</seg> The remainder of the letter is written on a sheet of blue paper bound with M to W. Hooker, 14 June 1858 (Directors' letters, vol. LXXIV, Australia letters 1851-8, letter no. 181). The folio could not have been written in June 1858 because M wrote to J. Tenison Woods on 19 June 1858 that he was 'so overwhelmed with administrative work in this large establishment, that I cannot find even a few days, to go with the Steamer to my sister near Port Fairy' and <seg style="font-style: italic; ">
+                        <name key="Tetragonella%20implexicoma">Tetragonella implexicoma</name>
+                     </seg>would be most unlikely to be in fruit in June (see VICFLORA, under <seg style="font-style: italic; ">Tetragonia implixicoma</seg>, <ref target="https://protect-au.mimecast.com/s/142zCP7yBlsnoB1Dczqg-K?domain=vicflora.rbg.vic.gov.au"
+                          rend="Internet%20link"
+                          style="color: #000080; ">https://vicflora.rbg.vic.gov.au/flora/</ref> (accessed 31 July 2018)). M reports preparing some comments on J. Hooker's Tasmanian Flora, and his only known visit to the Port Fairy district at a time consistent with this fragment is in January 1857. See n. 2.</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Near Port Fairy<note xml:id="ftn24" type="footnote" n="24">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">Vic.</seg>
+                  </p>
+               </note> I examined a few days ago the flowers of <name key="Tetragonella%20implexicoma">Tetragonella implexicoma</name> once more in a recent state. I find them constantly hermaphrodite, with 2 or 3 styles and a 2-or-3 celled ovary. Fruit was not ripe, but it is a red spherical berry.<note xml:id="ftn25" type="footnote" n="25">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">See M to W. Hooker, 15 December 1857.</p>
+               </note> I gave a short memoir in my last letter on the two first fascicles of Fl. Tasm.,<note xml:id="ftn26" type="footnote" n="26">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">J. Hooker (1860), the first two fascicles of which were published in October 1855 and May 1856.</p>
+               </note> in which Dr Hooker has been kind enough to speak so favourably on some of my labours.<note xml:id="ftn27" type="footnote" n="27">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">For example see J. Hooker (1860), part 1, p. 2, with reference to <seg style="font-style: italic; ">Caltha, </seg>and p. 153 with reference to <seg style="font-style: italic; ">Hydrocotyle pterocarpa.</seg>
+                  </p>
+               </note> I pray to be permitted to direct the attention of its excellent author to the following points. <name key="Tripterococcus%20spathulatus">Tripterococcus spathulatus</name> is adopted by Schuchhardt;<note xml:id="ftn28" type="footnote" n="28">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Schuchardt (1853a), p. 29, based <seg style="font-style: italic; ">inter alia</seg> on a specimen sent by M to W. Sonder. M independently published this species based on different specimens (B54.13.06). In his 'Additions, corrections etc.' Joseph Hooker acknowledged that he had not seen 'the elaborate monograph of Schuckhardt' when he drew up his original account. See J. Hooker (1860), part 2, p. 359.</p>
+               </note> if it can not be separated from <name key="Stackhousia">Stackhousia</name>, th[e]n all the other sp. must be reduced to <name key="Stackhousia">Stackhousia</name>. <name key="Clematis%20linearifolia">Clematis linearifolia</name> is undoubtedly C. microphylla DC. Ranunc. rivularis, inundatus &amp; glabrifolius I have traced into each other, and R. Pumilio into R. sessiliflorus. Dr Hooker has to insert into the Supplement Browns <name key="Draba%20Pumilio">Draba Pumilio</name> (I think that is the name) described in DC from V.D.L. I found the cotyledons of <name key="Hutchinsia%20procumbens">Hutchinsia procumbens</name>
+               <seg style="">
+                  <hi rend="underline">in</hi>
+               </seg>cumbent, consequently it belongs to that part of the genus conferred by Meyer, Koch &amp;c to Capsella, whilst the accumbent sp. are referred to Thlaspi. <name key="Hutchinsia%20Australis">Hutchinsia Australis</name> will probably prove identical with <name key="Capsella%20antipoda">Capsella antipoda</name> Vict. transact. <name key="Viola%20Sieberi">Viola Sieberi</name> I have watched for years and can not refer it to V. hederacea. Hymenanth. Banksii is a collective name for H. angustif.<note xml:id="ftn29" type="footnote" n="29">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">
+                        <name key="Hymenanthera%20angustifolia">Hymenanthera angustifolia</name>.</seg>
+                  </p>
+               </note> &amp; dentata, which I have seen clearly in all intermediate forms, none of the specif. names agreeing with the species properly. <name key="Tetratheca%20Gunnii">Tetratheca Gunnii</name> [&amp;] procumbens seem to be identical with T. calva (vid. Schuchh.<note xml:id="ftn30" type="footnote" n="30">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Schuchardt (1853), p. 25.</p>
+               </note>) Scleranth. fasciculiis a var. of sc. biflor.<note xml:id="ftn31" type="footnote" n="31">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Scleranthus</seg> and <seg style="font-style: italic; ">S. biflorus.</seg>
+                  </p>
+               </note> — <name key="Halothamnus%20microphylla">Halothamnus microphylla</name>, unfortunately referred to <name key="Euphorbiaceae">Euphorbiaceae</name> — is dioecious. Hyper. Japonic.<note xml:id="ftn32" type="footnote" n="32">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">
+                        <name key="Hypericum%20japonicum">Hypericum japonicum</name>.</seg>
+                  </p>
+               </note> Flowes into H. [graminuem] and so does G. pontentilliodes in Geran.<note xml:id="ftn33" type="footnote" n="33">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Geranium.</seg>
+                  </p>
+               </note> dissectum &amp; whilst G. brevicaule is an excellent sp. Pelarg.<note xml:id="ftn34" type="footnote" n="34">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Pelargonium.</seg>
+                  </p>
+               </note> Australe &amp; Acugn.<note xml:id="ftn35" type="footnote" n="35">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Pelargonium acugnaticum</seg>?</p>
+               </note> do in my opinion not specifically differ. <name key="Roepera">Roepera</name> has upon the examination of 9 sp. been referred to Zygophyllum, and I can not change my opinion. Zygoph. foetid.<note xml:id="ftn36" type="footnote" n="36">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">foetidum.</seg>
+                  </p>
+               </note> from the C.G.H<note xml:id="ftn37" type="footnote" n="37">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Cape of Good Hope.</p>
+               </note> would be <name key="Roepera">Roepera</name>. I am not aware that Dr Sonder has written on the subject. <name key="Boronia%20dentigera%20">Boronia dentigera </name>is very remarkable for <seg style="">
+                  <hi rend="underline">rough</hi>
+               </seg> seeds; I possess it from Tasmans Peak V.D.L. communicated &amp; collected by Stuart. Of Pult.<note xml:id="ftn38" type="footnote" n="38">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Pultenaea?</seg>
+                  </p>
+               </note> bossiaeoides<note xml:id="ftn39" type="footnote" n="39">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">
+                        <name key="Pultenaea%20bossiaeoides">Pultenaea bossiaeoides</name>
+                     </seg> not found (APNI, accessed 29 August 2019)<seg style="">. </seg>
+                     <seg style="font-style: italic; ">P. baeckeoides</seg>?</p>
+               </note> are V.D.L. &amp; South Austr. specim. in my collection. Is not Boss.<note xml:id="ftn40" type="footnote" n="40">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">Bossiaea.</seg>
+                  </p>
+               </note> cordigera identical with Boss. horizontalis. <name key="Goodia%20polysperma">Goodia polysperma</name> is <name key="Argyrolobium">Argyrolobium</name> sp. C.G. H. <name key="Psoralea%20Gunnii">Psoralea Gunnii</name> seems to be Ps. adscendens, first gen. rep.<note xml:id="ftn41" type="footnote" n="41">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">B53.10.01.</p>
+               </note>
+               <name key="Swainsona">Swainsona</name> is according to G. Don not named after the late Will. Swainson, but may now commemorate his memory also.<note xml:id="ftn42" type="footnote" n="42">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">
+                        <name key="Swainsona">Swainsona</name>
+                     </seg> was named 'in honour of Isaac Swainson F.R.S. F.L.S who was a great cultivator of plants'. See G. Don (1831-8), vol. 2, p. 245. William Swainson died in 1855.</p>
+               </note>
+               <name key="Zichya%20Latrobeana">Zichya Latrobeana</name> is a plant of Meisner (Lehm. pl. Preiss,<note xml:id="ftn43" type="footnote" n="43">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Lehmann (1844-7), p. 94, first footnote, in Meisner's treatment of the Leguminosae.</p>
+               </note> adnt.) and <name key="Leptocyamus%20Latrobeanus">Leptocyamus Latrobeanus</name> second gen. rep.<note xml:id="ftn44" type="footnote" n="44">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">B55.10.01.</p>
+               </note> — All the endless Australian forms of <name key="Epilobium">Epilobium</name> I feel obliged to refer to <seg style="">
+                  <hi rend="underline">one</hi>
+               </seg> species. I fear my <name key="Calandrinia%20pygmaea">Calandrinia pygmaea</name> is <name key="Talinum%20nanum%20">Talinum nanum </name>Nees. — Calandr. calyptrata seem common in W. Austr. according to Preiss, also in S. A. &amp; Vict. A Mitchellian<note xml:id="ftn45" type="footnote" n="45">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">From the collections of Thomas Mitchell.</p>
+               </note> specimen of <name key="Calandrinia%20Balonensis%20">Calandrinia Balonensis </name>proves it to be a most beautiful large flowering plant. I have not found it, but two other very distinct sp. in trop. Austral.<note xml:id="ftn46" type="footnote" n="46">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Possibly two of <seg style="font-style: italic; ">C. uniflora</seg> (B59.13.02), <seg style="font-style: italic; ">C. spergularina</seg> (B59.09.03), <seg style="font-style: italic; ">C. quadrivalvis</seg> (B59.09.03).</p>
+               </note> There is also an other sp. at Port Adelaide different from the 3 West Australian ones, besides a second one that I have not seen, found by Sir Th. Mitchell.<note xml:id="ftn47" type="footnote" n="47">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">C. pusilla</seg>; see Mitchell (1848), p. 360, footnote.</p>
+               </note> A plant from the Nicholson River, Gulf of Carpentaria,<note xml:id="ftn48" type="footnote" n="48">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">Possibly <seg style="font-style: italic; ">C. spergularina</seg> (B59.09.03).</p>
+               </note> may be identical with Calandrinia calyptrata. I shall reexamine <name key="Bauera%20sessiliflora">Bauera sessiliflora</name>, but I believe it to be well marked from <name key="Bauera%20Billardiera">Bauera Billardiera</name> in anthers &amp;c., [...]<note xml:id="ftn49" type="footnote" n="49">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">two illegible words</seg>.</p>
+               </note> of Fl. Victor. <name key="Microsciadium%20">Microsciadium </name>H. f. non-Boiss. is <name key="Oschatzia%20">Oschatzia </name>Walp.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Actinocarpus%20carpus%20minor%20">Actinocarpus carpus minor </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Argyrolobium">Argyrolobium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bauera%20Billardiera">Bauera Billardiera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bauera%20sessiliflora">Bauera sessiliflora</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Boronia%20dentigera%20">Boronia dentigera </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20cordigera">Bossiaea cordigera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Bossiaea horizontalis. </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Botrychium%20Australe">Botrychium Australe</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Botrychium%20Lunaria">Botrychium Lunaria</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calandrinia%20Balonensis%20">Calandrinia Balonensis </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calandrinia%20calyptrate">Calandrinia calyptrate</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calandrinia%20pygmaea">Calandrinia pygmaea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Capsella%20antipoda">Capsella antipoda</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cibotium%20Billardierii">Cibotium Billardierii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Clematis%20linearifolia">Clematis linearifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Clematis%20microphylla">Clematis microphylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Damasonium%20Australe">Damasonium Australe</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Draba%20Pumilio">Draba Pumilio</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Epilobium">Epilobium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Euphorbiaceae">Euphorbiaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gentiana%20montana">Gentiana montana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Geranium <space unit="chars" quantity="1"/>brevicaule</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Geranium%20dissectum">Geranium dissectum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Geranium%20pontentilliodes">Geranium pontentilliodes</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodia%20polysperma">Goodia polysperma</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Halothamnus%20microphylla">Halothamnus microphylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hutchinsia%20Australis">Hutchinsia Australis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hutchinsia%20procumbens">Hutchinsia procumbens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hymenanthera%20angustifolia">Hymenanthera angustifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hymenanthera%20dentata">Hymenanthera dentata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypericum%20graminuem%20">Hypericum graminuem </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hypericum%20japonicum">Hypericum japonicum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leptocyamus%20Latrobeanus">Leptocyamus Latrobeanus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Microsciadium%20">Microsciadium </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Oschatzia%20">Oschatzia </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelargonium%20acugnaticum%20">Pelargonium acugnaticum </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pelargonium%20Australe">Pelargonium Australe</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20adscendens">Psoralea adscendens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20Gunnii">Psoralea Gunnii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pultenaea%20bossiaeoides">Pultenaea bossiaeoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ranunculus%20glabrifolius">Ranunculus glabrifolius</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ranunculus%20inundatus">Ranunculus inundatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ranunculus%20Pumilio">Ranunculus Pumilio</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ranunculus%20rivularis%20">Ranunculus rivularis </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ranunculus%20sessiliflorus%20">Ranunculus sessiliflorus </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Roepera">Roepera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sambucus%20Gaudichaudiana">Sambucus Gaudichaudiana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scleranthus%20fasciculiis">Scleranthus fasciculiis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Scleranthus. biflorus</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Stackhousia">Stackhousia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Swainsona">Swainsona</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Talinum%20nanum%20">Talinum nanum </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tetragonella%20implexicoma">Tetragonella implexicoma</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tetratheca%20calva">Tetratheca calva</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tetratheca%20Gunnii">Tetratheca Gunnii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tetratheca%20procumbens">Tetratheca procumbens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Thlaspi%20">Thlaspi </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tripterococcus%20spathulatus">Tripterococcus spathulatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Viola%20hederacea">Viola hederacea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Viola%20Sieberi">Viola Sieberi</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Zichya%20Latrobeana">Zichya Latrobeana</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Zygophyllum%20foetidum">Zygophyllum foetidum</name>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

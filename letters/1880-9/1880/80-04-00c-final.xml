@@ -1,0 +1,143 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [Receipt by Müller, Baron F. von, Director of the Botanic Gardens, Melbourne, of seeds of  ¶ Cedrela toona ¶  and  ¶ Dodonaea viscosa ¶ ]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1880/80-04-00c-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Forests Branch, proceedings, May nos 56-8, Part B, Home, Revenue and Agriculture Department, National Archives of India, New Delhi.'</msName>
+                  <altIdentifier>
+                     <idno>80.04.00c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [Receipt by Müller, Baron F. von, Director of the Botanic Gardens, Melbourne, of seeds of  ¶ Cedrela toona ¶  and  ¶ Dodonaea viscosa ¶ ]...</title>
+               <date when="1880-04">1880-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1880/80-04-00c-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/26a2dd86-3afa-43cf-8f95-83d8cf125ec2">Dodonaea viscosa</term>
+               <term>Cedrela toona</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the Forest Branch, India</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [Receipt by Müller, Baron F. von, Director of the Botanic Gardens, Melbourne, of seeds of  ¶ Cedrela toona ¶  and  ¶ Dodonaea viscosa ¶ ]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">80.04.00c</p>
+            <p rend="correspondent" xml:lang="en">To the Forest Branch, India</p>
+            <p rend="location" xml:lang="en">Forests Branch, proceedings, May nos 56-8, Part B, Home, Revenue and Agriculture Department, National Archives of India, New Delhi.'</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found. The text given here is a minute in the proceedings of the Forest Branch for May 1880. <space unit="chars" quantity="1"/>The item is dated to April 1880 as the latest likely date that M could have written, in order for his letter to have been reported at the May meeting.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[Receipt by Müller, Baron F. von, Director of the Botanic Gardens, Melbourne, of seeds of <seg style="">
+                  <hi rend="underline">
+                     <name key="Cedrela%20toona">Cedrela toona</name>
+                  </hi>
+               </seg> and <seg style="">
+                  <hi rend="underline">
+                     <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>
+                  </hi>
+               </seg>]<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>For the sending of the seeds to M, see Forest Branch, India, to M, February 1880 (in this edition as 80-02-00b).</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cedrela%20toona">Cedrela toona</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dodonaea%20viscosa">Dodonaea viscosa</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

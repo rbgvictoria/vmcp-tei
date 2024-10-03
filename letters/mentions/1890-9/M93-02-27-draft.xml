@@ -1,0 +1,131 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Adelaide ¶  ¶ Your letter of the 23rd covering the one from the Baron was duly received, I could not see Mr [Goyder] today but asked Mr Jones to do so and see if the desired alteration could be made. ...</title>
+            <author>David Lindsay</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/mentions/1890-9/M93-02-27-draft.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>A38, letter book, Royal Geographical Society of Australasia (Victorian Branch), Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <altIdentifier>
+                     <idno>M93.02.27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>David Lindsay</author>
+               <title>Adelaide ¶  ¶ Your letter of the 23rd covering the one from the Baron was duly received, I could not see Mr [Goyder] today but asked Mr Jones to do so and see if the desired alteration could be made. ...</title>
+               <date when="1893-02-27">1893-02-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/mentions/1890-9/M93-02-27-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>FootnoteReference</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>underline</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Alexander Macdonald</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Adelaide ¶  ¶ Your letter of the 23rd covering the one from the Baron was duly received, I could not see Mr [Goyder] today but asked Mr Jones to do so and see if the desired alteration could be made. ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">M93.02.27<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="correspondent" xml:lang="en">From<space unit="chars" quantity="1"/>David Lindsay to Alexander Macdonald</p>
+            <p rend="location" xml:lang="en">A38, letter book, Royal Geographical Society of Australasia (Victorian Branch), <space unit="chars" quantity="1"/>Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
+                  </p>
+               </note>Adelaide</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Your letter of the 23rd covering the one from the Baron was duly received, I could not see Mr [Goyder] today but asked Mr Jones to do so and see if the desired alteration could be made. Personally I do not think it can be, as though it is easy enough to add to a map it is not easy to take anything off. The Mt referred to by the Baron is Mt Mueller whereas I named the other one Mt<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Von</hi>
+               </seg>
+               <space unit="chars" quantity="1"/>Mueller so there is a difference — Jones will see Mr G. tomorrow.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See also D. Lindsay to A. Macdonald, 4 March 1893 (in this edition as M93-03-04).</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Please tell the Baron and Mr Panton that I shall be ever grateful to your Council for your Kind letters &amp; endeavours to get me out again —.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
