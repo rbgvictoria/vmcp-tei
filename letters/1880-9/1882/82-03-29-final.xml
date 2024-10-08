@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -78,8 +74,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="54">English</language>
-            <language ident="de" usage="46">German</language>
+            <language ident="en" usage="56">English</language>
+            <language ident="de" usage="44">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -99,96 +95,138 @@
             <p rend="location" xml:lang="de">Conservatoire et Jardin botanique, Geneva.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">29/3/82</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Nur wenige Worte, gelehrter Freund, um meine Unzufriedenheit zu rechtfertigen in Bezug auf den Sammler Karsten. Wenn ich sage, dass sein Grossonkel, der Prediger Karsten, der noch in Schwerin als General Superintentent der Kirche lebt, mich taufte, u. bei meines theuern Vater's Beerdigung die Grabrede hielt, so werden Sie wohl glauben, dass ich für diesen Abkömmling der Familie K. die besten Gefühle hatte, zumal auch Prof. Roeper aus meiner Vaterstadt Rostock den Mann sehr empfahl, freilich nur in allgemeinen Ausdrücken. Da der junge K Seemann gewesen, u. so an Thätigkeit und Klettern u. einfache Kost gewöhnt war, u gar keine Arbeit finden konnte, (warum, ist mir jetzt ziemlich klar,) so war ich thöricht genug, ihn für ein Jahr als Pflanzensammler nach N. Ost Australien zu senden. Für die damit verbundene Ausgaben von fast <seg style="">
+               <space dim="horizontal" extent="tab"/>Nur wenige Worte, gelehrter Freund, um meine Unzufriedenheit zu rechtfertigen in Bezug auf den Sammler Karsten. Wenn ich sage, dass sein Grossonkel, der Prediger Karsten, der noch in Schwerin als General Superintentent der Kirche lebt, mich taufte, u. bei meines theuern Vater's Beerdigung die Grabrede hielt, so werden Sie wohl glauben, dass ich für diesen Abkömmling der Familie K. die besten Gefühle hatte, zumal auch Prof. Roeper aus meiner Vaterstadt Rostock den Mann sehr empfahl, freilich nur in allgemeinen Ausdrücken. Da der junge K Seemann gewesen, u. so an Thätigkeit und Klettern u. einfache Kost gewöhnt war, u gar keine Arbeit finden konnte, (warum, ist mir jetzt ziemlich klar,) so war ich thöricht genug, ihn für ein Jahr als Pflanzensammler nach N. Ost Australien zu senden. Für die damit verbundene Ausgaben von fast<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">1000</hi>
-               </seg> (nicht 100) Thaler! hat er etwa 100 (nicht 1000) Pflanzen Arten gesandt in miserabelen Exemplaren. Die wenigen Flechten waren dabei das Beste, u. darauf hatte ich ihn besonders aufmerksam gemacht. Bedenken Sie, dass ja ein Schwarzer-Eingeborner ebenso gut u. viel besser einige Flechten u. Moose hätte von von<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-style: italic; ">Word repeated.</seg>
-                  </p>
-               </note> Baumstämmen abkratzen können im Urwald, ja dass 100 anstatt 10 Arten hätten gefunden werden können. Ob der Mensch K. monatelang absolut auf der Bärenhaut gelegen, ob er nach Gold anstatt nach Pflanzen gesucht, ob er gedankenlos hin u. her gelaufen ohne es der Mühe werth zu halten, sich nach einer Pflanze zu bücken, das weiss ich nicht; das aber weiss ich, dass er nicht krank gewesen, und keine schwere Unfälle erlitten hat. Also werde ich den Namen Karstens aus meinen Schriften bannen.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>(nicht 100) Thaler! hat er etwa 100 (nicht 1000) Pflanzen Arten gesandt in miserabelen Exemplaren. Die wenigen Flechten waren dabei das Beste, u. darauf hatte ich ihn besonders aufmerksam gemacht. Bedenken Sie, dass ja ein Schwarzer-Eingeborner ebenso gut u. viel besser einige Flechten u. Moose hätte von von<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Word repeated.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Baumstämmen abkratzen können im Urwald, ja dass 100 anstatt 10 Arten hätten gefunden werden können. Ob der Mensch K. monatelang absolut auf der Bärenhaut gelegen, ob er nach Gold anstatt nach Pflanzen gesucht, ob er gedankenlos hin u. her gelaufen ohne es der Mühe werth zu halten, sich nach einer Pflanze zu bücken, das weiss ich nicht; das aber weiss ich, dass er nicht krank gewesen, und keine schwere Unfälle erlitten hat. Also werde ich den Namen Karstens aus meinen Schriften bannen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Ebenso traurige ja noch schlimmere Erfahrungen mache ich jetzt mit einem andern jungen Deutschen, namens Wilhelmi; ich bin aber so vorsichtig gewesen, ihn nicht regulär zu engagieren, sondern nur sein Fahrt nach N. Ost Austr zu bezahlen, und eine Summe Geldes vorzuschiessen. Nachdem das letztere in Liederlichkeit (so höre ich nun) dort verbraucht war, schicke ich noch einmal Geld nach. Das Resultat ist <seg style="">
+               <space dim="horizontal" extent="tab"/>Ebenso traurige ja noch schlimmere Erfahrungen mache ich jetzt mit einem andern jungen Deutschen, namens Wilhelmi; ich bin aber so vorsichtig gewesen, ihn nicht regulär zu engagieren, sondern nur sein Fahrt nach N. Ost Austr zu bezahlen, und eine Summe Geldes vorzuschiessen. Nachdem das letztere in Liederlichkeit (so höre ich nun) dort verbraucht war, schicke ich noch einmal Geld nach. Das Resultat ist<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">nil</hi>
-               </seg>, wenigstens bisher nach mehreren Monaten, u das mitgegebene viele Papier, die Pappen &amp;c &amp;c. sollen in Beschlag genommen sein, um Schulden zu bezahlen. — Nun genug davon, aber es ist begreiflich, dass ich sehr <seg style="">
+               </seg>, wenigstens bisher nach mehreren Monaten, u das mitgegebene viele Papier, die Pappen &amp;c &amp;c. sollen in Beschlag genommen sein, um Schulden zu bezahlen. — Nun genug davon, aber es ist begreiflich, dass ich sehr<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">erbittert</hi>
-               </seg> bin. —</p>
+               </seg>
+               <space unit="chars" quantity="1"/>bin. —</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Mit nächster Post hoffe ich den 11ten Band der Fragm. senden zu können; er ist jetzt in den Händen des Buchbinders. Ich konnte im letzten Nachtrag noch die von Ihnen zuletzt verzeichneten Pflanzen aufnehmen. Da Bailey fort u fort an Dr. Stirton Flechten sendet, so wäre es sehr wünschenswerth, ja immer <seg style="">
+               <space dim="horizontal" extent="tab"/>Mit nächster Post hoffe ich den 11ten Band der Fragm. senden zu können; er ist jetzt in den Händen des Buchbinders. Ich konnte im<space unit="chars" quantity="1"/>letzten Nachtrag noch die von Ihnen zuletzt verzeichneten Pflanzen aufnehmen. Da Bailey fort u fort an Dr. Stirton Flechten sendet, so wäre es sehr wünschenswerth, ja immer<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">recht bald</hi>
-               </seg> das von mir etwa Einlaufende zu absolviren, was Sie ja auch früher immer so gütig gethan haben. Verehren Sie mir doch auch gelegentlich Ihr Photogram. Mit bestem Grusse</p>
+               </seg>
+               <space unit="chars" quantity="1"/>das von mir etwa Einlaufende zu absolviren, was Sie ja auch früher immer so gütig gethan haben. Verehren Sie mir doch auch gelegentlich Ihr Photogram. Mit bestem Grusse</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; text-align: end; font-size: 10pt; "
+               style="hyphenate: false; text-align: end; font-size: 10pt; "
                xml:lang="de">29/3/82</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Just a few words, learned friend, to justify my dissatisfaction in reference to the collector Karsten. When I say that his great uncle, the preacher Karsten, who still lives in Schwerin as General Superintendent of the church, baptised me and gave the funeral oration at my father's burial, you will surely believe me when I say that I had the best feelings for this descendent of the Karsten family, especially as Professor Roeper from my home town of Rostock also recommended the man very much, admittedly only in general terms. Because the young Karsten had been a seaman and so was used to activity and climbing and simple food and could find no work at all (why is now rather clear to me), I was foolish enough to send him to northeast Australia for a year as a plant collector. For the expenditure associated with it of almost <seg style="">
+               <space dim="horizontal" extent="tab"/>Just a few words, learned friend, to justify my dissatisfaction in reference to the collector Karsten. When I say that his great uncle, the preacher Karsten, who still lives in Schwerin as General Superintendent of the church, baptised me and gave the funeral oration at my father's burial, you will surely believe me when I say that I had the best feelings for this descendent of the Karsten family, especially as Professor Roeper from my home town of Rostock also recommended the man very much, admittedly only in general terms. Because the young Karsten had been a seaman and so was used to activity and climbing and simple food and could find no work at all (why is now rather clear to me), I was foolish enough to send him to northeast Australia for a year as a plant collector. For the expenditure associated with it of almost<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">1000</hi>
-               </seg> (not 100) Thaler! he has sent about 100 (not 1000) plant species in miserable specimens. The few lichens among them were the best, and I had particularly drawn his attention to them. Consider that even a Black Aboriginal could have scraped off some lichens and mosses just as well and much better from tree trunks in the forest, indeed that 100 instead of 10 species could have been found. Whether this person K. lounged about absolutely for months or whether he went after gold instead of after plants, whether he ran back and forth unthinkingly without considering it worthwhile to stoop to pick up plants, I do not know, but I do know that he had not been ill and had suffered no severe accident. Thus I will banish the name of Karsten from my writings.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">In an earlier letter to Müller, 22 October 1881(in this edition as <space unit="chars" quantity="1"/>81-10-22b), M made the same complaints about Karsten, and asked Müller, if he had not yet published the new <seg style="font-style: italic; ">Sticta</seg> proposed to be named after Karsten, to use a different species name. However, the request came too late; Müller described <seg style="font-style: italic; ">Sticta karstenii</seg> in <seg style="font-style: italic; ">Flora</seg>, vol. 64, p. 505 (1881).</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>(not 100) Thaler! he has sent about 100 (not 1000) plant species in miserable specimens. The few lichens among them were the best, and I had particularly drawn his attention to them. Consider that even a Black Aboriginal could have scraped off some lichens and mosses just as well and much better from tree trunks in the forest, indeed that 100 instead of 10 species could have been found. Whether this person K. lounged about absolutely for months or whether he went after gold instead of after plants, whether he ran back and forth unthinkingly without considering it worthwhile to stoop to pick up plants, I do not know, but I do know that he had not been ill and had suffered no severe accident. Thus I will banish the name of Karsten from my writings.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>In an earlier letter to Müller, 22 October 1881, M made the same complaints about Karsten, and asked Müller, if he had not yet published the new<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sticta</seg>
+                        <space unit="chars" quantity="1"/>proposed to be named after Karsten, to use a different species name. However, the request came too late; Müller described<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sticta karstenii</seg>
+                        <space unit="chars" quantity="1"/>in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Flora</seg>, vol. 64, p. 505 (1881).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I had just as sad — indeed even worse — experiences with another young German by name of Wilhelmi;<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Harry Wilhelmi (1859-85), son of M's former assistant Carl Wilhelmi, arrived in Victoria in September 1881. He died in Qld. </p>
-               </note> but I was careful not to engage him on a regular basis but only to pay his journey to north-east Australia and advance a sum of money. After the latter was spent there in dissoluteness (so I now hear), I sent some more money. The result is <seg style="">
+               <space dim="horizontal" extent="tab"/>I had just as sad — indeed even worse — experiences with another young German by name of Wilhelmi;<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Harry Wilhelmi (1859-85), son of M's former assistant Carl Wilhelmi, arrived in Victoria in September 1881. He died in Qld.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>but I was careful not to engage him on a regular basis but only to pay his journey to north-east Australia and advance a sum of money. After the latter was spent there in dissoluteness (so I now hear), I sent some more money. The result is<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">nil</hi>
-               </seg>, at least until now, after several months, and the papers, the cardboard &amp;c &amp;c provided are to be seized to pay debts. — Now enough of that, but it is understandable that I am very <seg style="">
+               </seg>, at least until now, after several months, and the papers, the cardboard &amp;c &amp;c provided are to be seized to pay debts. — Now enough of that, but it is understandable that I am very<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">bitter</hi>
                </seg>. —</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I hope to be able to send the 11th volume of the <seg style="font-style: italic; ">Fragmenta</seg>
-               <note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B81.13.02.</p>
-               </note> with the next mail; it is now in the hands of the bookbinder. I still was able to include in the last supplement the plants last recorded by you.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B81.13.12, p. 115.</p>
-               </note> Because Bailey continually sends lichens to Dr Stirton,<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See M to J. Müller, 12 March 1882: 'Mr Bailey seeks to outflank me in lichens, and therefore has put himself in communication with Dr. Stirton in Glasgow independently of me'. See also M to J. Hooker, 24 July 1882.</p>
-               </note> it would be very desirable always to finish <seg style="">
+               <space dim="horizontal" extent="tab"/>I hope to be able to send the 11th volume of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Fragmenta</seg>
+               <seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B82.05.22.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>with the next mail; it is now in the hands of the bookbinder. I still was able to include in the last<space unit="chars" quantity="1"/>supplement the plants last recorded by you.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B81.13.13, p. 115-118, under 'Lichenes<space unit="chars" quantity="1"/>|<space unit="chars" quantity="1"/>E scriptis Friesii, Hampei, Babingtonii, Mittenii, Crombei, J. Muelleri, Krempelhuberi et Stirtoni' [From the writings of [E. L.] Fries, Hampe, Babbington, Mitten, Crombie, J. Müller, <space unit="chars" quantity="1"/>Krempelhuber and Stirton]</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Because Bailey continually sends lichens to Dr Stirton,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M to J. Müller, 12 March 1882: 'Mr Bailey seeks to outflank me in lichens, and therefore has put himself in communication with Dr. Stirton in Glasgow independently of me'. See also M to J. Hooker, 24 July 1882.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>it would be very desirable always to finish<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">very soon</hi>
-               </seg> the things arriving from me, which indeed you also have formerly always so kindly done. Do also give me your photograph some time. </p>
+               </seg>
+               <space unit="chars" quantity="1"/>the things arriving from me, which indeed you also have formerly always so kindly done. Do also give me your photograph some time.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">With best greetings</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
          </div>

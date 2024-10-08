@@ -38,12 +38,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -60,14 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Aralieareae</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/6418af2c-9810-489f-8311-dfa4359a6423">Astrotricha</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dfe52d12-cc3f-4620-8a9b-ab8361322615">Acacia</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,8 +61,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -103,70 +91,97 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the<seg style="font-style: italic; "> Perth gazette and West Australian times</seg>
-                     <seg style="">,</seg> 20 March 1868 (B68.03.06). It is introduced by 'THE following extracts of a letter received by the Colonial Secretary from Dr. Mueller, of Melbourne, have been kindly placed at our disposal for publication: —' It is dated to March 1868 by the reference to the sailing of <seg style="font-style: italic; ">Douglas </seg>from Melbourne for Fremantle 'a few days ago' (see note 4 below).</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>the<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>Perth gazette and West Australian times</seg>
+                     <seg rend="DefaultParagraphFont" style="">,</seg>
+                     <space unit="chars" quantity="1"/>20 March 1868 (B68.03.06). It is introduced by 'THE following extracts of a letter received by the Colonial Secretary from Dr.<space unit="chars" quantity="1"/>Mueller, of Melbourne, have been kindly placed at our disposal for publication: —' It is dated to March 1868 by the reference to the sailing of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Douglas</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>from Melbourne<space unit="chars" quantity="1"/>for Fremantle 'a few days ago' (see note 4<space unit="chars" quantity="1"/>below), and the date of publication of<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Astrotricha hamptoni</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">(see note 3 below)</seg>.</p>
                </note>
                <space dim="horizontal" extent="tab"/>The sample of Gum, sent by you, for examination, is in all respects akin to the Gum Arabic of medicine and commerce, except in its not perfect solubility, a small portion remaining in suspension or settling down from the solution. We have in Australia many, or at least several, kinds of acaciae, which produce such gum abundantly, and this proved excellent for adhesive purposes and is not materially different from Senegal, Morocco, or Barbary Gum. Whenever the samples are not dark-colored this Australian gum ought to fetch as good a price in the market as the Senegal gum. The chemical reaction of this gum is slightly acid.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I feel greatly indebted for your kind transmission of the dried plants, secured in the Nickol Bay district by Mr. Charles Harper. The collection contains several novelties, the most interesting of which, a species of <name key="Astrotricha">Astrotricha</name>, I have as a public mark of respect dedicated to Dr. Hampton, your excellent Governor. No member of the order of <name key="Aralieareae">Aralieareae</name>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Araliaceae?</p>
-               </note> had been found formerly in West Australia. I hope to send the printed record of this plant and a lithogram by this mail.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>M described <seg style="font-style: italic; ">
-                        <name key="Astrotricha">Astrotricha</name> hamptoni</seg> in B68.03.04, p. 125. The plant is illustrated as tab. LVIII.</p>
-               </note> I hope Mr. Harper and other settlers at Nickol Bay will thoughtfully continue to secure plants from their district, the vegetation of the mountain regions being very imperfectly known. </p>
+               <space dim="horizontal" extent="tab"/>I feel greatly indebted for your kind transmission of the dried plants, secured in the Nickol Bay district by Mr. Charles Harper. The collection contains several novelties,<space unit="chars" quantity="1"/>the most interesting of which,<space unit="chars" quantity="1"/>a species of Astrotricha, I have as a public mark of respect dedicated to Dr. Hampton, your excellent Governor. No<space unit="chars" quantity="1"/>member of the order of Aralieareae<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Araliaceae?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>had been found formerly in West Australia. I hope to send the printed record of this plant and a lithogram by this mail.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>M described<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Astrotricha hamptoni</seg>
+                        <space unit="chars" quantity="1"/>in B68.03.04, p. 125. The<space unit="chars" quantity="1"/>plant is illustrated as tab. LVIII.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I hope Mr. Harper and other settlers at Nickol Bay will thoughtfully continue to secure plants from their district, the vegetation of the mountain regions being very imperfectly known.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The <seg style="font-style: italic; ">Douglass</seg> left here a few days ago direct for Fremantle,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-style: italic; ">Douglas</seg> left Melbourne for Fremantle on 26 February 1868 (<seg style="font-style: italic; ">Argus</seg>, 26 February 1868, p. 4).</p>
-               </note> but unhappily I became not aware of her intended departure until at the last moment, and thus lost my chance of sending some cases full of living plants to you, as I so much wished. Mr. Taylor however, a resident of your colony here on a visit, has promised on his return a few months hence to take the surveillance over anything I may place under his care. Then the season will be also more favorable for the transmission of living plants</p>
+               <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Douglass</seg>
+               <space unit="chars" quantity="1"/>left here a few days ago direct for Fremantle,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Douglas</seg>
+                        <space unit="chars" quantity="1"/>left Melbourne for Fremantle on 26 February 1868 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 26 February 1868, p. 4).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>but unhappily I became not aware of her intended departure until at the last moment, and thus lost my chance of sending some cases full of living plants to you, as I so much wished. Mr. Taylor however, a resident of your colony here on a visit, has promised on his return a few months hence to take the surveillance over anything<space unit="chars" quantity="1"/>I may place under his care. Then the season will be also more favorable for the transmission of<space unit="chars" quantity="1"/>living plants</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I renewed the experiment of sending eels to King George's Sound,<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>WA.</p>
-               </note> with the hope of better success. Cods and Hares we should certainly send you for naturalisation also. The specimens of plants from Mr Walcott arrived also safely. Count de Castelnau sent a box of coleoptera, which was to go to Western Australia, and which I ventured to direct to your friendly care by last mail.</p>
+               <space dim="horizontal" extent="tab"/>I renewed the<space unit="chars" quantity="1"/>experiment of sending eels to King George's Sound,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>WA.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>with the hope of better success.<space unit="chars" quantity="1"/>Cods and Hares we should certainly send you for naturalisation also. The specimens of plants from Mr Walcott arrived also safely. Count de Castelnau sent a box of coleoptera,<space unit="chars" quantity="1"/>which was to go to Western Australia, and which I ventured to direct to your friendly care by last mail.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>You will be aware that Dextrine is used instead of Senegal Gum now extensively in the manufacture of printed Calicos, of paper, and for other purposes of dressing, sizing, dyeing, &amp;c.</p>
+               <space dim="horizontal" extent="tab"/>You will be aware that Dextrine<space unit="chars" quantity="1"/>is used instead of Senegal Gum now extensively in the manufacture of printed Calicos, of paper, and for other purposes of dressing, sizing, dyeing, &amp;c.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Acacia">Acacia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Aralieareae">Aralieareae</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Astrotricha">Astrotricha</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Acacia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Aralieareae</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Astrotricha</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>

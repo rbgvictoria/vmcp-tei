@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ The reports are issued as occasions arise. ¶  Those of 1865 and 1869 are the two last. The disorganisation of the Department through the transfer of the Forest Inspector to the botanic Garden from ...</title>
+            <title> ¶ The reports are issued as occasions arise. ¶ T. Ware to M, 14 February 1873(in this edition as 73-02-14b)asked for information about the publication of M'sReports.Reports issuedbefore appointed as ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>MS 9811, Box1179/3, La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</msName>
+                  <msName>MS 9811, Box1179/3,La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</msName>
                   <altIdentifier>
                      <idno>73.02.15</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ The reports are issued as occasions arise. ¶  Those of 1865 and 1869 are the two last. The disorganisation of the Department through the transfer of the Forest Inspector to the botanic Garden from ...</title>
+               <title> ¶ The reports are issued as occasions arise. ¶ T. Ware to M, 14 February 1873(in this edition as 73-02-14b)asked for information about the publication of M'sReports.Reports issuedbefore appointed as ...</title>
                <date when="1873-02-15">1873-02-15</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,37 +86,109 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ The reports are issued as occasions arise. ¶  Those of 1865 and 1869 are the two last. The disorganisation of the Department through the transfer of the Forest Inspector to the botanic Garden from ...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ The reports are issued as occasions arise. ¶ T. Ware to M, 14 February 1873(in this edition as 73-02-14b)asked for information about the publication of M'sReports.Reports issuedbefore appointed as ...</supplied>
             </head>
             <p rend="number" xml:lang="en">73.02.15</p>
-            <p rend="correspondent" xml:lang="en">To [Thomas Ware]</p>
-            <p rend="location" xml:lang="en">MS 9811, Box1179/3, La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>[Thomas Ware]</p>
+            <p rend="location" xml:lang="en">MS 9811, Box1179/3,<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+               <space unit="chars" quantity="1"/>La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; font-size: 12pt; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">The p/c has Box 1.15 pencilled on it - check location entry.</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">The p/c has Box 1.15 pencilled on it - check location entry.</seg>
                   </p>
                </note>
-               <space dim="horizontal" extent="tab"/>The reports are issued as occasions arise.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M is clearly replying to T. Ware to M, 14 February 1873 (in this edition as 73-02-14b).</p>
-               </note> Those of 1865 and 1869 are the two last. The disorganisation of the Department through the transfer of the Forest Inspector to the botanic Garden from 1869 til 1872<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">William Ferguson, who was removed from the Botanic garden in September 1872; see M to J. Casey, 16 September 1872, n. 10.</p>
-               </note> rendered the issue of a general connected Document by the Director an impossibility. It is however his intention to prepare a report again for Parliament in the course of this year. It is not the rule to offer regular reports in most of the Governments Departments. Thus, I believe, no regular reports are issued respecting the parks under the Board of Land &amp; Works</p>
+               <space dim="horizontal" extent="tab"/>The reports are issued as occasions arise.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>T. Ware to M, 14 February 1873</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>(in this edition as 73-02-14b)</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">asked for information about the publication of M's<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #0070C0; ">Reports</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">.</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>Reports issued</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>before appointed as Director of the Botanic Garden: B53.10.01, B54.10.01, B55.01.01, B55.11.01; after additional appointment as Director: B58.11.02. B60.01.01, 61.02.01, 62.03.01, B63.05.01, B65.10.01,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">B69.07.03.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Those of 1865 and 1869 are the two last. The disorganisation of the Department through the transfer of the Forest Inspector to the botanic Garden from 1869 til 1872<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>William Ferguson</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">. In<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">October<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">1872 responsibility for the Government House Domain was removed from M</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, in accordance with a plan suggested in C. Hodgkinson to J. Casey, 14 August 1872 (in this edition as M72-08-14).<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Ferguson was to have charge of the staff transferred to the Do</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">m</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">ain until 1 November,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">from when he would be required to reside at Macedon in charge of the State nursery reserve. (Memorandum from C. Hodgkinson to J. Casey, 21 October 1872, initialled by Casey 22 October and a copy sent to M, Ferguson and the Secretary for Agriculture</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">(G72/23119, unit 750, VPRS 44/P, Public Record Office, Victoria). For the text of the memorandum see notes to M to J. Casey 16 September 1872.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">see M to J. Casey, 16 September 1872, n. 10.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">Best to avoid references to specific notes, as these<space unit="chars" quantity="1"/>numbers<space unit="chars" quantity="1"/>are subject to change, and indeed is no longer correct in the on-line version, since I disambiguated the various Charles French references.</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; color: #C00000; "
+                        xml:lang="en">That memo is important. Should it be<space unit="chars" quantity="1"/>added as a note to M72-08-14 so the story is more or less entire there? Or perhaps even as a standalone Mentions item?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>rendered the issue of a general connected Document by the Director an impossibility. It is however his intention to prepare a report again for Parliament in the course of this year.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">The next, and final, report was B74.09.01.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It is not the rule to offer regular reports in most of the Governments Departments. Thus, I believe, no regular reports are issued respecting the parks under the Board of Land &amp; Works</p>
             <p rend="valediction"
-               style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; font-size: 12pt; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="margin-top: 0in; margin-bottom: 0in; text-align: start; hyphenation-ladder-count: no-limit; font-family: Geneva; font-size: 12pt; hyphenate: false; hyphenation-remain-char-count: 2; hyphenation-push-char-count: 2; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">15/2/73</p>
          </div>
       </body>

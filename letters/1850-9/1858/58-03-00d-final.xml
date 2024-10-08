@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[ ¶ On behalf of Dr Mueller in Melbourne, I have to send you the enclosed items, and I would ask you to include the enclosed advertisement in the  ¶ Botanische Zeitung ¶ . ¶  It is to be hoped that yo...</title>
+            <title>THE LETTER HAS BEEN REDATED AS 15 MARCH 1858. ¶ M to W. Sonder, 15 March 1858 (in this edition as 85-03-15b)....</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>[ ¶ On behalf of Dr Mueller in Melbourne, I have to send you the enclosed items, and I would ask you to include the enclosed advertisement in the  ¶ Botanische Zeitung ¶ . ¶  It is to be hoped that yo...</title>
+               <title>THE LETTER HAS BEEN REDATED AS 15 MARCH 1858. ¶ M to W. Sonder, 15 March 1858 (in this edition as 85-03-15b)....</title>
                <date when="1858-03">1858-03</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,16 +61,16 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>HTML Cite</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="78">English</language>
-            <language ident="de" usage="22">German</language>
+            <language ident="en" usage="100">English</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -89,96 +83,25 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[ ¶ On behalf of Dr Mueller in Melbourne, I have to send you the enclosed items, and I would ask you to include the enclosed advertisement in the  ¶ Botanische Zeitung ¶ . ¶  It is to be hoped that yo...</supplied>
+               <supplied reason="XTF-compatibility">THE LETTER HAS BEEN REDATED AS 15 MARCH 1858. ¶ M to W. Sonder, 15 March 1858 (in this edition as 85-03-15b)....</supplied>
             </head>
-            <p rend="number" xml:lang="de">
-               <seg style="">58.03.00d</seg>
-            </p>
-            <p rend="correspondent" xml:lang="de">To Wilhelm Sonder</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="number" xml:lang="en">58.03.00d</p>
+            <p rend="correspondent" xml:lang="en">To Wilhelm Sonder</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>Letter not found. The text given here is extracted from Tkach, Neubauer &amp; Roser (2022), Brief 32, W. Sonder to D. von Schlechtendal, 12 August 1858. For the rationale for dating M's letter to March 1858, see n. 2 below.</p>
-               </note>
-               <seg style="">[</seg>
-               <seg style="">Im Namen von Herrn Dr. Müller in Melbourne habe ich Ihnen beifolgende Sachen zu übersenden, und die einliegende Anzeige bitte ich, in die botan. Zeitung</seg>
-               <seg style=""> </seg>
-               <seg style="">aufzunehmen. Hoffentlich haben Sie mein letztes Schreiben erhalten, dem die Bearbeitung der Rhamnaceae</seg>
-               <seg style=""> </seg>
-               <seg style="">von Dr. Reisseck</seg>
-               <seg style=""> </seg>
-               <seg style="">beilag.Dr. Müller, dem es jetzt gut geht u der viel mit seinem botanischen Garten zu thun hat, schreibt mir, dass er das ihm von der Linnaea fehlende gerne im Tausche gegen Pflanzen von Ihnen zu erhalten wünscht. Ich weiss nicht, ob Sie nicht vielleicht schon früher mit ihm darüber correspondiert haben, aus einer kürzlich mir eingesandten Liste seiner Bücher sehe ich dass er besitzt. 1852, 1853, 1855. 1854 bloß Heft 4 u 5 und 1856 bloss Heft. 5.]</seg>
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">THE LETTER HAS BEEN REDATED AS 15 MARCH 1858.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>M to W. Sonder, 15 March 1858 (in this edition as 85-03-15b).</p>
+                  </note>
+               </seg>
             </p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
-               xml:lang="en">
-               <seg style="">[</seg>On behalf of Dr Mueller in Melbourne, I have to send you the enclosed items, and I would ask you to include the enclosed advertisement in the <seg style="font-style: italic; ">Botanische Zeitung</seg>.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>The 'advertisement' referred to must be that published under the heading 'Aufforderung zum Eintausch von Australischen Sämereien [Request for an exchange of Australian seeds], in <seg style="font-style: italic; ">Botanische Zeitung, </seg>20 August 1858, p. 256 (B58.08.01)<seg style="font-style: italic; ">. </seg>The item is treated as M t<seg rend="HTML%20Cite" style="font-style: italic; ">
-                        <seg style="font-style: normal; ">o the Editor of the </seg>
-                     </seg>
-                     <seg rend="HTML%20Cite" style="font-style: italic; ">Hamburger Garten- und Blumen-Zeitung</seg>
-                     <seg rend="HTML%20Cite" style="font-style: italic; ">
-                        <seg style="font-style: normal; ">, 15 March 1858 (in this edition as </seg>
-                     </seg>58-03-15a) (B58.08.03); Sonder presumably sent the notice to both journals, and at the same time.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>Although in his letter Sonder goes on to say that '<seg style="">Ich habe jetzt auch weder Zeit noch Lust, meine früheren ausgebreiteten Tauschverbindungen fortzusetzen, namentlich jetzt, wo ich, wie Sie gehört haben werden, mit Prof. Harvey eine Flora Capensis</seg>
-                     <seg style=""> </seg>
-                     <seg style="">herausgebe' [</seg>I now have neither the time nor the inclination to continue my earlier extensive exchange connections, especially now that, as you will have heard, I am publishing a <seg style="font-style: italic; ">Flora Capensis</seg> with Prof. Harvey], it is unlikely that he would fail to pass on the text to the two journals as soon as possible after he received it.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <space dim="horizontal" extent="tab"/>The other item(s) Sonder forwarded to Schlechtendal have not been positively identified, but M's 1857 <seg style="font-style: italic; ">Report</seg> (B57.09.01) was summarized in the issue of <seg style="font-style: italic; ">Botanische Zeitung </seg>for 24 September, p. 296.</p>
-               </note> It is to be hoped that you have received my last letter, which included Dr Reisseck's treatment of the Rhamnaceae.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Reisseck (1858a), </seg>issued September 1858 (TL2).</p>
-               </note> Dr Mueller, who is now doing well and has much to do with his botanical garden, writes to me that he would like to receive from you what he is missing from the <seg style="font-style: italic; ">Linnaea</seg> in exchange for plants. I do not know whether you have not perhaps already corresponded with him about this. From a list of his books recently sent to me, I see that he has: 1852, 1853, 1855. 1854 only parts 4 and 5 and 1856 only part 5.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>List not found. It is presumably an updated and at least in some respects</seg>
-                     <seg style="font-style: italic; "> </seg>
-                     <seg style="">more detailed version of the list of 'Books in my possession' in M to W. Hooker, 1 February 1857 where he lists 'Linnaea (partim)'.</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                        <space dim="horizontal" extent="tab"/>Sonder continued: '</seg>
-                     <seg style="">Das wäre also das, was Sie mir für ihn geschickt haben. Wenn Sie auf seinen Vorschlag eingehen wollen, so könnte im November, wo eine grosse Sendung anderer Sachen nach Melbourne abgeht, das von Ihnen eingesandte mit verpackt werden. Ich habe in der letzten Zeit entschieden kleinere Pflanzensendungen von Dr. Müller erhalten, was an Doubletten dabei ist, will ich Ihnen gerne gleich überlassen es wird aber nicht viel sein u ca. 200 Arten nicht übersteigen, es kommen jetzt wenig Doubletten.'</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>[</seg>That would be what you sent me for him. If you are willing to accept his suggestion, then in November, when a large consignment of other things leaves for Melbourne, what you sent could be packed along with it. I have recently received decidedly smaller consignments of plants from Dr Mueller and I will gladly let you have the duplicates, but they will not be many and will not exceed approx. 200 species, as there are few duplicates now.]</p>
-               </note>]</p>
          </div>
       </body>
    </text>
