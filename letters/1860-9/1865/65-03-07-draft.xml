@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1865/65-03-07.doc</idno>
+            <idno type="filename">data/letters/1860-9/1865/65-03-07-draft.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1865/65-03-07.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1865/65-03-07-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -96,27 +92,54 @@
             <p rend="location" xml:lang="en">No. 84/65, unit 10, p. 738, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to <seg style="font-weight: bold; ">Mayor</seg>, 5 March 1865.</p>
-               </note>Town Hall Melbourne</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Town Hall Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">7th March 1865</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The Right Worshipful the Mayor of Melbourne has much pleasure in placing his room in the Town Hall at the service of the ladies of the Leichhardt Committee for their meetings at all times except the afternoon of each Monday</p>
+               <space dim="horizontal" extent="tab"/>The Right Worshipful the Mayor of Melbourne has much pleasure in placing his room in the Town Hall at the service of the ladies of the Leichhardt Committee for their meetings at all times except the afternoon of each Monday<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">The letter is in response to M</seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Mayor</seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">to<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #0070C0; ">Mayor of Melbourne</seg>, 5 March 1865.</p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">This is in the final<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">set</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">, as "</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">T</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">o</seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">Mayor of Melbourne" with a note identifying the Mayor as George<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #C00000; ">Wragge. I think we leave it at that, hence my modification of the text of this note.</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr Ferd Mueller</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">&amp;c &amp;c &amp;c</p>
          </div>
       </body>
