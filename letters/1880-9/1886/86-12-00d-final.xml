@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>December 1886 ¶  ¶ [For copy of new map of Victoria]...</title>
+            <title> ¶ [For copy of new map of Victoria] ¶ M'sletter was returned tohimon 12 January 1887 minuted: 'No map of Victoria since 1882 with which I presume Govt Botanist is supd to have supplied'.Mreturned his...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1886/86-12-00d-draft.doc</idno>
+            <idno type="filename">data/letters/1880-9/1886/86-12-00d-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>December 1886 ¶  ¶ [For copy of new map of Victoria]...</title>
+               <title> ¶ [For copy of new map of Victoria] ¶ M'sletter was returned tohimon 12 January 1887 minuted: 'No map of Victoria since 1882 with which I presume Govt Botanist is supd to have supplied'.Mreturned his...</title>
                <date when="1886-12">1886-12</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1886/86-12-00d-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1886/86-12-00d-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,41 +84,30 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">December 1886 ¶  ¶ [For copy of new map of Victoria]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [For copy of new map of Victoria] ¶ M'sletter was returned tohimon 12 January 1887 minuted: 'No map of Victoria since 1882 with which I presume Govt Botanist is supd to have supplied'.Mreturned his...</supplied>
             </head>
             <p rend="number" xml:lang="en">86.12.00d</p>
             <p rend="correspondent" xml:lang="en">To Alfred Deakin</p>
-            <p rend="location" xml:lang="en">No. 12643, vol. 1886 G, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">No. 12643, vol. 1886 G, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="background-color: #ffff00; ">To proof.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, entered in December 1886.</p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note>December 1886</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[For copy of new map of Victoria]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">This letter was returned to M on 12 January 1887 minuted: 'No map of Victoria since 1882 with which I presume Govt Botanist is supd to have supplied.' M replied to the minute on 14 January. His letter was referred to the Department of Lands on 18 January. <seg style="font-weight: bold; background-color: #ffff00; ">Needs to be</seg>
-                     <seg style="font-weight: bold; "> </seg>
-                     <seg style="font-weight: bold; background-color: #ffff00; ">looked for in lands.</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[For copy of new map of Victoria]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M's<space unit="chars" quantity="1"/>letter was returned to<space unit="chars" quantity="1"/>him<space unit="chars" quantity="1"/>on 12 January 1887 minuted: 'No map of Victoria since 1882 with which I presume Govt Botanist is supd to have supplied'.<space unit="chars" quantity="1"/>M<space unit="chars" quantity="1"/>returned his request on 14 January, and his letter was referred to the Department of Lands on 18 January.<space unit="chars" quantity="1"/>The map<space unit="chars" quantity="1"/>sought has<space unit="chars" quantity="1"/>not been identified;<space unit="chars" quantity="1"/>it may have been 'the little map to the Key to the Plants' to which M refers in M to J. Ferres, 15 April 1887.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
