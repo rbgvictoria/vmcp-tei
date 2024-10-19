@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Private ¶ Easterday ¶  1876 ¶ I write this, dear Dr Hooker, to tell you (from a friends place in the country, ¶  where I seek during the Easter holidays fresh air) that the two Cases with Museum plant...</title>
+            <title>Private ¶ Easterday ¶  ¶ 1876 ¶ I write this, dear Dr Hooker, to tell you (from a friends place in the country, ¶ Not identified. ¶  ¶ where I seek during the Easter holidays fresh air) that the two C...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Private ¶ Easterday ¶  1876 ¶ I write this, dear Dr Hooker, to tell you (from a friends place in the country, ¶  where I seek during the Easter holidays fresh air) that the two Cases with Museum plant...</title>
+               <title>Private ¶ Easterday ¶  ¶ 1876 ¶ I write this, dear Dr Hooker, to tell you (from a friends place in the country, ¶ Not identified. ¶  ¶ where I seek during the Easter holidays fresh air) that the two C...</title>
                <date when="1876-04-16">1876-04-16</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
             </keywords>
@@ -91,62 +87,75 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Private ¶ Easterday ¶  1876 ¶ I write this, dear Dr Hooker, to tell you (from a friends place in the country, ¶  where I seek during the Easter holidays fresh air) that the two Cases with Museum plant...</supplied>
+               <supplied reason="XTF-compatibility">Private ¶ Easterday ¶  ¶ 1876 ¶ I write this, dear Dr Hooker, to tell you (from a friends place in the country, ¶ Not identified. ¶  ¶ where I seek during the Easter holidays fresh air) that the two C...</supplied>
             </head>
             <p rend="number" xml:lang="en">76.04.16a</p>
             <p rend="correspondent" xml:lang="en">To Joseph Hooker</p>
-            <p rend="location" xml:lang="en">RBG Kew. Kew Correspondence, Australia, Mueller. 1871-81, f. 176.</p>
+            <p rend="location" xml:lang="en">RBG Kew. Kew Correspondence, Australia, Mueller. 1871-81, f. 176.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Written on black edged paper; M's brother-in-law, Eduard Wehl, died in February 1876.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Written on black-edged paper; M's brother-in-law, Eduard Wehl, died in February 1876.</p>
                </note>Private</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Easterday</hi>
-               </seg> 1876</p>
+               </seg>
+               <space unit="chars" quantity="1"/>1876</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">I write this, dear Dr Hooker, to tell you (from a friends place in the country,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="color: #000000; ">Not identified.</seg>
-                  </p>
-               </note> where I seek during the Easter holidays fresh air) that the two Cases with Museum plants, which I owe to your Liberality, have arrived, I believe safely. I have not yet seen them. In the course of the week I will endeavour to bring for once my new Minister<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="color: #000000; ">Duncan Gillies</seg>
-                     <seg style="color: #000000; font-weight: bold; ">.</seg>
-                  </p>
-               </note> to the only Museum room, built for me in 19 years, to show him this new contribution to our collections from Kew. He is an English Barrister, hence a man of education, from whom I hope some resurrection of my Department. Would you <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">I write this, dear Dr Hooker, to tell you (from a friends place in the country,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Not identified.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>where I seek during the Easter holidays fresh air) that the two Cases with Museum plants, which I owe to your Liberality, have arrived, I believe safely. I have not yet seen them. In the course of the week I will endeavour to bring for once my new Minister<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Duncan Gillies.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to the only Museum room, built for me in 19 years, to show him this new contribution to our collections from Kew. He is an English Barrister, hence a man of education, from whom I hope some resurrection of my Department. Would you<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">believe</hi>
-               </seg> that Sir George Bowen contends that <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>that Sir George Bowen contends that<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">you</hi>
-               </seg> had said, that you hoped the British Ministry would treat you as the Victorian has done in my case! i.e. to be without buildings, almost without staff, without votes, without all my living plants (and that with the cultural scope of our latitudes) but with an endowment of £300 to work the wide duties of a most [rami]fied Department in an expensive Gold country!</p>
+               </seg>
+               <space unit="chars" quantity="1"/>had said, that you hoped the British Ministry would treat you as the Victorian has done in my case! i.e. to be without buildings, almost without staff, without votes, without all my living plants (and that with the cultural scope of our latitudes) but with an endowment of £300 to work the wide duties of a most [rami]fied Department in an expensive Gold country!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Of course I was excessively indignant when I heard this. As yet not the slightest improvement has taken place in my position, while useless or destructive changes are made at lavish expenses at what once was a botanic Garden but what rather now deserves the name of a Cremorne!<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>Cremorne Gardens in Chelsea, England, were a popular place of entertainment during the middle of the 19th century but became notorious for irregularities and were closed in 1877. (<seg style="font-style: italic; ">Oxford companion to English literature</seg>, 1995).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Of course I was excessively indignant when I heard this. As yet not the slightest improvement has taken place in my position, while useless or destructive changes are made at lavish expenses at what once was a botanic Garden but what rather now deserves the name of a Cremorne!<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space unit="chars" quantity="1"/>Cremorne Gardens in Chelsea, England, were a popular place of entertainment during the middle of the 19th century but became notorious for irregularities and were closed in 1877. (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Oxford companion to English literature</seg>, 1995).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
          </div>
