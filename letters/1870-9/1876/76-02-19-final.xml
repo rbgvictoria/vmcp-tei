@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,38 +92,42 @@
             <p rend="location" xml:lang="en">K76/1893, unit 875, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">19/2/76.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The hon. J. Macpherson,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Chief Secretary.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that I returned this day to my office, after the death of my brother in law, Dr. E. Wehl, J.P., at Mount Gambier and after preliminarily aiding in arranging the affairs of my sister and her large and unprovided young family I shall probably have to seek your permission, to proceed again after some weeks to my sister's place for the final arrangements of her future.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to J. MacPherson, 7 February and 11 February 1876.<seg style="font-weight: bold; "> </seg>There are<seg style="font-weight: bold; "> </seg>no annotations on the file concerning any subsequent requests for leave.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that I returned this day to my office, after the death of my brother in law, Dr. E. Wehl, J.P., at Mount Gambier and after preliminarily aiding in arranging the affairs of my sister and her large and unprovided young family I shall probably have to seek your permission, to proceed again after some weeks to my sister's place for the final arrangements of her future.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See also M to J. MacPherson, 7<space unit="chars" quantity="1"/>February<space unit="chars" quantity="1"/>1876,<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>M to J. MacPherson,<space unit="chars" quantity="1"/>11 February 1876.<space unit="chars" quantity="1"/>There are<space unit="chars" quantity="1"/>no annotations on the file concerning any subsequent requests for leave.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">I have the honor to be, </p>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">I have the honor to be,<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir, your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne bot Garden ¶ 27/1/69 ¶  ¶ I was very much gratified, dear Mr Guilfoyle, to receive your kind letter ¶ Letter not found. ¶  ¶ and the interesting prints which accompany it. ¶ ProbablyGuilfoyl...</title>
+            <title>Melbourne bot Garden ¶ 27/1/69 ¶  ¶ I was very much gratified, dear Mr Guilfoyle, to receive your kind letter ¶ Letter not found. ¶  ¶ and the interesting prints which accompany it. ¶ Probably Guilfoy...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1869/69-01-27-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1869/69-01-27-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne bot Garden ¶ 27/1/69 ¶  ¶ I was very much gratified, dear Mr Guilfoyle, to receive your kind letter ¶ Letter not found. ¶  ¶ and the interesting prints which accompany it. ¶ ProbablyGuilfoyl...</title>
+               <title>Melbourne bot Garden ¶ 27/1/69 ¶  ¶ I was very much gratified, dear Mr Guilfoyle, to receive your kind letter ¶ Letter not found. ¶  ¶ and the interesting prints which accompany it. ¶ Probably Guilfoy...</title>
                <date when="1869-01-27">1869-01-27</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-01-27-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-01-27-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -87,7 +87,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne bot Garden ¶ 27/1/69 ¶  ¶ I was very much gratified, dear Mr Guilfoyle, to receive your kind letter ¶ Letter not found. ¶  ¶ and the interesting prints which accompany it. ¶ ProbablyGuilfoyl...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne bot Garden ¶ 27/1/69 ¶  ¶ I was very much gratified, dear Mr Guilfoyle, to receive your kind letter ¶ Letter not found. ¶  ¶ and the interesting prints which accompany it. ¶ Probably Guilfoy...</supplied>
             </head>
             <p rend="number" xml:lang="en">69.01.27</p>
             <p rend="correspondent" xml:lang="en">To William Guilfoyle</p>
@@ -119,27 +119,9 @@
                         <space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Probably<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Guilfoyle</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>(1868),</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">the four</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">-</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">part series published in the<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Sydney morning herald</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, and reprinted in the sister weekly,<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Sydney mail</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">.</seg>
-                     </p>
+                        </seg>Probably Guilfoyle<space unit="chars" quantity="1"/>(1868),<space unit="chars" quantity="1"/>the four-part series published in the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sydney morning herald</seg>
+                        <space unit="chars" quantity="1"/>and reprinted in the sister weekly<seg rend="DefaultParagraphFont" style="font-style: italic; ">, Sydney mail</seg>.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>I really envey you for the splendid opportunities, which you had in observing the rich and rare vegetation of some of the pacific groups, which indeed you appreciated well and delineated in vivid language.</p>
@@ -151,14 +133,14 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Guilfoyle (1869)<seg rend="DefaultParagraphFont" style="color: #0070C0; ">, based on Guilfoyle (1868)</seg>.</p>
+                        <space dim="horizontal" extent="tab"/>Guilfoyle (1869), based on Guilfoyle (1868).</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>If you want any special information on any of the plants you gathered I will endeavour to furnish it</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Is anything done about the exploration of New Guinea, in which Mr Ramsay &amp; others wished to interest themselves? Do you know what facilities exists of sending a collector to the mission stations there? The natives inland cannot well be trusted, but I think if a collector was safely stationed at the missions and gave in barter things of cheapness for each dozen<space unit="chars" quantity="1"/>
+               <space dim="horizontal" extent="tab"/>Is anything done about the exploration of New Guinea, in which Mr Ramsay &amp; others wished to interest themselfes? Do you know what facilities exists of sending a collector to the mission stations there? The natives inland cannot well be trusted, but I think if a collector was safely stationed at the missions and gave in barter things of cheapness for each dozen<space unit="chars" quantity="1"/>
                <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">different</hi>
                </seg>
@@ -183,8 +165,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Michael Guilfoyle</seg>.</p>
+                        <space dim="horizontal" extent="tab"/>Michael Guilfoyle.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>my best regards and command my services at all times.</p>
