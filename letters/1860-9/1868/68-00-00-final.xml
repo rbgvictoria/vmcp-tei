@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The Secretary, Dr. Renard, shows 2 photographs sent by Dr. Ferdinand Mueller of Melbourne which represent a monstrosity on the skeleton of a former flute player, remarkable above all for 2 femurs wit...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1868/68-00-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>68.00.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[The Secretary, Dr. Renard, shows 2 photographs sent by Dr. Ferdinand Mueller of Melbourne which represent a monstrosity on the skeleton of a former flute player, remarkable above all for 2 femurs wit...</title>
+               <date when="1868">1868</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-00-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="54">English</language>
+            <language ident="de" usage="46">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the  Imperial Society of Naturalists of Moscow</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[The Secretary, Dr. Renard, shows 2 photographs sent by Dr. Ferdinand Mueller of Melbourne which represent a monstrosity on the skeleton of a former flute player, remarkable above all for 2 femurs wit...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">68.00.00</p>
+            <p rend="correspondent" xml:lang="de">
+               <seg style="">To the </seg>Imperial Society of Naturalists of Moscow</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found. The text is from <seg style="font-style: italic; ">Bulletin de la Société Impériale des Naturalistes de Moscou</seg>, vol. 41 (1868), no. 4, séances p. 111, in a report of a meeting of the Society held on 19 December 1868.</p>
+               </note>
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[</seg>Mr. le Secrétaire Dr. Renard montre 2 photographies envoyées par Mr. le Dr. Ferdinand Müller de Melbourne, qui réprésentent une monstruosité sur le squelette d'un ci-devant joueur de flute remarquable surtout par 2 femurs avec une patelle, une fibule et un tibia outre d'autres anomalies.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>[The Secretary, Dr. Renard, shows 2 photographs sent by Dr. Ferdinand Mueller of Melbourne which represent a monstrosity on the skeleton of a former flute player, remarkable above all for 2 femurs with one patella, one fibula and one tibia over and above other anomalies.]</seg>
+               <seg style="">
+                  <note xml:id="ftn2" type="footnote" n="2">
+                     <p rend="Footnote"
+                        style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                        xml:lang="en">See Halford (1869a), with an engraving of the skelton.</p>
+                  </note>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

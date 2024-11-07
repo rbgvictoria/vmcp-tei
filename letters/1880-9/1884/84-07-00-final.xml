@@ -1,0 +1,124 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [For authority to present a copy of the Decades of the Eucalyptography ¶  to the Director of the Botanic Garden Antwerp.]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1884/84-07-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>P84/2174 unit 25, VPRS 1163/P1 inward correspondence files, VA 672 Premier's Office, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>84.07.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [For authority to present a copy of the Decades of the Eucalyptography ¶  to the Director of the Botanic Garden Antwerp.]...</title>
+               <date when="1884-07">1884-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1884/84-07-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Graham Berry</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [For authority to present a copy of the Decades of the Eucalyptography ¶  to the Director of the Botanic Garden Antwerp.]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">84.07.00</p>
+            <p rend="correspondent" xml:lang="en">To Graham Berry</p>
+            <p rend="location" xml:lang="en">P84/2174 unit 25, VPRS 1163/P1 inward correspondence files, VA 672 Premier's Office, Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found; item is a register entry only, dated to July 1884 on the basis of its subsequent history (see n. 3).</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[For authority to present a copy of the Decades of the Eucalyptography<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>B79.13.11, B80.13.14, B82.13.17, B84.04.04, B84.11.02.</p>
+               </note> to the Director of the Botanic Garden Antwerp.]<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>M's letter was forwarded from the Chief Secretary's Department to the Premier's Office on 1 August 1884. It was returned by E. Thomas, Secretary to the Premier, on 7 September 1884 with the note that the 'Government Printer has been instructed to forward the decades of Eucalyptography to the Director of the Antwerp Botanic Gardens through the Trustees of the Public Library. The Trustees have also been requested to state in forwarding the books that they are presented at the instance of Baron von Mueller'. The Government Printer forwarded the books to the Public Library on 8 September and the Librarian, T. F. Bride, sent them to Dr Henri von Heurk at Antwerp on 11 September (P84/2610, unit 25, Public Record Office, Victoria).</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

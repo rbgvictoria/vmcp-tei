@@ -1,0 +1,257 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ Either they are mislaid here, ¶  or they have not arrived at all. It would be simplest now, if you were to send me small specimens of these four plants  ¶ by mail ¶ . There are species of  ¶ Marsde...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1889/89-00-00d-proofed.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>GRG 19/391, State Records of South Australia, Adelaide.</msName>
+                  <altIdentifier>
+                     <idno>89.00.00d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ Either they are mislaid here, ¶  or they have not arrived at all. It would be simplest now, if you were to send me small specimens of these four plants  ¶ by mail ¶ . There are species of  ¶ Marsde...</title>
+               <date when="1889">1889</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1889/89-00-00d-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Acanthacea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9557ac94-1dce-4cbf-a2f1-f9173c737d45">Marsdenia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/3266e251-b76d-4b72-87de-266f81a0cf1a">Jasminum</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="59">English</language>
+            <language ident="de" usage="41">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Maurice Holtze</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ Either they are mislaid here, ¶  or they have not arrived at all. It would be simplest now, if you were to send me small specimens of these four plants  ¶ by mail ¶ . There are species of  ¶ Marsde...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">89.00.00d</p>
+            <p rend="correspondent" xml:lang="de">To Maurice Holtze</p>
+            <p rend="location" xml:lang="de">GRG 19/391, State Records of South Australia, Adelaide.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">Starts with p. '5' (in M's hand). Continuation of a letter, possibly 1883?</seg>
+                  </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>
+               <seg style="">Entweder sind diese hier verlegt, oder solche sind überhaupt nicht gekommen. Das Einfachste wäre nun, wenn Sie mir von diesen 4 Pflanzen kleine Exemplare </seg>
+               <seg style="">
+                  <hi rend="underline">pr Post</hi>
+               </seg>
+               <seg style=""> sendeten. Es sind Arten von <name key="Marsdenia">Marsdenia</name> dabei. </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>Sind Früchte von der <name key="Acanthacea">Acanthacea</name>
+               </seg>
+               <note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <name key="Acanthacea">Acanthacea</name>
+                     <seg style="font-style: italic; ">above</seg>
+                     <name key="Jasminum">Jasminum</name>
+                     <seg style="font-style: italic; ">deleted</seg>.</p>
+               </note>
+               <seg style=""> 795 erlangbar? Wie früher bemerkt, würde es die Benennung derjenigen Arten </seg>
+               <seg style="">
+                  <hi rend="underline">beschleunigen</hi>
+               </seg>
+               <seg style="">, von welchen ich Ihnen noch nicht die Namen gegeben, falls Sie mir alle diese Arten </seg>
+               <seg style="">
+                  <hi rend="underline">noch einmal</hi>
+               </seg>
+               <seg style=""> sendeten, entweder aus Ihrem Herbarium oder </seg>
+               <seg style="">
+                  <hi rend="underline">noch einmal</hi>
+               </seg>
+               <seg style=""> gesammelt. In den meisten Fällen fehlten die </seg>
+               <seg style="">
+                  <hi rend="underline">Früchte</hi>
+               </seg>
+               <seg style="">, und dies ist der Grund, dass ich über die genaue Stellung </seg>
+               <seg style="">
+                  <hi rend="underline">dieser</hi>
+               </seg>
+               <seg style=""> Pflanzen im System nicht klar werde. </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>795, welche ich nach äusserem Ansehen für ein <name key="Jasminum">Jasminum</name> hielt, ist eine <name key="Acanthacea">Acanthacea</name>. An dem einzigen Ex. waren 3 Blumen, eine verkümmert. Ich habe zwei der Zergliederung geopfert, kann aber erst die generische Position feststellen, nachdem ich reife Früchte erhalten habe. Einige lose Blumen nebenher gesandt würden das Haupt-Exemplar in den Untersuchungen schonen. Die Hauptsache aber in allen Fällen ist das Erlangen reifer Frucht. </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>Either they are mislaid here,<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">Other refs. to plants lost or mislaid also in 83.07.22, 83.07.27. But Nr 795 should be later (about 1889?) </seg>
+                     <seg style="color: #1b23ff; font-weight: bold; ">But multiple use of numbers, and not all speciomens with numbers are in AVH</seg>
+                     <seg style="font-weight: bold; "> Maybe 1890 as </seg>
+                     <seg style="font-weight: bold; background-color: #ffff00; ">795 listed 1890</seg>
+                     <seg style="font-weight: bold; "> </seg>
+                  </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva; font-size: 9pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
+                     xml:lang="en">
+                     <seg style="color: #c00000; font-weight: bold; ">?? The only 795 in AVH is undated, and is Lamiaceae, not an <name key="Acanthacea">Acanthacea</name>e, although </seg>
+                     <seg style="color: #c00000; font-weight: bold; ">in the current classification they are both in the Order Lamiales. The 795 in 96-00-00a as possibly a Jasminium, would also be in Lamiales</seg>
+                  </p>
+               </note> or they have not arrived at all. It would be simplest now, if you were to send me small specimens of these four plants <seg style="">
+                  <hi rend="underline">by mail</hi>
+               </seg>. There are species of <seg style="font-style: italic; ">
+                  <name key="Marsdenia">Marsdenia</name>
+               </seg> among them. </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Are the fruit of the <seg style="font-style: italic; ">
+                  <name key="Acanthacea">Acanthacea</name>
+               </seg> Nr 795<note xml:id="ftn4" type="footnote" n="4">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">See M to M. Holtze, list, 1890. </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="color: #c00000; font-weight: bold; ">This is currently 90-06-00a</seg>
+                  </p>
+               </note> obtainable? As I remarked previously, it would <seg style="">
+                  <hi rend="underline">speed up</hi>
+               </seg> the naming of those plants of which I have not yet given you the names, if you would send me all these plants <seg style="">
+                  <hi rend="underline">once more</hi>
+               </seg>, either from your Herbarium, or collected <seg style="">
+                  <hi rend="underline">again</hi>
+               </seg>. In most cases the <seg style="">
+                  <hi rend="underline">fruits</hi>
+               </seg> are lacking, and this is the reason, that I could not determine the correct position in the system for <seg style="">
+                  <hi rend="underline">these</hi>
+               </seg> plants.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Nr 795, which I mistook for a <seg style="font-style: italic; ">
+                  <name key="Jasminum">Jasminum</name>
+               </seg> from its habit, is an <seg style="font-style: italic; ">
+                  <name key="Acanthacea">Acanthacea</name>
+               </seg>.<note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="">
+                        <space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg style="color: #c00000; font-weight: bold; ">no fragment with 795 as a jasminium other than this letter</seg>
+                  </p>
+               </note> The only specimen had three flowers, one of them spoiled. I sacrificed two of them for dissection, but can only establish its generic position after I have obtained <seg style="">
+                  <hi rend="underline">ripe fruits</hi>
+               </seg>. A few loose flowers sent along with it would save the main specimen during examination. But the most important point in all cases is the securing of fruit.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Marsdenia">Marsdenia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acanthacea">Acanthacea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Jasminum">Jasminum</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

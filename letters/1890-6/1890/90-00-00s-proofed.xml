@@ -1,0 +1,979 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1890/90-00-00s-proofed.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>MS 58 (044) MUE, WA Herbarium, Kensington, WA.</msName>
+                  <altIdentifier>
+                     <idno>90.00.00s</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>...</title>
+               <date when="1890">1890</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1890/90-00-00s-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Muehlenbeckia Cunninghami</term>
+               <term>Heterodendron oleifolium</term>
+               <term>Senecio brachyglossus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c9cfe4b7-558c-4425-b37c-f5150254d4ac">Trigonella suavissima</term>
+               <term>Eucalyptus terminalis</term>
+               <term>Marsdenia Leichhardti</term>
+               <term>Eriochloa polystachya</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/ee26ca77-9592-4c79-b5d3-f87e68ded30f">Pimelea microcephala</term>
+               <term>Polyporus sanquineus</term>
+               <term>Solanum lasiophyllum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/42c452a9-4b71-4458-b2de-2eb25f6a35ac">Scaevola spinescens</term>
+               <term>Abutilon halophilum</term>
+               <term>Canthium latifolium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/ff4225b4-bec9-4739-86a8-50d9b5f07aa1">Eremophila maculata</term>
+               <term>Pappophorum commune</term>
+               <term>Andropogon sericeus</term>
+               <term>Eleusine cruciata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/38fb2d65-e078-44a5-9398-c50691d8259d">Ptilotus obovatus</term>
+               <term>Tribulus Hystrix</term>
+               <term>Erodium cygnorum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/060afb4f-0634-4291-8ded-38027a2fecb2">Lotus australis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b3ad8b60-b1d8-48f0-90d0-eb6f4d388f7e">Psoralea patens</term>
+               <term>Hakea lorea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/defa3b7e-c39d-4a15-834b-26e68f5962f2">Eragrostis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f2d75ae0-d0bc-40ad-b3de-6facdae444b4">Eremophila</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/22ad8546-8f00-4999-9b20-e40d11229ad5">Eucalyptus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/117e433d-3a7c-4dbc-b3a6-6595471534a8">Andropogon</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f7767072-a36f-4ca7-97bd-97b2ae82b52a">Haloragis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/3cd6ab5c-60e7-4f85-afd2-5455727e6e95">Grevillea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c41cd3e8-c729-4e74-b251-293ce28c8557">Atriplex</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/a935cff3-9ed9-468e-b315-7a04f51555b8">Rhagodia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/15df3148-f61d-4c4b-8b01-7089e915e1b8">Ptilotus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c86c51a5-50cd-4daf-a2b4-4d4c08bee14a">Scirpus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dfe52d12-cc3f-4620-8a9b-ab8361322615">Acacia</term>
+               <term>Hakea </term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/654b3a31-5a69-4624-ba1b-3faf3eb17e42">Bassia</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>table</term>
+               <term>note</term>
+               <term>multi-column cell</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>Progress note</term>
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>Footnote</term>
+               <term>letter</term>
+               <term>underline</term>
+               <term>Standard</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Isaac Tyson</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">...</supplied>
+            </head>
+            <p rend="Progress%20note"
+               style="font-family: Geneva; font-size: 12pt; margin-left: -0.8862in; margin-right: 0in; margin-top: 0in; margin-bottom: 0.0417in; text-align: end; text-indent: 0.8862in; color: #0000ff; "
+               xml:lang="en">
+               <seg style="color: #c00000; ">Red highlight potential contravention of TO policy</seg>
+            </p>
+            <p rend="Progress%20note"
+               style="font-family: Geneva; font-size: 12pt; margin-left: -0.8862in; margin-right: 0in; margin-top: 0in; margin-bottom: 0.0417in; text-align: end; text-indent: 0.8862in; color: #0000ff; "
+               xml:lang="en">
+               <seg style="color: #c00000; ">NB The plant names below have not been sorted: this should help when the files are split; Dates of collection not yet checked in AVH</seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="number" xml:lang="en">90.00.00s</p>
+            <p rend="correspondent" xml:lang="en">To Isaac Tyson</p>
+            <p rend="location" xml:lang="en">MS 58 (044) MUE, WA Herbarium, Kensington, WA.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <table n="Table1">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">To proof. Bot. Names Checked. 15/8/08.</seg>
+                  </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>Date of letter 1892 except for middle sections (nos 5-6) where dates are 1894 and the paper looks different.</seg>
+                  </p>
+               </note>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">28,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eragrostis">Eragrostis</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">23,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Senecio%20brachyglossus">Senecio brachyglossus</name>, F.v.M.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">21,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Lotus%20australis">Lotus australis</name>, Andr.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">24,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Haloragis">Haloragis</name>
+                     </p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Kindly send also a fruiting specimen.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">22.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Trigonella%20suavissima">Trigonella suavissima</name>, Lindley</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">25,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Tribulus%20Hystrix">Tribulus Hystrix</name>, R Brown</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Several species of Tribulus occur there</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">32,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eremophila">Eremophila</name>
+                     </p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Seeds desired. In such cases some <seg style="">
+                           <hi rend="underline">leaves</hi>
+                        </seg> must be put with the (fruits or) seeds, so as to allow finding out the species</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">31,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eleusine%20cruciata">Eleusine cruciata</name>, Lamarck</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">30,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Atriplex">Atriplex</name>
+                     </p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Shall be thankful for ripe seeds, if handy to you</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">29,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Rhagodia">Rhagodia</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">37,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Muehlenbeckia%20Cunninghami">Muehlenbeckia Cunninghami</name> F.V.M.<note xml:id="ftn2" type="footnote" n="2">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <space unit="chars" quantity="1"/>
+                              <space dim="horizontal" extent="tab"/>
+                              <seg style="color: #c00000; font-weight: bold; ">Transcr. is correct.</seg>
+                           </p>
+                        </note>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">35,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Scaevola%20spinescens">Scaevola spinescens</name>, RBrown</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">34,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Pimelea%20microcephala">Pimelea microcephala</name> RBr</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">33,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eremophila">Eremophila</name> }<space dim="horizontal" extent="tab"/>Fruit also</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">36,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eremophila">Eremophila</name> }<space dim="horizontal" extent="tab"/>required</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                        cols="2">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Kindly collect also minute plants at this favorable season, also any floating or submerged weeds.<note xml:id="ftn3" type="footnote" n="3">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <seg style="font-weight: bold; ">this is a short page, what follows may be a different letter.</seg>
+                           </p>
+                        </note>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">5, <note xml:id="ftn4" type="footnote" n="4">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <seg style="font-weight: bold; ">top of new page has 'No 6'. HC: not convinced this is part of the same list. RH: I agree, I think it's a separate document</seg>
+                           </p>
+                        </note>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Polyporus%20sanquineus">Polyporus sanquineus</name>, Meyer.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">2,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eucalyptus%20terminalis">Eucalyptus terminalis</name>, F.v.M</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Could you kindly send some seeds? If well ripened seedvessels are placed into a box and occasionally shaken, the seeds will drop out in the course of some weeks.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">7,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Acacia">Acacia</name>
+                     </p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">I will examine this carefully. Fruiting specimens of any <name key="Acacia">Acacia</name>e of your region will be welcome, especially if the seeds be ripe.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">6,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Could of this lichen any fruiting specimens be obtained</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="Standard"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="background-color: #ff0000; ">Abutilon</seg>: The fibre is very interesting, <seg style="background-color: #ffff00; ">as it </seg>
+                        <seg style="background-color: #ffff00; ">
+                           <note xml:id="ftn5" type="footnote" n="5">
+                              <p rend="Footnote"
+                                 style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                                 xml:lang="en">
+                                 <seg style="color: #0025ff; font-weight: bold; ">Iis </seg>
+                                 <seg style="color: #0025ff; font-style: italic; font-weight: bold; ">missing?</seg>
+                              </p>
+                           </note>
+                        </seg>
+                        <seg style="background-color: #ffff00; ">more</seg> tenacious than that of other Abutilons <seg style="background-color: #ff0000; ">Do the natives make nets or strings of it.</seg> Could you kindly send an other flowering and fruiting specimen It does not seem to be the genuine <seg style="background-color: #ff0000; ">A. halophilum</seg>.<note xml:id="ftn6" type="footnote" n="6">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <seg style="font-weight: bold; ">What appears to be a separate page ends at this point.</seg>
+                           </p>
+                        </note>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">1,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Grevillea">Grevillea</name>
+                     </p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Could more leaves and ripe fruits be procured. We know two Hakeas, allied to <name key="Grevillea">Grevillea</name>, as yielding water from the roots, but no <name key="Grevillea">Grevillea</name> hitherto Have the Aborigines a name for this shrub or tree. What is its height.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">2,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Canthium%20latifolium">Canthium latifolium</name>, F.v.M.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">3,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Hakea%20lorea">Hakea lorea</name> RBrown</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">4,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Heterodendron%20oleifolium">Heterodendron oleifolium</name>, Desf<note xml:id="ftn7" type="footnote" n="7">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <space unit="chars" quantity="1"/>
+                              <space dim="horizontal" extent="tab"/>
+                              <seg style="font-weight: bold; ">HC: = Heterodendrium oleaefolium? </seg>
+                              <seg style="color: #c00000; font-weight: bold; ">Delete note, the name as transcribed is in APNI, Helen's suggestion is not</seg>
+                           </p>
+                        </note>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">5,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Ptilotus">Ptilotus</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">6,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eremophila%20maculata">Eremophila maculata</name>, F. v Mueller</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">7,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Marsdenia <seg style="background-color: #ffff00; ">Leichhardti</seg>,<note xml:id="ftn8" type="footnote" n="8">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <space unit="chars" quantity="1"/>
+                              <space dim="horizontal" extent="tab"/>
+                              <seg style="color: #0025ff; font-weight: bold; "> leichhardtiana?</seg>
+                           </p>
+                        </note> F.vM</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Well ripened seed of this very welcome.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">8,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Ptilotus%20obovatus">Ptilotus obovatus</name> F.v Mueller</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">am very thankful for your information, that this is liked by pasture-animals. such notes are <seg style="">
+                           <hi rend="underline">very valuable</hi>
+                        </seg> to me.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">9,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eucalyptus">Eucalyptus</name>. Fruit required also.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">
+                        <note xml:id="ftn9" type="footnote" n="9">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">
+                              <seg style="font-weight: bold; ">might be a '1' at the top of this page. Compare with what is at top of first page.</seg>
+                           </p>
+                        </note>10,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Psoralea%20patens">Psoralea patens</name>, Lindley</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Is it good for feed.</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">11,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Pappophorum%20commune">Pappophorum commune</name>, F.v.Mueller</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">12</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eragrostis">Eragrostis</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">13,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Scirpus">Scirpus</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">14,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Erodium%20cygnorum">Erodium cygnorum</name>, Nees</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">19,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Andropogon">Andropogon</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">18,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Ptilotus">Ptilotus</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">17,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eragrostis">Eragrostis</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">16,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Rhagodia">Rhagodia</name>
+                     </p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">What are your best salt-bushes there for stock</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">15,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Solanum%20lasiophyllum">Solanum lasiophyllum</name> Dunal</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">20.</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Bassia">Bassia</name>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">26,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Eriochloa%20polystachya">Eriochloa polystachya</name>, Humboldt</p>
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Is this particularly good for herds and flocks? In any answer please quote the <seg style="">
+                           <hi rend="underline">name</hi>
+                        </seg> (not the number<note xml:id="ftn10" type="footnote" n="10">
+                           <p rend="Footnote"
+                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                              xml:lang="en">There is no closing bracket.</p>
+                        </note>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">27,</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <name key="Andropogon%20sericeus">Andropogon sericeus</name>, RBrown</p>
+                  </cell>
+               </row>
+            </table>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eragrostis">Eragrostis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Senecio%20brachyglossus">Senecio brachyglossus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lotus%20australis">Lotus australis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Haloragis">Haloragis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Trigonella%20suavissima">Trigonella suavissima</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Tribulus%20Hystrix">Tribulus Hystrix</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila">Eremophila</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eleusine%20cruciata">Eleusine cruciata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Atriplex">Atriplex</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhagodia">Rhagodia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Muehlenbeckia%20Cunninghami">Muehlenbeckia Cunninghami</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scaevola%20spinescens">Scaevola spinescens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pimelea%20microcephala">Pimelea microcephala</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="background-color: #ffff00; ">
+                  <name key="Polyporus%20sanquineus">Polyporus sanquineus</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eucalyptus%20terminalis">Eucalyptus terminalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia">Acacia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Abutilon%20halophilum">Abutilon halophilum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Grevillea">Grevillea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hakea%20">Hakea </name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Canthium%20latifolium">Canthium latifolium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hakea%20lorea">Hakea lorea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Heterodendron%20oleifolium">Heterodendron oleifolium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus">Ptilotus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eremophila%20maculata">Eremophila maculata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Marsdenia <seg style="background-color: #ffff00; ">Leichhardti</seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus%20obovatus">Ptilotus obovatus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eucalyptus">Eucalyptus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Psoralea%20patens">Psoralea patens</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pappophorum%20commune">Pappophorum commune</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eragrostis">Eragrostis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scirpus">Scirpus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Erodium%20cygnorum">Erodium cygnorum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Andropogon">Andropogon</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Ptilotus">Ptilotus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eragrostis">Eragrostis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhagodia">Rhagodia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Solanum%20lasiophyllum">Solanum lasiophyllum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bassia">Bassia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eriochloa%20polystachya">Eriochloa polystachya</name>,</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Andropogon%20sericeus">Andropogon sericeus</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>
