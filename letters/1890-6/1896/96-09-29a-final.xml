@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>THIS LETTER HAS BEEN REDATED ¶ See 95-09-29...</title>
+            <title>THIS LETTER HAS BEEN REDATED TO 95-09-29 ¶ Link in footnote leads to file ¶ M to A.Kinney, 29 September 1895...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>THIS LETTER HAS BEEN REDATED ¶ See 95-09-29...</title>
+               <title>THIS LETTER HAS BEEN REDATED TO 95-09-29 ¶ Link in footnote leads to file ¶ M to A.Kinney, 29 September 1895...</title>
                <date when="1896-09-29">1896-09-29</date>
             </bibl>
          </sourceDesc>
@@ -54,10 +54,16 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -77,7 +83,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">THIS LETTER HAS BEEN REDATED ¶ See 95-09-29...</supplied>
+               <supplied reason="XTF-compatibility">THIS LETTER HAS BEEN REDATED TO 95-09-29 ¶ Link in footnote leads to file ¶ M to A.Kinney, 29 September 1895...</supplied>
             </head>
             <p rend="number" xml:lang="en">96.09.29a</p>
             <p rend="correspondent" xml:lang="en">To Abbot Kinney</p>
@@ -86,10 +92,25 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">THIS LETTER HAS BEEN REDATED</p>
+               xml:lang="en">THIS LETTER HAS BEEN REDATED TO 95-09-29</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">See 95-09-29</p>
+               xml:lang="en">Link in footnote leads to file<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>M to A</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>Kinney, 29 September 1895</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>

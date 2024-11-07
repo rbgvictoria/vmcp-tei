@@ -19,7 +19,11 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               <msIdentifier/>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>60.00.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
@@ -54,6 +58,7 @@
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
+               <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
                <term>FootnoteReference</term>
@@ -69,7 +74,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Redated file</name>
+               <name>the Editor of the Argus</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -80,7 +85,8 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">This file has been redated as 60-11-27 ¶ The link in the footnote leads to that file ¶ M to the Editor of theArgus, 27 November 1860....</supplied>
             </head>
-            <p rend="correspondent" xml:lang="en">Redated file</p>
+            <p rend="number" xml:lang="en">60.00.00</p>
+            <p rend="correspondent" xml:lang="en">To the Editor of the Argus</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; font-variant: small-caps; "

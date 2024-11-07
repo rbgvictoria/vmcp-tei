@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>This item has been ¶  ¶ redated ¶ See 84-05-18a...</title>
+            <title>THIS ITEM HAS BEEN REDATED TO 84-05-18a ¶ The footnote links to the file ¶ Exposition Internationale to M, 18 May 1884 (in this edition as 84-05-18a)...</title>
             <author>the Exposition Internationale, Nice</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>the Exposition Internationale, Nice</author>
-               <title>This item has been ¶  ¶ redated ¶ See 84-05-18a...</title>
+               <title>THIS ITEM HAS BEEN REDATED TO 84-05-18a ¶ The footnote links to the file ¶ Exposition Internationale to M, 18 May 1884 (in this edition as 84-05-18a)...</title>
                <date when="1884-03-18">1884-03-18</date>
             </bibl>
          </sourceDesc>
@@ -55,19 +55,24 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="63">English</language>
-            <language ident="de" usage="37">German</language>
+            <language ident="en" usage="74">English</language>
+            <language ident="de" usage="26">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -80,7 +85,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">This item has been ¶  ¶ redated ¶ See 84-05-18a...</supplied>
+               <supplied reason="XTF-compatibility">THIS ITEM HAS BEEN REDATED TO 84-05-18a ¶ The footnote links to the file ¶ Exposition Internationale to M, 18 May 1884 (in this edition as 84-05-18a)...</supplied>
             </head>
             <p rend="number" xml:lang="de">84.03.18e</p>
             <p rend="correspondent" xml:lang="de">From the Exposition Internationale, Nice</p>
@@ -88,10 +93,19 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; text-align: center; "
-               xml:lang="en">This item has been<space unit="chars" quantity="1"/>redated</p>
+               xml:lang="en">THIS ITEM HAS BEEN REDATED TO 84-05-18a</p>
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; text-align: center; "
-               xml:lang="en">See 84-05-18a</p>
+               xml:lang="en">The footnote links to the file<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="Footnote"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Exposition Internationale to M, 18 May 1884 (in this edition as 84-05-18a)</p>
+                  </note>
+               </seg>
+            </p>
          </div>
       </body>
    </text>
