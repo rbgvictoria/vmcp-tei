@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Snapper Point ¶  13 Febr. 1860. ¶ Sir! ¶  ¶ I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition ¶  for the exploration of this Continent. The consideration of ...</title>
+            <title>Snapper Point ¶ Mornington, Vic. ¶  ¶ 13 Febr. 1860. ¶ Sir! ¶  ¶ I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition ¶ The expedition of which Robert O'Hara Bu...</title>
             <author>Simon Sahner</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Simon Sahner</author>
-               <title>Snapper Point ¶  13 Febr. 1860. ¶ Sir! ¶  ¶ I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition ¶  for the exploration of this Continent. The consideration of ...</title>
+               <title>Snapper Point ¶ Mornington, Vic. ¶  ¶ 13 Febr. 1860. ¶ Sir! ¶  ¶ I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition ¶ The expedition of which Robert O'Hara Bu...</title>
                <date when="1860-02-13">1860-02-13</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -90,77 +86,114 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Snapper Point ¶  13 Febr. 1860. ¶ Sir! ¶  ¶ I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition ¶  for the exploration of this Continent. The consideration of ...</supplied>
+               <supplied reason="XTF-compatibility">Snapper Point ¶ Mornington, Vic. ¶  ¶ 13 Febr. 1860. ¶ Sir! ¶  ¶ I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition ¶ The expedition of which Robert O'Hara Bu...</supplied>
             </head>
             <p rend="number" xml:lang="en">60.02.13</p>
             <p rend="correspondent" xml:lang="en">From Simon Sahner</p>
             <p rend="location" xml:lang="en">MS 13071 Royal Society of Victoria Exploration Committee records, box 2077/3, La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">Snapper Point<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Mornington, Vic.</p>
-               </note> 13 Febr. 1860.</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Snapper Point<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Mornington, Vic.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>13 Febr. 1860.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir!</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The expedition of which Robert O'Hara Burke was appointed leader on 30 June 1860 and which became known as the Burke &amp; Willis Exploring Expedition, 1860-1.</p>
-               </note> for the exploration of this Continent. The consideration of the great interest and the high influence, you have in this matter and the circumstance, that I am not acquainted with any person connected with it, encourage me, as a countryman of your's, to take this liberty.</p>
+               <space dim="horizontal" extent="tab"/>I beg to excuse myself for addressing a few lines to you, concerning the proposed expedition<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The expedition of which Robert O'Hara Burke was appointed leader on 30 June 1860 and which became known as the<space unit="chars" quantity="1"/>Burke &amp; Willis Exploring Expedition, 1860-1.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>for the exploration of this Continent. The consideration of the great interest and the high influence, you have in this matter and the circumstance, that I am not acquainted with any person connected with it, encourage me, as a countryman of your's, to take this liberty.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Since I landed on these shores in 1853, the fact, that the largest part of the Australian Continent is as yet a terra incognita, and the mysterious fate of our much lamented countryman Leichardt, occupied my mind very often and made me always look with great interest for any information in this matter, that my humble circumstances allowed me to get hold of. The latest transactions of the Exploration Committee of the Royal Society show, that within a short time an expedition will be organised to accomplish the long desired object. Presuming that in an expedition of this kind besides leading gentlemen of higher attainments, a number of serving men are wanted, to do the rough work connected with it, I venture to offer my services in this last capacity in the hope, you will not accuse me of immodesty or presumption, after I shall have given you a brief outline of my antecedents.</p>
+               <space dim="horizontal" extent="tab"/>Since I landed on these shores in 1853, the fact, that the largest part of the Australian Continent is as yet a terra incognita, and the mysterious fate of our much lamented countryman Leichardt,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. Leichhardt.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>occupied my mind very often and made me always look with great interest for any information in this matter, that my humble circumstances allowed me to get hold of. The latest transactions of the Exploration Committee of the Royal Society show, that within a short time an expedition will be organised to accomplish the long desired object. Presuming that in an expedition of this kind besides leading gentlemen of higher attainments, a number of serving men are wanted, to do the rough work connected with it, I venture to offer my services in this last capacity in the hope, you will not accuse me of immodesty or presumption, after I shall have given you a brief outline of my antecedents.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I studied theology and philology at the Universities of Erlangen, Heidelberg and Utrecht from 1833-37, and after having passed the prescribed examinations I was from 1842-49 employed by the Government of Bavaria as teacher of grammarschools (Studienlehrer). Compelled to leave our fatherland in 1849 by participating in the revolutionary movements in der Pfalz and Baden, I emigrated to America; in 1852 I left the States for California;<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">California had in fact joined the USA in 1850.</p>
-               </note> dissappointed there principally by my own inexperience, I came to this country in 1853, where I worked hard for 3½ years in the gold diggings without success; since 1856 I am living in Westernport District,<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Vic.</p>
-               </note> gaining my livelyhood in the bush by splitting, cutting firewood, (wich I bring to the beach with my own horse and cart,) shooting Kangaroos ducks, quails etcet; at present I am hunting bees taking the honey and the swarms, for wich I always can find ready sale.</p>
+               <space dim="horizontal" extent="tab"/>I studied theology and philology at the Universities of Erlangen, Heidelberg and Utrecht from 1833-37, and after having passed the prescribed examinations I was from 1842-49 employed by the Government of Bavaria as teacher of grammarschools (Studienlehrer). Compelled to leave our fatherland in 1849 by participating in the revolutionary movements in der Pfalz and Baden, I emigrated to America; in 1852 I left the States for California;<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>California had in fact joined the USA in 1850.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>dissappointed there principally by my own inexperience, I came to this country in 1853, where I worked hard for 3½<space unit="chars" quantity="1"/>years in the gold diggings without success; since 1856 I am living in Westernport District,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Vic.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>gaining my livelyhood in the bush by splitting, cutting firewood, (wich I bring to the beach with my own horse and cart,) shooting Kangaroos ducks, quails etcet; at present I am hunting bees taking the honey and the swarms, for wich I always can find ready sale.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Now, Sir, what I think might qualify myself for service in the proposed expedition is 1. the experience, I gained, in crossing the Continent of America; my friend Charles Mueller from Zweybrücken<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Zweibrücken, Saarland.</p>
-               </note> and myself travelled by ourselves 2000 miles from Missouri to California through all the Indian territory and brought our 5 pack mules in such good condition over, that we sold them at a pretty good profit; 2. I was at home and am now a pretty good hand in shooting with rifle and shotgun. 3. Elected in 1849 to the command of the rifle compagny attached to the II batallion I was in several although small yet pretty warm actions. 4. I am used to bushlive and bushwork, following since 1852 occupations which kept me away from settled places and the refinements of more civilised life. 5. I have learned to be submissive to the rules of subordination. 6. I know to appreciate the importance, difficulties and dangers of the expedition. If you think, Sir, that with these qualifications I might have a chance to be taken on as a working hand of the expedition shortly to be organised, I should be very thankfull to you, if you would be so kind, to inform me by a few lines, what further steps I have to take, to attain my object. I have unfortunately lost all certificates, testimonials and other papers from home, but I can easy get a certificate of my proper conduct during the four years, I am living in this part of the country, signed by the influential and respectable inhabitants of the neighbourhood. I enclose a letter of Mr. Goodall,<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">H. Goodall to M, 13 February 1860 (in this edition as 60-02-13a).</p>
-               </note> whom I consulted in this matter. Should you deem it advisable, that I come to Melbourne and present myself to the Committee, I will do so at the shortest notice.</p>
+               <space dim="horizontal" extent="tab"/>Now, Sir, what I think might qualify myself for service in the proposed expedition is 1. the experience, I gained, in crossing the Continent of America; my friend Charles Mueller from Zweybrücken<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Zweibrücken, Saarland.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and myself travelled by ourselves 2000 miles from Missouri to California through all the Indian territory and brought our 5 pack mules in such good condition over, that we sold them at a pretty good profit; 2. I was at home and am now a pretty good hand in shooting with rifle and shotgun. 3. Elected in 1849 to the command of the rifle compagny attached to the II batallion I was in several although small yet pretty warm actions. 4. I am used to bushlive and bushwork, following since 1852 occupations which kept me away from settled places and the refinements of more civilised life. 5. I have learned to be submissive to the rules of subordination. 6. I know to appreciate the importance, difficulties and dangers of the expedition. If you think, Sir, that with these qualifications I might have a chance to be taken on as a working hand of the expedition shortly to be organised, I should be very thankfull to you, if you would be so kind, to inform me by a few lines, what further steps I have to take, to attain my object. I have unfortunately lost all certificates, testimonials and other papers from home, but I can easy get a certificate of my proper conduct during the four years, I am living in this part of the country, signed by the influential and respectable inhabitants of the neighbourhood. I enclose a letter of Mr. Goodall,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>H. Goodall to M, 13 February 1860<space unit="chars" quantity="1"/>(in this edition as 60-02-13a).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>whom I consulted in this matter. Should you deem it advisable, that I come to Melbourne and present myself to the Committee, I will do so at the shortest notice.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Begging once more your pardon for intruding upon you I remain</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Yours respectfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>S. Sahner.<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Sahner was not appointed to the expedition party by Burke; see M <seg style="font-style: italic; ">et al.</seg> to the Royal Society of Victoria, December 1860 (in this edition as 60-12-00).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>S. Sahner.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Sahner was not appointed to the expedition party<space unit="chars" quantity="1"/>by Burke; see M<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">et al.</seg>
+                        <space unit="chars" quantity="1"/>to the Royal Society of Victoria, December 1860<space unit="chars" quantity="1"/>(in this edition as 60-12-00).</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dr. Ferdinand Mueller, President of the Royal Society in Melbourne.</p>
          </div>
       </body>

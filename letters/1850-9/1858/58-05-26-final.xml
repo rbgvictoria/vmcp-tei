@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>SECOND REPORT OF THE "EXPLORATION" COMMITTEE OF THE PHILOSOPHICAL INSTITUTE OF VICTORIA. ¶ Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the  ¶...</title>
+            <title>SECOND REPORT OF THE "EXPLORATION" COMMITTEE OF THE PHILOSOPHICAL INSTITUTE OF VICTORIA. ¶ Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the ¶ ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>SECOND REPORT OF THE "EXPLORATION" COMMITTEE OF THE PHILOSOPHICAL INSTITUTE OF VICTORIA. ¶ Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the  ¶...</title>
+               <title>SECOND REPORT OF THE "EXPLORATION" COMMITTEE OF THE PHILOSOPHICAL INSTITUTE OF VICTORIA. ¶ Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the ¶ ...</title>
                <date when="1858-05-26">1858-05-26</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -88,221 +84,244 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">SECOND REPORT OF THE "EXPLORATION" COMMITTEE OF THE PHILOSOPHICAL INSTITUTE OF VICTORIA. ¶ Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the  ¶...</supplied>
+               <supplied reason="XTF-compatibility">SECOND REPORT OF THE "EXPLORATION" COMMITTEE OF THE PHILOSOPHICAL INSTITUTE OF VICTORIA. ¶ Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the ¶ ...</supplied>
             </head>
             <p rend="number" xml:lang="en">58.05.26</p>
             <p rend="correspondent" xml:lang="en">To the Philosophical Institute of Victoria</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Report not found. The text given here is from B59.14.01.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Report not found. The text given here is from B59.14.01.</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>
                      <space dim="horizontal" extent="tab"/>For associated reports see Wilkie, Macadam &amp; M to the Philosophical Institute, 22 December 1857 and 29 September 1858.</p>
                </note>SECOND REPORT OF THE "EXPLORATION" COMMITTEE OF THE PHILOSOPHICAL INSTITUTE OF VICTORIA.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="font-style: italic; ">Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the </seg>
-               <seg style="font-variant: small-caps; ">Ordinary Meeting</seg>
-               <seg style="font-style: italic; "> of the </seg>
-               <seg style="font-variant: small-caps; ">Institute,</seg>
-               <seg style="font-style: italic; ">held on the 26th May, </seg>1858<seg style="font-style: italic; ">.</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Drawn up by Drs. Wilkie, Mueller, and Macadam, adopted by the "Exploration" Committee, and received at the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">Ordinary Meeting</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>of the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">Institute,</seg>
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">held on the 26th May,<space unit="chars" quantity="1"/>
+               </seg>1858<seg rend="DefaultParagraphFont" style="font-style: italic; ">.</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>At a special general meeting of the Philosophical Institute, held on the 22nd December, 1857, the First Report of the Exploration Committee was read and adopted, and the present committee was appointed, consisting of the following gentlemen:—</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. Wilkie, Chairman.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The Hon. Capt. Clarke, R.E., M.L.A.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The Hon. John Hodgson, M.L.C.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>R. H. Bland, Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. Mueller.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>George Higinbotham, Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. Macadam.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Rev. J. I. Bleasdale.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Rev. Dr. Sheil.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Charles Farewell, Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. Knaggs.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. Mackenna.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Frederick Acheson, Esq., C.E.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Thomas E. Rawlinson, Esq., C.E.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sizar Elliott, Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>William Blandowski, Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Arthur Dobree, Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. Gillbee.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Lieutenant Pasco.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. M'Gillivray.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dr. Iffla.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>J. Hough,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">G. S. Hough?</p>
-               </note> Esq.</p>
+               <space dim="horizontal" extent="tab"/>J.<space unit="chars" quantity="1"/>Hough,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>G. S. Hough?</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Esq.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>A. K. Smith, Esq., C.E.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>James Bonwick, Esq., Hon. Secretary.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Your committee has the honor to report that several meetings were held with a view to devise the best means of carrying out the object of its appointment, and the unanimous conclusion come to was, that it was necessary to invite the co-operation of the public in the proposed exploration of the interior, and accordingly a public meeting was held at the Mechanics' Institution, on the 4th January last, when the following resolutions were proposed and unanimously adopted:—</p>
+               <space dim="horizontal" extent="tab"/>Your committee has the honor to report that several meetings were held with a view to devise the best means of carrying out the object of its appointment, and the unanimous conclusion come to was, that it was necessary to invite the co-operation of the public in the proposed<space unit="chars" quantity="1"/>exploration of the interior, and accordingly a public meeting was held at the Mechanics' Institution, on the 4th January last, when the following resolutions were proposed and unanimously adopted:—</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>1. That this meeting expresses its conviction of the great importance of exploring the interior of Australia, and deems it most desirable that an attempt should be made at as early a period as practicable to penetrate through Central Australia, from east to west, for the purpose of connecting the discoveries of Mitchell, Kennedy, Sturt, Gregory, and Grey.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>2. That this meeting recommends the formation of a light preliminary expedition to explore the country between the Darling and Victoria rivers, with a view of opening up a line of communication between this colony and Central Australia, and for the purpose of selecting a suitable site for establishing a depôt, to serve as the basis of future explorations.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>3. That this meeting recognises the duty of the colonists of Victoria to co-operate with the Philosophical Institute in carrying out the scheme of exploration proposed.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>4. That a deputation, consisting of the Hon. Capt. Clarke, M.L.A., the Hon. John Hodgson, M.L.C., Dr. Wilkie, Dr. Macadam, and R. H. Bland, Esq., wait upon His Excellency Sir Henry Barkly, K.C.B., to request his favorable consideration of the proposed expedition, and that they afterwards wait upon the Hon. W. C. Haines, the Chief Secretary, to submit to the Government the resolutions of this public meeting, to solicit their support of the important objects contemplated by the Philosophical Institute, and to request that they would be pleased to place the sum of £2,500 on the Estimates in aid of the same.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>For a report of the proceedings of the public meeting your committee would refer to the Appendix in vol. II., part II., of the Transactions of the Institute, just published.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">Transactions of the Philosophical Institute of Victoria</seg>
-                     <seg style="">, vol. 2</seg> (1858), pp. lvi-lxi.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>For a report of the proceedings of the public meeting your committee would refer to the Appendix in vol. II., part II., of the Transactions of the Institute, just published.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Transactions of the Philosophical Institute of Victoria</seg>
+                        <seg rend="DefaultParagraphFont" style="">, vol. 2</seg>
+                        <space unit="chars" quantity="1"/>(1858),<space unit="chars" quantity="1"/>pp. lvi-lxi.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The deputation, above named, accordingly waited upon His Excellency the Governor on the 14th of January, when, after hearing the resolutions read, His Excellency, with his usual urbanity and desire of promoting every object of public and scientific importance, replied that the object of the present deputation was one in which he took a very deep interest; that he should be most happy to further, as far as lay in his power, the object that the deputation had in view. He imagined the amount asked for, being so very small, there would be no difficulty in getting the assistance of the Government, although he considered it would have been better had the subject been mooted before the Estimates for the present year had been made up. He also considered that the view in which the deputation had put the question, was one of so much advantage to the commercial community, that the Government would not hesitate to assist them. His Excellency then stated that, if the deputation thought that it would be of any benefit to the object, he should be most happy to communicate with Mr. Babbage, who was about to start from Adelaide on a similar expedition.</p>
+               <space dim="horizontal" extent="tab"/>The deputation, above named, accordingly waited upon His Excellency the Governor on the 14th of January, when, after hearing the resolutions read, His Excellency, with his usual urbanity and desire of promoting every object of public and scientific importance, replied that the object of the present deputation was one in which he took a very deep interest; that he should be most happy to further, as far as lay in his power, the object that the deputation had in view. He imagined the amount asked for, being so very small, there would be no difficulty in getting the assistance of the Government, although he considered it would have been better had the subject been mooted before the Estimates for the present year had been made up. He also considered that the view in which the deputation had put the question, was one of so much advantage to the commercial community, that the Government<space unit="chars" quantity="1"/>would not hesitate to assist them. His Excellency then stated that, if the deputation thought that it would be of any benefit to the object, he should be most happy to communicate with Mr. Babbage, who was about to start from Adelaide on a similar expedition.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>After this interview with his Excellency Sir Henry Barkly, the Hon. Secretary transmitted a copy of the resolutions of the public meeting to the Hon. W. C. Haines, then Chief Secretary, and requested the favour of an interview on behalf of the deputation, but previous to the day appointed for receiving the deputation, Mr. Haines was unexpectedly called out of town. At the next meeting of the Exploration Committee, held on the 8th February, it was resolved that the Hon. Secretary should communicate with the Hon. the Chief Secretary, and again solicit an interview with him, in terms of the resolution of the public meeting. The deputation waited by appointment upon the Chief Secretary, who, after listening to an explanation of the objects of the deputation, pleaded the inability of the Government, at this late period of the Session, to place money on the Estimates for the proposed expedition. He thought the object not more pressing than many others, that the Government had been led into a much greater expenditure than had been contemplated, and that it would be impossible for any Government to conduct the affairs of the country if the expenditure was not limited to the ordinary revenue. He thought when the colonies were united under a federal government, that would be the best time to undertake the exploration of the interior by a combined effort. The Government, however, would be open to consider the expediency of the proposed expedition next Session, and Parliament would be in a better position to vote the necessary funds. He would place the arguments of the deputation before his colleagues, but he did not anticipate a more favourable result.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The deputation was also favoured with an interview with the Hon. C. H. Ebden, the late Colonial Treasurer, who listened with much attention to the objects contemplated by the Philosophical Institute, and thought it very desirable that Victoria should contribute towards the exploration of the interior, but considered it a very inconvenient time to get the necessary funds. He should like to see Victoria combining with the other Australian colonies in a systematic exploration of the interior, or that she should undertake it alone if the other colonies declined. He thought it not right that the colony of Victoria should send an exploring expedition into New South Wales territory, without communicating with the New South Wales Government on the subject. He advised that the Exploration Committee should put itself in communication with Mr. Gregory, with a view to ascertain if he would be willing to undertake the command of a Victorian expedition, and promised that the Government would give the most favourable consideration to a proposal of this kind next Session of Parliament, and that, personally, he would give it his warmest support; indeed, he thought he might say that there would be no difficulty in their carrying out the object.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Another meeting of the Exploration Committee was held on the 17th February to receive the report of the deputation, when it was agreed to prepare a statement of their proceedings in continuation of the former report, to be laid before an early meeting of the Institute.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your committee has to express great disappointment at the result of their interview with the late Chief Secretary. The proposal that Victoria should take part in exploring the vast central regions of Australia had met with an unanimous response from the public, and had everywhere been warmly supported by the press, and your committee, therefore, had always entertained the hope that, by the liberality of Parliament, they would be enabled to despatch a small party to the Lower Darling, so as to be in time to start from Mount Murchison on the first approach of the winter rains, in April or May of the present year. Your Committee has only to regret the failure of its just expectations, and they feel that this disappointment of their hopes has been largely shared by all classes in the community.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In the contemplation of making a renewed effort this year in the cause of Australian exploration, your committee has received encouragement in the observations that fell from His Excellency the Governor at the late dinner of the Philosophical Institute; and your committee feels assured that in an object which so intimately concerns the welfare and future prospects of Australia, the Philosophical Institute may <space unit="chars" quantity="1"/>always depend upon His Excellency's warmest sympathies and most zealous co-operation.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your committee has no less pleasure in adverting to the fact that Her Majesty's Ministers very kindly accepted an invitation to be present at the dinner of the Institute, and that the Hon. John O'Shanassy, the Chief Secretary, expressed a warm interest in the future exploration of Australia, and promised the concurrence and support of the Government in any practicable scheme of exploration that might be proposed by the Philosophical Institute.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Your committee earnestly hopes that on the return of Mr. Gregory from his present expedition in search of Leichardt, he may be induced to take the command of a Victorian expedition, and that thus the difficulty, suggested by the late Government, will be removed; and, if an exploring expedition shall be successfully organised in Victoria next season, under the able direction of Mr. Gregory, your committee will not regard as thrown away the long and anxious consideration which has been devoted to this subject.</p>
+               <space dim="horizontal" extent="tab"/>Your committee earnestly hopes that on the return of Mr. Gregory from his present expedition in search of Leichardt,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. Leichhardt.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>he may be induced to take the command of a Victorian expedition, and that thus the difficulty, suggested by the late Government, will be removed; and, if an exploring expedition shall be successfully organised in Victoria next season, under the able direction of Mr. Gregory, your committee will not regard as thrown away the long and anxious consideration which has been devoted to this subject.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It is confidently expected that Mr. Gregory will return to the settled districts about the end of this year; and, although Mr. Babbage will not have completed his exploration before the end of the rainy season of 1859, your committee is encouraged to believe that the valuable results of the labors of these explorers, during the present year, will greatly aid the Philosophical Institute in deciding as to the best route to be adopted for the further exploration, and will greatly facilitate the labors of future explorers.</p>
+               <space dim="horizontal" extent="tab"/>It is confidently expected that Mr. Gregory will return to the settled districts about the end of this year; and, although Mr. Babbage will not have completed his exploration before the end of the rainy season of 1859, your committee is encouraged to believe that the valuable results<space unit="chars" quantity="1"/>of the labors of these explorers, during the present year, will greatly aid the Philosophical Institute in deciding as to the best route to be adopted for the further exploration, and will greatly facilitate the labors of future explorers.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your Committee has much pleasure in recording the valuable offer of F. C. Christy, Esq., C.E., to furnish an exploring party with any number of the best breed of carrier pigeons. Your Committee believes that with suitable arrangements these pigeons might become an invaluable aid in the exploration of the interior.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>When the proper time arrives, your Committee will be prepared, with the sanction of the Institute, to take the necessary steps to obtain a vote of the Legislature in furtherance of the important object for which they were appointed; and, your Committee has every confidence that the applications, both to the Government and to the Parliament, will be attended with success.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Read and adopted at a meeting of the Exploration Committee held in the Melbourne Mechanics' Institution, on the 26th May, 1858.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">D. E. Wilkie, M. D. <seg style="font-variant: small-caps; ">Chairman.</seg>
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">D. E. Wilkie, M. D.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">Chairman.</seg>
             </p>
          </div>
       </body>
