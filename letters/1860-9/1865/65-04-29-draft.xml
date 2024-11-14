@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>29/4/65 ¶ My Dear Dr Müller ¶ I enclose a cheque for the two guineas for Mr Elliott ¶ ' ¶ s ¶ Fusus Colosseus ¶ M to F. McCoy, 25 April 1865(in this edition as 65-04-25e),isthe notification that the s...</title>
+            <title>29/4/65 ¶ My Dear Dr Müller ¶ I enclose a cheque for the two guineas for Mr Elliott ¶ ' ¶ s ¶ Fusus Colosseus ¶ M to F. McCoy, 25 April 1865(in this edition as 65-04-25e),isthenotification that the sh...</title>
             <author>Frederick McCoy</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Frederick McCoy</author>
-               <title>29/4/65 ¶ My Dear Dr Müller ¶ I enclose a cheque for the two guineas for Mr Elliott ¶ ' ¶ s ¶ Fusus Colosseus ¶ M to F. McCoy, 25 April 1865(in this edition as 65-04-25e),isthe notification that the s...</title>
+               <title>29/4/65 ¶ My Dear Dr Müller ¶ I enclose a cheque for the two guineas for Mr Elliott ¶ ' ¶ s ¶ Fusus Colosseus ¶ M to F. McCoy, 25 April 1865(in this edition as 65-04-25e),isthenotification that the sh...</title>
                <date when="1865-04-29">1865-04-29</date>
             </bibl>
          </sourceDesc>
@@ -60,13 +60,13 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>DefaultParagraphFont</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>Normal</term>
                <term>valediction</term>
             </keywords>
@@ -88,31 +88,15 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">29/4/65 ¶ My Dear Dr Müller ¶ I enclose a cheque for the two guineas for Mr Elliott ¶ ' ¶ s ¶ Fusus Colosseus ¶ M to F. McCoy, 25 April 1865(in this edition as 65-04-25e),isthe notification that the s...</supplied>
+               <supplied reason="XTF-compatibility">29/4/65 ¶ My Dear Dr Müller ¶ I enclose a cheque for the two guineas for Mr Elliott ¶ ' ¶ s ¶ Fusus Colosseus ¶ M to F. McCoy, 25 April 1865(in this edition as 65-04-25e),isthenotification that the sh...</supplied>
             </head>
-            <p rend="number" xml:lang="en">
-               <seg rend="DefaultParagraphFont" style="">65.04.29</seg>
-               <seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">65.04.29</p>
             <p rend="correspondent" xml:lang="en">From Frederick McCoy</p>
             <p rend="location" xml:lang="en">Director’s letterbooks, MVS 2/1 2, p. 436, Melbourne Museum.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont" style="">
-                        <space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Check n. 3.</seg>
-                  </p>
-               </note>29/4/65</p>
+               xml:lang="en">29/4/65</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My Dear Dr Müller</p>
@@ -128,7 +112,7 @@
                   <hi rend="underline">Fusus Colosseus</hi>
                </seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -138,14 +122,10 @@
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>M to F. McCoy, 25 April 1865</seg>
                         <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>(in this edition as 65-04-25e)</seg>
-                        <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">is</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>the notification that the shell<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">held by<space unit="chars" quantity="1"/>
+                           <space unit="chars" quantity="1"/>(in this edition as 65-04-25e</seg>),<space unit="chars" quantity="1"/>is<space unit="chars" quantity="1"/>the<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>notification that the shell<space unit="chars" quantity="1"/>
+                        </seg>held by<seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont"
                              style="color: #0070C0; background-color: #FFFF00; ">'J. Elliott'</seg>
@@ -158,19 +138,24 @@
                         <seg rend="DefaultParagraphFont"
                              style="color: #0070C0; background-color: #FFFF00; ">compare initial with acknowledgement of donation in press, in note below</seg>
                         <seg rend="DefaultParagraphFont" style="color: #0070C0; ">.</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; text-align: justify; font-weight: bold; "
-                        xml:lang="en">Check Leichhardt connection.<space unit="chars" quantity="1"/>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="font-size: 9pt; hyphenate: false; text-align: justify; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
-                        xml:lang="en">I have looked as widely as I could: Leichhardts account, lists of zoological specimens (mostly<space unit="chars" quantity="1"/>birds collected by Gilbert for Gould;<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
                      </p>
                   </note>
                </seg>
                <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>which shall be marked in the Museum as collected by Dr Leichardt when you send it to you</seg>
+                  <space unit="chars" quantity="1"/>which shall be marked in the Museum as collected by Dr Leichardt</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. Leichhardt.</p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>when you send it to you</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
@@ -180,28 +165,20 @@
                            <space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="">
-                           <space dim="horizontal" extent="tab"/>us?</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">me?</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="">Museum account: 'Treasurer Leichhardt Exploration Fund | 17/14/65 Specimens etc | 1 shell Fusus colossus £2.2.0 | pd out of advance cs 116 | 29/4/65' (Account book, no. 49 (90), Museum of Victoria).</seg>
+                           <space dim="horizontal" extent="tab"/>us</seg>?<space unit="chars" quantity="1"/>me?<space unit="chars" quantity="1"/>Museum<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>account: 'Treasurer Leichhardt Exploration Fund | 17/14/65 Specimens etc | 1 shell Fusus colossus £2.2.0 | pd out of advance cs 116 | 29/4/65' (Account book, no. 49 (90), Museum of Victoria).</seg>
                         <seg rend="DefaultParagraphFont" style="">
                            <space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Fusus<space unit="chars" quantity="1"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; background-color: #FFFF00; ">collosu</seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; background-color: #FFFF00; ">s</seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; background-color: #FFFF00; ">s</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>was the name used for a<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">colossus</seg>
+                        <seg rend="DefaultParagraphFont" style="">, or<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Fusus colosseus</seg>
+                        <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">was the name used for a<space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="">tropical<space unit="chars" quantity="1"/>
                         </seg>
@@ -213,31 +190,12 @@
                         <seg rend="DefaultParagraphFont" style="">Woods (1868), p. 45. In th</seg>
                         <seg rend="DefaultParagraphFont" style="">at</seg>
                         <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>paper Tenison Woods wrote 'I need not remind you of the fine specimen of this shell which is in our National Museum, and was brought from Port Essington', presumably the one acquired from Elliott</seg>
-                        <seg rend="DefaultParagraphFont" style="">.<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Since the purchase price was paid to the Leichhardt Exploration Fund, Elliot</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">t</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>presumably donated the specimen to the Ladies Leichhardt Search Committee to be sold</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">;<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">a donation of £2 2s from<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="color: #0070C0; background-color: #FFFF00; ">Mr S. Elliott</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>was acknowledged by the Committee<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Treasurer in<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Leader</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>(Melbourne), 13 May 1865, p. 14.</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
+                           <space unit="chars" quantity="1"/>paper Tenison Woods wrote 'I need not remind you of the fine specimen of this shell which is in our National Museum, and was brought from Port Essington', presumably the one acquired from<space unit="chars" quantity="1"/>
+                        </seg>Elliott. Since the purchase price was paid to the Leichhardt Exploration Fund, Elliott<space unit="chars" quantity="1"/>presumably donated the specimen to the Ladies'<space unit="chars" quantity="1"/>Leichhardt Search Committee to be sold;<space unit="chars" quantity="1"/>a donation of £2 2s from<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Mr S. Elliott</seg>
+                        <space unit="chars" quantity="1"/>was acknowledged by the Committee Treasurer in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Leader</seg>
+                        <space unit="chars" quantity="1"/>(Melbourne), 13 May 1865, p. 14.<space unit="chars" quantity="1"/>
                      </p>
                      <p rend="Normal"
                         style="font-size: 12pt; hyphenate: false; "
