@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1866/66-09-06-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1866/66-09-06-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-09-06-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-09-06-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,17 +53,17 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>valediction</term>
@@ -88,56 +88,25 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 6/9/66. ¶ Sir John. ¶ Some accounts in the Melbourne press of the arrival in Victoria of the new Governor in August 1886 refer to him as Sir John Manners-Sutton, using his firs...</supplied>
             </head>
-            <p rend="number" xml:lang="en">66.09.06<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">66.09.06</p>
             <p rend="correspondent" xml:lang="en">To Henry Manners-Sutton</p>
             <p rend="location" xml:lang="en">M5566, unit 21,VPRS 1096 inward correspondence, VA 466 Governor, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.<space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Is this mentioned in an outward despatch?</seg>
-                  </p>
-                  <p rend="FootnoteText"
-                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">I do not remember seeing anything at TNA on this</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">, although there were others that were copied to the</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">
-                        <space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">RGS</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">. In any case I doubt we need to chase it</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">.</seg>
-                  </p>
-               </note>Melbourne bot. Garden</p>
+               xml:lang="en">Melbourne bot. Garden</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">6/9/66.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir John.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Some accounts in the Melbourne press of the arrival in Victoria of the new Governor in August 1886 refer to him as Sir John Manners-Sutton, using his first given name (e.g.<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Herald</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, 13 August 1886, p. 2); others, however, reflected his preferred use of his second given name, referring to him as 'Sir J. Henry Manners Sutton' (</seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Argus</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, 13 August 1866, p. 4).</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>Some accounts in the Melbourne press of the arrival in Victoria of the new Governor in August 1886 refer to him as Sir John Manners-Sutton, using his first given name (e.g.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Herald</seg>, 13 August 1886, p. 2); others, however, reflected his preferred use of his second given name, referring to him as 'Sir J. Henry Manners Sutton' (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 13 August 1866, p. 4).</p>
                   </note>
                </seg>
             </p>
@@ -145,39 +114,28 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to report to your Excellency, that Dr James Atkin White, a native of<space unit="chars" quantity="1"/>Manchester,<space unit="chars" quantity="1"/>has<space unit="chars" quantity="1"/>been engaged as Surgeon to the Expedition sent out in search of Dr Leichhardts party,<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Ladies</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">'</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>Leichhardt Search Expedition</seg>
-                        <seg rend="DefaultParagraphFont" style="">.</seg>
-                     </p>
+                        </seg>Ladies'<space unit="chars" quantity="1"/>Leichhardt Search Expedition.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>and that this Officer proceeds to day by the Steamship City of Melbourne<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">O</seg>n his way to join the search party now stationed at<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Gilliot</seg>
-               <space unit="chars" quantity="1"/>
-               <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+               <space unit="chars" quantity="1"/>and that this Officer proceeds to day by the Steamship City of Melbourne<space unit="chars" quantity="1"/>on his way to join the search party now stationed at<space unit="chars" quantity="1"/>Gilliot<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Gilliat</seg>?</p>
+                        <space dim="horizontal" extent="tab"/>Gilliat?</p>
                   </note>
-               </seg>Creek, Carpentaria.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>Creek, Carpentaria.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
-               xml:lang="en">I am your Excellenc<seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">ys</seg>
-            </p>
+               xml:lang="en">I am your Excellencys</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">

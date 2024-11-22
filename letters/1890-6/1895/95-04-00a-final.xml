@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>This tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and anti-miasmatic ¶ ...</title>
+            <title> ¶ T ¶ his tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and a ¶ n ¶ ti-...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>This tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and anti-miasmatic ¶ ...</title>
+               <title> ¶ T ¶ his tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and a ¶ n ¶ ti-...</title>
                <date when="1895-04">1895-04</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,70 +84,83 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">This tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and anti-miasmatic ¶ ...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ T ¶ his tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and a ¶ n ¶ ti-...</supplied>
             </head>
             <p rend="number" xml:lang="en">95.04.00a</p>
             <p rend="correspondent" xml:lang="en">To William Fawcett</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'An anti-malarial tree', </seg>
-                     <seg style="font-style: italic; ">Bulletin of the Botanical Department, Jamaica</seg>
-                     <seg style="">, new series, vol. 3, p. 232 (B96.10.04). it is introduced as follows </seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'An anti-malarial tree',<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bulletin of the Botanical Department, Jamaica</seg>
+                     <seg rend="DefaultParagraphFont" style="">, new series, vol. 3, p. 232 (B96.10.04). it is introduced as follows<space unit="chars" quantity="1"/>
+                     </seg>
                   </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg style="">Baron Sir F. von Mueller,* the veteran Government Botanist of Victoria, who has done so much for the economic botany of the world, sent to the Director in April, 1895, seeds of a Melaleuca (M. leucadendron), to which he thus refers:— </seg>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: 0in; "
+                     xml:lang="en">Baron Sir F. von Mueller,* the veteran Government Botanist of Victoria, who has done so much for the economic botany of the world, sent to the Director in April, 1895, seeds of a Melaleuca (M. leucadendron), to which he thus refers:—<space unit="chars" quantity="1"/>
                   </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>The asterisk leads to a footnote which states: '<seg style="">It is with great regret that we hear of his death on 9th October. — [</seg>
-                     <seg style="font-style: italic; ">Ed. Bulletin</seg>
-                     <seg style="">]'.</seg>
+                     <space dim="horizontal" extent="tab"/>The asterisk leads to a footnote which states: '<seg rend="DefaultParagraphFont" style="">It is with great regret that we hear of his death on 9th October. — [</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ed. Bulletin</seg>
+                     <seg rend="DefaultParagraphFont" style="">]</seg>
+                     <seg rend="DefaultParagraphFont" style="">'.</seg>
                   </p>
                </note>
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>This tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and anti-miasmatic</seg>
-               <seg style="">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">T</seg>
+               <seg rend="DefaultParagraphFont" style="">his tree should become of the utmost importance also to the Western Hemisphere. As a tropical tree, fit to grow in malarian swamps, and containing in its foliage much antiseptic and a</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">ti-miasmatic</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <seg style="">
+                        <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>Source has the obvious misprint, 'auti-miasmatic', <space unit="chars" quantity="1"/>which has been editorially corrected.</seg>
                      </p>
                   </note>
                </seg>
-               <seg style=""> oil, it deserves your special attention. It will grow where no Eucalyptus could be reared.</seg>
-               <seg style="">
-                  <note xml:id="ftn3" type="footnote" n="3">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>oil, it deserves your special attention. It will grow where no Eucalyptus could be reared.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <seg style="">
+                        <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>The extract from M's letter is followed by:</seg>
                      </p>
-                     <p rend="Footnote"
-                        style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
-                        xml:lang="en">
-                        <seg style="">The young seedlings raised have now been planted out in Hope Gardens. They have grown somewhat slowly, but as they appear likely to succeed, more seed will be obtained from Australia and plants distributed to applicants. </seg>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: 0in; "
+                        xml:lang="en">The young seedlings raised have now been planted out in Hope Gardens. They have grown somewhat slowly, but as they appear likely to succeed, more seed will be obtained from Australia and plants distributed to applicants.<space unit="chars" quantity="1"/>
                      </p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">Eucalyptus</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>

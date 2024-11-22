@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>valediction</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
             </keywords>
             <keywords scheme="#validity">
@@ -81,7 +77,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>[…] Lyall</name>
+               <name>? Lyall</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -92,52 +88,62 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 20/4 69 ¶ Dear Mr lyall ¶  ¶ Your letter, dated 6 April, was yesterday placed before a meeting of the Trustees of the Royal Park, and I am directed to express the regard of our...</supplied>
             </head>
-            <p rend="number" xml:lang="en">69.04.28</p>
-            <p rend="correspondent" xml:lang="en">To […] Lyall</p>
+            <p rend="number" xml:lang="en">69.04.28<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>?<space unit="chars" quantity="1"/>Lyall<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter and minute book, pp.33-4, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; text-align: end; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">get name</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">get name</seg>
                   </p>
                </note>Melbourne bot. Garden</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; text-align: end; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
                xml:lang="en">20/4 69</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Mr lyall</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Your letter, dated 6 April, was yesterday placed before a meeting of the Trustees of the Royal Park, and I am directed to express the regard of our colleagues, that your remoteness from Melbourne<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">SM: Lyall lived in a property just east of Melbourne I think which is now an historic home but I can't remember the name.</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; font-weight: bold; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Anthing to add from minutes.</p>
-               </note> continues to interfere with your attendance at our meetings, and that you thus have resolved to resign. Should this be your final decision, then the Trustees think your communication would need to be direct to the hon. the President of the Board of Land and Works, by whon we all vere appointed.<space dim="horizontal" extent="tab"/>Trusting that you still may be able to share actively in our labors I remain</p>
+               <space dim="horizontal" extent="tab"/>Your letter, dated 6 April, was yesterday placed before a meeting of the Trustees of the Royal Park, and I am directed to express the regard of our colleagues, that your remoteness from Melbourne<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">SM: Lyall lived in a property just east of Melbourne I think which is now an historic home but I can't remember the name.</seg>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                           <space dim="horizontal" extent="tab"/>Anthing to add from minutes.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>continues to interfere with your attendance at our meetings, and that you thus have resolved to resign. Should this be your final decision, then the Trustees think your communication would need to be direct to the hon. the President of the Board of Land and Works, by whon we all vere appointed.<space dim="horizontal" extent="tab"/>Trusting that you still may be able to share actively in our labors I remain</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Your regardful</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>(signed) Ferd. von Mueller</p>
          </div>

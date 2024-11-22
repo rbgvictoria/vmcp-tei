@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1867/67-01-22a-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1867/67-01-22a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-01-22a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-01-22a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,17 +53,17 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>valediction</term>
@@ -88,32 +88,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">22nd January 1867. ¶ Sir, ¶  ¶ By direction of the Governor I have the honor to inform you that the Copies of the further Reports relative to the Leichardt ¶ i.e. Leichhardt. ¶  ¶ Search Expedition, f...</supplied>
             </head>
-            <p rend="number" xml:lang="en">67.01.22a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">67.01.22a</p>
             <p rend="correspondent" xml:lang="en">From Henry C. Manners-Sutton</p>
             <p rend="location" xml:lang="en">Unit 2, p. 208, VPRS 1092 Governor's letter books, VA 466 Governor, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Proof against MSS.</seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
-                        <space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
-                        <space unit="chars" quantity="1"/>get copy of despatch — 1087/20.</seg>
-                  </p>
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">I am not sure it is necessary to get a copy of the despatch</seg>
-                  </p>
-               </note>22nd January 1867.</p>
+               xml:lang="en">22nd January 1867.</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
@@ -121,73 +102,28 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>By direction of the Governor I have the honor to inform you that the Copies of the further Reports relative to the Leichardt<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. Leichhardt.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Search Expedition, forwarded<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #0070C0; ">i.e. Leichhardt.</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>Colonial Office forwarded<space unit="chars" quantity="1"/>to the Royal Geographical Society<space unit="chars" quantity="1"/>Duncan McIntyre's letter of 2 May 1866 to his uncle,<space unit="chars" quantity="1"/>and William Sloman's letter of 7 June 1866 to the Ladies'<space unit="chars" quantity="1"/>Leichhardt Search Committee reporting<space unit="chars" quantity="1"/>McIntyre's death<space unit="chars" quantity="1"/>(see notes to W. Sloman to M, 7 June 1866).<space unit="chars" quantity="1"/>These were published as 'Last letter of Mr Duncan McIntyre. Leader of the Leichhardt Search Expedition, and an account of his death',<space unit="chars" quantity="1"/>in the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Proceedings of the Royal Geographical Society of London</seg>, vol.<space unit="chars" quantity="1"/>11, 1866-7, pp. 42-46<space unit="chars" quantity="1"/>(i.e. McIntyre (1866a) and Sloman (1866)).<space unit="chars" quantity="1"/>McIntyre's text was lightly edited by M.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>Search Expedition, forwarded<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               <space unit="chars" quantity="1"/>to the Secretary of State by General Carey, have been duly acknowledged.<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">ref Arthur</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
-                           <space dim="horizontal" extent="tab"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">The<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">C</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">olonial Office forward<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">to the Royal Geographical Society<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Duncan McIntyre's letter of 2 May 1866 to his uncle and William Sloman's letter of 7 June 1866 to the Ladies Leichhardt Search Committee reporting<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">McIntyre's death<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">(see notes to W. Sloman to M, 7 June 1866)</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">.<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">Lightly edited by M these<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>were published as 'Last letter of Mr Duncan McIntyre. Leader of the Leichhardt Search Expedition, and an account of his death' in the<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Proceedings of the Royal Geographical Society of London</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, vol 11, 1866-7, pp. 42-46</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, i.e.<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">McIntyre (1866</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">a</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">) and Sloman (1866)</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">.</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; color: #C00000; "
-                        xml:lang="en">I cited these individually and put into eds-cits so that they will have a URL link</p>
-                  </note>
-               </seg>
-               <space unit="chars" quantity="1"/>to the Secretary of State by General Carey, have been duly acknowledged.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>On 8 October 1866 the Secretary of State for the Colonies, the Earl of Carnarvon, wrote to Manners Sutton: 'I have the honor to acknowledge the receipt of General Carey's Despatch no 35, of the 27th of July forwarding copies of further reports relative to the Leichardt<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">[sic.]</seg>
-                        <space unit="chars" quantity="1"/>Search Expedition.'<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">[Sara you have 'no. 36 1087/20' above this.]</seg>
-                        <space unit="chars" quantity="1"/>Carnarvon went on to express the sentiments reported by Manners Sutton in the next paragraph of this letter.</p>
+                        <space dim="horizontal" extent="tab"/>On 8 October 1866,<space unit="chars" quantity="1"/>the Secretary of State for the Colonies, the Earl of Carnarvon, wrote to<space unit="chars" quantity="1"/>Sir Henry<space unit="chars" quantity="1"/>Manners<space unit="chars" quantity="1"/>Sutton: 'I have the honor to acknowledge the receipt of General Carey's Despatch no 35, of the 27th of July forwarding copies of further reports relative to the Leichardt<space unit="chars" quantity="1"/>[i.e. Leichhardt]<space unit="chars" quantity="1"/>Search Expedition'.<space unit="chars" quantity="1"/>Carnarvon went on to express the sentiments reported by Manners<space unit="chars" quantity="1"/>Sutton in the next paragraph of this letter.</p>
                   </note>
                </seg>
             </p>
@@ -202,7 +138,7 @@
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>sd<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn4" n="5">
+                  <note type="footnote" xml:id="_ftn3" n="4">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">

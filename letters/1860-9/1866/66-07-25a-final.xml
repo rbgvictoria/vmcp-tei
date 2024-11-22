@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>RB MSS M200b.14, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <msName>RB MSS M200b.14,Library, Royal Botanic GardensMelbourne.</msName>
                   <altIdentifier>
                      <idno>66.07.25a</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-               <term>Times, Times</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,17 +63,19 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>form text</term>
-               <term>Footnote</term>
+               <term>formtext</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="48">English</language>
-            <language ident="de" usage="52">German</language>
+            <language ident="en" usage="51">English</language>
+            <language ident="de" usage="49">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -97,112 +92,131 @@
             </head>
             <p rend="number" xml:lang="de">66.07.25a</p>
             <p rend="correspondent" xml:lang="de">From Carl von Martius</p>
-            <p rend="location" xml:lang="de">RB MSS M200b.14, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="location" xml:lang="de">RB MSS M200b.14,<space unit="chars" quantity="1"/>Library, Royal Botanic Gardens<space unit="chars" quantity="1"/>Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">KOENIGLICH BAYERISCHE</seg>
+               <seg rend="formtext" style="color: #2F5496; ">KOENIGLICH BAYERISCHE</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="de">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Akademie der Wissenschaften</seg>
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS letterhead decorated with a drawn profile of a Roman male.</p>
-               </note>
+               <seg rend="formtext" style="color: #2F5496; ">Akademie der Wissenschaften</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS letterhead decorated with a drawn profile of a Roman male.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Mein hochgeehrter Herr College!</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Es gereicht mir zum wahrsten Vergnugen, Ihnen das Diplom eines correspondirenden Mitgliedes der K.B. Akademie d. W., im Namen und Auftrage dieser gelehrten Körperschaft übersenden zu können. Empfangen Sie dasselbe als eine Urkunde von der gerechten Anerkennung Ihrer Verdienste um die Wissenschaft, welche Sie, gleichsam ein Expositus an den aussersten Grenzmarken der civilisirten Welt, zu fördern eifrigst bemüht sind. Auch möge dasselbe Ihnen beweissen, dass wir stets gerne Zeuge von Ihren literarischen Arbeiten bleiben und Act davon nehmen werden, was Sie zur Förderung der Wissenschaft, selbstständig oder in literarischer Betriebsamkeit durch Bekanntgebung anderweitiger Erfolge, leisten.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Sie haben die Güte gehabt, uns mehrere Ihrer eigenen Schriften oder auch die von den bei Ihnen blühenden Gesellschaften zu übermitteln. Jedem ich dafür im Namen der Akademie danke, bermerke ich, dass wir die Vervollständigung dieser Schriften, sowohl für die Bibliothek der Akademie, als für die K. Hof. u. Staatsbibliothek sehr dankbar verehren werden. Früher befand sich die Akademie mit letzterer sehr reichen Büchersammlung unter Einem Dache. Seitdem aber die Hof- u Staatsbibliothek ein besonderes, von der Akademie 20 Minuten entlegenes Gebäude erhalten, ist die Akademie darauf bedacht sich eine besondere Bibliothek ad manus, also besonders von Publicationen gelehrter Vereine, zu verschaffen. Ich bemerke Ihnen diess Verhältniss mit dem Wunsche, dass es Ihnen möglich seyn möchte, die australische Societäts-Literatur entweder beiden bayerischen Instituten, oder doch wenigstens der Akademie vollständig zu verschaffen. Schon früher glaube Ihnen gemeldet zu haben, was die Akad. durch Ihre Liberalität und freundliche Fürsorge besitzt. Wenn der heillose Krieg, der jetzt Deutschland zerfleischt, vorüber, werde ich Sorge tragen, dass Sie vollständige Liste unseres Besitzes, also auch unserer Desiderata erhalten. Die Vervollständigung unserer Schriften u. vielleicht auch die Übermittlung von Dissertationen von bayer. Universitäten werde ich mir angelegen seyn lassen. Es wäre übrigens unserm Verkehre mit Australien fördersam, wenn Sie, lieber College, mir gelegentlich eine Notiz über die gel. Vereine und die Bibliotheken Australiens, sowie dessen, was erstere publiziren, zukommen lassen wollten.</p>
+               <space dim="horizontal" extent="tab"/>Sie haben die Güte gehabt, uns mehrere Ihrer eigenen Schriften oder auch die von den bei Ihnen blühenden Gesellschaften zu übermitteln. Jedem ich dafür im Namen der Akademie danke, bermerke ich, dass wir die Vervollständigung dieser Schriften, sowohl für die Bibliothek der Akademie, als für die K. Hof. u. Staatsbibliothek sehr dankbar verehren werden. Früher befand sich die Akademie mit letzterer sehr<space unit="chars" quantity="1"/>reichen<space unit="chars" quantity="1"/>Büchersammlung unter Einem Dache. Seitdem aber die Hof- u Staatsbibliothek ein besonderes, von der Akademie 20 Minuten entlegenes Gebäude erhalten, ist die Akademie darauf bedacht sich eine besondere Bibliothek ad manus, also besonders von Publicationen gelehrter Vereine, zu verschaffen. Ich bemerke Ihnen diess Verhältniss mit dem Wunsche, dass es Ihnen möglich seyn möchte, die australische Societäts-Literatur entweder beiden bayerischen Instituten, oder doch wenigstens der Akademie vollständig zu verschaffen. Schon früher glaube Ihnen gemeldet zu haben, was die Akad. durch Ihre Liberalität und freundliche Fürsorge besitzt. Wenn der heillose Krieg, der jetzt Deutschland zerfleischt, vorüber, werde ich Sorge tragen, dass Sie vollständige Liste unseres Besitzes, also auch unserer Desiderata erhalten. Die Vervollständigung<space unit="chars" quantity="1"/>unserer<space unit="chars" quantity="1"/>Schriften u. vielleicht auch die Übermittlung von Dissertationen von bayer. Universitäten werde ich mir angelegen seyn lassen. Es wäre übrigens unserm Verkehre mit Australien fördersam, wenn Sie, lieber College, mir gelegentlich eine Notiz über die gel. Vereine und die Bibliotheken Australiens, sowie dessen, was erstere publiziren, zukommen lassen wollten.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Und so hätte ich denn mit Vorstehendem einen Verkehr zwischen Ihnen und dem Secretäre der II Classe unserer Akademie eingeleitet. Möchte ich recht oft in der Lage seyn, die Classe durch Ihre Mittheilungen erfreuen zu können. An Fleiss, auch Sie mit unserm Wirken in Verbindung zu erhalten wird es mir, der ich mich Ihnen bereits zu hochachtungsvoller Freundschaft u. Ergebenheit bekannt habe, nicht fehlen.</p>
+               <space dim="horizontal" extent="tab"/>Und so hätte ich denn<space unit="chars" quantity="1"/>mit Vorstehendem einen Verkehr zwischen Ihnen und dem Secretäre der II Classe unserer Akademie eingeleitet. Möchte ich recht oft in der Lage seyn, die Classe durch Ihre Mittheilungen erfreuen zu können. An Fleiss, auch Sie mit unserm Wirken in Verbindung zu erhalten wird es mir, der ich mich Ihnen bereits zu hochachtungsvoller Freundschaft u. Ergebenheit bekannt habe, nicht fehlen.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Mögen gute Sterne über und zwischen uns walten!</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">München 25. Juli 1866</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Dr. v Martius,</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Geh. Rath. und Secretär der math. phys. Classe.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Herrn Ferdin. Müller, Botaniker</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">des Gouvernements von Victoria,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Melbourne</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; text-align: center; "
+               style="font-size: 10pt; hyphenate: false; text-align: center; "
                xml:lang="en">Royal Bavarian Academy of Sciences</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space unit="chars" quantity="1"/>
-               </seg>My highly esteemed Colleage,</p>
+               <space unit="chars" quantity="1"/>My highly esteemed Colleage,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It gives me most genuine satisfaction to be able to forward to you the diploma of a corresponding member of the Royal Bavarian Academy of Sciences in the name of and at the direction of this learned body.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>See Academia Literarum et Scientiarum Regia Boica to M, 25 July 1866.</seg>
-                  </p>
-               </note> Accept it as a document of the rightful recognition of your service for science, which you, an expositor as it were at the furtherest boundary mark of the civilised world, have most zealously endevoured to promote. Also may it prove to you that we gladly remain witnesses of your literary works and will take official acknowledgement of what you do to promote science, independently or in literary activity through public announcement or repeated success.</p>
+               <space dim="horizontal" extent="tab"/>It gives me most genuine satisfaction to be able to forward to you the diploma of a corresponding member of the Royal Bavarian Academy of Sciences in the name of and at the direction of this learned body.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>See Ac</seg>
+                        <seg rend="DefaultParagraphFont" style="">a</seg>
+                        <seg rend="DefaultParagraphFont" style="">demia Literarum et Scientiarum Regia Boica to M, 25 July 1866.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>M was formally welcomed to the membership at the Academy's next<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">public<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">meeting, on 1 October 1866; see C. von Martius to J. Haast, 1 October 1866 (</seg>Haast family papers (Malm-Mayer), folder 200,<space unit="chars" quantity="1"/>Alexander Turnbull Library, Wellington, New Zealand).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Accept it as a document of the rightful recognition of your service for science, which you, an expositor<space unit="chars" quantity="1"/>as it were at the furtherest boundary mark of the civilised world, have most zealously endevoured to promote.<space unit="chars" quantity="1"/>Also may it prove to you that we<space unit="chars" quantity="1"/>gladly remain witnesses of your literary works<space unit="chars" quantity="1"/>and will take official acknowledgement of what you do<space unit="chars" quantity="1"/>to promote<space unit="chars" quantity="1"/>science, independently or in literary activity through<space unit="chars" quantity="1"/>public announcement or repeated success.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>You have had the goodness to send us several of your own publications and also those of the flourishing societies at your place. In the name of the Academy I thank them for that. I remark that we will be very thankfully honoured for the completion of these publications both for the library of the Academy and for the Royal Court and State Library. Formerly the Academy was under the one roof with the latter's very rich collection of books. However, since the Court and State Library has obtained a separate building 20 minutes away from the Academy, the Academy is considering a special library at hand, thus procuring particularly publications of learned societies. I mention this situation to you with the request that it might be possible for you to supply complete the Australian societies' literature either for both Bavarian institutes or at least for the Academy. I believe I have already reported to you previously what the Academy has through your liberality and kindly thoughtfulness. When the disastrous war that is now tearing Germany to pieces is over, I will see that you get complete lists of our holdings, therefore also our desiderata. I will make a point of the completion of our publications and perhaps also the transmitting of dissertations of Bavarian universities. By the way it would be beneficial for our dealings with Australia if you, dear colleague, would occasionally let me have a note about the learned societies and libraries of Australia, as well as what the former publish.</p>
+               <space dim="horizontal" extent="tab"/>You have had the goodness to send us several of your own<space unit="chars" quantity="1"/>publications<space unit="chars" quantity="1"/>and also<space unit="chars" quantity="1"/>those of the flourishing societies at your place. In the name of the Academy I thank them for that. I remark that we will be very thankfully honoured for the completion of these publications<space unit="chars" quantity="1"/>both for the library of the Academy and<space unit="chars" quantity="1"/>for the Royal Court and State Library. Formerly the Academy was under the one roof with the latter's very rich collection of books. However, since the Court and State Library has<space unit="chars" quantity="1"/>obtained<space unit="chars" quantity="1"/>a separate building 20 minutes away from the Academy, the Academy is considering<space unit="chars" quantity="1"/>a special library at hand, thus procuring particularly publications of learned societies.<space unit="chars" quantity="1"/>I mention this situation<space unit="chars" quantity="1"/>to you with the request that it might be possible for you to supply complete the<space unit="chars" quantity="1"/>Australian societies'<space unit="chars" quantity="1"/>literature either<space unit="chars" quantity="1"/>for<space unit="chars" quantity="1"/>both Bavarian institutes or at least<space unit="chars" quantity="1"/>for<space unit="chars" quantity="1"/>the Academy. I believe I have already reported to you previously what the Academy has through your liberality and kindly thoughtfulness. When the disastrous war that is now tearing Germany to pieces is over, I will see that you get complete lists of our holdings, therefore also our desiderata. I will make a point of the completion of our publications and perhaps also the transmitting of dissertations of Bavarian universities.<space unit="chars" quantity="1"/>By the way it would be beneficial for our dealings with Australia if<space unit="chars" quantity="1"/>you, dear colleague, would occasionally let me have a note about the learned societies and libraries of Australia, as well as what the former publish.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>And so I would commence a correspondence between you and the secretary of the II Class of our Academy. May I be in the position very often to be able to gladden the Class by your communications. Having already declared to you my faithful friendship and respects, I shall not be wanting in diligence to keep you too in touch with our work.</p>
+               <space dim="horizontal" extent="tab"/>And so<space unit="chars" quantity="1"/>I would commence<space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>correspondence between you and the secretary of the II Class of our Academy.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. the Mathematisch-Physikalischen Classe, the class devoted to the natural sciences.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>May I be in the position very often to be able to<space unit="chars" quantity="1"/>gladden the Class by your communications.<space unit="chars" quantity="1"/>Having already declared to you my faithful friendship and respects, I shall not be wanting in diligence to keep you too in touch with our work.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>May friendly stars reign over and between us!</p>
+               <space dim="horizontal" extent="tab"/>May friendly<space unit="chars" quantity="1"/>stars<space unit="chars" quantity="1"/>reign<space unit="chars" quantity="1"/>over and between us!</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Dr v Martius</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Privy Councillor and Secretary of the mathematical and physical Class.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">To Ferdinand Mueller,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Government Botanist of Victoria,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Melbourne</p>
          </div>
       </body>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Brisbane ¶  ¶ [Re Leichhardt] ¶  ¶ With warmest regards to Baron Von Mueller &amp; yourself....</title>
-            <author>[…] Purcell</author>
+            <title>Changed leading […] to ? because XTF seems not to allow links from […] ¶  ¶ Brisbane ¶  ¶ [Re Leichhardt] ¶  ¶ With warmest regards to Baron Von Mueller &amp; yourself....</title>
+            <author>? Purcell</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -27,8 +27,8 @@
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>[…] Purcell</author>
-               <title>Brisbane ¶  ¶ [Re Leichhardt] ¶  ¶ With warmest regards to Baron Von Mueller &amp; yourself....</title>
+               <author>? Purcell</author>
+               <title>Changed leading […] to ? because XTF seems not to allow links from […] ¶  ¶ Brisbane ¶  ¶ [Re Leichhardt] ¶  ¶ With warmest regards to Baron Von Mueller &amp; yourself....</title>
                <date when="1893-07-26">1893-07-26</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,18 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
+               <term>Progressnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,28 +86,34 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Brisbane ¶  ¶ [Re Leichhardt] ¶  ¶ With warmest regards to Baron Von Mueller &amp; yourself....</supplied>
+               <supplied reason="XTF-compatibility">Changed leading […] to ? because XTF seems not to allow links from […] ¶  ¶ Brisbane ¶  ¶ [Re Leichhardt] ¶  ¶ With warmest regards to Baron Von Mueller &amp; yourself....</supplied>
             </head>
-            <p rend="number" xml:lang="en">93.07.26</p>
-            <p rend="correspondent" xml:lang="en">[…] Purcell to Alexander Macdonald</p>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; break-before: page; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
+                  </p>
+               </note>Changed leading […] to ? because XTF seems not to allow links from […]<space unit="chars" quantity="1"/>
+            </p>
+            <p rend="number" xml:lang="en">93.07.26<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="correspondent" xml:lang="en">?<space unit="chars" quantity="1"/>Purcell to Alexander Macdonald</p>
             <p rend="location" xml:lang="en">A39, letter book, Royal Geographical Society of Australasia (Victorian Branch), Mitchell Library, State Library of New South Wales, Sydney</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Brisbane</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Brisbane</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>[Re Leichhardt]</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>With warmest regards to Baron Von Mueller &amp; yourself.</p>
          </div>

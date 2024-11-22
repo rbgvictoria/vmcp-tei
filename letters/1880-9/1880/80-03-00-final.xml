@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [ ¶ Gall on Eucalyptus ¶ :— Dr. Masters showed a remarkable fusiform gall on a species of Eucalyptus, and which had been sent to him by Baron von Mueller. It was referred to Mr. MacLachlan for repo...</title>
+            <title>Letter not found. The text given here is from the report of the meeting of the Royal Horticultural Society Scientific Committee held on 11 May 1880 (Journal of the Royal Horticultural Society of Londo...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [ ¶ Gall on Eucalyptus ¶ :— Dr. Masters showed a remarkable fusiform gall on a species of Eucalyptus, and which had been sent to him by Baron von Mueller. It was referred to Mr. MacLachlan for repo...</title>
+               <title>Letter not found. The text given here is from the report of the meeting of the Royal Horticultural Society Scientific Committee held on 11 May 1880 (Journal of the Royal Horticultural Society of Londo...</title>
                <date when="1880-03">1880-03</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,21 +54,18 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/22ad8546-8f00-4999-9b20-e40d11229ad5">Eucalyptus</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>space</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,38 +85,45 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [ ¶ Gall on Eucalyptus ¶ :— Dr. Masters showed a remarkable fusiform gall on a species of Eucalyptus, and which had been sent to him by Baron von Mueller. It was referred to Mr. MacLachlan for repo...</supplied>
+               <supplied reason="XTF-compatibility">Letter not found. The text given here is from the report of the meeting of the Royal Horticultural Society Scientific Committee held on 11 May 1880 (Journal of the Royal Horticultural Society of Londo...</supplied>
             </head>
             <p rend="number" xml:lang="en">80.03.00</p>
-            <p rend="correspondent" xml:lang="en">To the Royal Horticultural Society</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Royal Horticultural Society</p>
+            <p rend="space"
+               style="text-align: center; font-size: 9pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the report of the meeting of the Royal Horticultural Society Scientific Committee held on 11 May 1880 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Journal of the Royal Horticultural Society of London</seg>, n.s, vol. 6 [1880], p. lxxii). It is dated to March as the latest likely date that it could have been written to have been discussed at that meeting.</p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the report of the meeting of the Royal Horticultural Society Scientific Committee held on 11 May 1880 (<seg style="font-style: italic; ">Journal of the Royal Horticultural Society of London</seg>, n.s, vol. 6 [1880], p. lxxii). It is dated to March as the latest likely date that it could have been written to have been discussed at that meeting.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[<seg style="font-style: italic; ">Gall on <name key="Eucalyptus">Eucalyptus</name>
-               </seg>:— Dr. Masters showed a remarkable fusiform gall on a species of <name key="Eucalyptus">Eucalyptus</name>, and which had been sent to him by Baron von Mueller. It was referred to Mr. MacLachlan for report.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>At the meeting of the committee on 25 May, </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Mr. MacLachlan reported that the spindle-shaped gall sent by Baron Von Mueller, was probably the work of a cynips, which had perforated the young flower-buds. Some of the galls contained a larva of a dipterous insect, itself attacked by a parasitic hymenopterous insect.</p>
-               </note>]</p>
+               <space dim="horizontal" extent="tab"/>[<seg rend="DefaultParagraphFont" style="font-style: italic; ">Gall on Eucalyptus</seg>:— Dr. Masters showed a remarkable fusiform gall on a species of Eucalyptus, and which had been sent to him by Baron von Mueller. It was referred to Mr. MacLachlan for report.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>At the meeting of the committee on 25 May,<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: -0.1666in; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Mr. MacLachlan reported that the spindle-shaped gall sent by Baron Von Mueller, was probably the work of a cynips, which had perforated the young flower-buds. Some of the galls contained a larva of a dipterous insect, itself attacked by a parasitic hymenopterous insect.</p>
+                  </note>
+               </seg>]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eucalyptus">Eucalyptus</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eucalyptus</p>
          </div>
       </body>
    </text>
