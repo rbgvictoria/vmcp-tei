@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1889/89-04-13-proofed.doc</idno>
+            <idno type="filename">data/letters/1880-9/1889/89-04-13-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1889/89-04-13-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1889/89-04-13-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -120,14 +120,17 @@
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="">T</seg>
-                        <seg rend="DefaultParagraphFont" style="">enders had been invited for the fencing by the Public Works Office, closing date 2 May, in Victoria<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">Tenders had been invited for the fencing by the Public Works Office, closing date 2 May, in Victoria<space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Government Gazette,<space unit="chars" quantity="1"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont" style="">no 42, 12 April 1889, p. 1243</seg>
-                        <seg rend="DefaultParagraphFont" style="">. A contract for £118 was awarded to Klein and Liebe for 'Picket fencing and gates to enclose Botanic Museum, Melbourne' (Victoria Government Gazette, no. 55, 17 May 1889, p.1616.)</seg>
+                        <seg rend="DefaultParagraphFont" style="">no 42, 12 April 1889, p. 1289. A contract for £118 was awarded to Klein and Liebe for 'Picket fencing and gates to enclose Botanic Museum, Melbourne' (Victoria<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Government Gazette</seg>
+                        <seg rend="DefaultParagraphFont" style="">, no. 55, 17 May 1889, p.1616.)</seg>
                      </p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
