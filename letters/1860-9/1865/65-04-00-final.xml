@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [ ¶ The following letter from Mr. Edward Wilson, of the 'Melbourne Argus', to Sir Roderick Murchison, relates to the same subject:- ¶ " ¶ Dear ¶   ¶ Sir, ¶ "You showed such an intelligent interest ...</title>
+            <title>Letter not found. The text given here is from 'Mr. D. Mclntyres Journey across Australia, from Victoria to theGulf of Carpentaria,and discovery ofsupposed traces of Leichhardt',Proceedings of the Roya...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [ ¶ The following letter from Mr. Edward Wilson, of the 'Melbourne Argus', to Sir Roderick Murchison, relates to the same subject:- ¶ " ¶ Dear ¶   ¶ Sir, ¶ "You showed such an intelligent interest ...</title>
+               <title>Letter not found. The text given here is from 'Mr. D. Mclntyres Journey across Australia, from Victoria to theGulf of Carpentaria,and discovery ofsupposed traces of Leichhardt',Proceedings of the Roya...</title>
                <date when="1865-04">1865-04</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,17 +54,17 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>space</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,41 +84,76 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [ ¶ The following letter from Mr. Edward Wilson, of the 'Melbourne Argus', to Sir Roderick Murchison, relates to the same subject:- ¶ " ¶ Dear ¶   ¶ Sir, ¶ "You showed such an intelligent interest ...</supplied>
+               <supplied reason="XTF-compatibility">Letter not found. The text given here is from 'Mr. D. Mclntyres Journey across Australia, from Victoria to theGulf of Carpentaria,and discovery ofsupposed traces of Leichhardt',Proceedings of the Roya...</supplied>
             </head>
             <p rend="number" xml:lang="en">65.04.00</p>
             <p rend="correspondent" xml:lang="en">To Edward Wilson</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="space"
+               style="text-align: center; font-size: 9pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Mr. D. Mclntyres Journey across Australia, from Victoria to the<space unit="chars" quantity="1"/>Gulf of Carpentaria,<space unit="chars" quantity="1"/>and discovery of<space unit="chars" quantity="1"/>supposed traces of Leichhardt',<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Proceedings of the Royal Geographical Society</seg>, vol. 9 (1865), p. 305. It follows extracts from letters from M to R. Murchison of 24 January 1865, M to R. Murchison, 24 February 1865 (in this edition as <space unit="chars" quantity="1"/>65-02-24e), and M to R. Murchison, 22 April 1865, and is dated to April<space unit="chars" quantity="1"/>1865 by analogy with the date of the last of these and as the latest likely date on which it could have been sent to be reported, as it seems to have been, at<space unit="chars" quantity="1"/>the meeting of the Royal Geographical Society on<space unit="chars" quantity="1"/>12 June.</p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here is from 'Mr. D. Mclntyres Journey across Australia, from Victoria to the Gulf of Carpentaria, and discovery of supposed traces of Leichhardt', <seg style="font-style: italic; ">Proceedings of the Royal Geographical Society</seg>, vol. 9 (1865), p. 305. It follows extracts from letters from M to R. Murchison of 24 January 1865, M to R. Murchison, 24 February 1865 (in this edition as <space unit="chars" quantity="1"/>65-02-24e), and M to R. Murchison, 22 April 1865, and is dated to April 1865 by analogy with the date of the last of these and as the latest likely date on which it could have been sent to be reported, as it seems to have been, at the meeting of the Royal Geographical Society on 12 June.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[<seg style="">The following letter from Mr. Edward Wilson, of the 'Melbourne Argus', to Sir Roderick Murchison, relates to the same subject:-</seg>"<seg style="font-variant: small-caps; ">Dear</seg>
-               <seg style="font-variant: small-caps; font-size: 6pt; "> </seg>
-               <seg style="font-variant: small-caps; ">Sir,</seg>
+               <space dim="horizontal" extent="tab"/>[<seg rend="DefaultParagraphFont" style="">The following letter from Mr. Edward Wilson, of the 'Melbourne Argus', to Sir Roderick Murchison, relates to the same subject:-</seg>"<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">Dear</seg>
+               <seg rend="DefaultParagraphFont"
+                    style="font-variant: small-caps; font-size: 6pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">Sir,</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>"You showed such an intelligent interest in our friend Mueller's new movement in search of the unfortunate Leichhardt, that I think it right to forward you a passage from his last letter, and also an article from the recent Melbourne papers…."</seg>
-               <seg style="">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">"You showed such an intelligent interest in our friend Mueller's new</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">movement in search of the unfortunate Leichhardt, that I think it right to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">forward you a passage from his last letter, and also an article from the recent</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Melbo</seg>
+               <seg rend="DefaultParagraphFont" style="">u</seg>
+               <seg rend="DefaultParagraphFont" style="">rne papers</seg>
+               <seg rend="DefaultParagraphFont" style="">…."</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <seg style="">
-                           <space dim="horizontal" extent="tab"/>The printed report does not include any extract from either a letter from M or an article from a Melbourne newspaper.</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>The<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">printed<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">report does not include any extract from either a letter from M or an article<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">from</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>a Melbourne newspaper.</seg>
                      </p>
                   </note>
                </seg>
-               <seg style="">]</seg>
+               <seg rend="DefaultParagraphFont" style="">]</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
