@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>24/5/82 ¶  ¶ Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S. ¶  of England by your signature, and kindly send on the paper to Dr von Haast...</title>
+            <title>24/5/82 ¶  ¶ Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S. ¶ Royal Society. ¶  ¶ of England by your signature, and kindly send on the pa...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>MU 94, box 6 (5596/82), Museum of New Zealand Te Papa Tongarewa Archives, Wellington. </msName>
+                  <msName>MU 94, box 6 (5596/82), Museum of New Zealand Te Papa Tongarewa Archives, Wellington.</msName>
                   <altIdentifier>
                      <idno>82.05.24</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>24/5/82 ¶  ¶ Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S. ¶  of England by your signature, and kindly send on the paper to Dr von Haast...</title>
+               <title>24/5/82 ¶  ¶ Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S. ¶ Royal Society. ¶  ¶ of England by your signature, and kindly send on the pa...</title>
                <date when="1882-05-24">1882-05-24</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,57 +86,86 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">24/5/82 ¶  ¶ Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S. ¶  of England by your signature, and kindly send on the paper to Dr von Haast...</supplied>
+               <supplied reason="XTF-compatibility">24/5/82 ¶  ¶ Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S. ¶ Royal Society. ¶  ¶ of England by your signature, and kindly send on the pa...</supplied>
             </head>
             <p rend="number" xml:lang="en">82.05.24</p>
             <p rend="correspondent" xml:lang="en">To James Hector</p>
-            <p rend="location" xml:lang="en">MU 94, <space unit="chars" quantity="1"/>box 6 (5596/82), Museum of New Zealand Te Papa Tongarewa Archives, Wellington. </p>
+            <p rend="location" xml:lang="en">MU 94, <space unit="chars" quantity="1"/>box 6 (5596/82), Museum of New Zealand Te Papa Tongarewa Archives, Wellington.<seg rend="FootnoteReference" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS annotation: 'For Dr v. Haast'.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS annotation: 'For Dr v. Haast'.</p>
                </note>24/5/82</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Royal Society.</p>
-               </note> of England by your signature, and kindly send on the paper to Dr von Haast?<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Hector and Haast both signed Tenison Woods's nomination certificate, as did M, Robert Ellery, Frederick McCoy, Sir Henry Barkly and two British-based palaeontologists, Thomas Davidson and Henry Woodward. Woods was a candidate in 1883, 1884 and 1886-8, but was never elected. See also B. Scortechini to M, 8 December 1881; M to J. Hooker, 24 July 1882; J. Hooker to M, 7 April 1885; and the nomination details (in this edition as 82-00-00c). </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Will you do me the favor, dear Dr Hector, to support the Candidature of the Rev. Jul. Ten. Woods at the R. S.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Royal Society.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>of England by your signature, and kindly send on the paper to Dr von Haast?<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Hector and Haast both signed<space unit="chars" quantity="1"/>Tenison<space unit="chars" quantity="1"/>Woods's<space unit="chars" quantity="1"/>nomination certificate, as did M, Robert Ellery, Frederick McCoy, Sir Henry Barkly and two British-based palaeontologists, Thomas Davidson and Henry Woodward. Woods was a candidate in 1883, 1884 and 1886-8, but was never elected. See also B. Scortechini to M, 8 December 1881; M to J. Hooker, 24 July 1882; J. Hooker to M, 7 April 1885;<space unit="chars" quantity="1"/>and the nomination details<space unit="chars" quantity="1"/>(in this edition as 82-00-00c).<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It is very kind of you to say, that you will interest yourself about a reissue of my volume on "select plants" in N.Z., where such a work ought to be of great value to new settlers &amp; other colonist.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. See M to J. Hector, 15 February 1882 (in this edition as <space unit="chars" quantity="1"/>82-02-15b). Despite M's persistent prodding, no NZ edition of his <seg style="font-style: italic; ">Select extra-tropical plants</seg> was ever published. In 1883 John Armstrong, head gardener for the Christchurch Park and Domains Board, published an 8-page list (J. Armstrong (1883)) that was reviewed by the Melbourne <seg style="font-style: italic; ">Leader</seg> (8 March 1884, p. 13). The reviewer commented: 'The selection appears to be on the whole good, corresponding closely with the Select Plants of Baron Von Mueller, from which the lists appear to have been compiled, and, if so, without acknowledgment. <space unit="chars" quantity="1"/>… Though the list will doubtless be useful in New Zealand, it might have been more dignified on the part of the Government, and would certainly have been of more value to the colony to have imitated those of Victoria, New South Wales, India and U.S. America in reprinting Baron Von Mueller's work on Select Plants.' See also M to J. von Haast, 7 March 1884.</p>
-               </note> The publication ought not to interfere with any others there, that may be contemplated, as my work is one of wide general scope and cosmopolitan tendencies</p>
+               <space dim="horizontal" extent="tab"/>It is very kind of you to say, that you will interest yourself about a reissue of my volume on "select plants" in N.Z., where such a work ought to be of great value to new settlers &amp; other colonist.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found. See M to J. Hector, 15 February 1882 (in this edition as <space unit="chars" quantity="1"/>82-02-15b). Despite M's persistent prodding, no NZ edition of his<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Select extra-tropical plants</seg>
+                        <space unit="chars" quantity="1"/>was ever published.<space unit="chars" quantity="1"/>At some point, however, prospects looked sufficiently encouraging that M prepared extensive 'supplemental notes' appropriate for a NZ edition; there is a clean copy of these at Archives New Zealand<space unit="chars" quantity="1"/>Te Rua Mahara o te Kāwanatanga, Wellington repository, Box 454,<space unit="chars" quantity="1"/>Record number 1881/1421.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>In 1883<space unit="chars" quantity="1"/>John Armstrong, head gardener for the Christchurch Park and Domains Board, published an 8-page list (J.<space unit="chars" quantity="1"/>Armstrong<space unit="chars" quantity="1"/>(1883))<space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>was reviewed by the<space unit="chars" quantity="1"/>Melbourne<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Leader</seg>
+                        <space unit="chars" quantity="1"/>(8 March 1884, p. 13).<space unit="chars" quantity="1"/>The reviewer<space unit="chars" quantity="1"/>commented:<space unit="chars" quantity="1"/>'The selection appears to be on the whole good, corresponding closely with the Select Plants of Baron Von Mueller, from which the lists appear to have been compiled, and, if so, without acknowledgment. <space unit="chars" quantity="1"/>… Though the list will doubtless be useful in New Zealand, it might have been more dignified on the part of the Government, and would certainly have been of more value to the colony to have imitated those of Victoria, New South Wales, India and U.S. America in reprinting Baron Von Mueller's work on Select Plants.'<space unit="chars" quantity="1"/>See also M to J. von Haast, 7 March 1884.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The publication ought not to interfere with any others there, that may be contemplated, as my work is one of wide general scope and cosmopolitan tendencies</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">I believe you &amp; Haast are the only FRS in NZ. Is it so?<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">There were three Fellows of the Royal Society based in New Zealand at the time, the third being the ornithologist William Buller, elected in 1879.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">I believe you &amp; Haast are the only FRS in NZ. Is it so?<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>There were three Fellows of the Royal Society based in New Zealand at the time, the third<space unit="chars" quantity="1"/>being the ornithologist William Buller, elected in 1879.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
