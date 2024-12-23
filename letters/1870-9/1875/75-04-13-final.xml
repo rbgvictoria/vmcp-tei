@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1875/75-04-13-proofed.doc</idno>
+            <idno type="filename">data/letters/1870-9/1875/75-04-13-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1875/75-04-13-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1875/75-04-13-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -139,8 +139,7 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; ">Particulars of vote<space unit="chars" quantity="1"/>
-                        </seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Particulars of vote.</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0138in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
@@ -150,6 +149,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Amount of estimate Previously Approved</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0138in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
@@ -159,6 +159,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Estimate* of Expenditure for Quarter</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0138in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
@@ -167,6 +168,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Remarks</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                </row>
@@ -176,6 +178,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Division &amp; Subdivision</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0104in solid #000000; border-left: 0.0104in solid #000000; border-bottom: 0.0138in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -183,6 +186,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Item</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0138in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
@@ -191,6 +195,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Amount</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                   <space dim="vertical" unit="lines" quantity="1"/>
@@ -360,7 +365,10 @@
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>MS addition in an unknown hand: '<seg rend="DefaultParagraphFont" style="font-weight: bold; ">[…]</seg>'.</p>
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Illegible</seg>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                                    <space unit="chars" quantity="1"/>addition in an unknown hand</seg>.</p>
                            </note>
                         </seg>
                      </p>
@@ -388,7 +396,9 @@
                         xml:lang="en">-</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0069in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
+                        xml:lang="en">-</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0069in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
@@ -474,7 +484,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">-</p>
                   </cell>
-                  <cell style="border-top: 0.0069in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -539,8 +549,7 @@
                   <cell style="border-top: 0.0069in solid #000000; border-left: none; border-bottom: 0.0069in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">13<seg rend="DefaultParagraphFont" style="">th</seg>
-                        <space unit="chars" quantity="1"/>April 1875</p>
+                        xml:lang="en">13th<space unit="chars" quantity="1"/>April 1875</p>
                   </cell>
                </row>
             </table>
