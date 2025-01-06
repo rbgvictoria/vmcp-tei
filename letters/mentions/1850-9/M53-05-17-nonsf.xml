@@ -15,14 +15,14 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/mentions/1850-9/53-05-17latrobe-gunn.doc</idno>
+            <idno type="filename">data/letters/mentions/1850-9/M53-05-17-nonsf.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A249 Gunn correspondence, Mitchell Library, Sydney.</msName>
+                  <msName>A249 Gunn correspondence, Mitchell Library,State Library of New South Wales,Sydney.</msName>
                   <altIdentifier>
-                     <idno>53.05.17</idno>
+                     <idno>M53.05.17</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/mentions/1850-9/53-05-17latrobe-gunn.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/mentions/1850-9/M53-05-17-nonsf.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,11 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#features">
-               <term>note</term>
-            </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -91,24 +81,18 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">It may interest you to know that my Govt Botanist an exceedingly clever &amp; active german Dr Muëller — is still on a tour which he undertook in the autumn over parts of the main dividing range between G...</supplied>
             </head>
-            <p rend="number" xml:lang="en">53.05.17</p>
-            <p rend="correspondent" xml:lang="en">Charles La Trobe to Ronald Gunn</p>
-            <p rend="location" xml:lang="en">A249 Gunn correspondence, Mitchell Library, Sydney.</p>
+            <p rend="number" xml:lang="en">M53.05.17</p>
+            <p rend="correspondent" xml:lang="en">From<space unit="chars" quantity="1"/>Charles La Trobe to Ronald Gunn</p>
+            <p rend="location" xml:lang="en">A249 Gunn correspondence, Mitchell Library,<space unit="chars" quantity="1"/>State Library of New South Wales,<space unit="chars" quantity="1"/>Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.1665in; margin-right: 0in; text-indent: -0.1665in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Transcribed 12.10.92. To proof.</seg>
-                  </p>
-               </note>It may interest you to know that my Govt Botanist an exceedingly clever &amp; active german Dr Muëller — is still on a tour which he undertook in the autumn over parts of the main dividing range between Gipps Land &amp; the Ovens &amp; other confluents of the Murray. To the NW. I see from a letter dated Alberton — that he was winding up by exploring Wilsons promontory. He tells me that has already added 1030 new species to his collection including some very remarkable plants.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">It may interest you to know that my Govt Botanist an exceedingly clever &amp; active german Dr Muëller — is still on a tour which he undertook in the autumn over parts of the main dividing range between Gipps Land &amp; the Ovens &amp; other confluents of the Murray. To the NW. I see from a letter<space unit="chars" quantity="1"/>—<space unit="chars" quantity="1"/>dated Alberton — that he was winding up by exploring Wilsons promontory. He tells me that has already added 1030 new species to his collection including some very remarkable plants.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I shall publish in due time reports of his proceedings which shall be forwarded to you — </p>
+               <space dim="horizontal" extent="tab"/>I shall publish in due time reports of his proceedings which shall be forwarded to you —<space unit="chars" quantity="1"/>
+            </p>
          </div>
       </body>
    </text>

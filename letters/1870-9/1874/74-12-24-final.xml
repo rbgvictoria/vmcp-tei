@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Christmaseve ¶ Private ¶  ¶ Can you tell me, dear Mr Ramsay, whether anything is known concerning the achievements of the Challenger at New Guinea? I am still anxious to send a Collector, but have to ...</title>
+            <title>Christmaseve ¶ Though filed,together with another undated letter,after M's letter to Ramsay of 4 September1891,this letteris dated here to1874,when the oceanographical research vessel HMSChallengerwas...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Christmaseve ¶ Private ¶  ¶ Can you tell me, dear Mr Ramsay, whether anything is known concerning the achievements of the Challenger at New Guinea? I am still anxious to send a Collector, but have to ...</title>
+               <title>Christmaseve ¶ Though filed,together with another undated letter,after M's letter to Ramsay of 4 September1891,this letteris dated here to1874,when the oceanographical research vessel HMSChallengerwas...</title>
                <date when="1874-12-24">1874-12-24</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -91,40 +87,51 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Christmaseve ¶ Private ¶  ¶ Can you tell me, dear Mr Ramsay, whether anything is known concerning the achievements of the Challenger at New Guinea? I am still anxious to send a Collector, but have to ...</supplied>
+               <supplied reason="XTF-compatibility">Christmaseve ¶ Though filed,together with another undated letter,after M's letter to Ramsay of 4 September1891,this letteris dated here to1874,when the oceanographical research vessel HMSChallengerwas...</supplied>
             </head>
             <p rend="number" xml:lang="en">74.12.24</p>
             <p rend="correspondent" xml:lang="en">To Edward Ramsay</p>
             <p rend="location" xml:lang="en">ML MSS.562, Letters to E. P. Ramsay 1862-91, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Christmaseve</hi>
                </seg>
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Though filed after M's letter to Ramsay of 4 September 1891, this letter is dated here to 1874, when the oceanographical research vessel HMS <seg style="font-style: italic; ">Challenger</seg> was in Australian waters and M was urging Ramsay either himself to go with it to New Guinea, or to send a collector with it, to investigate the alpine regions of the eastern part of the island. In December 1874 M would not yet have known that the ship did not, in the end, visit New Guinea. See M to E. Ramsay, 26 August 1874, 1 September 1874, 9 September 1874, and 14 February 1875 (in this edition as 75-02-14a).</p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Though filed,<space unit="chars" quantity="1"/>together with another undated letter,<space unit="chars" quantity="1"/>after M's letter to Ramsay of 4 September<space unit="chars" quantity="1"/>1891,<space unit="chars" quantity="1"/>this letter<space unit="chars" quantity="1"/>is dated here to<space unit="chars" quantity="1"/>1874,<space unit="chars" quantity="1"/>when the oceanographical research vessel HMS<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Challenger</seg>
+                        <space unit="chars" quantity="1"/>was in Australian waters and M was urging Ramsay either himself to go with it to New Guinea, or to send a collector with it, to<space unit="chars" quantity="1"/>investigate the alpine regions<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>the eastern part of the island.<space unit="chars" quantity="1"/>In December 1874,<space unit="chars" quantity="1"/>M would<space unit="chars" quantity="1"/>not yet<space unit="chars" quantity="1"/>have<space unit="chars" quantity="1"/>known<space unit="chars" quantity="1"/>that the ship did not, in the end, visit New Guinea.<space unit="chars" quantity="1"/>See<space unit="chars" quantity="1"/>M to E. Ramsay, 26 August 1874; M to E. Ramsay, 1 September 1874; M to E. Ramsay, 9 September 1874; and M to E. Ramsay,<space unit="chars" quantity="1"/>and 14 February 1875 (in this edition as 75-02-14a).</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Private</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Private</hi>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Can you tell me, dear Mr Ramsay, whether anything is known concerning the achievements of the Challenger at New Guinea? I am still anxious to send a Collector, but have to do it out of my private means. The main object for me would be to get the <seg style="">
+               <space dim="horizontal" extent="tab"/>Can you tell me, dear Mr Ramsay, whether anything is known concerning the achievements of the Challenger at New Guinea? I am still anxious to send a Collector, but have to do it out of my private means. The main object for me would be to get the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">alpine</hi>
-               </seg> plants. Pray do not speak of my enquiring, for it would only draw the attention of competitors to that object. The question resolves itself to his. Did the Challenger-party reach the Snowy hights?</p>
+               </seg>
+               <space unit="chars" quantity="1"/>plants. Pray do not speak of my enquiring, for it would only draw the attention of competitors to that object. The question resolves itself to his. Did the Challenger-party reach the Snowy hights?</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
          </div>
