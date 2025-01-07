@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Baron von Mueller sent for exhibition a large selection from the plants from Prince Regent River, described or recorded in his paper, ¶  the same to be afterwards added to the Society's herbarium....</title>
+            <title> ¶ [Baron von Mueller sent for exhibition a large selection ¶  ¶ from ¶  ¶ the plants from Prince Regent River, described or recorded in his paper, ¶ B92.05.04. ¶  ¶ the same to be afterwards added to...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Baron von Mueller sent for exhibition a large selection from the plants from Prince Regent River, described or recorded in his paper, ¶  the same to be afterwards added to the Society's herbarium....</title>
+               <title> ¶ [Baron von Mueller sent for exhibition a large selection ¶  ¶ from ¶  ¶ the plants from Prince Regent River, described or recorded in his paper, ¶ B92.05.04. ¶  ¶ the same to be afterwards added to...</title>
                <date when="1891-09">1891-09</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,12 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Hypoestes moschata</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -73,8 +61,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,39 +84,46 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Baron von Mueller sent for exhibition a large selection from the plants from Prince Regent River, described or recorded in his paper, ¶  the same to be afterwards added to the Society's herbarium....</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Baron von Mueller sent for exhibition a large selection ¶  ¶ from ¶  ¶ the plants from Prince Regent River, described or recorded in his paper, ¶ B92.05.04. ¶  ¶ the same to be afterwards added to...</supplied>
             </head>
             <p rend="number" xml:lang="en">91.09.00k</p>
-            <p rend="correspondent" xml:lang="en">To the Linnean Society of New South Wales</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Linnean Society of New South Wales</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Notes and exhibits' shown at the meeting of the Linnean Society of NSW held on 30 September 1891, <seg style="font-style: italic; ">Proceedings of the Linnean Society of New South Wales</seg>, vol. 16, 1892, p. 578. See also M to N. Holtze, 3 October 1891.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text<space unit="chars" quantity="1"/>given<space unit="chars" quantity="1"/>here is from 'Notes and exhibits' shown at the meeting of the Linnean Society of NSW held on 30 September 1891,<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Proceedings of the Linnean Society of New South Wales</seg>, vol. 16,<space unit="chars" quantity="1"/>1892,<space unit="chars" quantity="1"/>p. 578.<space unit="chars" quantity="1"/>See also M to N. Holtze, 3 October 1891.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Baron von Mueller sent for exhibition a large selection from the plants from Prince Regent River, described or recorded in his paper,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B92.05.04.</p>
-               </note> the same to be afterwards added to the Society's herbarium. Also a specimen of <name key="Hypoestes%20moschata">Hypoestes moschata</name>, F.v.M. and Holze,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>B92.05.04, p. 474.</p>
-               </note> remarkable for its musky odour; habitat, some distance inland from Port Darwin.]</p>
+               <space dim="horizontal" extent="tab"/>[Baron von Mueller sent for exhibition a large selection<space unit="chars" quantity="1"/>from<space unit="chars" quantity="1"/>the plants from Prince Regent River, described or recorded in his paper,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B92.05.04.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>the same to be afterwards added to the Society's herbarium.<space unit="chars" quantity="1"/>Also a specimen of Hypoestes moschata, F.v.M. and Holze,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>B92.05.04, p. 474.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>remarkable for its musky odour;<space unit="chars" quantity="1"/>habitat, some distance inland from Port Darwin.]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hypoestes%20moschata">Hypoestes moschata</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hypoestes moschata</p>
          </div>
       </body>
    </text>
