@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>May 23rd [186]6 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of your letter dated the 19th Inst. ¶  covering the list of trees and plants which you so kindly offer for planting in the Royal ...</title>
+            <title>May 23rd [186]6 ¶ editorial addition. ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of your letter dated the 19th Inst. ¶ Letter not found. ¶  ¶ covering the list of trees and plants which yo...</title>
             <author>George Sprigg</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1866/66-05-23.doc</idno>
+            <idno type="filename">data/letters/1860-9/1866/66-05-23-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>George Sprigg</author>
-               <title>May 23rd [186]6 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of your letter dated the 19th Inst. ¶  covering the list of trees and plants which you so kindly offer for planting in the Royal ...</title>
+               <title>May 23rd [186]6 ¶ editorial addition. ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of your letter dated the 19th Inst. ¶ Letter not found. ¶  ¶ covering the list of trees and plants which yo...</title>
                <date when="1866-05-23">1866-05-23</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-05-23.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-05-23-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,70 +86,74 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">May 23rd [186]6 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of your letter dated the 19th Inst. ¶  covering the list of trees and plants which you so kindly offer for planting in the Royal ...</supplied>
+               <supplied reason="XTF-compatibility">May 23rd [186]6 ¶ editorial addition. ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of your letter dated the 19th Inst. ¶ Letter not found. ¶  ¶ covering the list of trees and plants which yo...</supplied>
             </head>
             <p rend="number" xml:lang="en">66.05.23</p>
             <p rend="correspondent" xml:lang="en">From George Sprigg</p>
             <p rend="location" xml:lang="en">No. 66/281, unit 5, p. 31, VPRS 2225 outward letterpress copy books, Acclimatisation Society of Victoria, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>May 23rd [186]6<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">editorial addition.</seg>
-                  </p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">May 23rd [186]6<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">editorial addition.</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to acknowledge the receipt of your letter dated the 19th Inst.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> covering the list of trees and plants which you so kindly offer for planting in the Royal Park, also suggesting that a further supply of […]<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">illegible.</seg>
-                  </p>
-               </note> may be purchased from Messrs Handyside &amp; Mr Mill[an]. The Council desire me to thank you sincerely for the liberal supply granted for the Park and to intimate that they do not think it will be necessary to purchase any at present.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to acknowledge the receipt of your letter dated the 19th Inst.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>covering the list of trees and plants which you so kindly offer for planting in the Royal Park, also suggesting that a further supply of […]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">illegible.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>may be purchased from Messrs Handyside &amp; McMillan. The Council desire me to thank you sincerely for the liberal supply granted for the Park and to intimate that they do not think it will be necessary to purchase any at present.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The list forwarded by you has been handed to Mr Mitchell for his information and on Friday morning I propose sending him one of the gardeners to take delivery of the trees at the Botanic Gardens.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your most Obedt Servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Geo Sprigg</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -161,22 +161,15 @@
                <space dim="horizontal" extent="tab"/>Scy</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">To Dr Mueller F.R.S.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Director of Botanic Gardens</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">anything to add from minutes?</seg>
-                  </p>
-               </note>
-            </p>
+               <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c</p>
          </div>
       </body>
    </text>
