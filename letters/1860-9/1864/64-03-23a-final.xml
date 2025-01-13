@@ -65,6 +65,7 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -112,7 +113,16 @@
                         <space dim="horizontal" extent="tab"/>Letter not found.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>I have the honor to inform you, that the Trustees of the Royal Park have granted to the Trades Committee the permission to occupy certain grounds at the Park during the contemplated fete on 21 April next, provided that due care be taken to prevent fire and damage to trees and property. To effect satisfactory arrangements for this purpose it will be necessary that the gentlemen of the Trades Committee communicate early with Mr. George Sprigg the Secretary of the Acclim. Society for the selection of the sites and for the protection of the property vested in the Trustees.</p>
+               <space unit="chars" quantity="1"/>I have the honor to inform you, that the Trustees of the Royal Park have granted to the Trades Committee the permission to occupy certain grounds at the Park during the contemplated fete on 21 April next,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The Trades Council<space unit="chars" quantity="1"/>fete was not held at Royal Park, but after the<space unit="chars" quantity="1"/>procession<space unit="chars" quantity="1"/>that<space unit="chars" quantity="1"/>finished<space unit="chars" quantity="1"/>at 'the Zoological Gardens on the banks of the Yarra" (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
+                        <space unit="chars" quantity="1"/>(Melbourne), 25 April<space unit="chars" quantity="1"/>1864,<space unit="chars" quantity="1"/>p. 5), i.e., the North Grounds of the Botanic Gardens where animals had been held before they were moved to Royal Park earlier in the 1860s.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>provided that due care be taken to prevent fire and damage to trees and property. To effect satisfactory arrangements for this purpose it will be necessary that the gentlemen of the Trades Committee communicate early with Mr. George Sprigg the Secretary of the Acclim. Society for the selection of the sites and for the protection of the property vested in the Trustees.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "

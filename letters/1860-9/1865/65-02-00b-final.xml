@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Dr. Mueller laid before the council a letter he had received from Mr. G. S. Coppin, wherein Mr. Coppin states he has shipped per Osprey a cage containing a dozen of the large mountain quail of Cal...</title>
+            <title>THIS LETTER HAS BEEN REDATED to 64-11-00f ¶ G. Coppin to M, November 1864 (in this edition as 64-11-00f)....</title>
             <author>George Coppin</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>George Coppin</author>
-               <title> ¶ [Dr. Mueller laid before the council a letter he had received from Mr. G. S. Coppin, wherein Mr. Coppin states he has shipped per Osprey a cage containing a dozen of the large mountain quail of Cal...</title>
+               <title>THIS LETTER HAS BEEN REDATED to 64-11-00f ¶ G. Coppin to M, November 1864 (in this edition as 64-11-00f)....</title>
                <date when="1865-02">1865-02</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,8 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,29 +82,25 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Dr. Mueller laid before the council a letter he had received from Mr. G. S. Coppin, wherein Mr. Coppin states he has shipped per Osprey a cage containing a dozen of the large mountain quail of Cal...</supplied>
+               <supplied reason="XTF-compatibility">THIS LETTER HAS BEEN REDATED to 64-11-00f ¶ G. Coppin to M, November 1864 (in this edition as 64-11-00f)....</supplied>
             </head>
             <p rend="number" xml:lang="en">65.02.00b</p>
             <p rend="correspondent" xml:lang="en">From George Coppin</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see <seg style="font-style: italic; ">Argus</seg>, 9 February 1865, p. 5. The letter was laid before the Council of the Acclimatisation Society of Victoria, 7 February 1865.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[Dr. Mueller laid before the council a letter he had received from Mr. G. S. Coppin, wherein Mr. Coppin states he has shipped per Osprey a cage containing a dozen of the large mountain quail of California.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See also M to Acclimatisation Society of Victoria, February 1865 (in this edition as 65-02-00d).</p>
-               </note>]</p>
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">THIS LETTER HAS BEEN REDATED to 64-11-00f<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>G. Coppin to M, November 1864 (in this edition as 64-11-00f).</p>
+                  </note>
+               </seg>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>
