@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1867/67-06-26a-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1867/67-06-26a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-06-26a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1867/67-06-26a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,17 +53,17 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>valediction</term>
@@ -88,23 +88,14 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">June 26th [186]7 ¶ editorial addition. ¶ Sir ¶  ¶ I have the honor by direction of the Council of the Acclimatisation Society to bring under your notice the fact that large numbers of disorderly peopl...</supplied>
             </head>
-            <p rend="number" xml:lang="en">67.06.26a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">67.06.26a</p>
             <p rend="correspondent" xml:lang="en">From George Sprigg</p>
             <p rend="location" xml:lang="en">Unit 5, p. 361, VPRS 2225 outward letterpress copy books, Acclimatisation Society of Victoria, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>June 26th [186]7<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+               xml:lang="en">June 26th [186]7<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -122,7 +113,7 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor by direction of the Council of the Acclimatisation Society to bring under your notice the fact that large numbers of disorderly people are in the habit of assembling at the Society's gates in the Royal Park nearly every Sunday for the [affirmed] purpose of listening to certain preachers who are in the habit of coming to that spot.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -131,7 +122,7 @@
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>As this practice tends greatly to the annoyance of visitors of the gardens and as the police have no force to interfere unless an actual breach of the peace takes place the Council of the Acclimatisation Society would suggest that a meeting of the Trustees be called and that they be asked to request the Board of Land &amp; Works to gazette a rule forbidding the practise of preaching there. I enclose a copy of the rules at present in force.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -164,7 +155,7 @@
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Scy<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn4" n="5">
+                  <note type="footnote" xml:id="_ftn3" n="4">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">

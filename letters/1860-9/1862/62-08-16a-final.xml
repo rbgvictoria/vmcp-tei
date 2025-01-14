@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter copy and minute book, p. 4, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter copy and minute book, p. 4, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>62.08.16a</idno>
                   </altIdentifier>
@@ -66,6 +66,7 @@
                <term>letter</term>
                <term>FootnoteText</term>
                <term>valediction</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,7 +90,7 @@
             </head>
             <p rend="number" xml:lang="en">62.08.16a</p>
             <p rend="correspondent" xml:lang="en">To William Smith</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter copy and minute book, p. 4, Mitchell Library, State Library of New South Wales, Sydney.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter copy and minute book, p. 4, Mitchell Library, State Library of New South Wales, Sydney.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -140,7 +141,10 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>See also M to J. O'Shanassy, 16 August 1862<space unit="chars" quantity="1"/>(in this edition as 62-08-16b).</p>
+                        <space dim="horizontal" extent="tab"/>See also M to J. O'Shanassy, 16 August 1862<space unit="chars" quantity="1"/>(in this edition as 62-08-16b)<space unit="chars" quantity="1"/>when M was informed by a minute that the appointment could not be published in the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Government Gazette</seg>
+                        <space unit="chars" quantity="1"/>
+                     </p>
                   </note>
                </seg>
             </p>
