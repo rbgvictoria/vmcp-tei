@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [from Dr Mueller.]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1868/68-10-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Minute book 3,30 September1863 - 03 August1870,p.351,VPRS 11097/P0001, Belfast Borough Council records VA 4030, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>68.10.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [from Dr Mueller.]...</title>
+               <date when="1868-10">1868-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-10-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>FootnoteReference</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William Barrett</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [from Dr Mueller.]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">68.10.00</p>
+            <p rend="correspondent" xml:lang="en">To William Barrett</p>
+            <p rend="location" xml:lang="en">Minute book 3,<space unit="chars" quantity="1"/>30 September<space unit="chars" quantity="1"/>1863 - 03 August<space unit="chars" quantity="1"/>1870,<space unit="chars" quantity="1"/>p.<space unit="chars" quantity="1"/>351,<space unit="chars" quantity="1"/>VPRS 11097/P0001, Belfast Borough Council records VA 4030, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not<space unit="chars" quantity="1"/>found. The text given here is from correspondence received, minutes of the meeting of the Belfast Borough Council held on 28 October 1868.<space unit="chars" quantity="1"/>The report in the<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 5 November 1868, p. 2, does not add any further information.</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>At<space unit="chars" quantity="1"/>the Belfast Borough Council<space unit="chars" quantity="1"/>meeting of 27 May 1868, the Mayor, E. Yorke, reported 'that while in Melbourne he had seen Dr Mueller with a view of obtaining some plants for the Gardens. The Town Clerk was instructed to send to Dr Mueller a plan of the Gardens and also a description of the soil, and to request Mr Binyon to take delivery of the plants and forward them' (Minute book 3, pp. 316-7;<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Belfast gazette</seg>, 4 June 1868, p. 2).<space unit="chars" quantity="1"/>This had presumably been attended to, however, long before October. No record has been found of correspondence on any other matter.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[from Dr Mueller.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
