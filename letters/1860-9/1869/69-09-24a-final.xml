@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society minute and letter book, pp.35-6, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesminute and letter book, pp.35-6, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>69.09.24a</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,7 +64,8 @@
                <term>location</term>
                <term>valediction</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,41 +89,44 @@
             </head>
             <p rend="number" xml:lang="en">69.09.24a</p>
             <p rend="correspondent" xml:lang="en">To Clement Hodgkinson</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society minute and letter book, pp.35-6, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>minute and letter book, pp.35-6, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; text-align: end; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne Botan Garden</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; text-align: end; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
                xml:lang="en">24/9 69</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you by direction of the Trustees of the Royal Park that at their meeting on the 21st inst the letter from the Townclerk to yourself was duly considered &amp; that after due inquiry it was ascertained that the Superintendent was perfectly justified in his interference when on some recent occasions the Park regulations became by certain parties very much disregarded. A communication explanatory of all circumstances has been made to Mr Fitzgibbon<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to E. Fitzgibbon, 24 September 1869. See also E. Lissignol to M et al., 21 September 1869.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have the honor to inform you by direction of the Trustees of the Royal Park that at their meeting on the 21st inst the letter from the Townclerk to yourself was duly considered &amp; that after due inquiry it was ascertained that the Superintendent was perfectly justified in his interference when on some recent occasions the Park regulations became by certain parties very much disregarded. A communication explanatory of all circumstances has been made to Mr Fitzgibbon<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M to E. Fitzgibbon, 24 September 1869.<space unit="chars" quantity="1"/>See also E. Lissignol to M et al., 21 September 1869.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your very obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>(signed) Ferd von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Cl. Hodgkinson Esq.</p>
          </div>
       </body>
