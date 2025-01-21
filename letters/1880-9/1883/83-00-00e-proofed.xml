@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>...</title>
+            <title>NB This is appended to 83-10-26; I am not sure it should be ¶ Albizzia monilifera ¶ Atalaya variifolia ¶ Bauhinia Leichhardtii ¶ Blumea...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>...</title>
+               <title>NB This is appended to 83-10-26; I am not sure it should be ¶ Albizzia monilifera ¶ Atalaya variifolia ¶ Bauhinia Leichhardtii ¶ Blumea...</title>
                <date when="1883">1883</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,55 +55,28 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Erythrophlaeum Laboucherii </term>
-               <term>Petalostigma quadriloculare</term>
-               <term>Jasminum simplicifolium </term>
-               <term>Casuarina equisetifolia</term>
-               <term>Pterocaulon sphacelatus</term>
-               <term>Bauhinia Leichhardtii</term>
-               <term>Evolvulus linifolius</term>
-               <term>Helicia Australasica</term>
-               <term>Osbeckia Australiana</term>
-               <term>Spinifex longifolius</term>
-               <term>Sterculia quadrifida</term>
-               <term>Albizzia monilifera</term>
-               <term>Atalaya variifolia</term>
-               <term>Fuirena glomerata</term>
-               <term>Hibbertia Goyderi</term>
-               <term>Nymphaea stellata</term>
-               <term>Pongamia glabra</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/2ec56247-4bf6-4613-b219-5f304015b74b">Setaria glauca</term>
-               <term>Pluchea Eyrea</term>
-               <term>Utricularia </term>
-               <term>Parsonsia </term>
-               <term>Mallotus </term>
-               <term>Eriachne</term>
-               <term>Epaltes</term>
-               <term>Blumea</term>
-            </keywords>
             <keywords scheme="#features">
                <term>table</term>
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
+               <term>Progressnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="71">English</language>
-            <language ident="de" usage="29">German</language>
+            <language ident="en" usage="72">English</language>
+            <language ident="de" usage="28">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -122,432 +89,420 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">...</supplied>
+               <supplied reason="XTF-compatibility">NB This is appended to 83-10-26; I am not sure it should be ¶ Albizzia monilifera ¶ Atalaya variifolia ¶ Bauhinia Leichhardtii ¶ Blumea...</supplied>
             </head>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; break-before: page; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Undated fragment.<space unit="chars" quantity="1"/>Translations are given<space unit="chars" quantity="1"/>in square brackets<space unit="chars" quantity="1"/>below the German text.</p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
+                     xml:lang="en">
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #FF0000; ">Probably 1883, but needs careful testing using AVH. There are some oddities</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #FF0000; ">; All these lists (rather than 'fragments'??) need a single analysis</seg>
+                  </p>
+               </note>NB This is appended to 83-10-26; I am not sure it should be</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="number" xml:lang="en">83.00.00e</p>
             <p rend="correspondent" xml:lang="en">To Maurice Holtze</p>
-            <p rend="location" xml:lang="en">GRG 19/391, State Records of South Australia, Adelaide.</p>
+            <p rend="location" xml:lang="en">GRG 19/391, State Records of South Australia, Adelaide.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <table n="Table1">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Undated fragment. Translations are given in square brackets below the German text.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg style="color: #ff0000; font-weight: bold; ">Probably 1883, but needs careful testing using AVH. There are some oddities; All these lists (rather than 'fragments'??) need a single analysis</seg>
-                  </p>
-               </note>
+            <table n="">
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">208.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Fuirena%20glomerata">Fuirena glomerata</name>, Vahl</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Fuirena glomerata, Vahl</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">209.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Setaria%20glauca">Setaria glauca</name>, Persoon.</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Setaria glauca, Persoon.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">210.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">Frucht erwünscht </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Frucht erwünscht<space unit="chars" quantity="1"/>
+                     </p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[Fruit desired]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">211.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Pluchea%20Eyrea">Pluchea Eyrea</name>, F.v.M</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pluchea Eyrea, F.v.M</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">212</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Eriachne">Eriachne</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eriachne</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">213</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Blumea">Blumea</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Blumea</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">214</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">(Blüthen nothing) </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">(Blüthen nothing)<space unit="chars" quantity="1"/>
+                     </p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(Flowers necessary)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">215</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Epaltes">Epaltes</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Epaltes</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">218</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Parsonsia%20">Parsonsia </name>(ohne Blüthen)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Parsonsia (ohne Blüthen)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[without flowers]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">219.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Petalostigma%20quadriloculare">Petalostigma quadriloculare</name>, FvM (mänliche Pflanze)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Petalostigma quadriloculare, FvM (mänliche Pflanze)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(male plant)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">220.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Mallotus%20">Mallotus </name>(mänl. Pflanze)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Mallotus (mänl. Pflanze)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(male plant)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">221.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Spinifex%20longifolius">Spinifex longifolius</name>, RBr (weibliche Pflanze)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Spinifex longifolius, RBr (weibliche Pflanze)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(female plant)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">222.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="de">Bauhinia (ohne Bl. u Fr. B. Leichhardtii, FvM)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(without flowers and fruit)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">223.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Pterocaulon%20sphacelatus">Pterocaulon sphacelatus</name>, Bentham</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Pterocaulon sphacelatus, Bentham</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">224.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Sterculia%20quadrifida">Sterculia quadrifida</name>, RBr (die Blätter gehören zu einer Rubiacea)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Sterculia quadrifida, RBr (die Blätter gehören zu einer Rubiacea)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
-                        xml:lang="en">[(the leaves belong to a Rubiacea)]</p>
+                        style="font-size: 10pt; hyphenate: false; "
+                        xml:lang="en">[(the leaves belong to a<space unit="chars" quantity="1"/>Rubiacea)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">233.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Helicia%20Australasica">Helicia Australasica</name>, F.v.M (Frucht unbekannt)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Helicia Australasica, F.v.M (Frucht unbekannt)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(Fruit unknown)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">234</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Evolvulus%20linifolius">Evolvulus linifolius</name> L.</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Evolvulus linifolius L.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">236.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Atalaya%20variifolia">Atalaya variifolia</name>, FvM.</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Atalaya variifolia, FvM.</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">237.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">Erythrophlaeum<note xml:id="ftn2" type="footnote" n="2">
-                           <p rend="Footnote"
-                              style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                              xml:lang="en">
-                              <seg style="font-style: italic; ">Erythrophloeum</seg>?</p>
-                        </note> Laboucherii, FvM. (Rinde giftig) (Etwas Rinde für Experimente erwünscht) </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Erythrophlaeum<seg rend="FootnoteReference" style="">
+                           <note type="footnote" xml:id="_ftn1" n="2">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space dim="horizontal" extent="tab"/>
+                                 <seg rend="DefaultParagraphFont" style="font-style: italic; ">Erythrophloeum</seg>?</p>
+                           </note>
+                        </seg>
+                        <space unit="chars" quantity="1"/>Laboucherii, FvM. (Rinde giftig) (Etwas Rinde für Experimente erwünscht)<space unit="chars" quantity="1"/>
+                     </p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
-                        xml:lang="en">[(Bark poisonous)] [(Some bark wanted for experiments)]</p>
+                        style="font-size: 10pt; hyphenate: false; "
+                        xml:lang="en">[(Bark poisonous)]<space unit="chars" quantity="1"/>[(Some bark<space unit="chars" quantity="1"/>wanted<space unit="chars" quantity="1"/>for experiments)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">238</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Casuarina%20equisetifolia">Casuarina equisetifolia</name>, FvM [var.]</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Casuarina equisetifolia, FvM [var.]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">240</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Pongamia%20glabra">Pongamia glabra</name> (Frucht erforderlich)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Pongamia glabra (Frucht erforderlich)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
-                        xml:lang="en">[Fruit required)]</p>
+                        style="font-size: 10pt; hyphenate: false; "
+                        xml:lang="en">[Fruit<space unit="chars" quantity="1"/>required)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">241</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="de">(Nur Spuren von Blumen und keine Früchte)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(Only traces of flowers and no fruit)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">242</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Albizzia%20monilifera">Albizzia monilifera</name>, FvM</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Albizzia monilifera, FvM</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">243.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Utricularia%20">Utricularia </name>(abgeblüht)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Utricularia (abgeblüht)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(deflorate)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">244</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Jasminum%20simplicifolium%20">Jasminum simplicifolium </name>Forst (eine schmalblättrige Var.)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Jasminum simplicifolium Forst (eine schmalblättrige Var.)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(a narrow-leaved variety)]</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">247.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Osbeckia%20Australiana">Osbeckia Australiana</name>, Naudin</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Osbeckia Australiana, Naudin</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">248</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Nymphaea%20stellata">Nymphaea stellata</name>, Willdenow</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Nymphaea stellata, Willdenow</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">249.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="de">
-                        <name key="Hibbertia%20Goyderi">Hibbertia Goyderi</name>, F.v.M (Reife Frucht unbekannt)</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="de">Hibbertia Goyderi, F.v.M (Reife Frucht unbekannt)</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 10pt; "
+                        style="font-size: 10pt; hyphenate: false; "
                         xml:lang="en">[(Ripe fruit unknown)]</p>
                   </cell>
                </row>
@@ -555,80 +510,85 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Albizzia%20monilifera">Albizzia monilifera</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Albizzia monilifera</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Atalaya variifolia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Bauhinia Leichhardtii</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Blumea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Casuarina equisetifolia</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Epaltes</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eriachne</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Erythrophlaeum<space unit="chars" quantity="1"/>Laboucherii<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Atalaya%20variifolia">Atalaya variifolia</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Evolvulus linifolius</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Fuirena glomerata</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Helicia Australasica</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Hibbertia Goyderi</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Jasminum simplicifolium<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Bauhinia%20Leichhardtii">Bauhinia Leichhardtii</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Mallotus<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Blumea">Blumea</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Nymphaea stellata</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Osbeckia Australiana</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Parsonsia<space unit="chars" quantity="1"/>
             </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Casuarina%20equisetifolia">Casuarina equisetifolia</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Epaltes">Epaltes</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eriachne">Eriachne</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Erythrophlaeum%20Laboucherii%20">Erythrophlaeum Laboucherii </name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Evolvulus%20linifolius">Evolvulus linifolius</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Fuirena%20glomerata">Fuirena glomerata</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Helicia%20Australasica">Helicia Australasica</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Hibbertia%20Goyderi">Hibbertia Goyderi</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Jasminum%20simplicifolium%20">Jasminum simplicifolium </name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Mallotus%20">Mallotus </name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Nymphaea%20stellata">Nymphaea stellata</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Osbeckia%20Australiana">Osbeckia Australiana</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Parsonsia%20">Parsonsia </name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Petalostigma%20quadriloculare">Petalostigma quadriloculare</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pluchea%20Eyrea">Pluchea Eyrea</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pongamia%20glabra">Pongamia glabra</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Pterocaulon%20sphacelatus">Pterocaulon sphacelatus</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Setaria%20glauca">Setaria glauca</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Spinifex%20longifolius">Spinifex longifolius</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Sterculia%20quadrifida">Sterculia quadrifida</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Utricularia%20">Utricularia </name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Petalostigma quadriloculare</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pluchea Eyrea</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pongamia glabra</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pterocaulon sphacelatus</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Setaria glauca</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Spinifex longifolius</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Sterculia quadrifida</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Utricularia<space unit="chars" quantity="1"/>
             </p>
          </div>
       </body>

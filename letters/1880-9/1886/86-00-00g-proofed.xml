@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [This is once more an interesting consignment, especially as we did not previously know a number of the plants from  ¶ North-West ¶  Australia. The seeds are also very welcome.]...</title>
+            <title> ¶ [This is once more an interesting consignment, especially as we did not previously know a number of the plants from ¶  ¶ North-West ¶  ¶ Australia. The seeds are also very welcome.] ¶ Aspidium exal...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [This is once more an interesting consignment, especially as we did not previously know a number of the plants from  ¶ North-West ¶  Australia. The seeds are also very welcome.]...</title>
+               <title> ¶ [This is once more an interesting consignment, especially as we did not previously know a number of the plants from ¶  ¶ North-West ¶  ¶ Australia. The seeds are also very welcome.] ¶ Aspidium exal...</title>
                <date when="1886">1886</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,39 +55,30 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Panicum trachyrhachis</term>
-               <term>Aspidium exaltatum</term>
-               <term>Eragrostis tenella</term>
-               <term>Psoralea Badocana</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/0dfa19fc-d310-4ef8-b74f-fbbc659617d9">Fimbristylis</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/defa3b7e-c39d-4a15-834b-26e68f5962f2">Eragrostis</term>
-               <term>Triumfetta</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/228502bc-91af-4c72-a452-284130a5c3ea">Cyperus</term>
-            </keywords>
             <keywords scheme="#features">
                <term>table</term>
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
+               <term>Progressnote</term>
+               <term>FootnoteText</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
+               <term>Normal</term>
                <term>underline</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="75">English</language>
-            <language ident="de" usage="25">German</language>
+            <language ident="en" usage="69">English</language>
+            <language ident="de" usage="31">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -106,202 +91,251 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [This is once more an interesting consignment, especially as we did not previously know a number of the plants from  ¶ North-West ¶  Australia. The seeds are also very welcome.]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [This is once more an interesting consignment, especially as we did not previously know a number of the plants from ¶  ¶ North-West ¶  ¶ Australia. The seeds are also very welcome.] ¶ Aspidium exal...</supplied>
             </head>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; break-before: page; "
+               xml:lang="de">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Undated fragment.<space unit="chars" quantity="1"/>Translations are given, where needed, in square brackets below the relevant text.</p>
+               </note>Second col in prep for dating</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="number" xml:lang="de">86.00.00g</p>
             <p rend="correspondent" xml:lang="de">To Maurice Holtze</p>
-            <p rend="location" xml:lang="de">GRG 19/391, State Records of South Australia, Adelaide.</p>
+            <p rend="location" xml:lang="de">GRG 19/391, State Records of South Australia, Adelaide.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <table n="Table1">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Undated fragment. Translations are given, where needed, in square brackets below the relevant text.</p>
-               </note>
+            <table n="">
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">614.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Psoralea%20Badocana">Psoralea Badocana</name>, Benth.</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Psoralea Badocana, Benth.</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">1886</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">615</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Spinifex longifolius R Br</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">männliche Pflanze.</p>
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg style="">[</seg>
-                        <seg style="font-size: 10pt; ">male plant.]</seg>
+                        <seg rend="DefaultParagraphFont" style="">[</seg>
+                        <seg rend="DefaultParagraphFont" style="font-size: 10pt; ">male plant.]</seg>
                      </p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="Normal"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">1886</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">616</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Triumfetta">Triumfetta</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Triumfetta</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">Not present</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">617.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Aspidium%20exaltatum">Aspidium exaltatum</name>, Swartz</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Aspidium exaltatum, Swartz</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">1886</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">618.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Eragrostis">Eragrostis</name>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eragrostis</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">Only as JEWT &amp; MH, 1886</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">619.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <seg style="">
-                           <name key="Cyperus">Cyperus</name>
-                        </seg>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Cyperus</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">Not present</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">620</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Panicum</p>
                   </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">1886</p>
+                  </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">621.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Panicum%20trachyrhachis">Panicum trachyrhachis</name>, Bentham</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Panicum trachyrhachis, Bentham</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">1886</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">622</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Eragrostis%20tenella">Eragrostis tenella</name>, Beauvois</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Eragrostis tenella, Beauvois</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">1886</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">623.</p>
                   </cell>
-                  <cell style="padding-left: 0.075in; padding-right: 0.075in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
-                        xml:lang="en">
-                        <name key="Fimbristylis">Fimbristylis</name>.</p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Fimbristylis.</p>
+                  </cell>
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; background-color: #FFFF00; "
+                        xml:lang="en">Only as JEWT &amp; MH, 1886</p>
                   </cell>
                </row>
             </table>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>Dies ist wieder eine interessante Zusendung, zumal da wir manche der Pflanzen früher noch nicht aus dem </seg>
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>Dies ist wieder eine interessante Zusendung, zumal da wir manche der Pflanzen früher noch nicht aus dem<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Nordwesten</hi>
                </seg>
-               <seg style=""> Australiens kannten. </seg>Die Samen sind auch sehr willkommen</p>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>Australiens kannten.<space unit="chars" quantity="1"/>
+               </seg>Die Samen sind auch sehr willkommen</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[This is once more an interesting consignment, especially as we did not previously know a number of the plants from <seg style="">
+               <space dim="horizontal" extent="tab"/>[This is once more an interesting consignment, especially as we did not previously know a number of the plants from<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">North-West</hi>
-               </seg> Australia. The seeds are also very welcome.]</p>
+               </seg>
+               <space unit="chars" quantity="1"/>Australia. The seeds are also very welcome.]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Aspidium%20exaltatum">Aspidium exaltatum</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cyperus">Cyperus</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eragrostis">Eragrostis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Eragrostis%20tenella">Eragrostis tenella</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Fimbristylis">Fimbristylis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Panicum%20trachyrhachis">Panicum trachyrhachis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Psoralea%20Badocana">Psoralea Badocana</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Triumfetta">Triumfetta</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Aspidium exaltatum</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cyperus</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eragrostis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Eragrostis tenella</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Fimbristylis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Panicum trachyrhachis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Psoralea Badocana</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Triumfetta</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
