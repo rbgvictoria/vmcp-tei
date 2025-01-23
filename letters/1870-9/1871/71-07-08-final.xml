@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter &amp; minute book, p. 50, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter &amp; minute book, p. 50, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>71.07.08</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -93,50 +88,62 @@
                <supplied reason="XTF-compatibility">Melbourne Botanic Garden, ¶ 8/7/71 ¶ Sir, ¶  ¶ At a meeting held yesterday, the trustees of the Royal Park were informed, that by fencing the additional piece of land, proposed to be added to the Brun...</supplied>
             </head>
             <p rend="number" xml:lang="en">71.07.08</p>
-            <p rend="correspondent" xml:lang="en">To Frederick Miles</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter &amp; minute book, p. 50, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Frederick<space unit="chars" quantity="1"/>Miles</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter &amp; minute book, p. 50, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne Botanic Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">8/7/71</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>At a meeting held yesterday, the trustees of the Royal Park were informed, that by fencing the additional piece of land, proposed to be added to the Brunswick Cricket Ground, an encroachment will take on an existing road, and the trustees have directed me to state to the Brunswick Council, that the concession made for the extension of the Cricket ground was herewith revoked, if any portion of the road was to be encroached on, and that (would)<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The brackets and a small question-mark beneath this word suggest a query by the clerk who wrote out the file copy.</p>
-               </note> under such circumstances it would be necessary for the Council to come to some arrangement with the trustees for a readjustment of the intended new line of the cricket ground.</p>
+               <space dim="horizontal" extent="tab"/>At a meeting held yesterday, the trustees of the Royal Park were informed, that by fencing the additional piece of land, proposed to be added to the Brunswick Cricket Ground, an encroachment will take on an existing road, and the trustees have directed me to state to the Brunswick Council, that the concession made for the extension of the Cricket ground was herewith<space unit="chars" quantity="1"/>revoked, if any portion of the road was to be encroached on, and that (would)<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The brackets and a small question-mark beneath this word suggest a query by the clerk who wrote out the file copy.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>under such circumstances it would be necessary for the Council to come to some arrangement with the trustees for a readjustment of the intended new line of the cricket ground.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Permission had been granted in M to F. Miles, 28 April 1871.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I may add that on the small sketch plan, submitted by you, no indication of an interference with the existing road is indicated.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your obedient Servant.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>(signed) Ferd von Mueller, M.D.,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -144,10 +151,10 @@
                <space dim="horizontal" extent="tab"/>Hon Secr. Trustees of Royal Park</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">F. G. Miles Esq,</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">F.<space unit="chars" quantity="1"/>G. Miles Esq,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Town Clerk of Brunswick</p>
          </div>
       </body>

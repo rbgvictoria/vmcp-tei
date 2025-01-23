@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter &amp; minute book, p.52, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter &amp; minute book, p.52, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>72.02.26</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -93,45 +88,50 @@
                <supplied reason="XTF-compatibility">Melbourne Botanic Garden 26/2/72 ¶ Sir ¶  ¶ I have been instructed by the Trustees of the Royal Park at a meeting held this day, to draw your attention to the circumstance that as yet the inner fences...</supplied>
             </head>
             <p rend="number" xml:lang="en">72.02.26</p>
-            <p rend="correspondent" xml:lang="en">To Frederick Miles</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter &amp; minute book, p.52, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Frederick<space unit="chars" quantity="1"/>Miles</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter &amp; minute book, p.52, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne Botanic Garden 26/2/72</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have been instructed by the Trustees of the Royal Park at a meeting held this day, to draw your attention to the circumstance that as yet the inner fences for the cricket ground of the Brunswick municipality within the Royal Park have not been formed, and that also the promise of effecting tree plantations around the ground remained unredeemed. The Trustees wish me to remind you that on these conditions depends the continuance of the permission of occupation of the ground, and my colleagues feel sure that your Council will not allow the new season for planting to pass without the improvements mutually agreed on, and in accordance with my letter of 28th April 1871 being carried out<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to F. Miles, 4 May 1872.</p>
-               </note>
-            </p>
+               <space dim="horizontal" extent="tab"/>I have been instructed by the Trustees of the Royal Park at a meeting held this day, to draw your attention to the circumstance that as yet the inner fences for the cricket ground of the Brunswick municipality within the Royal Park have not been formed, and that also the promise of effecting tree plantations around the ground remained unredeemed.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M to F. Miles, 4 May 1872 had offered to provide young trees.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The Trustees wish me to remind you that on these conditions depends<space unit="chars" quantity="1"/>the continuance of the permission of occupation of the ground, and my colleagues feel sure that your Council will not allow the new season for planting to pass without the improvements mutually agreed on, and in accordance with my letter of 28th April 1871 being carried out</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Your obedient </p>
+               <space dim="horizontal" extent="tab"/>Your obedient<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>(signed) Ferd. von Mueller</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Hon Sec. Trust. Royal Park</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Town-clerk of Brunswick.</p>
          </div>
       </body>
