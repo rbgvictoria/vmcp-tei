@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne Botan. Garden ¶ 30/7/70 ¶ Sir ¶  ¶ I have the honor to inform you that it is the intention of the Trustees of the Royal Park to hold early a meeting, to adopt measures for the better protect...</title>
+            <title>Melbourne Botanic Garden ¶ 20/7/70 ¶ Sir ¶  ¶ I have the honor to inform you, that at a meeting of the Trustees of the Royal Park, held on the 18th inst., the attention of my colleagues was directed b...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,26 +15,26 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-07-30-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-07-20a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter &amp; minute book, p. 45, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter &amp; minute book, p.40-1, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
-                     <idno>70.07.30</idno>
+                     <idno>70.07.20a</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne Botan. Garden ¶ 30/7/70 ¶ Sir ¶  ¶ I have the honor to inform you that it is the intention of the Trustees of the Royal Park to hold early a meeting, to adopt measures for the better protect...</title>
-               <date when="1870-07-30">1870-07-30</date>
+               <title>Melbourne Botanic Garden ¶ 20/7/70 ¶ Sir ¶  ¶ I have the honor to inform you, that at a meeting of the Trustees of the Royal Park, held on the 18th inst., the attention of my colleagues was directed b...</title>
+               <date when="1870-07-20">1870-07-20</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-07-30-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-07-20a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#features">
-               <term>note</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
@@ -64,9 +61,6 @@
                <term>location</term>
                <term>valediction</term>
                <term>letter</term>
-               <term>FootnoteReference</term>
-               <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -77,7 +71,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Clement Hodgkinson</name>
+               <name>Frederick Standish</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -86,44 +80,29 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne Botan. Garden ¶ 30/7/70 ¶ Sir ¶  ¶ I have the honor to inform you that it is the intention of the Trustees of the Royal Park to hold early a meeting, to adopt measures for the better protect...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne Botanic Garden ¶ 20/7/70 ¶ Sir ¶  ¶ I have the honor to inform you, that at a meeting of the Trustees of the Royal Park, held on the 18th inst., the attention of my colleagues was directed b...</supplied>
             </head>
-            <p rend="number" xml:lang="en">70.07.30</p>
-            <p rend="correspondent" xml:lang="en">To Clement Hodgkinson</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter &amp; minute book, p. 45, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="number" xml:lang="en">70.07.20a</p>
+            <p rend="correspondent" xml:lang="en">To Frederick Standish</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter &amp; minute book, p.40-1, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
-               xml:lang="en">Melbourne Botan. Garden</p>
+               xml:lang="en">Melbourne Botanic Garden</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; text-align: end; "
-               xml:lang="en">30/7/70</p>
+               xml:lang="en">20/7/70</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you that it is the intention of the Trustees of the Royal Park to hold early a meeting, to adopt measures for the better protection and conservation of the Park. I am directed by the Trustees, at a meeting held yesterday, to ask you to be so good to name a day and hour, at which it would be convenient to you to attend, with a view of aiding the Trustees with your advise<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn0" n="1">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">sic</seg>
-                     </p>
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
-                           <space dim="horizontal" extent="tab"/>Anything in minutes - is this letter also in lands?</seg>
-                     </p>
-                  </note>
-               </seg>
-               <space unit="chars" quantity="1"/>on the above subject.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that at a meeting of the Trustees of the Royal Park, held on the 18th inst., the attention of my colleagues was directed by Mr Alb. Le Souef, the agent of the Trustees, to the inadequate police protection of the Park; and I was directed by the Trustees to solicit, that a constable may be sent to the Park on Sundays and on holidays and at any other time when multitudes assemble at the Park, as the employees have found it impossible to secure respect for the Parks regulations without being upheld in their authority by the presence of some member of the public force.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
-               xml:lang="en">I have the honor to be</p>
+               xml:lang="en">I have the honor to be<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
@@ -132,24 +111,27 @@
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>Your obedient</p>
+               <space dim="horizontal" extent="tab"/>Your obedient servant</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>F. von Mueller</p>
+               <space dim="horizontal" extent="tab"/>(signed) F. von Mueller</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>Hon. Sec.</p>
+               <space dim="horizontal" extent="tab"/>Hon. Sec. Trustees Royal Park</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">Cl. Hodgkinson Esq.</p>
+               xml:lang="en">Capt Standish</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Chief Commissioner of Police.</p>
          </div>
       </body>
    </text>
