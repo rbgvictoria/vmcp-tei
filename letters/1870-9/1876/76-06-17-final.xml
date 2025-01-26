@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter &amp; minute book, p.59, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter &amp; minute book, p.59, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>76.06.17</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,7 +64,8 @@
                <term>location</term>
                <term>letter</term>
                <term>valediction</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,47 +89,51 @@
             </head>
             <p rend="number" xml:lang="en">76.06.17</p>
             <p rend="correspondent" xml:lang="en">To Walter MacFarlane</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter &amp; minute book, p.59, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter &amp; minute book, p.59, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne, 17/6/76</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have been desired by the Trustees of the Royal Park, in reply to your letter addressed to the Hon. T. J. Sumner our chairman, to inform you that my colleagues would be ready to receive a deputation from the Agricultural Society on Tuesday next, the 20th. inst. at half past two p.m. in the office room of the Acclimation Society, 69 Temple Court.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Walter MacFarlane Esq</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Secretary to the Agricultural Society of Victoria<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The Victorian Agricultural Society wished to propose that an area of about 25 acres of the Royal Park facing Flemington Road at the city end be made over to the Society as an Agricultural Show Reserve; see minutes of the meeting of the Trustees, 16 June 1876. See also M to W. MacFarlane, 22 June 1876.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Secretary to the Agricultural Society of Victoria<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The Victorian Agricultural<space unit="chars" quantity="1"/>Society wished to propose that<space unit="chars" quantity="1"/>an area of about 25 acres of the Royal Park facing Flemington Road at the city end be made over to the Society as an Agricultural Show Reserve<space unit="chars" quantity="1"/>
+                        <space unit="chars" quantity="1"/>(minutes of the meeting of the Trustees, 16 June 1876.)<space unit="chars" quantity="1"/>See also M to W. MacFarlane, 22 June 1876, and notes thereto which discuss the fate of the application.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

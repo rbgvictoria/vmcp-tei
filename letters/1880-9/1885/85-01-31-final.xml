@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter &amp; minute book, pp.69-70, Mitchell Library, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter &amp; minute book, pp.69-70, Mitchell Library,State Library of New South Wales,Sydney.</msName>
                   <altIdentifier>
                      <idno>85.01.31</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,18 +55,19 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
+               <term>hyperlink</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>Hyperlink</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,42 +92,63 @@
             </head>
             <p rend="number" xml:lang="en">85.01.31</p>
             <p rend="correspondent" xml:lang="en">To Graham Berry</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter &amp; minute book, pp.69-70, Mitchell Library, Sydney.</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter &amp; minute book, pp.<space unit="chars" quantity="1"/>69-70, Mitchell Library,<space unit="chars" quantity="1"/>State Library of New South Wales,<space unit="chars" quantity="1"/>Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne, 31st January 1885</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you that at a meeting of the Trustees of the Royal Park, held yesterday, a letter was submitted by the hon. manager, received from the Town Council of Hotham,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Now North Melbourne.</p>
-               </note> urging the removal of the building used as a Girls Receiving House in the Park. After due deliberation it was resolved "that a copy of the letter be forwarded to the Government respectfully asking that the opinion of the Honorable the Attorney General be obtained on the subject, but at the same time the Trustees desire to intimate that they have no wish to embarrass the Government in any way concerning this matter["].</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to inform you that at a meeting of the Trustees of the Royal Park, held yesterday, a letter was submitted by the hon. manager, received from the Town Council of Hotham,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Now North Melbourne.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>urging the removal of the building used as a Girls Receiving House in the Park.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The Girls Receiving House was<space unit="chars" quantity="1"/>then<space unit="chars" quantity="1"/>situated in the old Powder Magazine;<space unit="chars" quantity="1"/>new buildings were approved in 1887,<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">see Public Record Office of Victoria, '<seg rend="DefaultParagraphFont" style="">Boys' and Girls' Depot Royal Park Receiving Depot (also known as Royal Park Receiving Depot, Royal Park Receiving House and Royal Park Depot)</seg>
+                        <seg rend="DefaultParagraphFont" style="">',<space unit="chars" quantity="1"/>
+                        </seg>
+                        <ref target="https://prov.vic.gov.au/archive/VA5103/about">
+                           <seg rend="Hyperlink" style="color: #467886; ">https://prov</seg>
+                           <seg rend="Hyperlink" style="color: #467886; ">.</seg>
+                           <seg rend="Hyperlink" style="color: #467886; ">vic.gov.au/archive/VA5103/about</seg>
+                        </ref>.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>After due deliberation it was resolved "that a copy of the letter be forwarded to the Government respectfully asking that the opinion of the Honorable the Attorney General be obtained on the subject, but at the same time the Trustees desire to intimate that they have no wish to embarrass the Government in any way concerning this<space unit="chars" quantity="1"/>matter["].</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Honorable</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">the Chief Secretary</p>
          </div>
       </body>

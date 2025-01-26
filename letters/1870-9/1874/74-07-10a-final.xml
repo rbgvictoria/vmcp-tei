@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter &amp; minute book, p.57, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter &amp; minute book, p.57, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>74.07.10a</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,7 +64,8 @@
                <term>location</term>
                <term>letter</term>
                <term>valediction</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,36 +89,39 @@
             </head>
             <p rend="number" xml:lang="en">74.07.10a</p>
             <p rend="correspondent" xml:lang="en">To Thomas Power</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter &amp; minute book, p.57, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter &amp; minute book, p.57, Mitchell Library, State Library of New South Wales, Sydney.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">South Yarra, 10/7/74</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>At a meeting of the Trustees of the Royal Park held this day I have duly laid your application and plan for fencing off an area in the Royal Park for the special use of the Carlton Football Club before my co-trustees, and I was directed to inform you that, with all their desire of facilitating recreative enjoyments, they for some time have held the conviction that it is most undesirable to allow any club or society the privilege for fencing in any portion of the public reserve in their charge, and therefore they cannot accede to the request of the Carlton Football Club.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I remain, dear Mr. Power, regardfully yours</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">T. Power Esq</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Hon Secretary of the Carlton Football Club.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to T. Power, 16 June 1874 (in this edition as 74-06-16b), and M to T. Power, 19 June 1874.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Hon Secretary of the Carlton Football Club.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See also M to T. Power, 16 June<space unit="chars" quantity="1"/>1874 (in this edition as 74-06-16b), and M to T. Power, 19 June 1874.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>A345 Royal Park Zoological Society letter &amp; minute book, p.66, Mitchell Library, State Library of New South Wales, Sydney.</msName>
+                  <msName>A345 Royal ParkTrusteesletter &amp; minute book, p.66, Mitchell Library, State Library of New South Wales, Sydney.</msName>
                   <altIdentifier>
                      <idno>81.07.30a</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -93,76 +89,89 @@
                <supplied reason="XTF-compatibility">Melbourne, 30/7/81 ¶ Sir ¶  ¶ I have the honor to inform you that at a meeting of the Trustees of the Royal Park, held yesterday, it was resolved to ask you to grant them an interview, as they are anx...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.07.30a</p>
-            <p rend="correspondent" xml:lang="en">To Thomas Bent</p>
-            <p rend="location" xml:lang="en">A345 Royal Park Zoological Society letter &amp; minute book, p.66, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Thomas Bent</p>
+            <p rend="location" xml:lang="en">A345 Royal Park<space unit="chars" quantity="1"/>Trustees<space unit="chars" quantity="1"/>letter &amp; minute book, p.66, Mitchell Library, State Library of New South Wales, Sydney.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>When the O'Loghlen ministry was sworn in on 9 July 1881, no Minister of Public Works was appointed. Two days later, it was announced that the Minister for Railways, Thomas Bent, would stand in temporarily (<seg style="font-style: italic; ">Argus</seg>, 12 July 1881). No Minister was formally appointed until 19 August, when Charles Young was sworn in as Commissioner of Public Works.</p>
+                     <space dim="horizontal" extent="tab"/>When the O'Loghlen ministry was sworn in on 9 July 1881, no Minister of Public Works was appointed. Two days later, it was announced that the Minister for Railways, Thomas Bent, would stand in temporarily (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 12 July 1881). No Minister was formally appointed until 19 August, when Charles Young was sworn in as Commissioner of Public Works.</p>
                </note>Melbourne, 30/7/81</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you that at a meeting of the Trustees of the Royal Park, held yesterday, it was resolved to ask you to grant them an interview, as they are anxious that the building formerly used as a powder-magazine should be removed from the Park and that the two adjoining cottages should be handed over to the Trustees. As my colleagues are simultaneously seeking as a depution<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>deputation?</p>
-               </note> to obtain an interview with the Honorable the Minister of the Lands-Department for obtaining a small grant for improvements in the Park,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See M to D. Gaunson, 30 July 1881.</p>
-               </note> perhaps my colleagues may be allowed at the same hour to wait on you also.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to inform you that at a meeting of the Trustees of the Royal Park, held yesterday, it was resolved to ask you to grant them an interview, as they are anxious that the building formerly used as a powder-magazine<space unit="chars" quantity="1"/>should be removed from the Park and that the two adjoining cottages should be handed over to the Trustees. As my colleagues are simultaneously seeking as a depution<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>deputation?<space unit="chars" quantity="1"/>A deputation met with Bent on 12 August 1881, and were told that the site was being considered as a location for a Railway Station (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 15 August 1881, p. 6).<space unit="chars" quantity="1"/>The<space unit="chars" quantity="1"/>Royal Park<space unit="chars" quantity="1"/>station, on the Inner Circle line,<space unit="chars" quantity="1"/>opened in 1888.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to obtain an interview with the Honorable the Minister of the Lands-Department for obtaining a small grant for improvements in the Park,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M to D. Gaunson, 30 July 1881.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>perhaps my colleagues may be allowed at the same hour to wait on you also.</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <seg style="">Sir</seg>
+               <seg rend="DefaultParagraphFont" style="">Sir</seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
                   <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
                   <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
                   <space dim="horizontal" extent="tab"/>
                </seg>Hon. Sec. Trustees Royal Park</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Honorable</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">the Minister of</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Public Works.</p>
          </div>
       </body>
