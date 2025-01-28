@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>REGIA SOCIETAS SCIENTIARUM UPSALIENSIS, ¶ Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, horti bo...</title>
+            <title>REGIA SOCIETAS SCIENTIARUM ¶  ¶ UPSALIENSIS, ¶ Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, hor...</title>
             <author>the Royal Society of Sciences of Uppsala</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>RB MSS M200b.55, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <msName>RB MSSM200b.55, Library, Royal Botanic Gardens Melbourne.</msName>
                   <altIdentifier>
                      <idno>87.11.25</idno>
                   </altIdentifier>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>the Royal Society of Sciences of Uppsala</author>
-               <title>REGIA SOCIETAS SCIENTIARUM UPSALIENSIS, ¶ Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, horti bo...</title>
+               <title>REGIA SOCIETAS SCIENTIARUM ¶  ¶ UPSALIENSIS, ¶ Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, hor...</title>
                <date when="1887-11-25">1887-11-25</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,18 +55,17 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,51 +85,62 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">REGIA SOCIETAS SCIENTIARUM UPSALIENSIS, ¶ Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, horti bo...</supplied>
+               <supplied reason="XTF-compatibility">REGIA SOCIETAS SCIENTIARUM ¶  ¶ UPSALIENSIS, ¶ Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, hor...</supplied>
             </head>
-            <p rend="number" xml:lang="en">87.11.25</p>
-            <p rend="correspondent" xml:lang="en">From the Royal Society of Sciences of Uppsala</p>
-            <p rend="location" xml:lang="en">RB MSS M200b.55, Library, Royal Botanic Gardens Melbourne.</p>
+            <p rend="number" xml:lang="en">87.11.25<seg rend="FootnoteReference" style=""/>
+            </p>
+            <p rend="correspondent" xml:lang="en">From the<space unit="chars" quantity="1"/>Royal Society of Sciences<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>Uppsala</p>
+            <p rend="location" xml:lang="en">RB MSS<space unit="chars" quantity="1"/>M200b.55, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
                      <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">Proofed. to translate.</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">P</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">roof</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">ed</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">. to translate.</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS is a printed certificate, with the signatures added by hand.</p>
-               </note>REGIA SOCIETAS SCIENTIARUM UPSALIENSIS,</p>
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS is a printed certificate, with the signatures added by hand.</p>
+               </note>REGIA SOCIETAS SCIENTIARUM<space unit="chars" quantity="1"/>UPSALIENSIS,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="en">Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, horti botanici melbournensis directorem celeberrimum, sui collegii socium ordinarium esse decrevit,<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The category of membership to which M was elected at this time was 'foreign member' (information provided by Professor H. Ellegren, Secretary, Royal Society of Sciences of Uppsala, 8 April 2020). He had previously been a corresponding member; see Royal Society of Sciences of Uppsala to M, 14 March 1862 (in this edition as 62-03-14a).</p>
-               </note> quod patentibus hisce litteris testatum voluit.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Die XXV mensis Novembris anni MDCCCLXXXVII, virum studio litterarum illustrem, praeclaris in scientias meritis inclytum Dominum Ferdinandum a Müller, horti botanici melbournensis directorem celeberrimum, sui collegii socium ordinarium esse decrevit,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The category of membership to which M was elected at this time was 'foreign member' (information provided by Professor H. Ellegren, Secretary, Royal Society of Sciences of Uppsala, 8 April 2020). He had previously been a corresponding member; see Royal Society of Sciences of Uppsala to M, 14 March 1862 (in this edition as 62-03-14a).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>quod patentibus hisce litteris testatum voluit.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="en">Frithiof Holmgren Praeses Reg. Soc.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Frithiof Holmgren<space unit="chars" quantity="1"/>Praeses Reg. Soc.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">Rob. Thalén Reg. Soc. a Secretis.</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Rob. Thalén<space unit="chars" quantity="1"/>Reg. Soc. a Secretis.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">Royal Society of Sciences of Uppsala</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
-               xml:lang="en">On 25 November 1887, <seg style="background-color: #ffff00; ">complete translation</seg>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">On 25 November 1887,<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">complete translation</seg>
             </p>
          </div>
       </body>
