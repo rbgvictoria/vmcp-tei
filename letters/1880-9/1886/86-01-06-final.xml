@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The Zoological Society of London, ¶ have at their General Monthly Meeting ¶ held this ¶ 17th ¶  ¶ day of ¶ October ¶  ¶ 18 ¶ 61 ¶ Elected ¶ Dr F. Mueller...</title>
-            <author>the Zoological Society of London</author>
+            <title>Boston Society of Natural history. ¶ Be it known tha ¶ t ¶ Baron Ferd. von Müller ¶ has been elected a ¶ Corresponding ¶  ¶ Member of the ¶ BOSTON SOCIETY OF NATURAL HISTORY....</title>
+            <author>the Boston Society of Natural History</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
                <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
@@ -15,26 +15,26 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-10-17-proofed.doc</idno>
+            <idno type="filename">data/letters/1880-9/1886/86-01-06-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>RB MSS M200, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <msName>RB MSS M200b.32, Library, Royal Botanic Gardens Melbourne.</msName>
                   <altIdentifier>
-                     <idno>61.10.17</idno>
+                     <idno>86.01.06</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
-               <author>the Zoological Society of London</author>
-               <title>The Zoological Society of London, ¶ have at their General Monthly Meeting ¶ held this ¶ 17th ¶  ¶ day of ¶ October ¶  ¶ 18 ¶ 61 ¶ Elected ¶ Dr F. Mueller...</title>
-               <date when="1861-10-17">1861-10-17</date>
+               <author>the Boston Society of Natural History</author>
+               <title>Boston Society of Natural history. ¶ Be it known tha ¶ t ¶ Baron Ferd. von Müller ¶ has been elected a ¶ Corresponding ¶  ¶ Member of the ¶ BOSTON SOCIETY OF NATURAL HISTORY....</title>
+               <date when="1886-01-06">1886-01-06</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-10-17-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1886/86-01-06-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -85,11 +85,11 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">The Zoological Society of London, ¶ have at their General Monthly Meeting ¶ held this ¶ 17th ¶  ¶ day of ¶ October ¶  ¶ 18 ¶ 61 ¶ Elected ¶ Dr F. Mueller...</supplied>
+               <supplied reason="XTF-compatibility">Boston Society of Natural history. ¶ Be it known tha ¶ t ¶ Baron Ferd. von Müller ¶ has been elected a ¶ Corresponding ¶  ¶ Member of the ¶ BOSTON SOCIETY OF NATURAL HISTORY....</supplied>
             </head>
-            <p rend="number" xml:lang="en">61.10.17</p>
-            <p rend="correspondent" xml:lang="en">From<space unit="chars" quantity="1"/>the Zoological Society of London</p>
-            <p rend="location" xml:lang="en">RB MSS M200, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style=""/>
+            <p rend="number" xml:lang="en">86.01.06</p>
+            <p rend="correspondent" xml:lang="en">From the Boston Society of Natural History</p>
+            <p rend="location" xml:lang="en">RB MSS M200b.32, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -99,51 +99,49 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>MS is a decorated certificate.</p>
+                     <space dim="horizontal" extent="tab"/>MS is a certificate with the Society's seal.</p>
                </note>
-               <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">The Zoological Society of London,</seg>
+               <seg rend="formtext" style="color: #2F5496; ">Boston Society of Natural history.</seg>
             </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; ">have at their General Monthly Meeting</seg>
+               <seg rend="formtext" style="color: #2F5496; ">Be it known tha</seg>
+               <seg rend="formtext" style="color: #2F5496; ">t</seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">Baron Ferd. von Müller</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">
+               <seg rend="formtext" style="color: #2F5496; ">has been elected a<space unit="chars" quantity="1"/>
+               </seg>Corresponding<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">Member of the</seg>
             </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; ">held this<space unit="chars" quantity="1"/>
-               </seg>17th<space unit="chars" quantity="1"/>
-               <seg rend="formtext" style="color: #2F5496; ">day of<space unit="chars" quantity="1"/>
-               </seg>October<space unit="chars" quantity="1"/>
-               <seg rend="formtext" style="color: #2F5496; ">18</seg>61</p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; ">Elected</seg>
-            </p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">Dr F. Mueller</p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">Director of the Botanic Gardens at Melbourne,</p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; ">a Corresponding Member of</seg>
+               <seg rend="formtext" style="color: #2F5496; ">BOSTON SOCIETY OF NATURAL HISTORY.</seg>
             </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; ">THE SOCIETY.</seg>
+               <seg rend="formtext" style="color: #2F5496; ">In testimony whereof they have caused these presents to be signed by their President and Secretary, and their Corporate Seal to be affixed at Boston in the Commonwealth of Massachusetts U.S.N.A. this</seg>
+               <space unit="chars" quantity="1"/>sixth<seg rend="formtext" style="color: #2F5496; ">
+                  <space unit="chars" quantity="1"/>day of<space unit="chars" quantity="1"/>
+               </seg>January<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">A.D. 18</seg>86</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Samuel L. Abbot Hon.<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">Secy.</seg>
             </p>
             <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">Philip Lutley Sclater, M.A., Ph.D.</p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; ">Secretary.</seg>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Sam. H. Scudder<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">Prest.</seg>
             </p>
          </div>
       </body>
