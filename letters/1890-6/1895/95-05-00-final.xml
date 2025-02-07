@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Govr Honduras To send supply of Tree seeds to] ¶ This letter was returned to M on 10 June 1895 minuted: 'send seeds'....</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1895/95-05-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>No. 4045, vol. 1895 B, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>95.05.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[Govr Honduras To send supply of Tree seeds to] ¶ This letter was returned to M on 10 June 1895 minuted: 'send seeds'....</title>
+               <date when="1895-05">1895-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1895/95-05-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>DefaultParagraphFont</term>
+               <term>location</term>
+               <term>FootnoteReference</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Alexander Peacock</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[Govr Honduras To send supply of Tree seeds to] ¶ This letter was returned to M on 10 June 1895 minuted: 'send seeds'....</supplied>
+            </head>
+            <p rend="number" xml:lang="en">95.05.00</p>
+            <p rend="correspondent" xml:lang="en">
+               <seg rend="DefaultParagraphFont">To<space unit="chars" quantity="1"/>
+               </seg>Alexander Peacock</p>
+            <p rend="location" xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="color: #000000; ">No. 4045, vol. 1895 B, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria</seg>
+               <seg rend="DefaultParagraphFont">.</seg>
+               <seg rend="FootnoteReference" style=""/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <seg rend="DefaultParagraphFont">
+                        <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, entered on 20 May 1895.</seg>
+                  </p>
+               </note>
+               <seg rend="DefaultParagraphFont">
+                  <space dim="horizontal" extent="tab"/>[Govr Honduras To send supply of Tree seeds to]</seg>
+               <seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont">
+                           <space dim="horizontal" extent="tab"/>This letter was returned to M on 10 June 1895 minuted: 'send seeds'.</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>5/3/92 ¶  ¶ Let me recommend, dear Dr Bride, that Prof Sargents important work ¶  be secured for the Melb public library ¶ Regardfully your ¶  ¶ Ferd. von Mueller...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1892/92-03-05-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>VPRS 805/P000O/162/92-399, inward and outward correspondence — subject, VA 913 Public Library of Victoria, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>92.03.05</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>5/3/92 ¶  ¶ Let me recommend, dear Dr Bride, that Prof Sargents important work ¶  be secured for the Melb public library ¶ Regardfully your ¶  ¶ Ferd. von Mueller...</title>
+               <date when="1892-03-05">1892-03-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1892/92-03-05-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Thomas Bride</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">5/3/92 ¶  ¶ Let me recommend, dear Dr Bride, that Prof Sargents important work ¶  be secured for the Melb public library ¶ Regardfully your ¶  ¶ Ferd. von Mueller...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">92.03.05</p>
+            <p rend="correspondent" xml:lang="en">To Thomas Bride</p>
+            <p rend="location" xml:lang="en">VPRS 805/P000O/162/92-399, inward and outward correspondence — subject, VA 913 Public Library of Victoria, Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">5/3/92</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Let me recommend, dear Dr Bride, that Prof Sargents important work<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Sargent (1891-1902).</p>
+               </note> be secured for the Melb public library<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>See C. Sargent to M, 9 January 1892. MS annotation: 'Informed already in the Library. 28.3.92'. See T. Bride to M, 29 March 1892.</p>
+               </note>
+            </p>
+            <p rend="valediction"
+               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Regardfully your</p>
+            <p rend="valediction"
+               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
+         </div>
+      </body>
+   </text>
+</TEI>

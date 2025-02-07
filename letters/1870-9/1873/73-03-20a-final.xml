@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Melbourne bot. Garden ¶ 20/3/73. ¶  ¶ Baron Von Mueller presents his salutation to the Hon. Secretary of the Academy of Arts and expresses his regret of not having been able to view the pictures &amp;c on...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1873/73-03-20a-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Box 580/1(c), La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>73.03.20a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Melbourne bot. Garden ¶ 20/3/73. ¶  ¶ Baron Von Mueller presents his salutation to the Hon. Secretary of the Academy of Arts and expresses his regret of not having been able to view the pictures &amp;c on...</title>
+               <date when="1873-03-20">1873-03-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1873/73-03-20a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>James Robertson</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 20/3/73. ¶  ¶ Baron Von Mueller presents his salutation to the Hon. Secretary of the Academy of Arts and expresses his regret of not having been able to view the pictures &amp;c on...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">73.03.20a</p>
+            <p rend="correspondent" xml:lang="en">To James Robertson</p>
+            <p rend="location" xml:lang="en">Box 580/1(c), La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">Melbourne bot. Garden</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">20/3/73.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Baron Von Mueller presents his salutation to the Hon. Secretary of the Academy of Arts and expresses his regret of not having been able to view the pictures &amp;c on Saturday, the invitation kindly sent by the Council not having arrived until late of that day.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

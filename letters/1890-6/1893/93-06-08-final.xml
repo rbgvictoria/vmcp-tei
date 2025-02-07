@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>This specimen is quite new to me. I found it yesterday ¶ J L H ¶ 8/6/93...</title>
+            <author>Jessie Hussey</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1893/93-06-08-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Uncatalogued items from Muellerto P. H. MacGillivray, Marine Invertebrate Section, Museum of Victoria, Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>93.06.08</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Jessie Hussey</author>
+               <title>This specimen is quite new to me. I found it yesterday ¶ J L H ¶ 8/6/93...</title>
+               <date when="1893-06-08">1893-06-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1893/93-06-08-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>FootnoteReference</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">This specimen is quite new to me. I found it yesterday ¶ J L H ¶ 8/6/93...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">93.06.08</p>
+            <p rend="correspondent" xml:lang="en">From Jessie Hussey</p>
+            <p rend="location" xml:lang="en">Uncatalogued items from Mueller<space unit="chars" quantity="1"/>to P. H. MacGillivray, Marine Invertebrate Section, Museum of Victoria, Melbourne.<seg rend="FootnoteReference" style=""/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Note found in an envelope addressed by M to P. H. MacGillivray, 19 June 1893.<space unit="chars" quantity="1"/>M is known to have sent to MacGillivray<space unit="chars" quantity="1"/>specimens supplied by Hussey, presumably hydroids growing on the algae<space unit="chars" quantity="1"/>specimens<space unit="chars" quantity="1"/>(M to<space unit="chars" quantity="1"/>P.<space unit="chars" quantity="1"/>MacGillivray, 17 February 1893 (in this edition<space unit="chars" quantity="1"/>as 93-02-17b)).</p>
+               </note>This specimen is quite new to me. I found it yesterday</p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">J L H</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">8/6/93</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,150 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Note for Mr Bentham ¶  ¶ I send a new genus of Rubiaceae from Cape York. It is nearer Morinda than Mussaenda, though it has quite the habit &amp; petaloid large floral leaves of the latter. I have called ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1866/66-06-00b-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RBG Kew, Kew correspondence, Australia, Mueller, 1858-70, f. 15.</msName>
+                  <altIdentifier>
+                     <idno>66.06.00b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>Note for Mr Bentham ¶  ¶ I send a new genus of Rubiaceae from Cape York. It is nearer Morinda than Mussaenda, though it has quite the habit &amp; petaloid large floral leaves of the latter. I have called ...</title>
+               <date when="1866-06">1866-06</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-06-00b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Dichromophyllum</term>
+               <term>Mussaenda</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/7e16374d-05f2-436a-b962-0155162b09a2">Rubiaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/55206723-9916-4b92-802c-a0135561f70f">Morinda</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>George Bentham</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Note for Mr Bentham ¶  ¶ I send a new genus of Rubiaceae from Cape York. It is nearer Morinda than Mussaenda, though it has quite the habit &amp; petaloid large floral leaves of the latter. I have called ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">66.06.00b</p>
+            <p rend="correspondent" xml:lang="en">To George Bentham</p>
+            <p rend="location" xml:lang="en">RBG Kew, Kew correspondence, Australia, Mueller, 1858-70, f. 15.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">MS annotation: 'Vol iii' (i.e. Bentham (1863-78), vol. 3).</p>
+               </note>Note for Mr Bentham</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I send a new genus of <name key="Rubiaceae">Rubiaceae</name> from Cape York. It is nearer <name key="Morinda">Morinda</name> than <name key="Mussaenda">Mussaenda</name>, though it has quite the habit &amp; petaloid large floral leaves of the latter. I have called it <name key="Dichromophyllum">Dichromophyllum</name>.<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">
+                        <name key="Dichromophyllum">Dichromophyllum</name>
+                     </seg> is not listed in IPNI or in M's <seg style="font-style: italic; ">Census</seg>, B89.12.03. It is not given as an herbarium name in any of the Rubiacea descriptions in Bentham (1863-78), vol. 3; but M’s brief description in this note and the comment in G. Bentham to M, 25 September 1866 that Bentham did not think a plant he had received warranted a generic distinction suggests that it is <seg style="font-style: italic; ">
+                        <name key="Morinda">Morinda</name> reticulata</seg> (p. 424). </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>The fragment is dated on the assumption that it would have been sent after M sent his collection of <name key="Rubiaceae">Rubiaceae</name> on 11 January 1865 (Notebook recording despatch of plants for <seg style="font-style: italic; ">Flora Australiensis,</seg> RB, MSS, M44, Library, Royal Botanic Gardens Melbourne), and would have arrived at Kew before September 1866, probably sent in a letter to J. Hooker. Since Bentham commented upon it on 25 September, it probably arrived while Bentham was in the country (G. Bentham to M, 22 July 1866, in which he replied to M to G. Bentham, 26 May 1866). The earliest possible of five letters to Hooker that it could have accompanied is M to J. Hooker, 26 June 1866.</p>
+               </note>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dichromophyllum">Dichromophyllum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Morinda">Morinda</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mussaenda">Mussaenda</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rubiaceae">Rubiaceae</name>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
