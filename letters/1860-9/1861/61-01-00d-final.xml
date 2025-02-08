@@ -1,0 +1,152 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Mr Ramel sends ¶ a ¶ n extract from a letter from Mr ¶ Mueller of Melbourne, who ¶ is ¶ actively preparing for dispatch ¶ numerous ¶ animals or plants, and who ¶ thinks ¶ he ¶ will be able to ¶ inclu...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1861/61-01-00d-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>61.01.00d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[Mr Ramel sends ¶ a ¶ n extract from a letter from Mr ¶ Mueller of Melbourne, who ¶ is ¶ actively preparing for dispatch ¶ numerous ¶ animals or plants, and who ¶ thinks ¶ he ¶ will be able to ¶ inclu...</title>
+               <date when="1861-01">1861-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-01-00d-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="58">English</language>
+            <language ident="de" usage="42">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Prospero Ramel</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[Mr Ramel sends ¶ a ¶ n extract from a letter from Mr ¶ Mueller of Melbourne, who ¶ is ¶ actively preparing for dispatch ¶ numerous ¶ animals or plants, and who ¶ thinks ¶ he ¶ will be able to ¶ inclu...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">61.01.00d</p>
+            <p rend="correspondent" xml:lang="de">To Prospero Ramel</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bulletin de la<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Société Impériale Zoologique d'Acclimatation</seg>, vol. 8 (1861), p. 216. It is dated to January as this is the latest likely date that it could have been sent to enable Ramel to report it to the meeting of the Society held on 19 April 1861.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[M. Ramel fait parvenir l'extrait d'une lettre de M. Mueller, de Melbourne, qui s'occupe activement de préparer l'envoi de nombreux animaux ou végétaux, et qui pense pouvoir y joindre un des plus curieux oiseaux d'ornement, la<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lyre</seg>, qu'on n'a pas encore vu en Europe.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>[Mr Ramel sends</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>a</seg>
+               <seg rend="DefaultParagraphFont" style="">n extract from a letter from Mr</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>Mueller of Melbourne, who<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">is</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>actively preparing for dispatch<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">numerous</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>animals or plants, and who<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">thinks</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>he<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">will be able to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>include one of the most curious ornamental birds, the<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lyre</seg>
+               <seg rend="DefaultParagraphFont" style="">, which has not yet been seen in Europe.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See also M to<space unit="chars" quantity="1"/>R.<space unit="chars" quantity="1"/>Heales, 10 January 1861; M to P. Ramel, May 1861 (in this edition as<space unit="chars" quantity="1"/>61-05-00b) and<space unit="chars" quantity="1"/>M to P. Ramel, November 1861 (in this edition as 61-11-00a).</p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">]</seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

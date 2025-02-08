@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [Dr.  ¶ Mueller ¶  read a letter from the secretary to the French Society, acknowledging the receipt of the copy of work on  ¶ Pure Saddle-horses, and How to Breed Them ¶ , by Mr. E. M. Curr, sent ...</title>
+            <author>Jacques d'Eprémesnil</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1864/64-11-00c-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>64.11.00c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Jacques d'Eprémesnil</author>
+               <title> ¶ [Dr.  ¶ Mueller ¶  read a letter from the secretary to the French Society, acknowledging the receipt of the copy of work on  ¶ Pure Saddle-horses, and How to Breed Them ¶ , by Mr. E. M. Curr, sent ...</title>
+               <date when="1864-11">1864-11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1864/64-11-00c-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [Dr.  ¶ Mueller ¶  read a letter from the secretary to the French Society, acknowledging the receipt of the copy of work on  ¶ Pure Saddle-horses, and How to Breed Them ¶ , by Mr. E. M. Curr, sent ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">64.11.00c</p>
+            <p rend="correspondent" xml:lang="en">From Jacques d'Eprémesnil</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see <seg style="font-style: italic; ">Argus</seg>, 25 January 1885, p. 4. The letter is dated to November 1864 as the latest likely date for it to have been written to reach Melbourne in late January; but see note 2 below. The Comte d'Éprémesnil was the Secretary General of the Société impériale zoologique d'acclimatation in Paris.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[Dr. <seg style="">Mueller</seg> read a letter from the secretary to the French Society, acknowledging the receipt of the copy of work on <seg style="font-style: italic; ">Pure Saddle-horses, and How to Breed Them</seg>, by Mr. E. M. Curr, sent by the council;<seg style="">
+                  <note xml:id="ftn2" type="footnote" n="2">
+                     <p rend="Footnote"
+                        style="font-family: Geneva, Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The receipt of Curr (1863) was reported at the meeting of the Société of 23 September 1864 (<seg style="font-style: italic; ">Bulletin de la Société Impériale Zoologique d'Acclimatation</seg> ,1864, 2nd series, vol. 1, p. 538).</p>
+                  </note>
+               </seg> and saying that, in return, a copy of a work by Mr. Richard (du Cantal), entitled <seg style="font-style: italic; ">Le Cheval de Service et de Guerre</seg>, would be sent out by an early opportunity.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
