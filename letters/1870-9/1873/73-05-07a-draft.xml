@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -97,50 +93,75 @@
             <p rend="location" xml:lang="en">M73/8258, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot. Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">7/5/73.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Minister of the Lands Department</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that last evening I was asked on their own accord by two of the Officers of the Italian Frigate, to supply them with a small collection of seeds of ornamental Australian plants for the Conservatories of their friends in Europe.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that last evening I was asked on their own accord by two of the Officers of the Italian Frigate,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">The Italian Frigate Garibaldi arrived at Melbourne on 25 April, with the Duke of Genoa, <space unit="chars" quantity="1"/>as a midshipman. (Argus, 26 April 1873, p. 5). The article stated that<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">'A</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>number of plants in cases have been sent on from the Cape of Good Hope here to Baron von Mueller, with whose name and scientific fame the officers of the Garibaldi seemed to be quite familiar'.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to supply them with a small collection of seeds of ornamental Australian plants for the Conservatories of their friends in Europe.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>As each Warship, visiting our port, leaves several thousands £ of their country's money in our colony, and as such small marks of attention leave a friendly impression on our visitors, I would recommend that each Officer, who may desire it, should on this occasion receive a small package of suitable seeds out of my magazine.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir, your obed. serv</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>Direct. botan Garden<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 9 May 1873 the <seg style="font-weight: bold; background-color: #ffff00; ">Undersecretary</seg>
-                     <seg style="background-color: #ffff00; ">,</seg> J. Moore minuted: 'Merchant vessels as well as men of war "spend their countrys money in our Port". I do not approve of sending seeds unsolicited to the private conservatories in Europe of the friends of naval officers as a general rule. As however I learn thrgh [through] the newspapers [for example, <seg style="font-style: italic; ">Argus</seg>, 26 April 1873, p. 5] not the Govt Botanist that the <seg style="background-color: #ffff00; ">Garaboldi</seg>
-                     <seg style="background-color: #ffff00; ">brght</seg> some trees &amp; plants from the Cape for the Bot Gardens, I shall be glad to acknowledge this Service in any suitable way. I think that any mark of attention should be given to the Captain of Frigate and H.R.H. the Duke of Genoa. Any trees plants or seeds they may desire to have the Govt Botanist should supply. Request Govt Botanist to write inform them and enquire.' On 10 May 1873 the Secretary of Agriculture, A. Wallis, minuted : 'Some forwarded'. See also M to J. Casey, 12 May 1873.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Direct. botan Garden<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 9 May 1873 the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-weight: bold; background-color: #FFFF00; ">Undersecretary</seg>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">, J. Moore</seg>
+                        <space unit="chars" quantity="1"/>minuted:<space unit="chars" quantity="1"/>[<seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Surely C Hodgkinson</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">, presumably for Casey, but it is in first person, and int looks as if it was Casey's minute.</seg>]<space unit="chars" quantity="1"/>'Merchant vessels as well as men of war "spend their countrys money in our Port". I do not approve of sending seeds unsolicited to the private conservatories in Europe of the friends of naval officers as a general rule. As however I learn thrgh [through] the<space unit="chars" quantity="1"/>newspapers<space unit="chars" quantity="1"/>[for example,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 26 April 1873, p. 5]<space unit="chars" quantity="1"/>not the Govt Botanist that the<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Garaboldi</seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">brght</seg>
+                        <space unit="chars" quantity="1"/>some trees &amp; plants from the Cape for the Bot Gardens, I shall be glad to acknowledge this Service in any suitable way. I think that any mark of attention should be given to the Captain of Frigate and H.R.H. the Duke of Genoa. Any trees plants or seeds they may desire to have the Govt Botanist should supply. Request Govt Botanist to write inform them and enquire.' On 10 May 1873 the Secretary of Agriculture, A. Wallis, minuted : 'Some forwarded'. See also M to J. Casey, 12 May 1873.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

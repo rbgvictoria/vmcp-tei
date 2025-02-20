@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1873/73-05-30.doc</idno>
+            <idno type="filename">data/letters/1870-9/1873/73-05-30-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1873/73-05-30.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1873/73-05-30-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -69,8 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -97,37 +92,48 @@
             <p rend="location" xml:lang="en">J73/10424, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">30/5/73</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to acquaint you, that I have received a few days ago from Dr Eichler, Director of the bot Garden of Kiel, two (2) large folio-volumes of his work on Brazilian plants, largely illustrated. In return it would be recommendable to send to the Director at Kiel such of my own works, as are available in the Gov. Printing office, by which means the reciprocity will be maintained and Dr Eichler's future volumes be secured. I therefore beg to submit a requisition formally for your favorable consideration. I also beg to advise, that he may receive a collection of Australian seeds for such other kinds of seeds as are here required from the bot Garden of Kiel.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to acquaint you, that I have received a few days ago from Dr Eichler, Director of the bot Garden of Kiel, two (2) large folio-volumes of his work on Brazilian plants, largely illustrated.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Probably fascicles 55 and 58 of his continuation<space unit="chars" quantity="1"/>from 1869-1886<space unit="chars" quantity="1"/>of Martius (1840-1906),<space unit="chars" quantity="1"/>published 1871 and 1872 respectively (TL2).<space unit="chars" quantity="1"/>Fascicle 55<space unit="chars" quantity="1"/>inscribed to M by Eichler<space unit="chars" quantity="1"/>is in the Library at MEL.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>In return it would be recommendable to send to the Director at Kiel such of my own works, as are available in the Gov. Printing office, by which means the reciprocity will be maintained and Dr Eichler's future volumes be secured. I therefore beg to submit a requisition formally for your favorable consideration. I also beg to advise, that he may receive a collection of Australian seeds for such other kinds of seeds as are here required from the bot Garden of Kiel.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to be, Sir, your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Direct. botan Garden</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">The honorable the Minister of the Lands Department<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 9 June 1873 the Secretary of Lands, A. Wallis, minuted: 'I assume there can be no objection to the sanction of the within request.' Hodgkinson added a comment but it is illegible.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">The honorable the Minister of the Lands Department<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 9 June 1873,<space unit="chars" quantity="1"/>the Secretary<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>Agriculture, A. Wallis, minuted: 'I assume there can be no objection to the<space unit="chars" quantity="1"/>sanction of the within request'.<space unit="chars" quantity="1"/>The Assistant Commissioner for<space unit="chars" quantity="1"/>Crown<space unit="chars" quantity="1"/>Lands<space unit="chars" quantity="1"/>and Survey, C.<space unit="chars" quantity="1"/>Hodgkinson,<space unit="chars" quantity="1"/>added a<space unit="chars" quantity="1"/>note: 'I concur in foregoing minute'..</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
