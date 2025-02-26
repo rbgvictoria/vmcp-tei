@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1873/73-05-07a-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1873/73-05-07a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1873/73-05-07a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1873/73-05-07a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -113,13 +113,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">The Italian Frigate Garibaldi arrived at Melbourne on 25 April, with the Duke of Genoa, <space unit="chars" quantity="1"/>as a midshipman. (Argus, 26 April 1873, p. 5). The article stated that<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">'A</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>number of plants in cases have been sent on from the Cape of Good Hope here to Baron von Mueller, with whose name and scientific fame the officers of the Garibaldi seemed to be quite familiar'.</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>The Italian Frigate<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Garibaldi</seg>
+                        <space unit="chars" quantity="1"/>arrived at Melbourne on 25 April with the Duke of Genoa as a midshipman (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 26 April 1873, p. 5). The article stated that<space unit="chars" quantity="1"/>'A<space unit="chars" quantity="1"/>number of plants in cases have been sent on from the Cape of Good Hope here to Baron von Mueller, with whose name and scientific fame the officers of the Garibaldi seemed to be quite familiar'.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>to supply them with a small collection of seeds of ornamental Australian plants for the Conservatories of their friends in Europe.</p>
@@ -149,17 +145,8 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>On 9 May 1873 the<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-weight: bold; background-color: #FFFF00; ">Undersecretary</seg>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">, J. Moore</seg>
-                        <space unit="chars" quantity="1"/>minuted:<space unit="chars" quantity="1"/>[<seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">Surely C Hodgkinson</seg>
-                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #C00000; ">, presumably for Casey, but it is in first person, and int looks as if it was Casey's minute.</seg>]<space unit="chars" quantity="1"/>'Merchant vessels as well as men of war "spend their countrys money in our Port". I do not approve of sending seeds unsolicited to the private conservatories in Europe of the friends of naval officers as a general rule. As however I learn thrgh [through] the<space unit="chars" quantity="1"/>newspapers<space unit="chars" quantity="1"/>[for example,<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 26 April 1873, p. 5]<space unit="chars" quantity="1"/>not the Govt Botanist that the<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Garaboldi</seg>
-                        <space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">brght</seg>
-                        <space unit="chars" quantity="1"/>some trees &amp; plants from the Cape for the Bot Gardens, I shall be glad to acknowledge this Service in any suitable way. I think that any mark of attention should be given to the Captain of Frigate and H.R.H. the Duke of Genoa. Any trees plants or seeds they may desire to have the Govt Botanist should supply. Request Govt Botanist to write inform them and enquire.' On 10 May 1873 the Secretary of Agriculture, A. Wallis, minuted : 'Some forwarded'. See also M to J. Casey, 12 May 1873.</p>
+                        <space dim="horizontal" extent="tab"/>On 9 May 1873,<space unit="chars" quantity="1"/>Casey<space unit="chars" quantity="1"/>minuted:<space unit="chars" quantity="1"/>'Merchant vessels as well as men of war "spend their countrys money in our Port". I do not approve of sending seeds unsolicited to the private conservatories in Europe of the friends of naval officers as a general rule. As however I learn thrgh the<space unit="chars" quantity="1"/>newspapers<space unit="chars" quantity="1"/>[for example,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 26 April 1873, p. 5]<space unit="chars" quantity="1"/>not the Govt Botanist that<space unit="chars" quantity="1"/>the Garaboldi brght<space unit="chars" quantity="1"/>some trees &amp; plants from the Cape for the Bot Gardens, I shall be glad to acknowledge this Service in any suitable way. I think that any mark of attention should be given to the Captain of Frigate and H.R.H. the Duke of Genoa. Any trees plants or seeds they may desire to have the Govt Botanist should supply. Request Govt Botanist to write inform them and enquire.' On 10 May 1873,<space unit="chars" quantity="1"/>the Secretary of Agriculture, A. Wallis, minuted : 'So<space unit="chars" quantity="1"/>informed'. See also M to J. Casey, 12 May 1873.</p>
                   </note>
                </seg>
             </p>
