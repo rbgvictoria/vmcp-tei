@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Immediate ¶  ¶  ¶  ¶ (Copy) ¶ Public Service Board, ¶ Melbourne, 11th Jan. 1886. ¶ Sir, ¶  ¶ I have the honor to forward herewith lists of the officers of the Department of the Honorable the Chief Sec...</title>
+            <title>Immediate ¶  ¶  ¶  ¶ (Copy) ¶ Public Service Board, ¶ Melbourne, 11th Jan. 1886. ¶ Document is a circular (p. 1479) to the heads of 14 departments (listed p. 1480). ¶ Sir, ¶  ¶ I have the honor to for...</title>
             <author>Thomas Wilson</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1886/86-01-11.doc</idno>
+            <idno type="filename">data/letters/1880-9/1886/86-01-11-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Thomas Wilson</author>
-               <title>Immediate ¶  ¶  ¶  ¶ (Copy) ¶ Public Service Board, ¶ Melbourne, 11th Jan. 1886. ¶ Sir, ¶  ¶ I have the honor to forward herewith lists of the officers of the Department of the Honorable the Chief Sec...</title>
+               <title>Immediate ¶  ¶  ¶  ¶ (Copy) ¶ Public Service Board, ¶ Melbourne, 11th Jan. 1886. ¶ Document is a circular (p. 1479) to the heads of 14 departments (listed p. 1480). ¶ Sir, ¶  ¶ I have the honor to for...</title>
                <date when="1886-01-11">1886-01-11</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1886/86-01-11.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1886/86-01-11-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -69,8 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -91,88 +87,85 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Immediate ¶  ¶  ¶  ¶ (Copy) ¶ Public Service Board, ¶ Melbourne, 11th Jan. 1886. ¶ Sir, ¶  ¶ I have the honor to forward herewith lists of the officers of the Department of the Honorable the Chief Sec...</supplied>
+               <supplied reason="XTF-compatibility">Immediate ¶  ¶  ¶  ¶ (Copy) ¶ Public Service Board, ¶ Melbourne, 11th Jan. 1886. ¶ Document is a circular (p. 1479) to the heads of 14 departments (listed p. 1480). ¶ Sir, ¶  ¶ I have the honor to for...</supplied>
             </head>
             <p rend="number" xml:lang="en">86.01.11</p>
             <p rend="correspondent" xml:lang="en">From Thomas Wilson</p>
             <p rend="location" xml:lang="en">No.101, pp. 1479-80, unit 71, VPRS 1187/P, outward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office of Victoria</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Immediate</hi>
                </seg>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>(Copy)</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Public Service Board,</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; text-align: end; "
-               xml:lang="en">Melbourne, 11th Jan. 1886.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-family: Geneva; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Document is a circular (p. 1479) to the heads of 14 departments (listed p. 1480).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Melbourne, 11th Jan. 1886.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Document is a circular (p. 1479) to the heads of 14 departments (listed p. 1480).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to forward herewith lists of the officers of the Department of the Honorable the Chief Secretary shewing changes effected since January last year, and the corrections, according to information furnished to the Public Service Board.</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In order to admit of the publication of new lists during the present month in compliance with Section 25 of Act 773 I am particularly to request you to be so good as to cause the lists to be revised and returned to this office during the present week.</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Your attention is specially invited to the recorded salaries of officers, which doubtless in very many instances require alteration owing to the receipt of increments since the publication of the last record, and I am also to request that the new officers shown to have been appointed may be placed in their proper relative positions on the lists.</p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have &amp;c</p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>(signed ) Frank Savage</p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>for the Secy</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Under Secretary.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The accompanying list of officers is forwarded to the Government Botanist with a request that he will be good enough to have it carefully revised in the manner indicated in the above letter and retun it to me <seg style="">
+               <space dim="horizontal" extent="tab"/>The accompanying list of officers is forwarded to the Government Botanist with a request that he will be good enough to have it carefully revised in the manner indicated in the above letter and retun it to me<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">with the least possible delay</hi>
-               </seg>, so that I may be able to comply with the Board's request for the return of the paper this week.</p>
+               </seg>, so that I may be able to comply with the Board's request for the return of the papers<space unit="chars" quantity="1"/>this week.</p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">T.R. Wilson</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Chief Secretary's Office</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
-               xml:lang="en">Melbourne, 11th<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-family: Geneva; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Date unclear.</p>
-               </note> January 86.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Melbourne, 11th January 86.</p>
          </div>
       </body>
    </text>

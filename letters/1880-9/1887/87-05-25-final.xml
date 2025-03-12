@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1887/87-05-25.doc</idno>
+            <idno type="filename">data/letters/1880-9/1887/87-05-25-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1887/87-05-25.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1887/87-05-25-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,54 +92,60 @@
             <p rend="location" xml:lang="en">H87/4767, unit 298, VPRS 3992/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Melbourne,</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Melbourne,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">25 May 1887.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">T. R. Wilson Esqr,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Undersecretary,</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir.</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to solicit, that the hon. the Acting Chief Secretary will be pleased, to consider, while now the estimates are anew under consideration, that as pointed out in my letter of the 22 Oct. 1886,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to T. Wilson, 22 October 1886.</p>
-               </note> the sum of £190 may be placed on the additional estimates for a new edition of the volume on "select plants for industrial culture and naturalisation".</p>
+               <space dim="horizontal" extent="tab"/>I have the honor to solicit, that the hon. the Acting Chief Secretary will be pleased, to consider, while now the estimates are anew under consideration, that as pointed out in my letter of the 22 Oct. 1886,<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M to T. Wilson, 22 October 1886.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>the sum of £190.- .-<space unit="chars" quantity="1"/>may be placed on the additional estimates for a new edition of the volume on "select plants for industrial culture and naturalisation".<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The previous edition was B85.12.03; the next was B88.12.01. No sum was added to the Additional Estimates, but the new edition became possible as a result of the estimates for 1888-9 having been approved, see M to T. Wilson, 17 November 1887.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As the sale of the whole edition (minus some donation copies) within seven months realized a larger sum at the Gov. Printing Office for the consolidated revenue, than the cost of printing (it may be anticipated, that the new and further enlarged edition will cover by its sale also again the expenditure of issue. numerous applications to purchase this work for information on rural cultures are made; yet not a single copy is any longer obtainable for months.</p>
+               <space dim="horizontal" extent="tab"/>As the sale of the whole edition (minus some donation copies) within seven months realized a larger sum at the Gov. Printing Office for the consolidated revenue, than the cost of printing<space unit="chars" quantity="1"/>it may be anticipated, that the new<space unit="chars" quantity="1"/>(and further enlarged)<space unit="chars" quantity="1"/>edition will cover by its sale also again the expenditure of issue. numerous applications to purchase this work for information on rural cultures are made; yet not a single copy is any longer obtainable for months.</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
