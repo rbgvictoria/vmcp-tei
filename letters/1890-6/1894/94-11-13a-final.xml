@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1890-6/1894/94-11-13a.doc</idno>
+            <idno type="filename">data/letters/1890-6/1894/94-11-13a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1890-6/1894/94-11-13a.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1894/94-11-13a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,58 +93,65 @@
             <p rend="location" xml:lang="en">No.4467, pp. 520-1, unit 105, VPRS 1187/P, outward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office of Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-family: Geneva; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">Proofed</seg>
-                  </p>
-               </note>Chief Secretary's Office</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Chief Secretary's Office</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne 13th Novbr. 1894.</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Urgent</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I beg to request that you will be good enough to furnish me as early as possible with full particulars as to the expenditure for the last financial year of your vote for contingencies, where the items opposite the several amounts do not definitely describe the services on which the vote is to be expended, the particulars to show separately all payments made by way of gratuity or overtime to Public Servants and all payments made to persons employed temporarily and to show under definite headings how the amount voted as Incidentals has been disbursed.</p>
+               <space dim="horizontal" extent="tab"/>I beg to request that you will be good enough to furnish me as early as possible with full particulars as to the expenditure for the last financial year of your vote for contingencies, where the items opposite the several amounts do not definitely describe the services on which the vote is to be expended, the particulars to show separately all payments made by way of gratuity or overtime to Public Servants and all payments made to persons employed temporarily and to show under definite headings how the amount voted as Incidentals has been disbursed.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>No reply has been found, but M had forgone such sums, paying for them from his own income</seg>
+                        <seg rend="DefaultParagraphFont" style="">;</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>see<space unit="chars" quantity="1"/>
+                        </seg>M to A. McLean, 7 June 1892,<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>M to T. Wilson, 29 September 1893 (in this edition as 93-09-29a).</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your obedient servant,</p>
             <p rend="valediction"
-               style="font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-family: Geneva; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Charles A. Topp</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-size: 12pt; font-family: Geneva; "
-               xml:lang="en">The Government Botanist<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-family: Geneva; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Document is a circular (p. 520) sent to the heads of 15 branches (listed on p. 521).</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">The<space unit="chars" quantity="1"/>[...]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Document is a circular (p. 520) sent to the heads of 15<space unit="chars" quantity="1"/>sub-departments within the Chief Secretary's Department<space unit="chars" quantity="1"/>(listed on p. 521).<space unit="chars" quantity="1"/>A spece is left empty for the title of a sub-department to be entered.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne, ¶ 12./7./81. ¶ To the Undersecretary ¶ Sir ¶  ¶ In ¶  ¶ reply to your telegraphic request ¶ Telegram not found.This may have been the same telegram that that resulted in the general estimat...</title>
+            <title>Melbourne, ¶ 12./7./81. ¶ To the Undersecretary ¶ Sir ¶  ¶ In reply to your telegraphic request ¶ Telegram not found.This may have been the same telegram that that resulted in the general estimates su...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1881/81-07-12c-proofed.doc</idno>
+            <idno type="filename">data/letters/1880-9/1881/81-07-12c-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne, ¶ 12./7./81. ¶ To the Undersecretary ¶ Sir ¶  ¶ In ¶  ¶ reply to your telegraphic request ¶ Telegram not found.This may have been the same telegram that that resulted in the general estimat...</title>
+               <title>Melbourne, ¶ 12./7./81. ¶ To the Undersecretary ¶ Sir ¶  ¶ In reply to your telegraphic request ¶ Telegram not found.This may have been the same telegram that that resulted in the general estimates su...</title>
                <date when="1881-07-12">1881-07-12</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-07-12c-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-07-12c-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -63,9 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -86,7 +86,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne, ¶ 12./7./81. ¶ To the Undersecretary ¶ Sir ¶  ¶ In ¶  ¶ reply to your telegraphic request ¶ Telegram not found.This may have been the same telegram that that resulted in the general estimat...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne, ¶ 12./7./81. ¶ To the Undersecretary ¶ Sir ¶  ¶ In reply to your telegraphic request ¶ Telegram not found.This may have been the same telegram that that resulted in the general estimates su...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.07.12c</p>
             <p rend="correspondent" xml:lang="en">To Thomas Wilson</p>
@@ -108,7 +108,9 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In<space unit="chars" quantity="1"/>reply to your telegraphic request<seg rend="FootnoteReference" style="">
+               <seg rend="DefaultParagraphFont">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>In reply to your telegraphic request<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -120,9 +122,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The votes of my establishment are so limited, that I have not been able to save any portion of the means at my disposal, indeed I have supplemented the expenditure for scientific purposes out of my salary to a large extent throughout the year. As I have no public grounds under my control, I can<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">aise</seg>
-               <space unit="chars" quantity="1"/>no revenue, but I may fairly claim that my departmental researches and my official correspondence are always calculated to increase the vegetable resources of the country and therewith indirectly also the revenue.</p>
+               <space dim="horizontal" extent="tab"/>The votes of my establishment are so limited, that I have not been able to save any portion of the means at my disposal, indeed I have supplemented the expenditure for scientific purposes out of my salary to a large extent throughout the year. As I have no public grounds under my control, I can<space unit="chars" quantity="1"/>raise<space unit="chars" quantity="1"/>no revenue, but I may fairly claim that my departmental researches and my official correspondence are always calculated to increase the vegetable resources of the country and therewith indirectly also the revenue.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
