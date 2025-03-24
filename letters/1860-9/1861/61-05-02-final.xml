@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Town Clerk's Office ¶ Town Hall, Melbourne ¶ 2nd May 1861. ¶ My dear Sir ¶  ¶ Permit me to apologise for having left your note unanswered. ¶  I was unable to give any certain assurance of possession o...</title>
+            <title>Town Clerk's Office ¶ Town Hall, Melbourne ¶ 2nd May 1861 ¶ My dear Sir ¶  ¶ Permit me to apologise for having left your note unanswered. ¶ M to E. FitzGibbon, 12 April 1861. ¶  ¶ I was unable to give...</title>
             <author>Edmund FitzGibbon</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-05-02-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1861/61-05-02-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Edmund FitzGibbon</author>
-               <title>Town Clerk's Office ¶ Town Hall, Melbourne ¶ 2nd May 1861. ¶ My dear Sir ¶  ¶ Permit me to apologise for having left your note unanswered. ¶  I was unable to give any certain assurance of possession o...</title>
+               <title>Town Clerk's Office ¶ Town Hall, Melbourne ¶ 2nd May 1861 ¶ My dear Sir ¶  ¶ Permit me to apologise for having left your note unanswered. ¶ M to E. FitzGibbon, 12 April 1861. ¶  ¶ I was unable to give...</title>
                <date when="1861-05-02">1861-05-02</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-05-02-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-05-02-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -69,7 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,60 +85,67 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Town Clerk's Office ¶ Town Hall, Melbourne ¶ 2nd May 1861. ¶ My dear Sir ¶  ¶ Permit me to apologise for having left your note unanswered. ¶  I was unable to give any certain assurance of possession o...</supplied>
+               <supplied reason="XTF-compatibility">Town Clerk's Office ¶ Town Hall, Melbourne ¶ 2nd May 1861 ¶ My dear Sir ¶  ¶ Permit me to apologise for having left your note unanswered. ¶ M to E. FitzGibbon, 12 April 1861. ¶  ¶ I was unable to give...</supplied>
             </head>
             <p rend="number" xml:lang="en">61.05.02</p>
             <p rend="correspondent" xml:lang="en">From Edmund FitzGibbon</p>
             <p rend="location" xml:lang="en">M61/183, unit 7, p. 321, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Town Clerk's Office</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Town Hall, Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">2nd May 1861.</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">2nd May 1861</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My dear Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Permit me to apologise for having left your note unanswered.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to E. FitzGibbon, 12 April 1861.</p>
-               </note> I was unable to give any certain assurance of possession of the site of the tent to the good man who brought your note to me.</p>
+               <space dim="horizontal" extent="tab"/>Permit me to apologise for having left your note unanswered.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M to E. FitzGibbon, 12 April 1861.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I was unable to give any certain assurance of possession of the site of the tent to the good man who brought your note to me.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In reference to the tree guards the City Surveyor will be happy to deliver the materials of them, uprights, rails, battens &amp;c, to any person whom you may send to the Town Hall for them.</p>
+               <space dim="horizontal" extent="tab"/>In reference to the tree guards the City Surveyor will be happy to deliver the materials of them, uprights, rails, battens &amp;c, to any person whom you may send to the Town Hall for them.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>A reminder of the promise to<space unit="chars" quantity="1"/>supply<space unit="chars" quantity="1"/>the tree guards was made in<space unit="chars" quantity="1"/>M to E. FitzGibbon, 30 April 1861;<space unit="chars" quantity="1"/>this letter was acknowledged in<space unit="chars" quantity="1"/>M to E. FitzGibbon, 6 May 1861.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Yours very faithfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>E. G. FitzGibbon</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Town Clerk</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Dr. Mueller —</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Dr. Mueller</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Botanical Gardens.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to E. FitzGibbon, 6 May 1861.</p>
-               </note>
-            </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Botanical Gardens.</p>
          </div>
       </body>
    </text>

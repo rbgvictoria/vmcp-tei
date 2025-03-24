@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>19/5/63. ¶ My dear Phemy ¶  ¶ From the enclosed circular ¶  you will perceive, that I could not well avoid joining the academic procession. ¶  Mr Heyne will attend on you &amp; Mr M'Haffie &amp; secure for yo...</title>
+            <title>19/5/63. ¶ My dear Phemy ¶  ¶ From the enclosed circular ¶ Circular not found. ¶  ¶ you will perceive, that I could not well avoid joining the academic procession. ¶ M was among those, including profe...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>19/5/63. ¶ My dear Phemy ¶  ¶ From the enclosed circular ¶  you will perceive, that I could not well avoid joining the academic procession. ¶  Mr Heyne will attend on you &amp; Mr M'Haffie &amp; secure for yo...</title>
+               <title>19/5/63. ¶ My dear Phemy ¶  ¶ From the enclosed circular ¶ Circular not found. ¶  ¶ you will perceive, that I could not well avoid joining the academic procession. ¶ M was among those, including profe...</title>
                <date when="1863-05-19">1863-05-19</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,45 +86,62 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">19/5/63. ¶ My dear Phemy ¶  ¶ From the enclosed circular ¶  you will perceive, that I could not well avoid joining the academic procession. ¶  Mr Heyne will attend on you &amp; Mr M'Haffie &amp; secure for yo...</supplied>
+               <supplied reason="XTF-compatibility">19/5/63. ¶ My dear Phemy ¶  ¶ From the enclosed circular ¶ Circular not found. ¶  ¶ you will perceive, that I could not well avoid joining the academic procession. ¶ M was among those, including profe...</supplied>
             </head>
             <p rend="number" xml:lang="en">63.05.19</p>
             <p rend="correspondent" xml:lang="en">To Euphemia Henderson</p>
             <p rend="location" xml:lang="en">RB MSS M41, Library, Royal Botanic Gardens Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">19/5/63.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My dear Phemy</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>From the enclosed circular<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Circular not found.</p>
-               </note> you will perceive, that I could not well avoid joining the academic procession.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>M was among those, including professors from the University and other dignitaries, who assembled in their academic robes in the Governor's pavilion during Melbourne's elaborate public celebration on 19 May 1863 of the forthcoming marriage of the Prince of Wales to Princess Alexandra of Denmark; see </seg>
-                     <seg style="font-style: italic; ">Argus</seg>
-                     <seg style="">, 20 May 1863, p. 2.</seg>
-                  </p>
-               </note> Mr Heyne will attend on you &amp; Mr M'Haffie &amp; secure for you a good position, where I can join you. The enclosed invitation<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M’s letter is accompanied by a printed invitation to ‘Miss Henderson’ dated 15 May 1863 from Commander Van Rees of the Dutch warship <seg style="font-style: italic; ">Djambi</seg> that was visiting Melbourne at the time, requesting the honour of her company to view the ship on Wednesday 20 May at 12 o'clock: 'The favor of an answer is requested, addressed to the Netherlands Consulate'.</p>
-               </note> was adressed together with one to me. Had I known Ladies were to be invited on board of the Djambi, we would have postponed our visit. As it is, I suppose it would look strange if we went a second time. I will reply to the Captain when I have the pleasure of hearing what you say on the subject.</p>
+               <space dim="horizontal" extent="tab"/>From the enclosed circular<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Circular not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>you will perceive, that I could not well avoid joining the academic procession.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>M was among those, including professors from the University and other dignitaries, who assembled in their academic robes in the Governor's pavilion during Melbourne's elaborate public celebration on 19 May 1863 of the marriage of the Prince of Wales to Princess Alexandra of Denmark</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>that had taken place on 10 March 1863</seg>
+                        <seg rend="DefaultParagraphFont" style="">; see<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 20 May 1863, p. 2.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Mr Heyne will attend on you &amp; Mr M'Haffie &amp; secure for you a good position, where I can join you. The enclosed invitation<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M’s letter is accompanied by a printed invitation to ‘Miss Henderson’ dated<space unit="chars" quantity="1"/>15 May 1863<space unit="chars" quantity="1"/>from<space unit="chars" quantity="1"/>Commander Van Rees<space unit="chars" quantity="1"/>of the Dutch warship<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Djambi</seg>
+                        <space unit="chars" quantity="1"/>that was visiting Melbourne at the time,<space unit="chars" quantity="1"/>requesting the honour of her company to view<space unit="chars" quantity="1"/>the ship<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>Wednesday<space unit="chars" quantity="1"/>20 May at 12 o'clock: 'The favor of an answer is requested, addressed to the Netherlands Consulate'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>was adressed together with one to me. Had I known Ladies were to be invited on board of the Djambi, we would have postponed our visit. As it is, I suppose it would look strange if we went a second time. I will reply to the Captain when I have the pleasure of hearing what you say on the subject.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">With love yours</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
          </div>
