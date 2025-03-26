@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Forwards packet of Eucalyptus seeds for Mauritius Govt]...</title>
+            <title> ¶ [Q. Estimate to 31 Aug]...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,32 +15,29 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1890-6/1896/96-06-06.doc</idno>
+            <idno type="filename">data/letters/1880-9/1882/82-07-24b-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>No. 1416, VPRS 1164 register of inwards correspondence, vol. 15, VA 672 Premier's Office, Public Record Office, Victoria.</msName>
+                  <msName>No. 6798, vol. 1882 X, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary’s Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
-                     <idno>96.06.06</idno>
+                     <idno>82.07.24b</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Forwards packet of Eucalyptus seeds for Mauritius Govt]...</title>
-               <date when="1896-06-06">1896-06-06</date>
+               <title> ¶ [Q. Estimate to 31 Aug]...</title>
+               <date when="1882-07-24">1882-07-24</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1890-6/1896/96-06-06.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1882/82-07-24b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -80,7 +75,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>[Under Secretary</name>
+               <name>James Grant</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -89,28 +84,23 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Forwards packet of Eucalyptus seeds for Mauritius Govt]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Q. Estimate to 31 Aug]...</supplied>
             </head>
-            <p rend="number" xml:lang="en">96.06.06</p>
-            <p rend="correspondent" xml:lang="en">To [Under Secretary</p>
-            <p rend="location" xml:lang="en">No. 1416, VPRS 1164 register of inwards correspondence, vol. 15, VA 672 Premier's Office, Public Record Office, Victoria.</p>
+            <p rend="number" xml:lang="en">82.07.24b</p>
+            <p rend="correspondent" xml:lang="en">To James Grant</p>
+            <p rend="location" xml:lang="en">No. 6798, vol. 1882 X, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary’s Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a submission dated 24 July 1882.</p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[Forwards packet of Eucalyptus seeds for Mauritius Govt]</p>
+               <space dim="horizontal" extent="tab"/>[Q. Estimate to 31 Aug]</p>
          </div>
       </body>
    </text>
