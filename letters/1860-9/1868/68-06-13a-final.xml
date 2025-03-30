@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1868/68-06-13a.doc</idno>
+            <idno type="filename">data/letters/1860-9/1868/68-06-13a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-06-13a.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1868/68-06-13a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,16 +53,19 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+            <keywords scheme="#features">
+               <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -88,58 +88,79 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Temporary Town Hall ¶ Western Market Melbourne ¶ 13th June 1868. ¶ Sir, ¶  ¶ Referring to your letter of the 19th ultimo wherein you asked permission to plant an elm tree opposite each set of rails of...</supplied>
             </head>
-            <p rend="number" xml:lang="en">68.06.13<seg>a</seg>
-            </p>
+            <p rend="number" xml:lang="en">68.06.13a</p>
             <p rend="correspondent" xml:lang="en">From Edmund FitzGibbon</p>
             <p rend="location" xml:lang="en">No. 236/6/68, unit 14, p. 252, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Temporary Town Hall</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Western Market Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">13th June 1868.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Referring to your letter of the 19th ultimo wherein you asked permission to plant an elm tree opposite each set of rails of the S.E. approach to Princes Bridge, I have been directed by the Health Committee of the Council of the City of Melbourne to inform you that they have much pleasure in according the permission, and I am at the same time to thank you for the plantations which you have recently made in the locality.</p>
+               <space dim="horizontal" extent="tab"/>Referring to your letter of the 19th ultimo wherein you asked permission to plant an elm tree opposite each set of rails of the S.E. approach to Princes Bridge,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>In <space unit="chars" quantity="1"/>E FitzGeibbon to M, 19 May 1868 refers to '</seg>
+                        <seg rend="DefaultParagraphFont" style="">the<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">City Bridge'</seg>
+                        <seg rend="DefaultParagraphFont" style="">, an appellation used<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">in the press, usually with lower case initial letters</seg>
+                        <seg rend="DefaultParagraphFont" style="">, when refering in a general way to the bridge between the Btanic garden and the city (</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>e.g.,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>(Melbourne), 16 June 1866, p. 5)</seg>
+                        <seg rend="DefaultParagraphFont" style="">, whereas 'Prince's-bridge' was common when referring to the specific structure, e.g., in a report of a suicide</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>(</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>
+                        <seg rend="DefaultParagraphFont" style="">, supplement, 27 June 1867, p 1).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>I have been directed by the Health Committee of the Council of the City of Melbourne to inform you that they have much pleasure in according the permission, and I am at the same time to thank you for the plantations which you have recently made in the locality.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Your most obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>E. G. FitzGibbon</p>
-            <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>[Town Clerk]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">F. Mueller Esq. M.D.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">&amp;c <space unit="chars" quantity="4"/>&amp;c <space unit="chars" quantity="4"/>&amp;c</p>
          </div>
       </body>
