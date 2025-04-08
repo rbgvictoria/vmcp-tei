@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1869/69-09-11.doc</idno>
+            <idno type="filename">data/letters/1860-9/1869/69-09-11-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-09-11.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-09-11-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,9 +63,11 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -98,79 +94,96 @@
             <p rend="location" xml:lang="en">Unit 733, VPRS 3181/P Town Clerk's file series 1, VA 511 Melbourne, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot. Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">11/9/69.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Allow me, dear Mr Fitzgibbon, to draw the attention of the City Council to the desirability of some improvements being effected in the Yarra ground near the bridge of this garden and towards Wellington Parade. <space unit="chars" quantity="1"/>The necessity of some new works and several repairs in the locality indicated is obvious. But I beg on this occasion to suggest respectfully for the consideration of the City council only the following measures.</p>
+               <space dim="horizontal" extent="tab"/>Allow me, dear Mr Fitzgibbon, to draw the attention of the City Council to the desirability of some improvements being effected in the Yarra ground near the bridge of this garden and towards Wellington Parade. The necessity of some new works and several repairs in the locality indicated is obvious. But I beg on this occasion to suggest respectfully for the consideration of the City council only the following measures.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>1, some unexpensive steps on both sides of the earth wall, which forms the approach to the bridge.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>2, digging around the elms, which form an avenue to the railway-station</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>3, tarring of the tree guards.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>4, cutting down or uprooting dead trees and cutting away dead limbs, as certainly sooner or later <seg style="">
+               <space dim="horizontal" extent="tab"/>4, cutting down or uprooting dead trees and cutting away dead limbs, as certainly sooner or later<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">accidents</hi>
-               </seg> will occur by the falling of the brittle wood on the passers bye. This may be effected for the value of the wood, which will, I think, not be worth more than the labor of cutting.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>will occur by the falling of the brittle wood on the passers bye. This may be effected for the value of the wood, which will, I think, not be worth more than the labor of cutting.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>5. placing a few simple seats under the best remaining trees —</p>
+               <space dim="horizontal" extent="tab"/>5. placing a few simple seats under the best remaining trees</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>6. Saving the rest of the fine old trees by removing the misletoe, which has destroyed the majority of them already.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>7. Removal of the <seg style="">
+               <space dim="horizontal" extent="tab"/>7. Removal of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">inside</hi>
-               </seg> post and rail and wire fence, which is only now in a ruinous state. By selling this some means might be found to repair the gates.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>post and rail and wire fence, which is only now in a ruinous state. By selling this some means might be found to repair the gates.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>8. Formation of a few plain walks, indicating the nearest lines through the ground</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>If the Corporation was pleased to approve of my suggestions, it might be the simplest plan, to entrust me with these improvements, and if only the sum of thirty pounds £30 could be voted, I would do the best I could with such means. The City Council might perhaps authorize me at the same time to deal with the dead timber to the best of my judgement.</p>
+               <space dim="horizontal" extent="tab"/>If the Corporation was pleased to approve of my suggestions, it might be the simplest plan, to entrust me with these improvements, and if only the sum of thirty pounds<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Marginal note:<space unit="chars" quantity="1"/>'£30.- .-'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>£30 could be voted, I would do the best I could with such means. The City Council might perhaps authorize me at the same time to deal with the dead timber to the best of my judgement.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The two men, employed for the City Council on the Yarra bank will have so much work yet to perform there, that it would not be wise to withdraw them from their regular engagement for the improvements indicated.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to be, Sir, your very obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Would it not be possible, that the grazing-fees raised in the ground are <seg style="">
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Would it not be possible, that the grazing-fees raised in the ground are<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">always</hi>
-               </seg> devoted for improvements on it?<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Any indication of a reaction from the Council?</seg>
-                  </p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>devoted for improvements on it?<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Any indication of a reaction from the Council?</seg>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

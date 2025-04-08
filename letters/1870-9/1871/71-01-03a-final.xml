@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -97,48 +93,63 @@
             <p rend="location" xml:lang="en">Unit 17, pp. 233-4, VPRS 4025/P Town Clerk's letter press copy books, VA 511 Melbourne, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Town Hall, Melbourne,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">3rd January 1871</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">My dear Dr von Mueller,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The Right Worshipful the Mayor has received from a gentleman in Halifax Nova Scotia the enclosed packet of seeds of a plant called "Indian Cup" which is indigenous there and is exciting some talk in the Medical world as a cure for Small Pox.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-style: italic; ">Sarracenia purpurea</seg>; see, for example, Miles (1862).</p>
-               </note> It flourishes in swampy places in black mud and requires abundance of water.</p>
+               <space dim="horizontal" extent="tab"/>The Right Worshipful the Mayor has received from a gentleman in Halifax Nova Scotia the enclosed packet of seeds of a plant called "Indian Cup" which is indigenous there and is exciting some talk in the Medical world as a cure for Small Pox.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Sarracenia purpurea</seg>;<space unit="chars" quantity="1"/>see,<space unit="chars" quantity="1"/>for example, Miles (1862).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It flourishes in swampy places in black mud and requires abundance of water.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The directions for planting are "Grow in the open air — soil, decayed vegetable matter, black mud. Keep the soil always saturated with water. Moss if it can be had conveniently is a good surface to sow upon."</p>
+               <space dim="horizontal" extent="tab"/>The directions for planting are "Grow in the open air — soil, decayed vegetable matter, black mud. Keep the soil always saturated with water. Moss if it can be had conveniently is a good surface to sow upon."<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 29 September 1870, D. Blackwood, Halifax, Nova Scotia wrote to<space unit="chars" quantity="1"/>the Mayor of Melbourne: 'Years ago I sat under the shade of the trees in the public garden on the banks of the Yara Yara. Permit me to hand you for the use of that garden some seed of the Indian Cup a plant which is indigenous to this province and which is exciting some talk in the medical world as a cure for Small Pox It flourishes in swampy places in black mud, it requires water in abundance. Will you do me the favour to hand this parcel of seed to the proper quarter with a request that an attempt may be made to add its culture to that of the other rare and curious plants grown in the garden. Here it is a common plant on every bog but from home it may be more highly esteemed. Directions Grow in the open air — soil — decayed vegetable matter — black mud — keep the soil always saturated with water — moss if it can be had conveniently is a good surface to sow upon.' (No. 1941, unit 734, VPRS 3181, Public Record Office, Victoria).</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Will you kindly try to grow this plant and be so good as to inform me of the result so that I may communicate it to the donor of the seed.</p>
+               <space dim="horizontal" extent="tab"/>Will you kindly try to grow this plant and be so good as to inform me of the result so that I may communicate it to the donor of the seed.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M to E. FitzGibbon, 4 January 1871 acknowledges receipt of the seeds.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">yours very faithfully</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>E. G. FitzGibbon</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>Town Clerk<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to E. FitzGibbon, 4 January 1871. On 29 September 1870, D. Blackwood, Halifax, Nova Scotia wrote to the Mayor of Melbourne: 'Years ago I sat under the shade of the trees in the public garden on the banks of the Yara Yara. Permit me to hand you for the use of that garden some seed of the Indian Cup a plant which is indigenous to this province and which is exciting some talk in the medical world as a cure for Small Pox It flourishes in swampy places in black mud, it requires water in abundance. Will you do me the favour to hand this parcel of seed to the proper quarter with a request that an attempt may be made to add its culture to that of the other rare and curious plants grown in the garden. Here it is a common plant on every bog but from home it may be more highly esteemed. Directions Grow in the open air — soil — decayed vegetable matter — black mud — keep the soil always saturated with water — moss if it can be had conveniently is a good surface to sow upon.' (No. 1941, unit 734, VPRS 3181, Public Record Office, Victoria).</p>
-               </note>
-            </p>
+               <space dim="horizontal" extent="tab"/>Town Clerk</p>
          </div>
       </body>
    </text>
