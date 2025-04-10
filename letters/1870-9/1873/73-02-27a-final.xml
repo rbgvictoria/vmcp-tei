@@ -39,12 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -61,14 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9c9ecf70-9027-490a-b26e-add18d163bf7">Dicksonia antarctica</term>
-               <term>Alsophila</term>
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/d50ddb57-69c1-4be7-b4fe-f1d8a1594f98">Todea</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -77,10 +63,12 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -107,117 +95,120 @@
             <p rend="location" xml:lang="en">M73/3688, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also D. Ploos van Amstel to M, 12 December 1872.</p>
-               </note>Melbourne bot Garden,</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Melbourne bot Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">27/2/73</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Altho' already orally you are aware and have kindly approved of an application of the Dutch Consul in Melbourne for some fern-trees for his Sovereign, I have now the honor of submitting the Consul's formal application and also my own views thereon, awaiting further instructions.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See D. Ploos van Amstel to M, <seg style="font-weight: bold; ">28</seg> February 1873. <seg style="font-weight: bold; ">check date. <space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg style="color: #0000ff; font-weight: bold; ">I think its probably 28 Feb, which fits, <space unit="chars" quantity="1"/>except that it is dated a day after this letter which refs to what must be this formal letter from van Amstel. Did M anticipate receiving it?</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Altho' already orally you are aware and have kindly approved of an application of the Dutch Consul in Melbourne for some fern-trees for his Sovereign, I have now the honor of submitting the Consul's formal application and also my own views thereon, awaiting further instructions.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The original request was D. Ploos van Amstel to M, 18 December 1872; the formal letter is<space unit="chars" quantity="1"/>D. Ploos van Amstel to M,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">28<space unit="chars" quantity="1"/>
+                        </seg>February 1873.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>1, In my opinion it would be desirable to send two <name key="Alsophila">Alsophila</name>s or slender ferntrees, so as to double the chances of the success of the transit, this kind of ferntrees (specially mentioned) not travelling long distances over sea so well as the stout tree ferns of our ranges (<name key="Dicksonia%20antarctica">Dicksonia antarctica</name>)</p>
+               <space dim="horizontal" extent="tab"/>1, In my opinion it would be desirable to send two Alsophilas or slender ferntrees, so as to double the chances of the success of the transit, this<space unit="chars" quantity="1"/>kind of ferntrees (specially mentioned) not travelling long distances over sea so well as the stout tree ferns of our ranges (Dicksonia antarctica)</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>2, I beg to submit for your favorable consideration, whether on this occasion also 2 Dicksonias and 2 of the dwarf colossal <name key="Todea">Todea</name> ferns of our vallies should be transmitted simultaneously.</p>
+               <space dim="horizontal" extent="tab"/>2, I beg to submit for your favorable consideration, whether on this occasion also 2 Dicksonias and 2 of the dwarf colossal Todea ferns of our vallies should be transmitted simultaneously.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>3, I would respectfully advise that the largest specimens fairly removable should be chosen, either at Dandenong or Mount Macedon or Fernshaw. I believe that the cheapest way to get the largest <seg style="">
+               <space dim="horizontal" extent="tab"/>3, I would respectfully advise that the largest specimens fairly removable should be chosen, either at Dandenong or Mount Macedon or Fernshaw. I believe that the cheapest way to get the largest<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">movable</hi>
-               </seg> specimens of these treeferns would be from a back gully in Dandenong. It is however possible that the <name key="Todea">Todea</name>s can be obtained of larger size on Mount Macedon than at Dandenong. Perhaps the first locality, where my experience is greatest, might be first tried. Altho' I have traversed the Fernshaw ranges in 1855 and 1858, my recent experiences there are limited. I could however proceed thither and judge for myself, particularly as I wished since some time to institute there some scientific investigations, if you will kindly allow me to be two or three days absent when my excellent assistant, Mr Luehmann, could remain in charge of my position, he being fully initiated in all the duties of the Department.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>specimens of these treeferns would be from a back gully in Dandenong. It is however possible that the Todeas<space unit="chars" quantity="1"/>can be obtained of larger size on Mount Macedon than at Dandenong. Perhaps the first locality, where my experience is greatest, might be first tried. Altho' I have traversed the Fernshaw ranges in 1855 and 1858, my recent experiences there are limited. I could however proceed thither and judge for myself, particularly as I wished since some<space unit="chars" quantity="1"/>time to institute there some scientific investigations, if you will kindly allow me to be two or three days absent when my excellent assistant, Mr Luehmann, could remain in charge of my position, he being fully initiated in all the duties of the Department.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>4, I would further submit that the sending should be a donation by yourself on behalf of the Victorian Government, as the Dutch scientific institutions have proved most liberal towards my Department, particularly the botanic Gardens of Utrecht and Leyden, from whence large sendings of Museum plants and works on plants of great value were obtained. The expenses of procuring the ferns could be charged to the vote of purchase of plants of my Department, and the expenses for packing &amp;c to the incidental vote, unless you desire to provide special means.</p>
+               <space dim="horizontal" extent="tab"/>4, I would further submit that the sending should be a donation by yourself on behalf of the Victorian Government, as the Dutch scientific institutions have proved most liberal towards my Department, particularly the botanic Gardens of Utrecht and Leyden, from whence large sendings of Museum plants and works on plants of great value were obtained. The expenses of procuring the ferns could be charged to the vote of purchase of plants of my Department, and the expenses for packing &amp;c<space unit="chars" quantity="1"/>to the incidental vote, unless you desire to provide special means.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>5, Is it your wish, that the Dutch Consul pays the transit expenses to London and Amsterdam or is it to be met out of the transit vote of the Stores Department under the hon. the treasurer.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>6, May I ask, that a letter from yourself may be sent to the Consul in reference to your donation.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In conclusion I beg to add, that this is the <seg style="">
+               <space dim="horizontal" extent="tab"/>In conclusion I beg to add, that this is the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">first</hi>
-               </seg> instance (in my many years official position,) a Sovereign having condescended to ask any kind of commission from me, and that I am not a dignitary of the Court of Holland. In one instance however (many years after my being honored by the French Emperor) I was asked by the Minister of foreign affairs to provide some Australian tree-seeds for test culture in Algeria. I sent some samples on my private expense, and this led to subsequent export purchases of such seeds by the French Consulate of our city to an extent already of about £1700.- .-.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>instance (in my many years official position,) a Sovereign having condescended to ask any kind of commission from me, and that I am not a dignitary of the Court of Holland. In one instance however (many years after my being honored by the French Emperor) I was asked by<space unit="chars" quantity="1"/>the Minister of foreign affairs to provide some Australian tree-seeds for test culture in Algeria. I sent some samples on my private expense, and this led to subsequent export purchases of such seeds by the French Consulate of our city to an extent already of about £1700.- .-.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be, Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller, M.D.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Direct. botan. Garden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">An order from yourself or the assistant Commissioner would be required, authorizing the removal of these ferns from crownlands.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">On 3 March 1873 Casey minuted: 'Mr Hodgkinson will issue necessary authy to get ferns from the State Forests. The recommendation of the Govt Botanist approved. Let a letter be written to the Consul saying the Ferns will be presented to His Majesty by the Government of Victoria'. Hodgkinson added: 'Bailiff of Crown Lands &amp; Constables are hereby informed that men employed by Baron Von Mueller have authority to procure for the Govt of the Netherlands from ranges and gullies, in the vicinity of Fernshaw the following fern trees</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Two Alsophylla</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Two <name key="Dicksonia%20antarctica">Dicksonia antarctica</name>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Two <name key="Todea">Todea</name>[.]</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">An order from yourself or the assistant Commissioner would be required, authorizing the removal of these ferns from crownlands.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>On 3 March 1873 Casey minuted: 'Mr Hodgkinson will issue necessary authy to get ferns from the State Forests. The recommendation of the Govt Botanist approved. Let a letter be written to the Consul saying the Ferns will be presented to His Majesty by the Government of Victoria'. Hodgkinson added: 'Bailiff of Crown Lands &amp; Constables are hereby informed that men employed by Baron Von Mueller have authority to procure for the Govt of the Netherlands from ranges and gullies, in the vicinity of Fernshaw the following fern trees</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Two Alsophylla</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Two Dicksonia antarctica</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Two Todea[.]</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The honorable J. J. Casey, Minister of the Lands Department.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Alsophila">Alsophila</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Dicksonia%20antarctica">Dicksonia antarctica</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Todea">Todea</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Alsophila</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Dicksonia antarctica</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Todea</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
