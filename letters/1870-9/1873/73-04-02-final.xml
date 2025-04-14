@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1873/73-04-02.doc</idno>
+            <idno type="filename">data/letters/1870-9/1873/73-04-02-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1873/73-04-02.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1873/73-04-02-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,59 +89,61 @@
             </head>
             <p rend="number" xml:lang="en">73.04.02</p>
             <p rend="correspondent" xml:lang="en">To James Casey</p>
-            <p rend="location" xml:lang="en">M73/5943, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">M73/5943, unit 750, VPRS 44/P inward registered and unregistered correspondence, VA 538 Department of Crown Lands and Survey, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See also M to J. Casey, 27 February 1873.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>For background to the collection of the ferns for King Willem<space unit="chars" quantity="1"/>III of the Netherlands,<space unit="chars" quantity="1"/>see<space unit="chars" quantity="1"/>M to J. Casey, 27 February 1873 (in this edition as 73-02-27a),<space unit="chars" quantity="1"/>and notes thereto.</p>
                </note>Melbourne bot Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">2/4/73.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor of submitting herewith an account from Mess. Smith &amp; Sons of Riddells Creek, through whom the six very large ferntrees were obtained for the Dutch Government, this account amounting to £16. I furthermore beg to transmit an account for 6 large boxes, required for the safe transit of these large fern-specimens, also including in this account the packing material, the whole of this second account amounting to £19.13/.</p>
+               <space dim="horizontal" extent="tab"/>I have the honor of submitting herewith an account from Mess. Smith &amp; Sons of Riddells Creek, through whom the six very large ferntrees were obtained for the Dutch Government, this account amounting to £16.- .-. I furthermore beg to transmit an account for 6 large boxes, required for the safe transit of these large fern-specimens, also including in this account the packing material, the whole of this second account amounting to £19.13/.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Altho' it may appear, as if the expenditure thus incurred is large, yet as according to your instructions specimens had to be procured, larger than any hitherto exported (weighing in the aggregate nearly six tons,) it must be conceded, that the whole arrangement has been made comparatively cheaply indeed.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In accordance with the suggestions of my former letter the six ferns might be charged to the vote of purchase of plants of my establishment, while the account for the six huge boxes and the packing might be charged to the incidental vote of the botanic Garden, altho' — if it was possible to provide for the payments of these two accounts special means in the Lands Department, my now so largely reduced votes, which are already so heavily taxed, might be saved from this charge.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>As regards the freight I suppose, that special provision will be made for that in the transit branch of the Governm. Stores Department, to which the ferns, readily packed and adressed to the Agent General in London have been delivered this day.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>As stated in my last letter, it will only now be needful yet to apprize the Agent General through a ministerial communication of the sending of this large consignment; the necessary bills of loading from the Agents of the Lincolnshire will be obtained by the Governments Store Keeper.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Trusting that these arrangements have been carried out to your satisfaction I have the honor to remain your obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Ferd. von Mueller,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Direct. botan. Garden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The honorable J. J. Casey,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">the Minister of the Lands Department.</p>
          </div>
       </body>
