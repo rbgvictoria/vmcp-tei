@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1879/79-09-25-proofed.doc</idno>
+            <idno type="filename">data/letters/1870-9/1879/79-09-25-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1879/79-09-25-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1879/79-09-25-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -107,7 +107,7 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Data entered by by G. Luehmann and signed by M.</p>
+                     <space dim="horizontal" extent="tab"/>Data entered by G. Luehmann and signed by M.</p>
                </note>
                <seg rend="formtext" style="color: #2F5496; ">QUARTERLY ESTIMATE.</seg>
             </p>
@@ -157,6 +157,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Particulars of Vote</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
@@ -182,6 +183,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Estimate* of Expenditure for Quarter</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
@@ -330,7 +332,9 @@
                         xml:lang="en">1200</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
@@ -371,10 +375,14 @@
                         xml:lang="en">200</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">–</p>
                   </cell>
                   <space dim="vertical" unit="lines" quantity="1"/>
                </row>
@@ -563,7 +571,7 @@
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>Line struck through</p>
+                                 <space dim="horizontal" extent="tab"/>Line struck through.</p>
                            </note>
                         </seg>
                      </p>
@@ -594,16 +602,25 @@
                         xml:lang="en">10</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="3"/>–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
@@ -613,10 +630,10 @@
                   </cell>
                </row>
                <row>
-                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Towards Flora Australiensis<seg rend="FootnoteReference" style="">
@@ -630,16 +647,25 @@
                                  <seg rend="DefaultParagraphFont" style="">
                                     <space unit="chars" quantity="1"/>
                                  </seg>
-                                 <seg rend="DefaultParagraphFont" style="">M to G. Berry, 7 September 1878 requested funds for a supplement, or an abridged, but supplemented edition, which was approved</seg>
-                                 <seg rend="DefaultParagraphFont" style="">, as an abridged flora (see M to G. Berry, 3 January 1879)</seg>
-                                 <seg rend="DefaultParagraphFont" style="">. A sum of £125 was included in the<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="">M to G. Berry, 7 September 1878</seg>
+                                 <seg rend="DefaultParagraphFont" style="">,</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>requested funds for a supplement, or an abridged but supplemented edition, which was approved</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>as an abridged<space unit="chars" quantity="1"/>
                                  </seg>
-                                 <seg rend="DefaultParagraphFont" style="">Government Botanist<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="">F</seg>
+                                 <seg rend="DefaultParagraphFont" style="">lora (see M to G. Berry, 3 January 1879)</seg>
+                                 <seg rend="DefaultParagraphFont" style="">. A sum of £125 was included in the</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>vote for the</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>
                                  </seg>
-                                 <seg rend="DefaultParagraphFont" style="">vote<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="">Government Botanist 'Towards the publication of an edition of the Flora Australiensis</seg>
+                                 <seg rend="DefaultParagraphFont" style="">, approved on 28 January 1880 (Victoria</seg>
+                                 <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
                                  </seg>
-                                 <seg rend="DefaultParagraphFont" style="">'Towards the publication of an edition of the Flora Australiensis</seg>
-                                 <seg rend="DefaultParagraphFont" style="">, approved on 28 January 1880 (Victoria—</seg>
                                  <seg rend="DefaultParagraphFont" style="font-style: italic; ">Votes and Proceedings of the Legislative Assembly</seg>
                                  <seg rend="DefaultParagraphFont" style="font-style: italic; ">, Session 1879-80</seg>
                                  <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
@@ -657,7 +683,9 @@
                                  </seg>
                                  <seg rend="DefaultParagraphFont" style="">to W. Odgers, 27 September 1879,</seg>
                                  <seg rend="DefaultParagraphFont" style="">
-                                    <space unit="chars" quantity="1"/>he</seg>
+                                    <space unit="chars" quantity="1"/>
+                                 </seg>
+                                 <seg rend="DefaultParagraphFont" style="">M</seg>
                                  <seg rend="DefaultParagraphFont" style="">
                                     <space unit="chars" quantity="1"/>
                                  </seg>
@@ -670,13 +698,13 @@
                                  <seg rend="DefaultParagraphFont" style="">
                                     <space unit="chars" quantity="1"/>He asked the same question in M to G. Berry, 24 January 1880,<space unit="chars" quantity="1"/>
                                  </seg>
-                                 <seg rend="DefaultParagraphFont" style="">
-                                    <space unit="chars" quantity="1"/>
-                                 </seg>
                                  <seg rend="DefaultParagraphFont" style="">Although repl</seg>
                                  <seg rend="DefaultParagraphFont" style="">ies</seg>
                                  <seg rend="DefaultParagraphFont" style="">
-                                    <space unit="chars" quantity="1"/>has not been found,<space unit="chars" quantity="1"/>
+                                    <space unit="chars" quantity="1"/>ha</seg>
+                                 <seg rend="DefaultParagraphFont" style="">ve</seg>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space unit="chars" quantity="1"/>not been found,<space unit="chars" quantity="1"/>
                                  </seg>
                                  <seg rend="DefaultParagraphFont" style="">It appears as if M had already spent some of the amount in this way</seg>
                                  <seg rend="DefaultParagraphFont" style="">, but could not continue to do so.</seg>
@@ -685,44 +713,51 @@
                         </seg>
                      </p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">125</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">–</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">–</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">20</p>
                   </cell>
-                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">16</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">8</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">–</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="3"/>–</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
@@ -732,7 +767,7 @@
                   </cell>
                </row>
                <row>
-                  <cell style="border-top: none; border-left: none; border-bottom: 0.0104in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: 0.0104in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="7">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
@@ -745,24 +780,24 @@
                         <space unit="chars" quantity="1"/>eight<space unit="chars" quantity="1"/>
                         <seg rend="formtext" style="color: #2F5496; ">pen</seg>ce</p>
                   </cell>
-                  <cell style="border-top: none; border-left: none; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">£</seg>
                      </p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">338</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">6</p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0104in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">8</p>
@@ -798,8 +833,8 @@
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; font-style: italic; ">Signature of the Officer authorized to certify to accounts Ferd. von Mueller.</seg>
-                     </p>
+                        <seg rend="formtext" style="color: #2F5496; font-style: italic; ">Signature of the Officer authorized to certify to accounts<space unit="chars" quantity="1"/>
+                        </seg>Ferd. von Mueller</p>
                   </cell>
                </row>
                <row>
