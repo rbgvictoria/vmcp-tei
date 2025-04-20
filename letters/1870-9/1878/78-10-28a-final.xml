@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1878/78-10-28a-proofed.doc</idno>
+            <idno type="filename">data/letters/1870-9/1878/78-10-28a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1878/78-10-28a-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1878/78-10-28a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -130,9 +130,7 @@
                <seg rend="formtext" style="color: #2F5496; ">*</seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>of Expenditure during the<space unit="chars" quantity="1"/>
-               </seg>
-               <seg rend="formtext" style="color: #2F5496; ">two months</seg>
-               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+               </seg>two months<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -149,7 +147,7 @@
                <seg rend="formtext" style="color: #2F5496; ">ending</seg>
                <space unit="chars" quantity="1"/>30th November<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">1</seg>
-               <seg rend="formtext" style="color: #2F5496; ">87</seg>6.</p>
+               <seg rend="formtext" style="color: #2F5496; ">87</seg>8.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <table n="">
                <row>
@@ -159,6 +157,7 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Particulars of Vote</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
@@ -168,13 +167,13 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Amount of Estimates previously approved</seg>
-                        <seg rend="DefaultParagraphFont">.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                         <seg rend="FootnoteReference" style="font-size: 8pt; ">
                            <note type="footnote" xml:id="_ftn2" n="3">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>Each entry in these two columns has been ticked.</p>
+                                 <space dim="horizontal" extent="tab"/>Each entry in this column has been ticked</p>
                            </note>
                         </seg>
                      </p>
@@ -188,6 +187,7 @@
                         <seg rend="formtext" style="color: #2F5496; ">*</seg>
                         <seg rend="formtext" style="color: #2F5496; ">
                            <space unit="chars" quantity="1"/>of Expenditure for Quarter</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
@@ -219,12 +219,12 @@
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Amount.</seg>
-                        <seg rend="FootnoteReference" style="font-size: 8pt; color: #2F5496; ">
+                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
                            <note type="footnote" xml:id="_ftn3" n="4">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>Each entry in these two columns has been ticked.</p>
+                                 <space dim="horizontal" extent="tab"/>Each entry in<space unit="chars" quantity="1"/>this<space unit="chars" quantity="1"/>column has been ticked.</p>
                            </note>
                         </seg>
                      </p>
@@ -393,7 +393,9 @@
                         xml:lang="en">130</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
@@ -638,6 +640,7 @@
                   </cell>
                </row>
             </table>
+            <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
