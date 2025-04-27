@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [ ¶ Baron Ferdinand von Mueller writes with reference to the scheme of Australian exploration dealt with in our leading columns ¶ The newspaper based its supportive editorial comment (p. 2) on the ...</title>
+            <title> ¶ [ ¶ Baron Ferdinand von Mueller writes with ¶  ¶ reference to the scheme of Australian exploration dealt with in our leading columns ¶ The newspaper based its supportive editorial comment (p. 2) on...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [ ¶ Baron Ferdinand von Mueller writes with reference to the scheme of Australian exploration dealt with in our leading columns ¶ The newspaper based its supportive editorial comment (p. 2) on the ...</title>
+               <title> ¶ [ ¶ Baron Ferdinand von Mueller writes with ¶  ¶ reference to the scheme of Australian exploration dealt with in our leading columns ¶ The newspaper based its supportive editorial comment (p. 2) on...</title>
                <date when="1887-09">1887-09</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,9 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -67,7 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,33 +83,69 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [ ¶ Baron Ferdinand von Mueller writes with reference to the scheme of Australian exploration dealt with in our leading columns ¶ The newspaper based its supportive editorial comment (p. 2) on the ...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [ ¶ Baron Ferdinand von Mueller writes with ¶  ¶ reference to the scheme of Australian exploration dealt with in our leading columns ¶ The newspaper based its supportive editorial comment (p. 2) on...</supplied>
             </head>
             <p rend="number" xml:lang="en">87.09.00</p>
-            <p rend="correspondent" xml:lang="en">To the Ballarat Star</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Ballarat Star</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the <seg style="font-style: italic; ">Ballarat star</seg>, 24 September 1887, p. 2.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from the<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ballarat star</seg>, 24 September 1887, p. 2.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[<seg style="">Baron Ferdinand von Mueller writes with reference to the scheme of Australian exploration dealt with in our leading columns</seg>
-               <seg style="">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <space dim="horizontal" extent="tab"/>[<seg rend="DefaultParagraphFont" style="">Baron Ferdinand von Mueller writes with</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">reference to the scheme of Australian exploration dealt with in our leading columns</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>The newspaper based its supportive editorial comment (p. 2) on the Circular issued by the Royal Geographical Society seeking support for the further exploration of Central Australia (in this edition as 87-08-24). The details of benefits to donors in M's letter formed a postscript in published versions of the full circular, for example in the<seg style="font-style: italic; "> Age</seg>, 17 September 1887, p. 10.</p>
+                        <space dim="horizontal" extent="tab"/>The newspaper based its supportive editorial comment (p. 2) on the Circular issued by the Royal Geographical Society<space unit="chars" quantity="1"/>of Australasia, Victorian Branch,<space unit="chars" quantity="1"/>seeking support for the further exploration of Central Australia (in this edition as 87-08-24). The details of benefits to donors in M's letter formed a<space unit="chars" quantity="1"/>postscript<space unit="chars" quantity="1"/>in published versions of the full circular, for example in<space unit="chars" quantity="1"/>the<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>A</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">ge</seg>, 17 September 1887, p. 10.</p>
                   </note>
                </seg>
-               <seg style=""> that his colleagues have determined that a gift of 10 guineas to the exploration fund will entitle the donor to a life membership of the society within Victoria; that smaller contributions will be proportionately recognised, and that any leading support will be lastingly rewarded by records on the geographical map of the forthcoming expedition.]</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>that his<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">colleagues have determined that a</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">gift of 10 guineas to the exploration fund</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">will entitle the donor to a life membership</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">of the society withi</seg>
+               <seg rend="DefaultParagraphFont" style="">n</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>Victoria; that smaller</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">contributions will be<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">proportionately recognised, and that any leading support will be</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">lastingly rewarded by records on the geographical map of the forthcoming expedition.</seg>
+               <seg rend="DefaultParagraphFont" style="">]</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
