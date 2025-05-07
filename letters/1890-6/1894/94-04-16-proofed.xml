@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>16/4/94. ¶  ¶ This evening, dear Mr Macdonald, I received your kind letter of this day, ¶ Letter not found. ¶  ¶ and in answer I support your view, that a sum of £10 or more be voted for the children ...</title>
+            <title>Some oddities here:  ¶  ¶ "le Mestre" for " ¶ La Meslée"; ¶ "Sir Strickland" for "Sir Edward Strickland" ¶ Transcription error ¶ s ¶ or M's failing? ¶  ¶ 16/4/94. ¶  ¶ This evening, dear Mr Macdonald,...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>16/4/94. ¶  ¶ This evening, dear Mr Macdonald, I received your kind letter of this day, ¶ Letter not found. ¶  ¶ and in answer I support your view, that a sum of £10 or more be voted for the children ...</title>
+               <title>Some oddities here:  ¶  ¶ "le Mestre" for " ¶ La Meslée"; ¶ "Sir Strickland" for "Sir Edward Strickland" ¶ Transcription error ¶ s ¶ or M's failing? ¶  ¶ 16/4/94. ¶  ¶ This evening, dear Mr Macdonald,...</title>
                <date when="1894-04-16">1894-04-16</date>
             </bibl>
          </sourceDesc>
@@ -59,6 +59,8 @@
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
+               <term>Progressnote</term>
+               <term>HTMLCite</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
@@ -66,7 +68,6 @@
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
-               <term>HTMLCite</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -87,8 +88,28 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">16/4/94. ¶  ¶ This evening, dear Mr Macdonald, I received your kind letter of this day, ¶ Letter not found. ¶  ¶ and in answer I support your view, that a sum of £10 or more be voted for the children ...</supplied>
+               <supplied reason="XTF-compatibility">Some oddities here:  ¶  ¶ "le Mestre" for " ¶ La Meslée"; ¶ "Sir Strickland" for "Sir Edward Strickland" ¶ Transcription error ¶ s ¶ or M's failing? ¶  ¶ 16/4/94. ¶  ¶ This evening, dear Mr Macdonald,...</supplied>
             </head>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; break-before: page; "
+               xml:lang="en">Some oddities here: <space unit="chars" quantity="1"/>"le Mestre" for "<seg rend="HTMLCite" style="font-style: normal; ">La Meslée";<space unit="chars" quantity="1"/>
+               </seg>
+            </p>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="HTMLCite" style="font-style: normal; ">"Sir Strickland" for "Sir Edward Strickland"<space unit="chars" quantity="1"/>
+               </seg>
+            </p>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="HTMLCite" style="font-style: normal; ">Transcription error</seg>
+               <seg rend="HTMLCite" style="font-style: normal; ">s</seg>
+               <seg rend="HTMLCite" style="font-style: normal; ">
+                  <space unit="chars" quantity="1"/>or M's failing?</seg>
+               <space unit="chars" quantity="1"/>
+            </p>
             <p rend="number" xml:lang="en">94.04.16</p>
             <p rend="correspondent" xml:lang="en">To Alexander Macdonald</p>
             <p rend="location" xml:lang="en">A38, The Royal Geographical Society of Australasia (Victorian Branch), Mitchell Library, State Library of New South Wales, Sydney.</p>
@@ -129,7 +150,8 @@
                      </p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>all the more so as their father gave really the first impulse to the formation of the RGSA and worked for a year or two strenuously for it, til he came into antagonism to Sir Strickland. Thursday afternoon I will make free for a Council meeting. Perhaps you could ascertain before, whether Mr Turner<seg rend="FootnoteReference" style="">
+               <space unit="chars" quantity="1"/>all the more so as their father gave really the first impulse to the formation of the RGSA and worked for a year or two strenuously for it, til he came into antagonism to<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Sir Strickland</seg>. Thursday afternoon I will make free for a Council meeting. Perhaps you could ascertain before, whether Mr Turner<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -141,7 +163,27 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Please return your kind brothers letter, as I have not yet replied. Yesterday I sent your brother, the Police-Magistrate one of my book.</p>
+               <space dim="horizontal" extent="tab"/>Please return your kind brothers letter, as I have not yet replied. Yesterday I sent your brother, the Police-Magistrate<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">John Graham Macdonald (1834-1918), Queensland Police Magistrate from 1872</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>(</seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #0070C0; ">Brisbane courier</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, 30 May 1918, p. 9)</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, in 1894 based in Townsville (</seg>
+                        <seg rend="DefaultParagraphFont"
+                             style="font-style: italic; color: #0070C0; ">The week</seg>
+                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
+                           <space unit="chars" quantity="1"/>(Brisbane), 20 April 1894, p. 24).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>one of my book.</p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Regardfully your</p>
