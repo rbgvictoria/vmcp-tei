@@ -63,9 +63,9 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>formtext</term>
@@ -91,8 +91,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">QUARTERLY ESTIMATE. ¶ To the Honorable ¶  ¶ the Chief Secretary ¶ Sir ¶ , ¶  ¶ I have the honor to submit for approval the following Estimate ¶ * ¶ of Expenditure during the ¶ month ¶ Monthwritten abo...</supplied>
             </head>
-            <p rend="number" xml:lang="en">80.09.28a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">80.09.28a</p>
             <p rend="correspondent" xml:lang="en">To Graham Berry</p>
             <p rend="location" xml:lang="en">T80/9774, unit 1180, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
@@ -101,9 +100,6 @@
                style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
                <note type="footnote" xml:id="_ftn0" n="1">
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
@@ -130,7 +126,7 @@
                <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>of Expenditure during the<space unit="chars" quantity="1"/>
                </seg>month<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -144,15 +140,10 @@
                </seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>ending</seg>
-               <space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="color: #FF0000; ">30</seg>
-               <seg rend="DefaultParagraphFont" style="color: #FF0000; ">th<space unit="chars" quantity="1"/>
-               </seg>
-               <seg rend="DefaultParagraphFont" style="color: #FF0000; ">September</seg>
-               <space unit="chars" quantity="1"/>
+               <space unit="chars" quantity="1"/>30th<space unit="chars" quantity="1"/>September<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">1</seg>
                <seg rend="formtext" style="color: #2F5496; ">8</seg>80.<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -184,7 +175,7 @@
                         <seg rend="formtext" style="color: #2F5496; ">Amount of Estimates previously approved</seg>
                         <seg rend="DefaultParagraphFont">.</seg>
                         <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn4" n="5">
+                           <note type="footnote" xml:id="_ftn3" n="4">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
@@ -234,7 +225,7 @@
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; ">Amount.</seg>
                         <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn5" n="6">
+                           <note type="footnote" xml:id="_ftn4" n="5">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
@@ -629,7 +620,16 @@
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Flora Australiensis</p>
+                        xml:lang="en">Flora Australiensis<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn5" n="6">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <space dim="horizontal" extent="tab"/>See<space unit="chars" quantity="1"/>M to G. Berry, 7 September 1878 and notes thereto; M to G. Berry, 28 January 1880; M to R. Ramsay, 12 April 1880 (in this edition as 80-04-12a) and notes thereto); M to R. Ramsay, 29 July 1880.</p>
+                           </note>
+                        </seg>
+                     </p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
@@ -734,7 +734,8 @@
                         <space unit="chars" quantity="1"/>One hundred and seventy<space unit="chars" quantity="1"/>
                         <seg rend="formtext" style="color: #2F5496; ">pounds</seg>——thirteen<space unit="chars" quantity="1"/>
                         <seg rend="formtext" style="color: #2F5496; ">shillings and</seg>
-                        <space unit="chars" quantity="1"/>‚——<seg rend="formtext" style="color: #2F5496; ">pen</seg>
+                        <space unit="chars" quantity="1"/>——<space unit="chars" quantity="1"/>
+                        <seg rend="formtext" style="color: #2F5496; ">pen</seg>
                      </p>
                   </cell>
                   <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
@@ -775,7 +776,7 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">
                         <seg rend="formtext" style="color: #2F5496; font-style: italic; ">Signature<space unit="chars" quantity="1"/>
-                        </seg>G B</p>
+                        </seg>[G B]</p>
                   </cell>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
