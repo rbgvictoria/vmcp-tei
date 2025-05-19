@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1850-9/1857/57-12-29-proofed.doc</idno>
+            <idno type="filename">data/letters/1850-9/1857/57-12-29-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1850-9/1857/57-12-29-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1850-9/1857/57-12-29-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -65,7 +65,6 @@
                <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -99,9 +98,7 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="color: #FF0000; ">Needs justification of date.</seg>. M to D. Moore, 17 December 1857<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="color: #0070C0; ">reported his departure</seg>.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a letter dated 29 December 1857. See also M to D. Moore, 17 December 1857.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[Reports his return from Cape Otway]</p>
          </div>
