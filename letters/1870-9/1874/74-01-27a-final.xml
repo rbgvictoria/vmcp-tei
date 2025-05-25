@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne ¶ 27/1/74. ¶ Sir. ¶  ¶ I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River district and adjoining snowy mountains, my return havi...</title>
+            <title>Melbourne ¶ 27/1/74. ¶ Sir. ¶  ¶ I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River ¶ It is uncertain what current name, if any, represent...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne ¶ 27/1/74. ¶ Sir. ¶  ¶ I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River district and adjoining snowy mountains, my return havi...</title>
+               <title>Melbourne ¶ 27/1/74. ¶ Sir. ¶  ¶ I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River ¶ It is uncertain what current name, if any, represent...</title>
                <date when="1874-01-27">1874-01-27</date>
             </bibl>
          </sourceDesc>
@@ -65,6 +65,7 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -85,7 +86,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne ¶ 27/1/74. ¶ Sir. ¶  ¶ I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River district and adjoining snowy mountains, my return havi...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne ¶ 27/1/74. ¶ Sir. ¶  ¶ I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River ¶ It is uncertain what current name, if any, represent...</supplied>
             </head>
             <p rend="number" xml:lang="en">74.01.27a</p>
             <p rend="correspondent" xml:lang="en">To James Francis</p>
@@ -103,8 +104,18 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River district and adjoining snowy mountains, my return having been delayed for several days by the difficulty of crossing the alpine streams after the last heavy rains.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>I have the honor to acquaint you, that I returned last night from my phytographic journey through the Hume-River<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>It is uncertain what current name, if any, represents the stream M calls 'Hume River', see M to William Branwhite Clarke, 29 January 1874, and notes thereto.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>district and adjoining snowy mountains, my return having been delayed for several days by the difficulty of crossing the alpine streams after the last heavy rains.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
