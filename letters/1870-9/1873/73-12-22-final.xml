@@ -65,6 +65,7 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -72,8 +73,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="42">English</language>
-            <language ident="de" usage="58">German</language>
+            <language ident="en" usage="45">English</language>
+            <language ident="de" usage="55">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -100,7 +101,22 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>i.e. Kosciuszko. Both places in NSW.<space unit="chars" quantity="1"/>M was planning a trip to that area, which he visited in January 1874,<space unit="chars" quantity="1"/>from 6 to 26 January, see M to R Ramsay, August 1874 (in this edition as 74-08-00); see also M to G. Bentham,<space unit="chars" quantity="1"/>27 January 1874.</p>
+                        <space dim="horizontal" extent="tab"/>i.e. Kosciuszko. Both places in NSW. M was planning a trip to that area, which he visited from 6 to 26 January<space unit="chars" quantity="1"/>1874;<space unit="chars" quantity="1"/>see M to R Ramsay, August 1874 (in this edition as 74-08-00),<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>also M to G. Bentham, 27 January 1874.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">No map specifically for that area has been found, but it is included in 'Map of Victoria</seg>
+                        <seg rend="DefaultParagraphFont" style="">,</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>constructed and engraved at the Surveyor General's Office; G.A. Windsor, draughtsman; William Slight, engraver'</seg>
+                        <seg rend="DefaultParagraphFont" style="">,</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>published in August 1872. Skene was Surveyor General</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>at the time.</seg>
+                     </p>
                   </note>
                </seg>
             </p>
