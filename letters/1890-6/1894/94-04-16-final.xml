@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Some oddities here:  ¶  ¶ "le Mestre" for " ¶ La Meslée"; ¶ "Sir Strickland" for "Sir Edward Strickland" ¶ Transcription error ¶ s ¶ or M's failing? ¶  ¶ 16/4/94. ¶  ¶ This evening, dear Mr Macdonald,...</title>
+            <title>16/4/94. ¶  ¶ This evening, dear Mr Macdonald, I received your kind letter of this day, ¶ Letter not found. ¶  ¶ and in answer I support your view, that a sum of £10 or more be voted for the children ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1890-6/1894/94-04-16-proofed.doc</idno>
+            <idno type="filename">data/letters/1890-6/1894/94-04-16-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Some oddities here:  ¶  ¶ "le Mestre" for " ¶ La Meslée"; ¶ "Sir Strickland" for "Sir Edward Strickland" ¶ Transcription error ¶ s ¶ or M's failing? ¶  ¶ 16/4/94. ¶  ¶ This evening, dear Mr Macdonald,...</title>
+               <title>16/4/94. ¶  ¶ This evening, dear Mr Macdonald, I received your kind letter of this day, ¶ Letter not found. ¶  ¶ and in answer I support your view, that a sum of £10 or more be voted for the children ...</title>
                <date when="1894-04-16">1894-04-16</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1890-6/1894/94-04-16-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1894/94-04-16-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,14 +53,12 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
-               <term>Progressnote</term>
-               <term>HTMLCite</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
@@ -88,28 +86,8 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Some oddities here:  ¶  ¶ "le Mestre" for " ¶ La Meslée"; ¶ "Sir Strickland" for "Sir Edward Strickland" ¶ Transcription error ¶ s ¶ or M's failing? ¶  ¶ 16/4/94. ¶  ¶ This evening, dear Mr Macdonald,...</supplied>
+               <supplied reason="XTF-compatibility">16/4/94. ¶  ¶ This evening, dear Mr Macdonald, I received your kind letter of this day, ¶ Letter not found. ¶  ¶ and in answer I support your view, that a sum of £10 or more be voted for the children ...</supplied>
             </head>
-            <p rend="Progressnote"
-               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; break-before: page; "
-               xml:lang="en">Some oddities here: <space unit="chars" quantity="1"/>"le Mestre" for "<seg rend="HTMLCite" style="font-style: normal; ">La Meslée";<space unit="chars" quantity="1"/>
-               </seg>
-            </p>
-            <p rend="Progressnote"
-               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; "
-               xml:lang="en">
-               <seg rend="HTMLCite" style="font-style: normal; ">"Sir Strickland" for "Sir Edward Strickland"<space unit="chars" quantity="1"/>
-               </seg>
-            </p>
-            <p rend="Progressnote"
-               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; "
-               xml:lang="en">
-               <seg rend="HTMLCite" style="font-style: normal; ">Transcription error</seg>
-               <seg rend="HTMLCite" style="font-style: normal; ">s</seg>
-               <seg rend="HTMLCite" style="font-style: normal; ">
-                  <space unit="chars" quantity="1"/>or M's failing?</seg>
-               <space unit="chars" quantity="1"/>
-            </p>
             <p rend="number" xml:lang="en">94.04.16</p>
             <p rend="correspondent" xml:lang="en">To Alexander Macdonald</p>
             <p rend="location" xml:lang="en">A38, The Royal Geographical Society of Australasia (Victorian Branch), Mitchell Library, State Library of New South Wales, Sydney.</p>
@@ -131,28 +109,26 @@
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>and in answer I support your view, that a sum of £10 or more be voted for the children of Mr<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="color: #C00000; ">Le<space unit="chars" quantity="1"/>
-               </seg>
-               <seg rend="DefaultParagraphFont" style="color: #C00000; ">Mestre</seg>,<seg rend="FootnoteReference" style="">
+               <seg rend="DefaultParagraphFont" style="color: #000000; ">Le Mestre</seg>,<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="HTMLCite" style="font-style: normal; color: #0070C0; ">Edmond Marin La Meslée and his wife were drowned when the<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="HTMLCite" style="font-style: normal; color: #0070C0; ">pleasure-boat<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="HTMLCite" style="font-style: italic; color: #0070C0; ">Ripple</seg>
-                        <seg rend="HTMLCite" style="font-style: normal; color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>capsised in Sydney Harbour in December 1893. They were survided by three sons. (ADB</seg>
-                        <seg rend="HTMLCite" style="font-style: normal; color: #0070C0; ">). A fund was established to support the orphans (Sydney morning herald, 12 January 1894, p. 4)</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>La<space unit="chars" quantity="1"/>Meslée?<space unit="chars" quantity="1"/>Edmond Marin La Meslée and his wife were drowned when the pleasure-boat<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ripple</seg>
+                        <space unit="chars" quantity="1"/>capsized in<space unit="chars" quantity="1"/>Sydney Harbour in December 1893,<space unit="chars" quantity="1"/>being survided by three sons<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-style: italic; ">ADB</seg>). A fund was established to support the orphans (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Sydney morning herald</seg>, 12 January 1894, p. 4).</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>all the more so as their father gave really the first impulse to the formation of the RGSA and worked for a year or two strenuously for it, til he came into antagonism to<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">Sir Strickland</seg>. Thursday afternoon I will make free for a Council meeting. Perhaps you could ascertain before, whether Mr Turner<seg rend="FootnoteReference" style="">
+               <space unit="chars" quantity="1"/>all the more so as their father gave really the first impulse to the formation of the RGSA and worked for a year or two strenuously for it, til he came into antagonism to<space unit="chars" quantity="1"/>Sir Strickland.<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Sir Edward Strickland.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Thursday afternoon I will make free for a Council meeting. Perhaps you could ascertain before, whether Mr Turner<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -164,23 +140,12 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Please return your kind brothers letter, as I have not yet replied. Yesterday I sent your brother, the Police-Magistrate<seg rend="FootnoteReference" style="">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+                  <note type="footnote" xml:id="_ftn4" n="5">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">John Graham Macdonald (1834-1918), Queensland Police Magistrate from 1872</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>(</seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">Brisbane courier</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, 30 May 1918, p. 9)</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">, in 1894 based in Townsville (</seg>
-                        <seg rend="DefaultParagraphFont"
-                             style="font-style: italic; color: #0070C0; ">The week</seg>
-                        <seg rend="DefaultParagraphFont" style="color: #0070C0; ">
-                           <space unit="chars" quantity="1"/>(Brisbane), 20 April 1894, p. 24).</seg>
-                     </p>
+                        <space dim="horizontal" extent="tab"/>John Graham Macdonald (1834-1918), Queensland Police Magistrate from 1872 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Brisbane courier</seg>, 30 May 1918, p. 9). In 1894<space unit="chars" quantity="1"/>he was<space unit="chars" quantity="1"/>based in Townsville (<seg rend="DefaultParagraphFont" style="font-style: italic; ">The week</seg>
+                        <space unit="chars" quantity="1"/>(Brisbane), 20 April 1894, p. 24).</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>one of my book.</p>

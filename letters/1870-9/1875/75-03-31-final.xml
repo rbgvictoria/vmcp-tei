@@ -57,6 +57,7 @@
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
+               <term>note</term>
                <term>multi-row cell</term>
                <term>multi-column cell</term>
             </keywords>
@@ -66,6 +67,8 @@
                <term>location</term>
                <term>letter</term>
                <term>formtext</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
@@ -118,7 +121,15 @@
                <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>of Expenditure during the Quarter ending</seg>
                <space unit="chars" quantity="1"/>31st March<space unit="chars" quantity="1"/>
-               <seg rend="formtext" style="color: #2F5496; ">187</seg>5.</p>
+               <seg rend="formtext" style="color: #2F5496; ">187</seg>5.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The document is in G. Luehmann's hand and signed, but not dated, by M. Nor has it been signed or dated by Ramsay.</p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <table n="">
                <row>

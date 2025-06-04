@@ -1,0 +1,131 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[ ¶ The lecture anticipated from Mr Dickinson last night, was postponed, owing to ¶  ¶ the manuscript having been forwarded to ¶  ¶ Dr Mueller, and not returned in tim ¶ e.] ¶ The free lecture, advert...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1865/65-09-00d-proofed.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>65.09.00d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[ ¶ The lecture anticipated from Mr Dickinson last night, was postponed, owing to ¶  ¶ the manuscript having been forwarded to ¶  ¶ Dr Mueller, and not returned in tim ¶ e.] ¶ The free lecture, advert...</title>
+               <date when="1865-09">1865-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1865/65-09-00d-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>James Dickinson</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[ ¶ The lecture anticipated from Mr Dickinson last night, was postponed, owing to ¶  ¶ the manuscript having been forwarded to ¶  ¶ Dr Mueller, and not returned in tim ¶ e.] ¶ The free lecture, advert...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">65.09.00d</p>
+            <p rend="correspondent" xml:lang="en">To James Dickinson</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>Letter not found. The item is a paragraph in<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Geelong advertiser</seg>
+                     <seg rend="DefaultParagraphFont" style="">, 8 September 1865, p. 2.</seg>
+                  </p>
+               </note>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>[</seg>
+               <seg rend="DefaultParagraphFont" style="">The lecture anticipated from Mr Dickinson last night, was postponed, owing to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the manuscript having been forwarded to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Dr Mueller, and not returned in tim</seg>
+               <seg rend="DefaultParagraphFont" style="">e.]</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The free lecture, advertised as 'On the nature and prevention of rust on growing grains', was due to have been delivered at the Prince of Wales Hotel, Ryrie<space unit="chars" quantity="1"/>Street, Geelong (<seg rend="DefaultParagraphFont" style="font-style: italic; ">Geelong advertiser</seg>, 5 September 1865, p. 4).</p>
+                  </note>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

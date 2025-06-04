@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne ¶ 11/1/75 ¶ To Th. Ware Esqr. ¶  ¶ Acting Undersecretary. ¶ Sir,...</title>
+            <title>Melbourne, ¶ 14/10/75 ¶ W.H. Odgers Esqr. &amp;c ¶ Undersecretary ¶ Sir, ¶ ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,26 +15,26 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1875/75-01-11-draft.doc</idno>
+            <idno type="filename">data/letters/1870-9/1875/75-10-14-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>G75/380, unit 805, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <msName>H75/12018, unit 817, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
-                     <idno>75.01.11</idno>
+                     <idno>75.10.14</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne ¶ 11/1/75 ¶ To Th. Ware Esqr. ¶  ¶ Acting Undersecretary. ¶ Sir,...</title>
-               <date when="1875-01-11">1875-01-11</date>
+               <title>Melbourne, ¶ 14/10/75 ¶ W.H. Odgers Esqr. &amp;c ¶ Undersecretary ¶ Sir, ¶ ...</title>
+               <date when="1875-10-14">1875-10-14</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1875/75-01-11-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1875/75-10-14-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -65,6 +65,7 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -76,7 +77,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Thomas Ware</name>
+               <name>William Odgers</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -85,44 +86,47 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne ¶ 11/1/75 ¶ To Th. Ware Esqr. ¶  ¶ Acting Undersecretary. ¶ Sir,...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne, ¶ 14/10/75 ¶ W.H. Odgers Esqr. &amp;c ¶ Undersecretary ¶ Sir, ¶ ...</supplied>
             </head>
-            <p rend="number" xml:lang="en">75.01.11</p>
-            <p rend="correspondent" xml:lang="en">To Thomas Ware</p>
-            <p rend="location" xml:lang="en">G75/380, unit 805, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="number" xml:lang="en">75.10.14</p>
+            <p rend="correspondent" xml:lang="en">To William Odgers</p>
+            <p rend="location" xml:lang="en">H75/12018, unit 817, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">Melbourne</p>
+               xml:lang="en">Melbourne,</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">11/1/75</p>
+               xml:lang="en">14/10/75</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">To Th. Ware Esqr.<space unit="chars" quantity="1"/>
+               xml:lang="en">W.H. Odgers Esqr. &amp;c</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Undersecretary</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Sir,<space unit="chars" quantity="1"/>
             </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">Acting Undersecretary.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">Sir,</p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to inform you, that I returned from the Upper Loddon after completing there some departmental works this day.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+               xml:lang="en">I have the honor to inform you, that I have returned from my journey to the Murray-River for phytographic purposes last night.<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>In M to<space unit="chars" quantity="1"/>T. Ware, 8 January 1875<space unit="chars" quantity="1"/>(in this edition as 75-01-08a),<space unit="chars" quantity="1"/>M<space unit="chars" quantity="1"/>announced that he would be departing that day.</p>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>M to<space unit="chars" quantity="1"/>W. Odgers, 3 October 1875,<space unit="chars" quantity="1"/>had<space unit="chars" quantity="1"/>reported that he would leave<space unit="chars" quantity="1"/>on<space unit="chars" quantity="1"/>the journey the next day.</p>
                   </note>
                </seg>
             </p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
-               xml:lang="en">I have the honor to be,</p>
+               xml:lang="en">I have the honor to be,<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
@@ -130,7 +134,8 @@
             <p rend="valediction"
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
+               <space dim="horizontal" extent="tab"/>
+               <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
          </div>
       </body>
    </text>

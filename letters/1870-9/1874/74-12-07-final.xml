@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Form (K) ¶ CLAUSE 25 OF REGULATIONS. ¶ QUARTERLY ESTIMATE ¶ To the Honorable the ¶  ¶ Chief Secretary ¶ Sir,...</title>
+            <title>QUARTERLY ESTIMATE ¶ To the Honorable the ¶  ¶ Chief Secretary ¶ The form as filed has significant oddities. There is no provision for continued payment of salary for M or clerical assistance. It has ...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Form (K) ¶ CLAUSE 25 OF REGULATIONS. ¶ QUARTERLY ESTIMATE ¶ To the Honorable the ¶  ¶ Chief Secretary ¶ Sir,...</title>
+               <title>QUARTERLY ESTIMATE ¶ To the Honorable the ¶  ¶ Chief Secretary ¶ The form as filed has significant oddities. There is no provision for continued payment of salary for M or clerical assistance. It has ...</title>
                <date when="1874-12-07">1874-12-07</date>
             </bibl>
          </sourceDesc>
@@ -57,6 +57,7 @@
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
+               <term>note</term>
                <term>multi-row cell</term>
                <term>multi-column cell</term>
             </keywords>
@@ -66,6 +67,8 @@
                <term>location</term>
                <term>letter</term>
                <term>formtext</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>Normal</term>
             </keywords>
@@ -87,22 +90,11 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Form (K) ¶ CLAUSE 25 OF REGULATIONS. ¶ QUARTERLY ESTIMATE ¶ To the Honorable the ¶  ¶ Chief Secretary ¶ Sir,...</supplied>
+               <supplied reason="XTF-compatibility">QUARTERLY ESTIMATE ¶ To the Honorable the ¶  ¶ Chief Secretary ¶ The form as filed has significant oddities. There is no provision for continued payment of salary for M or clerical assistance. It has ...</supplied>
             </head>
             <p rend="number" xml:lang="en">74.12.07</p>
             <p rend="correspondent" xml:lang="en">To Robert Ramsay</p>
             <p rend="location" xml:lang="en">E74/15259, unit 749, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; font-weight: bold; ">Form (K)</seg>
-            </p>
-            <p rend="letter"
-               style="font-size: 12pt; hyphenate: false; text-align: center; "
-               xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; ">CLAUSE 25 OF REGULATIONS.</seg>
-            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: center; "
@@ -113,7 +105,18 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">To the Honorable the</seg>
-               <space unit="chars" quantity="1"/>Chief Secretary</p>
+               <space unit="chars" quantity="1"/>Chief Secretary<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>The form as filed has significant oddities. There is no provision for continued payment of salary for M or clerical assistance. It has two lines for Government Botanist's<space unit="chars" quantity="1"/>salary, each for the same amount but different amounts previously approved,<space unit="chars" quantity="1"/>similarly<space unit="chars" quantity="1"/>'previously approved' amounts<space unit="chars" quantity="1"/>appear twice<space unit="chars" quantity="1"/>for the<space unit="chars" quantity="1"/>items<space unit="chars" quantity="1"/>at<space unit="chars" quantity="1"/>14/2,<space unit="chars" quantity="1"/>perhaps indicating unfamiliarity with the expected conventions. It is also uncear<space unit="chars" quantity="1"/>to<space unit="chars" quantity="1"/>which quarter the estimates were expected to apply. The sum of the amounts for M's salary previously approved is the amount for half a financial year, i.e. until the end of December; estimated expenditure would have been expected to be to the end of March 1875.</p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
@@ -341,7 +344,8 @@
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: end; "
-                        xml:lang="en">800</p>
+                        xml:lang="en">800<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
@@ -578,7 +582,9 @@
                   <cell style="border-top: 0.0138in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="Normal"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">£</p>
+                        xml:lang="en">
+                        <seg rend="formtext" style="color: #2F5496; ">£</seg>
+                     </p>
                   </cell>
                   <cell style="border-top: 0.0138in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
@@ -605,7 +611,6 @@
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">Approved*:</seg>
             </p>
-            <space dim="vertical" unit="lines" quantity="1"/>
             <table n="">
                <row>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -617,7 +622,22 @@
                      </p>
                   </cell>
                   <cell style="border-top: none; border-left: none; border-bottom: 0.0069in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn1" n="2">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <space dim="horizontal" extent="tab"/>The space for the signature of the Chief Secretary is blank.<space unit="chars" quantity="1"/>
+                                 </seg>
+                              </p>
+                           </note>
+                        </seg>
+                     </p>
                   </cell>
                   <cell style="border: none; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
