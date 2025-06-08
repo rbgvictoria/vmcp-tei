@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Through the kindness of Baron Ferd.  ¶ von Mueller ¶  the distinguished botanist of Melbourne and Government botanist of Victoria we have received a valuable work upon the maintainance, creation a...</title>
+            <title>Letter not found. The text given here is from 'The great Eucalyptus trees',California farmer and journal of useful sciences, 18 September 1879, p. 121. It is dated to early August as the latest likely...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Through the kindness of Baron Ferd.  ¶ von Mueller ¶  the distinguished botanist of Melbourne and Government botanist of Victoria we have received a valuable work upon the maintainance, creation a...</title>
+               <title>Letter not found. The text given here is from 'The great Eucalyptus trees',California farmer and journal of useful sciences, 18 September 1879, p. 121. It is dated to early August as the latest likely...</title>
                <date when="1879-08">1879-08</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,17 +54,17 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>space</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,44 +84,78 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Through the kindness of Baron Ferd.  ¶ von Mueller ¶  the distinguished botanist of Melbourne and Government botanist of Victoria we have received a valuable work upon the maintainance, creation a...</supplied>
+               <supplied reason="XTF-compatibility">Letter not found. The text given here is from 'The great Eucalyptus trees',California farmer and journal of useful sciences, 18 September 1879, p. 121. It is dated to early August as the latest likely...</supplied>
             </head>
             <p rend="number" xml:lang="en">79.08.00f</p>
-            <p rend="correspondent" xml:lang="en">To the California Farmer and Journal of Useful Sciences</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>California Farmer and Journal of Useful Sciences</p>
+            <p rend="space"
+               style="text-align: center; font-size: 9pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'The great Eucalyptus trees',<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">California farmer and journal of useful sciences</seg>
+                        <seg rend="DefaultParagraphFont" style="">, 18 September 1879, p. 121. It is dated to early August as the latest likely date that it could have been sent to have been reported in this issue of the newspaper.</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">
-                        <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'The great Eucalyptus trees', </seg>
-                     <seg style="font-style: italic; ">California farmer and journal of useful sciences</seg>
-                     <seg style="">, 18 September 1879, p. 121. It is dated to early August as the latest likely date that it could have been sent to have been reported in this issue of the newspaper.</seg>
-                  </p>
-               </note>
-               <space dim="horizontal" extent="tab"/>[Through the kindness of Baron Ferd. <seg style="">von Mueller</seg> the distinguished botanist of Melbourne and Government botanist of Victoria we have received a valuable work upon the maintainance, creation and enrichment of forests,<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">
-                        <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>B79.13.06. <space unit="chars" quantity="1"/>
-                     </seg>
-                  </p>
-               </note> a very valuable and interesting work.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="">
-                        <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>The item continues: ' We select chapter No. 1 of the series entitled, "Utilization of existing forest trees to full advantage, without permanent demolition.''' A substantial extract is printed (B79.09.09) immediately below, under the headline "The Eucalyptus". </seg>
-                  </p>
-               </note>]</p>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">[Through the kindness of Baron Ferd.<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">von Mueller</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>the distinguished botanist of Melbourne and Government botanist of Victoria we have received a valuable work upon the maintainance, creation and enrichment of forests,</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>B79.13.06. <space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>a very valuable and interesting work.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>The item continues: 'We select chapter No. 1 of the series entitled, "Utilization of existing forest trees to full advantage, without permanent demolition.'''<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">A substantial extract is printed (B79.09.09) i</seg>
+                        <seg rend="DefaultParagraphFont" style="">mmediately below, unde</seg>
+                        <seg rend="DefaultParagraphFont" style="">r the headline "The Eucalypts".<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">]</seg>
+            </p>
          </div>
       </body>
    </text>

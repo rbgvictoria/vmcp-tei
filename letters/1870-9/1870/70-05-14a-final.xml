@@ -15,12 +15,12 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-05-14a-proofed.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-05-14a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>No. ??4,unit 19 p. 609 VPRS 1187/P outward correspondence, VA 475 Chief Secretary's Department, Public Record Office,Victoria.</msName>
+                  <msName>Unit 19,p. 609,VPRS 1187/P outward correspondence, VA 475 Chief Secretary's Department, Public Record Office,Victoria.</msName>
                   <altIdentifier>
                      <idno>70.05.14a</idno>
                   </altIdentifier>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-05-14a-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-05-14a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,18 +53,17 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
-               <term>DefaultParagraphFont</term>
                <term>letter</term>
+               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
@@ -88,34 +87,13 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">Chief Secretary's Office ¶ Melbourne 14 May 1870 ¶ Sir, ¶  ¶ By direction of the Chief Secretary I have the honor to transmit you herewith part V in duplicate of Major Beddome's "Icones plantarum Indi...</supplied>
             </head>
-            <p rend="number" xml:lang="en">70.05.14a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">70.05.14a</p>
             <p rend="correspondent" xml:lang="en">From William Odgers</p>
-            <p rend="location" xml:lang="en">No. ??4<seg rend="FootnoteReference"
-                    style="font-size: 8pt; background-color: #FFFF00; "/>
-               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">,</seg>
-               <space unit="chars" quantity="1"/>unit 19 p. 609 VPRS 1187/P outward correspondence, VA 475 Chief Secretary's Department, Public Record Office,<space unit="chars" quantity="1"/>Victoria.</p>
+            <p rend="location" xml:lang="en">Unit 19,<space unit="chars" quantity="1"/>p. 609,<space unit="chars" quantity="1"/>VPRS 1187/P outward correspondence, VA 475 Chief Secretary's Department, Public Record Office,<space unit="chars" quantity="1"/>Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">
-               <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Proofed.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Cut off in copying.</seg>
-                  </p>
-               </note>Chief Secretary's Office</p>
+               xml:lang="en">Chief Secretary's Office</p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne 14 May 1870</p>
@@ -126,12 +104,12 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>By direction of the Chief Secretary I have the honor to transmit you herewith part V in duplicate of Major Beddome's "Icones plantarum Indiae Orientalis".<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Beddome (1874), originally issued in 15 parts from 1868 (TL2, publication number 394). The Library at<space unit="chars" quantity="1"/>the Royal Botanic Gardens Melbourne<space unit="chars" quantity="1"/>holds the title as both the 1874<space unit="chars" quantity="1"/>Madras<space unit="chars" quantity="1"/>edition<space unit="chars" quantity="1"/>and parts<space unit="chars" quantity="1"/>1, 2 and 4-8<space unit="chars" quantity="1"/>as issued.</p>
+                        <space dim="horizontal" extent="tab"/>Beddome (1868-74).<space unit="chars" quantity="1"/>Of the 15 parts originally issued, the Library at<space unit="chars" quantity="1"/>the Royal Botanic Gardens Melbourne<space unit="chars" quantity="1"/>holds parts<space unit="chars" quantity="1"/>1, 2 and 4-8, and the 1874 Madras re-issue.</p>
                   </note>
                </seg>
             </p>
@@ -153,7 +131,7 @@
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>W. H. Odgers<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn3" n="4">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -162,8 +140,6 @@
                   </note>
                </seg>
             </p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>

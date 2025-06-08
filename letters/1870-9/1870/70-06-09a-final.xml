@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Memo ¶  ¶ The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson to be in attendance here at t...</title>
+            <title>Memo ¶  ¶ The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson ¶ William Ferguson. ¶  ¶ to b...</title>
             <author>William Odgers</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-06-09a.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-06-09a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>William Odgers</author>
-               <title>Memo ¶  ¶ The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson to be in attendance here at t...</title>
+               <title>Memo ¶  ¶ The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson ¶ William Ferguson. ¶  ¶ to b...</title>
                <date when="1870-06-09">1870-06-09</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-06-09a.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-06-09a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -69,7 +63,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>DefaultParagraphFont</term>
+               <term>underline</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,33 +87,37 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Memo ¶  ¶ The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson to be in attendance here at t...</supplied>
+               <supplied reason="XTF-compatibility">Memo ¶  ¶ The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson ¶ William Ferguson. ¶  ¶ to b...</supplied>
             </head>
             <p rend="number" xml:lang="en">70.06.09a</p>
             <p rend="correspondent" xml:lang="en">From William Odgers</p>
             <p rend="location" xml:lang="en">No. 1387, unit 20, p. 153, VPRS 1187/P outward correspondence, VA 475 Chief Secretary's Department, Public Record Office Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>Memo</p>
+               <seg rend="DefaultParagraphFont" style="">
+                  <hi rend="underline">Memo</hi>
+               </seg>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson to be in attendance here at the same hour</p>
+               <space dim="horizontal" extent="tab"/>The Director of the Botanic Gardens is requested to be good enough to wait on the Chief Secretary at one o'clock tomorrow — Friday — and to request Mr Fergusson<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>William Ferguson.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>to be in attendance here at the same hour</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">W. H. Odgers</p>
-            <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>9.6.70</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">9.6.70</p>
          </div>
       </body>
    </text>
