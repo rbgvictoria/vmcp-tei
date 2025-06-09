@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [Dr. Ferd Mueller, of the Botanic Garden, Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exchange for ...</title>
+            <title> ¶ [Dr. ¶  ¶ Ferd Mueller, of the Botanic Garden, ¶  ¶ Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exc...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [Dr. Ferd Mueller, of the Botanic Garden, Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exchange for ...</title>
+               <title> ¶ [Dr. ¶  ¶ Ferd Mueller, of the Botanic Garden, ¶  ¶ Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exc...</title>
                <date when="1865-09">1865-09</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,17 +54,15 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -78,7 +73,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>the  Gardeners' Chronicle and Agricultural Gazette</name>
+               <name>the Gardeners' Chronicle and Agricultural Gazette</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -87,24 +82,27 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [Dr. Ferd Mueller, of the Botanic Garden, Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exchange for ...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Dr. ¶  ¶ Ferd Mueller, of the Botanic Garden, ¶  ¶ Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exc...</supplied>
             </head>
             <p rend="number" xml:lang="en">65.09.00e</p>
-            <p rend="correspondent" xml:lang="en">To the <seg style="">Gardeners' Chronicle and Agricultural Gazette</seg>
+            <p rend="correspondent" xml:lang="en">To the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">Gardeners' Chronicle and Agricultural Gazette</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Gardeners' chronicle and agricultural gazette</seg>, 4 November 1865, p. 1034. The letter is dated to September as the latest likely date that it could have been sent to be reported in this issue. </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Gardeners' chronicle and agricultural gazette</seg>, 4 November 1865, p. 1034. The letter is dated to September as the latest likely date that it could have been sent to be reported in this issue.<space unit="chars" quantity="1"/>
+                  </p>
                </note>
-               <space dim="horizontal" extent="tab"/>[Dr. Ferd Mueller, of the Botanic Garden, Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exchange for Australian seeds, from any European garden, in quantity". Dr. Mueller's object is to establish the different species of Firs from various parts of the globe in masses, with the view to their final naturalisation in Australian forests.]</p>
+               <space dim="horizontal" extent="tab"/>[Dr.<space unit="chars" quantity="1"/>Ferd Mueller, of the Botanic Garden,<space unit="chars" quantity="1"/>Melbourne, writes to the effect that he "would be glad to receive fresh, well-ripened, carefully dried and packed Pine seeds of any sorts, in exchange for Australian seeds, from any European garden, in quantity". Dr. Mueller's object is to establish the different species of Firs from various parts of the globe in masses, with the view to their final naturalisation in Australian forests.]</p>
          </div>
       </body>
    </text>

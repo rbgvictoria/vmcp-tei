@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1890-6/1896/96-08-20-proofed.doc</idno>
+            <idno type="filename">data/letters/1890-6/1896/96-08-20-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1890-6/1896/96-08-20-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1896/96-08-20-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -52,7 +52,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -86,8 +86,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">[ ¶ Melbourne, 20th August. 1896. ¶  ¶ To Dr. ¶ Frldtjof Nans ¶ e ¶ n, commander of ¶  ¶ the ¶ expedition ¶ from Norway to the ¶  ¶ Northern Pole, Christiana, Norway. ¶  ¶  ¶ Dear Sir,— Immediately on...</supplied>
             </head>
-            <p rend="number" xml:lang="en">96.08.20<space unit="chars" quantity="1"/>
-            </p>
+            <p rend="number" xml:lang="en">96.08.20</p>
             <p rend="correspondent" xml:lang="en">To Fridtjof Nansen</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
@@ -100,7 +99,7 @@
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>Letter not found. The text used here is from 'Nansen's Voyage',<space unit="chars" quantity="1"/>
                      <seg rend="DefaultParagraphFont" style="font-style: italic; ">Herald</seg>
-                     <space unit="chars" quantity="1"/>(Melbourne), 25 August 1896, p. 3. It is introduced by 'The following is the draft of a letter from the Royal Geographical Society of Australasia, signed by some of the leading geographists amongst us, for transmission to Dr. Nansen, whose name may now be fairly called historical:—<seg rend="DefaultParagraphFont" style="">
+                     <space unit="chars" quantity="1"/>(Melbourne), 25 August 1896, p. 3. It is introduced by 'The following is the draft of a letter from the Royal Geographical Society of Australasia, signed by some of the leading geographists amongst us, for transmission to Dr. Nansen, whose name may now be fairly called historical:—'.<seg rend="DefaultParagraphFont" style="">
                         <space unit="chars" quantity="1"/>
                      </seg>
                   </p>
@@ -149,9 +148,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Nansen (1897) gives an account of<space unit="chars" quantity="1"/>his<space unit="chars" quantity="1"/>expedition, where the<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Nansen (1897) gives an account of<space unit="chars" quantity="1"/>his<space unit="chars" quantity="1"/>expedition,<space unit="chars" quantity="1"/>in which<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Fram</seg>
-                        <space unit="chars" quantity="1"/>was frozen in the Arctic drift ice, but did not,<space unit="chars" quantity="1"/>as hoped reach the North Pole.</p>
+                        <space unit="chars" quantity="1"/>was frozen in the Arctic drift ice but did not,<space unit="chars" quantity="1"/>as hoped,<space unit="chars" quantity="1"/>reach the North Pole.</p>
                   </note>
                </seg>
                <seg rend="DefaultParagraphFont" style="">
@@ -192,7 +191,10 @@
                <space unit="chars" quantity="1"/>
                <seg rend="DefaultParagraphFont" style="">knowledge of man has advanced another</seg>
                <space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="">step northward "<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">step northward"</seg>
+               <seg rend="DefaultParagraphFont" style="">.</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
                </seg>
                <seg rend="DefaultParagraphFont" style="">H</seg>
                <seg rend="DefaultParagraphFont" style="">ow nobly you and</seg>
@@ -230,7 +232,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Presumably a reference<space unit="chars" quantity="1"/>attributing<space unit="chars" quantity="1"/>the beginnings of European understanding of the region from the second voyage of John Davies from Dartmouth, Devon, to the western shores of the straight (Davis Straight) between Greenland and<space unit="chars" quantity="1"/>what is now known as Baffin Island, Canada<space unit="chars" quantity="1"/>(D.<space unit="chars" quantity="1"/>Smith (1877), pp. 20-21).</p>
+                        <space dim="horizontal" extent="tab"/>Presumably a reference<space unit="chars" quantity="1"/>attributing<space unit="chars" quantity="1"/>the beginnings of European understanding of the region from the second voyage of John Davies from Dartmouth, Devon, to the western shores of the strait (Davis Strait) between Greenland and<space unit="chars" quantity="1"/>what is now known as Baffin Island, Canada<space unit="chars" quantity="1"/>(D.<space unit="chars" quantity="1"/>Smith (1877), pp. 20-21).</p>
                   </note>
                </seg>
                <seg rend="DefaultParagraphFont" style="">
@@ -280,13 +282,16 @@
                <space dim="horizontal" extent="tab"/>
                <seg rend="DefaultParagraphFont" style="">All honor to Norway, who, in such an</seg>
                <space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="">enlightened and courageous spirit, sustained your glorious task ; all honor to</seg>
+               <seg rend="DefaultParagraphFont" style="">enlightened and courageous spirit, sustained your glorious task; all honor to</seg>
                <space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="">your compatriots , who sh</seg>
+               <seg rend="DefaultParagraphFont" style="">your compatriots, who sh</seg>
                <seg rend="DefaultParagraphFont" style="">a</seg>
-               <seg rend="DefaultParagraphFont" style="">red your aspirations and your perils ; all honor to</seg>
+               <seg rend="DefaultParagraphFont" style="">red your aspirations and your perils; all honor to</seg>
                <space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="">your own brave will, which never faltered. but followed out your indomitable</seg>
+               <seg rend="DefaultParagraphFont" style="">your own brave will, which never faltered</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>but followed out your indomitable</seg>
                <space unit="chars" quantity="1"/>
                <seg rend="DefaultParagraphFont" style="">purpos</seg>
                <seg rend="DefaultParagraphFont" style="">e</seg>
@@ -300,7 +305,11 @@
                <seg rend="DefaultParagraphFont" style="">
                   <space unit="chars" quantity="1"/>
                </seg>
-               <seg rend="DefaultParagraphFont" style="">A. O. Sochsc, H. G. Turner, J. J. Shilllnglaw, W. Esslngton King, Cwd.</seg>
+               <seg rend="DefaultParagraphFont" style="">A. O. S</seg>
+               <seg rend="DefaultParagraphFont" style="">a</seg>
+               <seg rend="DefaultParagraphFont" style="">chs</seg>
+               <seg rend="DefaultParagraphFont" style="">e</seg>
+               <seg rend="DefaultParagraphFont" style="">, H. G. Turner, J. J. Shilllnglaw, W. Esslngton King, Cwd.</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn3" n="4">
                      <p rend="FootnoteText"
@@ -310,9 +319,13 @@
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetters error for</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Typesetter</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">'</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">s error for</seg>
                         <seg rend="DefaultParagraphFont" style="">
                            <space unit="chars" quantity="1"/>Cmd?</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>[naval rank 'Commander',]</seg>
                      </p>
                   </note>
                </seg>
