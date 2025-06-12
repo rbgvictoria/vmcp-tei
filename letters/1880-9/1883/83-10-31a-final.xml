@@ -1,0 +1,147 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>49 Market Street ¶ Sydney 31 Oct /83 ¶ Dear Baron von Mueller ¶  ¶ I shall feel greatly obliged if you will tell me the species of the enclosed  ¶ Pultenaea ¶ . I cannot find any in the Flora Australi...</title>
+            <author>Edwin Haviland</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1883/83-10-31a-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RB MSS M68, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>83.10.31a</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Edwin Haviland</author>
+               <title>49 Market Street ¶ Sydney 31 Oct /83 ¶ Dear Baron von Mueller ¶  ¶ I shall feel greatly obliged if you will tell me the species of the enclosed  ¶ Pultenaea ¶ . I cannot find any in the Flora Australi...</title>
+               <date when="1883-10-31">1883-10-31</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1883/83-10-31a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9ef5ba10-f428-47f6-828a-435492f0e196">Pultenaea</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>underline</term>
+               <term>Footnote</term>
+               <term>valediction</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">49 Market Street ¶ Sydney 31 Oct /83 ¶ Dear Baron von Mueller ¶  ¶ I shall feel greatly obliged if you will tell me the species of the enclosed  ¶ Pultenaea ¶ . I cannot find any in the Flora Australi...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">83.10.31a</p>
+            <p rend="correspondent" xml:lang="en">From Edwin Haviland</p>
+            <p rend="location" xml:lang="en">RB MSS M68, Library, Royal Botanic Gardens Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">49 Market Street</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">Sydney 31 Oct /83</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">Dear Baron von Mueller</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I shall feel greatly obliged if you will tell me the species of the enclosed <seg style="">
+                  <hi rend="underline">
+                     <name key="Pultenaea">Pultenaea</name>
+                  </hi>
+               </seg>. I cannot find any in the Flora Australiensis<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Bentham (1863-78), vol. 2.</p>
+               </note> that will exactly compare with it.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Any time that you are at leisure will do for a reply.</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Yours faithfully</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>E. Haviland</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pultenaea">Pultenaea</name>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

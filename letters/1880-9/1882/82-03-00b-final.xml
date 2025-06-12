@@ -1,0 +1,661 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[variety of] ¶ [Without number] ¶ [lemon-scented leaves] ¶ [Without flowers and fruits.] ¶ [Too young]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1882/82-03-00b-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>State Herbarium of South Australia, Plant Biodiversity Centre, Adelaide.</msName>
+                  <altIdentifier>
+                     <idno>82.03.00b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>[variety of] ¶ [Without number] ¶ [lemon-scented leaves] ¶ [Without flowers and fruits.] ¶ [Too young]...</title>
+               <date when="1882-03">1882-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1882/82-03-00b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Erechtites quadridentata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/0f4e323e-dcd5-42f6-b0cf-26607d8fe644">Helichrysum semipapposum</term>
+               <term>Lagenophora Billardieri</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/4d47d540-6814-4592-93ac-fe6664508b56">Lepidosperma filiforme</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/12c8f7e2-33ae-4452-ac77-948400146391">Calandrinia volubilis</term>
+               <term>Eriochilus autumnalis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c82ce994-3a29-4ecc-af0e-8ea2a84172ac">Gnaphalium luteoalbum</term>
+               <term>Lepidosperma concavum</term>
+               <term>Rhagodia Billardierii</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/011d8cde-be05-421a-99a7-183f0f302543">Scabiosa atropurpurea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/0f93f8b6-64e8-4fa9-8e5a-d08c56071a9a">Calostemma purpureum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f7eeacf5-91db-464d-b871-7e6ca0682b65">Cotula coronopifolia</term>
+               <term>Epilobium tetragonum</term>
+               <term>Fumaria hygrometrica</term>
+               <term>Gnaphalium Japonicum</term>
+               <term>Lepidosperma lineare</term>
+               <term>Melaleuca parviflora</term>
+               <term>Brachycome graminea</term>
+               <term>Claytonia volubilis</term>
+               <term>Galium Gaudichaudii</term>
+               <term>Juncus caespititius</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dec25a49-07f9-45ee-8409-e1802887cacb">Melissa officinalis</term>
+               <term>Mentha saturejoides</term>
+               <term>Potamogeton marinus</term>
+               <term>Trifolium filiforme</term>
+               <term>Boerhaavia diffusa</term>
+               <term>Loranthus Exocarpi</term>
+               <term>Loranthus pendulus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/cbdb46ec-1fe4-4f57-9f9a-c01c2f498047">Cardamine hirsuta</term>
+               <term>Datura Stramonium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9b5b6633-071c-4e0d-bff2-c385e8ea9716">Kochia brevifolia</term>
+               <term>Lythrum Salicaria</term>
+               <term>Scirpus lacustris</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/7de063e0-7396-4354-a7ad-060a1c9a516a">Juncus maritimus</term>
+               <term>Scirpus riparius</term>
+               <term>Aster axillaris</term>
+               <term>Cladium junceum</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/50bdd4a4-608a-4d85-8700-aaa7a47d3d87">Lactuca saligna</term>
+               <term>Sium latifolium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/7c262d05-5380-49b4-8470-2510a01b5ac9">Goodenia ovata</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c35e8d44-a76c-4dab-b40f-0b3f045b70bc">Pimelea glauca</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/22d5fd3a-e957-4ccb-847d-3815b10ac52b">Alternanthera</term>
+               <term>Salsola kali</term>
+               <term>Heleocharis</term>
+               <term>Sphacelaria</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/22ad8546-8f00-4999-9b20-e40d11229ad5">Eucalyptus</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/28b96168-252a-4ee5-94a1-1f08fee4e6dc">Triglochin</term>
+               <term>Chara</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="44">English</language>
+            <language ident="de" usage="56">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Otto Tepper</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[variety of] ¶ [Without number] ¶ [lemon-scented leaves] ¶ [Without flowers and fruits.] ¶ [Too young]...</supplied>
+            </head>
+            <p rend="number" xml:lang="de">82.03.00b</p>
+            <p rend="correspondent" xml:lang="de">To Otto Tepper</p>
+            <p rend="location" xml:lang="de">State Herbarium of South Australia, Plant Biodiversity Centre, Adelaide.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Marked by Tepper: 'Recd. 17.3.82', and dated on this basis.</p>
+               </note>550 Gnaphalium luteo-album, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">551. <name key="Gnaphalium%20Japonicum">Gnaphalium Japonicum</name>, Thunberg</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">553 Var von <name key="Helichrysum%20semipapposum">Helichrysum semipapposum</name> DC</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[variety of]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">552. <name key="Loranthus%20pendulus">Loranthus pendulus</name>, Sieber.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">Ohne Nummer<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Marked by Tepper: '555'.</p>
+               </note>
+               <name key="Melissa%20officinalis">Melissa officinalis</name>, L</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Without number]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Citronen-Duftende Blätter</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[lemon-scented leaves]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">556 Ohne Blüthen u Früchte. </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Without flowers and fruits.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">554 <name key="Lythrum%20Salicaria">Lythrum Salicaria</name>, L</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">545 Zu jung</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Too young]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">546. <name key="Lepidosperma%20concavum">Lepidosperma concavum</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">566 <name key="Scirpus%20lacustris">Scirpus lacustris</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">547. <name key="Scirpus%20riparius">Scirpus riparius</name>, Sprengel</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">549. Claytonia (Calandrinia) volubilis, Bth.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">492 <name key="Alternanthera">Alternanthera</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">597. <name key="Lepidosperma%20lineare">Lepidosperma lineare</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">544. <name key="Mentha%20saturejoides">Mentha saturejoides</name>, R.Br.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">541 <name key="Sium%20latifolium">Sium latifolium</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">560. <name key="Lepidosperma%20filiforme">Lepidosperma filiforme</name>, Labill.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">565. <name key="Cotula%20coronopifolia">Cotula coronopifolia</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">563. <name key="Chara">Chara</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">562. Potamogeton</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Ohne reife Frucht nicht benennbar.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Without ripe fruit not nameable.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">564. <name key="Boerhaavia%20diffusa">Boerhaavia diffusa</name> L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">570 Datura (eingeführtes Stramonium) </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0.1598in; "
+               xml:lang="en">[introduced <seg style="font-style: italic; ">Stramonium</seg>]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">571 <name key="Brachycome%20graminea">Brachycome graminea</name>, F.v.M.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">573. <name key="Calostemma%20purpureum">Calostemma purpureum</name>, RBr.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">572 Eingeführt? Nicht genug für Zergliederung, nur 1 verschrumpfte Blüthe</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Introduced? Not enough for dissection, only 1 withered flower]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">575. <name key="Sphacelaria">Sphacelaria</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">599. <name key="Galium%20Gaudichaudii">Galium Gaudichaudii</name> D.Candolle</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">595 <name key="Fumaria%20hygrometrica">Fumaria hygrometrica</name> Hedwig</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">567. <name key="Juncus%20maritimus">Juncus maritimus</name> Lamarck.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">557 Juncus.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Vielleicht Form des J. caespititius. Ich möchte mehr davon sehen, namentilich auch Wurzeln.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Perhaps form of J. caespititius. I would like to see more of it, especially roots too.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">558 <name key="Trifolium%20filiforme">Trifolium filiforme</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Eingeführt.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Introduced.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">664. Farn <seg style="">
+                  <hi rend="underline">ohne</hi>
+               </seg> Frucht!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Fern <seg style="">
+                  <hi rend="underline">without</hi>
+               </seg> fruit!]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">562 <name key="Potamogeton%20marinus">Potamogeton marinus</name> L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">631. <name key="Chara">Chara</name>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">628 <name key="Heleocharis">Heleocharis</name>, ohne Wurzel.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[without root.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">566 Kleine Form von <name key="Scirpus%20lacustris">Scirpus lacustris</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Small form of]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">568 Lepidosperma.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">630 <name key="Salsola%20kali">Salsola kali</name> L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">624 <name key="Melaleuca%20parviflora">Melaleuca parviflora</name>, Lindley</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">626 <name key="Kochia%20brevifolia">Kochia brevifolia</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">625. <name key="Rhagodia%20Billardierii">Rhagodia Billardierii</name>,<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Rhagodia billardierei?</p>
+               </note> RBr.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">623 <name key="Eucalyptus">Eucalyptus</name>
+               <seg style="">
+                  <hi rend="underline">Ohne</hi>
+               </seg> Frucht!</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[<seg style="">
+                  <hi rend="underline">Without</hi>
+               </seg> fruit!]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">622 Var von <name key="Goodenia%20ovata">Goodenia ovata</name>, Sm.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Variety of]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">617. <name key="Pimelea%20glauca">Pimelea glauca</name>, RBr <seg style="">
+                  <hi rend="underline">var</hi>
+               </seg>.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">621. Blume von <name key="Loranthus%20Exocarpi">Loranthus Exocarpi</name>, Behr.<note xml:id="ftn4" type="footnote" n="4">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Marked by Tepper: '(Wrong number. O.T.)'</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Flower from]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <seg style="">616. <name key="Scabiosa%20atropurpurea">Scabiosa atropurpurea</name> L</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Eingewandert.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Immigrated.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">614 <name key="Heleocharis">Heleocharis</name>
+               <note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Eleocharis? Marked by Tepper: 'Eleocharis multicaulis, Smith (older name = E. gracilis) F.v.M in lett. 26.4.82.' See M to Tepper 26 April 1882 (in this edition as 82.04.26b).</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">619 <name key="Eriochilus%20autumnalis">Eriochilus autumnalis</name>, RBr</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">612 <name key="Cladium%20junceum">Cladium junceum</name>, RBr.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">611 Cladium</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Werde es genau untersuchen.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[Will investigate it closely.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">609. <name key="Lagenophora%20Billardieri">Lagenophora Billardieri</name>, Cassini</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">608 <name key="Lactuca%20saligna">Lactuca saligna</name>, L.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">607. <name key="Cardamine%20hirsuta">Cardamine hirsuta</name>, L. var.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">606. <name key="Epilobium%20tetragonum">Epilobium tetragonum</name> L. var.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">604. Monstrosität.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[malformed.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">605. <name key="Erechtites%20quadridentata">Erechtites quadridentata</name>, D.C.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">603. <name key="Aster%20axillaris">Aster axillaris</name>, F.v.M.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">602. <name key="Loranthus%20Exocarpi">Loranthus Exocarpi</name> Behr</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>
+               <seg style="">
+                  <hi rend="underline">Nicht selten</hi>
+               </seg> auf anderen Mistel Arten paratisirend, was wohl bekannt.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[<seg style="">
+                  <hi rend="underline">Not rarely</hi>
+               </seg> parasitising on other species of mistletoe, which is well known.]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">601. <name key="Eucalyptus">Eucalyptus</name>
+               <seg style="">
+                  <hi rend="underline">ohne Frucht</hi>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[without fruit]</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">610. Cladium<note xml:id="ftn6" type="footnote" n="6">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Marked by Tepper: 'trifidum, F.v.M. Not known before in S. Australia, F.v.M. lett. 26.4.'. See M to O. Tepper, 26 April 1882 (in this edition as 82-04-26a).</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">613. <name key="Triglochin">Triglochin</name>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="de">
+               <space dim="horizontal" extent="tab"/>Die kritischen Unterschiede zu ermitteln bedarf es <seg style="">
+                  <hi rend="underline">ganz</hi>
+               </seg> reifer Frucht-Exemplare. </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 10pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">[To ascertain the critical differences it needs <seg style="">
+                  <hi rend="underline">quite</hi>
+               </seg> ripe fruiting specimens.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Alternanthera">Alternanthera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Aster%20axillaris">Aster axillaris</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Boerhaavia%20diffusa">Boerhaavia diffusa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Brachycome%20graminea">Brachycome graminea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calandrinia%20volubilis">Calandrinia volubilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Calostemma%20purpureum">Calostemma purpureum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cardamine%20hirsuta">Cardamine hirsuta</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Chara">Chara</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cladium%20junceum">Cladium junceum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Claytonia%20volubilis">Claytonia volubilis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cotula%20coronopifolia">Cotula coronopifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Datura%20Stramonium">Datura Stramonium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Epilobium%20tetragonum">Epilobium tetragonum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Erechtites%20quadridentata">Erechtites quadridentata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eriochilus%20autumnalis">Eriochilus autumnalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eucalyptus">Eucalyptus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Fumaria%20hygrometrica">Fumaria hygrometrica</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Galium%20Gaudichaudii">Galium Gaudichaudii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gnaphalium%20Japonicum">Gnaphalium Japonicum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">Gnaphalium luteo-album</p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Goodenia%20ovata">Goodenia ovata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Heleocharis">Heleocharis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Helichrysum%20semipapposum">Helichrysum semipapposum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Heleocharis">Heleocharis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juncus%20caespititius">Juncus caespititius</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Juncus%20maritimus">Juncus maritimus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Kochia%20brevifolia">Kochia brevifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lactuca%20saligna">Lactuca saligna</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lagenophora%20Billardieri">Lagenophora Billardieri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lepidosperma%20concavum">Lepidosperma concavum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lepidosperma%20filiforme">Lepidosperma filiforme</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lepidosperma%20lineare">Lepidosperma lineare</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Loranthus%20Exocarpi">Loranthus Exocarpi</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Loranthus%20pendulus">Loranthus pendulus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lythrum%20Salicaria">Lythrum Salicaria</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melaleuca%20parviflora">Melaleuca parviflora</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Melissa%20officinalis">Melissa officinalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mentha%20saturejoides">Mentha saturejoides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Pimelea%20glauca">Pimelea glauca</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Potamogeton%20marinus">Potamogeton marinus</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhagodia%20Billardierii">Rhagodia Billardierii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Salsola%20kali">Salsola kali</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Scabiosa%20atropurpurea">Scabiosa atropurpurea</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scirpus%20lacustris">Scirpus lacustris</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scirpus%20riparius">Scirpus riparius</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sium%20latifolium">Sium latifolium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Sphacelaria">Sphacelaria</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Trifolium%20filiforme">Trifolium filiforme</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Triglochin">Triglochin</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

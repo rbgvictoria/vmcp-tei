@@ -1,0 +1,125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [With reference to Secretary of State's suggestions ¶  in re interchange of valuable vegetable productions]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1871/71-11-08-proofed.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>No. 14292, vol. 1871 Z, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>71.11.08</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [With reference to Secretary of State's suggestions ¶  in re interchange of valuable vegetable productions]...</title>
+               <date when="1871-11-08">1871-11-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-11-08-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Charles Gavan Duffy</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [With reference to Secretary of State's suggestions ¶  in re interchange of valuable vegetable productions]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">71.11.08</p>
+            <p rend="correspondent" xml:lang="en">To Charles Gavan Duffy</p>
+            <p rend="location" xml:lang="en">No. 14292, vol. 1871 Z, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found; item is a register entry only, recording receipt of a letter dated 8 November 1871.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[With reference to Secretary of State's suggestions<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">See W. Odgers to M, 8 November 1871 (in this edition as 71-11-08a). <seg style="font-weight: bold; ">There should be mention of this in Governor's correspondence with M or in Governor's despatches from Secretary of State. Needs explanation.</seg>
+                  </p>
+               </note> in re interchange of valuable vegetable productions]<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">This file was disposed of to B72/3728 then D9808/9 (not sure which) then where? need to follow up string at PRO.</seg>
+                  </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; color: #0c42ff; font-weight: bold; "
+                     xml:lang="en">AML to look for reply at TNA</p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

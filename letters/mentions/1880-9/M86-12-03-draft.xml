@@ -1,0 +1,142 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[...] ¶  we need a note to explain ellipsis ¶ [Monga, 3 December 1886] ¶  ¶ [...] ¶  ¶ I am now only waiting for a letter from Baron von Müller, concerning my last parcel of plants I sent to him, when...</title>
+            <author>Wilhelm Bäuerlen</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/mentions/1880-9/M86-12-03-draft.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>MRS 202/391 special bundle, collector, Archives of the Museum of Applied Arts and Sciences, Sydney.</msName>
+                  <altIdentifier>
+                     <idno>86.12.03</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Wilhelm Bäuerlen</author>
+               <title>[...] ¶  we need a note to explain ellipsis ¶ [Monga, 3 December 1886] ¶  ¶ [...] ¶  ¶ I am now only waiting for a letter from Baron von Müller, concerning my last parcel of plants I sent to him, when...</title>
+               <date when="1886-12-03">1886-12-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/mentions/1880-9/M86-12-03-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>Progress note</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Joseph Maiden</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">[...] ¶  we need a note to explain ellipsis ¶ [Monga, 3 December 1886] ¶  ¶ [...] ¶  ¶ I am now only waiting for a letter from Baron von Müller, concerning my last parcel of plants I sent to him, when...</supplied>
+            </head>
+            <p rend="Progress%20note"
+               style="font-family: Geneva; font-size: 12pt; margin-left: -0.8862in; margin-right: 0in; text-align: end; text-indent: 0.8862in; color: #0000ff; "
+               xml:lang="en">
+               <seg style="background-color: #ffff00; ">[Monga, 29 November 1886]</seg> Why in [ ]? </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.1665in; margin-right: 0in; text-indent: -0.1665in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-weight: bold; ">Transcribed 6 November 1992.</seg>
+                  </p>
+               </note>
+               <seg style="background-color: #ffff00; ">[...]</seg> we need a note to explain ellipsis</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="number" xml:lang="en">86.12.03</p>
+            <p rend="correspondent" xml:lang="en">Wilhelm Bäuerlen to Joseph Maiden</p>
+            <p rend="location" xml:lang="en">MRS 202/391 special bundle, collector, Archives of the Museum of Applied Arts and Sciences, Sydney.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; background-color: #ffff00; "
+               xml:lang="en">[Monga, 3 December 1886]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <seg style="background-color: #ffff00; ">[...]</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am now only waiting for a letter from Baron von Müller, concerning my last parcel of plants I sent to him, when very likely next week I shall move further south, unless expressly desired by him to remain longer in this district.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <seg style="background-color: #ffff00; ">[...]</seg>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>As the Baron has not sent me the name yet of the fourth new plant I have discovered lately, I had to defer sending you a specimen until next opportunity. I am also in hopes that there will be something new amongst the collection I brought from the Ghunnyenara Mountain</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [The Hon. W. Macleay read a letter from Baron Ferd Von Mueller, of Victoria, K.C.M.G., expressing his sympathy with the society in the loss sustained in the late disastrous fire. ¶ ]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1882/82-09-00f-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>82.09.00f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [The Hon. W. Macleay read a letter from Baron Ferd Von Mueller, of Victoria, K.C.M.G., expressing his sympathy with the society in the loss sustained in the late disastrous fire. ¶ ]...</title>
+               <date when="1882-09">1882-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1882/82-09-00f-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William John Macleay</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [The Hon. W. Macleay read a letter from Baron Ferd Von Mueller, of Victoria, K.C.M.G., expressing his sympathy with the society in the loss sustained in the late disastrous fire. ¶ ]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">82.09.00f</p>
+            <p rend="correspondent" xml:lang="en">To William John Macleay</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found. The text given here is from a report of the special general meeting of the Linnean Society of New South Wales on 27 September 1882 (<seg style="font-style: italic; ">Sydney morning herald</seg>, 28 September 1882, p. 8).</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[The Hon. W. Macleay read a letter from Baron Ferd Von Mueller, of Victoria, K.C.M.G., expressing his sympathy with the society in the loss sustained in the late disastrous fire.<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">A fire on 22 September 1882 completely destroyed the 'Garden Palace', the 'temporary' building erected for the Sydney International Exhibition of 1879-80 that was subsequently used to house a variety of government offices and other facilities, including the office and museum of the Linnean Society of New South Wales (<seg style="font-style: italic; ">Sydney morning herald</seg>, 23 September 1882, p. 8).</p>
+               </note>]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
