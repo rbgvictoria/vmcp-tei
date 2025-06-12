@@ -1,0 +1,116 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [A letter was received from M 'stating that he would be happy to supply such plants as could be spared for planting the Municipality'.]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1850-9/1859/59-06-27b-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Minute books, St Kilda City Council records, City of Port Phillip, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>59.06.27b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [A letter was received from M 'stating that he would be happy to supply such plants as could be spared for planting the Municipality'.]...</title>
+               <date when="1859-06-27">1859-06-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1850-9/1859/59-06-27b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Edward Bradshaw</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [A letter was received from M 'stating that he would be happy to supply such plants as could be spared for planting the Municipality'.]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">59.06.27b</p>
+            <p rend="correspondent" xml:lang="en">To Edward Bradshaw</p>
+            <p rend="location" xml:lang="en">Minute books, St Kilda City Council records, City of Port Phillip, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found; item is part of the minutes of the Municipal Council meeting held on 29 June 1859. M's letter is dated from Bradshaw's reply, E. Bradshaw to M, 30 June 1859 (in this edition as 59-06-30c).</p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>A planting committee was formed in St Kilda on 20 April 1859 that instructed Bradshaw, the Town Clerk, to write to the Chief Secretary 'for authority to get some trees and shrubs from the Botanic Gardens for the purpose of planting the Esplanade, Fitzroy St and the Melbourne Road'.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[A letter was received from M 'stating that he would be happy to supply such plants as could be spared for planting the Municipality'.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

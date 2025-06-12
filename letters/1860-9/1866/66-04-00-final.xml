@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>April 1866 ¶  ¶ [The Chairman read two letters referred to the Sub-Committee. The one was from the Hon. S. Davenport, enclosing one from Dr. Mueller, of Melbourne, strongly urging that a collection of...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1866/66-04-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>66.04.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>April 1866 ¶  ¶ [The Chairman read two letters referred to the Sub-Committee. The one was from the Hon. S. Davenport, enclosing one from Dr. Mueller, of Melbourne, strongly urging that a collection of...</title>
+               <date when="1866-04">1866-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-04-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Samuel Davenport</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">April 1866 ¶  ¶ [The Chairman read two letters referred to the Sub-Committee. The one was from the Hon. S. Davenport, enclosing one from Dr. Mueller, of Melbourne, strongly urging that a collection of...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">66.04.00</p>
+            <p rend="correspondent" xml:lang="en">To Samuel Davenport</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. For the text<space unit="chars" quantity="1"/>given<space unit="chars" quantity="1"/>here,<space unit="chars" quantity="1"/>see<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">South Australian register</seg>, 12 April 1866, p. 2, a report of a meeting held on 10 April 1866 of the Miscellaneous Sub-Committee<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>the committee preparing a SA contribution to the forthcoming Paris International Exhibition.</p>
+               </note>April 1866</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>[The Chairman read two letters referred to the Sub-Committee. The one was from the Hon. S. Davenport, enclosing one from Dr. Mueller, of Melbourne, strongly urging that a collection of Northern Territory vegetable and mineral productions should be sent.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

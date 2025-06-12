@@ -1,0 +1,585 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>London Octr 12 1863 ¶ My dear Sir ¶  ¶ Since I last wrote I have received yours of the 22d &amp; 24th June and 23d July, and on my return to town I found the plants you announced safely arrived — Acacias ...</title>
+            <author>George Bentham</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1863/63-10-12-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>RB MSS M4, Library, Royal Botanic Gardens Melbourne.</msName>
+                  <altIdentifier>
+                     <idno>63.10.12 </idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>George Bentham</author>
+               <title>London Octr 12 1863 ¶ My dear Sir ¶  ¶ Since I last wrote I have received yours of the 22d &amp; 24th June and 23d July, and on my return to town I found the plants you announced safely arrived — Acacias ...</title>
+               <date when="1863-10-12">1863-10-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1863/63-10-12-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Bossiaea lenticularis</term>
+               <term>Bossiaea scolopendria</term>
+               <term>Bossiaea stenophylla</term>
+               <term>Bossiaea paucifolia</term>
+               <term>Bossiaea platyclada</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/30896d8a-5dac-456d-a29a-778de81a336c">Bossiaea bracteosa</term>
+               <term>Bossiaea carinalis</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b2f9b482-e5da-4ce0-99d5-dec18b31079e">Bossiaea cordigera</term>
+               <term>Bossiaea eriocarpa</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/133106b2-d560-40d4-866f-41e3d812981c">Hovea heterophylla</term>
+               <term>Mimosa latespinosa</term>
+               <term>Bossiaea aculeata</term>
+               <term>Bossiaea oxyclada</term>
+               <term>Mimosa latispinea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/1b86b6f4-6077-44ca-8890-beb8db30189f">Bossiaea riparia</term>
+               <term>Bossiaea sulcata</term>
+               <term>Bossiaea virgata</term>
+               <term>Bossiaea Walkeri</term>
+               <term>Hovea acutifolia</term>
+               <term>Hovea lanceolata</term>
+               <term>Hovea longifolia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/9d90a5d7-3969-4c48-ba0e-a29961f28e79">Bossiaea ensata</term>
+               <term>Bossiaea Rossii</term>
+               <term>Hovea leiocarpa</term>
+               <term>Bossiaea egena</term>
+               <term>Hovea linearis</term>
+               <term>Hovea longipes</term>
+               <term>Bossiaea rufa</term>
+               <term>Nematophyllum</term>
+               <term>Papilionaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/aa0ac679-427f-4c2f-8f61-8b9c4b7a88fa">Crassulaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/b7bcefa4-da58-4779-a2c2-6aa676681c96">Gastrolobium</term>
+               <term>Plagiolobium</term>
+               <term>Rhizophoreae</term>
+               <term>Umbelliferae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f29ab444-682f-41f5-9750-98d676282575">Cunoniaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c3722bb6-8c1e-4b5c-a527-9ca643df0fb7">Droseraceae</term>
+               <term>Leguminosae</term>
+               <term>Onagrarieae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/2cf858f1-3678-4056-b3d1-bfe21c974077">Platylobium</term>
+               <term>Saxifrageae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/fb589985-9db0-4c95-86ef-6c1ea486d6aa">Templetonia</term>
+               <term>Brachysema</term>
+               <term>Compositae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/87ec3390-e07c-487d-a7b1-1b20e9fd6c23">Cyperaceae</term>
+               <term>Halorageae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c0638877-12d5-4876-a2d5-1f65046e6405">Dillwynia</term>
+               <term>Jacksonia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/7cc7f482-9966-4860-a834-2608a8949a0b">Myrtaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/fd5c0005-997f-48d2-884f-caeaff3e1c83">Phebalium</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/2ed7e3fa-8568-4c33-85fa-02fba53fe739">Rosaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/35a79be8-3b86-41b2-a9ad-be8c1dd6bc55">Rutaceae</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/c54d5dcd-f6b2-40c1-a9bd-6f83dcd4a727">Boronia</term>
+               <term>Scottea</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/dfe52d12-cc3f-4620-8a9b-ab8361322615">Acacia</term>
+               <term>Lalage</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>table</term>
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>underline</term>
+               <term>valediction</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">London Octr 12 1863 ¶ My dear Sir ¶  ¶ Since I last wrote I have received yours of the 22d &amp; 24th June and 23d July, and on my return to town I found the plants you announced safely arrived — Acacias ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">63.10.12 </p>
+            <p rend="correspondent" xml:lang="en">From George Bentham</p>
+            <p rend="location" xml:lang="en">RB MSS M4, Library, Royal Botanic Gardens Melbourne.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               xml:lang="en">London Octr 12 1863</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">My dear Sir</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Since I last wrote I have received yours of the 22d &amp; 24th June and 23d July, and on my return to town I found the plants you announced safely arrived — <name key="Acacia">Acacia</name>s <name key="Jacksonia">Jacksonia</name>
+               <name key="Gastrolobium">Gastrolobium</name> miscellaneous <name key="Leguminosae">Leguminosae</name> — and two bundles <name key="Cyperaceae">Cyperaceae</name> — sent I suppose by mistake shall I send them back? as it will be some years before I come to them</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I regret exceedingly that some of the returned packages suffered from damp — but I do not know how to obviate the risk of it.<note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">See M to G. Bentham, 24 June 1863.</p>
+               </note> They were <seg style="">
+                  <hi rend="underline">perfectly dry</hi>
+               </seg> when sent from here. They are always kept in the room where I work in which there is a fire all day five days in the week during autumn winter and spring and I looked over the packages in question just before they were packed up when there was not the slightest sign of mould or damp — the boxes were carefully soldered up — so that how the damp afterwards got in I cannot tell — I sincerely trust there will be no more of it — As to the crumpling the paper that is unavoidable where plants are kept tied up in bundles — their weight alone is sufficient to do it — and if they are not packed rather close they will suffer more from friction and breaking; but I will have them packed with all caution. I regret that a few of the <name key="Papilionaceae">Papilionaceae</name> arrived with insects — We have now I believe quite expelled insects from the Kew herbaria.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I will go over your remarks and corrections with my Flora of which I have an interleaved copy for the purpose</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>To what you say of illogical adoption of genera such as <name key="Phebalium">Phebalium</name> upon a character which is not considered generic in the adjoining genus <name key="Boronia">Boronia</name> I would reply that such a course is necessary throughout the <seg style="">
+                  <hi rend="underline">Natural</hi>
+               </seg> System as distinguished from an <seg style="">
+                  <hi rend="underline">Artificial</hi>
+               </seg> one — Here a character is constantly accompanied by differences in habit and other peculiarities and it is good — close by it is unattended by any others and is therefore bad. No character is generic or ordinal or sectional or even specific <seg style="">
+                  <hi rend="underline">per se</hi>
+               </seg>, its value depends upon circumstances — You may argue that a character is not <seg style="">
+                  <hi rend="underline">necessarily</hi>
+               </seg> generic because it is not so in an adjoining genus, but you cannot go on to say that it <seg style="">
+                  <hi rend="underline">must not</hi>
+               </seg> therefore be generic. And it is this impossibility of telling in a great many cases the a priori value of a character that makes so many monotypic genera which when first created appear to be very distinct, prove worthless as other allied species are discovered. It is never without fear and trembling that I propose a monotypic genus and a great many that I have so proposed have proved untenable. But in this matter of <name key="Rutaceae">Rutaceae</name> I have in some cases adopted on slight ground old genera because it requires very strong objections to overrule genera universally recognized by Brown Jussieu De Candolle and others of weight and authority. I am unwilling also to make changes not absolutely necessary in the orders which Dr Hooker worked up for our Genera.<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Bentham &amp; Hooker (1862-83); see Stearn (1956) for the authorship of the sections.</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I wrote in my last why I had not sent a copy of the Flora to the Prince of Wales' Library — it would be entirely unheeded and thrown away<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">G. Bentham to M, 15 August 1863. See also M to G. Bentham, 13 May 1863.</p>
+               </note> — I see you now propose to send one to the Duke of Newcastle.<note xml:id="ftn4" type="footnote" n="4">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">See M to G. Bentham, 23 July 1863.</p>
+               </note> If you desire it I will send one in <seg style="">
+                  <hi rend="underline">your name</hi>
+               </seg> — but as the Colonial Office entirely threw the Flora overboard<note xml:id="ftn5" type="footnote" n="5">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">See notes to M to W. Hooker, 15 June 1859.</p>
+               </note> I do not see any occasion for the presentation and I certainly should decline to take part in it Out of the £10 there are</p>
+            <table n="Table1">
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">6 copies</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">Genera Plantarum</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">
+                        <seg style="">£5.5.0</seg>
+                     </p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">3 do</p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; "
+                        xml:lang="en">
+                        <seg style="">Flora Australiensis sent to Copenhagen</seg>
+                        <seg style="">
+                           <note xml:id="ftn6" type="footnote" n="6">
+                              <p rend="Footnote"
+                                 style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                                 xml:lang="en">See M to G. Bentham, 24 June 1863 and G. Bentham to M, 15 August 1863.</p>
+                           </note>
+                        </seg>
+                     </p>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">2.11.0</p>
+                  </cell>
+               </row>
+               <row>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                  </cell>
+                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                     <p rend="letter"
+                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        xml:lang="en">£7.16.0</p>
+                  </cell>
+               </row>
+            </table>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">leaving £2.4.0 of yours in my hands.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I returned to work the first of this month and have done <name key="Dillwynia">Dillwynia</name>, Hovea and Bossiaea and its allies Hovea includes of course <name key="Plagiolobium">Plagiolobium</name> — H. leiocarpa which I published in Mitchells book<note xml:id="ftn7" type="footnote" n="7">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Mitchell (1848), p. 289.</p>
+               </note> is identical with my H. longipes which I had overlooked <space unit="chars" quantity="1"/>— a remarkable species — the other Eastern Hoveas run much one in to the other however I have kept up H. linearis Br and with much doubt as a var or allied species H. heterophylla, H. longifolia Br (including H lanceolata &amp;c) and H. acutifolia Don which you had inadvertently named H. lanceolata — I have also considerably reduced the Western ones having only 11 Hoveas in all. — As to Bossiaea it must include <name key="Lalage">Lalage</name> which comes next to B. eriocarpa and I think <name key="Scottea">Scottea</name> for the flowers of <name key="Scottea">Scottea</name> are those of B. carinalis, and the opposite leaves which you observe in B. cordigera &amp; lenticularis occur also in 3 Western species and in a remarkable unpublished Illawarra one. <name key="Platylobium">Platylobium</name> is closely allied but can be kept up by the winged pod different in dehiscence from that of Bossiaea. <name key="Templetonia">Templetonia</name> agrees with Hovea in the anthers 5 long and erect 5 shorter and versatile it also differs from Bossiaea in the comparatively elongate lower tooth of the calyx and in the pod but taking these as positive characters, <name key="Nematophyllum">Nematophyllum</name>, <name key="Bossiaea%20stenophylla">Bossiaea stenophylla</name>, B. aculeata, B. sulcata (B. Rossii F Muell) and B. egena must all go into <name key="Templetonia">Templetonia</name> — all these have also the peculiar sulcate-striate branches — In the true Bossiaeas as in <name key="Platylobium">Platylobium</name> the anthers are all uniformly versatile the lower lobes of the calyx shorter than the upper the pod thin &amp; flat as well as other minor differences</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>As to other points mentioned in your letters</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I have not had much occasion to cite Woolls' specimens as they are chiefly from Paramatta — that is the neighbourhood of Port Jackson from whence I have far too many collections to cite them all I therefore then usually only quote Brown as the first great authority and Sieber on account of his Nos which are in so many European herbaria. Woolls specimens however are generally particularly instructive and you will find him mentioned several times — the best Port Jackson and Blue Mountain specimens are usually Brown's Sieber's Frasers and Richd Cunninghams Miss Atkinson's are excellent<note xml:id="ftn8" type="footnote" n="8">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Robert Brown (1773-1858), Charles Fraser.</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Dr Milligan's plants at the British Museum are amongst the unarranged lumber which I have not time to hunt through.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I think any arrangement about cryptogamia would be at present premature I hope to do the ferns myself if life and health are spared me — Sir W. Hooker is too busy with his great work, besides he would not like the drawing them up in a form which though sanctioned by himself is not what he is used to. Harvey now devotes his whole time to Flora Capensis<note xml:id="ftn9" type="footnote" n="9">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Harvey &amp; Sonder (1859-65).</p>
+               </note> — and as to the other branches I must see my way as to preventing that enormous multiplication of genera which threatens to throw cryptogamic botany into utter confusion, before I sanction it for our Flora.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I shall be anxious to hear of the safe arrival of the Prince of Wales I will adopt your suggestion in future of not sending so much in one ship.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>
+               <name key="Onagrarieae">Onagrarieae</name> come I think after <name key="Myrtaceae">Myrtaceae</name> and therefore in vol. III. The following are as nearly as I can tell before working them up (Dr Hooker has not quite finished them for Genera Plantarum) the Orders I shall get into vol. II. <name key="Rosaceae">Rosaceae</name>
+               <name key="Saxifrageae">Saxifrageae</name> including <name key="Cunoniaceae">Cunoniaceae</name> &amp;c <name key="Droseraceae">Droseraceae</name>
+               <name key="Crassulaceae">Crassulaceae</name>
+               <name key="Rhizophoreae">Rhizophoreae</name> and <name key="Halorageae">Halorageae</name> — but now on adding up the probable amount I find that these altogether with <name key="Leguminosae">Leguminosae</name> may not extend to much beyond 1000 to 1050 species and therefore I shall be driven after all to dividing <name key="Myrtaceae">Myrtaceae</name>. I value these at above 600 species Dr Hooker thinks I might perhaps get the whole into a thick 2d vol and then it would leave the 3d vol. (including <name key="Umbelliferae">Umbelliferae</name>
+               <name key="Compositae">Compositae</name> &amp; small orders) a rather thin one. I must therefore beg you to send me the <name key="Myrtaceae">Myrtaceae</name> as for the present vol.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Your notes on <name key="Acacia">Acacia</name>s are all reserved for when I come to the genus</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The specimen you sent of your <name key="Mimosa%20latispinea">Mimosa latispinea</name>
+               <note xml:id="ftn10" type="footnote" n="10">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">No species of <seg style="font-style: italic; ">Mimosa</seg> published by M has been found (APNI, IPNI, each accessed 1 July 2020).</p>
+               </note> looks to me exactly like M. latespinosa<note xml:id="ftn11" type="footnote" n="11">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="font-style: italic; ">M. latispinosa</seg>?</p>
+               </note> Lam. from the Mauritius</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>16th I have just finished Bossiaea and have had a great deal of trouble with the cephyllous ones — Habit goes for little in Kew for without flowers it is difficult to distinguish Bossiaeas from some <name key="Brachysema">Brachysema</name>s or from plants of quite different families — and taking as specific characters the calyx petals and fruit I find the following eventually distinct</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The tropical B. platyclada<note xml:id="ftn12" type="footnote" n="12">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <seg style="color: #000000; font-style: italic; ">B. phylloclada</seg>?</p>
+               </note> F. M. of which Brown has very instructive specimens</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>B. Walkeri F. Muell. with very different flowers &amp; fr.<note xml:id="ftn13" type="footnote" n="13">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">fruit?</p>
+               </note>
+            </p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>B. scolopendria with its broad fruit with much thickened broad sutures etc from NS Wales &amp; Moreton Bay. Of these the N. S. Wales B. ensata may be a smallflowered variety, but the only fruits I have are a little different</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>B. riparia A. Cunn or the Tasmanian B. ensata of which you have also some Victorian specimens differs in the proportion of petals and esentially in the pod.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>B. bracteosa from the Australian Alps is again quite distinct in bracts calyx and other points</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>B. rufa R. Br. including B. paucifolia Benth B. virgata Hook and B. oxyclada Turcz is near to B. riparia but differs in all its forms in the proportion of the petals the fringed keel and other points It is entirely Western.</p>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I shall be anxious to receive the next of the materials for this vol. as I shall now continue steadily at work and hope to advance rapidly</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">Yours ever sincerely</p>
+            <p rend="valediction"
+               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>George Bentham</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Acacia">Acacia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Boronia">Boronia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20aculeata">Bossiaea aculeata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20bracteosa">Bossiaea bracteosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20carinalis">Bossiaea carinalis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20cordigera">Bossiaea cordigera</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20egena">Bossiaea egena</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20ensata">Bossiaea ensata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20eriocarpa">Bossiaea eriocarpa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Bossiaea%20lenticularis">Bossiaea lenticularis</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20oxyclada">Bossiaea oxyclada</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20paucifolia">Bossiaea paucifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Bossiaea%20platyclada">Bossiaea platyclada</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20riparia">Bossiaea riparia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20Rossii">Bossiaea Rossii</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20rufa">Bossiaea rufa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20scolopendria">Bossiaea scolopendria</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20stenophylla">Bossiaea stenophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20sulcata">Bossiaea sulcata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20virgata">Bossiaea virgata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Bossiaea%20Walkeri">Bossiaea Walkeri</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Brachysema">Brachysema</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Compositae">Compositae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Crassulaceae">Crassulaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cunoniaceae">Cunoniaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Cyperaceae">Cyperaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dillwynia">Dillwynia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Droseraceae">Droseraceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Gastrolobium">Gastrolobium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Halorageae">Halorageae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hovea%20acutifolia">Hovea acutifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hovea%20heterophylla">Hovea heterophylla</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hovea%20lanceolata">Hovea lanceolata</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hovea%20leiocarpa">Hovea leiocarpa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hovea%20linearis">Hovea linearis</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hovea%20longifolia">Hovea longifolia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Hovea%20longipes">Hovea longipes</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Jacksonia">Jacksonia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Lalage">Lalage</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leguminosae">Leguminosae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Leguminosae">Leguminosae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Mimosa%20latespinosa">Mimosa latespinosa</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Mimosa%20latispinea">Mimosa latispinea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <seg style="">
+                  <name key="Myrtaceae">Myrtaceae</name>
+               </seg>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Nematophyllum">Nematophyllum</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Onagrarieae">Onagrarieae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Papilionaceae">Papilionaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Phebalium">Phebalium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Plagiolobium">Plagiolobium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Platylobium">Platylobium</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rhizophoreae">Rhizophoreae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rosaceae">Rosaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Rutaceae">Rutaceae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Saxifrageae">Saxifrageae</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Scottea">Scottea</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Templetonia">Templetonia</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Umbelliferae">Umbelliferae</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>
