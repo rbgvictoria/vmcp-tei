@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>28 May 1863 ¶  ¶ [Requisn for Postage Stamps ¶  ¶ 240 2d 120 4d 80 6d]...</title>
+            <title> ¶ [Requisn for Postage Stamps ¶  ¶ 240 2d 120 4d 80 6d] ¶ Approval for M's request was minuted to this letter,with an indication that it had beenforwarded to the Postmaster General on 29 May 1863....</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1863/63-05-28.doc</idno>
+            <idno type="filename">data/letters/1860-9/1863/63-05-28-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>28 May 1863 ¶  ¶ [Requisn for Postage Stamps ¶  ¶ 240 2d 120 4d 80 6d]...</title>
+               <title> ¶ [Requisn for Postage Stamps ¶  ¶ 240 2d 120 4d 80 6d] ¶ Approval for M's request was minuted to this letter,with an indication that it had beenforwarded to the Postmaster General on 29 May 1863....</title>
                <date when="1863-05-28">1863-05-28</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1863/63-05-28.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1863/63-05-28-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,40 +84,34 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">28 May 1863 ¶  ¶ [Requisn for Postage Stamps ¶  ¶ 240 2d 120 4d 80 6d]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Requisn for Postage Stamps ¶  ¶ 240 2d 120 4d 80 6d] ¶ Approval for M's request was minuted to this letter,with an indication that it had beenforwarded to the Postmaster General on 29 May 1863....</supplied>
             </head>
             <p rend="number" xml:lang="en">63.05.28</p>
             <p rend="correspondent" xml:lang="en">To John O'Shanassy</p>
-            <p rend="location" xml:lang="en">No. 3345, vol. 1863 B, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">No. 3345, vol. 1863 B, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">Transcribed 22.1.92. To proof.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a requisition dated 28 May 1863.</p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note>28 May 1863</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
                <space dim="horizontal" extent="tab"/>[Requisn for Postage Stamps</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>240 2d 120 4d 80 6d]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Approval for M's request was minuted to this letter and then it was forwarded to the Postmaster General on 29 May 1863.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>240 2d 120 4d 80 6d]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Approval for M's request was minuted to this letter,<space unit="chars" quantity="1"/>with an indication that it had been<space unit="chars" quantity="1"/>forwarded to the Postmaster General on 29 May 1863.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
