@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1870/70-09-16a-proofed.doc</idno>
+            <idno type="filename">data/letters/1870-9/1870/70-09-16a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-09-16a-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1870/70-09-16a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -71,7 +71,6 @@
                <term>FootnoteText</term>
                <term>valediction</term>
                <term>DefaultParagraphFont</term>
-               <term>formtext</term>
                <term>Normal</term>
                <term>Hyperlink</term>
             </keywords>
@@ -162,7 +161,7 @@
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>During 1864-68 the two<space unit="chars" quantity="1"/>houses of the Victorian Parliament were deadlocked<space unit="chars" quantity="1"/>over<space unit="chars" quantity="1"/>their<space unit="chars" quantity="1"/>claims to<space unit="chars" quantity="1"/>authority over<space unit="chars" quantity="1"/>revenue and privileges, the Legislative Council being elected on a resticted property-based franchise, and the Assemly on a much wider franchise. Governor Darling was recalled by the Colonial Secretary for his handling of the initial dispute when the Council refused to agree to cutoms tarrifs, and further disputes arose when the Council blocked legislation granting his wife a large gratuity. The failure to pass legislation approving budgets resulted in periods of suspension of payments by the Government. This caused hardship, with some new insolvents citing excessive interest paid to money lenders during the tempotrary suspensions<space unit="chars" quantity="1"/>of Government payments of staff and suppliers. See,<space unit="chars" quantity="1"/>for example, 'New insolvents',<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
-                        <space unit="chars" quantity="1"/>(Melbourne), 12 December 1868, p. 3;<space unit="chars" quantity="1"/>'Sufferings of the Civil Servants'<space unit="chars" quantity="1"/>
+                        <space unit="chars" quantity="1"/>(Melbourne), 12 December 1868, p. 3;<space unit="chars" quantity="1"/>'Sufferings of the Civil Servants',<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 22 June 1868, p. 6.</p>
                   </note>
                </seg>
@@ -179,65 +178,44 @@
                <row>
                   <cell style="border: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; text-align: center; "
-                        xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; ">Name of Claimant</seg>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Name of Claimant</p>
                   </cell>
                   <cell style="border: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; text-align: center; "
-                        xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; ">Period of Service</seg>
-                        <seg rend="formtext" style="color: #2F5496; ">
-                           <space unit="chars" quantity="1"/>1868</seg>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Period of Service<space unit="chars" quantity="1"/>1868</p>
                   </cell>
                   <cell style="border: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
                         cols="3">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; ">Amount of Account</seg>
-                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Amount of Account<seg rend="FootnoteReference" style="font-size: 8pt; ">
                            <note type="footnote" xml:id="_ftn3" n="4">
                               <p rend="FootnoteText"
                                  style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                                  xml:lang="en">
-                                 <space dim="horizontal" extent="tab"/>The amounts involved have been totalled in another hand<space unit="chars" quantity="1"/>as £370.19.10 below the last row.<space unit="chars" quantity="1"/>
-                              </p>
+                                 <space dim="horizontal" extent="tab"/>The amounts involved have been totalled in another hand<space unit="chars" quantity="1"/>as £370.19.10 below the last row.</p>
                            </note>
                         </seg>
-                        <space dim="horizontal" extent="tab"/>.</p>
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     </p>
                   </cell>
                   <cell style="border: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
                         cols="4">
                      <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; text-align: center; "
-                        xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; ">When forwarded to Treasury</seg>
-                        <seg rend="formtext" style="color: #2F5496; ">
-                           <space unit="chars" quantity="1"/>1868</seg>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">When forwarded to Treasury<space unit="chars" quantity="1"/>1868</p>
                   </cell>
                   <cell style="border: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
                         cols="2">
                      <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; text-align: center; "
-                        xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; ">Date of Payment</seg>
-                     </p>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Date of Payment</p>
                   </cell>
                   <cell style="border: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
-                        style="font-size: 12pt; hyphenate: false; text-align: center; "
-                        xml:lang="en">
-                        <seg rend="formtext" style="color: #2F5496; ">Remarks</seg>
-                     </p>
-                  </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                        style="font-size: 12pt; hyphenate: false; "
+                        xml:lang="en">Remarks</p>
                   </cell>
                </row>
                <row>
@@ -265,9 +243,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: 0.0069in solid #000000; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -327,8 +302,7 @@
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
-                        cols="2">
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -366,8 +340,7 @@
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
-                        cols="2">
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -427,8 +400,7 @@
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
-                        cols="2">
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -466,8 +438,7 @@
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
-                        cols="2">
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Judgment Creditor<seg rend="FootnoteReference" style="font-size: 8pt; ">
@@ -481,7 +452,8 @@
                                     <seg rend="Hyperlink" style="color: #0000FF; ">https://www.oxfordre</seg>
                                     <seg rend="Hyperlink" style="color: #0000FF; ">f</seg>
                                     <seg rend="Hyperlink" style="color: #0000FF; ">erence.com</seg>
-                                 </ref>, accessed 11 June 2025).</p>
+                                 </ref>
+                                 <space unit="chars" quantity="1"/>(accessed 11 June 2025)).</p>
                            </note>
                         </seg>
                      </p>
@@ -521,8 +493,7 @@
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; "
-                        cols="2">
+                  <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -565,9 +536,6 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -607,9 +575,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -654,9 +619,6 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Judgment Creditor</p>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -697,9 +659,6 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -738,9 +697,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -785,9 +741,6 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Judgment Creditor</p>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -830,9 +783,6 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Judgment Creditor</p>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -871,9 +821,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -918,9 +865,6 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Judgment Creditor</p>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -959,9 +903,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -1004,9 +945,6 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1045,9 +983,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -1090,9 +1025,6 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1133,9 +1065,6 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1174,9 +1103,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -1242,9 +1168,6 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Judgment Creditor</p>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1279,9 +1202,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <space dim="vertical" unit="lines" quantity="1"/>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1326,9 +1246,6 @@
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Judgment Creditor</p>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1367,9 +1284,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -1412,9 +1326,6 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1453,9 +1364,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -1498,9 +1406,6 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1539,9 +1444,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -1584,18 +1486,12 @@
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
                </row>
                <row>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                           <note type="footnote" xml:id="_ftn8" n="9"/>
-                        </seg>
                         <space unit="chars" quantity="7"/>"</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
@@ -1629,9 +1525,6 @@
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.075in; padding-bottom: 0in; padding-right: 0.075in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </cell>
-                  <cell>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
