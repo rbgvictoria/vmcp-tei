@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1870-9/1878/78-01-31a-proofed.doc</idno>
+            <idno type="filename">data/letters/1870-9/1878/78-01-31a-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1870-9/1878/78-01-31a-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1878/78-01-31a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -131,13 +131,14 @@
                         <space dim="horizontal" extent="tab"/>Month<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">over</seg>
                         <space unit="chars" quantity="1"/>Quarter<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">struck through</seg>..</p>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">struck through</seg>.</p>
                   </note>
                </seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>ending</seg>
-               <space unit="chars" quantity="1"/>
-               <seg rend="formtext" style="color: #2F5496; ">18</seg>.</p>
+               <space unit="chars" quantity="1"/>31st January<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">18</seg>
+               <seg rend="formtext" style="color: #2F5496; ">7</seg>8</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <table n="">
                <row>
@@ -198,7 +199,7 @@
                   </cell>
                </row>
                <row>
-                  <cell style="border-top: 0.0069in solid #000000; border-left: 0.0069in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0069in solid #000000; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
@@ -244,7 +245,7 @@
                   </cell>
                </row>
                <row>
-                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: 0.0069in solid #000000; border-left: none; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                   <cell style="border-top: 0.0104in solid #000000; border-left: 0.0069in solid #000000; border-bottom: none; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
@@ -537,10 +538,14 @@
                         xml:lang="en">115</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: 0.0069in solid #000000; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-left: -0.0555in; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0069in solid #000000; border-bottom: 0.0069in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <p rend="letter"
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
+                        xml:lang="en">–</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0069in solid #000000; border-right: 0.0069in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
