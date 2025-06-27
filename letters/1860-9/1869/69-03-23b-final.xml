@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne bot. Garden ¶ 23/3/69 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants, ¶  and feel much indebted for your sen...</title>
+            <title>Melbourne bot. Garden ¶ 23/3/69 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants, ¶ The work was issued in 15 parts. Par...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne bot. Garden ¶ 23/3/69 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants, ¶  and feel much indebted for your sen...</title>
+               <title>Melbourne bot. Garden ¶ 23/3/69 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants, ¶ The work was issued in 15 parts. Par...</title>
                <date when="1869-03-23">1869-03-23</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -69,7 +63,9 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,66 +86,86 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 23/3/69 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants, ¶  and feel much indebted for your sen...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne bot. Garden ¶ 23/3/69 ¶ Sir ¶  ¶ I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants, ¶ The work was issued in 15 parts. Par...</supplied>
             </head>
             <p rend="number" xml:lang="en">69.03.23b</p>
             <p rend="correspondent" xml:lang="en">To William Odgers</p>
             <p rend="location" xml:lang="en">T69/2736, unit 399, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne bot. Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">23/3/69</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants,<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Beddome (1868-74).</p>
-               </note> and feel much indebted for your sending it to this office<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See T. Ware to M, 23 March 1869 (in this edition as 69-03-23a). MS is accompanied by a memorandum that was evidently received with the works in question:</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; text-align: center; "
-                     xml:lang="en">REVENUE DEPARTMENT.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; text-align: center; font-variant: small-caps; "
-                     xml:lang="en">Government Office,</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; text-align: center; "
-                     xml:lang="en">Fort Saint George.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>2 Copies of Rare plants of Southern India Part II forwarded by order of Government this 9th day of February 1869, to the Government of Victoria</p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-               </note>
+               <space dim="horizontal" extent="tab"/>I have the honor to acknowledge the receipt of 2 copies of the second number of Major Beddome's work on Indian plants,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="">The work was issued in 15 parts. Part<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">2<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">is dated 1868 (Turner (2012) p. 304), but was<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">sent from Madras</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>before Turner's estimated 'Earliest date of publication',<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="">April</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>1869</seg>
+                        <seg rend="DefaultParagraphFont" style="">, (see Madras memo, n. 2 below).</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and feel much indebted for your sending it to this office<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The part was transmitted with<space unit="chars" quantity="1"/>T. Ware to M, 23 March 1869<space unit="chars" quantity="1"/>(in this edition as 69-03-23a). MS is accompanied by a memorandum that was evidently received with the works in question:</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; text-align: center; "
+                        xml:lang="en">REVENUE DEPARTMENT.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; text-align: center; font-variant: small-caps; "
+                        xml:lang="en">Government Office,</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; text-align: center; "
+                        xml:lang="en">Fort Saint George.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>2 Copies of Rare plants of Southern India Part II forwarded by order of Government this 9th day of February 1869, to the Government of Victoria.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I am Sir, your very obedient</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Undersecretary</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">&amp; <space unit="chars" quantity="4"/>&amp; <space unit="chars" quantity="4"/>&amp; </p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">&amp; <space unit="chars" quantity="4"/>&amp; <space unit="chars" quantity="4"/>&amp;<space unit="chars" quantity="1"/>
+            </p>
          </div>
       </body>
    </text>

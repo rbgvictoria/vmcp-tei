@@ -74,8 +74,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="48">English</language>
-            <language ident="de" usage="52">German</language>
+            <language ident="en" usage="54">English</language>
+            <language ident="de" usage="46">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -227,7 +227,15 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; "
-               xml:lang="en">At Het Loo, 28 October 1873.</p>
+               xml:lang="en">At Het Loo,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Dutch royal palace at Apeldoom, Netherlands, always referred to as 'Het Loo'. The address is therefore, literally, 'At The Loo', or 'At The Lea', and hence in French<space unit="chars" quantity="1"/>becomes<space unit="chars" quantity="1"/>'Au Loo'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>28 October 1873.</p>
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">(signed) Guillaume</p>
