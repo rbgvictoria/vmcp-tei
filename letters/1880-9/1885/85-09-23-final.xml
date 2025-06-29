@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>QUARTERLY ESTIMATE ¶ . ¶ To the Honorable ¶  the Chief Secretary ¶ Sir ¶ , ¶  ¶ I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending ¶  31st Decembe...</title>
+            <title>QUARTERLY ESTIMATE ¶ . ¶ To the Honorable ¶  ¶ the Chief Secretary ¶ Sir ¶ , ¶  ¶ I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending ¶  ¶ 31st Dec...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>QUARTERLY ESTIMATE ¶ . ¶ To the Honorable ¶  the Chief Secretary ¶ Sir ¶ , ¶  ¶ I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending ¶  31st Decembe...</title>
+               <title>QUARTERLY ESTIMATE ¶ . ¶ To the Honorable ¶  ¶ the Chief Secretary ¶ Sir ¶ , ¶  ¶ I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending ¶  ¶ 31st Dec...</title>
                <date when="1885-09-23">1885-09-23</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,10 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva, Geneva</term>
-               <term>Times, Times</term>
-            </keywords>
             <keywords scheme="#features">
                <term>table</term>
                <term>note</term>
@@ -72,13 +65,15 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>form text</term>
+               <term>FootnoteText</term>
+               <term>formtext</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
-               <term>valid</term>
+               <term>invalid</term>
             </keywords>
          </textClass>
          <langUsage>
@@ -95,807 +90,834 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">QUARTERLY ESTIMATE ¶ . ¶ To the Honorable ¶  the Chief Secretary ¶ Sir ¶ , ¶  ¶ I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending ¶  31st Decembe...</supplied>
+               <supplied reason="XTF-compatibility">QUARTERLY ESTIMATE ¶ . ¶ To the Honorable ¶  ¶ the Chief Secretary ¶ Sir ¶ , ¶  ¶ I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending ¶  ¶ 31st Dec...</supplied>
             </head>
             <p rend="number" xml:lang="en">85.09.23</p>
             <p rend="correspondent" xml:lang="en">To Graham Berry</p>
-            <p rend="location" xml:lang="en">D85/9972, unit 130, VPRS 3992/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">D85/9972, unit 130, VPRS 3992/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS written by G. Luehmann and signed by M. See H. Moors to M, 21 September 1885 (in this edition as 85-09-21d).</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS written by G. Luehmann and signed by M.<space unit="chars" quantity="1"/>See H. Moors to M, 21 September 1885 (in this edition as 85-09-21d).</p>
                </note>
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">QUARTERLY ESTIMATE</seg>
-               <seg>.</seg>
+               <seg rend="formtext" style="color: #2F5496; ">QUARTERLY ESTIMATE</seg>
+               <seg rend="DefaultParagraphFont">.</seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                  <seg style="font-style: italic; ">To the Honorable</seg>
-               </seg> the Chief Secretary</p>
+               <seg rend="formtext" style="color: #2F5496; font-style: italic; ">To the Honorable</seg>
+               <space unit="chars" quantity="1"/>the Chief Secretary</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                  <seg style="font-variant: small-caps; ">Sir</seg>
-               </seg>,</p>
+               <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">Sir</seg>,</p>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending</seg> 31st December <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">18</seg>85.</p>
+               <seg rend="formtext" style="color: #2F5496; ">I have the honor to submit for approval the following Estimate* of Expenditure during the Quarter ending</seg>
+               <space unit="chars" quantity="1"/>31st December<space unit="chars" quantity="1"/>
+               <seg rend="formtext" style="color: #2F5496; ">18</seg>85.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <table n="Table1">
+            <table n="">
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: none; "
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="7">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Particulars of Vote.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Particulars of Vote.</seg>
                      </p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: none; "
+                  <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="3">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Amount of Estimates previously approved.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Amount of Estimates previously approved.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: none; "
+                  <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="3">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Estimate* of Expenditure for Quarter.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Estimate* of Expenditure for Quarter.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Remarks</seg>.<note xml:id="ftn2" type="footnote" n="2">
-                           <p rend="Footnote"
-                              style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                              xml:lang="en">MS annotation dated 23 October 1885: 'Note — Not required, the Supply Bill having been taken for <seg style="">
-                                 <hi rend="underline">2</hi>
-                              </seg> months'. Cf. M to G. Berry, 22 September 1885 (in this edition as 85-09-22a).</p>
-                        </note>
+                        <seg rend="formtext" style="color: #2F5496; ">Remark</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">s</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">.</seg>
+                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <note type="footnote" xml:id="_ftn1" n="2">
+                              <p rend="FootnoteText"
+                                 style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                                 xml:lang="en">
+                                 <space dim="horizontal" extent="tab"/>MS annotation dated 23 October 1885: 'Note — Not required, the Supply Bill having been taken for<space unit="chars" quantity="1"/>
+                                 <seg rend="DefaultParagraphFont" style="">
+                                    <hi rend="underline">2</hi>
+                                 </seg>
+                                 <space unit="chars" quantity="1"/>months'. Cf. M to G. Berry, 22 September 1885 (in this edition as 85-09-22a).</p>
+                           </note>
+                        </seg>
                      </p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: 0.75pt solid #000000; "
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: 0.0104in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Division and Subdivision.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Division and Subdivision.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: 0.75pt solid #000000; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: 0.0104in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Item.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Item.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: 0.75pt solid #000000; "
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="4">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Amount.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Amount.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: 0.75pt solid #000000; "
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="3">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: 0.75pt solid #000000; "
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0104in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="3">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: 0.75pt solid #000000; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: 0.0104in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">£</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">£</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; "
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 0.0583in; margin-right: 0in; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; margin-left: 0.0583in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">s.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">s.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 0.0583in; margin-right: 0in; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; margin-left: 0.0583in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">d.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">d.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">£</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">£</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">s.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">s.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">d.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">d.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">£</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">£</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: 0.0764in; margin-right: 0in; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; margin-left: 0.0763in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">s.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">s.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 0.75pt solid #000000; border-bottom: none; ">
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">d.</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">d.</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 0.75pt solid #000000; border-bottom: 0.5pt solid #000000; "
+                  <cell style="border-top: 0.0104in solid #000000; border-left: none; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         rows="11">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; "
+                        style="font-size: 12pt; hyphenate: false; margin-bottom: 0.0694in; "
                         xml:lang="en">16/1</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; "
+                        style="font-size: 12pt; hyphenate: false; margin-bottom: 0.0694in; "
                         xml:lang="en">Salaries</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">Professional</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">800</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">200</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">200</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; "
+                        style="font-size: 12pt; hyphenate: false; margin-bottom: 0.0694in; "
                         xml:lang="en">16/2</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg style="">
-                           <space unit="chars" quantity="1"/>
-                        </seg>do <space unit="chars" quantity="1"/>Clerical</p>
+                        <space unit="chars" quantity="1"/>do <space unit="chars" quantity="1"/>Clerical</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">435</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
-                        xml:lang="en">108 </p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
+                        xml:lang="en">108<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">15</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
-                        xml:lang="en">108 </p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
+                        xml:lang="en">108<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-left: -0.2917in; margin-right: 0in; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; text-indent: 0in; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; margin-left: -0.2916in; "
                         xml:lang="en">15</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; "
+                        style="font-size: 12pt; hyphenate: false; margin-bottom: 0.0694in; "
                         xml:lang="en">16/3</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">
-                        <seg style="">
-                           <space unit="chars" quantity="1"/>
-                        </seg>do <space unit="chars" quantity="1"/>Non Clerical</p>
+                        <space unit="chars" quantity="1"/>do <space unit="chars" quantity="1"/>Non Clerical</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">411</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
-                        xml:lang="en">102 </p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
+                        xml:lang="en">102<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">15</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
-                        xml:lang="en">102 </p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
+                        xml:lang="en">102<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">15</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; "
+                        style="font-size: 12pt; hyphenate: false; margin-bottom: 0.0694in; "
                         xml:lang="en">16/4</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; "
+                        style="font-size: 12pt; hyphenate: false; margin-bottom: 0.0694in; "
                         xml:lang="en">Contingencies:</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">"</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">Museum Material &amp;c</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">130</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
-                        xml:lang="en">53 </p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
+                        xml:lang="en">53<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">10</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
-                        xml:lang="en">21 </p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
+                        xml:lang="en">21<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">10</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">"</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
-                        xml:lang="en">Collector of Plants </p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
+                        xml:lang="en">Collector of Plants<space unit="chars" quantity="1"/>
+                     </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">125</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">25</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">20</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">"</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">Publication of Works</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">370</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">100</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">140</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">"</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">Paper for Lithograms</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">75</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; "
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: none; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: center; "
+                        style="font-size: 12pt; hyphenate: false; text-align: center; margin-bottom: 0.0694in; "
                         xml:lang="en">"</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">Books — Incidental Exp.</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">160</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; "
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="2">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">40</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; margin-top: 0in; margin-bottom: 0.0693in; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; margin-bottom: 0.0694in; "
                         xml:lang="en">30</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 0.75pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">2506</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; "
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="3">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">630</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: none; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: none; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; "
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="5">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Total —</seg> Six hundred and twenty three <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">pounds<space dim="horizontal" extent="tab"/>
-                           <space unit="chars" quantity="2"/>shillings and <space unit="chars" quantity="4"/>pen</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">Total —</seg>
+                        <space unit="chars" quantity="1"/>Six hundred and twenty three<space unit="chars" quantity="1"/>
+                        <seg rend="formtext" style="color: #2F5496; ">pounds</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="formtext" style="color: #2F5496; ">
+                           <space unit="chars" quantity="3"/>
+                        </seg>
+                        <seg rend="formtext" style="color: #2F5496; ">shillings and<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="formtext" style="color: #2F5496; ">
+                           <space unit="chars" quantity="3"/>
+                        </seg>
+                        <seg rend="formtext" style="color: #2F5496; ">
+                           <space unit="chars" quantity="1"/>pen</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; "
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         cols="5">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">£</seg>
+                        <seg rend="formtext" style="color: #2F5496; ">£</seg>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: 0.0208in solid #000000; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">623</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: none; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border-left: 1.5pt solid #000000; border-right: none; border-top: 1.5pt solid #000000; border-bottom: 1.5pt solid #000000; ">
+                  <cell style="border-top: 0.0208in solid #000000; border-left: none; border-bottom: 0.0208in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
             </table>
             <p rend="letter"
-               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                  <seg style="font-variant: small-caps; ">Approved:</seg>
-               </seg>
+               <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">Approved:</seg>
             </p>
-            <table n="Table2">
+            <table n="">
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                           <seg style="font-style: italic; ">Signature <space unit="chars" quantity="1"/>
-                           </seg>
+                        <seg rend="formtext" style="color: #2F5496; font-style: italic; ">Signature <space unit="chars" quantity="1"/>
                         </seg>
                      </p>
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                           <seg style="font-style: italic; ">
-                              <space unit="chars" quantity="3"/>
-                           </seg>
-                        </seg>
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                           <seg style="font-style: italic; ">Date </seg>
+                        <seg rend="formtext" style="color: #2F5496; font-style: italic; ">
+                           <space unit="chars" quantity="3"/>Date<space unit="chars" quantity="1"/>
                         </seg>
                         <space unit="chars" quantity="1"/>
                      </p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">Signature of the Officer authorized to certify to accounts</seg> Ferd. von Mueller.</p>
+                        <seg rend="formtext" style="color: #2F5496; ">Signature of the Officer authorized to certify to accounts</seg>
+                        <space unit="chars" quantity="1"/>Ferd. von Mueller.</p>
                      <p rend="letter"
-                        style="font-family: Geneva, Geneva; font-size: 12pt; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">
-                        <seg rend="form%20text" style="color: #2f5496; font-family: Times, Times; ">
-                           <seg style="font-style: italic; ">Date </seg>
+                        <seg rend="formtext" style="color: #2F5496; font-style: italic; ">Date<space unit="chars" quantity="1"/>
                         </seg>23/9/85</p>
                   </cell>
                </row>
