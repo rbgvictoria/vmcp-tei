@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>October 1860 ¶  ¶ [Requisition for Lacquering Guns &amp;c]...</title>
+            <title> ¶ [Requisition for Lacquering Guns ¶ Russian guns captured during the Crimean War, on display in the Botanic Gardenfrom 1858 (see Arnold (1896), p. 37 and plate 7). ¶  ¶ &amp;c]...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1860/60-10-00c-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1860/60-10-00c-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>October 1860 ¶  ¶ [Requisition for Lacquering Guns &amp;c]...</title>
+               <title> ¶ [Requisition for Lacquering Guns ¶ Russian guns captured during the Crimean War, on display in the Botanic Gardenfrom 1858 (see Arnold (1896), p. 37 and plate 7). ¶  ¶ &amp;c]...</title>
                <date when="1860-10">1860-10</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1860/60-10-00c-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1860/60-10-00c-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,21 +53,18 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
-               <term>Progress note</term>
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -90,34 +84,31 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">October 1860 ¶  ¶ [Requisition for Lacquering Guns &amp;c]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Requisition for Lacquering Guns ¶ Russian guns captured during the Crimean War, on display in the Botanic Gardenfrom 1858 (see Arnold (1896), p. 37 and plate 7). ¶  ¶ &amp;c]...</supplied>
             </head>
-            <p rend="Progress%20note"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; color: #0000ff; "
-               xml:lang="en">Should date be in [ ] ?</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="number" xml:lang="en">60.10.00c</p>
             <p rend="correspondent" xml:lang="en">To Vincent Pyke</p>
-            <p rend="location" xml:lang="en">No. 5447, unit 6, VPRS 963 register of correspondence, VA 669 Department of Public Works, Public Record Office, Victoria.</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note>October 1860<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Registered, 11 October 1860</p>
-               </note>
+            <p rend="location" xml:lang="en">No. 5447, unit 6, VPRS 963 register of correspondence, VA 669 Department of Public Works, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>[Requisition for Lacquering Guns &amp;c]</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, entered on 11 October 1860.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[Requisition for Lacquering Guns<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Russian guns captured during the Crimean War, on display in the Botanic Garden<space unit="chars" quantity="1"/>from 1858 (see Arnold (1896), p. 37 and plate 7).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp;c]</p>
          </div>
       </body>
    </text>
