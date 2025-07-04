@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>On the specimen of grass sent from Castlemaine are neither flowers nor grain, so that it is impossible to say which it is among the several thousand distinct species of grass now known. It would also ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1895/95-05-00b-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>95.05.00b</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>On the specimen of grass sent from Castlemaine are neither flowers nor grain, so that it is impossible to say which it is among the several thousand distinct species of grass now known. It would also ...</title>
+               <date when="1895-05">1895-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1895/95-05-00b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the Leader</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">On the specimen of grass sent from Castlemaine are neither flowers nor grain, so that it is impossible to say which it is among the several thousand distinct species of grass now known. It would also ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">95.05.00b</p>
+            <p rend="correspondent" xml:lang="en">To the Leader</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Answers to correspondents', <seg style="font-style: italic; ">Leader</seg>, 1 June 1895, p. 9 (B95.06.01). It is introduced by </p>
+                  <p rend="Footnote"
+                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: -0.1665in; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg style="font-variant: small-caps; ">Specimen of Grass</seg>
+                     <seg style="">.— S.S., Castlemaine, writes: —"Last </seg>July I<seg style=""> planted a few roots of this and several other grasses as a trial in good forest soil, but deficient in phosphates; this has made far away the most vigorous growth. None of them were grazed by cattle, and this sample was quite fresh and green when taken up last week." Referring to the above, Baron von Mueller favors us with the following reply:—.. </seg>
+                  </p>
+                  <space dim="vertical" unit="lines" quantity="1"/>
+               </note>
+               <seg style="">
+                  <space dim="horizontal" extent="tab"/>On the specimen of grass sent from Castlemaine are neither flowers nor grain, so that it is impossible to say which it is among the several thousand distinct species of grass now known. It would also be well, if your correspondent will send complete specimens in summer, to let us also know whether he obtained this new grass as an introduced one or as an indigenous species.</seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

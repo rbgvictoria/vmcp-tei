@@ -1,0 +1,213 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun. ¶ 'C. Fr...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1880-9/1888/88-02-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>88.02.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun. ¶ 'C. Fr...</title>
+               <date when="1888-02">1888-02</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1888/88-02-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
+               <term>plantnames</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the Field Naturalists' Club of Victoria</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun. ¶ 'C. Fr...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">88.02.00</p>
+            <p rend="correspondent" xml:lang="en">To the Field Naturalists'<space unit="chars" quantity="1"/>Club of Victoria</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found.<space unit="chars" quantity="1"/>The text given here is from 'Wolffia and Lemna',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Victorian naturalist</seg>,<space unit="chars" quantity="1"/>vol. 4 (March 1888), pp. 195-6.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[In a communication from Baron von Mueller it appears that Wolffia had not been contributed from the metropolitan area to the National Herbarium until collected last year by C. French jun.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>'C. French jun'<space unit="chars" quantity="1"/>
+                        <space unit="chars" quantity="1"/>is often used for Charles H. French. However<space unit="chars" quantity="1"/>here it may<space unit="chars" quantity="1"/>have been an editorial assumption when editing M's communication, as a younger brother appears to have been the collector.<space unit="chars" quantity="1"/>The following report had appeared earlier in<space unit="chars" quantity="1"/>the<seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                           <space unit="chars" quantity="1"/>Victorian naturalist</seg>, vol. 4 (November 1887), p. 105: 'A rare minute acquatic plant,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Wolf</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">f</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">ia Micheli</seg>
+                        <space unit="chars" quantity="1"/>(Schleiden), has been found near Melbourne by Master G.<space unit="chars" quantity="1"/>[i.e., George]<space unit="chars" quantity="1"/>French for the first time in the southern part of the colony, its only Victorian<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">habitat</seg>
+                        <space unit="chars" quantity="1"/>previously known being lagoons near Mount Elephant. It grows also here, as in Europe, amongst<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lemna minor</seg>, but is a still smaller plant, without any root, but bulges downward, and its anthers are only one-celled. Baron von Mueller, who examined and determined it, attaches great importance to this find.'</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>No collection of a Wolffia by any of the French family is retained at MEL (AVH, accessed 9 November 2023).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>As it was exhibited at the Microscopical Society some years before, and noticed by W. M. B. in Studley Park, the moral may be drawn that minute floating plants may be easily overlooked, and that naturalists may be in possession of rare or new captures without securing a permanent record. The Baron adds that Wolffia was first found in Australia by himself in 1873, near Mount Emu.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M. to J. Haast, 25 February 1874, reporting that he had found it 'today'.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It was at once recorded, and, attention having been drawn to the find, Rev. Dr. Woolls soon detected examples near Port Jackson. It is probable that this tiny plant will be found in the Melbourne district, and it is to be hoped that the find will be duly recorded.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Another small and closely-allied plant, also, is to be looked for. In 1847 Baron von Mueller recognised a Lemna at Adelaide as a new form, and proposed the name<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. pleiorhiza</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. pleiorrhiza</seg>
+                        <seg rend="DefaultParagraphFont" style="">?</seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>for it. The plant was not described, as he could not find specimens of the tiny flower or fruit, which, as in Wolffia, is so rarely developed. Dr. Kurz, many years afterwards, discovered the same species in India, and unaware of previous observation, named it<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. oligorhiza</seg>.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. oligorrhiza</seg>
+                        <seg rend="DefaultParagraphFont" style="">?<space unit="chars" quantity="1"/>
+                        </seg>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">fruit</seg>
+               <space unit="chars" quantity="1"/>of this species is still<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">unknown</seg>, and in order to stimulate search for it, that comparisons may be made with<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. minor</seg>
+               <space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">L. polyrhiza</seg>, the subject was brought a few months ago before the Linnean Society of New South Wales.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <space dim="horizontal" extent="tab"/>At the meeting of the Society held on 28 September 1887 it was reported that M would 'be glad if members would try to discover the fruts of the native species of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lemna'</seg>; see<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Proceedings of the Linnean Society of New South Wales</seg>
+                        <space unit="chars" quantity="1"/>(1887-8),<space unit="chars" quantity="1"/>series 2, vol.<space unit="chars" quantity="1"/>2, p.<space unit="chars" quantity="1"/>621.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It may perhaps fall to the lot of some of our botanical readers to come across this little plant by closer searching in their rambles. If<space unit="chars" quantity="1"/>so, it is earnestly to be desired that they will communicate with the Baron on the subject.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>minor</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>oligorhiza</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>pleiorhiza</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Lemna<space unit="chars" quantity="1"/>polyrhiza</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Wolffia</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>
