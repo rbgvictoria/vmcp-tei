@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-05-01-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1861/61-05-01-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-05-01-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-05-01-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,79 +89,88 @@
             </head>
             <p rend="number" xml:lang="en">61.05.01</p>
             <p rend="correspondent" xml:lang="en">To Richard Heales</p>
-            <p rend="location" xml:lang="en">S61/3509, unit 749, VPRS 1189/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <p rend="location" xml:lang="en">S61/3509, unit 749, VPRS 1189/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS written by <seg style="font-weight: bold; ">Carl Wilhelmi</seg> and signed by M.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS written<space unit="chars" quantity="1"/>by Carl Wilhelmi<space unit="chars" quantity="1"/>and signed by M.</p>
                </note>Melbourne bot. &amp; zoolog. Gard.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">1 May 1861.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In submitting my report on the labours in this establishment during the month of April 1861, I beg to state, that considerable progress has been made in arranging the herbaria in the museum, but that on account of the great pressure of garden work at this season my literary labours have little progressed during the month, nor have any lithographics been issued, the artist having met with a severe accident.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Probably refers to Schoenfeldt, who was lithographing plates for M.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>In submitting my report on the labours in this establishment during the month of April 1861, I beg to state, that considerable progress has been made in arranging the herbaria in the museum, but that on account of the great pressure of garden work at this season my literary labours have little progressed during the<space unit="chars" quantity="1"/>month, nor have any lithographies been issued, the artist having met with a severe accident.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Probably refers to<space unit="chars" quantity="1"/>Frederick<space unit="chars" quantity="1"/>Schoenfeld, who was lithographing plates for M.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>The seed harvest being completed, we have provided the collections of seeds, destined for the principal botanical Gardens. We commenced also to supply plants from the nurseries for the public reserves of the colony, and I make it a point, to distribute on the occasion as far as possible over the country the plants of most immediate utility, such as various trees which aford nurishment to the different species of Silkworms, the Sloe, the Liquorice, the Blackberry, the New Zealand Flax, the Stone pine, the Tea-plant &amp;c.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Some interesting novelties have recently been raised, amongst them the Senna-plant. A large quantity of Deodora seeds was on my suggestion provided for the Gardens by the Rev. Sam. Smith, late missionary at Ava, and it is to be hoped, that we may succeed in the usually frustraneous attempt to raise this noble tree in quantity for the reserves of this country. The same reverend Gentleman brought us seeds of several Himalayan pines, whilst amongst other donations I may mention collections of seeds from the botanical Garden of Algeria, of Marseilles and of Saharumpore. The ground below the nursery has been trenched and also a portion of the experimental ground, the latter for the reception of imported seeds.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>A considerable number of labels has been written, the central potting shade has been renewed and flues at both propagating houses have undergone repairs. The misletoe, which of late commenced to become destructive to our trees, has been as far as possible destroyed.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In removing the old wooden fence, which formerly constituted the boundary line of the botanic Garden, a cheerful view has been opened over the parklike lawns.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>A consignment of seeds of timbertrees and a case with tea plants and New Zealand flax has been transmitted to the Feegee<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Fiji.</p>
-               </note> Islands Mission stations.</p>
+               <space dim="horizontal" extent="tab"/>A consignment of seeds of timbertrees and a case with tea plants and New Zealand flax has been transmitted to the Feegee<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Fiji.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Islands Mission stations.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Additions to the zoological collections are some lovely small Indian Birds and a pair of Indian Partridges received from the Rev. Sam. Smith and one Aden Sheep. A collection of dried plants gathered in Kangaroo Island has been, after a set for our herbarium was secured, returned to the South Australian Government.</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your most obedient servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
@@ -174,16 +178,19 @@
                <space dim="horizontal" extent="tab"/>Gov. Botanist &amp; Director of bot. &amp; zool. Garden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Honorable the Chief Secretary</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS file annotation by Heales, 11 May 1861: 'Read'.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS file annotation by Heales, 11 May 1861: 'Read'.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
