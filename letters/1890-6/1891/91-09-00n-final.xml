@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter not found. The text given here is from a report of a meeting of the Central Bureau held on 28 September 1891,Advertiser(Adelaide), 29 September 1891, p. 6. ¶  ¶ [ ¶ From Baron Sir F. ¶ v ¶ on M...</title>
+            <title> ¶ [ ¶ From Baron Sir F. ¶ v ¶ on Mueller we received a few roots of the true ¶  ¶ Panicum ¶ s ¶ pectabi ¶ l ¶ e or Coapim grass, which ¶  ¶ were at once given to one or two residents in ¶  ¶ the nort...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Letter not found. The text given here is from a report of a meeting of the Central Bureau held on 28 September 1891,Advertiser(Adelaide), 29 September 1891, p. 6. ¶  ¶ [ ¶ From Baron Sir F. ¶ v ¶ on M...</title>
+               <title> ¶ [ ¶ From Baron Sir F. ¶ v ¶ on Mueller we received a few roots of the true ¶  ¶ Panicum ¶ s ¶ pectabi ¶ l ¶ e or Coapim grass, which ¶  ¶ were at once given to one or two residents in ¶  ¶ the nort...</title>
                <date when="1891-09">1891-09</date>
             </bibl>
          </sourceDesc>
@@ -60,11 +60,9 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>space</term>
-               <term>FootnoteReference</term>
+               <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
-               <term>letter</term>
                <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
@@ -85,33 +83,28 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Letter not found. The text given here is from a report of a meeting of the Central Bureau held on 28 September 1891,Advertiser(Adelaide), 29 September 1891, p. 6. ¶  ¶ [ ¶ From Baron Sir F. ¶ v ¶ on M...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [ ¶ From Baron Sir F. ¶ v ¶ on Mueller we received a few roots of the true ¶  ¶ Panicum ¶ s ¶ pectabi ¶ l ¶ e or Coapim grass, which ¶  ¶ were at once given to one or two residents in ¶  ¶ the nort...</supplied>
             </head>
             <p rend="number" xml:lang="en">91.09.00n</p>
             <p rend="correspondent" xml:lang="en">To the<space unit="chars" quantity="1"/>Central<space unit="chars" quantity="1"/>Bureau of Agriculture<space unit="chars" quantity="1"/>of<space unit="chars" quantity="1"/>South Australia</p>
-            <p rend="space"
-               style="text-align: center; font-size: 9pt; hyphenate: false; "
-               xml:lang="en">
-               <seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn0" n="1">
-                     <p rend="FootnoteText"
-                        style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from a report of a meeting of the Central Bureau held on 28 September 1891,<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Advertiser</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>(Adelaide), 29 September 1891, p. 6.</seg>
-                     </p>
-                  </note>
-               </seg>
-            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from a report of a meeting of the Central Bureau held on 28 September 1891,<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Advertiser</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>(Adelaide), 29 September 1891, p. 6.</seg>
+                  </p>
+               </note>
                <space dim="horizontal" extent="tab"/>[<seg rend="DefaultParagraphFont" style="">From Baron Sir F.</seg>
                <seg rend="DefaultParagraphFont" style="">
                   <space unit="chars" quantity="1"/>v</seg>

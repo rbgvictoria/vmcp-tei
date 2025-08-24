@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>In and out letter and packet book, letter register, Colonial Botanist, book one, 1879-1894, Queensland Herbarium, Brisbane. </msName>
+                  <msName>In and out letter and packet book, letter register, Colonial Botanist, book one, 1879-1894, Queensland Herbarium,Brisbane.</msName>
                   <altIdentifier>
                      <idno>81.12.00c</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -92,18 +88,22 @@
                <supplied reason="XTF-compatibility"> ¶ [nomenclature]...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.12.00c</p>
-            <p rend="correspondent" xml:lang="en">To Frederick Bailey</p>
-            <p rend="location" xml:lang="en">In and out letter and packet book, letter register, Colonial Botanist, book one, 1879-1894, Queensland Herbarium, Brisbane. </p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Frederick Bailey</p>
+            <p rend="location" xml:lang="en">In and out letter and packet book, letter register, Colonial Botanist, book one, 1879-1894, Queensland Herbarium,<space unit="chars" quantity="1"/>Brisbane.<seg rend="FootnoteReference" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <seg style="">
+                     <seg rend="DefaultParagraphFont" style="">
                         <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, recording the receipt of the letter by Bailey on 5 December 1881.</seg>
                   </p>
                </note>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bank Buildings ¶ George Street Sydney ¶ 25th Febry 1860 ¶ Dear Sir, ¶  ¶ I am in receipt of your favor of the 19th Inst ¶  — and by todays steamer " ¶ City of Sydney ¶ " beg to forward you what I have...</title>
+            <title>Bank Buildings ¶ George Street Sydney ¶ 25th Febry 1860 ¶ Dear Sir, ¶  ¶ I am in receipt of your favor of the 19th Inst ¶ Letter not found. ¶  ¶ — and by todays steamer " ¶ City of Sydney ¶ " beg to f...</title>
             <author>Edward Wrench</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Edward Wrench</author>
-               <title>Bank Buildings ¶ George Street Sydney ¶ 25th Febry 1860 ¶ Dear Sir, ¶  ¶ I am in receipt of your favor of the 19th Inst ¶  — and by todays steamer " ¶ City of Sydney ¶ " beg to forward you what I have...</title>
+               <title>Bank Buildings ¶ George Street Sydney ¶ 25th Febry 1860 ¶ Dear Sir, ¶  ¶ I am in receipt of your favor of the 19th Inst ¶ Letter not found. ¶  ¶ — and by todays steamer " ¶ City of Sydney ¶ " beg to f...</title>
                <date when="1860-02-25">1860-02-25</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
                <term>hyperlink</term>
@@ -70,9 +64,11 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
+               <term>FootnoteSymbol</term>
                <term>Footnote</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Internet link</term>
+               <term>Internetlink</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -93,61 +89,59 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Bank Buildings ¶ George Street Sydney ¶ 25th Febry 1860 ¶ Dear Sir, ¶  ¶ I am in receipt of your favor of the 19th Inst ¶  — and by todays steamer " ¶ City of Sydney ¶ " beg to forward you what I have...</supplied>
+               <supplied reason="XTF-compatibility">Bank Buildings ¶ George Street Sydney ¶ 25th Febry 1860 ¶ Dear Sir, ¶  ¶ I am in receipt of your favor of the 19th Inst ¶ Letter not found. ¶  ¶ — and by todays steamer " ¶ City of Sydney ¶ " beg to f...</supplied>
             </head>
             <p rend="number" xml:lang="en">60.02.25</p>
             <p rend="correspondent" xml:lang="en">From Edward Wrench</p>
             <p rend="location" xml:lang="en">MS 13071 Royal Society of Victoria Exploration Committee records, box 2077/3, La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="hyphenate: false; text-align: end; "
                xml:lang="en">Bank Buildings</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="hyphenate: false; text-align: end; "
                xml:lang="en">George Street Sydney</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="hyphenate: false; text-align: end; "
                xml:lang="en">25th Febry 1860</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Dear Sir,</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am in receipt of your favor of the 19th Inst<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
-               </note> — and by todays steamer "<seg style="">
+            <p rend="letter" style="hyphenate: false; " xml:lang="en">Dear Sir,</p>
+            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am in receipt of your favor of the 19th Inst<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="Footnote"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Letter not found.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>— and by todays steamer "<seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">City of Sydney</hi>
-               </seg>" beg to forward you what I have left of the Parcel of Coca leaves given me by Mr Lidger<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Charles Ledger? At the meeting of the Exploration Committee held on 30 May 1859, the secretary read a letter from Chas. Ledger Esq containing the offer, as a contribution to the Expedition, of 10 lbs of Coca leaves used by the Mexicans &amp; others for warding off hunger and thirst. Thanks were voted to Mr Ledger. (Box 2088B/1, online as <ref target="http://handle.slv.vic.gov.au/10381/163008"
-                          rend="Internet%20link"
-                          style="color: #0000ff; ">
-                        <seg rend="Internet%20link" style="color: #0000ff; ">
-                           <seg style="color: #000000; ">
-                              <hi rend="underline">[http://handle.slv.vic.gov.au/10381/163008]</hi>
-                           </seg>
-                        </seg>
-                     </ref>. Minute book, Royal Society of Victoria, Exploration Committee, p. 27).</p>
-               </note> the parcel was originally made up for the Victorian Expedition, but as they neither applied for it, nor answered my letter concerning it — the parcel was placed at my disposal by Mr Ledger — and I have made several small presents of some of its contents — the remainder I have much pleasure in forwarding to your better care</p>
+               </seg>" beg to forward you what I have left of the Parcel of Coca leaves given me by Mr Lidger<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="Footnote"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">Charles Ledger? At the meeting of the Exploration Committee held on 30 May 1859, the secretary read a letter from Chas. Ledger Esq containing the offer, as a contribution to the Expedition, of 10 lbs of Coca leaves used by the Mexicans &amp; others for warding off hunger and thirst. Thanks were voted to Mr Ledger. (Box 2088B/1, online as<space unit="chars" quantity="1"/>
+                        <ref target="http://handle.slv.vic.gov.au/10381/163008">
+                           <seg rend="Internetlink" style="color: #000000; ">[http://handle.slv.vic.gov.au/10381/163008]</seg>
+                        </ref>. Minute book, Royal Society of Victoria, Exploration Committee, p. 27).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>the parcel was originally made up for the Victorian Expedition, but as they neither applied for it, nor answered my letter concerning it — the parcel was placed at my disposal by Mr Ledger — and I have made several small presents of some of its contents — the remainder I have much pleasure in forwarding to your better care</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Yours truly</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>E Wrench</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Dr Fred<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">i.e. Ferd.</p>
-               </note> Mueller</p>
+            <p rend="letter" style="hyphenate: false; " xml:lang="en">Dr Fred<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="Footnote"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">i.e. Ferd.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Mueller</p>
          </div>
       </body>
    </text>
