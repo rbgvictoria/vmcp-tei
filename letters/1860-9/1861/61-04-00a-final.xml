@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Messrs Wilson and Mueller send from Melbourne (Australia) their thanks for the honorary memberships that the Society awarded to them at the Annual Meeting on 14 February last. ¶ See Société Impériale...</title>
+            <title> ¶ [Messrs Wi ¶ lson and Mueller send from Melbourne ¶  ¶ ( ¶ Australia ¶ ) their thanks ¶ for the honorary memberships ¶ that the Society ¶ awarded to them at the Annual Meeting on ¶ 14 ¶ February la...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>[Messrs Wilson and Mueller send from Melbourne (Australia) their thanks for the honorary memberships that the Society awarded to them at the Annual Meeting on 14 February last. ¶ See Société Impériale...</title>
+               <title> ¶ [Messrs Wi ¶ lson and Mueller send from Melbourne ¶  ¶ ( ¶ Australia ¶ ) their thanks ¶ for the honorary memberships ¶ that the Society ¶ awarded to them at the Annual Meeting on ¶ 14 ¶ February la...</title>
                <date when="1861-04">1861-04</date>
             </bibl>
          </sourceDesc>
@@ -37,9 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -57,18 +54,16 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>space</term>
-               <term>Footnote</term>
                <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,43 +84,69 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">[Messrs Wilson and Mueller send from Melbourne (Australia) their thanks for the honorary memberships that the Society awarded to them at the Annual Meeting on 14 February last. ¶ See Société Impériale...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [Messrs Wi ¶ lson and Mueller send from Melbourne ¶  ¶ ( ¶ Australia ¶ ) their thanks ¶ for the honorary memberships ¶ that the Society ¶ awarded to them at the Annual Meeting on ¶ 14 ¶ February la...</supplied>
             </head>
             <p rend="number" xml:lang="de">61.04.00a</p>
-            <p rend="correspondent" xml:lang="de">To the Société Impériale Zoologique d'Acclimatation, Paris</p>
-            <p rend="space"
-               style="font-family: Geneva; text-align: center; font-size: 9pt; "
-               xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Bulletin de la Société Impériale Zoologique d'Acclimatation</seg>, vol. 8 (1861), p. 345. It is dated to April as the latest likely date that it could have been written to have been reported at the meeting of the society held on 14 June 1861.</p>
-               </note>
-            </p>
+            <p rend="correspondent" xml:lang="de">To the<space unit="chars" quantity="1"/>Société<space unit="chars" quantity="1"/>Impériale<space unit="chars" quantity="1"/>Zoologique d'Acclimatation, Paris</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Bulletin de la Société<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">I</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">mpériale<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Z</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">oologique d'</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">A</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">cclimatation</seg>, vol. 8 (1861), p. 345. It is dated to April as the latest likely date that it could have been written to have been reported at the meeting of the society held on 14 June 1861.</p>
+               </note>
                <space dim="horizontal" extent="tab"/>[MM. Wilson et Mueller adressent de Melbourne (Australie) leurs remerciments pour le titre de membres honoraires que la Société leur a décerné dans la séance annuelle du 14 février dernier.]</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; line-height: 0.1945in; font-size: 10pt; "
+               style="line-height: 0.1944in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>[Messrs Wilson and Mueller send from Melbourne (Australia) their thanks for the honorary memberships that the Society awarded to them at the Annual Meeting on 14 February last.</seg>
-               <seg style="">
-                  <note xml:id="ftn2" type="footnote" n="2">
-                     <p rend="Footnote"
-                        style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">[Messrs Wi</seg>
+               <seg rend="DefaultParagraphFont" style="">lson and Mueller send from Melbourne</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">(</seg>
+               <seg rend="DefaultParagraphFont" style="">Australia</seg>
+               <seg rend="DefaultParagraphFont" style="">) their thanks<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">for the honorary memberships<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">that the Society<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">awarded to them at the Annual Meeting on<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">14<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">February last</seg>
+               <seg rend="DefaultParagraphFont" style="">.</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>See Société Impériale Zoologique d'Acclimatation to M, 14 February 1861, and J. d'Eprémesnil to M, 15 February 1861.</p>
+                        <space dim="horizontal" extent="tab"/>See<space unit="chars" quantity="1"/>Société<space unit="chars" quantity="1"/>Impériale<space unit="chars" quantity="1"/>Zoologique d'Acclimatation<space unit="chars" quantity="1"/>to M, 14 February 1861, and<space unit="chars" quantity="1"/>J.<space unit="chars" quantity="1"/>d'Eprémesnil to M, 15 February 1861.</p>
                   </note>
                </seg>
-               <seg style="">]</seg>
+               <seg rend="DefaultParagraphFont" style="">]</seg>
             </p>
          </div>
       </body>
