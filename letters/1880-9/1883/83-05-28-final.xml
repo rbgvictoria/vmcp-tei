@@ -68,7 +68,6 @@
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>valediction</term>
-               <term>Normal</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -147,15 +146,9 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The Government Botanist</p>
-            <p rend="Normal"
-               style="font-size: 12pt; hyphenate: false; text-indent: 0.5in; "
-               xml:lang="en">
-               <seg rend="DefaultParagraphFont">&amp;c</seg>
-               <seg rend="DefaultParagraphFont">
-                  <space dim="horizontal" extent="tab"/>&amp;c</seg>
-               <seg rend="DefaultParagraphFont">
-                  <space dim="horizontal" extent="tab"/>&amp;c</seg>
-            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">&amp;c<space unit="chars" quantity="7"/>&amp;c<space unit="chars" quantity="7"/>&amp;c</p>
          </div>
       </body>
    </text>
