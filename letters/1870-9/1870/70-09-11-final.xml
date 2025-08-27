@@ -63,7 +63,7 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>FootnoteSymbol</term>
+               <term>FootnoteReference</term>
                <term>Footnote</term>
                <term>valediction</term>
             </keywords>
@@ -98,10 +98,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Allow me to mention to you dear Mr Fitzgibbon, that a toprail is wanting on the fence along the approach to Prince's Bridge, and in consequence cattle can readily jump into the reserve under my control. Would you kindly cause this trifling repair to be effected as soon as possible, as otherwise lots of cattle may get at my young trees.<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
-                  <space unit="chars" quantity="1"/>
-               </seg>
-               <seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>Allow me to mention to you dear Mr Fitzgibbon, that a toprail is wanting on the fence along the approach to Prince's Bridge, and in consequence cattle can readily jump into the reserve under my control. Would you kindly cause this trifling repair to be effected as soon as possible, as otherwise lots of cattle may get at my young trees.<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="Footnote"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -118,6 +115,7 @@
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>

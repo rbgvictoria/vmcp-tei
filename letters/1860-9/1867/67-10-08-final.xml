@@ -61,10 +61,10 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>FootnoteSymbol</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -87,13 +87,15 @@
                <supplied reason="XTF-compatibility">To Charles Darwin Esq. with Ferd Muellers best salutation 8/10/67....</supplied>
             </head>
             <p rend="number" xml:lang="en">67.10.08</p>
-            <p rend="correspondent" xml:lang="en">To Charles Darwin<seg rend="FootnoteSymbol" style="font-size: 8pt; "/>
+            <p rend="correspondent" xml:lang="en">To Charles Darwin</p>
+            <p rend="location" xml:lang="en">Cambridge University Library DAR.181.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
-            <p rend="location" xml:lang="en">Cambridge University Library DAR.181.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="Footnote"
+                  <p rend="FootnoteText"
                      style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>

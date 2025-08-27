@@ -63,9 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>FootnoteSymbol</term>
-               <term>Footnote</term>
                <term>FootnoteReference</term>
+               <term>Footnote</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -104,7 +103,7 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I have sent your letter<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>I have sent your letter<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn0" n="1">
                      <p rend="Footnote"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -127,7 +126,6 @@
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Town Clerk</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>

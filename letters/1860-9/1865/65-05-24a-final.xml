@@ -63,8 +63,8 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>FootnoteSymbol</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -100,11 +100,12 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It does not appear that any communication from you has reached the Ladies Leichhardt Search Committee.<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>It does not appear that any communication from you has reached the Ladies Leichhardt Search Committee.<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn0" n="1">
-                     <p rend="Footnote"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">Hector had apparently agreed to contribute to the expedition; see M to J. Hector, 22 May 1865.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: true; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Hector had apparently agreed to contribute to the expedition; see M to J. Hector, 22 May 1865.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>I merely mention this in case your letter should have been lost.</p>
@@ -119,11 +120,15 @@
                style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
-               <space dim="horizontal" extent="tab"/>Ferd Mueller<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>Ferd Mueller<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="Footnote"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">MS annotation probably by Hector: 'Ansd'. Letter not found.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: true; "
+                        xml:lang="en">
+                        <seg rend="FootnoteReference" style="">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <space dim="horizontal" extent="tab"/>MS annotation probably by Hector: 'Ansd'. Letter not found.</p>
                   </note>
                </seg>
             </p>

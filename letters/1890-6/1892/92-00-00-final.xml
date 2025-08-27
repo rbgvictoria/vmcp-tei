@@ -64,8 +64,6 @@
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>FootnoteReference</term>
-               <term>ocrx_word</term>
-               <term>ocr_line</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -205,7 +203,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>These and he subsequent set of square brackets are in the source document.</p>
+                        <space dim="horizontal" extent="tab"/>These and<space unit="chars" quantity="1"/>the subsequent set of square brackets are in the source document.</p>
                   </note>
                </seg>; im subtropischen<space unit="chars" quantity="1"/>Australien [Richmond, Dawson-<space unit="chars" quantity="1"/>und<space unit="chars" quantity="1"/>Burnett-River]).]<space unit="chars" quantity="1"/>
             </p>
@@ -231,11 +229,7 @@
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>M had published these distribution details in B76.10.01, p. 77, under<space unit="chars" quantity="1"/>
-                        <seg rend="ocrx_word" style="font-style: italic; ">Cabomba</seg>
-                        <seg rend="ocr_line" style="font-style: italic; ">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="ocrx_word" style="font-style: italic; ">peltata</seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cabomba peltata</seg>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">.</seg>
                      </p>
                   </note>

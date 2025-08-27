@@ -62,9 +62,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
-               <term>FootnoteSymbol</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>underline</term>
                <term>valediction</term>
@@ -92,34 +92,41 @@
             </head>
             <p rend="number" xml:lang="en">89.08.30</p>
             <p rend="correspondent" xml:lang="en">From Daniel McAlpine</p>
-            <p rend="location" xml:lang="en">RB MSS M37, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteSymbol" style=""/>
+            <p rend="location" xml:lang="en">RB MSS M37, Library, Royal Botanic Gardens Melbourne.<seg rend="FootnoteReference" style=""/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <note type="footnote" xml:id="_ftn0" n="1">
-                  <p rend="Footnote"
+                  <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">MS annotation by M: 'Answ 31/8/89'. Letter not found.</p>
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS annotation by M: 'Answ 31/8/89'. Letter not found.</p>
                </note>5 Wallace St</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
-               xml:lang="en">Toorak<seg rend="FootnoteSymbol" style="">
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Toorak<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">Melbourne.</p>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Melbourne.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>30th Augt /89</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">My dear Baron,</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In order that there might be no mistake about the specimen of E. Gunnii sent to you for determination, I have got fresh specimens from Branxholme<seg rend="FootnoteSymbol" style="">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">My dear Baron,</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In order that there might be no mistake about the specimen of E. Gunnii sent to you for determination, I have got fresh specimens from Branxholme<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn2" n="3">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">Vic.</p>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Vic.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>with the fruits specially taken from the<space unit="chars" quantity="1"/>
@@ -127,38 +134,45 @@
                   <hi rend="underline">same</hi>
                </seg>
                <space unit="chars" quantity="1"/>tree.</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
-               <space dim="horizontal" extent="tab"/>In the "Eucalyptographia"<seg rend="FootnoteSymbol" style="">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>In the "Eucalyptographia"<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn3" n="4">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">B79.13.11, Decade 4.</p>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B79.13.11, Decade 4.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>there is no suggestion of resemblance to E. rostrata, &amp; it will be interesting to know on your authority that there may be such a resemblance.</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
-               <space dim="horizontal" extent="tab"/>The specimens need not be returned, as I simply wanted to know in connection with the leaf-sectioning that this was truly Gunnii.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>The specimens need not be returned, as I simply wanted to know in<space unit="chars" quantity="1"/>connection<space unit="chars" quantity="1"/>with the leaf-sectioning that this was truly Gunnii.</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I remain</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Yours faithfully</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>D. McAlpine</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">N.B. The leaves have a sort of apple-like taste.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">N.B. The leaves have a sort of apple-like taste.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="plantnames"
                style="font-style: italic; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Eucalyptus Gunnii</p>
             <p rend="plantnames"
                style="font-style: italic; font-size: 10pt; hyphenate: false; "
-               xml:lang="en">Eucalyptus rostrata</p>
+               xml:lang="en">Eucalyptus<space unit="chars" quantity="1"/>rostrata</p>
          </div>
       </body>
    </text>

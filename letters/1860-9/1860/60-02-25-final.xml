@@ -64,11 +64,11 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>FootnoteSymbol</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>Internetlink</term>
+               <term>Hyperlink</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -96,49 +96,58 @@
             <p rend="location" xml:lang="en">MS 13071 Royal Society of Victoria Exploration Committee records, box 2077/3, La Trobe Australian Manuscripts Collection, State Library of Victoria, Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">Bank Buildings</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">George Street Sydney</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">25th Febry 1860</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">Dear Sir,</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am in receipt of your favor of the 19th Inst<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Dear Sir,</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>I am in receipt of your favor of the 19th Inst<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn0" n="1">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">Letter not found.</p>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>— and by todays steamer "<seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">City of Sydney</hi>
-               </seg>" beg to forward you what I have left of the Parcel of Coca leaves given me by Mr Lidger<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               </seg>" beg to forward you what I have left of the Parcel of<space unit="chars" quantity="1"/>Coca leaves<space unit="chars" quantity="1"/>given me by Mr Lidger<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">Charles Ledger? At the meeting of the Exploration Committee held on 30 May 1859, the secretary read a letter from Chas. Ledger Esq containing the offer, as a contribution to the Expedition, of 10 lbs of Coca leaves used by the Mexicans &amp; others for warding off hunger and thirst. Thanks were voted to Mr Ledger. (Box 2088B/1, online as<space unit="chars" quantity="1"/>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Charles<space unit="chars" quantity="1"/>Ledger?<space unit="chars" quantity="1"/>At the meeting of the Exploration Committee held on 30 May 1859,<space unit="chars" quantity="1"/>the secretary read a letter from Chas. Ledger Esq containing the offer, as a contribution to the Expedition, of 10 lbs of Coca leaves used by the Mexicans &amp; others for warding off hunger and thirst. Thanks were voted to Mr Ledger.<space unit="chars" quantity="1"/>(Box<space unit="chars" quantity="1"/>2088B/1,<space unit="chars" quantity="1"/>online as<space unit="chars" quantity="1"/>
                         <ref target="http://handle.slv.vic.gov.au/10381/163008">
-                           <seg rend="Internetlink" style="color: #000000; ">[http://handle.slv.vic.gov.au/10381/163008]</seg>
-                        </ref>. Minute book, Royal Society of Victoria, Exploration Committee, p. 27).</p>
+                           <seg rend="Hyperlink" style="color: #0000FF; ">[http://handle.slv.vic.gov.au/10381/163008]</seg>
+                        </ref>.<space unit="chars" quantity="1"/>Minute book, Royal Society of Victoria, Exploration Committee, p. 27).</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>the parcel was originally made up for the Victorian Expedition, but as they neither applied for it, nor answered my letter concerning it — the parcel was placed at my disposal by Mr Ledger — and I have made several small presents of some of its contents — the remainder I have much pleasure in forwarding to your better care</p>
+               <space unit="chars" quantity="1"/>the parcel was originally made up for the Victorian Expedition, but as they neither applied for it, nor answered my letter concerning it — the parcel was placed at my disposal by Mr Ledger — and I have made several small<space unit="chars" quantity="1"/>presents<space unit="chars" quantity="1"/>of some of its contents — the remainder I have much pleasure in forwarding to your better care</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Yours truly</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>E Wrench</p>
+               <space dim="horizontal" extent="tab"/>E<space unit="chars" quantity="1"/>Wrench</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">Dr Fred<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Dr Fred<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn2" n="3">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">i.e. Ferd.</p>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>i.e. Ferd.</p>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>Mueller</p>

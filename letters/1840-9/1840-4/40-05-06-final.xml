@@ -64,8 +64,8 @@
                <term>location</term>
                <term>letter</term>
                <term>valediction</term>
-               <term>FootnoteSymbol</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -93,16 +93,20 @@
             <p rend="location" xml:lang="de">RB MSS M105.1, Library, Royal Botanic Gardens Melbourne.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">Tönning den 6 Mai. 40.</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="de">Bester Ferdinand!</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="de">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">Bester Ferdinand!</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">
                <space dim="horizontal" extent="tab"/>Pastor Martens hat mir gesagt oder rechters er glaubt, dass in Husum alte Bücher zu bekommen sind, da ich nun nothwendig Bröders kleine lateinisches Grammatik, und Wörterbuch, sowie auch Gedikes englisches Lesebuch, und Gedikes französisches Lesebuch haben sollte, so bitte ich Dir, ob Du so gut sein wolltest und mir diese Bücher wenn sie alt zu bekommen wären, für dem beigelegten Gelde zu kaufen, sollte das Geld nicht zuschlagen, oder genug sein, so bitte deinen Onkel so viel auszulegen bis es genug wird und wenn Dein Onkel hinkommt so soll ich es ihm wieder bezahlen. Leb wol Ferdinand und schreibe mir bald zu und lache nicht über die Fehler die hierin sind. [sehr] geschwind.</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Dein Freund</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>H. Hammel</p>
             <space dim="vertical" unit="lines" quantity="1"/>
@@ -117,24 +121,27 @@
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Pastor Martens told me or rather, he believes, that second-hand books can be obtained in Husum. As I now urgently need Bröder's Latin grammar and dictionary, as well as Gedicke's English reader and Gedicke's French reader,<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>Pastor Martens told me or rather, he believes, that second-hand books can be obtained in Husum. As I now urgently need Bröder's Latin grammar and dictionary, as well as Gedicke's English reader and Gedicke's French reader,<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn0" n="1">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">These works went through multiple editions, for example Bröder (1836), Gedicke (1816), Gedicke (1828); it is not known what editions Hammel wanted or received.</p>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>These works went through multiple editions, for example<space unit="chars" quantity="1"/>Bröder<space unit="chars" quantity="1"/>(1836), Gedicke (1816),<space unit="chars" quantity="1"/>Gedicke<space unit="chars" quantity="1"/>(1828); it is not known what editions Hammel wanted or received.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>I want to ask you to be so good and buy these books for me with the enclosed money, if they are available second-hand. Should the money not be satisfactory or not be enough, please ask your Uncle<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space unit="chars" quantity="1"/>I want to ask you to be so good and buy these books for me with the enclosed money, if they are available second-hand. Should the money not be satisfactory or not be enough, please ask your Uncle<seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">Johann Ferdinand Mertens.</p>
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Johann Ferdinand Mertens.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>to make up the required amount, and I will pay him back as soon as he gets here. Write to me soon, and please do not laugh about my spelling mistakes.</p>
+               <space unit="chars" quantity="1"/>to make up the required amount, and I will pay him back as soon as he gets here.<space unit="chars" quantity="1"/>Write to me soon, and please do not laugh about my spelling mistakes.</p>
             <p rend="valediction"
                style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
-               xml:lang="en">In haste,</p>
+               xml:lang="en">In haste,<space unit="chars" quantity="1"/>
+            </p>
             <p rend="valediction"
                style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">

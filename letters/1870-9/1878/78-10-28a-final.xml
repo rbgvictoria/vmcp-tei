@@ -65,11 +65,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
-               <term>FootnoteSymbol</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>Footnote</term>
                <term>formtext</term>
-               <term>FootnoteReference</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
             </keywords>
@@ -95,10 +94,7 @@
             </head>
             <p rend="number" xml:lang="en">78.10.28a</p>
             <p rend="correspondent" xml:lang="en">To Graham Berry</p>
-            <p rend="location" xml:lang="en">O78/12605, unit 1040, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteSymbol" style="">
-                  <space unit="chars" quantity="1"/>
-               </seg>
-               <seg rend="FootnoteSymbol" style=""/>
+            <p rend="location" xml:lang="en">O78/12605, unit 1040, VPRS 3991/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -237,7 +233,7 @@
                         cols="3">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="border-top: 0.0104in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
+                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: 0.0069in solid #000000; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
                </row>
@@ -312,7 +308,7 @@
                         <seg rend="formtext" style="color: #2F5496; ">d.</seg>
                      </p>
                   </cell>
-                  <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
+                  <cell style="border-top: 0.0069in solid #000000; border-left: 0.0208in solid #000000; border-bottom: none; border-right: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; "
                         rows="5">
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
@@ -440,7 +436,7 @@
                   <cell style="border-top: none; border-left: 0.0104in solid #000000; border-bottom: none; border-right: 0.0208in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
                         style="font-size: 12pt; hyphenate: false; "
-                        xml:lang="en">Books, incidental expenses &amp;c</p>
+                        xml:lang="en">Books, incidental expenses<space unit="chars" quantity="1"/>&amp;c</p>
                   </cell>
                   <cell style="border-top: none; border-left: 0.0208in solid #000000; border-bottom: none; border-right: 0.0104in solid #000000; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"

@@ -63,7 +63,7 @@
                <term>letter</term>
                <term>Footnote</term>
                <term>DefaultParagraphFont</term>
-               <term>FootnoteSymbol</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -89,11 +89,16 @@
             <p rend="correspondent" xml:lang="en">To William Woolls</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <note type="footnote" xml:id="_ftn0" n="1">
                   <p rend="Footnote"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
+                     <seg rend="DefaultParagraphFont" style="color: #000000; ">
+                        <space dim="horizontal" extent="tab"/>
+                     </seg>
                      <seg rend="DefaultParagraphFont" style="color: #000000; ">Letter not found. The extract was included in an unsigned obituary, almost certainly by William Woolls:<space unit="chars" quantity="1"/>
                      </seg>
                      <seg rend="DefaultParagraphFont" style="color: #000000; ">'The late Robert David Fitzgerald', </seg>
@@ -115,7 +120,7 @@
                         <space dim="horizontal" extent="tab"/>The extract was also published in Messmer (1932), p. 240.</seg>
                   </p>
                </note>
-               <space dim="horizontal" extent="tab"/>It is indeed an irreparable loss, not only to our favourite science but to ourselves personally, who have learned to appreciate his sterling character in life. Your communication came to me with all the more sadness as I was not even aware of his illness. Were the distance not so great I would have endeavoured to be in time to pay my last worldly homage to him on the way to the grave. My telegram,<seg rend="FootnoteSymbol" style="">
+               <space dim="horizontal" extent="tab"/>It is indeed an irreparable loss, not only to our favourite science but to ourselves personally, who have learned to appreciate his sterling character in life. Your communication came to me with all the more sadness as I was not even aware of his illness. Were the distance not so great I would have endeavoured to be in time to pay my last worldly homage to him on the way to the grave. My telegram,<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="Footnote"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -124,7 +129,9 @@
                         <space dim="horizontal" extent="tab"/>Telegram not found.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>despatched as soon as I heard the tidings, will have conveyed to you my request to express my deep condolence to his family; may I beg of you to communicate also to the Linnean Society of New South Wales the expression of my profound sadness on account of this great and sudden loss. So long as the lovely orchids of this part of the world embellish with singular and varied beauty the natural features of Australia, so long will the memory of our leading orchidologist be held dear in the study of God's works.</p>
+               <seg rend="FootnoteReference" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>despatched as soon as I heard the tidings, will have conveyed to you my request to express my deep condolence to his family; may I beg of you to communicate also to the Linnean Society of New South Wales the expression of my profound sadness on account of this great and sudden loss. So long as the lovely orchids of this part of the world embellish with singular and varied beauty the natural features of Australia, so long will the memory of our leading orchidologist be held dear in the study of God's works.</p>
          </div>
       </body>
    </text>

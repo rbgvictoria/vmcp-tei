@@ -63,7 +63,7 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
-               <term>FootnoteSymbol</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>Footnote</term>
                <term>valediction</term>
@@ -93,7 +93,7 @@
             </head>
             <p rend="number" xml:lang="de">71.07.06</p>
             <p rend="correspondent" xml:lang="de">From Karl I, King of Württemberg</p>
-            <p rend="location" xml:lang="de">Private hands.<seg rend="FootnoteSymbol" style="font-size: 8pt; "/>
+            <p rend="location" xml:lang="de">Private hands.<seg rend="FootnoteReference" style=""/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -102,7 +102,8 @@
                <note type="footnote" xml:id="_ftn0" n="1">
                   <p rend="Footnote"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">The document is in a red, leather-bound cover, embossed and decorated in gold-leaf, with appended silk cord with two tassels and attached chased and engraved gold box and silk ribbons. It is accompanied by a watercolour of the final, agreed version of M's coat of arms, signed 'Gesehen | Stälin' [Sighted | Stälin].<space unit="chars" quantity="1"/>71-07-06_image01.jpg</p>
+                     xml:lang="en">The document is in a red, leather-bound cover, embossed and decorated in gold-leaf, with appended silk cord with two tassels and attached chased and engraved gold box and silk ribbons. It is accompanied by a watercolour of the final, agreed version of M's coat of arms, signed 'Gesehen | Stälin' [Sighted | Stälin]. 71-07-06_image01.jpg</p>
+                  <space dim="vertical" unit="lines" quantity="1"/>
                </note>Wir</p>
             <p rend="letter"
                style="hyphenate: false; text-align: center; "
@@ -128,7 +129,7 @@
             <p rend="letter" style="hyphenate: false; " xml:lang="de">
                <space dim="horizontal" extent="tab"/>Solches besteht in einem Schilde mit goldenem Felde, worin zwei aufrechte unten verschlungene Zweige der Eucalyptus Globulus. Auf dem mit der Freiherrn Krone gezierten Schilde hängt ein offener gegitterter goldgekrönter Turnierhelm, darauf drei Straussfedern, die mittlere golden, die äussern schwarz. Helmdecken aussen schwarz, innen golden. Unter dem Schilde steht auf einem fliegenden rothen Band mit goldenen Buchstaben der Wahlspruch: "Virtute Ingenioque valemus."</p>
             <p rend="letter" style="hyphenate: false; " xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Wir gebieten hienach, dass alle Unsere Staatsdiener und Beamte, sowie alle Unsere Unterthanen den gedachten Freiherrn von Müller sammt seinen ehlichen Nachkommen nicht nur für Freiherrn Unseres Königreichs anerkennen, sondern solche auch wo es ihr Amt oder ihre Pflicht erfordert, bei der ihnen andurch verliehenen Freiherrn-Würde jeder Zeit unverweigerlich handhaben sollen.</p>
+               <space dim="horizontal" extent="tab"/>Wir gebieten hienach, dass alle Unsere Staatsdiener und Beamte, sowie alle Unsere Unterthanen den gedachten Freiherrn von Müller sammt seinen ehlichen Nachkommen nicht nur für Freiherrn Unseres Königreichs anerkennen, sondern solche auch wo es ihr Amt oder ihre<space unit="chars" quantity="1"/>Pflicht erfordert, bei der ihnen andurch verliehenen Freiherrn-Würde jeder Zeit unverweigerlich handhaben sollen.</p>
             <p rend="letter" style="hyphenate: false; " xml:lang="de">
                <space dim="horizontal" extent="tab"/>Zur Bestätigung alles dessen haben Wir die gegenwärtige Urkunde eigenhändig unterzeichnet und derselben Unser grosses Königliches Insiegel anhängen lassen.</p>
             <p rend="letter" style="hyphenate: false; " xml:lang="de">
@@ -197,18 +198,19 @@
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>This consists of a shield with a golden field, within two erect branches of<space unit="chars" quantity="1"/>
                <seg rend="DefaultParagraphFont" style="font-style: italic; ">Eucalyptus globulus</seg>
-               <space unit="chars" quantity="1"/>intertwined at their base. On the shield, decorated with the Baron's crown, hangs a tournament helmet with open grating crowned in gold, on it three ostrich feathers, the central one golden, the flanking ones black. Helmet cover outside black, inside golden. Under the shield in gold lettering on a flying red ribbon is the chosen motto 'Virtute Ingenioque valemus'.<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space unit="chars" quantity="1"/>intertwined at their base. On the shield, decorated with the Baron's crown, hangs a tournament helmet with open grating crowned in gold, on it three ostrich feathers, the central one golden, the flanking ones black. Helmet cover outside black, inside golden. Under the shield in gold lettering on a flying red ribbon is the chosen motto 'Virtute Ingenioque valemus'.<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="Footnote"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">'We are strong through valour and ability'.</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>We decree that from now on all Our officials and public servants as well as all Our subjects are not only to acknowledge the said Baron von Mueller and all his legitimate descendants as Barons of Our Kingdom, but also, in as far as their office or their duty<space unit="chars" quantity="1"/>requires it, to serve them unquestionably at all times on account of the rank of Baron herewith bestowed on them.</p>
+               <space dim="horizontal" extent="tab"/>We decree that from now on all Our officials and public servants as well as all Our subjects are not only to acknowledge the said Baron von Mueller and all his legitimate descendants as Barons of Our Kingdom, but also, in as far as their office or their duty requires it, to serve them unquestionably at all times on account of the rank of Baron herewith bestowed on them.</p>
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
@@ -216,7 +218,7 @@
             <p rend="letter"
                style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>So done in the city of Our Royal residence, Stuttgart, on the sixth day of the month of July in the year one thousand eight hundred and seventy-one, the eighth year of Our reign.<seg rend="FootnoteSymbol" style="font-size: 8pt; ">
+               <space dim="horizontal" extent="tab"/>So done in the city of Our Royal residence, Stuttgart, on the sixth day of the month of July in the year one thousand eight hundred and seventy-one, the eighth year of Our reign.<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="Footnote"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
@@ -225,6 +227,7 @@
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>Although the document is dated 6 July 1871, the date on which M’s ennoblement was decreed, it incorporates the final version of the blazon for M’s baronial arms that was only settled upon after some discussion; it was not finally sent to M until 30 July 1872. See J. von W</seg>ä<seg rend="DefaultParagraphFont" style="">chter to M, 12 July 1871; M to J. von W</seg>ä<seg rend="DefaultParagraphFont" style="">chter, 8 October 1871 (in this edition as 81-10-08a); J. von W</seg>ä<seg rend="DefaultParagraphFont" style="">chter to M, 8 January 1872; M to J. von W</seg>ä<seg rend="DefaultParagraphFont" style="">chter, 27 March 1872 (in this edition as 72-03-27a); and J. von W</seg>ä<seg rend="DefaultParagraphFont" style="">chter to M, 30 July 1872.</seg>
                      </p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
