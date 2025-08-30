@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [We have been led to these remarks ¶  by hearing from Mr. Hulke that, through the kindness of Dr. Mueller, curator of the Melbourne Botanical Gardens, he is in possession of a packet of the seed of...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1866/66-10-00d-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>66.10.00d</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [We have been led to these remarks ¶  by hearing from Mr. Hulke that, through the kindness of Dr. Mueller, curator of the Melbourne Botanical Gardens, he is in possession of a packet of the seed of...</title>
+               <date when="1866-10">1866-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1866/66-10-00d-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William Hulke</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [We have been led to these remarks ¶  by hearing from Mr. Hulke that, through the kindness of Dr. Mueller, curator of the Melbourne Botanical Gardens, he is in possession of a packet of the seed of...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">66.10.00d</p>
+            <p rend="correspondent" xml:lang="en">To William Hulke</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from <seg style="font-style: italic; ">Taranaki herald</seg> (NZ), 10 November 1866, p. 3. It is dated to late October 1866, as the latest likely date that it could have been written by M to be reported in this issue of the newspaper, published weekly. On the basis of the note in B61.13.12, p. 157, where Th. H. Hulke, of New Plymouth is said to have supplied M with a living specimen from which M named <seg style="font-style: italic; ">Veronica hulkeana</seg>,, the correspondent would seem to be that person. However, no biographical details of Th. H. Hulke have been found, whereas William King Hulke had established what became a very successful nursery for producing New Zealand flax at New Plymouth in the early 1860s. He had no children (<seg style="font-style: italic; ">Taranaki daily news</seg>
+                     <seg style="">, 24 October 1908, p. 2). The only other Hulke in the New Zealand electoral rolls is Charles Hulke, but he was never recorded as living in the Taranaki district, in which New Plymouth is situated. M acknowledges receiving plants from W. H. Hulke in M to W. Nicholson, 12 January 1860. </seg>
+                  </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[We have been led to these remarks<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>On the need to introduce 'new forms of industry into the colony'. </p>
+               </note> by hearing from Mr. Hulke that, through the kindness of Dr. Mueller, curator of the Melbourne Botanical Gardens, he is in possession of a packet of the seed of the Imperial sugar beet, and of the Shiraz tobacco, which he will be glad to distribute among persons who desire to try the experiment of growing them.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

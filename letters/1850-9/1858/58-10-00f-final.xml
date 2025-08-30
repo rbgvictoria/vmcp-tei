@@ -1,0 +1,135 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [5. Dianella,—…  ¶ Dr ¶ . Mueller states that there are five distinct species of Dianella in Victoria, ¶  but not the true D. caerulea ¶  which he is anxious to introduce into the Botanical Garden ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1850-9/1858/58-10-00f-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>58.10.00f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [5. Dianella,—…  ¶ Dr ¶ . Mueller states that there are five distinct species of Dianella in Victoria, ¶  but not the true D. caerulea ¶  which he is anxious to introduce into the Botanical Garden ...</title>
+               <date when="1858-10">1858-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1850-9/1858/58-10-00f-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/34f061b2-da81-4440-9a3c-b7225bdc26a2">Dianella caerulea</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William Woolls</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [5. Dianella,—…  ¶ Dr ¶ . Mueller states that there are five distinct species of Dianella in Victoria, ¶  but not the true D. caerulea ¶  which he is anxious to introduce into the Botanical Garden ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">58.10.00f</p>
+            <p rend="correspondent" xml:lang="en">To William Woolls</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Melanthaceae and Liliaceae' by <space unit="chars" quantity="1"/>‘W. W.’ [William Woolls] in <seg style="font-style: italic; ">Sydney morning herald</seg>, 19 October 1858, p. 2.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[5. Dianella,—… <seg style="">Dr</seg>. Mueller states that there are five distinct species of Dianella in Victoria,<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>No reference to 5 species of <seg style="font-style: italic; ">Daniella</seg> in Vctoria has been found in M's publications up to 1859, so it is probable that Woolls is paraphrasing a letter from M. October 1858 is the latest date that a letter could have been sent.</p>
+               </note> but not the true D. caerulea<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>M listed two species of <seg style="font-style: italic; ">Daniella</seg>, including <seg style="font-style: italic; ">D. caerulea,</seg> in the 'Systematic index to the plants of Victoria' in <space unit="chars" quantity="1"/>B53.10.01, p. 19.</p>
+               </note> which he is anxious to introduce into the Botanical Garden at Melbourne. The doctor suggests that the colour and proportionate length of the anthers and their appendages, and also the form of the berries, form excellent characters for distinguishing the different species of this genus.]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Dianella%20caerulea">Dianella caerulea</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

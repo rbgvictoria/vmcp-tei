@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.] ¶ ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1871/71-04-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <altIdentifier>
+                     <idno>71.04.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.] ¶ ...</title>
+               <date when="1871-04">1871-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1871/71-04-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>the Bay District Horticultural Society, California</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.] ¶ ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">71.04.00</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Bay District Horticultural Society, California</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from a report of the meeting of the Bay District Horticultural Society, California, held on 10 June 1871 (<seg rend="DefaultParagraphFont" style="font-style: italic; ">California horticulturist and floral magazine</seg>, vol. 1, p. 247). The letter is dated to April as the latest likely date that it could have been sent to have been read at that meeting.<space unit="chars" quantity="1"/>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>
+                     <space dim="horizontal" extent="tab"/>The report continues: 'Dr. Mueller is untiring in his efforts to help the cause of Horticulture, and great<space unit="chars" quantity="1"/>credit is due him for the introduction and<space unit="chars" quantity="1"/>cultivation of many valuable plants.'</p>
+                  <space dim="vertical" unit="lines" quantity="1"/>
+               </note>
+               <space dim="horizontal" extent="tab"/>[A letter was read from F. Von Mueller of the Botanical Gardens, Melbourne, in which this gentleman informed the Society, that he had sent for distribution a quantity of tree and plant seeds.]<space unit="chars" quantity="1"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

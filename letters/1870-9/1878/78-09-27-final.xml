@@ -1,0 +1,149 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [Sent Baron Mueller 2 new? species of Eucalypt one closely allied to E. eximia. The other so near an Angophora that I recommend the Baron to call it if indeed new E. angophorides ¶  but as the flow...</title>
+            <author>Frederick Bailey</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1870-9/1878/78-09-27-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Notebook, Colonial Botanist, Queensland Herbarium, Brisbane.</msName>
+                  <altIdentifier>
+                     <idno>78.09.27</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Frederick Bailey</author>
+               <title> ¶ [Sent Baron Mueller 2 new? species of Eucalypt one closely allied to E. eximia. The other so near an Angophora that I recommend the Baron to call it if indeed new E. angophorides ¶  but as the flow...</title>
+               <date when="1878-09-27">1878-09-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1870-9/1878/78-09-27-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="plant-names">
+               <bibl>plant names</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva, Geneva</term>
+            </keywords>
+            <keywords scheme="#plant-names">
+               <term>Eucalyptus angophorides</term>
+               <term>Eucalyptus corymbosa</term>
+               <term>Eucalyptus eximia</term>
+               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/641a3635-3088-4ab3-b4d5-40c2aecc74cc">Angophora</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+               <term>plant names</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Ferdinand von Mueller</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [Sent Baron Mueller 2 new? species of Eucalypt one closely allied to E. eximia. The other so near an Angophora that I recommend the Baron to call it if indeed new E. angophorides ¶  but as the flow...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">78.09.27</p>
+            <p rend="correspondent" xml:lang="en">From Frederick Bailey</p>
+            <p rend="location" xml:lang="en">Notebook, Colonial Botanist, Queensland Herbarium, Brisbane.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva, Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg style="">
+                        <space dim="horizontal" extent="tab"/>Letter not found; item is a notebook summary only, dated 27 September 1878. </seg>
+                  </p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[Sent Baron Mueller 2 new? species of Eucalypt one closely allied to E. eximia. The other so near an <name key="Angophora">Angophora</name> that I recommend the Baron to call it if indeed new E. angophorides<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva, Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <seg style="">
+                        <space dim="horizontal" extent="tab"/>No description of </seg>
+                     <seg style="font-style: italic; ">Eucalyptus </seg>
+                     <seg style="font-style: italic; ">angophorides</seg> by M has been found. R. T. Baker described a species under that name in Baker (1901), p. 676, but this may not refer to the same taxon as Bailey's plant.</p>
+               </note> but as the flowers have not been seen it may yet turn out an <name key="Angophora">Angophora</name>. The trunk has large quantities of liquid gum like E. corymbosa]</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Angophora">Angophora</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eucalyptus%20angophorides">Eucalyptus angophorides</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eucalyptus%20corymbosa">Eucalyptus corymbosa</name>
+            </p>
+            <p rend="plant%20names" xml:lang="en">
+               <name key="Eucalyptus%20eximia">Eucalyptus eximia</name>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+         </div>
+      </body>
+   </text>
+</TEI>

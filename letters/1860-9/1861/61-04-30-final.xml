@@ -1,0 +1,122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>30/4/61 ¶ Dear Sir ¶  ¶ Allow me to remind you, that the Gentlemen of the Municipality kindly promised some treeguards for planting ¶  ¶ Weeping Willows at the Yarra. ¶ Seenotes toM to E. FitzGibbon, ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1861/61-04-30-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Unit 731, VPRS 3181/P Town Clerk's file series 1, VA 511 Melbourne, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>61.04.30</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>30/4/61 ¶ Dear Sir ¶  ¶ Allow me to remind you, that the Gentlemen of the Municipality kindly promised some treeguards for planting ¶  ¶ Weeping Willows at the Yarra. ¶ Seenotes toM to E. FitzGibbon, ...</title>
+               <date when="1861-04-30">1861-04-30</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-04-30-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Edmund FitzGibbon</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">30/4/61 ¶ Dear Sir ¶  ¶ Allow me to remind you, that the Gentlemen of the Municipality kindly promised some treeguards for planting ¶  ¶ Weeping Willows at the Yarra. ¶ Seenotes toM to E. FitzGibbon, ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">61.04.30</p>
+            <p rend="correspondent" xml:lang="en">To Edmund FitzGibbon</p>
+            <p rend="location" xml:lang="en">Unit 731, VPRS 3181/P Town Clerk's file series 1, VA 511 Melbourne, Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">30/4/61</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Dear Sir</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Allow me to remind you, that the Gentlemen of the Municipality kindly promised some treeguards for planting<space unit="chars" quantity="1"/>Weeping Willows at the Yarra.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See<space unit="chars" quantity="1"/>notes to<space unit="chars" quantity="1"/>M to E. FitzGibbon, 24 October 1860, and M to E. FitzGibbon, 5 November 1860 (in this edition as 60-11-05e).</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">yours very truly</p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Ferd Mueller</p>
+         </div>
+      </body>
+   </text>
+</TEI>
