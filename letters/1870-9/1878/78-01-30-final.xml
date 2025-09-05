@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>E1652/1/1878/2798, National Archives of Australia, Darwin. ¶ Annotation: 'Copy f[or Adelaide]'. ¶ NORTHERN TERRITORY ¶ APPLICATION FOR LEASE OF PASTORAL LANDS, UNDER ACT 48, 1876. ¶ Term ¶  ¶ 25 ¶  ¶ ...</title>
+            <title>NORTHERN TERRITORY ¶ APPLICATION FOR LEASE OF PASTORAL LANDS, UNDER ACT 48, 1876. ¶ Term ¶  ¶ 25 ¶  ¶ Years ¶  ¶ from 1st April 1878. ¶ Application No. ¶  ¶ 2798 ¶  ¶ of ¶ Spaces are left blank here a...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -20,6 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
+                  <msName>E1652/1/1878/2798, National Archives of Australia, Darwin.</msName>
                   <altIdentifier>
                      <idno>78.01.30</idno>
                   </altIdentifier>
@@ -27,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>E1652/1/1878/2798, National Archives of Australia, Darwin. ¶ Annotation: 'Copy f[or Adelaide]'. ¶ NORTHERN TERRITORY ¶ APPLICATION FOR LEASE OF PASTORAL LANDS, UNDER ACT 48, 1876. ¶ Term ¶  ¶ 25 ¶  ¶ ...</title>
+               <title>NORTHERN TERRITORY ¶ APPLICATION FOR LEASE OF PASTORAL LANDS, UNDER ACT 48, 1876. ¶ Term ¶  ¶ 25 ¶  ¶ Years ¶  ¶ from 1st April 1878. ¶ Application No. ¶  ¶ 2798 ¶  ¶ of ¶ Spaces are left blank here a...</title>
                <date when="1878-01-30">1878-01-30</date>
             </bibl>
          </sourceDesc>
@@ -61,13 +62,13 @@
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
-               <term>Footer</term>
+               <term>location</term>
                <term>FootnoteReference</term>
-               <term>Footnote</term>
                <term>letter</term>
+               <term>FootnoteText</term>
                <term>formtext</term>
                <term>DefaultParagraphFont</term>
-               <term>Internetlink</term>
+               <term>Hyperlink</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -88,42 +89,41 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">E1652/1/1878/2798, National Archives of Australia, Darwin. ¶ Annotation: 'Copy f[or Adelaide]'. ¶ NORTHERN TERRITORY ¶ APPLICATION FOR LEASE OF PASTORAL LANDS, UNDER ACT 48, 1876. ¶ Term ¶  ¶ 25 ¶  ¶ ...</supplied>
+               <supplied reason="XTF-compatibility">NORTHERN TERRITORY ¶ APPLICATION FOR LEASE OF PASTORAL LANDS, UNDER ACT 48, 1876. ¶ Term ¶  ¶ 25 ¶  ¶ Years ¶  ¶ from 1st April 1878. ¶ Application No. ¶  ¶ 2798 ¶  ¶ of ¶ Spaces are left blank here a...</supplied>
             </head>
             <p rend="number" xml:lang="en">78.01.30</p>
-            <p rend="correspondent" xml:lang="en">To the Surveyor General of South Australia</p>
-            <p rend="Footer" style="hyphenate: false; " xml:lang="en">E1652/1/1878/2798, National Archives of Australia, Darwin.<seg rend="FootnoteReference" style="">
-                  <note type="footnote" xml:id="_ftn0" n="1">
-                     <p rend="Footnote"
-                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                        xml:lang="en">
-                        <space unit="chars" quantity="1"/>
-                        <space dim="horizontal" extent="tab"/>Annotation: 'Copy f[or Adelaide]'.</p>
-                     <space dim="vertical" unit="lines" quantity="1"/>
-                  </note>
-               </seg>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the Surveyor General of South Australia</p>
+            <p rend="location" xml:lang="en">E1652/1/1878/2798, National Archives of Australia, Darwin.<seg rend="FootnoteReference" style=""/>
             </p>
-            <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Annotation: 'Copy f[or Adelaide]'.</p>
+               </note>
                <seg rend="formtext" style="color: #2F5496; ">NORTHERN TERRITORY</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">APPLICATION FOR LEASE OF PASTORAL LANDS, UNDER ACT 48, 1876.</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">Term</seg>
                <space unit="chars" quantity="1"/>25<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">Years</seg>
                <space unit="chars" quantity="1"/>from 1st April 1878.</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">Application No.</seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>
@@ -131,16 +131,17 @@
                <seg rend="formtext" style="color: #2F5496; ">of</seg>
                <seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn1" n="2">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>Spaces are left blank here and in several other places on the form.</p>
-                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">containing<space unit="chars" quantity="1"/>
                </seg>130<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">square miles £</seg>3<space unit="chars" quantity="1"/>
@@ -151,61 +152,80 @@
                <space unit="chars" quantity="1"/>30 Jany<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">18</seg>78.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">I Ferdinand Jacob Heinrich Von Mueller<space unit="chars" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">I Ferdinand Jacob Heinrich Von Mueller<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">of</seg>
-               <space unit="chars" quantity="1"/>Melbourne Victoria<seg rend="formtext" style="color: #2F5496; ">
+               <space unit="chars" quantity="1"/>Melbourne<space unit="chars" quantity="1"/>Victoria<seg rend="formtext" style="color: #2F5496; ">
                   <space unit="chars" quantity="1"/>do hereby make application for a Lease of a certain portion of the Waste Lands of the Crown in the Northern Territory of South Australia, the situation and boundaries whereof are shown in the Plan hereto annexed, to which<space unit="chars" quantity="1"/>
                </seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space dim="horizontal" extent="tab"/>
-                  <space unit="chars" quantity="2"/>have affixed<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="formtext" style="color: #2F5496; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="formtext" style="color: #2F5496; ">
+                  <space unit="chars" quantity="1"/>have affixed<space unit="chars" quantity="1"/>
                </seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space dim="horizontal" extent="tab"/>
-                  <space unit="chars" quantity="2"/>signature; and<space unit="chars" quantity="1"/>
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="formtext" style="color: #2F5496; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="formtext" style="color: #2F5496; ">signature; and<space unit="chars" quantity="1"/>
                </seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space dim="horizontal" extent="tab"/>
                   <space unit="chars" quantity="1"/>make the above claim under clause 4 of the Regulations now in force (dated 28th December, 1876).</seg>
                <seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn2" n="3">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">
                            <space dim="horizontal" extent="tab"/>Clause 4 of the regulations specified the way in which an application was to be made and 'except in cases where the land applied for is partially bounded by runs already leased, or where the natural feature of the country may render a regular outline impracticable, the land applied for shall be of rectangular form, the length of which shall not exceed twice its breadth, and one of the sides of which shall run as nearly as may be in a north and south direction'. Clause 2 of the regulations required the property to be stocked within three years 'at the rate of at least two head of great cattle [i.e.,<space unit="chars" quantity="1"/>
-                        </seg>'all manner of beasts except sheep and yearlings' (<ref target="https://www.law-dictionary.org/">
-                           <seg rend="Internetlink" style="color: #0563C1; ">https://www.law-dictionary.org</seg>
-                        </ref>)] or ten<space unit="chars" quantity="1"/>
+                        </seg>'all manner of beasts except sheep and yearlings'<space unit="chars" quantity="1"/>(<ref target="https://www.law-dictionary.org">
+                           <seg rend="Hyperlink" style="color: #0563C1; ">https://www.law-dictionary.org</seg>
+                        </ref>)]<space unit="chars" quantity="1"/>or ten<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="">head of small cattle, for every square mile of the country so applied for'. Other clauses regulated rental terms, forfeiture and the like (</seg>'Northern territory pastoral regulations',<seg rend="DefaultParagraphFont" style="font-size: 10pt; ">
                            <space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">South Australian Government Gazette</seg>
                         <seg rend="DefaultParagraphFont" style="">, 28 December 1876, pp. 2701-3.</seg>
                      </p>
-                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">F. J. H. von Mueller</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">by his agent F Krichauff</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">Witness—</seg>
             </p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">James Binnie</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">James Binnie</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">___________</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">Telegram under clause 5, sent to Northern Territory, dated</seg>
                <space unit="chars" quantity="1"/>30th Jany<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">187</seg>8</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">Approved by Government Resident,<space unit="chars" quantity="1"/>
                </seg>
                <seg rend="formtext" style="color: #2F5496; font-style: italic; ">vide</seg>
@@ -217,15 +237,21 @@
                </seg>
                <seg rend="formtext" style="color: #2F5496; ">
                   <space dim="horizontal" extent="tab"/>
-                  <space unit="chars" quantity="9"/>187</seg>8.</p>
+               </seg>
+               <seg rend="formtext" style="color: #2F5496; ">
+                  <space unit="chars" quantity="9"/>
+               </seg>
+               <seg rend="formtext" style="color: #2F5496; ">187</seg>8.</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">___________</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">Forwarded to Treasury for receipt of first year's Rent, viz.:— £</seg>
                <space unit="chars" quantity="1"/>3 : 5 : –</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <seg rend="DefaultParagraphFont" style="font-style: italic; ">[illegible initials]</seg>
                <seg rend="DefaultParagraphFont"
@@ -234,13 +260,15 @@
                </seg>pro<seg rend="formtext" style="color: #2F5496; font-style: italic; ">. Surveyor-General.</seg>
             </p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">25/4<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">18</seg>78.</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">___________</p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">Received the above amount of £<space unit="chars" quantity="1"/>
                </seg>3 :5/<seg rend="formtext" style="color: #2F5496; ">:<space unit="chars" quantity="1"/>
                </seg>–<seg rend="formtext" style="color: #2F5496; ">
@@ -250,19 +278,19 @@
                </seg>Apl<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">18</seg>78.</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">C.R.T.</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; font-style: italic; ">pro Treasurer.</seg>
             </p>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
+               xml:lang="en">______________</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg rend="DefaultParagraphFont">______________</seg>
-            </p>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">
                   <space dim="horizontal" extent="tab"/>
                </seg>
@@ -285,13 +313,13 @@
                   <space dim="horizontal" extent="tab"/>, do solemnly declare that the said Run has been stocked, and continues to be stocked to the extent required by clause 2 of the Regulations under "The Northern Territory Land Act, 1876."</seg>
             </p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">(Signature) __________________</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">Declared before me at<space unit="chars" quantity="1"/>
                </seg>
@@ -321,7 +349,7 @@
                   <space unit="chars" quantity="2"/>.</seg>
             </p>
             <p rend="letter"
-               style="hyphenate: false; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">(Signature) _______________</seg>
                <seg rend="DefaultParagraphFont">
@@ -333,48 +361,51 @@
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">Nr. the Mouth of the Roper River</p>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
                <seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn3" n="4">
-                     <p rend="Footnote"
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>
                         <seg rend="DefaultParagraphFont" style="color: #000000; font-size: 11pt; ">Image courtesy of the National Archives of Australia.<space unit="chars" quantity="1"/>
-                        </seg>78-01-30_image01.jpg</p>
-                     <p rend="Footnote"
+                        </seg>78-01-30_image01.jpg<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>In the original sketch the vertical lines are approximately 7 cm (slightly less than 3 in) long. Given the dimensions marked on it, the sketch therefore does not conform to the instruction concerning the scale to be used.</p>
-                     <space dim="vertical" unit="lines" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>In the original sketch the vertical lines are<space unit="chars" quantity="1"/>approximately 7<space unit="chars" quantity="1"/>cm<space unit="chars" quantity="1"/>(slightly less than<space unit="chars" quantity="1"/>3 in)<space unit="chars" quantity="1"/>long.<space unit="chars" quantity="1"/>Given the dimensions<space unit="chars" quantity="1"/>marked on it, the sketch therefore does not conform to the instruction concerning the scale to be used.</p>
                   </note>
                </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="hyphenate: false; text-align: center; "
+               style="font-size: 12pt; hyphenate: false; text-align: center; "
                xml:lang="en">
                <seg rend="formtext" style="color: #2F5496; ">SCALE:— Four miles to one inch</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="letter" style="hyphenate: false; " xml:lang="en">I<space unit="chars" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">I<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">accept the above diagram as</seg>
                <space unit="chars" quantity="1"/>my<space unit="chars" quantity="1"/>
                <seg rend="formtext" style="color: #2F5496; ">act and deed.</seg>
             </p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">F. J. H. von Mueller</p>
             <p rend="valediction"
-               style="margin-left: 1.75in; hyphenate: false; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>by his agent F Krichauff</p>
+               <space dim="horizontal" extent="tab"/>by his agent F Krichauff<space unit="chars" quantity="1"/>
+            </p>
          </div>
       </body>
    </text>

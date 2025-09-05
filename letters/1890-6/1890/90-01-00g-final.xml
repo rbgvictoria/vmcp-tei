@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1890-6/1890/90-01-00g-proofed.doc</idno>
+            <idno type="filename">data/letters/1890-6/1890/90-01-00g-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1890-6/1890/90-01-00g-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1890/90-01-00g-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -52,7 +52,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -130,7 +130,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>He did not suggest a teacher.<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>M<space unit="chars" quantity="1"/>did not suggest a teacher.<space unit="chars" quantity="1"/>
                      </p>
                   </note>
                </seg>
@@ -152,22 +152,35 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Probably one or more of the three fascicles of '<seg rend="DefaultParagraphFont" style="">Educational collections of Australian plants' issued by M in the 1870s (see Lucas, Maroske &amp; Brown-May (2006); Maroske (2007)) although these were not issued by the Education Department. 'Two of the fascicles [were] <space unit="chars" quantity="1"/>still amply available' a year earlier, M to T. Wilson, 19 January 1889.</seg>
+                        <space dim="horizontal" extent="tab"/>Probably one or more of the three fascicles of '<seg rend="DefaultParagraphFont" style="">Educational collections of Australian plants' issued by M in the 1870s (see Lucas, Maroske &amp; Brown-May (2006)</seg>
+                        <seg rend="DefaultParagraphFont" style="">, and</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>Maroske (2007))</seg>
+                        <seg rend="DefaultParagraphFont" style="">,</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>although these were not issued by the Education Department. 'Two of the fascicles [were] still amply available' a year earlier</seg>
+                        <seg rend="DefaultParagraphFont" style="">;</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>M to T. Wilson, 19 January 1889.</seg>
                      </p>
                   </note>
                </seg>
-               <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>The committee were much pleased with Sir Frederick</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">The committee were much pleased with Sir Frederick</seg>
                <seg rend="FootnoteReference" style="font-size: 8pt; ">
                   <note type="footnote" xml:id="_ftn5" n="6">
                      <p rend="FootnoteText"
                         style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>An error by the journalist or typesetter?</p>
+                        <space dim="horizontal" extent="tab"/>Error by the journalist or typesetter?</p>
                   </note>
                </seg>
-               <seg rend="DefaultParagraphFont" style="">
-                  <space unit="chars" quantity="1"/>Von Mueller's courtesy.]</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">Von Mueller's courtesy.]</seg>
             </p>
          </div>
       </body>
