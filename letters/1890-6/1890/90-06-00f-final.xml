@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The  ¶ Cyatheas ¶  of which you sent specimens cannot be named with certainty, because the fronds have no fruit on them. As you say, it belongs to the series of  ¶ Cyathea Medullaris ¶ , but the stem ...</title>
+            <title> ¶ The ¶ Cyath ¶ ea ¶ s ¶ of which ¶  ¶ you sent specimens cannot be named with ¶  ¶ certainty, because the fronds have no fruit ¶  ¶ on them. As you say, it belongs to ¶  ¶ the series of ¶ Cyathea Me...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>The  ¶ Cyatheas ¶  of which you sent specimens cannot be named with certainty, because the fronds have no fruit on them. As you say, it belongs to the series of  ¶ Cyathea Medullaris ¶ , but the stem ...</title>
+               <title> ¶ The ¶ Cyath ¶ ea ¶ s ¶ of which ¶  ¶ you sent specimens cannot be named with ¶  ¶ certainty, because the fronds have no fruit ¶  ¶ on them. As you say, it belongs to ¶  ¶ the series of ¶ Cyathea Me...</title>
                <date when="1890-06">1890-06</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,14 +54,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Cyathea Cunninghami</term>
-               <term>Cyathea Medullaris</term>
-               <term>Cyathea Affinis</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -75,8 +61,9 @@
                <term>number</term>
                <term>correspondent</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -96,78 +83,161 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">The  ¶ Cyatheas ¶  of which you sent specimens cannot be named with certainty, because the fronds have no fruit on them. As you say, it belongs to the series of  ¶ Cyathea Medullaris ¶ , but the stem ...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ The ¶ Cyath ¶ ea ¶ s ¶ of which ¶  ¶ you sent specimens cannot be named with ¶  ¶ certainty, because the fronds have no fruit ¶  ¶ on them. As you say, it belongs to ¶  ¶ the series of ¶ Cyathea Me...</supplied>
             </head>
             <p rend="number" xml:lang="en">90.06.00f</p>
-            <p rend="correspondent" xml:lang="en">
-               <seg style="">To William McGowan</seg>
-               <seg style=""/>
-            </p>
+            <p rend="correspondent" xml:lang="en">To William McGowan</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Rare Tasmanian fern', </seg>
-                     <seg style="font-style: italic; ">Launceston examiner </seg>
-                     <seg style="">(Tas), 14 June 1890, p. 1 (B90.06.07). It is introduced by </seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from 'Rare Tasmanian fern',<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Launceston e</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">xaminer<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="">(Tas), 14 June 1890, p. 1 (B90.06.07). It is introduced by<space unit="chars" quantity="1"/>
+                     </seg>
                   </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.5in; margin-right: 0in; text-indent: 0in; "
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0.5in; text-indent: 0in; "
+                     xml:lang="en">The Superintendent of our City Reserves, Mr W. M'Gowan, recently forwarded to<space unit="chars" quantity="1"/>Baron Ferdinand Von Mueller, K.C.M.G.,<space unit="chars" quantity="1"/>F.R.S., who is resident in Melbourne, leaves and portions of the stem of the<space unit="chars" quantity="1"/>specimens of<space unit="chars" quantity="1"/>the rare<space unit="chars" quantity="1"/>Tasmanian fern recently received from Mr G. Anderson, of<space unit="chars" quantity="1"/>Circular Head, for identification. By yesterday's mail Mr M'Gowan received the<space unit="chars" quantity="1"/>following reply:--.</p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0.3333in; text-indent: 0in; "
+                     xml:lang="en">The item is dated to June 1890 on the basis of its arrival in Launceston on 13 June.</p>
+                  <p rend="FootnoteText"
+                     style="font-size: 9pt; hyphenate: false; margin-left: 0.3333in; text-indent: 0in; "
                      xml:lang="en">
-                     <seg style="">The Superintendent of our City Reserves, Mr W. M'Gowan, recently forwarded to Baron Ferdinand Von Mueller, K.C.M.G., F.R.S., who is resident in Melbourne, leaves and portions of the stem of the specimens of the rare Tasmanian fern recently received from Mr G. Anderson, of Circular Head, for identification. By yesterday's mail Mr M'Gowan received the following reply:--.</seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg style="">The item is dated to June 1890 on the basis of its arrival in Launceston on 13 June. </seg>
-                  </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.3335in; margin-right: 0in; text-indent: 0in; "
-                     xml:lang="en">
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>The identity of the fern was discussed in earlier articles, for example, 'A rare Tasmanian Fern', </seg>
-                     <seg style="font-style: italic; ">Tasmanian</seg>
-                     <seg style=""> (Launceston), 7 June 1890, p. 11.</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space dim="horizontal" extent="tab"/>The identity of the fern was discussed in earlier articles, for example, 'A rare Tasmanian Fern',<space unit="chars" quantity="1"/>
+                     </seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Tasmanian</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>(Launceston), 7 June 1890, p. 11.</seg>
                   </p>
                </note>
-               <seg style="">
-                  <space dim="horizontal" extent="tab"/>The </seg>
-               <seg style="font-style: italic; ">Cyatheas</seg>
-               <seg style=""> of which you sent specimens cannot be named with certainty, because the fronds have no fruit on them. As you say, it belongs to the series of </seg>
-               <seg style="font-style: italic; ">
-                  <name key="Cyathea%20Medullaris">Cyathea Medullaris</name>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space dim="horizontal" extent="tab"/>
                </seg>
-               <seg style="">, but the stem is more slender, and it differs in some other particulars. I had of this fern tree specimens from the far south of Tasmania many years ago, which were doubtfully referred to </seg>
-               <seg style="font-style: italic; ">
-                  <name key="Cyathea%20Affinis">Cyathea Affinis</name>
+               <seg rend="DefaultParagraphFont" style="">The<space unit="chars" quantity="1"/>
                </seg>
-               <seg style=""> (Swartz), but I believe the Tasmanian species is nearer to </seg>
-               <seg style="font-style: italic; ">
-                  <name key="Cyathea%20Cunninghami">Cyathea Cunninghami</name>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cyath</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">ea</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>of which</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
                </seg>
-               <seg style=""> of New Zealand. The whole group, of which </seg>
-               <seg style="font-style: italic; ">
-                  <name key="Cyathea%20Medullaris">Cyathea Medullaris</name>
+               <seg rend="DefaultParagraphFont" style="">you sent specimens cannot be named with</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
                </seg>
-               <seg style=""> is the leading species, ought to be elaborated anew, with comparisons also of the stems. If you have a fruit specimen to spare kindly send it to me; I should like also one of the photographs. I will then afford you fuller information.</seg>
+               <seg rend="DefaultParagraphFont" style="">certainty, because the fronds have no fruit</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">on them. As you say, it belongs to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">the series of<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cyathea Medullaris</seg>
+               <seg rend="DefaultParagraphFont" style="">,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">but the stem is more slender, and</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">it differs in some other particulars. I had</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">of this fern tree specimens from the far</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">south of Tasmania many years ago, which</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">were doubtfully referred to<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cyathe</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">a</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                  <space unit="chars" quantity="1"/>A</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">ffini</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">s</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">(Swartz), but I believe the Tasmanian</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">species is nearer to<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">C</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">y</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">athea Cunninghami</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>of</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">New Zealand. The whole group, of which</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Cyathea<space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">M</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">ed</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">u</seg>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">llaris</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>is the leading species,</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">ought to be elaborated anew, with comparisons also of the ste</seg>
+               <seg rend="DefaultParagraphFont" style="">m</seg>
+               <seg rend="DefaultParagraphFont" style="">s. If you have a</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">fruit specimen to spare kindly send it to</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="">me</seg>
+               <seg rend="DefaultParagraphFont" style="">;</seg>
+               <seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>I should like also one of the photographs. I will then afford you fuller information.</seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cyathea%20Affinis">Cyathea Affinis</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cyathea%20Cunninghami">Cyathea Cunninghami</name>
-            </p>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Cyathea%20Medullaris">Cyathea Medullaris</name>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cyathea Affinis</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Cyathea Cunninghami</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="">Cyathea Medullaris</seg>
             </p>
          </div>
       </body>
