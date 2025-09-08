@@ -1,0 +1,130 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Changed […] to [unidentified] as XTF does not allow searches including "[" ¶  ¶ With reference to the despatches of the Secretary of State, on the subject of the North Australian Expedition, which you...</title>
+            <author>[unidentified]</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/mentions/1850-9/55-07-17[…]-agregory.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>MS Q424 inward correspondence, A. C. Gregory papers, Dixson Library, State Library of New South Wales, Sydney.</msName>
+                  <altIdentifier>
+                     <idno>55.07.17</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>[unidentified]</author>
+               <title>Changed […] to [unidentified] as XTF does not allow searches including "[" ¶  ¶ With reference to the despatches of the Secretary of State, on the subject of the North Australian Expedition, which you...</title>
+               <date when="1855-07-17">1855-07-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/mentions/1850-9/55-07-17[…]-agregory.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>not final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>Progressnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+               <term>number</term>
+               <term>FootnoteReference</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Augustus Gregory</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">Changed […] to [unidentified] as XTF does not allow searches including "[" ¶  ¶ With reference to the despatches of the Secretary of State, on the subject of the North Australian Expedition, which you...</supplied>
+            </head>
+            <p rend="Progressnote"
+               style="font-size: 12pt; text-align: end; margin-bottom: 0.0416in; margin-left: -0.8861in; text-indent: 0.8861in; color: #C00000; hyphenate: false; break-before: page; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Transcribed 4.1.93. To proof read at Mitchell.</seg>
+                  </p>
+               </note>Changed […] to [unidentified] as XTF does not allow searches including "["</p>
+            <p rend="number" xml:lang="en">55.07.17<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <p rend="correspondent" xml:lang="en">From [unidentified] to Augustus Gregory</p>
+            <p rend="location" xml:lang="en">MS Q424 inward correspondence, A. C. Gregory papers, Dixson Library, State Library of New South Wales, Sydney.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>With reference to the despatches of the Secretary of State, on the subject of the North Australian Expedition, which you have perused, I am directed by His Excellency the Governor-General to inform you, that the following are the Scientific Gentlemen who have been appointed to the Expedition and who have arrived in the Colony.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M is not listed here.</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>[...]</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>3. Dr Mueller, the Government Botanist at Melbourne, with the permission of the Government of Victoria, will join the expedition as Botanist, instead of Mr Drummond, and with the same pay and allowances as the other officers.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
