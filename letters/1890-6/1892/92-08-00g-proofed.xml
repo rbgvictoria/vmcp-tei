@@ -63,6 +63,7 @@
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -73,7 +74,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Town Clerk, Horsham</name>
+               <name>Duncan McArthur</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -85,7 +86,7 @@
                <supplied reason="XTF-compatibility">[ ¶ The Town Clerk has received for use in ¶  ¶ the Botanical Gardens fortytwo varieties of ¶  ¶ flower seeds from Baron von Mueller, of ¶  ¶ the Phytologic Museum, Melbourne. The ¶  ¶ gift was not th...</supplied>
             </head>
             <p rend="number" xml:lang="en">92.08.00g</p>
-            <p rend="correspondent" xml:lang="en">To Town Clerk, Horsham</p>
+            <p rend="correspondent" xml:lang="en">To Duncan<space unit="chars" quantity="1"/>McArthur</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -102,7 +103,10 @@
                      <seg rend="DefaultParagraphFont" style="font-style: italic; ">Horsham times</seg>
                      <seg rend="DefaultParagraphFont" style="">, 16 August</seg>
                      <seg rend="DefaultParagraphFont" style="">
-                        <space unit="chars" quantity="1"/>1892, p. [2]. col. g.</seg>
+                        <space unit="chars" quantity="1"/>1892, p. [2]</seg>
+                     <seg rend="DefaultParagraphFont" style="">,</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>col. g.</seg>
                   </p>
                </note>
                <seg rend="DefaultParagraphFont" style="">
@@ -129,6 +133,16 @@
                </seg>
                <seg rend="DefaultParagraphFont" style="">quite unexpected.</seg>
                <seg rend="DefaultParagraphFont" style="">]</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Similar supplies were made to<space unit="chars" quantity="1"/>Warrnambool (M to H. MacDonald, August 1892 (in this edition as 92-08-00a),<space unit="chars" quantity="1"/>
+                        <space unit="chars" quantity="1"/>Colac (M to Mr. McDonald, August 1892 (in this edition as 82-08-00i), Portland (M to Curator of the Gardens, August 1892 (in this edition as 92-08-00j), and<space unit="chars" quantity="1"/>Bendigo (M to S. Gadd, August 1892 (in this edition as 92-08-00k).<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
