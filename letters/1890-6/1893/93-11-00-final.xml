@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ This miserable grass is called Bromus Sterilis (Linne). Bromus means wild oats, and it is a native of most parts of Europe, Western Asia, and Northern Africa; and, unfortunately, naturalised in man...</title>
+            <title>Letter notfound. The text given here is fromWarrnambool standard, 9 November 1893, p. 2. It is introduced by: 'The following communication has been received by veterinary-surgeon Desmond from Baron vo...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -27,7 +27,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ This miserable grass is called Bromus Sterilis (Linne). Bromus means wild oats, and it is a native of most parts of Europe, Western Asia, and Northern Africa; and, unfortunately, naturalised in man...</title>
+               <title>Letter notfound. The text given here is fromWarrnambool standard, 9 November 1893, p. 2. It is introduced by: 'The following communication has been received by veterinary-surgeon Desmond from Baron vo...</title>
                <date when="1893-11">1893-11</date>
             </bibl>
          </sourceDesc>
@@ -37,12 +37,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -60,21 +54,18 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term ref="https://vicflora.rbg.vic.gov.au/flora/taxon/f9e0397f-8da0-4472-89c6-9fe344ac5c66">Bromus sterilis</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
                <term>correspondent</term>
+               <term>space</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>letter</term>
-               <term>Footnote</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -94,37 +85,51 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ This miserable grass is called Bromus Sterilis (Linne). Bromus means wild oats, and it is a native of most parts of Europe, Western Asia, and Northern Africa; and, unfortunately, naturalised in man...</supplied>
+               <supplied reason="XTF-compatibility">Letter notfound. The text given here is fromWarrnambool standard, 9 November 1893, p. 2. It is introduced by: 'The following communication has been received by veterinary-surgeon Desmond from Baron vo...</supplied>
             </head>
             <p rend="number" xml:lang="en">93.11.00</p>
             <p rend="correspondent" xml:lang="en">To John Desmond</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="space"
+               style="text-align: center; font-size: 9pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not<space unit="chars" quantity="1"/>found. The text given here is from<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Warrnambool standard</seg>, 9 November 1893, p. 2. It is introduced by: 'The following communication has been received by veterinary-surgeon Desmond from Baron von Mueller, the Government botanist, with reference to the grass called in this district wild barley or wild oats:—'.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. The text given here is from <seg style="font-style: italic; ">Warrnambool standard</seg>, 9 November 1893, p. 2. It is introduced by: 'The following communication has been received by veterinary-surgeon Desmond from Baron von Mueller, the Government botanist, with reference to the grass called in this district wild barley or wild oats:—'. </p>
-               </note>
-               <space dim="horizontal" extent="tab"/>This miserable grass is called Bromus Sterilis (Linne). Bromus means wild oats, and it is a native of most parts of Europe, Western Asia, and Northern Africa; and, unfortunately, naturalised in many parts of Australia. Fortunately, it is an annual only, that is to say here in a winter-less climate, flowering only once from the same root under ordinary circumstances; so that by preventing it through timely cutting from forming seeds, this grass can be eradicated. It was some years ago actually recommended by one of our public institutions as a most valuable pasture-grass, a dictum which I promptly opposed.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>See M to G. Berry, 24 October 1883. The recommendation that M opposed came from William Guilfoyle.</p>
-               </note> [When veterinary-surgeon Desmond explained to Baron von Mueller the mischief this grass caused in stock in this district the Baron replied — ]<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>The editorial text enclosed in brackets suggests that there were two letters from M included in the one report, although the introduction implies ony one.</p>
-               </note> It is easily understood what trouble such a grass would give in cases such as you mention, more particularly so as the cause is not always found out at the time the animals are first affected. The holders of sheep-runs on the Murray river and in other localities found the awnes (the beard of the grass) of this bromus not only getting into the wool of their flocks, but actually piercing the skin of the animals. When this grass is pulled or cut, best while in an early flowering stage, the uprooted plants or the cut portions should at once be burned, because if left on the ground some of the seeds may ripen.</p>
+               <space dim="horizontal" extent="tab"/>This miserable grass is called Bromus Sterilis (Linne). Bromus means wild oats, and it is a native of most<space unit="chars" quantity="1"/>parts of Europe, Western Asia, and Northern Africa; and, unfortunately, naturalised in many parts of Australia. Fortunately, it is an annual only, that is to say here in a winter-less climate, flowering only once from the same root under ordinary circumstances; so that by preventing it through timely cutting from forming seeds, this grass can be eradicated. It was some years ago actually recommended by one of our public institutions as a most valuable pasture-grass, a dictum which I promptly opposed.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>See M to G. Berry,<space unit="chars" quantity="1"/>24 October 1883.<space unit="chars" quantity="1"/>The recommendation that M opposed came from William Guilfoyle.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>[When veterinary-surgeon Desmond explained to Baron von Mueller the mischief this grass caused in stock in this district the Baron replied —<space unit="chars" quantity="1"/>]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The text enclosed in brackets, inserted by the newspaper's editors and placed in brackets here as not part of M's text,<space unit="chars" quantity="1"/>suggests that there<space unit="chars" quantity="1"/>may have been<space unit="chars" quantity="1"/>two letters from M included in the one report, although the introduction implies ony one.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>It is easily understood what trouble such a grass would give in cases such as you mention, more particularly so as the cause is not always found out at the time the animals are first<space unit="chars" quantity="1"/>affected. The holders of sheep-runs on the Murray river and in<space unit="chars" quantity="1"/>other localities found the<space unit="chars" quantity="1"/>awnes<space unit="chars" quantity="1"/>(the beard of the grass) of this bromus not only getting into the wool of their flocks, but actually piercing the skin of the animals. When this grass is pulled or cut, best while in an early flowering stage, the uprooted plants or the cut portions should at once be burned, because if left on the ground some of the seeds may ripen.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Bromus%20sterilis">Bromus sterilis</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Bromus sterilis</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
