@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [ ¶ From Govt Botanist ¶  forwarding Botanical name of local Thistle viz "carduus lanceolatus".]...</title>
+            <title> ¶ [ ¶ From Govt Botanist ¶  ¶ forwarding Botanical name of local Thistle viz "carduus lanceolatus".] ¶ M's letter was tabled atameetingof the Portland Municipal Council on10 February 1885,and it is d...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [ ¶ From Govt Botanist ¶  forwarding Botanical name of local Thistle viz "carduus lanceolatus".]...</title>
+               <title> ¶ [ ¶ From Govt Botanist ¶  ¶ forwarding Botanical name of local Thistle viz "carduus lanceolatus".] ¶ M's letter was tabled atameetingof the Portland Municipal Council on10 February 1885,and it is d...</title>
                <date when="1885-02">1885-02</date>
             </bibl>
          </sourceDesc>
@@ -38,12 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
-            <taxonomy xml:id="plant-names">
-               <bibl>plant names</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -61,12 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
-            <keywords scheme="#plant-names">
-               <term>Carduus lanceolatus</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -74,10 +62,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
-               <term>plant names</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -88,7 +78,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>the Town Clerk, Portland Municipal Council</name>
+               <name>Edward Gribble</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -97,35 +87,40 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [ ¶ From Govt Botanist ¶  forwarding Botanical name of local Thistle viz "carduus lanceolatus".]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [ ¶ From Govt Botanist ¶  ¶ forwarding Botanical name of local Thistle viz "carduus lanceolatus".] ¶ M's letter was tabled atameetingof the Portland Municipal Council on10 February 1885,and it is d...</supplied>
             </head>
             <p rend="number" xml:lang="en">85.02.00</p>
-            <p rend="correspondent" xml:lang="en">To the Town Clerk, Portland Municipal Council</p>
-            <p rend="location" xml:lang="en">Minute book 1881-5, p. 439, Portland Municipal District records, Portland, Victoria.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Edward Gribble<space unit="chars" quantity="1"/>
+            </p>
+            <p rend="location" xml:lang="en">Minute book 1881-5, p. 439, Portland Municipal District records, Portland, Victoria.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[<seg style="">
+               <space dim="horizontal" extent="tab"/>[<seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">From Govt Botanist</hi>
-               </seg> forwarding Botanical name of local Thistle viz "carduus lanceolatus".]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M's letter was tabled at a meeting of the Portland Municipal Council on 10 February 1885, and it is dated accordingly.</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>forwarding Botanical name of local Thistle viz "carduus lanceolatus".]<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M's letter was tabled at<space unit="chars" quantity="1"/>a<space unit="chars" quantity="1"/>meeting<space unit="chars" quantity="1"/>of the Portland Municipal Council on<space unit="chars" quantity="1"/>10 February 1885,<space unit="chars" quantity="1"/>and it is dated accordingly.<space unit="chars" quantity="1"/>Edward W. V. Gribble was the Town Clerk.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <space dim="vertical" unit="lines" quantity="1"/>
-            <p rend="plant%20names" xml:lang="en">
-               <name key="Carduus%20lanceolatus">Carduus lanceolatus</name>
-            </p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Carduus lanceolatus</p>
          </div>
       </body>
    </text>

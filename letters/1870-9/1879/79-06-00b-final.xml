@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ¶ [From Dr Mueller re suitable trees for planting facing the sea.]...</title>
+            <title> ¶ [From Dr Mueller re suitable trees for planting facing the sea.] ¶ The Town Clerk, Edwin Atkinson,was directed 'to enquire the price of Dr Muellers work stating that it is required for the Gardens'...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title> ¶ [From Dr Mueller re suitable trees for planting facing the sea.]...</title>
+               <title> ¶ [From Dr Mueller re suitable trees for planting facing the sea.] ¶ The Town Clerk, Edwin Atkinson,was directed 'to enquire the price of Dr Muellers work stating that it is required for the Gardens'...</title>
                <date when="1879-06">1879-06</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -80,7 +76,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>[Portland Municipal Council]</name>
+               <name>Edwin Atkinson</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -89,26 +85,32 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility"> ¶ [From Dr Mueller re suitable trees for planting facing the sea.]...</supplied>
+               <supplied reason="XTF-compatibility"> ¶ [From Dr Mueller re suitable trees for planting facing the sea.] ¶ The Town Clerk, Edwin Atkinson,was directed 'to enquire the price of Dr Muellers work stating that it is required for the Gardens'...</supplied>
             </head>
             <p rend="number" xml:lang="en">79.06.00b</p>
-            <p rend="correspondent" xml:lang="en">To [Portland Municipal Council]</p>
-            <p rend="location" xml:lang="en">Minute book 1874-81, p. 389, Portland Municipal District, Victoria.</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Edwin Atkinson</p>
+            <p rend="location" xml:lang="en">Minute book 1874-81, p. 389, Portland Municipal District, Victoria.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found; item is part of the minutes of the meeting of the Portland Municipal Council held on 23 June 1879, recording the tabling of letters received.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is part of the minutes of the meeting of the Portland Municipal Council held on 23 June 1879, recording the tabling of letters received.</p>
                </note>
-               <space dim="horizontal" extent="tab"/>[From Dr Mueller re suitable trees for planting facing the sea.]<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The Town Clerk was directed 'to enquire the price of Dr Muellers work stating that it is required for the Gardens'. Letter not found.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>[From Dr Mueller re suitable trees for planting facing the sea.]<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The Town Clerk, Edwin Atkinson,<space unit="chars" quantity="1"/>was directed 'to enquire the price of Dr Muellers work stating that it is required for the Gardens'. Letter not found.<space unit="chars" quantity="1"/>The report of the meeting in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Portland guardian</seg>, 24 June 1879, p [2], does not mention M's 'work', but was probably B76.12.04.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
