@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1869/69-05-22-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1869/69-05-22-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-05-22-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1869/69-05-22-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -65,11 +65,12 @@
                <term>letter</term>
                <term>FootnoteReference</term>
                <term>FootnoteText</term>
-               <term>DefaultParagraphFont</term>
                <term>rynqvb</term>
+               <term>DefaultParagraphFont</term>
                <term>HTMLCite</term>
                <term>underline</term>
                <term>valediction</term>
+               <term>plantnames</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -109,15 +110,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>The archive catalogue of the Museo<space unit="chars" quantity="1"/>Galileo, Florence,<space unit="chars" quantity="1"/>for item<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="">'Arrivo al Museo, tramite il Ministero degli esteri, di semi inviati dal console generale italiano a Melbourne …' (Carteggio della Direzione, ottobre 1864 - luglio 1869 aff. 100; c. 238 m)<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The archive catalogue of the Museo<space unit="chars" quantity="1"/>Galileo, Florence,<space unit="chars" quantity="1"/>for item 'Arrivo al Museo, tramite il Ministero degli esteri, di semi inviati dal console generale italiano a Melbourne …' (Carteggio della Direzione, ottobre 1864 - luglio 1869<space unit="chars" quantity="1"/>aff. 100; c. 238 m) [<seg rend="rynqvb" style="">Arrival at the Museum, via the Ministry of Foreign Affairs, of seeds sent by the Italian Consul General in Melbourne …]<space unit="chars" quantity="1"/>
                         </seg>
-                        <seg rend="DefaultParagraphFont" style="">[</seg>
-                        <seg rend="rynqvb" style="">Arrival at the Museum, via the Ministry of Foreign Affairs, of seeds sent by the Italian Consul General in Melbourne …]<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="rynqvb" style="">(</seg>
-                        <seg rend="DefaultParagraphFont" style="">date range 27 October – 11 November 1868),<space unit="chars" quantity="1"/>
-                        </seg>
+                        <seg rend="rynqvb" style="">(</seg>date range 27 October – 11 November 1868),<space unit="chars" quantity="1"/>
                         <seg rend="rynqvb" style="">includes<space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="rynqvb" style="">in the scope note<space unit="chars" quantity="1"/>
@@ -125,9 +120,7 @@
                         <seg rend="rynqvb" style="">the comment</seg>
                         <seg rend="rynqvb" style="">,</seg>
                         <seg rend="rynqvb" style="">
-                           <space unit="chars" quantity="1"/>'</seg>
-                        <seg rend="DefaultParagraphFont" style="">Ricerca presso i corrispondenti del Museo di semi chiesti dal direttore del Giardino botanico di Melbourne, al quale, appena disponibili, verranno inviati, anche per contraccambiare i numerosi doni con cui ha arricchito le collezioni del Museo.<space unit="chars" quantity="1"/>
-                        </seg>[<seg rend="rynqvb" style="">A search was conducted among the Museum's correspondents for seeds requested by the director of the Melbourne Botanical Garden, to whom they would be sent as soon as they became available]. This consignment<space unit="chars" quantity="1"/>
+                           <space unit="chars" quantity="1"/>'</seg>Ricerca presso i corrispondenti del Museo di semi chiesti dal direttore del Giardino botanico di Melbourne, al quale, appena disponibili, verranno inviati, anche per contraccambiare i numerosi doni con cui ha arricchito le collezioni del Museo. [<seg rend="rynqvb" style="">A search was conducted among the Museum's correspondents for seeds requested by the director of the Melbourne Botanical Garden, to whom they would be sent as soon as they became available]. This consignment<space unit="chars" quantity="1"/>
                         </seg>
                         <seg rend="rynqvb" style="">is probably a result of that search.</seg>
                      </p>
@@ -198,6 +191,16 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">If any thing of plants, seeds, books &amp;c is needed from here I will gladly forward it, when ever I learn your wishes.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Pistacia vera</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Todea Africana</p>
+            <p rend="plantnames"
+               style="font-style: italic; font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Todea<space unit="chars" quantity="1"/>rivularis</p>
          </div>
       </body>
    </text>
