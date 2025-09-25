@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lee Lodge, ¶ Strangeways Terrace, W.A. ¶ SA? Chalmers, originally booked on RMSOrienttoSydney, left the vessel when it arrived in Adelaide on3August, and intended to remain a few days before travellin...</title>
+            <title>Lee Lodge, ¶ Strangeways Terrace, W.A ¶ . ¶ North Adelaide?Chalmers, originally booked on RMSOrientto Sydney, left the vessel when it arrived in Adelaide on 3 August, and intended to remain a few days...</title>
             <author>James Chalmers</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1887/87-08-04-proofed.doc</idno>
+            <idno type="filename">data/letters/1880-9/1887/87-08-04-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,13 +28,13 @@
             </msDesc>
             <bibl>
                <author>James Chalmers</author>
-               <title>Lee Lodge, ¶ Strangeways Terrace, W.A. ¶ SA? Chalmers, originally booked on RMSOrienttoSydney, left the vessel when it arrived in Adelaide on3August, and intended to remain a few days before travellin...</title>
+               <title>Lee Lodge, ¶ Strangeways Terrace, W.A ¶ . ¶ North Adelaide?Chalmers, originally booked on RMSOrientto Sydney, left the vessel when it arrived in Adelaide on 3 August, and intended to remain a few days...</title>
                <date when="1887-08-04">1887-08-04</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1887/87-08-04-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1887/87-08-04-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -87,7 +87,7 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Lee Lodge, ¶ Strangeways Terrace, W.A. ¶ SA? Chalmers, originally booked on RMSOrienttoSydney, left the vessel when it arrived in Adelaide on3August, and intended to remain a few days before travellin...</supplied>
+               <supplied reason="XTF-compatibility">Lee Lodge, ¶ Strangeways Terrace, W.A ¶ . ¶ North Adelaide?Chalmers, originally booked on RMSOrientto Sydney, left the vessel when it arrived in Adelaide on 3 August, and intended to remain a few days...</supplied>
             </head>
             <p rend="number" xml:lang="en">87.08.04</p>
             <p rend="correspondent" xml:lang="en">From James Chalmers</p>
@@ -108,57 +108,19 @@
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">Strangeways Terrace, W.A.</seg>
-               <seg rend="FootnoteReference"
-                    style="font-variant: small-caps; color: #2F5496; ">
+               <seg rend="formtext" style="color: #2F5496; font-variant: small-caps; ">Strangeways Terrace, W.A</seg>
+               <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">.</seg>
+               <seg rend="FootnoteReference" style="font-variant: small-caps; ">
                   <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>SA? Chalmers, originally booked on RMS<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>North Adelaide?<space unit="chars" quantity="1"/>Chalmers, originally booked on RMS<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Orient<space unit="chars" quantity="1"/>
-                        </seg>to<space unit="chars" quantity="1"/>Sydney, left the vessel when it arrived in Adelaide on<space unit="chars" quantity="1"/>3<space unit="chars" quantity="1"/>August, and intended to remain a few days before travelling by train to Melbourne, where he planned to '<seg rend="DefaultParagraphFont" style="">m</seg>
-                        <seg rend="DefaultParagraphFont" style="">eet the leading members of the Royal Geographical Society of Australasia</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>… a</seg>
-                        <seg rend="DefaultParagraphFont" style="">nd come to a settlement with them with respect to exp</seg>
-                        <seg rend="DefaultParagraphFont" style="">lo</seg>
-                        <seg rend="DefaultParagraphFont" style="">rations he may<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="">ma</seg>
-                        <seg rend="DefaultParagraphFont" style="">ke under the auspices of the So</seg>
-                        <seg rend="DefaultParagraphFont" style="">ciety'<space unit="chars" quantity="1"/>
-                        </seg>((<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'The Rev James Chalmers in Adelaide'</seg>
-                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">,</seg>
+                        </seg>to Sydney, left the vessel when it arrived in Adelaide on 3 August, and intended to remain a few days before travelling by train to Melbourne, where he planned to '<seg rend="DefaultParagraphFont" style="">meet the leading members of the Royal Geographical Society of Australasia … and come to a settlement with them with respect to explorations he may make under the auspices of the Society'<space unit="chars" quantity="1"/>
+                        </seg>((<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'The Rev James Chalmers in Adelaide',</seg>
                         <space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">South Australian register</seg>, 4 August, p. 5).<space unit="chars" quantity="1"/>While in Adelaide he lectured at a meeting of the SA Branch of the Society on 9 August (<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'Lecture on New Guinea'</seg>,<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">South Australian register</seg>, 10 August, <space unit="chars" quantity="1"/>p. 5).<space unit="chars" quantity="1"/>He<space unit="chars" quantity="1"/>arrived in Melbourne on 13 August<space unit="chars" quantity="1"/>(<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'NEW GUINEA AND ITS PROSPECTS. the rev. james chalmer's views</seg>.',<space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 15 August, 1887, p. 7)<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>met the Council of the Society at its meeting on 15 August (<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'royal geographical society'</seg>
-                        <space unit="chars" quantity="1"/>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
-                        <space unit="chars" quantity="1"/>(Melbourne). 20 August, 1867, p. 15).<space unit="chars" quantity="1"/>However, at a lecture by Chalmers at the<space unit="chars" quantity="1"/>Collins Street Independent Church on 23 August, M is reported to have '<seg rend="DefaultParagraphFont" style="">exp</seg>
-                        <seg rend="DefaultParagraphFont" style="">ress</seg>
-                        <seg rend="DefaultParagraphFont" style="">ed</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>the regret of the<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="">G</seg>
-                        <seg rend="DefaultParagraphFont" style="">eographical Society, th</seg>
-                        <seg rend="DefaultParagraphFont" style="">at</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>Mr Charmers could not lead their exploring expedition, but Mr</seg>
-                        <seg rend="DefaultParagraphFont" style="">.</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="">Chalmers</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>is before all things a missionary, treading in the steps of Livingstone</seg>
-                        <seg rend="DefaultParagraphFont" style="">' (</seg>
-                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Herald</seg>
-                        <seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>(Melbourne), 24 August 1887. p. 4).</seg>
-                     </p>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">South Australian register</seg>, 4 August, p. 5).</p>
                   </note>
                </seg>
             </p>
@@ -176,12 +138,20 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space unit="chars" quantity="1"/>
                         <space dim="horizontal" extent="tab"/>Telegram not found.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>I would have wired you yesterday on my arrival but I was uncertain as to my movements — Friends here are particularly anxious I should remain until after next Wednesday night &amp; I having arranged for our "Ellengowan" to meet me at Cooktown<seg rend="FootnoteReference" style="">
+               <space unit="chars" quantity="1"/>I would have wired you yesterday on my arrival but I was uncertain as to my movements — Friends here are particularly anxious I should remain until after next Wednesday night<seg rend="FootnoteReference" style="">
                   <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>10 August. While in Adelaide he lectured at a meeting of the SA Branch of the Society on 9 August (<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'Lecture on New Guinea'</seg>,<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">South Australian register</seg>, 10 August, <space unit="chars" quantity="1"/>p. 5).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>&amp; I having arranged for our "Ellengowan" to meet me at Cooktown<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn4" n="5">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -189,7 +159,37 @@
                         <space dim="horizontal" extent="tab"/>Qld.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>on the 10 Sep. I shall have time — It would afford me much pleasure &amp; satisfaction to be present at your Council meeting on Tuesday evening but, on that day I have arranged to meet a number of ministers.</p>
+               <space unit="chars" quantity="1"/>on the 10 Sep. I shall have time — It would afford me much pleasure &amp; satisfaction to be present at your Council meeting on Tuesday evening but, on that day I have arranged to meet a number of ministers.<seg rend="FootnoteReference" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>
+               <seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Chalmers arrived in Melbourne by train on 13 August (<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'NEW GUINEA AND ITS PROSPECTS. the rev. james chalmer's views</seg>.',<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 15 August, 1887, p. 7) and met the Council of the Society at its meeting on 15 August (<seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'royal geographical society'</seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Age</seg>
+                        <space unit="chars" quantity="1"/>(Melbourne),<space unit="chars" quantity="1"/>20 August, 1867, p. 15).<space unit="chars" quantity="1"/>Despite his reported intention to enter into an arrangement with the Council (n. 2 above), at a lecture by Chalmers at the Collins Street Independent Church on 23 August, M is reported to have '<seg rend="DefaultParagraphFont" style="">expressed the regret of the Geographical Society, that Mr Chalmers could not lead their exploring expedition, but Mr. Chalmers is before all things a missionary, treading in the steps of Livingstone' (</seg>
+                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">'</seg>
+                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">c</seg>
+                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">halmers on<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">n</seg>
+                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">ew<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">g</seg>
+                        <seg rend="DefaultParagraphFont" style="font-variant: small-caps; ">uinea'</seg>
+                        <seg rend="DefaultParagraphFont" style="">,<space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Herald</seg>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="1"/>(Melbourne), 24 August 1887. p. 4).</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
@@ -214,7 +214,6 @@
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>James Chalmers</p>
-            <space dim="vertical" unit="lines" quantity="1"/>
          </div>
       </body>
    </text>
