@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne ¶ Baron Von Müeller F.R.G.S. ¶ President Royal Geographical Society ¶  ¶ Have interviewed Minister our contribution to fund will be two thousand ¶ Sd Edward C. Merewether...</title>
+            <title>Melbourne ¶ Baron Von Müeller ¶ sic. ¶  ¶ F.R.G.S. ¶ President Royal Geographical Society ¶  ¶ Have interviewed Minister our contribution to fund will be two thousand ¶ To support Antarctic exploratio...</title>
             <author>Edward Merewether</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1890-6/1891/91-04-13.doc</idno>
+            <idno type="filename">data/letters/1890-6/1891/91-04-13-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,19 +28,16 @@
             </msDesc>
             <bibl>
                <author>Edward Merewether</author>
-               <title>Melbourne ¶ Baron Von Müeller F.R.G.S. ¶ President Royal Geographical Society ¶  ¶ Have interviewed Minister our contribution to fund will be two thousand ¶ Sd Edward C. Merewether...</title>
+               <title>Melbourne ¶ Baron Von Müeller ¶ sic. ¶  ¶ F.R.G.S. ¶ President Royal Geographical Society ¶  ¶ Have interviewed Minister our contribution to fund will be two thousand ¶ To support Antarctic exploratio...</title>
                <date when="1891-04-13">1891-04-13</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1890-6/1891/91-04-13.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1891/91-04-13-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -90,59 +86,71 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne ¶ Baron Von Müeller F.R.G.S. ¶ President Royal Geographical Society ¶  ¶ Have interviewed Minister our contribution to fund will be two thousand ¶ Sd Edward C. Merewether...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne ¶ Baron Von Müeller ¶ sic. ¶  ¶ F.R.G.S. ¶ President Royal Geographical Society ¶  ¶ Have interviewed Minister our contribution to fund will be two thousand ¶ To support Antarctic exploratio...</supplied>
             </head>
             <p rend="number" xml:lang="en">91.04.13</p>
             <p rend="correspondent" xml:lang="en">From Edward Merewether</p>
-            <p rend="location" xml:lang="en">ML MSS.853/1 letter press copy book, no. 255, Royal Geographical Society of Australasia (NSW Branch) papers, Mitchell Library, State Library of New South Wales, Sydney.</p>
+            <p rend="location" xml:lang="en">ML MSS.853/1 letter press copy book, no. 255, Royal Geographical Society of Australasia (NSW Branch) papers, Mitchell Library, State Library of New South Wales, Sydney.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-weight: bold; ">Transcribed 8.6.90. Corrected 22.4.93. To proof.</seg>
-                  </p>
+                     <space dim="horizontal" extent="tab"/>Item is a file copy of<space unit="chars" quantity="1"/>the text of<space unit="chars" quantity="1"/>a tlegram.</p>
                </note>Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">Baron Von Müeller F.R.G.S.</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Baron Von Müeller<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">sic</seg>.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>F.R.G.S.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">President Royal Geographical Society</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Have interviewed Minister our contribution to fund will be two thousand<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to E. Merewether, 13 April 1891.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Have interviewed Minister our contribution to fund will be two thousand<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>To support Antarctic exploration, see M to R Hamilton, April 1891 (in this edition as 91-04-00a).<space unit="chars" quantity="1"/>For M's reply, see M to E. Merewether, 13 April 1891<space unit="chars" quantity="1"/>(in this edition as 91-04-13a).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">Sd Edward C. Merewether</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Royal Geographical Society of Australasia</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>18 Bridge Street</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Sydney</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">13 April 1891</p>
          </div>
       </body>

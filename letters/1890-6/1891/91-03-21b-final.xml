@@ -1,0 +1,123 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>21/3/91. ¶  ¶ Are you aware, dear Dr Bride, that the Iconography of Austral. Salsolaceae has ¶  ¶ advanced to the 6th Decade? Thus far therefore you can effect the distribution, if you wish to do so. ...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1890-6/1891/91-03-21b-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>VPRS 805/P000O/154/91-581, inward and outward correspondence — subject, VA 913 Public Library of Victoria,Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>91.03.21</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title>21/3/91. ¶  ¶ Are you aware, dear Dr Bride, that the Iconography of Austral. Salsolaceae has ¶  ¶ advanced to the 6th Decade? Thus far therefore you can effect the distribution, if you wish to do so. ...</title>
+               <date when="1891-03-21">1891-03-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1890-6/1891/91-03-21b-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>DefaultParagraphFont</term>
+               <term>letter</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>valediction</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Thomas Bride</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility">21/3/91. ¶  ¶ Are you aware, dear Dr Bride, that the Iconography of Austral. Salsolaceae has ¶  ¶ advanced to the 6th Decade? Thus far therefore you can effect the distribution, if you wish to do so. ...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">91.03.21</p>
+            <p rend="correspondent" xml:lang="en">To Thomas Bride</p>
+            <p rend="location" xml:lang="en">VPRS 805/P000O/154/91-581, inward and outward correspondence — subject, VA 913 Public Library of Victoria,<seg rend="DefaultParagraphFont" style="">
+                  <space unit="chars" quantity="1"/>
+               </seg>Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">21/3/91.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Are you aware, dear Dr Bride, that the Iconography of Austral. Salsolaceae has<space unit="chars" quantity="1"/>advanced to the 6th Decade? Thus far therefore you can effect the distribution, if you wish to do so. The drawings for the 7-10th Decade are nearly all done already, but many require yet to be lithographed. Still the whole ought to be ready in the course of this year.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B89.13.04 (Decades 1 - 2) and B90.13.14 (Decades 3 - 6) were already in print. Decades 7 - 9 were published later in 1891 (B91.13.24), but no tenth Decade was never issued.</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">Regardfully your</p>
+            <p rend="valediction"
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Ferd. von Mueller</p>
+         </div>
+      </body>
+   </text>
+</TEI>
