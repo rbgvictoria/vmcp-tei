@@ -15,14 +15,14 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1880/80-01-22a-draft.doc</idno>
+            <idno type="filename">data/letters/1880-9/1880/80-01-22a-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>S80/833</msName>
+                  <msName>No. 833, vol. 1880 S, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
                   <altIdentifier>
-                     <idno>80.01.22</idno>
+                     <idno>80.01.22a</idno>
                   </altIdentifier>
                </msIdentifier>
             </msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1880/80-01-22a-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1880/80-01-22a-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -60,13 +60,11 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
-               <term>DefaultParagraphFont</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
                <term>FootnoteText</term>
-               <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -77,7 +75,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Chief Secretary</name>
+               <name>Graham Berry</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -88,12 +86,9 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ [Quarterly estimate]...</supplied>
             </head>
-            <p rend="number" xml:lang="en">80.01.22<seg rend="FootnoteReference" style=""/>
-            </p>
-            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>
-               <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Chief Secretary</seg>
-            </p>
-            <p rend="location" xml:lang="en">S80/833<seg rend="FootnoteReference" style=""/>
+            <p rend="number" xml:lang="en">80.01.22a</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>Graham Berry</p>
+            <p rend="location" xml:lang="en">No. 833, vol. 1880 S, VPRS 1168/P inward correspondence registers, VA 475 Chief Secretary's Department, Public Record Office, Victoria.<seg rend="FootnoteReference" style=""/>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -104,33 +99,7 @@
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">According to my/Andy’s notes I/he<space unit="chars" quantity="1"/>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
-                        <hi rend="underline">may</hi>
-                     </seg>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
-                        <space unit="chars" quantity="1"/>have found this file but it isn’t listed in hypercard – is it among the p/cs? May need to check PRO. If not there then it needs to be cited as a LNF from VPRS 1168.</seg>
-                  </p>
-                  <space dim="vertical" unit="lines" quantity="1"/>
-                  <p rend="FootnoteText"
-                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
-                     xml:lang="en">I think that this is likely to be 80-01-00, which can then date that item, and this then deleted;<space unit="chars" quantity="1"/>
-                     <space unit="chars" quantity="1"/>
-                  </p>
-                  <p rend="FootnoteText"
-                     style="font-size: 9pt; hyphenate: false; margin-left: 0in; text-indent: 0in; font-weight: bold; color: #C00000; "
-                     xml:lang="en">Doubt is that it is retrospective "estimating", but I suspect that this was more akin to modern management accounting, keeping track period by period of funds committed.</p>
+                     <space dim="horizontal" extent="tab"/>Letter not found; item is a register entry only, of a document dated 22 January 1880.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[Quarterly estimate]</p>
          </div>

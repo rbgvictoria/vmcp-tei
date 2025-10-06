@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1887/87-03-27-proofed.doc</idno>
+            <idno type="filename">data/letters/1880-9/1887/87-03-27-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1887/87-03-27-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1887/87-03-27-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -62,11 +62,12 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
-               <term>letter</term>
                <term>FootnoteReference</term>
+               <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
                <term>underline</term>
+               <term>tei-seg</term>
                <term>valediction</term>
                <term>plantnames</term>
             </keywords>
@@ -92,11 +93,18 @@
             </head>
             <p rend="number" xml:lang="en">87.03.27</p>
             <p rend="correspondent" xml:lang="en">To Henrietta Wehl</p>
-            <p rend="location" xml:lang="en">No. 440, pp. 159-60, MS 1946 Charles Daley papers, National Library of Australia, Canberra.</p>
+            <p rend="location" xml:lang="en">No. 440, pp. 159-60, MS 1946 Charles Daley papers, National Library of Australia, Canberra.<seg rend="FootnoteReference" style=""/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
-               xml:lang="en">27/3/87</p>
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>Letter not found. MS is a transcription by Charles Daley included in his draft biography of M.</p>
+               </note>27/3/87</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; "
@@ -106,7 +114,7 @@
                style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>In that locality some other rare plants may occur. If you can send me some Muntries,<seg rend="FootnoteReference" style="">
-                  <note type="footnote" xml:id="_ftn0" n="1">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
@@ -117,15 +125,23 @@
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Kunzea pomifera</seg>.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>when next you gather them I shall feel obliged as I like to send the berries to the Mediterranean Sea where on sandy shores this useful and pretty plant might by sowing the seeds, become naturalized. It was one of the first plants I ever named, as far back as 1848 —<space unit="chars" quantity="1"/>
+               <space unit="chars" quantity="1"/>when next you gather them,<space unit="chars" quantity="1"/>I shall feel obliged as I like to send the berries to the Mediterranean Sea where on sandy shores this useful and pretty plant might by sowing the seeds, become naturalized. It was one of the first plants I ever named, as far back as 1848 —<space unit="chars" quantity="1"/>
                <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Kunzea pomifera</hi>
-               </seg>. I met Professor Kunze of Leipzig in the annual gathering of physicians and naturalists of Germany in 1846. He is long dead,<space unit="chars" quantity="1"/>like many other of my scientific friends. Be sure when the spring season sets in again not to pass the minutest weeds among which may yet be new kinds there. I hope your eldest brother will continue collecting when he passes over the country, as the region about Silverton is almost new for plants.<seg rend="FootnoteReference" style="">
-                  <note type="footnote" xml:id="_ftn1" n="2">
+               </seg>. I met Professor Kunze of Leipzig in the annual gathering of physicians and naturalists of Germany in 1846.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn2" n="3">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Ferdinand Wehl. There are specimens<space unit="chars" quantity="1"/>collected by him in the region of Sillverton and Broken Hill NSW at MEL, collected between 1886 and 1890.<space unit="chars" quantity="1"/>See Dowe<space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The 1846 Kiel Congress (<seg rend="tei-seg" style="font-style: italic; ">Amtlicher Bericht über die 24 Versammlung Deutscher Naturforscher und Aerzte in Kiel im September 1846</seg>).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>He is long dead,<space unit="chars" quantity="1"/>like many other of my scientific friends. Be sure when the spring season sets in again not to pass the minutest weeds among which may yet be new kinds there. I hope your eldest brother will continue collecting when he passes over the country, as the region about Silverton is almost new for plants.<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Ferdinand Wehl. There are specimens collected by him in the region of Sillverton and Broken Hill in NSW at MEL, collected between 1886 and 1890. See<space unit="chars" quantity="1"/>F. Wehl to M, 27 February 1886 and<space unit="chars" quantity="1"/>Dowe<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">et al.<space unit="chars" quantity="1"/>
                         </seg>(2020).</p>
                   </note>

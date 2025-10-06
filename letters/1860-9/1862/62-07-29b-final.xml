@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>29 July 1862. ¶ My dearest friend, ¶  ¶ It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier. ¶  The short notes were pr...</title>
+            <title>29 July 1862. ¶ My dearest friend, ¶  ¶ It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier. ¶ See M to J. Haast, 25 Ma...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>29 July 1862. ¶ My dearest friend, ¶  ¶ It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier. ¶  The short notes were pr...</title>
+               <title>29 July 1862. ¶ My dearest friend, ¶  ¶ It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier. ¶ See M to J. Haast, 25 Ma...</title>
                <date when="1862-07-29">1862-07-29</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>underline</term>
             </keywords>
             <keywords scheme="#validity">
@@ -77,8 +73,8 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="57">English</language>
-            <language ident="de" usage="43">German</language>
+            <language ident="en" usage="60">English</language>
+            <language ident="de" usage="40">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -91,132 +87,189 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">29 July 1862. ¶ My dearest friend, ¶  ¶ It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier. ¶  The short notes were pr...</supplied>
+               <supplied reason="XTF-compatibility">29 July 1862. ¶ My dearest friend, ¶  ¶ It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier. ¶ See M to J. Haast, 25 Ma...</supplied>
             </head>
             <p rend="number" xml:lang="de">62.07.29b</p>
             <p rend="correspondent" xml:lang="de">To Julius Haast</p>
-            <p rend="location" xml:lang="de">MS papers 37, folder 204, no. 528, Haast family papers, Alexander Turnbull Library, Wellington.</p>
+            <p rend="location" xml:lang="de">MS papers 37, folder 204, no. 528, Haast family papers, Alexander Turnbull Library, Wellington.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS black-edged. The file consists of 8 pages. However, pp. 5-8 are misfiled here, being the continuation of MS no. 521, folder 203, M to J. Haast, 24 December 1861.</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS black-edged. The file consists of 8 pages. However, pp. 5-8 are misfiled here, being the continuation of MS no. 521, folder 203, M to J. Haast, 24 December 1861.</p>
                </note>29/7/62</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Mein theuerster Freund.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Es macht mir grosse Freude Ihnen heute einige Abdrücke Ihrer edlen Landschaftsbilder der Glacier des Mount Cook übersenden zu können. Die kurze Notiz zu den Gletschern hat der Editor selbst geliefert.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Die kurze ... geliefert. <seg style="font-style: italic; ">is a</seg>
-                     <seg style="font-style: italic; ">marginal note without indication of insertion point in the text, but seems to belong here</seg>.</p>
-               </note> Ich war hoch beglückt Ihr effigies zu erhalten, was mir von Ihrer rüstigen Persönlichkeit eine lebhafte Vorstellung giebt bis ich einmal das Glück habe Ihre Freundeshand schütteln zu können. Was Sie mir über Travers Handlungsweise sagten hat mich doch betroffen. Ich habe vor 2 od. 3 Monaten <seg style="">
+               <space dim="horizontal" extent="tab"/>Es macht mir grosse Freude Ihnen heute einige Abdrücke Ihrer edlen Landschaftsbilder der Glacier des Mount Cook übersenden zu können. Die kurze Notiz zu den Gletschern hat der Editor selbst geliefert.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Die kurze ... geliefert.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">is a</seg>
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">marginal note without indication of insertion point in the text, but seems to belong here</seg>.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Ich war hoch beglückt Ihr effigies zu erhalten, was mir von Ihrer rüstigen Persönlichkeit eine lebhafte Vorstellung giebt bis ich einmal das Glück habe Ihre Freundeshand schütteln zu können. Was Sie mir über Travers Handlungsweise sagten hat mich doch betroffen. Ich habe vor 2 od. 3 Monaten<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">gleich</hi>
-               </seg> nach dem Empfange Ihrer Alpenpflanzen den Ranunkel mit einer Beschreibung an Dr Hooker gesandt u hatte ich die Handlungsweise Ihres Compatitoren voraussehen können, würde die Art hier gleich veröffentlicht haben, um Ihnen die Priorität zu sichern. Mit letzter Post an Dr Hooker schreibend spielte ich auf den Umstand an, u will es jetzt seinem Rechtlichkeitsgefühl überlassen zu thun was er gut denkt. Im Vertrauen gesprochen möchte ich aber doch bemerken, dass Sie auf <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>nach dem Empfange Ihrer Alpenpflanzen den Ranunkel mit einer Beschreibung an Dr Hooker gesandt u hatte ich die Handlungsweise Ihres Compatitoren voraussehen können, würde die Art hier gleich veröffentlicht haben, um Ihnen die Priorität zu sichern. Mit letzter Post an Dr Hooker schreibend spielte ich auf den Umstand an, u will es jetzt seinem Rechtlichkeitsgefühl überlassen zu thun was er gut denkt. Im Vertrauen gesprochen möchte ich aber doch bemerken, dass Sie auf<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">Grossmuth</hi>
-               </seg> bei unsern englischen Wissenschaftsfreunden nicht rechnen dürfen. </p>
+               </seg>
+               <space unit="chars" quantity="1"/>bei unsern englischen Wissenschaftsfreunden nicht rechnen dürfen.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Wollen Sie daher gütig im Auge halten, dass ich gern die bot. Erforschung von den Chatham Inseln mir sichern möchte, worauf ich auch wohl einiges Anrecht habe, weil ich neuerdings zuerst auf diesen Gegenstand die Aufmerksamkeit gelenkt. Es lag mir daran für die Canadische bot. Gesellschaft, in welcher ich einen der 4 Ehrensitze für die Colonien habe, eine <seg style="">
+               <space dim="horizontal" extent="tab"/>Wollen Sie daher gütig im Auge halten, dass ich gern die bot. Erforschung von den Chatham Inseln mir sichern möchte, worauf ich auch wohl einiges Anrecht habe, weil ich neuerdings zuerst auf diesen Gegenstand die Aufmerksamkeit gelenkt. Es lag mir daran für die Canadische bot. Gesellschaft, in welcher ich einen der 4 Ehrensitze für die Colonien habe, eine<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">wichtige</hi>
-               </seg> Abhandlung schuldige, für welche die Chatham Pflanzen passenden Stoff liefern möchten.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>Abhandlung schuldige, für welche die Chatham Pflanzen passenden Stoff liefern möchten.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>An meinen Freund Sir Rod Murchison schrieb ich mit dieser Monats-Post, Ihre Wahl in die RGS. beantragend.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Mit Freude und darin Ehre suchend werde ich Ihrem Wunsch willfahren Ihnen mein Bild zu senden. Es ist mir keins im Augenblich zur Hand, da ich im Allgemeinen mich dem portraitirn widersetzte. Selbst Sir Will. Hookers Wunsch habe ich bisher nicht erfüllt in dieser Rücksicht, obgleich meins das einzige Bild eines beschreibenden Phytologen sein soll was in der Kew Gallerie fehlt.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The final three words are wrapped around and completed in the margin. There is no valediction.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Mit Freude und darin Ehre suchend werde ich Ihrem Wunsch willfahren Ihnen mein Bild zu senden. Es ist mir keins im Augenblich zur Hand, da ich im Allgemeinen mich dem portraitirn widersetzte. Selbst Sir Will. Hookers Wunsch habe ich bisher nicht erfüllt in dieser Rücksicht, obgleich meins das einzige Bild eines beschreibenden Phytologen sein soll was in der Kew Gallerie fehlt.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The final three words are wrapped around and completed in the margin. There is no valediction.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Prof M'Coy sagt, dass er Ihnen letzhin über Ihre Fossilien Aufschluss gegeben habe, die Kiste sei verlegt worden Er hat sich über den Inhalt derselben sehr gefreuet.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">'Prof M'Coy ... gefreuet' <seg style="font-style: italic; ">written in margin</seg>.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Prof M'Coy sagt, dass er Ihnen letzhin über Ihre Fossilien Aufschluss gegeben habe, die Kiste sei verlegt worden Er hat sich über den Inhalt derselben sehr gefreuet.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>'Prof M'Coy ... gefreuet'<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">written in margin</seg>.</p>
+                  </note>
+               </seg>
             </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">29 July 1862.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">My dearest friend,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to J. Haast, 25 May 1862 and M to J. Haast, 29 June 1862. <seg style="color: #000000; ">Pictures of the Mueller and Hooker Galciers at Mt Cook, NZ, ‘from an original drawing by Julius Haast, Esq.’, were published in </seg>
-                     <seg style="color: #000000; font-style: italic; ">Illustrated Australian Mail</seg>
-                     <seg style="color: #000000; ">, 21 July 1862, p. 136, with a brief commentary.</seg>
-                  </p>
-               </note> The short notes were provided by the editor. I was very happy to receive your photograph,<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">There is no photograph of Haast in M's surviving photograph album in the library, Royal Botanic Gardens Melbourne.</p>
-               </note> it gives me a vivid concept of your vigorous personality, until one day I shall have the good fortune to shake your friendly hand.</p>
+               <space dim="horizontal" extent="tab"/>It gives me great pleasure to be able to send to you today a few reprints of your noble landscape sketches of the Mount Cook glacier.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See M to J. Haast, 25 May<space unit="chars" quantity="1"/>1862<space unit="chars" quantity="1"/>and<space unit="chars" quantity="1"/>M to J. Haast,<space unit="chars" quantity="1"/>29 June 1862.<space unit="chars" quantity="1"/>Pictures of the Mueller and Hooker Galciers at Mt Cook, NZ, ‘from an original drawing by Julius Haast, Esq.’, were published in Illustrated Australian Mail, 21 July 1862, p. 136, with a brief commentary.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The short notes were provided by the editor. I was very happy to receive your photograph,<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The only known photograph album belonging to M at MEL is part of a donation by Nevil Stenhouse, a descendant of Muller's youngest sister<space unit="chars" quantity="1"/>Clara. The donation, at RB MSS M199, uncatalogued as of 1 October 2025, contains<space unit="chars" quantity="1"/>among other things loose photographs as well as an ornate album presented by Georg Luehmann to M on his birthday in 1887. It is not known whether images from M's 'album of scientific friends' mentioned in M to A. Berndt, 29 September 1864, and perhaps subsequent ones, were transferred to that presented by Luehmann. Many of the photographs have not been identified.</p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>No photograph of Haast had been identified by 1 October 2025.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>it gives me a vivid concept of your vigorous personality, until one day I shall have the good fortune to shake your friendly hand.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I must say that what you tell me about Travers' conduct has disconcerted me. I had sent the <seg style="font-style: italic; ">Ranunculus</seg> together with a description to Dr Hooker <seg style="">
+               <space dim="horizontal" extent="tab"/>I must say that what you tell me about Travers' conduct has disconcerted me. I had sent the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ranunculus</seg>
+               <space unit="chars" quantity="1"/>together with a description to Dr Hooker<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">immediately</hi>
-               </seg> on receiving your alpine plants two or three months ago.<note xml:id="ftn7" type="footnote" n="7">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">See M to J. Haast, 18 March 1862, and M to J. Hooker, 24 March 1862 (in this edition as 62-03-24a).</p>
-               </note> Had I been able to foresee the conduct of your competitor, I should certainly have published the species here at once to secure your priority. When I wrote to Dr Hooker with the last mail, I alluded to the incident and I am now going to leave it to his sense of justice to do as he thinks best. Though, speaking in confidence, I would like to remark, that you cannot count on much <seg style="">
+               </seg>
+               <space unit="chars" quantity="1"/>on receiving your alpine plants two or three months ago.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn6" n="7">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See M to J. Haast, 18 March 1862, and M to J. Hooker, 24 March 1862 (in this edition as 62-03-24a).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>Had I been able to foresee the conduct of your competitor, I should certainly have published the species here at once to secure your priority. When I wrote to Dr Hooker with the last mail, I alluded to the incident and I am now going to leave it to his sense of justice to do as he thinks best. Though, speaking in confidence, I would like to remark, that you cannot count on much<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">magnanimity</hi>
-               </seg> from our English scientific friends.<note xml:id="ftn8" type="footnote" n="8">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. However, see Hooker's reply, J. Hooker to M, 22 August 1862, in which he told M (a) that what Travers had sent to Kew, that Hooker had named <seg style="font-style: italic; ">R. traversii</seg>, was not the same species as the one M had sent, and (b) that what M had described as <seg style="font-style: italic; ">R. haastii</seg> had been discovered earlier by David Lyall and already described by Hooker as <seg style="font-style: italic; ">R. lyallii</seg>.</p>
-               </note>
+               </seg>
+               <space unit="chars" quantity="1"/>from our English scientific friends.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn7" n="8">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found. However, see Hooker's reply, J. Hooker to M, 22 August 1862, in which he told M (a) that what Travers had sent to Kew, that Hooker had named<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">R. traversii</seg>, was not the same species as the one M had sent, and (b) that what M had described as<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">R. haastii</seg>
+                        <space unit="chars" quantity="1"/>had been discovered earlier by David Lyall and already described by Hooker as<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">R. lyallii</seg>.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Would you therefore kindly keep in mind, that I would like to secure for myself the botanical exploration of the Chatham Islands. I think I have some claim on this, as I have recently been the first to draw attention to this subject. I am concerned that I owe the Canadian Botanical Society, where I occupy one of the four honorary colonial memberships, an <seg style="">
+               <space dim="horizontal" extent="tab"/>Would you therefore kindly keep in mind, that I would like to secure for myself the botanical exploration of the Chatham Islands. I think I have some claim on this, as I have recently been the first to draw attention to this subject. I am concerned that I owe the Canadian Botanical Society, where I occupy one of the four honorary colonial memberships, an<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="">
                   <hi rend="underline">important</hi>
-               </seg> paper, for which the Chatham Island plants might provide a suitable subject matter.</p>
+               </seg>
+               <space unit="chars" quantity="1"/>paper, for which the Chatham Island plants might provide a suitable subject matter.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>With this month's mail I wrote to my friend Sir Roderick Murchison and proposed your election to the Royal Geographical Society.<note xml:id="ftn9" type="footnote" n="9">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Letter not found. See also M to J. Haast, 29 June 1862. There is no evidence that Haast was ever elected to the Royal Geographical Society.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>With this month's mail I wrote to my friend Sir Roderick Murchison and proposed your election to the Royal Geographical Society.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn8" n="9">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Letter not found. See also M to J. Haast, 29 June 1862.<space unit="chars" quantity="1"/>There is no evidence that<space unit="chars" quantity="1"/>Haast<space unit="chars" quantity="1"/>was<space unit="chars" quantity="1"/>ever elected to the<space unit="chars" quantity="1"/>Royal Geographical Society.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I will be happy and consider it an honour to accede to your wish and send you my photograph. I do not have one available at the moment, as I generally resist being photographed. So far I have not even complied with Sir William Hooker's wish in this regard, even though mine is supposed to be the only photograph of a describing botanist lacking in the Kew gallery. </p>
+               <space dim="horizontal" extent="tab"/>I will be happy and consider it an honour to accede to your wish and send you my photograph. I do not have one available at the moment, as I generally resist being photographed. So far I have not even complied with Sir William Hooker's wish in this regard, even though mine is supposed to be the only photograph of a describing botanist lacking in the Kew gallery.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Professor McCoy says, that he has recently communicated to you information on your fossils, and that the box was mislaid at the moment. He was very happy with its contents.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; font-style: italic; "
-               xml:lang="en">Ranunculus</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Ranunculus</seg>
+            </p>
          </div>
       </body>
    </text>

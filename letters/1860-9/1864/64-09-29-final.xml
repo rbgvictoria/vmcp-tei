@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Melbourne Botanic Garden, ¶ 29 September 1864. ¶ Dear friend, ¶  ¶ I hear with regret that the unhappy circumstances that have befallen the town of your domicile have also affected you, and that you h...</title>
+            <title>Melbourne Botanic Garden, ¶ 29 September 1864. ¶ Dear friend, ¶  ¶ I hear with regret ¶  ¶ that the unhappy circumstances ¶  ¶ that have befallen the town of your domicile ¶  ¶ have also affected you,...</title>
             <author>Ferdinand von Mueller</author>
             <respStmt>
                <resp>Transcribed into Microsoft Word</resp>
@@ -28,7 +28,7 @@
             </msDesc>
             <bibl>
                <author>Ferdinand von Mueller</author>
-               <title>Melbourne Botanic Garden, ¶ 29 September 1864. ¶ Dear friend, ¶  ¶ I hear with regret that the unhappy circumstances that have befallen the town of your domicile have also affected you, and that you h...</title>
+               <title>Melbourne Botanic Garden, ¶ 29 September 1864. ¶ Dear friend, ¶  ¶ I hear with regret ¶  ¶ that the unhappy circumstances ¶  ¶ that have befallen the town of your domicile ¶  ¶ have also affected you,...</title>
                <date when="1864-09-29">1864-09-29</date>
             </bibl>
          </sourceDesc>
@@ -38,9 +38,6 @@
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,17 +62,19 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
                <term>valediction</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="55">English</language>
-            <language ident="de" usage="45">German</language>
+            <language ident="en" usage="56">English</language>
+            <language ident="de" usage="44">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -91,120 +87,143 @@
       <body>
          <div xml:id="main">
             <head type="incipit">
-               <supplied reason="XTF-compatibility">Melbourne Botanic Garden, ¶ 29 September 1864. ¶ Dear friend, ¶  ¶ I hear with regret that the unhappy circumstances that have befallen the town of your domicile have also affected you, and that you h...</supplied>
+               <supplied reason="XTF-compatibility">Melbourne Botanic Garden, ¶ 29 September 1864. ¶ Dear friend, ¶  ¶ I hear with regret ¶  ¶ that the unhappy circumstances ¶  ¶ that have befallen the town of your domicile ¶  ¶ have also affected you,...</supplied>
             </head>
             <p rend="number" xml:lang="de">64.09.29</p>
             <p rend="correspondent" xml:lang="de">To Adolphus Berndt</p>
-            <p rend="location" xml:lang="de">MS papers 37, folder 206, no. 548, Haast family papers, Alexander Turnbull Library, Wellington.</p>
+            <p rend="location" xml:lang="de">MS papers 37, folder 206, no. 548, Haast family papers, Alexander Turnbull Library, Wellington.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The MS is annotated in an unknown hand: 'An Dr Berndt' [to Dr Berndt].</p>
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>The MS is annotated in an unknown hand: 'An Dr Berndt' [to Dr Berndt].</p>
                </note>Melbourne bot Garden</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">29/9/64</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Theuerer Freund.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Mit Bedauern höre ich, dass die unglücklichen Verhältnisse die letzthin Ihre Wohnstadt betroffen auch auf Sie zurückwirken u. dass Sie von Neuem eine Laufbahn an einem andern Orte eröffnen müssen. Es ist nur gut, dass die edle Wissenschaft der Medicin nie ihre Jünger die es ehrlich mit ihr meinen, leiden lässt. Das medicinische Doctor Diplom ist der beste Reisepass durch die Erde. </p>
+               <space dim="horizontal" extent="tab"/>Mit Bedauern höre ich, dass die unglücklichen Verhältnisse die letzthin Ihre Wohnstadt betroffen auch auf Sie zurückwirken u. dass Sie von Neuem eine Laufbahn an einem andern Orte eröffnen müssen. Es ist nur gut, dass die edle Wissenschaft der Medicin nie ihre Jünger die es ehrlich mit ihr meinen, leiden lässt. Das medicinische Doctor Diplom ist der beste Reisepass durch die Erde.<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Um Ihren künftigen persönlichen Umgang mit dem geist- und liebreichen Dr Haast beneide ich Sie wahrhaft u werden Sie bei ihm ächt<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">echt.</p>
-               </note> teutonische Traulichkeit finden.</p>
+               <space dim="horizontal" extent="tab"/>Um Ihren künftigen persönlichen Umgang mit dem geist- und liebreichen Dr Haast beneide ich Sie wahrhaft u werden Sie bei ihm ächt<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>echt.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>teutonische Traulichkeit finden.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ihrer Gemahlin u Ihrem Wunsch Ihnen meine kleine Photographie zu senden will ich gern entsprechen, die Ihre mir für mein Album wissenschaftlicher Freunde erbittend.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Lassen Sie mich schliessen, denn ich muss meine leider vielfach überarbeiten Augen schonen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Ihnen Wohlsein u Glück wünschend bleibe ich freundschaftsvoll </p>
+               <space dim="horizontal" extent="tab"/>Ihnen Wohlsein u Glück wünschend bleibe ich freundschaftsvoll<space unit="chars" quantity="1"/>
+            </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.4772in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; hyphenate: false; margin-left: 1.477in; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ihr</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Ferd Mueller</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="de">Prof. Ecker von Freiberg hat mich um einige Schädel neuseeländischer Eingeborener ersucht. Liegen selbige im Bereich des Erkaufes dort. Wenn so bitte ich Sie ein paar für mich zu erstehen u die Auslage soll Ihnen sofort ersetzt werden. An Rudolph Wagner weitere anthropologische Sammlungen zu senden wird nutzlos sein, da der Arme vom Schlagfluss hingestreckt zu weiteren wissenschaftlichen Arbeiten unfähig geworden. Skelette des Apterix u Knochen von Moa &amp;c würden auch willkommen sein.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="de">Prof. Ecker von<space unit="chars" quantity="1"/>Freiberg hat mich um einige Schädel neuseeländischer Eingeborener ersucht. Liegen selbige im Bereich des Erkaufes dort. Wenn so bitte ich Sie ein paar für mich zu erstehen u die Auslage soll Ihnen sofort ersetzt werden. An Rudolph Wagner weitere<space unit="chars" quantity="1"/>anthropologische Sammlungen zu senden wird nutzlos sein, da der Arme vom Schlagfluss hingestreckt zu weiteren wissenschaftlichen Arbeiten unfähig geworden. Skelette des Apterix u Knochen von Moa &amp;c würden auch willkommen sein.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne Botanic Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">29 September 1864.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">Dear friend,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I hear with regret that the unhappy circumstances that have befallen the town of your domicile have also affected you, and that you have to start afresh to build a new existence in another place.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M is probably alluding to the loss of population suffered by Invercargill, where Berndt had his medical practice, as a result of gold discoveries elsewhere in NZ.</p>
-               </note> The only good thing is that the noble science of medicine never allows those of her disciples to suffer who serve her conscientiously. The diploma of a doctor of medicine is the best passport in the world.</p>
+               <space dim="horizontal" extent="tab"/>I hear with regret<space unit="chars" quantity="1"/>that the unhappy circumstances<space unit="chars" quantity="1"/>that have befallen the town of your domicile<space unit="chars" quantity="1"/>have also affected you, and that you have to start afresh to build a new existence in another place.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M is probably alluding to the loss of population suffered by Invercargill, where Berndt had his medical practice, as a result of gold discoveries elsewhere in NZ.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>The only good thing is that the noble science of medicine<space unit="chars" quantity="1"/>never allows those of her disciples to suffer<space unit="chars" quantity="1"/>who serve her conscientiously. The diploma of a doctor of medicine is the best passport in the world.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I really envy you your future personal relationship with the clever and amiable Dr Haast. You will meet in him true German friendliness.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">M was evidently under the impression that Berndt was going to move to Christchurch, where Haast was; see also M to J. Haast, 29 September 1864 (in this edition as 64-09-29a) Berndt later settled in Hokitika; see notes to M to J. Haast, 30 March 1866 (in this edition as 66-03-30a).</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I<space unit="chars" quantity="1"/>really<space unit="chars" quantity="1"/>envy you your future personal relationship with the clever and amiable Dr Haast. You will meet in him true German friendliness.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M was evidently under the impression that Berndt was going to move to Christchurch, where Haast was; see also M to J. Haast, 29 September 1864 (in this edition as 64-09-29a) Berndt later settled in Hokitika; see notes to M to J. Haast,<space unit="chars" quantity="1"/>30 March 1866 (in this edition as 66-03-30a).</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I shall be pleased to respond to your and your wife's wish for my small photograph, and ask you to send me yours for my album of scientific friends.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">Album not found.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>I shall be pleased to respond to your and your wife's wish for my small photograph, and ask you to send me yours for my album of scientific friends.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>No photograph has been identified at MEL, but see Mueller to Julius Haast, 29 July 1862 (in this edition as 62-07-29b) and notes thereto.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Permit me to close, as I must save my unfortunately often overworked eyes.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Wishing you well-being and happiness I remain yours in friendship</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">Ferd. Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">Professor Ecker of Freiburg has asked me for a few skulls of New Zealand natives. Can they be purchased? If so, I ask you to buy a few for me and your expenses will immediately be refunded. To send further anthropological collections to Rudolph Wagner will be useless, because the poor man has suffered a stroke and is unable to do any further scientific work. Skeletons of the <seg style="font-style: italic; ">Apteryx</seg>
-               <note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">The Kiwi.</p>
-               </note> and bones of moa etc. would also be welcome.</p>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">Professor Ecker of Freiburg has asked me for a few skulls of New Zealand natives. Can they be purchased? If so, I ask you to buy a few for me and your expenses will immediately be refunded. To send further anthropological collections to Rudolph Wagner will be useless, because the poor man has suffered a stroke and is unable to do any further scientific work. Skeletons of the<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="font-style: italic; ">Apteryx</seg>
+               <seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>The Kiwi.</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>and bones of moa etc. would also be welcome.</p>
          </div>
       </body>
    </text>

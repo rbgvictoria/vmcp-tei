@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-04-00-draft.doc</idno>
+            <idno type="filename">data/letters/1860-9/1861/61-04-00-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-04-00-draft.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-04-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -52,18 +52,18 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
-               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>letter</term>
                <term>FootnoteText</term>
                <term>DefaultParagraphFont</term>
+               <term>FootnoteReference</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -85,8 +85,7 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility"> ¶ [The Secretary ¶ The secretary at the time wasSamuelHannaford. ¶  ¶ read a letter from Dr. Mueller, stating that he would have much pleasure in forwarding a supply of seeds from the Botanic Gardens...</supplied>
             </head>
-            <p rend="number" xml:lang="en">61.04.00<seg rend="FootnoteReference" style="font-size: 8pt; "/>
-            </p>
+            <p rend="number" xml:lang="en">61.04.00</p>
             <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the Horticultural Improvement Association of the Western District</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
@@ -97,29 +96,23 @@
                   <p rend="FootnoteText"
                      style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/>
-                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">To proof.</seg>
-                  </p>
-               </note>
-               <note type="footnote" xml:id="_ftn1" n="2">
-                  <p rend="FootnoteText"
-                     style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
-                     xml:lang="en">
                      <space dim="horizontal" extent="tab"/>Letter not found. For the text given here, see<space unit="chars" quantity="1"/>
                      <seg rend="DefaultParagraphFont" style="font-style: italic; ">Transactions of the Horticultural Improvement Association of the Western District</seg>
-                     <space unit="chars" quantity="1"/>(1862), p. 68, read at a report of a meeting of the Association held on 24 April 1861. For another copy, see<space unit="chars" quantity="1"/>
-                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Victorian Agricultural &amp; Horticultural Gazette</seg>
+                     <space unit="chars" quantity="1"/>(1862), p. 68, read at a meeting of the Association held on 24 April 1861. For another copy, see<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Victorian Agricultural and</seg>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
+                        <space unit="chars" quantity="1"/>Horticultural Gazette</seg>
                      <space unit="chars" quantity="1"/>(1861), p. 55.</p>
                </note>
                <space dim="horizontal" extent="tab"/>[The Secretary<seg rend="FootnoteReference" style="font-size: 8pt; ">
-                  <note type="footnote" xml:id="_ftn2" n="3">
+                  <note type="footnote" xml:id="_ftn1" n="2">
                      <p rend="FootnoteText"
                         style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>The secretary at the time was<space unit="chars" quantity="1"/>Samuel<space unit="chars" quantity="1"/>Hannaford.</p>
                   </note>
                </seg>
-               <space unit="chars" quantity="1"/>read a letter from Dr. Mueller, stating that he would have much pleasure in forwarding a supply of seeds from the Botanic Gardens, for distribution amongst the members, more particularly as the Association was established for the promotion of Horticulture; and he trusted that those who shared in this contribution would allow the Botanic Gardens, of which he was Director, to participate in any riches which they might respectively accumulate in their own gardens.]</p>
+               <space unit="chars" quantity="1"/>read a letter from Dr. Mueller, stating that he would have much pleasure in forwarding a supply of seeds from the Botanic Gardens, for distribution amongst the Members, more particularly as the Association was established for the promotion of Horticulture; and he trusted that those who shared in this contribution would allow the Botanic Gardens, of which he was Director, to participate in any riches which they might respectively accumulate in their own gardens.]</p>
          </div>
       </body>
    </text>
