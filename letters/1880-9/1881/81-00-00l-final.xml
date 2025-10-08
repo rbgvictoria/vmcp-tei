@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1881/81-00-00l-proofed.doc</idno>
+            <idno type="filename">data/letters/1880-9/1881/81-00-00l-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -33,7 +33,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-00-00l-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1881/81-00-00l-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -52,7 +52,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -74,7 +74,7 @@
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
-               <name>Baringhup and Maldon Agricultural Society</name>
+               <name>the Baringhup and Maldon Agricultural Society</name>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -86,7 +86,7 @@
                <supplied reason="XTF-compatibility">[Our readers may be interested in the following account of how Algerian oats first came to be utilised in Victoria. Some twelve years since Baron von Mueller forwarded a small parcel of the oats to th...</supplied>
             </head>
             <p rend="number" xml:lang="en">81.00.00l</p>
-            <p rend="correspondent" xml:lang="en">To Baringhup and Maldon Agricultural Society</p>
+            <p rend="correspondent" xml:lang="en">To<space unit="chars" quantity="1"/>the<space unit="chars" quantity="1"/>Baringhup and Maldon Agricultural Society</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
@@ -100,7 +100,10 @@
                         <space dim="horizontal" extent="tab"/>Letter not found. The text given here is from<space unit="chars" quantity="1"/>
                      </seg>
                      <seg rend="DefaultParagraphFont" style="font-style: italic; ">Tarrangower times and Maldon, Newstead, Baringhup, Laancoorie and Muckleford advertiser</seg>
-                     <seg rend="DefaultParagraphFont" style="">, 9 August 1893, p [2], col. c. The item is stated to 1881 based upon 'some 12 years since.' The extract is preceded by "The journal of the Royal Agricultural Society of Victoria says:—</seg>
+                     <seg rend="DefaultParagraphFont" style="">, 9 August 1893, p [2], col. c. The item is stated to 1881 based upon 'some 12 years since'</seg>
+                     <seg rend="DefaultParagraphFont" style="">.</seg>
+                     <seg rend="DefaultParagraphFont" style="">
+                        <space unit="chars" quantity="1"/>The extract is preceded by "The journal of the Royal Agricultural Society of Victoria says:—</seg>
                   </p>
                </note>
                <seg rend="DefaultParagraphFont" style="">
@@ -122,7 +125,7 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>'The society, in its turn, parcelled them out amongst the farmers of the district. Most, however, did not take the trouble to do anything in the matter. Two gentlemen, however—Messrs. Charles Daw and Walter Rollason—determined on giving the oats a trial, and with a small quantity of seed—Mr.<space unit="chars" quantity="1"/>Daw with an eggcupful and Mr. Rollason with a few pinches—commenced<space unit="chars" quantity="1"/>the trial. The oats throve amazingly, and<space unit="chars" quantity="1"/>in a few years they were able to sell some<space unit="chars" quantity="1"/>bags for seed to their neighbors, and now<space unit="chars" quantity="1"/>the Algerian oat is the<space unit="chars" quantity="1"/>most popular, and<space unit="chars" quantity="1"/>perhaps<space unit="chars" quantity="1"/>more grown than any other in<space unit="chars" quantity="1"/>Victoria. Of course there may have been<space unit="chars" quantity="1"/>instances of others making the same<space unit="chars" quantity="1"/>experiment as Messrs. Daw and Rollason,<space unit="chars" quantity="1"/>but we have not heard of them'.</p>
+                        <space dim="horizontal" extent="tab"/>'The society, in its turn, parcelled them out amongst the farmers of the district. Most, however, did not take the trouble to do anything in the matter. Two gentlemen, however—Messrs. Charles Daw and Walter Rollason—determined on giving the oats a trial, and with a small quantity of seed—Mr.<space unit="chars" quantity="1"/>Daw with an eggcupful and Mr. Rollason with a few pinches—commenced<space unit="chars" quantity="1"/>the trial. The oats throve amazingly, and<space unit="chars" quantity="1"/>in a few years they were able to sell some<space unit="chars" quantity="1"/>bags for seed to their neighbors, and now<space unit="chars" quantity="1"/>the Algerian oat is the<space unit="chars" quantity="1"/>most popular, and<space unit="chars" quantity="1"/>perhaps<space unit="chars" quantity="1"/>more grown than any other in<space unit="chars" quantity="1"/>Victoria. Of course there may have been<space unit="chars" quantity="1"/>instances of others making the same<space unit="chars" quantity="1"/>experiment as Messrs. Daw and Rollason,<space unit="chars" quantity="1"/>but we have not heard of them.'</p>
                   </note>
                </seg>
             </p>
