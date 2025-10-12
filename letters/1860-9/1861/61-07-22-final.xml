@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1860-9/1861/61-07-22.doc</idno>
+            <idno type="filename">data/letters/1860-9/1861/61-07-22-final.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -34,13 +34,10 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-07-22.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-07-22-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
-            </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
             </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
@@ -56,10 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>not final</term>
-            </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
+               <term>final</term>
             </keywords>
             <keywords scheme="#features">
                <term>table</term>
@@ -70,8 +64,10 @@
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
                <term>valediction</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
@@ -98,148 +94,153 @@
             <p rend="location" xml:lang="en">S61/5846, unit 749, VPRS 1189/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
-               xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <seg style="font-weight: bold; ">Proof.</seg>
-                  </p>
-               </note>Melbourne bot. &amp; zool. Garden,</p>
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
+               xml:lang="en">Melbourne bot. &amp; zool. Garden,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">22. July 61.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>I have the honor to solicit, that you will be pleased to sanction the following expenditure during the third quarter of this year.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
-            <table n="Table1">
+            <table n="">
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Wages according to the rate of payments allowed last quarter</p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
-                        xml:lang="en">£1200</p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">£1200.- .-</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">to which sum I would beg leave to be added the amount left available of the wages fund of last quarter, vize:</p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
                         xml:lang="en">£106.15.9</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Employment of labour of mechanics by the piece or by the day for executing repairs or small work</p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
-                        xml:lang="en">£60</p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">£60.- .-</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Purchase of plants and seeds</p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
-                        xml:lang="en">£45</p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">£45.- .-</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Expense of publishing work on indigenous plants</p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
-                        xml:lang="en">£80</p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">£80.- .-</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Food and forage for animals, inclusive of such expenditure as is yet due of last quarter.</p>
                      <space dim="vertical" unit="lines" quantity="1"/>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
-                        xml:lang="en">£40</p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">£40.- .-</p>
                   </cell>
                </row>
                <row>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; "
+                        style="font-size: 12pt; hyphenate: false; "
                         xml:lang="en">Travelling and incidental expenses, including such as are yet unpaid during last quarter</p>
                   </cell>
-                  <cell style="padding-left: 0.0556in; padding-right: 0.0556in; padding-top: 0in; padding-bottom: 0in; border: none; ">
+                  <cell style="border: none; padding-top: 0in; padding-left: 0.0555in; padding-bottom: 0in; padding-right: 0.0555in; ">
                      <p rend="letter"
-                        style="font-family: Geneva; font-size: 12pt; text-align: end; "
-                        xml:lang="en">£40</p>
+                        style="font-size: 12pt; hyphenate: false; text-align: end; "
+                        xml:lang="en">£40.- .-</p>
                   </cell>
                </row>
             </table>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">I have the honor to be,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>your most obedient and humble servant</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">The honorable the Chief Secretary</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">MS file annotation: 'Some portion of the amount is already expended; for instance 60£ for [...] dromedary to Mr Landells. other claims are constantly coming in (for instance Mr [...]) charges on [...], English fish &amp;c for which purposes this fund is supposed to be distinctly intended; &amp; the only Government grant available for the purpose'.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<space dim="horizontal" extent="tab"/>&amp;c<seg rend="FootnoteReference" style="">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>MS file annotation: 'Some portion of the amount is already expended; for instance 60£ for male dromedary to Mr Landells. other claims are constantly coming in (for instance<space unit="chars" quantity="1"/>for Lincolnshire,<space unit="chars" quantity="1"/>changes<space unit="chars" quantity="1"/>in circumstance, English fish &amp;c) for which purposes this fund is supposed to be distinctly intended; &amp; the only Government grant available for the purpose'.<space unit="chars" quantity="1"/>
+                     </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>
+                        <space dim="horizontal" extent="tab"/>The minute refers to the item 'Food and forage …',<space unit="chars" quantity="1"/>i.e.,<space unit="chars" quantity="1"/>for the animals housed at the Botanic Gardens in connection with the activities of the Acclimatisation Society of Victoria; 'Lincolnshire' is the vessel that transported the fish and birds listed in M to P. Ramel, 25 July 1861(in this edition as 61-07-25b), see report in<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 27 July 1861, p. 4, col. g.<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">Lincolnshire</seg>
+                        <space unit="chars" quantity="1"/>was cleared out of Melbourne on 22 July ('Shipping intelligence', Argus, 23 July 1861).</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>

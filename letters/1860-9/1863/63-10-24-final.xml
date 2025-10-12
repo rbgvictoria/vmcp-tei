@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -68,8 +62,10 @@
                <term>number</term>
                <term>correspondent</term>
                <term>location</term>
+               <term>FootnoteReference</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,93 +90,120 @@
             </head>
             <p rend="number" xml:lang="en">63.10.24</p>
             <p rend="correspondent" xml:lang="en">To William Hooker</p>
-            <p rend="location" xml:lang="en">RBG Kew, Directors' letters, vol. LXXV, Australian and Pacific letters 1859-65, letter no. 176.</p>
+            <p rend="location" xml:lang="en">RBG Kew, Directors' letters, vol. LXXV, Australian and Pacific letters 1859-65, letter no. 176.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-style: italic; ">MS annotation by Hooker:</seg>
+                     <space dim="horizontal" extent="tab"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">MS annotation by Hooker:</seg>
                   </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <seg style="font-style: italic; ">
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">
                         <space dim="horizontal" extent="tab"/>
-                     </seg> Lindsaea lanuginosa, Wall. Edgecombe Bay (sent before [from]</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     </seg>
+                     <space unit="chars" quantity="1"/>Lindsaea lanuginosa, Wall. Edgecombe Bay (sent before [from]</p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/> &amp; Acrostichum fraxinifolium, Br. </p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                     <space dim="horizontal" extent="tab"/>
+                     <space unit="chars" quantity="1"/>&amp; Acrostichum fraxinifolium, Br.<space unit="chars" quantity="1"/>
+                  </p>
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space dim="horizontal" extent="tab"/>2 pinnae acute = fraxinif.</p>
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
-                     <space dim="horizontal" extent="tab"/> 2 " obtuse = aureum'.</p>
+                     <space dim="horizontal" extent="tab"/>
+                     <space unit="chars" quantity="1"/>2 " obtuse = aureum'.</p>
                </note>24/10/63</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Sir William</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Though your kind instructive &amp; ingenious letters are always sources of pleasure to me, I felt most particularly gratified when by last mail along with your kind handwriting I received the invaluable dear little picture, which now for the first time revealed to me your most venerable features. I shall regard your portrait, thus so kindly given, as one of the most precious gifts I possess for<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">of <seg style="font-style: italic; ">written over</seg> for [or vice versa].</p>
-               </note> my gallery of pictures of great coetans.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">Picture not found.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>Though your kind instructive &amp; ingenious letters are always sources of pleasure to me, I felt most particularly gratified when by last mail along with your kind handwriting I received the invaluable dear little picture, which now for the first time revealed to me your most venerable features. I shall regard your portrait, thus so kindly given, as one of the most precious gifts I possess for<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>of<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">written over</seg>
+                        <space unit="chars" quantity="1"/>for [or vice versa].</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>my gallery of pictures of great coetans.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>No<space unit="chars" quantity="1"/>such<space unit="chars" quantity="1"/>image of William Hooker has been identified at MEL, but see M to J. Haast, 29 July 1862 (in this edition as 62-07-29b) and notes thereto.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>I am glad that you and Dr Hooker will kindly support Sir Henry Barklys election into the Royal Society.<note xml:id="ftn4" type="footnote" n="4">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">M requested Hooker's support in M to W. Hooker, 26 June 1863<seg style="color: #000000; ">.</seg>
-                     <seg style="color: #000000; font-weight: bold; "> </seg>
-                     <seg style="color: #000000; ">See notes thereto for details of Barkly's election on 2 June 1864.</seg>
-                  </p>
-               </note>
-               <seg style="font-weight: bold; "> </seg>The Governor is really so zealously devoted to science, though his time for extra-official work must always be limited, that he is well deserving of the distinction. His Excellency's Successor, Sir Charles Darling, has shown me already much kindness and urbanity, but as he has been seriously unwell we have had not yet the full benefit of his presence amongst us.</p>
+               <space dim="horizontal" extent="tab"/>I am glad that you and Dr Hooker will kindly support Sir Henry Barklys election into the Royal Society.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>M requested Hooker's support in M to W. Hooker, 26 June 1863<seg rend="DefaultParagraphFont" style="color: #000000; ">.</seg>
+                        <seg rend="DefaultParagraphFont" style="font-weight: bold; color: #000000; ">
+                           <space unit="chars" quantity="1"/>
+                        </seg>
+                        <seg rend="DefaultParagraphFont" style="color: #000000; ">See notes thereto for details of Barkly's election on 2 June 1864.</seg>
+                     </p>
+                  </note>
+               </seg>
+               <seg rend="DefaultParagraphFont" style="font-weight: bold; ">
+                  <space unit="chars" quantity="1"/>
+               </seg>The Governor is really so zealously devoted to science, though his time for extra-official work must always be limited, that he is well deserving of the distinction. His Excellency's Successor, Sir Charles Darling, has shown me already much kindness and urbanity, but as he has been seriously unwell we have had not yet the full benefit of his presence amongst us.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>This reminds me of his friend, Sir Richard M'Donnell. What a pity it is, that this stirring, generous and gifted man, is not again in a gubernatorial position. What an amount of good he would do as the administrator of any of the British Dominions, in which geographical research combined with promotion of natural history enquiries should be carried on. To a great measure the strides made in South Australia for unveiling the interior of this great land must be attributed to the manful action of Sir Richard M'Donnell.<note xml:id="ftn5" type="footnote" n="5">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>MacDonnell became Lieutenant Governor of Nova Scotia and later Governor of Hong Kong.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>This reminds me of his friend, Sir Richard M'Donnell. What a pity it is, that this stirring, generous and gifted man, is not again in a gubernatorial position. What an amount of good he would do as the administrator of any of the British Dominions, in which geographical research combined with promotion of natural history enquiries should be carried on. To a great measure the strides made in South Australia for unveiling the interior of this great land must be attributed to the manful action of Sir Richard M'Donnell.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn4" n="5">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>MacDonnell became Lieutenant Governor of Nova Scotia and later Governor of Hong Kong.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>As you always evinced so kind an interest in my welfare &amp; fates, I cannot withhold from you the fact, that His Maj. the Emperor of Austria conferred on me the Knightscross of the Francis Joseph Order. I accept in it not as a reward for what little I may have done, but an encouragement for future labours.<note xml:id="ftn6" type="footnote" n="6">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; font-size: 9pt; "
-                     xml:lang="en">See notes to M to C. Darling, 12 October 1863 (in this edition as 63-10-12a) for the refusal of the Foreign Office to sanction M's wearing the honour.</p>
-               </note>
+               <space dim="horizontal" extent="tab"/>As you always evinced so kind an interest in my welfare &amp; fates, I cannot withhold from you the fact, that His Maj. the Emperor of Austria conferred on me the Knightscross of the Francis Joseph Order. I accept<space unit="chars" quantity="1"/>in it<space unit="chars" quantity="1"/>not as a reward for what little I may have done, but an encouragement for future labours.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn5" n="6">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>See notes to M<space unit="chars" quantity="1"/>to C. Darling, 12 October 1863 (in this edition as 63-10-12a)<space unit="chars" quantity="1"/>for the refusal of the Foreign Office to sanction M's wearing the honour.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ever with the profoundest wishes for your health, long continued life and happiness, I remain</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">your faithfully attached</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. Mueller.</p>
          </div>
