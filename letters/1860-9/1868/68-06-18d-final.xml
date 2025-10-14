@@ -20,7 +20,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Müller F. v., Liebigiana II. B., Handschriftenabteilung, Bayerische Staatsbibliothek, Munich.</msName>
+                  <msName>Müller F. v., Liebigiana II. B., Handschriftenabteilung, Bayerische Staatsbibliothek,Munich.</msName>
                   <altIdentifier>
                      <idno>68.06.18d</idno>
                   </altIdentifier>
@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
             </keywords>
@@ -70,15 +64,17 @@
                <term>location</term>
                <term>letter</term>
                <term>valediction</term>
-               <term>Footnote</term>
+               <term>FootnoteReference</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
             </keywords>
             <keywords scheme="#validity">
                <term>valid</term>
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="en" usage="50">English</language>
-            <language ident="de" usage="50">German</language>
+            <language ident="en" usage="52">English</language>
+            <language ident="de" usage="48">German</language>
          </langUsage>
          <correspDesc>
             <correspAction type="sentTo">
@@ -95,96 +91,115 @@
             </head>
             <p rend="number" xml:lang="de">68.06.18d</p>
             <p rend="correspondent" xml:lang="de">To Justus von Liebig</p>
-            <p rend="location" xml:lang="de">Müller F. v., Liebigiana II. B., Handschriftenabteilung, Bayerische Staatsbibliothek, Munich.</p>
+            <p rend="location" xml:lang="de">Müller F. v., Liebigiana II. B., Handschriftenabteilung, Bayerische Staatsbibliothek,<space unit="chars" quantity="1"/>Munich.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">Melbourne im botanischen Garten,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; text-align: end; "
+               style="font-size: 12pt; hyphenate: false; text-align: end; "
                xml:lang="de">am 18. Juni 1868.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
-               <space dim="horizontal" extent="tab"/>Durch die Übersendung Ihres photographischen Bildes, edler Herr Baron, haben Sie mich sehr beglückt. Ich werde demselben den ehrenvollsten Platz anweisen in einer Reihe von Photogrammen, die ich aus der Hand von fast hundert berühmten Zeitgenossen besitze. Diesem Schreiben beigefügt finden Sie Tabellen, welche den Pottasche-Gehalt in einigen unserer am weitesten verbreiteten Bäume nachweisen. Es sind die Resultate von Analysen, die Herr Chr. Hoffmann unter meiner Obhut in meinem Laboratorium anstellte, und die als Hinweis für commercielle und industrielle Zwecke nützlich sein mögen. Allerdings ändert unter verschiedenen Ortsverhältnissen die Menge des Alkali in diesen Bäumen hier wie anderswo ab, indessen da doch bis zu einem gewissen Grade die Arten an bestimmte <space unit="chars" quantity="1"/>geologische Verhältnisse gebunden sind, werden die nun gelieferten Documente passende Anhaltspunkte für die Berechnung liefern und Betriebsleute vielleicht zur Verfolgung dieser Processe im Grossen hinführen.</p>
+               <space dim="horizontal" extent="tab"/>Durch die Übersendung Ihres photographischen Bildes, edler Herr Baron, haben Sie mich sehr beglückt. Ich werde demselben den ehrenvollsten Platz anweisen in einer Reihe von Photogrammen, die ich aus der Hand von fast hundert<space unit="chars" quantity="1"/>berühmten Zeitgenossen besitze. Diesem Schreiben beigefügt finden Sie Tabellen, welche den Pottasche-Gehalt in einigen unserer am weitesten verbreiteten Bäume nachweisen. Es sind die Resultate von Analysen, die Herr Chr. Hoffmann unter meiner Obhut in meinem Laboratorium anstellte, und die als Hinweis für commercielle und industrielle Zwecke nützlich sein mögen. Allerdings ändert unter verschiedenen Ortsverhältnissen die Menge des Alkali in diesen Bäumen hier wie anderswo ab, indessen da doch bis zu einem gewissen<space unit="chars" quantity="1"/>Grade die Arten an bestimmte <space unit="chars" quantity="1"/>geologische Verhältnisse gebunden sind, werden die nun gelieferten Documente passende Anhaltspunkte für die Berechnung liefern und Betriebsleute vielleicht zur Verfolgung dieser Processe im Grossen hinführen.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Demnächst soll der Gehalt von Soda in einigen unserer weitverbreiteten Strandpflanzen festegestellt werden, sowie auch die Menge des Broms u Jods in einigen unserer riesigen Seetange.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Möge die Vorsehung Sie, Verehrter, zum Besten u Stolz des Wissens noch lange rüstig erhalten</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">Mit ehrerbietigem Grusse</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="de">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="de">Eigentlich hätten diese Tabellen wohl in deutsche Sprache müssen umgeschrieben werden.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">Melbourne Botanic Gardens,</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; text-align: end; "
+               style="font-size: 10pt; hyphenate: false; text-align: end; "
                xml:lang="en">18 June 1868.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>You have made me very happy, noble Baron, by sending me your photographic likeness. I shall give it the most honoured place in a collection I own <space unit="chars" quantity="1"/>of photographs from the hands of almost a hundred famous contemporaries.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Enclosed with this letter you will find tables showing the potassium content in some of our most widely distributed trees.<note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">B69.07.03, pp. 14–15. </p>
-               </note> They are the results of analyses made by Mr Chr. Hoffmann under my supervision in my laboratory; they may be of use as reference for commercial and industrial purposes. It must be added, though, that here as elsewhere the amount of alkali in these trees varies under differing locality conditions; however, as species are linked to a certain degree to particular geological conditions, the documents produced here will provide appropriate points of reference for calculation and may perhaps prompt manufacturers to follow up these processes on a large scale.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">
-               <space dim="horizontal" extent="tab"/>Shortly the content of soda in some of our widely distributed seashore plants is to be determined, as well as the amount of bromine and iodine in some of our giant seaweeds.<note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>So far as is known, no such data were published.</seg>
-                  </p>
-               </note>
+               <space dim="horizontal" extent="tab"/>You have made me very happy, noble Baron, by sending me your photographic likeness. I shall give it the most honoured place in a collection I own <space unit="chars" quantity="1"/>of photographs from the hands of almost<space unit="chars" quantity="1"/>a hundred<space unit="chars" quantity="1"/>famous contemporaries.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn0" n="1">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>No image of<space unit="chars" quantity="1"/>Liebig<space unit="chars" quantity="1"/>has been identified at MEL, but see M to J. Haast, 29 July 1862 (in this edition as 62-07-29b) and notes thereto.</p>
+                  </note>
+               </seg>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
+               style="font-size: 10pt; hyphenate: false; "
                xml:lang="en">
-               <space dim="horizontal" extent="tab"/>May Providence long keep you hale and hearty, revered Sir, to the benefit and pride of science.</p>
+               <space dim="horizontal" extent="tab"/>Enclosed with this letter you will find tables showing the potassium content in some of our most widely distributed trees.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>B69.07.03, pp. 14–15.<space unit="chars" quantity="1"/>
+                     </p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>They are the results of analyses made by Mr Chr. Hoffmann under my supervision in my laboratory; they may be of use<space unit="chars" quantity="1"/>as<space unit="chars" quantity="1"/>reference<space unit="chars" quantity="1"/>for commercial and industrial purposes. It must be added, though, that here as elsewhere the amount of alkali in these trees varies under differing locality conditions; however, as species are linked to a certain degree to particular geological conditions, the documents produced here will provide<space unit="chars" quantity="1"/>appropriate<space unit="chars" quantity="1"/>points of reference<space unit="chars" quantity="1"/>for calculation<space unit="chars" quantity="1"/>and may perhaps prompt manufacturers to follow up these processes on a large scale.</p>
+            <p rend="letter"
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>Shortly the content of soda in some of our widely distributed seashore plants is to be determined, as well as the amount of bromine and iodine in some of our giant<space unit="chars" quantity="1"/>seaweeds.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3333in; text-indent: -0.3333in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>So far as is known, n</seg>
+                        <seg rend="DefaultParagraphFont" style="">o such data were published</seg>
+                        <seg rend="DefaultParagraphFont" style="">.</seg>
+                     </p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">
+               <space dim="horizontal" extent="tab"/>May Providence long keep you hale and hearty, revered Sir, to the benefit and<space unit="chars" quantity="1"/>pride<space unit="chars" quantity="1"/>of science.</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">With respectful regards</p>
             <p rend="valediction"
-               style="font-family: Geneva; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; font-size: 10pt; "
+               style="margin-left: 1.75in; font-size: 10pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Ferd. von Mueller.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 10pt; "
-               xml:lang="en">These tables really ought to have been translated into German.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; font-size: 9pt; margin-left: 0.3346in; margin-right: 0in; text-indent: -0.3346in; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <seg style="">
-                        <space dim="horizontal" extent="tab"/>
-                     </seg>German translations of the tables are included with the published version of this letter, B69.13.01.</p>
-               </note>
+               style="font-size: 10pt; hyphenate: false; "
+               xml:lang="en">These tables really ought to have been translated into German.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn3" n="4">
+                     <p rend="FootnoteText"
+                        style="font-size: 9pt; hyphenate: false; margin-left: 0.3347in; text-indent: -0.3347in; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="">
+                           <space dim="horizontal" extent="tab"/>
+                        </seg>German translations of the tables are included with the published version of this letter, B69.13.01.</p>
+                  </note>
+               </seg>
             </p>
          </div>
       </body>
