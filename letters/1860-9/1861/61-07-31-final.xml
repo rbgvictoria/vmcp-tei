@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶ [Forwards a “Lusus Maturae” ¶ Sport of Nature.Specimen not identified, locality uncertain.Winterbrothers held Colbinabbin station,c. 55 km NE of Bendigo, Vic. and other propertiesindividuallyin the...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1861/61-07-31-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>Register of letters, Archives, Melbourne Museum.</msName>
+                  <altIdentifier>
+                     <idno>61.07.31</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶ [Forwards a “Lusus Maturae” ¶ Sport of Nature.Specimen not identified, locality uncertain.Winterbrothers held Colbinabbin station,c. 55 km NE of Bendigo, Vic. and other propertiesindividuallyin the...</title>
+               <date when="1861-07-31">1861-07-31</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1861/61-07-31-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>FootnoteReference</term>
+               <term>letter</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>Frederick McCoy</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶ [Forwards a “Lusus Maturae” ¶ Sport of Nature.Specimen not identified, locality uncertain.Winterbrothers held Colbinabbin station,c. 55 km NE of Bendigo, Vic. and other propertiesindividuallyin the...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">61.07.31</p>
+            <p rend="correspondent" xml:lang="en">To Frederick McCoy</p>
+            <p rend="location" xml:lang="en">Register of letters, Archives, Melbourne Museum.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space unit="chars" quantity="1"/>
+                     <space dim="horizontal" extent="tab"/>Letter not found, iitem is a register entry only, of a letter dated 31 July 1861.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>[Forwards a “Lusus Maturae”<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn1" n="2">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>Sport of Nature.<space unit="chars" quantity="1"/>Specimen not identified, locality uncertain.<space unit="chars" quantity="1"/>Winter<space unit="chars" quantity="1"/>brothers held Colbinabbin station,<space unit="chars" quantity="1"/>c. 55 km NE of Bendigo, Vic. and other properties<space unit="chars" quantity="1"/>individually<space unit="chars" quantity="1"/>in the<space unit="chars" quantity="1"/>region controlling c. 400,000 acres (about 182,000 ha) by early 1870s (Greater Shepparton Heritage study stage IIc (2017),<space unit="chars" quantity="1"/>
+                        <seg rend="DefaultParagraphFont" style="font-style: italic; ">passim</seg>,<space unit="chars" quantity="1"/>with<space unit="chars" quantity="1"/>William Irving Winter-Irving controlling c. 100,000 ha<space unit="chars" quantity="1"/>(ADB).</p>
+                  </note>
+               </seg>
+               <space unit="chars" quantity="1"/>from Messrs Winter<space unit="chars" quantity="1"/>bros]</p>
+         </div>
+      </body>
+   </text>
+</TEI>
