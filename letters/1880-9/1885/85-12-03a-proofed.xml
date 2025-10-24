@@ -15,12 +15,12 @@
          </titleStmt>
          <publicationStmt>
             <authority>Royal Botanic Gardens Victoria</authority>
-            <idno type="filename">data/letters/1880-9/1885/85-12-03a-final.doc</idno>
+            <idno type="filename">data/letters/1880-9/1885/85-12-03a-proofed.doc</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <msName>Natural History Museum, London, Museum Archives, DF404/5, folder 71,Mueller, Sir FJH von.</msName>
+                  <msName>Natural History Museum, London, Museum Archives, DF404/5, folder 71, Mueller, Sir FJH von.</msName>
                   <altIdentifier>
                      <idno>85.12.03a</idno>
                   </altIdentifier>
@@ -34,7 +34,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p xml:lang="en">The file <idno>data/letters/1880-9/1885/85-12-03a-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <p xml:lang="en">The file <idno>data/letters/1880-9/1885/85-12-03a-proofed.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
          <classDecl>
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
@@ -53,7 +53,7 @@
       <profileDesc>
          <textClass>
             <keywords scheme="#status">
-               <term>final</term>
+               <term>not final</term>
             </keywords>
             <keywords scheme="#features">
                <term>note</term>
@@ -92,7 +92,7 @@
             </head>
             <p rend="number" xml:lang="en">85.12.03a</p>
             <p rend="correspondent" xml:lang="en">To William Carruthers</p>
-            <p rend="location" xml:lang="en">Natural History Museum, London, Museum Archives, DF404/5, folder 71,<space unit="chars" quantity="1"/>Mueller, Sir FJH von.</p>
+            <p rend="location" xml:lang="en">Natural History Museum, London, Museum Archives, DF404/5, folder 71, Mueller, Sir FJH von.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
                style="font-size: 12pt; hyphenate: false; text-align: end; "
@@ -107,7 +107,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>Most of the plant specimens collected by Johann Reinhold Forster and his son George during James Cook's second voyage of exploration (1772-4)<space unit="chars" quantity="1"/>had gone<space unit="chars" quantity="1"/>to the British Museum, where Carruthers was based.</p>
+                        <space dim="horizontal" extent="tab"/>Most of the plant specimens collected by Johann Reinhold Forster and his son George during James Cook's second voyage of exploration (1772-4) had gone to the British Museum, where Carruthers was based.</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
                <space unit="chars" quantity="1"/>specimens of<space unit="chars" quantity="1"/>Myoporum pubescens<space unit="chars" quantity="1"/>or M. crassifolium exist. The former is left unnoticed for N. Zeal. by Sir J. Hooker; perhaps it is a downy form of M. laetum; the other may be M. insulare,<space unit="chars" quantity="1"/>
@@ -130,22 +132,21 @@
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">M. laetum</seg>
                         <space unit="chars" quantity="1"/>as the only<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">Myoporum</seg>
-                        <space unit="chars" quantity="1"/>from NZ and remarks: '<seg rend="DefaultParagraphFont" style="font-style: italic; ">Myoporum pubescens</seg>, Forst. Prodr., is quite unknown to me, and probably belongs to some other genus'.<space unit="chars" quantity="1"/>'Botanices Insula' is a<space unit="chars" quantity="1"/>small islet near New Caledonia.<seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="2"/>See<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="">G.<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="">Forster (1777), vol. 2, p. 439, entry for 30 September 1774:</seg>
+                        <space unit="chars" quantity="1"/>from NZ and remarks: '<seg rend="DefaultParagraphFont" style="font-style: italic; ">Myoporum pubescens</seg>, Forst. Prodr., is quite unknown to me, and probably belongs to some other genus'. 'Botanices Insula' is a small islet near New Caledonia.<seg rend="DefaultParagraphFont" style="">
+                           <space unit="chars" quantity="2"/>See G. Forster (1777), vol. 2, p. 439, entry for 30 September 1774:</seg>
                      </p>
                      <p rend="FootnoteText"
                         style="font-size: 9pt; hyphenate: false; margin-left: 0.6666in; text-indent: 0in; "
                         xml:lang="en">Captain Cook gave this little islet the name of Botany Island, because it contained in so small a space a<space unit="chars" quantity="1"/>
                         <seg rend="DefaultParagraphFont" style="font-style: italic; ">flora</seg>
                         <space unit="chars" quantity="1"/>of nearly thirty species, among which we saw several new ones. Its situation is nearly 22°<seg rend="DefaultParagraphFont" style="">
-                           <space unit="chars" quantity="1"/>28'<space unit="chars" quantity="1"/>
-                        </seg>
-                        <seg rend="DefaultParagraphFont" style="">S. and 167° 16' E.</seg>
+                           <space unit="chars" quantity="1"/>28' S. and 167° 16' E.</seg>
                      </p>
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space dim="horizontal" extent="tab"/>Gâteblé et al. (2020) confirm the islet as the modern Îlot Améré.</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
@@ -157,7 +158,11 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>No specimens of these species are preserved in the<space unit="chars" quantity="1"/>Forster Collection in the<space unit="chars" quantity="1"/>Melbourne herbarium.</p>
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>
+                        <space unit="chars" quantity="1"/>No specimens of these species are preserved in the Forster Collection in the Melbourne herbarium.</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
@@ -170,6 +175,8 @@
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
                         <space dim="horizontal" extent="tab"/>The plates were published in B86.08.05. No text volume was ever published.</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
@@ -188,7 +195,9 @@
                      <p rend="FootnoteText"
                         style="margin-left: 0.3347in; text-indent: -0.3347in; font-size: 9pt; hyphenate: false; "
                         xml:lang="en">
-                        <space dim="horizontal" extent="tab"/>M was seeking to have a role in describing the plants collected<space unit="chars" quantity="1"/>in an expedition<space unit="chars" quantity="1"/>funded by British bodies<space unit="chars" quantity="1"/>by Henry Forbes,<space unit="chars" quantity="1"/>who had arrived in Port Morseby<space unit="chars" quantity="1"/>in September and had offered support for M's work on Papuan plants.<space unit="chars" quantity="1"/>See<space unit="chars" quantity="1"/>H. Forbes to M, 19 September 1885 (in this edition as 85-09-19c) and<space unit="chars" quantity="1"/>M to W. Carruthers, 21 October 1885<space unit="chars" quantity="1"/>(in this edition as 85-10-21a).</p>
+                        <space dim="horizontal" extent="tab"/>M was seeking to have a role in describing the plants collected in an expedition funded by British bodies by Henry Forbes, who had arrived in Port Morseby in September and had offered support for M's work on Papuan plants. See H. Forbes to M, 19 September 1885 (in this edition as 85-09-19c) and M to W. Carruthers, 21 October 1885 (in this edition as 85-10-21a).</p>
+                     <space dim="vertical" unit="lines" quantity="1"/>
+                     <space dim="vertical" unit="lines" quantity="1"/>
                   </note>
                </seg>
             </p>
