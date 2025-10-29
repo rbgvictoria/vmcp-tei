@@ -39,9 +39,6 @@
             <taxonomy xml:id="status">
                <bibl>Status</bibl>
             </taxonomy>
-            <taxonomy xml:id="typefaces">
-               <bibl>typefaces</bibl>
-            </taxonomy>
             <taxonomy xml:id="features">
                <bibl>features</bibl>
             </taxonomy>
@@ -58,9 +55,6 @@
             <keywords scheme="#status">
                <term>not final</term>
             </keywords>
-            <keywords scheme="#typefaces">
-               <term>Geneva</term>
-            </keywords>
             <keywords scheme="#features">
                <term>note</term>
                <term>tab alignment</term>
@@ -68,10 +62,12 @@
             </keywords>
             <keywords scheme="#styles">
                <term>number</term>
+               <term>FootnoteReference</term>
                <term>correspondent</term>
                <term>location</term>
                <term>letter</term>
-               <term>Footnote</term>
+               <term>FootnoteText</term>
+               <term>DefaultParagraphFont</term>
                <term>valediction</term>
             </keywords>
             <keywords scheme="#validity">
@@ -94,174 +90,184 @@
             <head type="incipit">
                <supplied reason="XTF-compatibility">William Gillbee M. R. C. S. Eng. ¶ Dear Sir ¶  ¶ We, members of the Medical Profession in Victoria, assure you of our deep regret, that, in the recent Election of the Honorary Staff of the Melbourne H...</supplied>
             </head>
-            <p rend="number" xml:lang="en">75.09.25a</p>
+            <p rend="number" xml:lang="en">75.09.25a<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <p rend="correspondent" xml:lang="en">To William Gillbee</p>
-            <p rend="location" xml:lang="en">PIC LT ILLUM 360, State Library of Victoria, Melbourne.</p>
+            <p rend="location" xml:lang="en">PIC LT ILLUM 360, State Library of Victoria, Melbourne.<seg rend="FootnoteReference" style="font-size: 8pt; "/>
+            </p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <note xml:id="ftn1" type="footnote" n="1">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.1665in; margin-right: 0in; text-indent: -0.1665in; font-size: 9pt; "
+               <note type="footnote" xml:id="_ftn0" n="1">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
                      xml:lang="en">
                      <space unit="chars" quantity="1"/>
                      <space dim="horizontal" extent="tab"/>
-                     <seg style="font-weight: bold; ">Text proofed. Check names</seg>
+                     <seg rend="DefaultParagraphFont" style="font-weight: bold; ">Text proofed. Check names</seg>
                   </p>
                </note>
-               <note xml:id="ftn2" type="footnote" n="2">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.1665in; margin-right: 0in; text-indent: -0.1665in; font-size: 9pt; "
-                     xml:lang="en">MS is a lavishly illustrated illuminated address. On the front leather cover is inscribed ‘To William Gillbee Esq. M.R.C.S. Eng. from His Professional Brethren. September 1875.’ One page is devoted to 30 small oval photographs, <seg style="">presumably of the 30 signatories</seg>. M’s picture is in the top centre. <seg style="color: #1136ff; ">For a report of the presentation to Gillbee, and an explanation of the context, <space unit="chars" quantity="1"/>see 'Address to Mr. Gillbee',Argus, 27 September 1875, p. 6. In addition to the illuminated address, Gillbee was also presented with a 'silver mounted claret jug'. </seg>’ One page is devoted to 30 small oval photographs; M’s picture is in the top centre. <seg style="color: #1136ff; ">The report of the presentation noted that' with the address were the portraits of a number of his friends who had taken an interest in the movement'.</seg>
-                  </p>
+               <note type="footnote" xml:id="_ftn1" n="2">
+                  <p rend="FootnoteText"
+                     style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                     xml:lang="en">
+                     <space dim="horizontal" extent="tab"/>MS is a lavishly illustrated illuminated address. On the front leather cover is inscribed ‘To William Gillbee Esq. M.R.C.S. Eng. from His Professional Brethren. September 1875.’ One page is devoted to 30 small oval photographs;<space unit="chars" quantity="1"/>M’s picture is in the top centre.<space unit="chars" quantity="1"/>For a report of the presentation to Gillbee<space unit="chars" quantity="1"/>and an<space unit="chars" quantity="1"/>explanation<space unit="chars" quantity="1"/>of the context,<space unit="chars" quantity="1"/>see 'Address to Mr. Gillbee',<space unit="chars" quantity="1"/>
+                     <seg rend="DefaultParagraphFont" style="font-style: italic; ">Argus</seg>, 27 September<space unit="chars" quantity="1"/>1875, p. 6.<space unit="chars" quantity="1"/>The report noted that 'with the address were the portraits of a number of his friends who had taken an interest in the movement'.<space unit="chars" quantity="1"/>In addition to the illuminated address, Gillbee was presented with a 'silver mounted claret jug'.</p>
                </note>William Gillbee M. R. C. S. Eng.</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Dear Sir</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>We, members of the Medical Profession in Victoria, assure you of our deep regret, that, in the recent Election of the Honorary Staff of the Melbourne Hospital, you were not included in the List of Surgeons.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>We regard this result as a misfortune to the Institution with which, during nearly twenty-two years, you were continuously associated, and it is certainly a painful surprise to the profession in which you have always held so honourable a place, for the Hospital owes much of its present position and usefulness to your efforts, and the true interests of our calling have always found in you an unvarying advocate.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>We trust the disappointment you must naturally feel, will find its counterbalance in the continued confidence and esteem of those who practise, with you, a common vocation throughout the Australian Colonies.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>With the sincerest regret,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">We are,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>Dear Sir,</p>
             <p rend="valediction"
-               style="font-family: Geneva; font-size: 12pt; margin-left: 1.75in; margin-right: 0in; text-indent: 0in; "
+               style="font-size: 12pt; margin-left: 1.75in; hyphenate: false; "
                xml:lang="en">
                <space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Faithfully yours,</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">G H <seg style="color: #1136ff; ">Fetherston</seg> M.D.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">G H<space unit="chars" quantity="1"/>Fetherston<space unit="chars" quantity="1"/>M.D.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Hermann <seg style="">Jamieson</seg>
-               <seg style="color: #1136ff; ">Jonasson</seg> M.D. </p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">John <seg style="">Hutton</seg>
-               <seg style="color: #1136ff; ">Fulton</seg>M.D.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">L. J. Martin M.D.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">James Edward Neild M.D.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Geo. Graham M.D.</p>
-            <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <seg style="background-color: #ffff00; ">Andrew Justin Graydon</seg> M.D.<note xml:id="ftn3" type="footnote" n="3">
-                  <p rend="Footnote"
-                     style="font-family: Geneva; margin-left: 0.1665in; margin-right: 0in; text-indent: -0.1665in; font-size: 9pt; "
-                     xml:lang="en">
-                     <space unit="chars" quantity="1"/>
-                     <space dim="horizontal" extent="tab"/>The first seven signatures appear in two columns at the bottom of the page that carries the text; the remaining signatures form a single column on a separate page.</p>
-               </note>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Hermann<space unit="chars" quantity="1"/>Jonasson<space unit="chars" quantity="1"/>M.D.<space unit="chars" quantity="1"/>
             </p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">John<space unit="chars" quantity="1"/>Fulton<space unit="chars" quantity="1"/>M.D.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">L. J. Martin M.D.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">James Edward Neild M.D.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Geo. Graham M.D.</p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Andrew Justin Graydon<space unit="chars" quantity="1"/>M.D.<seg rend="FootnoteReference" style="font-size: 8pt; ">
+                  <note type="footnote" xml:id="_ftn2" n="3">
+                     <p rend="FootnoteText"
+                        style="margin-left: 0.1666in; text-indent: -0.1666in; font-size: 9pt; hyphenate: false; "
+                        xml:lang="en">
+                        <space unit="chars" quantity="1"/>
+                        <space dim="horizontal" extent="tab"/>The first seven signatures appear in two columns at the bottom of the page that carries the text; the remaining signatures form a single column on a separate page.</p>
+                  </note>
+               </seg>
+            </p>
+            <p rend="letter"
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Richd Heath<space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Benevolent Asylum Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">[...]</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">[...]<space dim="horizontal" extent="tab"/>Hawthorn</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="background-color: #ffff00; ">James [...]</seg> F.R.C.S.<space dim="horizontal" extent="tab"/>Collins St. Melbourne</p>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">James [...]</seg>
+               <space unit="chars" quantity="1"/>F.R.C.S.<space dim="horizontal" extent="tab"/>Collins St. Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">W. Crooke M.R.C.S. Eng.<space dim="horizontal" extent="tab"/>
                <space dim="horizontal" extent="tab"/>Nicholson St. Fitzroy</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <seg style="background-color: #ffff00; ">Robt</seg> [Salter] M.D. <space dim="horizontal" extent="tab"/>Brunswick</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Robt<space unit="chars" quantity="1"/>[Salter] M.D.<space unit="chars" quantity="1"/>
+               <space dim="horizontal" extent="tab"/>Brunswick</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">[...] M.D. <space dim="horizontal" extent="tab"/>Collins St. Melb.</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">[...] M.D.<space unit="chars" quantity="1"/>
+               <space dim="horizontal" extent="tab"/>Collins St. Melb.</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">[...]<space dim="horizontal" extent="tab"/> Nicholson Street Fitzroy</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">[...]<space dim="horizontal" extent="tab"/>
+               <space unit="chars" quantity="1"/>Nicholson Street Fitzroy</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Wm. Geo Law L.R.C.S.Ed.<space dim="horizontal" extent="tab"/>Hawthorn</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">
-               <seg style="background-color: #ffff00; ">William [Stang</seg>] M.D.<space dim="horizontal" extent="tab"/>Emerald Hill</p>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">William [Stang</seg>] M.D.<space dim="horizontal" extent="tab"/>Emerald Hill</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">[...] <space dim="horizontal" extent="tab"/>Fitzroy</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">[...]<space unit="chars" quantity="1"/>
+               <space dim="horizontal" extent="tab"/>Fitzroy</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">S. Iffla Surgeon<space dim="horizontal" extent="tab"/>Emerald Hill</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">James Morton<space dim="horizontal" extent="tab"/>Footscray</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">[...]<space dim="horizontal" extent="tab"/>Brunswick St. Fitzroy</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <seg style="background-color: #ffff00; ">E G </seg>
-               <seg style="color: #1136ff; ">Figg</seg> M.D.<space dim="horizontal" extent="tab"/>Williamstown</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">E G<space unit="chars" quantity="1"/>Figg<space unit="chars" quantity="1"/>M.D.<space dim="horizontal" extent="tab"/>Williamstown</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">William Thomson F.R.C.S.Ed.<space dim="horizontal" extent="tab"/>South Yarra</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Willm <seg style="background-color: #ffff00; ">J</seg>
-               <seg style="color: #1136ff; ">G </seg>a’Beckett M.R.C.S.Eng. L.S.A.<space dim="horizontal" extent="tab"/>St Kilda</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Willm<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">J</seg>
+               <space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="color: #1136FF; ">G<space unit="chars" quantity="1"/>
+               </seg>a’Beckett M.R.C.S.Eng. L.S.A.<space dim="horizontal" extent="tab"/>St Kilda</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Rupert Pincott M.R.C.S.Eng.<space dim="horizontal" extent="tab"/>Geelong</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">Baron Ferd. von Mueller, C.M.G., M. &amp; Ph.D., F.R.S.<space dim="horizontal" extent="tab"/>Melbourne</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">Thos <seg style="background-color: #ffff00; ">S</seg>. <seg style="color: #1136ff; ">L. </seg>McMillan M.D.<space dim="horizontal" extent="tab"/>Collins Street</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Thos<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="background-color: #FFFF00; ">S</seg>.<space unit="chars" quantity="1"/>
+               <seg rend="DefaultParagraphFont" style="color: #1136FF; ">L.<space unit="chars" quantity="1"/>
+               </seg>McMillan M.D.<space dim="horizontal" extent="tab"/>Collins Street</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
-               xml:lang="en">
-               <seg style="background-color: #ffff00; ">Andrew Luxton Grey</seg> M.R.C.S. London</p>
+               style="font-size: 12pt; hyphenate: false; "
+               xml:lang="en">Andrew Luxton Grey<space unit="chars" quantity="1"/>M.R.C.S. London</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">P. H. MacGillivray [...] M.R.C.S.<space dim="horizontal" extent="tab"/>Sandhurst</p>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">John Day M.D. President of the Medical Society Geelong</p>
             <space dim="vertical" unit="lines" quantity="1"/>
             <p rend="letter"
-               style="font-family: Geneva; font-size: 12pt; "
+               style="font-size: 12pt; hyphenate: false; "
                xml:lang="en">September 25th 1875</p>
             <space dim="vertical" unit="lines" quantity="1"/>
          </div>
