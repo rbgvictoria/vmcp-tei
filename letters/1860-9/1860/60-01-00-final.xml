@@ -1,0 +1,120 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> ¶  ¶ [Dr Mueller Blue Bk ¶  returns 59.]...</title>
+            <author>Ferdinand von Mueller</author>
+            <respStmt>
+               <resp>Transcribed into Microsoft Word</resp>
+               <orgName>Correspondence of Ferdinand von Mueller Project</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Converted from Microsoft Word to TEI P5</resp>
+               <persName>Conal Tuohy</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Royal Botanic Gardens Victoria</authority>
+            <idno type="filename">data/letters/1860-9/1860/60-01-00-final.doc</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <msName>N60/710, unit 748, VPRS 1189/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</msName>
+                  <altIdentifier>
+                     <idno>60.01.00</idno>
+                  </altIdentifier>
+               </msIdentifier>
+            </msDesc>
+            <bibl>
+               <author>Ferdinand von Mueller</author>
+               <title> ¶  ¶ [Dr Mueller Blue Bk ¶  returns 59.]...</title>
+               <date when="1860-01">1860-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p xml:lang="en">The file <idno>data/letters/1860-9/1860/60-01-00-final.doc</idno> was converted from Microsoft Word format into TEI using an XProc pipeline.</p>
+         <classDecl>
+            <taxonomy xml:id="status">
+               <bibl>Status</bibl>
+            </taxonomy>
+            <taxonomy xml:id="typefaces">
+               <bibl>typefaces</bibl>
+            </taxonomy>
+            <taxonomy xml:id="features">
+               <bibl>features</bibl>
+            </taxonomy>
+            <taxonomy xml:id="styles">
+               <bibl>styles</bibl>
+            </taxonomy>
+            <taxonomy xml:id="validity">
+               <bibl>validity</bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#status">
+               <term>final</term>
+            </keywords>
+            <keywords scheme="#typefaces">
+               <term>Geneva</term>
+            </keywords>
+            <keywords scheme="#features">
+               <term>note</term>
+            </keywords>
+            <keywords scheme="#styles">
+               <term>number</term>
+               <term>correspondent</term>
+               <term>location</term>
+               <term>letter</term>
+               <term>Footnote</term>
+            </keywords>
+            <keywords scheme="#validity">
+               <term>valid</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en" usage="100">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sentTo">
+               <name>William Nicholson</name>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="main">
+            <head type="incipit">
+               <supplied reason="XTF-compatibility"> ¶  ¶ [Dr Mueller Blue Bk ¶  returns 59.]...</supplied>
+            </head>
+            <p rend="number" xml:lang="en">60.01.00</p>
+            <p rend="correspondent" xml:lang="en">To William Nicholson</p>
+            <p rend="location" xml:lang="en">N60/710, unit 748, VPRS 1189/P inward registered correspondence, VA 475 Chief Secretary's Department, Public Record Office, Victoria.</p>
+            <space dim="vertical" unit="lines" quantity="1"/>
+            <p rend="letter"
+               style="font-family: Geneva; font-size: 12pt; "
+               xml:lang="en">
+               <note xml:id="ftn1" type="footnote" n="1">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">Letter not found, the item is a register entry only, dated 24 January 1860.</p>
+               </note>
+               <space dim="horizontal" extent="tab"/>
+               <space dim="horizontal" extent="tab"/>[Dr Mueller Blue Bk<note xml:id="ftn2" type="footnote" n="2">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">The 'Blue Book' was a printed book containing the names and other details of all persons holding office under the Government of Victoria.</p>
+               </note> returns 59.]<note xml:id="ftn3" type="footnote" n="3">
+                  <p rend="Footnote"
+                     style="font-family: Geneva; margin-left: 0.3335in; margin-right: 0in; text-indent: -0.3335in; font-size: 9pt; "
+                     xml:lang="en">M's letter was forwarded to the Registrar General on 21 February 1860. Three names for the 'Office of Botanical and Zoological Gardens' were recorded in the 1859 'Blue Book': those of M, Carl Wilhelmi and John Dallachy. See Victoria, Legislative Assembly (1860) <seg style="font-style: italic; ">Statistics of the colony of Victoria for the year 1859</seg>, Melbourne (Victoria, Parliamentary papers, session 1859-60, vol. 4, no. 78).</p>
+               </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
